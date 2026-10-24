@@ -1,0 +1,17 @@
+{
+  "ref": "sos54352/squares-portfolio-631b3114e7f3-incremental",
+  "version": 1,
+  "status": "COMPLETE",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "competition_sources": [
+    "squares-in-squares"
+  ],
+  "kernel_sources_actual": [
+    "sos54352/squares-portfolio-fb3d0bae17af-incremental"
+  ],
+  "source_sha256": "4dc51270ee15df3c5051492c43a481eadd8a8112ee485c7cafcf6647c5a4ceec",
+  "verified_at": "2026-10-24T15:24:36.477884+00:00"
+}

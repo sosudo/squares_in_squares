@@ -1,0 +1,89 @@
+{
+  "status": "GREEN",
+  "source_sha256": "4dc51270ee15df3c5051492c43a481eadd8a8112ee485c7cafcf6647c5a4ceec",
+  "source_bytes": 380615,
+  "wrapper_sha256": "abd4d99cef4975b8051b04d8b679703c4fa9b4a1f472f15fa1330e1ed5404a15",
+  "parent_ref": "sos54352/squares-portfolio-fb3d0bae17af-incremental/1",
+  "parent_sha256": "fb3d0bae17af84aa941cdc2ad9f8db942b1f2bd2940d063d79d6e1a28c350e8d",
+  "csv_sha256": "631b3114e7f3afeb0da5411115b69a41995a916bb04a72c46350115501514d60",
+  "csv_bytes": 32494077,
+  "official_score": 22.297960119331755,
+  "changed_puzzles": [
+    761,
+    995
+  ],
+  "exact_functions_identical_to_reviewed_680e_wrapper": true,
+  "base_code_object_and_isolated_globals_verified": true,
+  "pinned_runtime_codec_entrypoint_exact": true,
+  "complete_inherited_parent_provenance_and_notices_verified": true,
+  "new_native_evidence_file_count": 42,
+  "new_native_evidence_hashes": {
+    "new-native-ancestry/completion-review.json": "7ec654361b47098a9f2573d1312f9b5ff14bafa62e299b760636f44501b9339e",
+    "new-native-ancestry/candidates.json": "e995ac78f123b07d4fb02eae8efc3c0ca5e495e50a392242702e16a6232e060d",
+    "new-native-ancestry/results.json": "c09f004473def146db0463a7a93f26bd5e30f722035c0569dc00c37be897b39f",
+    "new-native-ancestry/manifest.json": "0f990cc2e3249603836123cc02c51e0711ca50cfa79b8cfb0de83f673a15d029",
+    "new-native-ancestry/summary.json": "3a84b68a4649526e8ffdf28bf10425785a663e91d74dc25df7f80f1afa3495f7",
+    "new-native-ancestry/comparisons.json": "781f6ae70ab4a5e52df5c5497f52881e4a4408d466c1cebc3765a48180af3936",
+    "new-native-ancestry/controls.json": "ee81db19ef6891b891c5caff04057368fd4f09a1049a9dd0ac57818f262f2a9a",
+    "new-native-ancestry/supervisor.json": "246566febe368b8ff38467f07045b52a8b2a1a98fbd9f34b6b1cc7a4ac549986",
+    "new-native-ancestry/inputs/poses.npz": "a9999b51cbd1d8c5511802c5e9d7b70a731a6c97ec976c9029e78f7da0ce8b39",
+    "new-native-ancestry/source/fq_newton_finish_pilot.py": "ea991a4475023ffe1be5d891aea5697c747a1261f3b67b3fda7d906d920c6148",
+    "new-native-ancestry/source/fq_active_pilot.py": "cc916fe5bc0e58a4cdfdeb6e4f498061522a2ae44cd6443fdffc1f485eb3db33",
+    "new-native-ancestry/source/fq_capacity_probe.py": "35a750d6c5aa90f661b8e0e3491e11284f04f592cb320ae0112654c7dddfedd5",
+    "new-native-ancestry/source/fq_coherent_clusters.py": "43defd841872008a796edf33bd88edde554c008999940b337c28b0a0c4da485f",
+    "new-native-ancestry/source/compose_gadgets.py": "a8b1df4f9474425d434a44914a73d56703dfc485a79acb57d7d0a3d6e4a24568",
+    "new-native-ancestry/source/refill_capacity.py": "3ad257c2713074f6e7a55473e0bcfc4e96185fd1ad116d31232496ce23688e44",
+    "new-native-ancestry/source/refill_search.py": "dec531b2ae6f71b5df6707c335514621d93d24caa99e0df25c5a94f39d33cdb5",
+    "new-native-ancestry/source/score_official.py": "a6b0877295aa68940b4e32d9681a8f8d6a2e350de80c1b1f5aa54cd44e88d6ba",
+    "new-native-ancestry/source/validate_submission.py": "a9db77693e2fb093dcfdbbbfbd913f9420ed0a661ae0eeb8076362c0a8cbae4b",
+    "new-native-ancestry/source/official_metric_v17.py": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+    "new-native-ancestry/source/fq.rs": "7045e9feff2d4b433053e4610258ca43d842e599fccf31d8b6b042276c2905c2",
+    "new-native-ancestry/source/lpipm.rs": "823e8bc365f482265da9c71b748885caa03f1cc9d1971c69fa229d92cd52a3de",
+    "new-native-ancestry/source/fq_sqp_pilot.py": "98fa1a6178446c52e7ca6e656999eb32d23ea7280796a11b04cfeaaaefa91aa7",
+    "new-native-ancestry/source/LICENSE": "c51886c0f7e6724a7d89fc22cb237a1688ba1bbff04cb21a13b8e1a01fb15578",
+    "new-native-ancestry/source/NOTICE": "5f7e11ec2745ea88a03a6da0eb15a36981d575326796f5c0b0b995bf78c01b61",
+    "new-native-ancestry/selected/n761/certified.npz": "5b7c4ff1ef153a47d11994e5f6e4cfc98f41833b736e1f92ef73fed9a4e38498",
+    "new-native-ancestry/selected/n761/native-return.json": "5c5abde7896d32f30d2bb9d9c6b5b39f9812cd577a3c2012e16fa408f5942bee",
+    "new-native-ancestry/selected/n761/native.in": "11b60d59a3aa3e4dc9b800aa158b64b5e2f9a7c2161ff40069bc97883139dfe9",
+    "new-native-ancestry/selected/n761/native.out": "733cfce94d602c02b2181a2c194d2b0ba44415b68c75e7b25fa8a692437906a5",
+    "new-native-ancestry/selected/n761/native.stderr": "249f78b2d618434cb187aa6464ff3a5390e81c4e740d457a8272bb7b5f54ea14",
+    "new-native-ancestry/selected/n761/native.stdout": "d7631ce234e489733a62e2548ed116d60becb0af5eac28aade2a45daf4f55384",
+    "new-native-ancestry/selected/n761/pending-certificate.npz": "5b7c4ff1ef153a47d11994e5f6e4cfc98f41833b736e1f92ef73fed9a4e38498",
+    "new-native-ancestry/selected/n761/raw-returned.npz": "60e7848407250a0d06956f9ca1977bfc79f034a2ca6ed1936de9d2f88fa51cc2",
+    "new-native-ancestry/selected/n761/result.json": "fadea3490a61fb68b05c8bd3c2c0640d36df03c37a27e1a6c47d7dc553fa37d9",
+    "new-native-ancestry/selected/n995/certified.npz": "f247be4072b6d6584060c8f6b948c52ff14964d89a0190a9a744acafba0b4d91",
+    "new-native-ancestry/selected/n995/native-return.json": "e05b9f0cee950d5f70b21285661122f1b60e9a6502563c382086e72d39601226",
+    "new-native-ancestry/selected/n995/native.in": "f536b55d54f77495460de6c8b7a72c05b1858e5eea9afea786882f0796e9c4ac",
+    "new-native-ancestry/selected/n995/native.out": "7b6a4bcaa9a06e857e00c9cf7702549761de8fe505799dd4bf8d585cf9d5fecd",
+    "new-native-ancestry/selected/n995/native.stderr": "e1fd733ebabfac89bae1c5a7396ee9a923d04b11dfe6efb5fa66860cb8c065ef",
+    "new-native-ancestry/selected/n995/native.stdout": "c120d3b080ef30fe7cf7c0c0a9b98ce5178ad06572818b8f7e9d3aa87fbd7a25",
+    "new-native-ancestry/selected/n995/pending-certificate.npz": "f247be4072b6d6584060c8f6b948c52ff14964d89a0190a9a744acafba0b4d91",
+    "new-native-ancestry/selected/n995/raw-returned.npz": "849c3ac8a0613fbd931897a5d3084ad7405c5e7002bd992df2cdcb9ba99959b2",
+    "new-native-ancestry/selected/n995/result.json": "567d6fa601c865460dca8e2af205519a31ddc90ffd5d1c171a88b657b5128085"
+  },
+  "selected_candidate_scope": "Two LP100 returns761/995; identical paired Newton output with inactive Newton path. No Newton activation attribution.",
+  "source_ancestry_review": "Source hash/parent geometry/native input/output/decoded certified geometry/Decimal RAW equality gates inspected; all copied evidence hashes verified; no geometry certificates rerun.",
+  "initial_metadata": {
+    "private_cpu_offline": true,
+    "competition_sources": [
+      "squares-in-squares"
+    ],
+    "kernel_sources": [
+      "sos54352/squares-portfolio-fb3d0bae17af-incremental/1"
+    ]
+  },
+  "full_executable_replay": {
+    "exact_bytes": true,
+    "seconds": 1.7963023490010528,
+    "returncode": 0
+  },
+  "owner_local_verification_sha256": "491466cbe3f72e4c635d12dc96694c9734e11aa477ba961a82b6649be8d1cd41",
+  "owner_tamper_controls": [
+    "parent",
+    "patch"
+  ],
+  "focused_wrapper_controls": "Reused owner four rebound wrapper tests; independent unchanged function AST/code object/isolated globals checks.",
+  "no_native_execution": true,
+  "no_certificate_rerun": true,
+  "no_launch": true
+}

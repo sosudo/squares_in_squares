@@ -1,0 +1,6 @@
+{
+  "source_path": "artifacts/fq-newton-finish-pilot-v1/stopping-review.json",
+  "sha256": "e0a05a36d2f144abaaa75f20ea53b4899ed6043e8593795ae9bf7878a5eded7d",
+  "scope": "Read-only terminal trace assessment added after export source freeze; no executed-source, candidate, export manifest or CSV changes.",
+  "included_in_frozen_remote_export_manifest": false
+}

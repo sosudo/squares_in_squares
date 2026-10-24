@@ -1,0 +1,205 @@
+{
+  "version": 19,
+  "dataset": "lightningv08/squares-in-squares-layout-atlas",
+  "packing_file": "refresh_submission.csv",
+  "packing_sha256": "51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9",
+  "claimed_score": 22.307818650783023,
+  "rows": 290670,
+  "supplied_puzzles": 547,
+  "metric_scope": "Unchanged v17; dataset partial547-puzzle CSV, not a newly certified full1000 portfolio.",
+  "per_winning_case_explicit_records": {
+    "546": [
+      {
+        "summary_arm": "first",
+        "n": 546,
+        "before": 23.862074137634153,
+        "after": 23.86207403714491,
+        "gain": 4.300542588708822e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      }
+    ],
+    "594": [
+      {
+        "summary_arm": "first",
+        "n": 594,
+        "before": 24.862718548250594,
+        "after": 24.862718425545175,
+        "gain": 5.034664463110516e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      }
+    ],
+    "595": [
+      {
+        "summary_arm": "first",
+        "n": 595,
+        "before": 24.87612204886522,
+        "after": 24.876121948550534,
+        "gain": 4.1125012284481954e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "summary_arm": "second",
+        "n": 595,
+        "before": 24.876121948550534,
+        "after": 24.876121787550538,
+        "gain": 6.6003562615435385e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_second_packings"
+      }
+    ],
+    "645": [
+      {
+        "summary_arm": "first",
+        "n": 645,
+        "before": 25.876122068865218,
+        "after": 25.87612194895054,
+        "gain": 4.721635749049824e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "summary_arm": "second",
+        "n": 645,
+        "before": 25.87612194895054,
+        "after": 25.876121787950538,
+        "gain": 6.3393688076729404e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_second_packings"
+      }
+    ],
+    "697": [
+      {
+        "summary_arm": "first",
+        "n": 697,
+        "before": 26.876122088865234,
+        "after": 26.87612194935054,
+        "gain": 5.284495729895866e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "summary_arm": "second",
+        "n": 697,
+        "before": 26.87612194935054,
+        "after": 26.876121788350545,
+        "gain": 6.098309635049759e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_second_packings"
+      }
+    ],
+    "751": [
+      {
+        "summary_arm": "first",
+        "n": 751,
+        "before": 27.87612210886522,
+        "after": 27.876121949750548,
+        "gain": 5.8061768726247465e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "summary_arm": "second",
+        "n": 751,
+        "before": 27.876121949750548,
+        "after": 27.876121788750545,
+        "gain": 5.874973396657879e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_second_packings"
+      }
+    ],
+    "797": [
+      {
+        "summary_arm": "first",
+        "n": 797,
+        "before": 28.751657359856708,
+        "after": 28.75165720110076,
+        "gain": 5.623424170764224e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "summary_arm": "second",
+        "n": 797,
+        "before": 28.75165720110076,
+        "after": 28.751656475100763,
+        "gain": 2.5716239360207283e-08,
+        "status": "ok",
+        "stage": "refresh_gpu_second_packings"
+      }
+    ],
+    "979": [
+      {
+        "summary_arm": "first",
+        "n": 979,
+        "before": 31.7842824813261,
+        "after": 31.784276430313824,
+        "gain": 1.933911910612096e-07,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      }
+    ],
+    "984": [
+      {
+        "summary_arm": "first",
+        "n": 984,
+        "before": 31.839853115344404,
+        "after": 31.839853027335995,
+        "gain": 2.8056057477243712e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      }
+    ],
+    "547": [
+      {
+        "summary_arm": "second",
+        "n": 547,
+        "before": 23.876122028865215,
+        "after": 23.87612178715053,
+        "gain": 1.0334973543635328e-08,
+        "status": "ok",
+        "stage": "refresh_gpu_second_packings"
+      }
+    ]
+  },
+  "lineage_limit": "Summary identifies stage-level CUDA recomposition; it does not uniquely attribute every contributing cropped component. Inherited source notices remain authoritative.",
+  "license": "CC0 for mathematical coordinates and dataset metadata only; linked code/prose/art excluded; inherited source credits retained.",
+  "hashes": {
+    "dataset-metadata.json": "112fe67c4726f76894d122f1abb8a759aa5a9eebaf321c0b27fa82d64d4a85cc",
+    "all-file-names.json": "7a42d83094168d715ff4efc7787256c1d4116078ab4ba589b1c4978e34c7f482",
+    "README.md": "d9a570038dad374834a59de5ff920e00946e74885f61980a9fac6dc5e056516d",
+    "refresh_summary.json": "1b2f71da5ff350d5607bdc4ee24cd20fec1aa28f34aaf1c6ed87cf52c7fbc636",
+    "refresh_manifest.json": "95058c49a65f35bcfaaeb37f11db56b10e8539c1ebed721314d657141886ac0f",
+    "refresh_validation.json": "04fbd5953a8e019497305258d18827109dd4e37286cbde4f23099d5da728fc4e",
+    "refresh_SOURCE_NOTICES.md": "924ef719dc7ea4509df7ab9625d0ffb5145b6bbca536a38e3c7b9bd6afa0fe6a",
+    "refresh_sungheo_NOTICES.md": "751438e3ffb4fa569e7ad604705a8b231b10fd23577b9c938af817956832424b"
+  },
+  "manifest_verified_local_files": [
+    {
+      "filename": "refresh_SOURCE_NOTICES.md",
+      "expected_sha256": "924ef719dc7ea4509df7ab9625d0ffb5145b6bbca536a38e3c7b9bd6afa0fe6a",
+      "actual_sha256": "924ef719dc7ea4509df7ab9625d0ffb5145b6bbca536a38e3c7b9bd6afa0fe6a",
+      "matches": true
+    },
+    {
+      "filename": "refresh_summary.json",
+      "expected_sha256": "1b2f71da5ff350d5607bdc4ee24cd20fec1aa28f34aaf1c6ed87cf52c7fbc636",
+      "actual_sha256": "1b2f71da5ff350d5607bdc4ee24cd20fec1aa28f34aaf1c6ed87cf52c7fbc636",
+      "matches": true
+    },
+    {
+      "filename": "refresh_sungheo_NOTICES.md",
+      "expected_sha256": "751438e3ffb4fa569e7ad604705a8b231b10fd23577b9c938af817956832424b",
+      "actual_sha256": "751438e3ffb4fa569e7ad604705a8b231b10fd23577b9c938af817956832424b",
+      "matches": true
+    },
+    {
+      "filename": "refresh_validation.json",
+      "expected_sha256": "04fbd5953a8e019497305258d18827109dd4e37286cbde4f23099d5da728fc4e",
+      "actual_sha256": "04fbd5953a8e019497305258d18827109dd4e37286cbde4f23099d5da728fc4e",
+      "matches": true
+    }
+  ]
+}

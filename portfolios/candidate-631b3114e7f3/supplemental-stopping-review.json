@@ -1,0 +1,30 @@
+{
+  "scope": "Read-only terminal trace audit after completed full-certified pilot; no optimization or new geometry certificates",
+  "rows": [
+    {
+      "n": 761,
+      "stderr_sha256": "249f78b2d618434cb187aa6464ff3a5390e81c4e740d457a8272bb7b5f54ea14",
+      "last_step_or_stall": "tr 100 R 2.44e-7 pred 2.98e-13 rho0 5.71e-1 rho 0.571 wmax 0.39 s 27.9980686425195 acc true",
+      "no_convergence_theorem_claim": true
+    },
+    {
+      "n": 920,
+      "stderr_sha256": "28d57718360b214796a1bac706d9c57f9b81bf18f50ab3f9dca0dc1ad2a9c98c",
+      "last_step_or_stall": "tr 100 R 1.25e-4 pred 1.60e-11 rho0 -9.43e2 rho 0.979 wmax 1.00 s 30.8084826452744 acc true",
+      "no_convergence_theorem_claim": true
+    },
+    {
+      "n": 981,
+      "stderr_sha256": "5ad8738c383b847cd9df0bd7e83f2a29241cbed2a3e40077d6a6d264707eac66",
+      "last_step_or_stall": "  stall at it 5: R 2.0e-3 pred -3.5e-12, 0 ambiguous pairs, best flip None",
+      "no_convergence_theorem_claim": true
+    },
+    {
+      "n": 995,
+      "stderr_sha256": "e1fd733ebabfac89bae1c5a7396ee9a923d04b11dfe6efb5fa66860cb8c065ef",
+      "last_step_or_stall": "  stall at it 53: R 4.0e-3 pred -4.1e-12, 0 ambiguous pairs, best flip None",
+      "no_convergence_theorem_claim": true
+    }
+  ],
+  "decision": "No unchanged continuation:761 terminalpred2.98e-13;920 gainbelowthreshold;981/995 finiteLPstall. Actualcandidate side comes fromfullcertificates, nottrace."
+}

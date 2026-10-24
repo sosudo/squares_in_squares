@@ -50,3 +50,10 @@ not candidates. The raw summary includes their tiny arithmetic deltas;
 `completion-review.json` separates those from the two admitted candidates.
 Every certified pose and both arm histories remain retained. This finite
 Newton pilot is closed, without a broader repetition.
+
+A read-only terminal trace audit supports closing the run: n761 reached step
+100 with predicted merit decrease 2.98e-13 and trust radius 2.44e-7; n920's
+step100 prediction was 1.60e-11 and its certified change was subthreshold.
+n981 and n995 reported finite LP stalls at steps5 and53. These are finite
+stopping observations, not global optimality claims. No unchanged extension
+is planned; the trace audit and exact log hashes are retained separately.

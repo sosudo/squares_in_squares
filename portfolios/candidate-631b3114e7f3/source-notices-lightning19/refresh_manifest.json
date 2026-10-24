@@ -1,0 +1,16 @@
+{
+  "fault_source_donors.npz": "a602f3df487f342c228cd359a719b855fa3b24080c234a0b4111d710554c9947",
+  "fault_source_labels.json": "1b46722eb3a7b43c89ac18b04b1c0925ef1cf7569d084998850610d4dc72f586",
+  "refresh_crystal.npz": "60dd6f0a558f8b48552c7abb35d9ecd81975a74a8801180e82a6105213619d03",
+  "refresh_gadgets.npz": "e32ec0ecb5f921930770c7a664d457c3239b4af791b195bb0e5c9bc38cc19427",
+  "refresh_gpu.json": "a626669a75b418cb19a18f3c84ea02584f4fe0e467bdac264a6938665845c0d3",
+  "refresh_gpu_second.json": "269a840f3959045639d3b6e32f818f8f97091fb8476abfd6f6cb19845cdc982c",
+  "refresh_night_results.npz": "ce0c03c6e0668a9c3c7c8a09b25940504a9d1353c67c3d9ac941e4d055377ff4",
+  "refresh_night_seed.npz": "8043dd2e4e376bce7bc17dd43769f185a5c6faffb5031eb6f72d904c94cefc29",
+  "refresh_public.csv": "ba16aabf75dfa9ff8ed031cfe27ebb3cb0cba302c1c3f3409dec066cf3cc038f",
+  "refresh_SOURCE_NOTICES.md": "924ef719dc7ea4509df7ab9625d0ffb5145b6bbca536a38e3c7b9bd6afa0fe6a",
+  "refresh_submission.csv": "51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9",
+  "refresh_summary.json": "1b2f71da5ff350d5607bdc4ee24cd20fec1aa28f34aaf1c6ed87cf52c7fbc636",
+  "refresh_sungheo_NOTICES.md": "751438e3ffb4fa569e7ad604705a8b231b10fd23577b9c938af817956832424b",
+  "refresh_validation.json": "04fbd5953a8e019497305258d18827109dd4e37286cbde4f23099d5da728fc4e"
+}

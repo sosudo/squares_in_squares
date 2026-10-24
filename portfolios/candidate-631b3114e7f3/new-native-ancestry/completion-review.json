@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "trials": 10,
+  "fully_certified": 10,
+  "targets": [
+    761,
+    920,
+    981,
+    995
+  ],
+  "controls_passed": true,
+  "newton_activation_on_control": true,
+  "newton_activation_on_targets": false,
+  "paired_target_sides_equal": true,
+  "selected_cases": [
+    "761",
+    "995"
+  ],
+  "strict_side_threshold": "1e-8",
+  "qualifying_score_gain": 8.003234596075687e-06,
+  "summary_also_counts_two_subthreshold_roundoff_deltas": true,
+  "manifest_sha256": "0f990cc2e3249603836123cc02c51e0711ca50cfa79b8cfb0de83f673a15d029",
+  "results_sha256": "c09f004473def146db0463a7a93f26bd5e30f722035c0569dc00c37be897b39f",
+  "candidates_sha256": "e995ac78f123b07d4fb02eae8efc3c0ca5e495e50a392242702e16a6232e060d",
+  "no_solver_source_changes": true,
+  "all_source_hashes_unchanged": true
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": 2,
+  "purpose": "Certified current search baseline; submission requires SAFE and ordinary roundtrip scores below22.3 plus strict improvement and hourly policy.",
+  "user_submission_score_threshold": 22.3,
+  "eligible_under_user_score_threshold": true,
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "competition_submission_performed": false,
+  "baseline_role": "Immediately preceding certified portfolio",
+  "baseline_sha256": "fb3d0bae17af84aa941cdc2ad9f8db942b1f2bd2940d063d79d6e1a28c350e8d",
+  "baseline_score": 22.297968122566353,
+  "gain_over_previous_baseline": 8.003234597708797e-06,
+  "roundtrip_gain_over_previous_baseline": 8.003234594156083e-06,
+  "strictly_better_raw_and_roundtrip": true,
+  "factor": "1.00000000001",
+  "safety_scaled_cases": 68,
+  "transform_report": "/workspace/squares_in_squares/artifacts/submission-fq-lp100-final-v1-safe.transport-transform.json",
+  "transform_report_sha256": "c8a16266ed9a70d8e0883aea05371bc0f75cc488464ef498d4515179c8755100",
+  "composition_merge_provenance": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-lp100-final-v1.validation.json",
+    "sha256": "0c11b6542ebc260a4020f5e2f49d5bb60207cebd7fd05dc2af3fbfd918439b67"
+  },
+  "case_score_changes": [
+    {
+      "n": 761,
+      "gain": 7.422235547061007e-06,
+      "old_side": "27.99827344800114586385303613204348804575126714729386",
+      "new_side": "27.99806869651574930486145002459900828003394789090271"
+    },
+    {
+      "n": 995,
+      "gain": 5.80999049093478e-07,
+      "old_side": "31.96387353702848961530633326863652926919960015914036",
+      "new_side": "31.96385521021491870349452207954128208683148548822653"
+    }
+  ],
+  "candidate_inputs": [
+    {
+      "path": "/workspace/squares_in_squares/artifacts/fq-newton-finish-pilot-v1/candidates.json",
+      "sha256": "e995ac78f123b07d4fb02eae8efc3c0ca5e495e50a392242702e16a6232e060d"
+    }
+  ],
+  "raw_source": "/workspace/squares_in_squares/artifacts/merged-fq-lp100-final-v1.csv",
+  "raw_sha256": "52c9d3e6c6da6ab41a8d7224d2f92548eae38630a7606f0075eb93ef43760f6e",
+  "raw_score": 22.29796011866665,
+  "raw_official_report_sha256": "eaf9c820016d08e7a677f63013c4bf826da0ce057849668675b39730d39b18e5",
+  "raw_invalid_count": 0,
+  "raw_case_coverage": 1000,
+  "raw_reuse": {
+    "reused": 998,
+    "evaluated": 2
+  },
+  "raw_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/merged-fq-gpu-polish-final-v1-official.json",
+    "report_sha256": "88e2979daf4f09503bc01a15748f0efabf82285dc66c3bc06892179d7337611f",
+    "submission": "/workspace/squares_in_squares/artifacts/merged-fq-gpu-polish-final-v1.csv",
+    "sha256": "28feb2d3059e33db0189aa46c2bdb5f1a0f0c0aa35fb0f2003181595491ba6a3"
+  },
+  "safe_submission": "/workspace/squares_in_squares/artifacts/submission-fq-lp100-final-v1-safe.csv",
+  "safe_sha256": "631b3114e7f3afeb0da5411115b69a41995a916bb04a72c46350115501514d60",
+  "safe_score": 22.297960119331755,
+  "safe_official_report_sha256": "f34c06f54f8ebc87e42357e33b23f028384a22fab8bec26f4dcc3c3a8ad0873e",
+  "safe_invalid_count": 0,
+  "safe_case_coverage": 1000,
+  "safe_reuse": {
+    "reused": 998,
+    "evaluated": 2
+  },
+  "safe_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-fq-gpu-polish-final-v1-safe-official.json",
+    "report_sha256": "35a41212d5ba478b8049816bcdb95046147eb81f3de93c87e4471bd8b9e1627b",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-fq-gpu-polish-final-v1-safe.csv",
+    "sha256": "fb3d0bae17af84aa941cdc2ad9f8db942b1f2bd2940d063d79d6e1a28c350e8d"
+  },
+  "roundtrip_submission": "/workspace/squares_in_squares/artifacts/submission-fq-lp100-final-v1-safe-roundtrip.csv",
+  "roundtrip_sha256": "f554d72cc48a5063ba4cab1582e7ce37c02d336147a34c50ba20cf64b2558350",
+  "roundtrip_score": 22.29796011933176,
+  "roundtrip_official_report_sha256": "1a80d2307f9332ccd81bdf723226d75134adae4c25eab185ce8e0d3400bb1045",
+  "roundtrip_invalid_count": 0,
+  "roundtrip_case_coverage": 1000,
+  "roundtrip_reuse": {
+    "reused": 998,
+    "evaluated": 2
+  },
+  "roundtrip_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-fq-gpu-polish-final-v1-safe-roundtrip-official.json",
+    "report_sha256": "7c9a3e9b2277d3b88e7664d998a4078c9a1b9bfd2d729fa01b74a00ddfad0bc3",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-fq-gpu-polish-final-v1-safe-roundtrip.csv",
+    "sha256": "df2403cfe0c1e0505eac7d03cbed07e5cba1b8278df52f3016e32d5b800f7d2e"
+  },
+  "roundtrip_evaluated": 2,
+  "roundtrip_reused": 998,
+  "same_binary64_score": false,
+  "absolute_score_difference": 3.552713678800501e-15,
+  "score_tolerance": 1e-10,
+  "scores_agree_within_1e_10": true
+}

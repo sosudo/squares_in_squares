@@ -1,0 +1,208 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "n": 17,
+      "mode": "finish",
+      "control": true,
+      "command": [
+        "/workspace/squares_in_squares/artifacts/fq-newton-finish-pilot-v1/inputs/fq",
+        "quench",
+        "--in",
+        "/workspace/squares_in_squares/artifacts/fq-newton-finish-pilot-v1/trials/n17-finish/native.in",
+        "--out",
+        "/workspace/squares_in_squares/artifacts/fq-newton-finish-pilot-v1/trials/n17-finish/native.out",
+        "--rect-dx",
+        "0",
+        "--rect-dy",
+        "0",
+        "--seed",
+        "9480017",
+        "--no-alm",
+        "--loosen",
+        "1",
+        "--pit",
+        "100",
+        "--flip-top",
+        "0",
+        "--stag-w",
+        "0",
+        "--v",
+        "--finish"
+      ],
+      "parent_geometry_sha256": "00931c06ca03db170f9a60fdb7a9b5666d7b20d3db65650012720aa90e5da6f5",
+      "native_input_sha256": "6723d5228d3aed6c9444ca6c3013cbae26f4e65ec85f84c465036b9d0bc3d2f0",
+      "reference_side": "4.67553009360822690000000000000000000000000000000000",
+      "status": "certified",
+      "native_seconds": 0.016366363000997808,
+      "native_returncode": 0,
+      "stdout_sha256": "36a776554578f150778706f816b1cd5f2fafc8c9eee3bf1455d5645b6c416720",
+      "stderr_sha256": "ef0469c05521d7b6c89b4818d7a974426b0aad50072a4cc08a2ce7e66a9b1216",
+      "activation": {
+        "finish_requested": true,
+        "accepted_steps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "gauss_newton_calls": [
+          "  gn round 0 |A| 111 r 3.900e-3 s 4.6755300936047",
+          "  gn round 0 |A| 111 r 1.043e-8 s 4.6755300936045",
+          "  gn round 0 |A| 111 r 4.788e-16 s 4.6755300936046"
+        ],
+        "kkt_steps": [
+          "  kkt |A| 111 gres 4.79e-16 sres 2.89e-12 s 4.6755300936046"
+        ],
+        "actual_finish_path_observed": true,
+        "evidence": "Pinned source emits FQ_FIN gn/kkt lines only inside newton_finish; a request alone is not activation."
+      },
+      "native_output_sha256": "995ab445cdec4a7fb9d501b7f276a74ebdd2ef1c6fd71f845cf8c46fd43454a4",
+      "native_output_path": "/workspace/squares_in_squares/artifacts/fq-newton-finish-pilot-v1/trials/n17-finish/native.out",
+      "raw_returned_geometry_sha256": "cf178c8bb6f9b227bf0296217f9f9c7e454e6c038c62acbf816a8ec6d4769ce7",
+      "raw_returned_archive_sha256": "c400b6a07a93de7454688c34eb7fba29901dfe87a23faaacb13cd631a55e9123",
+      "pending_geometry_sha256": "f5a092a7a2fdddc806b0092fea0651f8877f556dbebbb279c9a1776797d4f075",
+      "certificate": {
+        "valid": true,
+        "shared_official_gate": {
+          "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "raw_reason": "ok",
+          "roundtrip_reason": "ok",
+          "raw_side": "4.67553010095561510923132169163959664151587187611130",
+          "roundtrip_side": "4.67553010095561600923132169163959664151587187611130",
+          "valid": true
+        },
+        "ordinary_pandas_official_reason": "ok",
+        "ordinary_pandas_official_side": "4.67553010095561636923132169163963010308195645811009",
+        "independent_raw": {
+          "n": 17,
+          "valid": true,
+          "side_lower": "4.675530100955615109231321691639596641515871876111287335118824",
+          "side_upper": "4.675530100955615109231321691639596641515871876111319408295346",
+          "score_lower": "0.133982615411459119121732297224274301732556504400929824399333",
+          "score_upper": "0.133982615411459119121732297224274301732556504400943188222884",
+          "interval_pairs": 21,
+          "exact_pairs": 0
+        },
+        "independent_roundtrip": {
+          "n": 17,
+          "valid": true,
+          "side_lower": "4.675530100955616369231321691639630103081956458110073306983799",
+          "side_upper": "4.675530100955616369231321691639630103081956458110105380160321",
+          "score_lower": "0.133982615411459424716619843003829051176543789371006268430775",
+          "score_upper": "0.133982615411459424716619843003829051176543789371019632254326",
+          "interval_pairs": 21,
+          "exact_pairs": 0
+        },
+        "raw_csv_sha256": "10952e198b46cfee36624442c06fddeae679324bdef92697ddbfe75056603fc1",
+        "ordinary_pandas_csv_sha256": "69784a579c4d191b1dec86373ed945f6704514b5a436162f4a9a77155a8b5bff"
+      },
+      "geometry_sha256": "f5a092a7a2fdddc806b0092fea0651f8877f556dbebbb279c9a1776797d4f075",
+      "side": "4.675530100955616369231321691639630103081956458110105380160321",
+      "side_gain": "-7.347389469231321691639630103081956458110105380160321E-9",
+      "strict_improvement": false,
+      "score_gain": "-1.782003697305389383076548778864531608061185197883399766039502823144008E-9",
+      "certified_archive_sha256": "2447c08f1dce4aef4e5ca44b6297fe43aadefdb3661e3035ac2bccae40595af0",
+      "certification_seconds": 0.067682656001125,
+      "elapsed_seconds": 0.08643259399832459
+    },
+    {
+      "n": 17,
+      "mode": "lp",
+      "control": true,
+      "command": [
+        "/workspace/squares_in_squares/artifacts/fq-newton-finish-pilot-v1/inputs/fq",
+        "quench",
+        "--in",
+        "/workspace/squares_in_squares/artifacts/fq-newton-finish-pilot-v1/trials/n17-lp/native.in",
+        "--out",
+        "/workspace/squares_in_squares/artifacts/fq-newton-finish-pilot-v1/trials/n17-lp/native.out",
+        "--rect-dx",
+        "0",
+        "--rect-dy",
+        "0",
+        "--seed",
+        "9480017",
+        "--no-alm",
+        "--loosen",
+        "1",
+        "--pit",
+        "100",
+        "--flip-top",
+        "0",
+        "--stag-w",
+        "0",
+        "--v"
+      ],
+      "parent_geometry_sha256": "00931c06ca03db170f9a60fdb7a9b5666d7b20d3db65650012720aa90e5da6f5",
+      "native_input_sha256": "6723d5228d3aed6c9444ca6c3013cbae26f4e65ec85f84c465036b9d0bc3d2f0",
+      "reference_side": "4.67553009360822690000000000000000000000000000000000",
+      "status": "certified",
+      "native_seconds": 0.016403613997681532,
+      "native_returncode": 0,
+      "stdout_sha256": "c9b4bd9dd97047106573988f33e77648569a1f614cb61f50c7fe2e65350fb012",
+      "stderr_sha256": "0bfa1761cce51e97f30180baf53ddbdc2339e65fde449a50bbf961739590cff3",
+      "activation": {
+        "finish_requested": false,
+        "accepted_steps": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "gauss_newton_calls": [],
+        "kkt_steps": [],
+        "actual_finish_path_observed": false,
+        "evidence": "Pinned source emits FQ_FIN gn/kkt lines only inside newton_finish; a request alone is not activation."
+      },
+      "native_output_sha256": "1da3a92a7007f3eea271a88d81aed7a1591927f2f9c830b87a8feb1b0ff4887b",
+      "native_output_path": "/workspace/squares_in_squares/artifacts/fq-newton-finish-pilot-v1/trials/n17-lp/native.out",
+      "raw_returned_geometry_sha256": "7165c276d8aa24dbcdfdbe01d28825107ed2d6eac833152acc6910f203cb23d6",
+      "raw_returned_archive_sha256": "641d263da39a993eb25b00b3aef5253916a7f2c0a9dd50d503fa433b5ab2b190",
+      "pending_geometry_sha256": "f19ed04b67b4a5bf76a551b3c07e2f4e4652b90932dac6bbb4ab5ff74439385b",
+      "certificate": {
+        "valid": true,
+        "shared_official_gate": {
+          "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "raw_reason": "ok",
+          "roundtrip_reason": "ok",
+          "raw_side": "4.67553010095566488923132169163405433260815025990228",
+          "roundtrip_side": "4.67553010095566488923132169163405433260815025990228",
+          "valid": true
+        },
+        "ordinary_pandas_official_reason": "ok",
+        "ordinary_pandas_official_side": "4.67553010095566481923132169163432125574031942443371",
+        "independent_raw": {
+          "n": 17,
+          "valid": true,
+          "side_lower": "4.675530100955664889231321691634054332608150259902266121737852",
+          "side_upper": "4.675530100955664889231321691634054332608150259902298194914374",
+          "score_lower": "0.133982615411471192545146605878351865541161946886904085904400",
+          "score_upper": "0.133982615411471192545146605878351865541161946886917449727951",
+          "interval_pairs": 21,
+          "exact_pairs": 0
+        },
+        "independent_roundtrip": {
+          "n": 17,
+          "valid": true,
+          "side_lower": "4.675530100955664819231321691634321255740319424433688936359499",
+          "side_upper": "4.675530100955664819231321691634321255740319424433721009536021",
+          "score_lower": "0.133982615411471175567652853335108457586406902794799767488964",
+          "score_upper": "0.133982615411471175567652853335108457586406902794813131312516",
+          "interval_pairs": 21,
+          "exact_pairs": 0
+        },
+        "raw_csv_sha256": "0bfe5055b7f18cf62667353a23211d43fc3c3c2684620fd7892e4fd9d9308279",
+        "ordinary_pandas_csv_sha256": "89cc608751b94afae220d448c3bd07687d8601dc5aeef23f98d18d288b836cd3"
+      },
+      "geometry_sha256": "f19ed04b67b4a5bf76a551b3c07e2f4e4652b90932dac6bbb4ab5ff74439385b",
+      "side": "4.675530100955664889231321691634054332608150259902298194914374",
+      "side_gain": "-7.347437989231321691634054332608150259902298194914374E-9",
+      "strict_improvement": false,
+      "score_gain": "-1.782015465133916145951071593229149765577082627199691729645528752948938E-9",
+      "certified_archive_sha256": "d33c2ee44795e18aa9362075ca8041432ec5b50c8fb8988a089f52e3affe73ba",
+      "certification_seconds": 0.07131902399851242,
+      "elapsed_seconds": 0.09112269400065998
+    }
+  ]
+}

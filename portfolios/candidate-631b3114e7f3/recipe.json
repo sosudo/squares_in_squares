@@ -1,0 +1,24 @@
+{
+  "status": "Private CPU version1 COMPLETE and remotely verified; competition attached; no submission by exporter",
+  "source_notebook": {
+    "ref": "sos54352/squares-portfolio-631b3114e7f3-incremental",
+    "version": 1,
+    "output_file": "submission.csv"
+  },
+  "csv_sha256": "631b3114e7f3afeb0da5411115b69a41995a916bb04a72c46350115501514d60",
+  "source_sha256": "4dc51270ee15df3c5051492c43a481eadd8a8112ee485c7cafcf6647c5a4ceec",
+  "official_score": 22.297960119331755,
+  "roundtrip_score": 22.29796011933176,
+  "numeric_parent_recipe": "../candidate-fb3d0bae17af/",
+  "parent_notebook": "sos54352/squares-portfolio-fb3d0bae17af-incremental/1",
+  "changed_puzzles": [
+    761,
+    995
+  ],
+  "transport_scaling_applied": false,
+  "competition_submission_performed": false,
+  "competition_sources": [
+    "squares-in-squares"
+  ],
+  "completion_proof_sha256": "9573d399d9ddd2519e2c9841d83ede1d7ae768436ec9b8465076b8f022553e01"
+}

@@ -1,0 +1,20 @@
+{
+  "wrapper_sha256": "abd4d99cef4975b8051b04d8b679703c4fa9b4a1f472f15fa1330e1ed5404a15",
+  "parent_pins": {
+    "scripts/build_incremental_safe_export_job.py": "477ef6ddcce7675e7e603678e488b3235b4de5988180adffe1c38e2b13131f0b",
+    "artifacts/submission-fq-gpu-polish-final-v1-safe.csv": "fb3d0bae17af84aa941cdc2ad9f8db942b1f2bd2940d063d79d6e1a28c350e8d",
+    "artifacts/submission-fq-gpu-polish-final-v1-safe-official.json": "35a41212d5ba478b8049816bcdb95046147eb81f3de93c87e4471bd8b9e1627b",
+    "artifacts/submission-fq-gpu-polish-final-v1-safe.transport-validation.json": "ad2bb871b4039524542b46c5773e83bf2a8912b1a4ea2905e804594b844da406",
+    "artifacts/portfolio-fb3d0bae17af-incremental-export-job/completion-proof.json": "813abe4ab11d3e53f205c5fcd089540ed7db768d05775e5d165ebe4b4beb7ae7",
+    "artifacts/portfolio-fb3d0bae17af-incremental-export-job/export_manifest.json": "ca931fe73d23b85c0019c4fd7be9d44bd14943f46d0820f015edaed39cffe8c4"
+  },
+  "parent_notebook": "sos54352/squares-portfolio-fb3d0bae17af-incremental/1",
+  "parent_version": 1,
+  "builder_code_object_unchanged": true,
+  "original_builder_globals_unchanged": true,
+  "competition_sources": [
+    "squares-in-squares"
+  ],
+  "runtime_sha256": "8fb206241da20a9f2437995eebc68c26a77d286201d0687e518344d68cf1b4d8",
+  "manifest_decoder_sha256": "b84de8a5e20215f8be364f480609726a79ead18f0f3e275ee5a098b3b1ce7cf4"
+}

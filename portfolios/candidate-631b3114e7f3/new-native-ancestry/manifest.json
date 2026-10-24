@@ -1,0 +1,94 @@
+{
+  "baseline": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-gpu-polish-final-v1.csv",
+    "sha256": "28feb2d3059e33db0189aa46c2bdb5f1a0f0c0aa35fb0f2003181595491ba6a3",
+    "score": 22.297968121901246,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-fq-gpu-polish-final-v1-official.json",
+    "official_report_sha256": "88e2979daf4f09503bc01a15748f0efabf82285dc66c3bc06892179d7337611f",
+    "reuse": {
+      "reused": 994,
+      "evaluated": 6
+    }
+  },
+  "pointer_sha256": "b1004f763ed1d85e8fc02b1c1c15f683195895068ff025c1fbe7d471174d4e33",
+  "targets": [
+    761,
+    920,
+    981,
+    995
+  ],
+  "source_hashes": {
+    "/workspace/squares_in_squares/experiments/fq_newton_finish_pilot.py": "ea991a4475023ffe1be5d891aea5697c747a1261f3b67b3fda7d906d920c6148",
+    "/workspace/squares_in_squares/experiments/fq_active_pilot.py": "cc916fe5bc0e58a4cdfdeb6e4f498061522a2ae44cd6443fdffc1f485eb3db33",
+    "/workspace/squares_in_squares/experiments/fq_capacity_probe.py": "35a750d6c5aa90f661b8e0e3491e11284f04f592cb320ae0112654c7dddfedd5",
+    "/workspace/squares_in_squares/experiments/fq_coherent_clusters.py": "43defd841872008a796edf33bd88edde554c008999940b337c28b0a0c4da485f",
+    "/workspace/squares_in_squares/experiments/compose_gadgets.py": "a8b1df4f9474425d434a44914a73d56703dfc485a79acb57d7d0a3d6e4a24568",
+    "/workspace/squares_in_squares/experiments/refill_capacity.py": "3ad257c2713074f6e7a55473e0bcfc4e96185fd1ad116d31232496ce23688e44",
+    "/workspace/squares_in_squares/experiments/refill_search.py": "dec531b2ae6f71b5df6707c335514621d93d24caa99e0df25c5a94f39d33cdb5",
+    "/workspace/squares_in_squares/scripts/score_official.py": "a6b0877295aa68940b4e32d9681a8f8d6a2e350de80c1b1f5aa54cd44e88d6ba",
+    "/workspace/squares_in_squares/scripts/validate_submission.py": "a9db77693e2fb093dcfdbbbfbd913f9420ed0a661ae0eeb8076362c0a8cbae4b",
+    "/workspace/squares_in_squares/research/official_metric_v17.py": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+    "/workspace/squares_in_squares/vendor/fq/src/fq.rs": "7045e9feff2d4b433053e4610258ca43d842e599fccf31d8b6b042276c2905c2",
+    "/workspace/squares_in_squares/vendor/fq/src/lpipm.rs": "823e8bc365f482265da9c71b748885caa03f1cc9d1971c69fa229d92cd52a3de",
+    "/workspace/squares_in_squares/experiments/fq_sqp_pilot.py": "98fa1a6178446c52e7ca6e656999eb32d23ea7280796a11b04cfeaaaefa91aa7",
+    "/workspace/squares_in_squares/vendor/fq/LICENSE": "c51886c0f7e6724a7d89fc22cb237a1688ba1bbff04cb21a13b8e1a01fb15578",
+    "/workspace/squares_in_squares/vendor/fq/NOTICE": "5f7e11ec2745ea88a03a6da0eb15a36981d575326796f5c0b0b995bf78c01b61"
+  },
+  "binary_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+  "poses_sha256": "a9999b51cbd1d8c5511802c5e9d7b70a731a6c97ec976c9029e78f7da0ce8b39",
+  "geometry_sha256": {
+    "17": "00931c06ca03db170f9a60fdb7a9b5666d7b20d3db65650012720aa90e5da6f5",
+    "761": "bc8698cf8311c6321eff00949864a7f15fe2f7c9884c1bdd1b0e96f3cce3fd8d",
+    "920": "3264518359f27ccd7ddcadca3d46fbdcddc45df6f3af08a7ad96b9d1c46d41ba",
+    "981": "2f1ac55dbe159b30d8078b2d76b0e695686b0114d1b1020631ac0ecd1204c14f",
+    "995": "8944b752986fd0c9b03269b5be696e8aafa6164aa4fac1ca433a4ea2b5bae25b"
+  },
+  "sides": {
+    "17": "4.67553009360822690000000000000000000000000000000000",
+    "761": "27.99827344800114586385303613204348804575126714729386",
+    "920": "30.80848270835538386581934957363573518873833056810592",
+    "981": "31.79744509987164206542193978528014890554453145711533",
+    "995": "31.96387353702848961530633326863652926919960015914036"
+  },
+  "native_input_sha256": {
+    "17": "6723d5228d3aed6c9444ca6c3013cbae26f4e65ec85f84c465036b9d0bc3d2f0",
+    "761": "11b60d59a3aa3e4dc9b800aa158b64b5e2f9a7c2161ff40069bc97883139dfe9",
+    "920": "2c73b1e9fa494ec50714e5402729095e8e0d02898da2b37913f4b036656a4383",
+    "981": "53c0030bf2fe94894d89afe9e6cce0ef8b6f8902b5ab4af86f837931791bb3bb",
+    "995": "f536b55d54f77495460de6c8b7a72c05b1858e5eea9afea786882f0796e9c4ac"
+  },
+  "common_options": [
+    "--no-alm",
+    "--loosen",
+    "1",
+    "--pit",
+    "100",
+    "--flip-top",
+    "0",
+    "--stag-w",
+    "0",
+    "--v"
+  ],
+  "treatment_extra": [
+    "--finish"
+  ],
+  "workers": 2,
+  "maximum_seconds": 360,
+  "native_cap_seconds": 60,
+  "separate_certificate_cap_seconds": 8,
+  "control": {
+    "n": 17,
+    "center_dilation": 1.0005,
+    "maximum_side_excess": 1e-06
+  },
+  "environment_overrides": {
+    "FQ_TR": "1",
+    "FQ_LPT": "1",
+    "FQ_LP_IPM": "1",
+    "FQ_LP_IR": "0",
+    "FQ_FIN": "1"
+  },
+  "other_FQ_environment_removed": true,
+  "no_pointer_mutation": true,
+  "no_submission": true
+}
