@@ -13,6 +13,7 @@ import io
 import json
 import math
 from pathlib import Path
+import shutil
 import subprocess
 import sys
 import time
@@ -132,24 +133,31 @@ def main():
     ap.add_argument('--seconds', type=float, default=300)
     ap.add_argument('--trial-seconds', type=float, default=40)
     ap.add_argument('--workers', type=int, default=2)
+    ap.add_argument('--modes', choices=list(MODES), nargs='+', default=list(MODES))
     args = ap.parse_args()
     if min(args.seconds, args.trial_seconds, args.workers, args.keys) <= 0:
         ap.error('Budgets/counts must be positive')
     args.out.mkdir(parents=True, exist_ok=False)
+    frozen_binary = args.out/'fq'
+    shutil.copy2(args.binary, frozen_binary)
+    frozen_binary.chmod(0o500)
+    if digest(frozen_binary) != digest(args.binary):
+        raise ValueError('Executable changed while freezing the run')
     priorities = json.loads(args.priorities.read_text())
     with np.load(args.bank, allow_pickle=False) as archive:
         keys = sorted(archive.files, key=lambda k: -priorities[k])[:args.keys]
         bank = {k: archive[k] for k in keys}
     manifest = {'source_repository': 'https://github.com/evand/square-packing',
                 'source_commit': SOURCE_COMMIT, 'license': 'MIT; copyright2026 Evan Daniel',
-                'binary_sha256': digest(args.binary), 'bank_sha256': digest(args.bank),
-                'priorities_sha256': digest(args.priorities), 'keys': keys, 'modes': MODES,
+                'binary_sha256': digest(frozen_binary), 'bank_sha256': digest(args.bank),
+                'priorities_sha256': digest(args.priorities), 'keys': keys,
+                'modes': {name: MODES[name] for name in args.modes},
                 'seconds': args.seconds, 'trial_seconds': args.trial_seconds, 'workers': args.workers}
     (args.out/'manifest.json').write_text(json.dumps(manifest, indent=2)+'\n')
     deadline = time.monotonic()+args.seconds
-    jobs = [(k, bank[k], mode, str(args.binary.resolve()), str(args.out.resolve()), 431001+i,
+    jobs = [(k, bank[k], mode, str(frozen_binary.resolve()), str(args.out.resolve()), 431001+i,
              args.trial_seconds, deadline) for i, (mode, k) in enumerate(
-                 (mode, key) for mode in MODES for key in keys)]
+                 (mode, key) for mode in args.modes for key in keys)]
     records, donors = [], {}
     with ProcessPoolExecutor(max_workers=args.workers) as pool:
         for future in as_completed([pool.submit(trial, job) for job in jobs]):
@@ -157,8 +165,11 @@ def main():
             records.append(record)
             if donor:
                 donors[donor[0]] = donor[1]
-                np.savez_compressed(args.out/'donors.npz', **donors)
-            (args.out/'results.json').write_text(json.dumps(records, indent=2)+'\n')
+                with (args.out/'donors.npz.incoming').open('wb') as stream:
+                    np.savez_compressed(stream, **donors)
+                (args.out/'donors.npz.incoming').replace(args.out/'donors.npz')
+            (args.out/'results.json.incoming').write_text(json.dumps(records, indent=2)+'\n')
+            (args.out/'results.json.incoming').replace(args.out/'results.json')
             print(json.dumps({k: v for k, v in record.items() if k not in ('fq', 'certificate')}), flush=True)
 
 

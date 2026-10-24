@@ -28,6 +28,20 @@ from scipy.spatial import cKDTree
 
 _GPU_SOURCE_CACHE = {}
 
+BOUNDED_INDEX_HELPER = '''
+def _bounded_active_indices(best, chunk_size=8388608):
+    """Same sorted finite-state indices, with bounded temporary scan buffers."""
+    if chunk_size < 1:
+        raise ValueError('Index chunk size must be positive')
+    flat=best.ravel();parts=[]
+    for start in range(0,flat.size,chunk_size):
+        local=cp.flatnonzero(flat[start:start+chunk_size]!=np.uint64(0xffffffffffffffff))
+        if local.size:
+            parts.append(local+np.int64(start))
+    return cp.concatenate(parts) if parts else cp.empty(0,dtype=cp.int64)
+
+'''
+
 
 def compatible_gpu_sources(source_dir):
     """Preserve originals; make the unsigned sentinel explicit for modern CuPy.
@@ -52,12 +66,28 @@ def compatible_gpu_sources(source_dir):
         text = original.decode()
         if text.count(old) != 1:
             raise ValueError(f'Unexpected public comparison source in {name}')
-        changed = text.replace(old, new).encode()
+        changed_text = text.replace(old, new)
+        bounded = name == 'gpu_adaptive_seams.py'
+        if bounded:
+            expression = 'cp.flatnonzero(best!=np.uint64(0xffffffffffffffff))'
+            if changed_text.count(expression)!=1 or changed_text.count('def pareto(best,nb):')!=1:
+                raise ValueError('Unexpected public adaptive compaction source')
+            changed_text=changed_text.replace(expression,'_bounded_active_indices(best)')
+            changed_text=changed_text.replace('def pareto(best,nb):',BOUNDED_INDEX_HELPER+'def pareto(best,nb):')
+            old_donors='donors=fresh+donors+legacy'
+            if changed_text.count(old_donors)!=1:
+                raise ValueError('Unexpected public donor assembly source')
+            changed_text=changed_text.replace(old_donors,
+                'donors=[(p,label) for p,label in fresh+donors+legacy if np.any(p[:,2]!=0.)]')
+        changed = changed_text.encode()
         path.write_bytes(changed)
         patches.append({'file': name, 'reason': 'CuPy uint64 sentinel type compatibility',
                         'original_sha256': hashlib.sha256(original).hexdigest(),
                         'runtime_sha256': hashlib.sha256(changed).hexdigest(),
-                        'old_expression': old, 'new_expression': new})
+                        'old_expression': old, 'new_expression': new,
+                        'bounded_index_compaction': bounded,
+                        'skip_exact_zero_angle_donors':bounded,
+                        'index_chunk_size':8388608 if bounded else None})
     atexit.register(shutil.rmtree, destination, ignore_errors=True)
     _GPU_SOURCE_CACHE[str(source_dir)] = (destination, patches)
     return destination, patches
@@ -372,9 +402,13 @@ def closure(base, candidates, seconds=60., offsets=(-.5, 0., .5), min_donor_n=1)
     return result, labels
 
 
-def gpu_compose(base, baseline, donors, source_dir, output_dir, method, seconds, bins):
+def gpu_compose(base, baseline, donors, source_dir, output_dir, method, seconds, bins,
+                degrees=(30,45,60)):
     """Stage public inputs and the explicit unsigned-sentinel compatibility patch."""
     runtime_sources, compatibility = compatible_gpu_sources(source_dir)
+    oriented_upper_bound=8*(len(donors)+sum(len(p)>4 for p in base.values()))
+    if oriented_upper_bound*(31*31*63)>2**32:
+        raise ValueError('Adaptive oriented donor identifiers would overflow the public uint32 encoding')
     sys.path.insert(0, str(runtime_sources))
     import gpu_fault_composition as fault
     # Replace only the legacy file-loading entry point; geometry/kernels unchanged.
@@ -384,6 +418,7 @@ def gpu_compose(base, baseline, donors, source_dir, output_dir, method, seconds,
     import gpu_adaptive_seams as adaptive
     previous = Path.cwd()
     all_candidates, reports = {}, {'_source_compatibility': compatibility,
+        '_adaptive_oriented_upper_bound':oriented_upper_bound,
         '_donor_sources': [{'index': index, 'label': label,
                            'array_sha256': hashlib.sha256(p.tobytes()).hexdigest()}
                           for index, (p, label) in enumerate(donors)]}
@@ -409,7 +444,7 @@ def gpu_compose(base, baseline, donors, source_dir, output_dir, method, seconds,
                 elif selected == 'seam':
                     seam.run(seconds=seconds, tag=tag, bins=bins, transpose=True)
                 else:
-                    adaptive.run(str(baseline), tag=tag, seconds=seconds, bins=bins)
+                    adaptive.run(str(baseline), tag=tag, seconds=seconds, bins=bins,degrees=tuple(degrees))
                 path = work / 'artifacts' / (tag + '_packings.npz')
                 with np.load(path, allow_pickle=False) as archive:
                     for key in archive.files:
@@ -461,11 +496,15 @@ def main():
     parser.add_argument('--closure-min-n', type=int, default=1)
     parser.add_argument('--rounds', type=int, default=4)
     parser.add_argument('--bins', type=int, default=16)
+    parser.add_argument('--degrees', type=float, nargs='+', default=[30,45,60],
+                        help='Adaptive separator normals; every value must be strictly between0 and90 degrees')
     args = parser.parse_args()
     if args.seconds <= 0 or args.closure_seconds < 0 or args.rounds < 1 or args.baseline_donors < 0:
         parser.error('Budgets/donor counts must be nonnegative; seconds and rounds must be positive')
     if not 2 <= args.bins <= 32:
         parser.error('Separator bins must be between 2 and 32')
+    if not args.degrees or len(set(args.degrees))!=len(args.degrees) or any(not 0<d<90 for d in args.degrees):
+        parser.error('Adaptive separator normals must be distinct and strictly between0 and90 degrees')
     args.baseline = args.baseline.resolve()
     args.output = args.output.resolve()
     args.output.parent.mkdir(exist_ok=True, parents=True)
@@ -480,7 +519,7 @@ def main():
         candidates, details = cpu_compose(base, donors, args.seconds, args.rounds)
     elif args.backend == 'gpu':
         candidates, details = gpu_compose(base, args.baseline, donors, args.source_dir,
-                                          args.output.parent, args.method, args.seconds, args.bins)
+                                          args.output.parent, args.method, args.seconds, args.bins,args.degrees)
     else:
         candidates, details = {}, {}
     if args.closure_seconds > 0:
@@ -496,6 +535,7 @@ def main():
               'gadgets': [{'path': str(p), 'sha256': hashlib.sha256(p.read_bytes()).hexdigest()}
                           for p in args.gadgets],
               'backend': args.backend, 'fresh_donors': fresh, 'total_donors': len(donors),
+              'degrees': args.degrees, 'bins':args.bins,
               'closure_offsets': args.closure_offsets, 'closure_min_n': args.closure_min_n,
               'seconds': time.monotonic() - started, 'improvements': len(result),
               'estimated_score_gain': gain, 'rejected': rejected,

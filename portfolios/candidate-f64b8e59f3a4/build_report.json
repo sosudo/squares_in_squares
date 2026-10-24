@@ -1,0 +1,12 @@
+{
+  "output": "artifacts/source-export-f64b8e59f3a4",
+  "code_bytes": 774043,
+  "exact_local_reconstruction": true,
+  "csv_sha256": "f64b8e59f3a4f19c8839b772115b3bcf63fd212c9986cb9b6161822561fb1abc",
+  "official_score": 22.303055580908733,
+  "public_csv_puzzles": 852,
+  "certificate_puzzles": 89,
+  "embedded_puzzles": 59,
+  "public_certificates": 80,
+  "embedded_compressed_bytes": 376472
+}

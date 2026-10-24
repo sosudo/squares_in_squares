@@ -1,0 +1,31 @@
+{
+  "status": "Certified search incumbent; unique private CPU export COMPLETE and locally/remotely hash verified; competition submission forbidden while score>=22.3",
+  "csv_sha256": "f64b8e59f3a4f19c8839b772115b3bcf63fd212c9986cb9b6161822561fb1abc",
+  "raw_csv_sha256": "d12aabf77738101d90ceecb002314e02a5fe9d75f53df345317b9069a5aceb4d",
+  "official_score": 22.303055580908733,
+  "roundtrip_score": 22.30305558090873,
+  "source_notebook": {
+    "ref": "sos54352/squares-portfolio-f64b8e59f3a4",
+    "version": 1,
+    "output_file": "submission.csv"
+  },
+  "composition_notebook": {
+    "ref": "sos54352/squares-broad-composition",
+    "version": 1
+  },
+  "search_baseline_sha256": "82ad3a551afb934d4b263a9fd1a7dc121f19bd9052c13218c5a39017ed7d0f29",
+  "merge_baseline_raw_sha256": "28ac27ca41435b0568c9d45b2a913dcc82e27f1725d83e8945ac4ddb0d036cac",
+  "accepted_composition_cases": 35,
+  "finding": "Both broader profile settings completed14312 orientations and found39 proposed winners;35 improved the newer full-puzzle FQ incumbent. Winning recipes combine improved FQ donors, current portfolio crops, and alternative KMMM/Afshar layouts.",
+  "transport_helper": "scripts/make_transport_safe.py",
+  "centre_dilation_factor": "1.00000000001",
+  "reproduce_command": "python3 portfolios/candidate-f64b8e59f3a4/export.py --destination /tmp/squares-candidate-f64b8e59f3a4/submission.csv",
+  "submission_policy": {
+    "maximum_score_exclusive": 22.3,
+    "eligible": false,
+    "competition_submission_performed": false
+  },
+  "newly_replaced_pose_archive": "artifacts/replaced-packings-f64b8e59f3a4/replaced_packings.npz",
+  "prior_replaced_pose_archive": "artifacts/replaced-packings-82ad3a551afb/replaced_packings.npz",
+  "newly_replaced_pose_archive_sha256": "f200993d4d91caf5d647a1296f73320a55a57b8114adf8163d0ee53f665ce9af"
+}

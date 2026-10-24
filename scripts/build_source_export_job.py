@@ -36,6 +36,9 @@ SOURCES = [
     ('kmmmvs24', 'artifacts/public-v24/kmmmvs__squares-in-squares-best-packings.csv',
      'https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/submission.csv?datasetVersionNumber=24',
      '79629f489cf84987f55165618f800c6e37c1dbdbd9d0ec8df30be21fee2436dc', 'Sung Heo / kmmmvs and credited source authors, dataset v24'),
+    ('kmmmvs26', 'artifacts/public-v26/kmmmvs__squares-in-squares-best-packings.csv',
+     'https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/submission.csv?datasetVersionNumber=26',
+     'cab501fe499261db1c9a5b2d665ca7964e509484442a920376282281444cdd4c', 'Sung Heo / kmmmvs and credited source authors, dataset v26'),
     ('cdeotte2', 'artifacts/public/cdeotte__squares-in-squares-22-315-data.csv',
      'https://www.kaggle.com/api/v1/datasets/download/cdeotte/squares-in-squares-22-315-data/submission.csv?datasetVersionNumber=2',
      '7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725', 'Chris Deotte and credited source authors, dataset v2, CC0'),
@@ -206,26 +209,39 @@ def make_loader(csv_path, report_path, records_path=None, export_ref=DEFAULT_EXP
         public_sources.append(dict(key=key, url=url, sha256=expected, puzzles=matches, credit=credit))
         cache_sources[expected] = path
         unmatched.difference_update(matches)
-    records_path = Path(records_path or ROOT / 'artifacts/candidates/records.json')
-    records = json.loads(records_path.read_text()) if records_path.is_file() else {}
+    if records_path is None:
+        catalogues = [ROOT / 'artifacts/candidates/records.json']
+        catalogues += sorted((ROOT / 'artifacts/candidates').glob('records-fresh-*.json'))
+    elif isinstance(records_path, (list, tuple)):
+        catalogues = list(map(Path, records_path))
+    else:
+        catalogues = [Path(records_path)]
+    records = {}
+    for catalogue in catalogues:
+        if catalogue.is_file():
+            for key, record in json.loads(catalogue.read_text()).items():
+                records.setdefault(key, []).append(record)
     certificate_cases = []; certificates = {}; certificate_n = 0
     for n in sorted(unmatched):
-        record = records.get(str(n))
-        if record is None or record.get('squares') != target[n]:
+        record = next((r for r in records.get(str(n), []) if r.get('squares') == target[n]), None)
+        if record is None:
             continue
         origin = record['provenance']
-        if origin.get('kind') != 'certificate':
+        finite = origin.get('finite_record') or {}
+        if (origin.get('kind') or finite.get('kind')) != 'certificate':
             continue
         relative, expected = origin['certificate'], origin['certificate_sha256']
-        local = Path('/tmp/squares-research/couzo') / relative
-        assert sha(local.read_bytes()) == expected
+        locations = [ROOT / 'artifacts/public-freshness' / ('couzo-' + origin['commit'][:12]) / relative,
+                     Path('/tmp/squares-research/couzo') / relative]
+        local = next((p for p in locations if p.is_file() and sha(p.read_bytes()) == expected), None)
+        assert local is not None, f'Pinned certificate bytes unavailable for n={n}'
         key = 'couzo_' + expected[:20]
         certificates[key] = dict(key=key,
             url=f"https://raw.githubusercontent.com/franciscouzo/square-packing/{origin['commit']}/{relative}",
             sha256=expected, gzip=relative.endswith('.gz'),
             credit=origin.get('credit', 'Francisco Couzo and credited mathematical witness authors'))
         cache_sources[expected] = local
-        recipe = origin.get('construction') or {}
+        recipe = origin.get('construction') or finite.get('construction') or {}
         certificate_cases.append(dict(n=n, source=key, tiles=recipe.get('tiles_per_side', 1),
                                       layers=recipe.get('layers', 0)))
         certificate_n += 1

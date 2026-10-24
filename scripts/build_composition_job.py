@@ -66,7 +66,8 @@ with tempfile.TemporaryDirectory(prefix='preflight-',dir=root)as directory:
     methods=['corner','seam','adaptive']if config['method']=='all'else[config['method']]
     for method in methods:
         bank,report=gpu_compose(base,csv_path,[(five,'known five-square diamond')],
-                               root/'sources',directory,method,5.,4)
+                               root/'sources',directory,method,5.,config.get('preflight_bins',4),
+                               config.get('degrees',[30,45,60]))
         checks[method]={'source_compatibility':report.get('_source_compatibility',[])}
         for n,expected in [(5,2+math.sqrt(.5)),(10,3+math.sqrt(.5)),(27,5+math.sqrt(.5))]:
             assert n in bank,(method,n,'known composition missing')
@@ -81,7 +82,9 @@ with tempfile.TemporaryDirectory(prefix='preflight-',dir=root)as directory:
             {'gpu':name,'cupy_version':cp.__version__,'checks':checks,'passed':False,
              'completed_methods':list(checks),'note':'Full preflight not complete until every selected method passes'},indent=2))
         print(json.dumps({'stage':'GPU composition preflight','method':method,'puzzles':[5,10,27],'passed':True}),flush=True)
-preflight={'gpu':name,'cupy_version':cp.__version__,'seconds':time.monotonic()-started,'checks':checks,'passed':True}
+preflight={'gpu':name,'cupy_version':cp.__version__,'seconds':time.monotonic()-started,'checks':checks,'passed':True,
+           'bins':config.get('preflight_bins',4),'degrees':config.get('degrees',[30,45,60]),
+           'profile_table_bytes':32*32*64*len(config.get('degrees',[30,45,60]))**2*(config.get('preflight_bins',4)+1)**2*8}
 (root/'composition_preflight.json').write_text(json.dumps(preflight,indent=2))
 cp.get_default_memory_pool().free_all_blocks()
 def run_composition(paths,output):
@@ -92,6 +95,7 @@ def run_composition(paths,output):
       '--closure-seconds',str(config['closure_seconds']),
           '--output',str(output)]
     if paths:argv+=['--gadgets',*paths]
+    argv+=['--degrees',*map(str,config.get('degrees',[30,45,60]))]
     sys.argv=argv
     compose_gadgets.main()
     cp.get_default_memory_pool().free_all_blocks()
@@ -145,6 +149,7 @@ for name in config['runtime_gadgets']:
 config['runtime_gadget_sha256']={p:hashlib.sha256(Path(p).read_bytes()).hexdigest()for p in config['gadget_paths']}
 (root/'composition_config.json').write_text(json.dumps(config,indent=2))
 started=time.monotonic();status={'root':str(root),'configuration':config}
+print(json.dumps({'stage':'bounded_composition_started','root':str(root),'wall_limit_seconds':config['wall_seconds']}),flush=True)
 command=[sys.executable,'-u',str(root/'pipeline/driver.py'),'--config',str(root/'composition_config.json'),'--root',str(root)]
 with (root/'composition.log').open('w')as log:
     try:
@@ -186,6 +191,9 @@ def main():
     parser.add_argument('--wall-seconds', type=float, default=900.)
     parser.add_argument('--closure-seconds', type=float, default=30.)
     parser.add_argument('--bins', type=int, default=16)
+    parser.add_argument('--degrees',type=float,nargs='+',default=[30,45,60])
+    parser.add_argument('--preflight-full-profile',action='store_true',
+                        help='Exercise the actual profile table size and separator normals in the known-layout GPU checks')
     parser.add_argument('--baseline-donors', type=int, default=64)
     parser.add_argument('--slug', default='sos54352/squares-composition-pilot')
     parser.add_argument('--title', help='Default derives from the slug so Kaggle preserves the requested URL')
@@ -196,6 +204,8 @@ def main():
         parser.error('Invalid wall/extraction budget')
     if args.attached_inputs and (args.source_backed or args.gadgets or args.runtime_gadgets):
         parser.error('--attached-inputs supplies every donor and cannot combine with embedded/source-backed inputs')
+    if not 2<=args.bins<=32 or not args.degrees or len(set(args.degrees))!=len(args.degrees) or any(not 0<d<90 for d in args.degrees):
+        parser.error('Invalid profile resolution or separator normals')
     payload = {}
     for path in sorted(args.source_dir.rglob('*')):
         if path.is_file() and '__pycache__' not in path.parts:
@@ -253,6 +263,7 @@ def main():
                 'method': args.method, 'seconds': args.seconds,
                 'wall_seconds': args.wall_seconds, 'closure_seconds': args.closure_seconds,
                 'bins': args.bins, 'baseline_donors': args.baseline_donors,
+                'degrees': args.degrees, 'preflight_bins': args.bins if args.preflight_full_profile else 4,
                 'embedded_gadgets': embedded_gadgets, 'runtime_gadgets': args.runtime_gadgets,
                 'embedded_sha256': {name: hashlib.sha256(data).hexdigest() for name,data in payload.items()}}
     archive = io.BytesIO()

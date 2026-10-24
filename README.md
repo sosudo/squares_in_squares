@@ -4,7 +4,7 @@ Competition optimization workspace for [Kaggle Squares in Squares](https://www.k
 
 For each n=1..1000, place n non-overlapping unit squares inside the smallest square. Minimize `sum(L_n / sqrt(n) - 1)`. Angles are radians. Complete submissions contain 500,500 rows. Exact decimal coordinates matter: float round trips can invalidate touching packings.
 
-The submitted baseline, Kaggle submission **57583210**, scored **22.3048038109** and ranked **15 of 491 teams** when checked on 2026-10-24. Its exact reproducible recipe is in [portfolios/baseline-57583210](portfolios/baseline-57583210/). A slightly better fully certified candidate is queued. See [research/STATUS.md](research/STATUS.md) for current experiments and [research/submission_schedule.md](research/submission_schedule.md) for the hourly improvement-only controller.
+The latest accepted submission, **57584666**, scored **22.3047579593**; its observed rank was20/505 on2026-10-24. Continued search has certified a stronger unsubmitted portfolio at **22.3030555809**. The user now requires **both validated transport scores strictly below22.3** before another submission. The hourly runner is stopped. Read [research/STATUS.md](research/STATUS.md) for current experiments and [research/submission_schedule.md](research/submission_schedule.md) for the enforced authorization policy.
 
 ## Environment
 
@@ -16,7 +16,7 @@ UV_CACHE_DIR=/workspace/.cache/uv uv venv --system-site-packages --allow-existin
 UV_CACHE_DIR=/workspace/.cache/uv uv pip install --python .venv/bin/python -r requirements.txt
 ```
 
-The optional Torch search backend is pinned separately in requirements-search.txt. The official Kaggle GPU environment supplies CUDA Torch/CuPy for remote searches. Each cloud task is already isolated; use this checkout without creating a worktree unless explicitly requested.
+The optional Torch search backend is pinned separately in requirements-search.txt. The additional MIT-licensed Rust fq optimizer builds with `cargo build --release --locked --manifest-path vendor/fq/Cargo.toml --bin fq`; see research/fq_active_pilot.md for its tested toolchain and geometry checks. The official Kaggle GPU environment supplies CUDA Torch/CuPy for remote searches. Each cloud task is already isolated; use this checkout without creating a worktree unless explicitly requested.
 
 ## Reproduce and certify a baseline
 
@@ -51,4 +51,4 @@ Experiments include rigid envelope optimization, sequential contact LP, neighbor
 
 The CLI wrapper uses a runtime `KAGGLE_API_TOKEN` or a private file named by `KAGGLE_TOKEN_FILE`. Do not commit credentials. It supports the session's protected temporary credential file outside the checkout. Kaggle's authenticated compatibility API is the default; set `KAGGLE_USE_WWW_API=0` for the standard API hostname.
 
-Only submit a file whose hash matches successful raw and numeric-roundtrip official validation reports. Check current submission history, wait at least an hour between accepted submissions, require a strictly better score, and stay within 10 submissions/day. Keep receipts and actual scores in artifacts/submissions/. Report leaderboard gains only after Kaggle returns a scored result.
+Only submit when both validated scores are strictly below22.3 and the file hash matches successful raw and numeric-roundtrip official validation reports. Check current submission history, wait at least an hour between accepted submissions, require a strictly better score, and stay within 10 submissions/day. Keep receipts and actual scores in artifacts/submissions/. Report leaderboard gains only after Kaggle returns a scored result.
