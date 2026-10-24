@@ -1,0 +1,37 @@
+{
+  "status": "Certified candidate; unique private CPU export complete; root queued for hourly controller; no submission receipt yet",
+  "csv_sha256": "4636cfc395424574a77d81131110eea9444fde0f16e5d48a133e1364d9e95f21",
+  "raw_csv_sha256": "41978e8e83c6bc2ba326628e68b1907a09deac6cde4e057382e9ae68941d150d",
+  "official_score": 22.304757959372726,
+  "roundtrip_score": 22.304757959372726,
+  "source_notebook": {
+    "ref": "sos54352/squares-portfolio-4636cfc39542",
+    "version": 1,
+    "output_file": "submission.csv"
+  },
+  "composition_notebook": {
+    "ref": "sos54352/squares-frontier-composition",
+    "version": 1
+  },
+  "source_portfolio_sha256": "26b4b55c89b3606385a74645e327c4b9a6b40fda7f62f6bdd969dbff1cb39afb",
+  "replaced_cases": [
+    756,
+    807,
+    812,
+    865,
+    866,
+    870,
+    925,
+    926,
+    930,
+    991,
+    992
+  ],
+  "finding": "Every improvement was found by the baseline-only control; 402 higher-n donors and 1 refill donor added no gain in this pass. N991 accounts for nearly all improvement.",
+  "transport_helper": "scripts/make_transport_safe.py",
+  "centre_dilation_factor": "1.00000000001",
+  "reproduce_command": "python3 portfolios/candidate-4636cfc39542/export.py --destination /tmp/squares-candidate-4636cfc39542/submission.csv",
+  "scheduler_binding": "artifacts/source-export-4636cfc39542/scheduler-candidate.json",
+  "replaced_pose_archive": "artifacts/replaced-packings-4636cfc39542/replaced_packings.npz",
+  "replaced_pose_archive_sha256": "c3d8391eb9fd55033b1ec479f6da016e99c6aaaa64e659a67aa4463e2c4d453b"
+}

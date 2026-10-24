@@ -70,3 +70,20 @@ used each unchanged tilted core, incumbent upright candidates and the worker's
 proved by simplicial reductions. This verifies refill capacity, not a score
 improvement: the zero-margin contact candidates still require repair and final
 geometry validation. Evidence is `artifacts/full-puzzle-refill-control.json`.
+
+The actual private notebook `sos54352/squares-full-puzzle-ftmc-pilot`, version1,
+then completed successfully in 636.0 seconds. Its worker ran for 600.05 seconds,
+trying 773,760 cores across 12,090 batches, but recorded **zero successful
+refills, zero full quenches and zero saved variants**. There is consequently no
+direct-puzzle or L-frame candidate to merge. All GPU preflights passed and no
+official rejection occurred because the run never reached that stage. Outputs
+are in `artifacts/full-puzzle-ftmc-results`.
+
+This negative result localizes the failure before full packing optimization.
+Separate CPU controls later showed that the released mutation routine's forced
+recentering moves full-puzzle tilted cores away from their original wall phase
+and loses 9–20 refill slots in eight tested cases. See
+`artifacts/core-anchor-control.json` and the separate anchor experiment. The
+next angle/capacity experiment retains only four full-puzzle negative controls,
+capped at ten percent of sampling probability, alongside 17 active rectangles.
+It does not silently spend another long run on this failed full-puzzle bank.
