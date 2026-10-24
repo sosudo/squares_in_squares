@@ -1,0 +1,75 @@
+{
+  "status": "Certified search incumbent; private CPU export complete and remotely hash-verified; not submitted",
+  "csv_sha256": "2e6e39f36a7cdf54416fd3241b2daa2d161997f235f93961f945751f0510b958",
+  "raw_csv_sha256": "a5086672035b695a9a67ebd551a1e595161d3a88436d9f27abd41835564cb0f0",
+  "official_score": 22.301061591170022,
+  "roundtrip_score": 22.301061591170022,
+  "source_notebook": {
+    "ref": "sos54352/squares-portfolio-2e6e39f36a7c-incremental",
+    "version": 1,
+    "output_file": "submission.csv"
+  },
+  "source_sha256": "ffff07eca9e912584e9cbe24969194fa4cae2c595265096fa8b0f1f6f2c49b65",
+  "source_bytes": 493592,
+  "parent_recipe": "../candidate-8cd7c023ab18/",
+  "parent_csv_sha256": "8cd7c023ab18b5875fcd5084e23415eda3181df1f4e70b5558bfe9eb039b0658",
+  "source_notices": "../candidate-8cd7c023ab18/source-notices-kmmm28/",
+  "changed_cases_from_parent": [
+    547,
+    595,
+    599,
+    637,
+    697,
+    701,
+    702,
+    748,
+    751,
+    755,
+    756,
+    798,
+    799,
+    806,
+    807,
+    811,
+    812,
+    813,
+    815,
+    865,
+    871,
+    921,
+    924,
+    927,
+    930,
+    931,
+    982,
+    986,
+    989,
+    992,
+    993
+  ],
+  "changed_cases_from_previous": [
+    807,
+    865
+  ],
+  "finding": "Preserves every prior case; exact-chain replay of a new8x20+12 donor improves807/865 by3.7923072659403104e-8 total.",
+  "transport_scaling_applied_by_incremental_export": false,
+  "reproduce_commands": [
+    "python3 portfolios/candidate-8cd7c023ab18/export.py --destination /tmp/squares-parent-8cd7/submission.csv",
+    "INCREMENTAL_PARENT_PATH=/tmp/squares-parent-8cd7/submission.csv INCREMENTAL_OUTPUT_ROOT=/tmp/squares-candidate-2e6e python3 portfolios/candidate-2e6e39f36a7c/export.py"
+  ],
+  "search_provenance": {
+    "notebook": "sos54352/squares-fq-cpu-new-basin-v2/1",
+    "source_sha256": "82c9b8c8eb880c72a949bca9719b4e9fa5b61e7bd2b63f055b06afc9562302fa",
+    "solver_source": "https://github.com/evand/square-packing",
+    "solver_commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+    "solver_license": "MIT; Evan Daniel",
+    "binary_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+    "donor_geometry_sha256": "a11cd7b3e9da9f5ad75a7ba1534572e9cd94f714e291c97e12116fe1ca2a9631",
+    "candidate_sha256": "fc551af27a88f703498412ad9ffbbebd0469eeefce8d0a75340851b265fab653"
+  },
+  "submission_policy": {
+    "maximum_score_exclusive": 22.3,
+    "eligible": false,
+    "competition_submission_performed": false
+  }
+}

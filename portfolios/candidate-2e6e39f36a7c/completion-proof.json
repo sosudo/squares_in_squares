@@ -1,0 +1,15 @@
+{
+  "ref": "sos54352/squares-portfolio-2e6e39f36a7c-incremental",
+  "version": 1,
+  "output_file": "submission.csv",
+  "output_sha256": "2e6e39f36a7cdf54416fd3241b2daa2d161997f235f93961f945751f0510b958",
+  "status": "complete",
+  "is_private": true,
+  "verified_at": "2026-10-24T10:29:28.967335+00:00",
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "source_sha256": "ffff07eca9e912584e9cbe24969194fa4cae2c595265096fa8b0f1f6f2c49b65",
+  "source_bytes": 493592,
+  "server_timeout_seconds": 180,
+  "competition_submission_performed": false
+}

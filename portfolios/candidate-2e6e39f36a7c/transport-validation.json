@@ -1,0 +1,78 @@
+{
+  "schema_version": 2,
+  "purpose": "Current search baseline; submission remains forbidden unless all scores are below22.3.",
+  "user_submission_score_threshold": 22.3,
+  "eligible_under_user_score_threshold": false,
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "competition_submission_performed": false,
+  "baseline_role": "Immediately preceding certified SAFE5ec portfolio",
+  "baseline_sha256": "5ec27316048815621d1eb424144f006726cf0053e376d5d5ed2cba174b2f69ac",
+  "baseline_score": 22.301061629093095,
+  "gain_over_previous_baseline": 3.792307268213335e-08,
+  "roundtrip_gain_over_previous_baseline": 3.792307268213335e-08,
+  "strictly_better_raw_and_roundtrip": true,
+  "factor": "1.00000000001",
+  "safety_scaled_cases": 89,
+  "transform_report": "/workspace/squares_in_squares/artifacts/submission-fq-cpu-followup-v2-safe.transport-transform.json",
+  "transform_report_sha256": "832997ebe181b6693f0a2e36d7f52d5b88e1a467aa685948dceab63b774ebe63",
+  "composition_merge_provenance": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-cpu-followup-v2.validation.json",
+    "sha256": "2f75089fa746c605aa39fabadeee0b9f6d48761871d341a79f276b994820c0b8"
+  },
+  "case_score_changes": [
+    {
+      "n": 807,
+      "gain": 1.9290513630920714e-08,
+      "old_side": "28.873685495747466039615660845819808320757935938060873128365577",
+      "new_side": "28.873684947747471024346095279206095294985721805097871261089892"
+    },
+    {
+      "n": 865,
+      "gain": 1.8632559273257243e-08,
+      "old_side": "29.873685497747488009615660845819875628588358848010417833220051",
+      "new_side": "29.873684949747478049615660845819850243890105102044985985030159"
+    }
+  ],
+  "raw_source": "/workspace/squares_in_squares/artifacts/merged-fq-cpu-followup-v2.csv",
+  "raw_sha256": "a5086672035b695a9a67ebd551a1e595161d3a88436d9f27abd41835564cb0f0",
+  "raw_score": 22.301061590299433,
+  "raw_official_report_sha256": "afdd197b141d149988511c41462e218219f7c27770e7ae788645522b5d92a6ef",
+  "safe_submission": "/workspace/squares_in_squares/artifacts/submission-fq-cpu-followup-v2-safe.csv",
+  "safe_sha256": "2e6e39f36a7cdf54416fd3241b2daa2d161997f235f93961f945751f0510b958",
+  "safe_score": 22.301061591170022,
+  "safe_official_report_sha256": "0455307ef337f42c1ec3539b7300c663673b895d8a69c3b5d2c49a13875e42cc",
+  "safe_invalid_count": 0,
+  "safe_case_coverage": 1000,
+  "safe_reuse": {
+    "reused": 998,
+    "evaluated": 2
+  },
+  "safe_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-fq-remote-replay-v1-safe-official.json",
+    "report_sha256": "55f7d837952532996140cacdb880dbe3d8520cfddc3892e569fed8215b5a0a93",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-fq-remote-replay-v1-safe.csv",
+    "sha256": "5ec27316048815621d1eb424144f006726cf0053e376d5d5ed2cba174b2f69ac"
+  },
+  "roundtrip_submission": "/workspace/squares_in_squares/artifacts/submission-fq-cpu-followup-v2-safe-roundtrip.csv",
+  "roundtrip_sha256": "77b1811e4cc6db00b80835d756d8fd7ce9cb88b0003711f88ac4b3aa849bf44b",
+  "roundtrip_score": 22.301061591170022,
+  "roundtrip_official_report_sha256": "4544132033abfa70b1c838ade5b4d6c5b029c3e15bc0f13b5b250a82659574e9",
+  "roundtrip_invalid_count": 0,
+  "roundtrip_case_coverage": 1000,
+  "roundtrip_reuse": {
+    "reused": 998,
+    "evaluated": 2
+  },
+  "roundtrip_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-fq-remote-replay-v1-safe-roundtrip-official.json",
+    "report_sha256": "5b208e0b6ef80f7a8e6fcce25e46fa1a82d592b0549800e606258816b17ecf13",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-fq-remote-replay-v1-safe-roundtrip.csv",
+    "sha256": "4b24ba7f8c4a85eccc17a60510735afb1315339af9e59ec21007f06c95016fa6"
+  },
+  "roundtrip_evaluated": 2,
+  "roundtrip_reused": 998,
+  "same_binary64_score": true,
+  "absolute_score_difference": 0.0,
+  "score_tolerance": 1e-10,
+  "scores_agree_within_1e_10": true
+}

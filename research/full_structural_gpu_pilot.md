@@ -108,3 +108,37 @@ as explicitly unverified and certify strict candidates plus a bounded diverse
 subset, allowing more actual GPU search without changing final admission.
 No follow-up has been launched. Terminal stage/timing and immutable archive
 audits remain pending output collection at this point in the note.
+
+## Terminal audit and follow-up correction
+
+The supported named-output download retrieved 15 aggregate/control files. All
+2,246 certified search records were from loose stages; no contracted stage
+produced a certificate. Exact-arm counts were 1,141 first-loose and 13
+second-loose poses. The continuation arm retained 1,092 tau=.005 loose poses.
+Best exact sides were 17.822875699253 and 18.822875706306, slightly worse than
+the references. Continuation's best sides were about .04 worse. Complete raw
+contracted-stage residual populations were not retained, so certificate absence
+is not a proof that every target stage was infeasible.
+
+The exact arm spent 506.23 of 566.33 seconds certifying and 41.58 seconds in
+CUDA; the continuation arm spent 409.68 of 569.04 seconds certifying and
+126.50 seconds in CUDA. A separate v2 saves exact finite raw stages explicitly
+as UNVERIFIED, with bounded postrun certification and local follow-up admission.
+This preserves candidates while allowing substantially more optimizer work.
+
+A deterministic source-selection defect also limited v1: with 32 alternatives,
+a 32-item batch and every fourth position replaced by a current reference,
+eight n299 alternatives were never search starts. The best alternative appeared
+only in preflight. Global batch parity also limited operator exposure. The
+separate v2 scheduler advances its alternative cursor only for an actual
+alternative start; its finite-prefix regression explicitly covers this case.
+
+Finally, an independent source-faithful CPU control found incorrect angular
+gradients at tied separating axes. Both directed pair loops could assign the
+entire projection-angle derivative to their own duplicated axis, doubling the
+coherent-angle derivative. A first-owner ordering was insufficient at a coupled
+support-radius cusp; symmetric tied-axis weighting passes that counterexample.
+See `research/full_gpu_objective_review.md` for exact formulas and evidence.
+No certified geometry is invalidated: final gates evaluated actual coordinates.
+The executed v1 and attributed upstream source remain unchanged. Any corrected
+adapter must pass actual CUDA directional controls before a new search.
