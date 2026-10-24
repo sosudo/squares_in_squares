@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "https://github.com/Mishapolk/square-packing-records",
+    "license_url": "https://raw.githubusercontent.com/Mishapolk/square-packing-records/main/LICENSE",
+    "license_sha256": "4761eb7dc9e50c13cd9a876e0a56dbe3db7b97064a354c0ac235c93293e4de0c",
+    "license_file": "LICENSE-Mishapolk.txt"
+  },
+  {
+    "repository": "https://github.com/TheSnakeFang/squarepack-certs",
+    "license_url": "https://raw.githubusercontent.com/TheSnakeFang/squarepack-certs/main/LICENSE",
+    "license_sha256": "5cab86dc08f20ec45f059a2b953fc815801354697896a3da4d6c626f1d5889e7",
+    "license_file": "LICENSE-TheSnakeFang.txt"
+  }
+]

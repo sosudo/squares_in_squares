@@ -210,10 +210,60 @@ unchanged; the explicit adapter lives in `experiments/ftmc_guarded_worker.py`,
 with independently implemented clipped-corner support checks in
 `experiments/ftmc_profile_guard.py`.
 
-The job mounts our versioned portfolio source-export/2 and FTMC pilot/1 outputs
-with exact SHA256 checks, so it needs neither internet nor an embedded 35 MB CSV.
-Its code is 459,848 bytes. Each device receives a nominal 900-second search budget,
+The first version attempted to mount portfolio source-export/2 and FTMC pilot/1
+outputs with exact SHA256 checks, but stopped before GPU work when the expected
+portfolio hash was absent. A separate CPU probe established that Kaggle's
+`kernel_sources` version suffix does not pin mounted outputs: export/2 resolved
+to the newer export/3. The exact-hash check correctly rejected that mismatch.
+Failure evidence is retained in `artifacts/active-frontier-results/`.
+
+Those attachments were unused audit inputs: all worker poses, priorities, and
+targets were already embedded and hash-verified. The minimal second version,
+`artifacts/active-frontier-job-v2/`, removes the unused mounts and embeds compact
+baseline provenance and the official validation result instead. All 31 existing
+payload files remain byte-identical. This self-contained private/offline source
+is 461,376 bytes and requires no input attachments. Its local bootstrap succeeded
+without any Kaggle input directory; both GPU preflight suites then passed on
+the actual version-2 run.
+
+Each device receives a nominal 900-second search budget,
 with a 120-second worker grace period and a 1,500-second overall parent timeout.
 All 17 initial support profiles, payload/source hashes, an equal-bloat incompatible
 reflection, and adapter admission/separate-archive wiring passed local checks.
 Actual GPU execution and resulting full-puzzle gains are tracked separately.
+
+Version 2 completed cleanly with 683,941 core trials, 2,474 refill seeds and
+39,584 complete quenches across the two 900-second workers. It emitted zero
+variants, including near-best alternatives. The guarded arm had zero polished
+poses reach profile comparison, so neither profile rejection nor official
+validation caused this failure to improve. The old counters cannot distinguish
+FP64 rejection from unsuccessful LP repair. Results and empty checkpoint hashes
+are recorded in `artifacts/active-frontier-results-v2/analysis.json`. No active
+variant is available for composition or competition submission from this run.
+
+### Diagnostic adapters prepared for the following bounded experiment
+
+The active-seed angle distribution differs materially from the public worker's
+fixed cold-lattice library. Weighted by the 17 current target priorities, only
+12.75% of tilted seed squares are within three degrees of an original library
+angle. `artifacts/active-frontier/angle_coverage_diagnostic.json` records each
+seed's coverage. The prominent active angles are around 17–22 degrees, while
+the public cold library starts at 26.565 degrees in magnitude.
+
+`experiments/ftmc_adaptive_angles.py` is an explicit, optional adaptation that
+changes only the fixed `angles` assignment in an AST copy of the public
+`mutations` function. Three quarters of its sampling entries use incumbent
+orientation peaks and nearby rational slopes atan(p/q), q<=8; the remaining
+quarter retains the original broad library. Original source remains unchanged.
+The new library covers 98.98% of current tilted seed angles within three degrees;
+this is targeting evidence, not a measured optimization gain. Disabled mode is
+the original function. A zero-local-weight adaptation gives bitwise identical
+mutations and random-number behavior across all six public mutation modes.
+
+`experiments/ftmc_funnel_metrics.py` observes core FP32, complete FP32, FP64,
+linear-polish and official-certification stages without changing returned
+objects. It records finite-result counts, residual thresholds and admission
+failures so subsequent runs can distinguish refill and quench bottlenecks.
+Five focused CPU tests cover both adapters. Two additional review tests for
+`experiments/ftmc_overflow_capture.py` verify correct row-family/core capture,
+unchanged returned arrays, archive bounds and explicit unvalidated status.

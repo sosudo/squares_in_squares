@@ -62,3 +62,11 @@ the ordinary independent, official and transport checks before submission.
 
 At preparation time no GPU run or competition submission had been made by the
 packaging agent. Read the job's actual status and outputs before claiming gains.
+
+While the first GPU run was in progress, an independent CPU refill control
+reconstructed the required square count for all 24 seeds in 24.1 seconds. It
+used each unchanged tilted core, incumbent upright candidates and the worker's
+0.035 expanded exploration box. Every finite candidate graph optimum was
+proved by simplicial reductions. This verifies refill capacity, not a score
+improvement: the zero-margin contact candidates still require repair and final
+geometry validation. Evidence is `artifacts/full-puzzle-refill-control.json`.

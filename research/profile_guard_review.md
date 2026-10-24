@@ -41,3 +41,14 @@ separator compatibility, not a leaderboard improvement.
 Current full-puzzle CPU refinement priorities are saved separately in
 `research/cpu_refinement_priorities.json`, with the baseline hash and explicitly
 hypothetical gains. Leading actionable cases are n=646, 650, 813, 925, 799, 599.
+
+## Actual run follow-up
+
+Version 1 stopped before GPU preflight: the notebook attachment requested export
+v2, but Kaggle mounted latest export v3. The required hash correctly rejected it.
+A CPU probe later confirmed that attachment version suffixes do not pin outputs.
+Version 2 removed those unused audit attachments and embedded all actual search
+inputs, without changing the reviewed search or guard. It passed both GPUs'
+preflights and completed in 935.9 seconds. There were 683,941 core trials and
+39,584 full quenches, but zero emitted variants. The guard received zero
+non-None polished poses, so it was not responsible for the absence of gains.

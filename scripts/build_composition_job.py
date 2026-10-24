@@ -17,7 +17,8 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 
 DRIVER = r'''
-import argparse,csv,hashlib,importlib.util,json,math,sys,tempfile,time
+import argparse,csv,hashlib,importlib.util,json,math,shutil,sys,tempfile,time
+from decimal import Decimal
 from pathlib import Path
 import numpy as np
 import cupy as cp
@@ -30,6 +31,17 @@ parser.add_argument('--config',type=Path,required=True)
 parser.add_argument('--root',type=Path,required=True)
 args=parser.parse_args()
 root=args.root.resolve();config=json.loads(args.config.read_text());started=time.monotonic()
+if config.get('attached_inputs'):
+    from attached_composition_inputs import resolve_inputs
+    resolved=resolve_inputs(config['attached_inputs'],embedded_root=root)
+    (root/'inputs').mkdir(exist_ok=True)
+    shutil.copyfile(resolved['inputs']['baseline']['path'],root/'inputs/baseline.csv')
+    assert hashlib.sha256((root/'inputs/baseline.csv').read_bytes()).hexdigest()==config['baseline_sha256']
+    config['comparison_runs']={group:[resolved['inputs'][label]['path']for label in members]
+                               for group,members in resolved['groups'].items()}
+    (root/'composition_attached_inputs.json').write_text(json.dumps(resolved,indent=2)+'\n')
+    print(json.dumps({'stage':'immutable attachments resolved','baseline_sha256':config['baseline_sha256'],
+                      'groups':list(config['comparison_runs'])}),flush=True)
 if config.get('source_backed'):
     spec=importlib.util.spec_from_file_location('portfolio_loader',root/'pipeline/portfolio_loader.py')
     loader=importlib.util.module_from_spec(spec);spec.loader.exec_module(loader)
@@ -72,15 +84,42 @@ with tempfile.TemporaryDirectory(prefix='preflight-',dir=root)as directory:
 preflight={'gpu':name,'cupy_version':cp.__version__,'seconds':time.monotonic()-started,'checks':checks,'passed':True}
 (root/'composition_preflight.json').write_text(json.dumps(preflight,indent=2))
 cp.get_default_memory_pool().free_all_blocks()
-argv=['compose_gadgets.py','--baseline',str(root/'inputs/baseline.csv'),
+def run_composition(paths,output):
+    argv=['compose_gadgets.py','--baseline',str(root/'inputs/baseline.csv'),
       '--backend','gpu','--source-dir',str(root/'sources'),'--method',config['method'],
       '--seconds',str(config['seconds']),'--bins',str(config['bins']),
       '--baseline-donors',str(config['baseline_donors']),
       '--closure-seconds',str(config['closure_seconds']),
-      '--output',str(root/'composition_candidates.json')]
-if config['gadget_paths']:argv+=['--gadgets',*config['gadget_paths']]
-sys.argv=argv
-compose_gadgets.main()
+          '--output',str(output)]
+    if paths:argv+=['--gadgets',*paths]
+    sys.argv=argv
+    compose_gadgets.main()
+    cp.get_default_memory_pool().free_all_blocks()
+if config.get('comparison_runs'):
+    merged={};groups={};origins={};group_candidates={}
+    for group,paths in config['comparison_runs'].items():
+        output=root/('composition_'+group+'_candidates.json')
+        run_composition(paths,output)
+        groups[group]=json.loads(output.with_suffix('.report.json').read_text())
+        group_candidates[group]=json.loads(output.read_text())
+        for n,row in group_candidates[group].items():
+            if n not in merged or Decimal(row['side'])<Decimal(merged[n]['side']):
+                merged[n]=row;origins[n]=group
+    (root/'composition_candidates.json').write_text(json.dumps(merged)+'\n')
+    base=compose_gadgets.read_baseline(root/'inputs/baseline.csv')
+    gain=sum((compose_gadgets.side(base[int(n)])-float(row['side']))/math.sqrt(int(n))for n,row in merged.items())
+    control=group_candidates.get('control',{})
+    gains_over_control={group:sum(max(0.,float(control[n]['side'])-float(row['side'])
+                      if n in control else compose_gadgets.side(base[int(n)])-float(row['side']))/math.sqrt(int(n))
+                      for n,row in candidates.items())for group,candidates in group_candidates.items()}
+    report={'baseline_sha256':config['baseline_sha256'],'backend':'gpu comparison',
+            'seconds':time.monotonic()-started,'improvements':len(merged),
+            'estimated_score_gain':gain,'winning_group':origins,'groups':groups,
+            'estimated_gain_beyond_control':gains_over_control,
+            'attribution_note':'Only gains beyond the matched control can be attributed to supplied donor groups.'}
+    (root/'composition_candidates.report.json').write_text(json.dumps(report,indent=2)+'\n')
+else:
+    run_composition(config['gadget_paths'],root/'composition_candidates.json')
 '''
 
 RUNTIME = r'''
@@ -116,8 +155,7 @@ with (root/'composition.log').open('w')as log:
 status['wall_seconds']=time.monotonic()-started
 status['success']=not status['timed_out'] and status['returncode']==0 and(root/'composition_candidates.json').is_file()
 (root/'composition_job_summary.json').write_text(json.dumps(status,indent=2))
-for name in ['composition_candidates.json','composition_candidates.report.json','composition_preflight.json',
-             'composition_job_summary.json','composition.log']:
+for name in sorted({p.name for p in root.glob('composition_*.json')}|{'composition.log'}):
     source=root/name
     if source.exists():
         destination=working/name
@@ -135,6 +173,8 @@ def main():
     parser.add_argument('--baseline', type=Path, required=True)
     parser.add_argument('--source-backed', action='store_true',
                         help='Reconstruct baseline from pinned public sources and exact embedded patches')
+    parser.add_argument('--attached-inputs', type=Path,
+                        help='Expected notebook versions and mandatory SHA hashes; resolves inputs offline and compares donor groups')
     parser.add_argument('--baseline-report', type=Path,
                         help='Official metric report; default adjacent STEM-official.json')
     parser.add_argument('--gadgets', nargs='*', type=Path, default=[])
@@ -154,6 +194,8 @@ def main():
     args = parser.parse_args()
     if args.seconds <= 0 or args.wall_seconds <= 0 or args.closure_seconds < 0:
         parser.error('Invalid wall/extraction budget')
+    if args.attached_inputs and (args.source_backed or args.gadgets or args.runtime_gadgets):
+        parser.error('--attached-inputs supplies every donor and cannot combine with embedded/source-backed inputs')
     payload = {}
     for path in sorted(args.source_dir.rglob('*')):
         if path.is_file() and '__pycache__' not in path.parts:
@@ -163,10 +205,28 @@ def main():
             raise ValueError(f'Missing attributed public source: {required}')
     payload['pipeline/compose_gadgets.py'] = (ROOT/'experiments/compose_gadgets.py').read_bytes()
     payload['pipeline/validate_submission.py'] = (ROOT/'scripts/validate_submission.py').read_bytes()
+    payload['pipeline/attached_composition_inputs.py'] = (ROOT/'experiments/attached_composition_inputs.py').read_bytes()
     payload['pipeline/driver.py'] = DRIVER.encode()
     baseline_bytes = args.baseline.read_bytes()
     portfolio_manifest = None
-    if args.source_backed:
+    attached = None
+    kernels = []
+    if args.attached_inputs:
+        import sys
+        sys.path.insert(0,str(ROOT/'experiments'))
+        from attached_composition_inputs import validate_manifest
+        attached=json.loads(args.attached_inputs.read_text())
+        kernels=validate_manifest(attached)
+        if attached['baseline']['sha256']!=hashlib.sha256(baseline_bytes).hexdigest():
+            raise ValueError('Attached baseline descriptor does not match the local certified incumbent')
+        for label,record in attached.get('gadgets',{}).items():
+            if 'local_path' in record:
+                data=Path(record.pop('local_path')).read_bytes()
+                if hashlib.sha256(data).hexdigest()!=record['sha256']:
+                    raise ValueError('Local donor hash differs from its frozen descriptor: '+label)
+                record['embedded_path']='inputs/attached_gadgets/'+label+'.npz'
+                payload[record['embedded_path']]=data
+    elif args.source_backed:
         from build_source_export_job import make_loader
         report = args.baseline_report or args.baseline.with_name(args.baseline.stem+'-official.json')
         loader, portfolio_manifest, _ = make_loader(args.baseline, report)
@@ -188,6 +248,8 @@ def main():
                 'baseline_input': str(args.baseline),
                 'baseline_sha256': hashlib.sha256(baseline_bytes).hexdigest(),
                 'source_backed': args.source_backed, 'portfolio_sources': portfolio_manifest,
+                'attached_inputs': attached,
+                'attachment_version_warning': 'Kaggle may attach latest outputs despite version suffixes; exact runtime SHA checks are mandatory.' if attached else None,
                 'method': args.method, 'seconds': args.seconds,
                 'wall_seconds': args.wall_seconds, 'closure_seconds': args.closure_seconds,
                 'bins': args.bins, 'baseline_donors': args.baseline_donors,
@@ -209,7 +271,7 @@ def main():
     metadata = {'id': args.slug, 'title': title,
                 'code_file': 'search.py', 'language': 'python', 'kernel_type': 'script',
                 'is_private': True, 'enable_gpu': True, 'enable_internet': args.source_backed,
-                'dataset_sources': [], 'competition_sources': [], 'kernel_sources': []}
+                'dataset_sources': [], 'competition_sources': [], 'kernel_sources': kernels}
     (args.out/'kernel-metadata.json').write_text(json.dumps(metadata, indent=2)+'\n')
     print(json.dumps({'output': str(args.out), 'script_bytes': len(source.encode()),
                       'baseline_sha256': manifest['baseline_sha256'], 'files': len(payload),

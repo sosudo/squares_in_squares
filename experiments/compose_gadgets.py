@@ -383,7 +383,10 @@ def gpu_compose(base, baseline, donors, source_dir, output_dir, method, seconds,
     seam.inputs = fault.inputs
     import gpu_adaptive_seams as adaptive
     previous = Path.cwd()
-    all_candidates, reports = {}, {'_source_compatibility': compatibility}
+    all_candidates, reports = {}, {'_source_compatibility': compatibility,
+        '_donor_sources': [{'index': index, 'label': label,
+                           'array_sha256': hashlib.sha256(p.tobytes()).hexdigest()}
+                          for index, (p, label) in enumerate(donors)]}
     with tempfile.TemporaryDirectory(prefix='composition-', dir=output_dir) as directory:
         work = Path(directory)
         (work / 'artifacts').mkdir()
