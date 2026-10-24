@@ -88,3 +88,24 @@ This run completed 1,249 proposals, accepted 1,220 including 408 uphill transiti
 Unlike the cold run, the terminal invalid state had D4-matched RMS center displacement 0.524 and maximum 1.316; 299 centers moved over 0.1 units, 85 angles changed over one degree, and the largest angle change was 33.9 degrees. This demonstrates large geometric exploration, but the chain wandered far above its starting residual. It supports testing a bounded cooling phase while retaining the best observed state separately; it does not establish a valid alternative packing.
 
 Evidence: `artifacts/packer-hop-deep-335-v1/completion-proof.json`, SHA256 `536f1e040cdab7f636b482f65f6f5be3ba715b40590189e624ad78094a8d816c`, binds 1,232 files. Report SHA256 `c53ab1ba67876f5bf40c711621b1ca5f7c60ddd645425417f45a85751957d223`; executed driver SHA256 `a22faf9755323dc9956b7994415e970a178a6884bff2a8bec11bd38659916ca1`. All raw states remain unverified and were not merged or submitted.
+
+## Two weighted-move chains with actual heating and cooling
+
+The next authorized control deliberately changed the search policy while retaining the exact physical-energy, gradient, neighbor-list, and L-BFGS source prefix. A separately frozen Rust copy draws shake/cluster-rotation/cluster-translation/strip-slide with probabilities 20/20/30/30 percent. It omits swaps, standalone reangles, and relocations. Actual zero-change draws are logged and skipped before quenching. One chain uses T=3 and the other T=1 for the first 40 seconds from native entry; both use T=0.1 afterward. Temperature is captured at the acceptance decision and retained beside the actual move kind and changed-unit count. Both use target side 18.807, amplitude 1.5, and `descend=0`.
+
+Two focused Rust controls prove the finite move distribution and exact 40-second temperature boundary. Old/new binaries give identical full-n335 output and numerical energy with zero L-BFGS iterations. The physical implementation prefix is byte-identical. Source `artifacts/packer-hop-cooled-v1-source/main.rs` SHA256 `6c9c02d5af27c9ebeb99d52d1d64e16d0dcae16d26a9702b88b8b700f1c24dc2`; binary SHA256 `193bc2b8e83bebca5393d3160b494e43ee0a2f0ab916a48dc754fe022ec9720d`. The complete intentional diff and original source are retained beside them.
+
+`experiments/packer_hop_cooled_335.py` ran the two native workers for 110 seconds each under a 160-second outer bound, finishing in 113.41 seconds. Final certificate attempts are serial because mpmath contexts are process-global.
+
+| Chain | Completed proposals | Accepted | Best physical energy | Terminal energy |
+|---|---:|---:|---:|---:|
+| T3 then T0.1 | 954 | 782 | 0.000375484246 | 0.0347564 |
+| T1 then T0.1 | 1,013 | 807 | 0.000301552422 | 0.0367307 |
+
+Actual cool decisions began at 40.183 and 40.059 seconds. All later recorded decisions used T=0.1. Both chains skipped nine empty moves, and all 1,967 completed proposals have temperature/move records. Fourteen ordinal energy samples passed independent dense all-pair checks. The 1,591 retained raw states remain infeasible/unverified; neither chain emitted a feasible best.
+
+The T1 chain's improved energy was found **during the warm phase**, at 16.513 seconds, iteration 70, after translating a 40-unit cluster. Its exact-radian archive is `artifacts/packer-hop-cooled-335-v1/best-infeasible-exact-radians.npz`, SHA256 `58af99513d847949e8f9d65d5732b036078989dd6a47a867e94a40a850cc165d`. Independent maximum pair overlap is 0.00186639 and wall violation 0.00148109, so it exceeds rounding-only repair. A separately authorized single rigid native finish, owned by the full-puzzle agent, subsequently passed all physical gates at side 18.822905326761494, still 0.0000296712 worse than the current reference. No portfolio improvement resulted.
+
+Completion proof `artifacts/packer-hop-cooled-335-v1/completion-proof.json`, SHA256 `3c16ee02d02adac0488b673b322a10fd5d723e7660dcacbb54b604225dfbb223`, binds 1,614 files. Exact initializer and native-degree-file conventions/provenance are in `best-infeasible-handoff.json`. The finite result distinguishes a real residual reduction from a valid side/score improvement.
+
+The exact modified native source and complete MIT notice are tracked under `experiments/native/`; the original artifact source and build evidence remain unchanged. This preserves the executable method beyond the temporary workspace.

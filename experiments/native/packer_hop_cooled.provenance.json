@@ -1,0 +1,23 @@
+{
+  "parent_source_sha256": "3bfa9e5d38449ddd6a6cf2e8d58dc1e8f77c97c2f0f3e8e6770c66c1723f88c1",
+  "source_sha256": "6c9c02d5af27c9ebeb99d52d1d64e16d0dcae16d26a9702b88b8b700f1c24dc2",
+  "diff_sha256": "8779b97395960bd0ee91b991322ce87371aea390ae9c0f93d77f7c624dd7b1d4",
+  "original_public_commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+  "license": "MIT",
+  "intentional_search_math_changes": [
+    "weighted four-operator draw",
+    "decision-time warm-to-cold temperature schedule"
+  ],
+  "physical_energy_gradient_neighbor_list_and_lbfgs_prefix_unchanged_sha256": "74facbecf040c7f9a049dd61fd54c2da95c783e74588431560b50997c0da191d",
+  "weights": {
+    "shake": 0.2,
+    "cluster_rotation": 0.2,
+    "cluster_translation": 0.3,
+    "strip_slide": 0.3
+  },
+  "native_epoch": "Instant at hop entry before initial minimize",
+  "decision_temperature": "warm before40seconds;0.1 at/after40seconds",
+  "recorded_actual_move": "kind and positive changed-unit count before quench",
+  "counted_replacements": 7,
+  "zero_moves": "Logged SKIP_ZERO_MOVE and skipped before quench; nominal draw weights unchanged."
+}

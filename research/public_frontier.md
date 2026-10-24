@@ -99,3 +99,14 @@ safety cases were unchanged. Its complete source/report/hash bindings are in
 Neither refresh alone is expected to meet the user's new strict score<22.3 submission threshold; no new submission or runner restart was performed by this research task.
 
 The combined refresh was subsequently certified at **22.304375968681107** on both safe decimal and ordinary pandas numeric-roundtrip CSVs, with zero invalid cases,21 fresh evaluations and979 exact unchanged-certificate reuses. All21 source changes improve after the once-only transport transform. Exact safe CSV SHA256: `82ad3a551afb934d4b263a9fd1a7dc121f19bd9052c13218c5a39017ed7d0f29`. This is a search baseline only: it remains above the user's strict submission ceiling. Full report bindings are in `artifacts/submission-public-refresh-v1-safe.transport-validation.json`.
+
+At 12:45–12:47 UTC, the public Evan Daniel solver HEAD remained the pinned
+`659ee62e4a9d39542a1146e8b011cc3ab6407ede`. Joshua Levy's public repository
+advanced from the earlier local checkout to
+`90a543771ae8c5015746cb1f41da3d36097ed007`. A comparison of all 324 published
+atlas sides at that exact commit against current RAW `a0dad731…` found zero
+improvements above 1e-8 in physical side. The largest apparent differences
+were only about 1e-11, consistent with decimal/clearance conventions; they
+were not claimed as coordinate gains. The exact manifest and comparison are
+retained under `artifacts/public-freshness/jlevy-90a543771ae8/`. Witness
+coordinates were not re-imported, and the earlier checkout was not modified.
