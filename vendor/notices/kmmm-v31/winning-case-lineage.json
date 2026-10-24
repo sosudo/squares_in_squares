@@ -1,0 +1,63 @@
+{
+  "dataset": "kmmmvs/squares-in-squares-best-packings",
+  "explicit_version": 31,
+  "source_csv_sha256": "0dca84e8b18a0de1ec2f3f1bb8c1bd00a529c893a2591138f13231ec9109e799",
+  "declared_dataset_license": "Other (specified in description)",
+  "source_notices_sha256": "ff1f69736ab286ef101d1a8675ed53a69400788169810b7a053a08671a091375",
+  "source_specific_attribution": {
+    "per_puzzle.csv": [
+      {
+        "n": "802",
+        "L": "28.80734042453528221961566084581987562858835884801037",
+        "score": "0.017222553628165604",
+        "source": "local-candidate-bank",
+        "source_sha256": "011755bd9d2c94b7095ed8644afbd4eb85ff7e904567c7f3c68f9333f8390b8a",
+        "validation": "official raw and pandas certified; own controlled experiment on inherited witness"
+      },
+      {
+        "n": "928",
+        "L": "30.90890023717208362663431228329437200312728324677086",
+        "score": "0.014634358440024808",
+        "source": "local-candidate-bank",
+        "source_sha256": "1afb3c54ef87a50b76776e49142e44a95347b2e25a52f0ee9d2513273c93e76a",
+        "validation": "official raw and pandas certified; public source and inherited attribution retained"
+      }
+    ],
+    "per_puzzle_contributors.csv": [
+      {
+        "n": "802",
+        "provider_id": "METHOD-local-strata",
+        "source": "local-candidate-bank",
+        "source_sha256": "011755bd9d2c94b7095ed8644afbd4eb85ff7e904567c7f3c68f9333f8390b8a",
+        "discovery_attribution": "Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced",
+        "upstream_evidence": "SOURCE_NOTICES.md; public_local_1318_provenance.json; preserved source notices and local parent ledger"
+      },
+      {
+        "n": "928",
+        "provider_id": "METHOD-local-strata",
+        "source": "local-candidate-bank",
+        "source_sha256": "1afb3c54ef87a50b76776e49142e44a95347b2e25a52f0ee9d2513273c93e76a",
+        "discovery_attribution": "Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced",
+        "upstream_evidence": "SOURCE_NOTICES.md; public_local_1318_provenance.json; preserved source notices and local parent ledger"
+      }
+    ]
+  },
+  "public_provenance_sha256": "87a2c3c868ec2b36ec4d7b788aa6fbb5d7606c3a40f50a1d77026901e76e655d",
+  "selected_changes": [
+    {
+      "n": 802,
+      "before_score": "0.01722255941772244",
+      "after_score": "0.017222553628165604",
+      "source": "local-candidate-bank",
+      "gain": 5.789556833946108e-09
+    },
+    {
+      "n": 928,
+      "before_score": "0.014634449339578248",
+      "after_score": "0.014634358440024808",
+      "source": "local-candidate-bank",
+      "gain": 9.089955343988265e-08
+    }
+  ],
+  "scope": "Both admitted cases are explicitly attributed to local-candidate-bank refinements on inherited witnesses. Exclusive discoverer claims are not made. Full inherited source-specific terms and credits retained."
+}

@@ -1,0 +1,1001 @@
+n,L,score,source,source_sha256,validation
+1,1,0.0,exact axis-aligned grid,,integer grid construction
+2,2,0.4142135623730949,exact axis-aligned grid,,integer grid construction
+3,2,0.15470053837925168,exact axis-aligned grid,,integer grid construction
+4,2,0.0,exact axis-aligned grid,,integer grid construction
+5,2.70710678118825460000000000000000000000000000000000,0.21065495701751713,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+6,3,0.22474487139158916,exact axis-aligned grid,,integer grid construction
+7,3,0.1338934190276817,exact axis-aligned grid,,integer grid construction
+8,3,0.06066017177982119,exact axis-aligned grid,,integer grid construction
+9,3,0.0,exact axis-aligned grid,,integer grid construction
+10,3.70710678118925460000000000000000000000000000000000,0.17229009580134869,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+11,3.87708359002569100000000000000000000000000000000000,0.16898468626902896,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+12,4,0.15470053837925168,exact axis-aligned grid,,integer grid construction
+13,4,0.1094003924504583,exact axis-aligned grid,,integer grid construction
+14,4,0.06904496764969759,exact axis-aligned grid,,integer grid construction
+15,4,0.03279555898864439,exact axis-aligned grid,,integer grid construction
+16,4,0.0,exact axis-aligned grid,,integer grid construction
+17,4.67553009360822690000000000000000000000000000000000,0.13398261362945574,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+18,4.82287565553611760000000000000000000000000000000000,0.13676269361636817,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+19,4.88561808316801290000000000000000000000000000000000,0.12083765796127688,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+20,5,0.1180339887498949,exact axis-aligned grid,,integer grid construction
+21,5,0.09108945117996203,exact axis-aligned grid,,integer grid construction
+22,5,0.06600358177805221,exact axis-aligned grid,,integer grid construction
+23,5,0.0425720702853738,exact axis-aligned grid,,integer grid construction
+24,5,0.0206207261596576,exact axis-aligned grid,,integer grid construction
+25,5,0.0,exact axis-aligned grid,,integer grid construction
+26,5.62132034356426370000000000000000000000000000000000,0.10243162015347229,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+27,5.70710678119125460000000000000000000000000000000000,0.09833321213823631,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+28,5.82444461667888330000000000000000000000000000000000,0.10071657005723234,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+29,5.93383346268186290000000000000000000000000000000000,0.1018852115390152,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+30,6,0.09544511501033215,exact axis-aligned grid,,integer grid construction
+31,6,0.0776318121606494,exact axis-aligned grid,,integer grid construction
+32,6,0.06066017177982119,exact axis-aligned grid,,integer grid construction
+33,6,0.044465935734187,exact axis-aligned grid,,integer grid construction
+34,6,0.028991510855052915,exact axis-aligned grid,,integer grid construction
+35,6,0.014185105674219933,exact axis-aligned grid,,integer grid construction
+36,6,0.0,exact axis-aligned grid,,integer grid construction
+37,6.59861960924995960000000000000000000000000000000000,0.08480638137396568,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+38,6.70710678119225460000000000000000000000000000000000,0.08803639372078198,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+39,6.81072208307445940000000000000000000000000000000000,0.09058835324225045,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+40,6.82842712475201820000000000000000000000000000000000,0.07966912753455513,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+41,6.92669309447472940000000000000000000000000000000000,0.08176771801194826,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+42,7,0.08012344973464325,exact axis-aligned grid,,integer grid construction
+43,7,0.0674899923282326,exact axis-aligned grid,,integer grid construction
+44,7,0.05528970602217265,exact axis-aligned grid,,integer grid construction
+45,7,0.0434983894999017,exact axis-aligned grid,,integer grid construction
+46,7,0.032093693084279895,exact axis-aligned grid,,integer grid construction
+47,7,0.02105494048526202,exact axis-aligned grid,,integer grid construction
+48,7,0.01036297108184514,exact axis-aligned grid,,integer grid construction
+49,7,0.0,exact axis-aligned grid,,integer grid construction
+50,7.57142857143514270000000000000000000000000000000000,0.07076169722627279,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+51,7.69035593729518230000000000000000000000000000000000,0.07686522580810018,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+52,7.70710678119325460000000000000000000000000000000000,0.06878341096417318,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+53,7.82287565553911750000000000000000000000000000000000,0.07455461174532352,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+54,7.84666719285033630000000000000000000000000000000000,0.06779615577334286,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+55,7.94577100751085870000000000000000000000000000000000,0.07140754408564742,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+56,8,0.06904496764969759,exact axis-aligned grid,,integer grid construction
+57,8,0.05962588565203508,exact axis-aligned grid,,integer grid construction
+58,8,0.05045146287778035,exact axis-aligned grid,,integer grid construction
+59,8,0.04151128784659108,exact axis-aligned grid,,integer grid construction
+60,8,0.03279555898864439,exact axis-aligned grid,,integer grid construction
+61,8,0.0242950394631678,exact axis-aligned grid,,integer grid construction
+62,8,0.016001016001524038,exact axis-aligned grid,,integer grid construction
+63,8,0.00790526135793912,exact axis-aligned grid,,integer grid construction
+64,8,0.0,exact axis-aligned grid,,integer grid construction
+65,8.53553390594027280000000000000000000000000000000000,0.05870268260049172,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+66,8.65685424950003650000000000000000000000000000000000,0.06558509676173174,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+67,8.70710678119425360000000000000000000000000000000000,0.06374239740951926,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+68,8.79879523722608260000000000000000000000000000000000,0.06701065121366878,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+69,8.82719465573756680000000000000000000000000000000000,0.06266935898510972,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+70,8.88096037156346150000000000000000000000000000000000,0.061477791445765595,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+71,8.94407155757826040000000000000000000000000000000000,0.061466007410720724,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+72,9,0.060660171779821415,exact axis-aligned grid,,integer grid construction
+73,9,0.053370324765175114,exact axis-aligned grid,,integer grid construction
+74,9,0.046228748694373545,exact axis-aligned grid,,integer grid construction
+75,9,0.03923048454132627,exact axis-aligned grid,,integer grid construction
+76,9,0.032370802417527766,exact axis-aligned grid,,integer grid construction
+77,9,0.025645188136741437,exact axis-aligned grid,,integer grid construction
+78,9,0.019049330730136038,exact axis-aligned grid,,integer grid construction
+79,9,0.012579110833421447,exact axis-aligned grid,,integer grid construction
+80,9,0.0062305898749053235,exact axis-aligned grid,,integer grid construction
+81,9,0.0,exact axis-aligned grid,,integer grid construction
+82,9.53553390594127280000000000000000000000000000000000,0.05302356117153684,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+83,9.63475764863971740000000000000000000000000000000000,0.05755204348294751,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+84,9.69793479902361900000000000000000000000000000000000,0.05813143574457347,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+85,9.74264068712802640000000000000000000000000000000000,0.056737752310674905,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+86,9.82053540750556270000000000000000000000000000000000,0.058975567333884094,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+87,9.83881526995709960000000000000000000000000000000000,0.05483171788745067,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+88,9.88245103049012920000000000000000000000000000000000,0.05347281952486793,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+89,9.94974746831478290000000000000000000000000000000000,0.05467112230123172,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+90,10,0.05409255338945984,exact axis-aligned grid,,integer grid construction
+91,10,0.04828483672191841,exact axis-aligned grid,,integer grid construction
+92,10,0.0425720702853738,exact axis-aligned grid,,integer grid construction
+93,10,0.036951694730425366,exact axis-aligned grid,,integer grid construction
+94,10,0.03142124625879328,exact axis-aligned grid,,integer grid construction
+95,10,0.0259783520851542,exact axis-aligned grid,,integer grid construction
+96,10,0.0206207261596576,exact axis-aligned grid,,integer grid construction
+97,10,0.015346165133619083,exact axis-aligned grid,,integer grid construction
+98,10,0.010152544552210818,exact axis-aligned grid,,integer grid construction
+99,10,0.005037815259212097,exact axis-aligned grid,,integer grid construction
+100,10,0.0,exact axis-aligned grid,,integer grid construction
+101,10.53553390594227180000000000000000000000000000000000,0.04832480551308693,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+102,10.60582869644118330000000000000000000000000000000000,0.05013352250127423,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+103,10.67923204737098570000000000000000000000000000000000,0.05225600045850398,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+104,10.70710678119625360000000000000000000000000000000000,0.04991820022002558,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+105,10.78930378375794680000000000000000000000000000000000,0.05292823496332644,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+106,10.82290804414266960000000000000000000000000000000000,0.051213757286848516,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+107,10.84666719285333640000000000000000000000000000000000,0.048586895986581835,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+108,10.90482101233026150000000000000000000000000000000000,0.0493168911555939,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+109,10.94974746831578190000000000000000000000000000000000,0.04879559416866108,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+110,10.99678339664158870000000000000000000000000000000000,0.04850215707348293,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+111,11,0.04407379532774902,exact axis-aligned grid,,integer grid construction
+112,11,0.039402300775374766,exact axis-aligned grid,,integer grid construction
+113,11,0.03479295522195702,exact axis-aligned grid,,integer grid construction
+114,11,0.030244392739863457,exact axis-aligned grid,,integer grid construction
+115,11,0.0257552890643451,exact axis-aligned grid,,integer grid construction
+116,11,0.021324359973785345,exact axis-aligned grid,,integer grid construction
+117,11,0.016950359746253252,exact axis-aligned grid,,integer grid construction
+118,11,0.012632079688155828,exact axis-aligned grid,,integer grid construction
+119,11,0.008368346731032483,exact axis-aligned grid,,integer grid construction
+120,11,0.004158022092804581,exact axis-aligned grid,,integer grid construction
+121,11,0.0,exact axis-aligned grid,,integer grid construction
+122,11.53553390594327280000000000000000000000000000000000,0.04437816817334195,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+123,11.59137814550828820000000000000000000000000000000000,0.0451593697752517,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+124,11.65685424950303740000000000000000000000000000000000,0.046816414082043956,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+125,11.70710678119725560000000000000000000000000000000000,0.047115463304232774,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+126,11.74264068713002770000000000000000000000000000000000,0.04611757779124526,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+127,11.81087878759999150000000000000000000000000000000000,0.04804601741015513,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+128,11.82509196822451260000000000000000000000000000000000,0.045200339860766325,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+129,11.87001385041533570000000000000000000000000000000000,0.045096445269589,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+130,11.90448303252669030000000000000000000000000000000000,0.04409223093819947,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+131,11.94965958804681060000000000000000000000000000000000,0.044046605779496595,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+132,11.98568019885679540000000000000000000000000000000000,0.04321955702580671,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+133,12,0.04053196342894383,exact axis-aligned grid,,integer grid construction
+134,12,0.036642110697632235,exact axis-aligned grid,,integer grid construction
+135,12,0.03279555898864461,exact axis-aligned grid,,integer grid construction
+136,12,0.028991510855052915,exact axis-aligned grid,,integer grid construction
+137,12,0.025229189260113083,exact axis-aligned grid,,integer grid construction
+138,12,0.0215078369104984,exact axis-aligned grid,,integer grid construction
+139,12,0.017826715615965272,exact axis-aligned grid,,integer grid construction
+140,12,0.014185105674219933,exact axis-aligned grid,,integer grid construction
+141,12,0.010582305279822846,exact axis-aligned grid,,integer grid construction
+142,12,0.0070176299560269495,exact axis-aligned grid,,integer grid construction
+143,12,0.0034904120085088586,exact axis-aligned grid,,integer grid construction
+144,12,0.0,exact axis-aligned grid,,integer grid construction
+145,12.53553390594427380000000000000000000000000000000000,0.041019428441969374,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+146,12.58378219016344570000000000000000000000000000000000,0.04144122414688689,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+147,12.65685424950403650000000000000000000000000000000000,0.043919744006430506,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+148,12.65685424950403650000000000000000000000000000000000,0.040387010544985724,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+149,12.70710678119825360000000000000000000000000000000000,0.041006749260156905,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+150,12.77817459306380110000000000000000000000000000000000,0.04333358657341302,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+151,12.82287565554411970000000000000000000000000000000000,0.04351082167394704,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+152,12.83071880098844140000000000000000000000000000000000,0.04070871901276929,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+153,12.87001385041633510000000000000000000000000000000000,0.04047895114566269,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+154,12.92110094077360060000000000000000000000000000000000,0.041211985856531186,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+155,12.95226094466251610000000000000000000000000000000000,0.04035063437418729,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+156,12.97916585384625590000000000000000000000000000000000,0.039164933053214224,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+157,13,0.03751294980790876,exact axis-aligned grid,,integer grid construction
+158,13,0.034224469428449034,exact axis-aligned grid,,integer grid construction
+159,13,0.030967061433587295,exact axis-aligned grid,,integer grid construction
+160,13,0.027740239554723267,exact axis-aligned grid,,integer grid construction
+161,13,0.024543528110830826,exact axis-aligned grid,,integer grid construction
+162,13,0.021376461713902062,exact axis-aligned grid,,integer grid construction
+163,13,0.018238584984344497,exact axis-aligned grid,,integer grid construction
+164,13,0.015129452275939537,exact axis-aligned grid,,integer grid construction
+165,13,0.012048627409979806,exact axis-aligned grid,,integer grid construction
+166,13,0.008995683418232758,exact axis-aligned grid,,integer grid construction
+167,13,0.0059702022943779465,exact axis-aligned grid,,integer grid construction
+168,13,0.002971774753597334,exact axis-aligned grid,,integer grid construction
+169,13,0.0,exact axis-aligned grid,,integer grid construction
+170,13.53553390594527280000000000000000000000000000000000,0.038128061121652124,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+171,13.57142857144114450000000000000000000000000000000000,0.03783308179635991,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+172,13.61898895691201760000000000000000000000000000000000,0.03843817265230687,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+173,13.65685424950503750000000000000000000000000000000000,0.03831140147310297,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+174,13.70710678119925560000000000000000000000000000000000,0.03913308339542754,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+175,13.76417431749936050000000000000000000000000000000000,0.04047377846415712,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+176,13.79587231844920450000000000000000000000000000000000,0.03990300308969208,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+177,13.82297973418227150000000000000000000000000000000000,0.03899878123617029,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+178,13.84666719285633820000000000000000000000000000000000,0.03785158480251938,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+179,13.88379549052378190000000000000000000000000000000000,0.03772359702085515,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+180,13.91699352249074850000000000000000000000000000000000,0.03731145195711871,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+181,13.95081953103587550000000000000000000000000000000000,0.036956249276960396,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+182,13.97409071313441630000000000000000000000000000000000,0.03582851920711261,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+183,13.99958017874925180000000000000000000000000000000000,0.034878745256546884,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+184,14,0.032093693084279895,exact axis-aligned grid,,integer grid construction
+185,14,0.029300470931330702,exact axis-aligned grid,,integer grid construction
+186,14,0.026529805149473118,exact axis-aligned grid,,integer grid construction
+187,14,0.02378139377798294,exact axis-aligned grid,,integer grid construction
+188,14,0.02105494048526202,exact axis-aligned grid,,integer grid construction
+189,14,0.018350154434631172,exact axis-aligned grid,,integer grid construction
+190,14,0.015666750154016418,exact axis-aligned grid,,integer grid construction
+191,14,0.013004447409390218,exact axis-aligned grid,,integer grid construction
+192,14,0.01036297108184514,exact axis-aligned grid,,integer grid construction
+193,14,0.0077420510481724936,exact axis-aligned grid,,integer grid construction
+194,14,0.0051414220648333675,exact axis-aligned grid,,integer grid construction
+195,14,0.002560823655206157,exact axis-aligned grid,,integer grid construction
+196,14,0.0,exact axis-aligned grid,,integer grid construction
+197,14.53553390594627380000000000000000000000000000000000,0.035613910797909654,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+198,14.57142857144214280000000000000000000000000000000000,0.03554633658535811,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+199,14.61757217360642480000000000000000000000000000000000,0.03621221767224414,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+200,14.65685424950603640000000000000000000000000000000000,0.03639610306885843,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+201,14.70710678120025360000000000000000000000000000000000,0.03735932900838601,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+202,14.72792206137158400000000000000000000000000000000000,0.03625298013601452,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+203,14.77817459306580110000000000000000000000000000000000,0.03722451812549621,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+204,14.80864284060530470000000000000000000000000000000000,0.03681238205917903,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+205,14.82445114613791230000000000000000000000000000000000,0.035384579861876375,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+206,14.86015866340576110000000000000000000000000000000000,0.0353563138406392,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+207,14.88096037156946050000000000000000000000000000000000,0.034298244161451885,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+208,14.92451877204328030000000000000000000000000000000000,0.03482918642744037,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+209,14.94622322646039810000000000000000000000000000000000,0.03385187859137262,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+210,14.97300111660159830000000000000000000000000000000000,0.03323523905613768,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+211,14.99354962631341510000000000000000000000000000000000,0.03219852419454616,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+212,15,0.030204229615167666,exact axis-aligned grid,,integer grid construction
+213,15,0.027783064741297547,exact axis-aligned grid,,integer grid construction
+214,15,0.025378890536994936,exact axis-aligned grid,,integer grid construction
+215,15,0.022991509205710248,exact axis-aligned grid,,integer grid construction
+216,15,0.0206207261596576,exact axis-aligned grid,,integer grid construction
+217,15,0.018266349953196093,exact axis-aligned grid,,integer grid construction
+218,15,0.015928192217894654,exact axis-aligned grid,,integer grid construction
+219,15,0.013606067599228888,exact axis-aligned grid,,integer grid construction
+220,15,0.011299793694863114,exact axis-aligned grid,,integer grid construction
+221,15,0.00900919099446873,exact axis-aligned grid,,integer grid construction
+222,15,0.006734082821036491,exact axis-aligned grid,,integer grid construction
+223,15,0.00447429527363763,exact axis-aligned grid,,integer grid construction
+224,15,0.0022296571715914038,exact axis-aligned grid,,integer grid construction
+225,15,0.0,exact axis-aligned grid,,integer grid construction
+226,15.53553390594727280000000000000000000000000000000000,0.03340834338215348,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+227,15.56362565233971220000000000000000000000000000000000,0.03299411584731882,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+228,15.60460147574427830000000000000000000000000000000000,0.033439978686411465,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+229,15.65016151389108110000000000000000000000000000000000,0.03419178285056135,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+230,15.68292682928297870000000000000000000000000000000000,0.03410157169240979,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+231,15.70710678120125360000000000000000000000000000000000,0.0334517529605447,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+232,15.76417431750136060000000000000000000000000000000000,0.034968748304977426,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+233,15.77817459306680010000000000000000000000000000000000,0.03366258573859038,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+234,15.82287565554711750000000000000000000000000000000000,0.034373740112653595,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+235,15.82660563344339530000000000000000000000000000000000,0.03241391558408835,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+236,15.86193439062221940000000000000000000000000000000000,0.032523982182192324,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+237,15.90260363827449880000000000000000000000000000000000,0.03298511039395802,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+238,15.92410678533642050000000000000000000000000000000000,0.03220653124973549,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+239,15.94844332731544830000000000000000000000000000000000,0.031619039842953,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+240,15.96968533754575160000000000000000000000000000000000,0.030838755941457796,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+241,15.98711709516522560000000000000000000000000000000000,0.02982074138966828,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+242,16,0.028518954453160106,exact axis-aligned grid,,integer grid construction
+243,16,0.026400478559334584,exact axis-aligned grid,,integer grid construction
+244,16,0.0242950394631678,exact axis-aligned grid,,integer grid construction
+245,16,0.022202503999903866,exact axis-aligned grid,,integer grid construction
+246,16,0.02012274090134114,exact axis-aligned grid,,integer grid construction
+247,16,0.01805562076124434,exact axis-aligned grid,,integer grid construction
+248,16,0.016001016001524038,exact axis-aligned grid,,integer grid construction
+249,16,0.013958800839164676,exact axis-aligned grid,,integer grid construction
+250,16,0.011928851253881323,exact axis-aligned grid,,integer grid construction
+251,16,0.009911044956484982,exact axis-aligned grid,,integer grid construction
+252,16,0.00790526135793912,exact axis-aligned grid,,integer grid construction
+253,16,0.005911381539090321,exact axis-aligned grid,,integer grid construction
+254,16,0.003929288221053762,exact axis-aligned grid,,integer grid construction
+255,16,0.001958865736239268,exact axis-aligned grid,,integer grid construction
+256,16,0.0,exact axis-aligned grid,,integer grid construction
+257,16.53553390594827180000000000000000000000000000000000,0.03145826571393129,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+258,16.56344800214935220000000000000000000000000000000000,0.03119523057737461,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+259,16.59137814551329070000000000000000000000000000000000,0.030938075591501635,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+260,16.64575325053545590000000000000000000000000000000000,0.032325793233809685,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+261,16.67877987535858940099999999999999999900000000000000,0.0323905564451068,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+262,16.70710678120225360000000000000000000000000000000000,0.03216850397836679,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+263,16.73316600791511150000000000000000000000000000000000,0.031811218342906455,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+264,16.77473513240360790000000000000000000000000000000000,0.032413579115477376,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+265,16.77817459306780110000000000000000000000000000000000,0.03067507219090171,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+266,16.82302875077229890000000000000000000000000000000000,0.031486073638511636,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+267,16.83881526996410190000000000000000000000000000000000,0.03051875903304735,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+268,16.87437162034977300000000000000000000000000000000000,0.03076630235996869,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,official raw and pandas certified
+269,16.90151358220503490000000000000000000000000000000000,0.030503470571763946,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+270,16.92816225221267810000000000000000000000000000000000,0.030215146960482553,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+271,16.94894773372960450000000000000000000000000000000000,0.029575252372442185,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+272,16.96558647485363790000000000000000000000000000000000,0.0286897799466459,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+273,16.98392596266638970000000000000000000000000000000000,0.02791396054141959,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+274,17,0.02700755866130078,exact axis-aligned grid,,integer grid construction
+275,17,0.02513857156439614,exact axis-aligned grid,,integer grid construction
+276,17,0.023279751229038137,exact axis-aligned grid,,integer grid construction
+277,17,0.021431005814386506,exact axis-aligned grid,,integer grid construction
+278,17,0.019592244636914335,exact axis-aligned grid,,integer grid construction
+279,17,0.01776337815172435,exact axis-aligned grid,,integer grid construction
+280,17,0.015944317934234675,exact axis-aligned grid,,integer grid construction
+281,17,0.014134976662218968,exact axis-aligned grid,,integer grid construction
+282,17,0.012335268098203178,exact axis-aligned grid,,integer grid construction
+283,17,0.010545107072198912,exact axis-aligned grid,,integer grid construction
+284,17,0.008764409464775191,exact axis-aligned grid,,integer grid construction
+285,17,0.006993092190456851,exact axis-aligned grid,,integer grid construction
+286,17,0.005231073181440449,exact axis-aligned grid,,integer grid construction
+287,17,0.003478271371623931,exact axis-aligned grid,,integer grid construction
+288,17,0.0017346066809424965,exact axis-aligned grid,,integer grid construction
+289,17,0.0,exact axis-aligned grid,,integer grid construction
+290,17.53553390594927280000000000000000000000000000000000,0.029722006955905655,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+291,17.53553390594927280000000000000000000000000000000000,0.02795120253815786,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+292,17.59137814551429060000000000000000000000000000000000,0.02945753945596641,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+293,17.63414634148004710000000000000000000000000000000000,0.030197829162290857,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+294,17.65685424950903550000000000000000000000000000000000,0.02976865176166532,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+295,17.70423279075273250000000000000000000000000000000000,0.03078028484458617,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+296,17.70710678120325560000000000000000000000000000000000,0.0292046761497744,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+297,17.74041728756054320000000000000000000000000000000000,0.029403419031492906,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+298,17.77817459306880210000000000000000000000000000000000,0.029862002649936548,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+299,17.82287565554911750000000000000000000000000000000000,0.030723512218164828,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+300,17.82412338849536980000000000000000000000000000000000,0.02907624364169048,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+301,17.84666719286033750000000000000000000000000000000000,0.028664795792123554,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+302,17.87001385042133510000000000000000000000000000000000,0.028303745379942846,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+303,17.90727574162644600000000000000000000000000000000000,0.02874611185762821,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+304,17.92689890153222354876553842173653197183796359533602,0.028178166879595512,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+305,17.95046648215466220000000000000000000000000000000000,0.027840720783868234,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+306,17.96343371750838870000000000000000000000000000000000,0.02690115561797546,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+307,17.98086278407167100000000000000000000000000000000000,0.026222043360437652,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+308,17.99714912128790460000000000000000000000000000000000,0.02548274424601793,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+309,18,0.023984223179433606,exact axis-aligned grid,,integer grid construction
+310,18,0.02233130164471664,exact axis-aligned grid,,integer grid construction
+311,18,0.02068635882273684,exact axis-aligned grid,,integer grid construction
+312,18,0.019049330730136038,exact axis-aligned grid,,integer grid construction
+313,18,0.017420154099598628,exact axis-aligned grid,,integer grid construction
+314,18,0.015798766369580663,exact axis-aligned grid,,integer grid construction
+315,18,0.014185105674219933,exact axis-aligned grid,,integer grid construction
+316,18,0.012579110833421447,exact axis-aligned grid,,integer grid construction
+317,18,0.010980721343114785,exact axis-aligned grid,,integer grid construction
+318,18,0.009389877365679755,exact axis-aligned grid,,integer grid construction
+319,18,0.007806519720537697,exact axis-aligned grid,,integer grid construction
+320,18,0.0062305898749053235,exact axis-aligned grid,,integer grid construction
+321,18,0.004662029934705547,exact axis-aligned grid,,integer grid construction
+322,18,0.0031007826356350687,exact axis-aligned grid,,integer grid construction
+323,18,0.0015467913343829576,exact axis-aligned grid,,integer grid construction
+324,18,0.0,exact axis-aligned grid,,integer grid construction
+325,18.53553390595026980000000000000000000000000000000000,0.02816642947700032,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+326,18.53553390595026980000000000000000000000000000000000,0.026588275930527372,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+327,18.58378219108696100000000000000000000000000000000000,0.027685503431167158,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+328,18.61436893852968621923132169163975125717671769602074,0.027806584401027346,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+329,18.65685424951003650000000000000000000000000000000000,0.028585670581116274,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+330,18.69238815613294200000000000000000000000000000000000,0.028982102178975788,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+331,18.70710678120425360000000000000000000000000000000000,0.028235581590559722,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+332,18.74041728756154020000000000000000000000000000000000,0.028514017733596297,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+333,18.77473513329412356000000000000000000000000000000000,0.028849147613288606,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,official raw and pandas certified
+334,18.79569376652239173999999981653999999995129833066668,0.028454605096975394,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,official raw and pandas certified
+335,18.82287565557920350000000000000000000000000000000000,0.02840355622871571,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+336,18.82557149987949280000000000000000000000000000000000,0.027019123797632494,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+337,18.85839176765408920000000000000000000000000000000000,0.02728205838739317,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+338,18.88589323804694504756798263012992849223634718454240,0.02725716749139684,local-candidate-bank,011755bd9d2c94b7095ed8644afbd4eb85ff7e904567c7f3c68f9333f8390b8a,official raw and pandas certified; public source and inherited attribution retained
+339,18.90735147119472202706895336576146032325273992812733,0.02690637116941974,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+340,18.92689890128095209887933902774643202184577823115464,0.026455210935574458,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+341,18.95188240873789600000000000000000000000000000000000,0.026301972383359074,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+342,18.96470672319036440000000000000000000000000000000000,0.025493891988022543,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+343,18.97757512628477580000000000000000000000000000000000,0.02469274022846335,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+344,18.99272780938213206669529352530942018518084863266505,0.024019255191870537,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+345,19,0.02292561391051451,exact axis-aligned grid,,integer grid construction
+346,19,0.021446328083893684,exact axis-aligned grid,,integer grid construction
+347,19,0.019973441480536147,exact axis-aligned grid,,integer grid construction
+348,19,0.01850690809590505,exact axis-aligned grid,,integer grid construction
+349,19,0.017046682387159562,exact axis-aligned grid,,integer grid construction
+350,19,0.015592719267212507,exact axis-aligned grid,,integer grid construction
+351,19,0.014144974098885266,exact axis-aligned grid,,integer grid construction
+352,19,0.01270340268914949,exact axis-aligned grid,,integer grid construction
+353,19,0.011267961283464079,exact axis-aligned grid,,integer grid construction
+354,19,0.009838606560194307,exact axis-aligned grid,,integer grid construction
+355,19,0.008415295625122887,exact axis-aligned grid,,integer grid construction
+356,19,0.006997986006042067,exact axis-aligned grid,,integer grid construction
+357,19,0.005586635647429894,exact axis-aligned grid,,integer grid construction
+358,19,0.004181202905210846,exact axis-aligned grid,,integer grid construction
+359,19,0.0027816465415930747,exact axis-aligned grid,,integer grid construction
+360,19,0.0013879257199866935,exact axis-aligned grid,,integer grid construction
+361,19,0.0,exact axis-aligned grid,,integer grid construction
+362,19.53553390595127480000000000000000000000000000000000,0.02676486652698462,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+363,19.53553390595127480000000000000000000000000000000000,0.02534961448763906,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+364,19.57142857230286700000000000000000000000000000000000,0.025821590266559946,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+365,19.61436893853068720000000000000000000000000000000000,0.02666299289373808,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+366,19.65685424951103840000000000000000000000000000000000,0.02748023126784771,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+367,19.69238815544381120000000000000000000000000000000000,0.027934294363065826,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+368,19.69238815544381120000000000000000000000000000000000,0.02653669440421158,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+369,19.70710678120525360000000000000000000000000000000000,0.025911000653761063,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+370,19.76417431880910599999999897787899999931109044600035,0.027490496443553614,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+371,19.77817459467696599999974903035549801064748705803215,0.026831662083654617,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+372,19.80615395768658302691204825981061263752640012270582,0.026901245625741144,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,official raw and pandas certified
+373,19.82306208285662150000000000000000000000000000000000,0.02639924808197236,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+374,19.83235621705159620000000000000000000000000000000000,0.025506726343356823,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+375,19.87002526712074355307617596207919793519822601198394,0.026083692643723122,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,official raw and pandas certified
+376,19.88879872791057670817346985310399694102108493287914,0.02568647852659156,local-candidate-bank,909af1093d98ca72cde7239518e634b933df6440df9379dd0186f8e38c9aab53,official raw and pandas certified; public source and inherited attribution retained
+377,19.90995829267725252574497880917124832720320970202739,0.02541502138918239,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 native 361635074; official raw and pandas independently certified
+378,19.92689890196772211906290959744982468189822706825097,0.02492908497651669,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,official raw and pandas certified
+379,19.95088968152119219004752633590826799116192846884965,0.024808366260410608,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+380,19.96135002385296170703449766420176320237093796077323,0.023995650143380676,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+381,19.97473984050174731839131421975753250227725519209286,0.02333692198332149,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+382,19.98762115398450380000000000000000000000000000000000,0.02265566333278546,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+383,20,0.021952260615192065,exact axis-aligned grid,,integer grid construction
+384,20,0.0206207261596576,exact axis-aligned grid,,integer grid construction
+385,20,0.019294382875251204,exact axis-aligned grid,,integer grid construction
+386,20,0.017973197118575257,exact axis-aligned grid,,integer grid construction
+387,20,0.01665713555069792,exact axis-aligned grid,,integer grid construction
+388,20,0.015346165133619083,exact axis-aligned grid,,integer grid construction
+389,20,0.014040253126787583,exact axis-aligned grid,,integer grid construction
+390,20,0.01273936708366663,exact axis-aligned grid,,integer grid construction
+391,20,0.01144347484834718,exact axis-aligned grid,,integer grid construction
+392,20,0.010152544552210818,exact axis-aligned grid,,integer grid construction
+393,20,0.008866544610636629,exact axis-aligned grid,,integer grid construction
+394,20,0.007585443719756668,exact axis-aligned grid,,integer grid construction
+395,20,0.006309210853255198,exact axis-aligned grid,,integer grid construction
+396,20,0.005037815259212097,exact axis-aligned grid,,integer grid construction
+397,20,0.003771226456991128,exact axis-aligned grid,,integer grid construction
+398,20,0.002509414234171059,exact axis-aligned grid,,integer grid construction
+399,20,0.0012523486435178643,exact axis-aligned grid,,integer grid construction
+400,20,0.0,exact axis-aligned grid,,integer grid construction
+401,20.53553390595227180000000000000000000000000000000000,0.02549562593375554,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+402,20.53553390595227180000000000000000000000000000000000,0.02421933965711176,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+403,20.57142857231286800000000000000000000000000000000000,0.02473584746815538,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+404,20.59137814610140500000000000000000000000000000000000,0.024459352652405952,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+405,20.64575325317847442975747301853853763473786937690683,0.025895727128766532,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,official raw and pandas certified
+406,20.65685424951203840000000000000000000000000000000000,0.025182463016611756,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+407,20.69238815544481620000000000000000000000000000000000,0.025683600863385614,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+408,20.70710678120625360000000000000000000000000000000000,0.025154545078350132,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+409,20.74041728833352100000000000000000000000000000000000,0.025547631504556856,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+410,20.77473513404402699999990436689749944573903330535135,0.025991037722568056,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+411,20.79569381995920806909515482713327294557445055058083,0.02577592903023107,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+412,20.82299541548050853178870848528579569587099604382415,0.025875352097689763,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+413,20.82504703751894842592963981642000122204152049331864,0.024733573257912367,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 native 361635074; official raw and pandas independently certified
+414,20.84666719304598780961566084581922024353100553585543,0.02455779675093983,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+415,20.86714644891148698464016440281369457355792423701687,0.024327932383477746,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+416,20.88881235230348063814683379343408045996214025008895,0.024158286540129525,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+417,20.90893916275776304192149176294583623422144007600505,0.02391515605109573,local-candidate-bank,8c411c67d211f09ac9becd6524b7119594fdaea7361654be4a58735d7883c094,official raw and pandas certified; public source and inherited attribution retained
+418,20.92943149156120514619290002471196339970728526277864,0.023691956320501806,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+419,20.94998499802119130000000000000000000000000000000000,0.02347374162831173,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,official raw and pandas certified
+420,20.96657789890706917662638212218950253093865874275818,0.02306424505122573,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+421,20.97627399891339734000000000000000000000000000000000,0.022321041000770148,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,official raw and pandas certified
+422,20.98357525460374841504827994482690503131402669203738,0.021464461277593827,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+423,20.99653930836439008405127600654825112226438978279414,0.020886675899926876,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+424,21,0.019850155475127362,exact axis-aligned grid,,integer grid construction
+425,21,0.018649625152598492,exact axis-aligned grid,,integer grid construction
+426,21,0.017453324534169257,exact axis-aligned grid,,integer grid construction
+427,21,0.016261228841237152,exact axis-aligned grid,,integer grid construction
+428,21,0.015073313497946605,exact axis-aligned grid,,integer grid construction
+429,21,0.013889554129061787,exact axis-aligned grid,,integer grid construction
+430,21,0.012709926557865403,exact axis-aligned grid,,integer grid construction
+431,21,0.011534406804084796,exact axis-aligned grid,,integer grid construction
+432,21,0.01036297108184514,exact axis-aligned grid,,integer grid construction
+433,21,0.009195595797646616,exact axis-aligned grid,,integer grid construction
+434,21,0.008032257548370447,exact axis-aligned grid,,integer grid construction
+435,21,0.006872933119306701,exact axis-aligned grid,,integer grid construction
+436,21,0.005717599482208957,exact axis-aligned grid,,integer grid construction
+437,21,0.00456623379337362,exact axis-aligned grid,,integer grid construction
+438,21,0.00341881339174277,exact axis-aligned grid,,integer grid construction
+439,21,0.0022753157970301086,exact axis-aligned grid,,integer grid construction
+440,21,0.001135718707871991,exact axis-aligned grid,,integer grid construction
+441,21,0.0,exact axis-aligned grid,,integer grid construction
+442,21.53553390595327280000000000000000000000000000000000,0.024340887978144155,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+443,21.53553390595327280000000000000000000000000000000000,0.023184093833868546,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+444,21.57142857232286600000000000000000000000000000000000,0.0237346954612081,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+445,21.59137814590959400000000000000000000000000000000000,0.02352948530080967,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+446,21.64575325134576300000000000000000000000000000000000,0.024956122672533887,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+447,21.65685424951303540000000000000000000000000000000000,0.024334056581880814,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+448,21.69238815544580920000000000000000000000000000000000,0.024869007185584602,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+449,21.70710678120725560000000000000000000000000000000000,0.024421706398595422,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+450,21.73316600831410700000000000000000000000000000000000,0.024511270742125113,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+451,21.75609756299571744176493209758949978478551025735030,0.0244546233595766,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+452,21.77817459307280210000000000000000000000000000000000,0.024359165750251988,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+453,21.80866323541560525000000000000000000000000000000000,0.024660383208900516,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,official raw and pandas certified
+454,21.82310265711579000000000000000000000000000000000000,0.024208956153806582,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+455,21.82506149653376040396175612502594053887582690714523,0.023174664525236643,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+456,21.85709967174052857009231407842192301256042012650270,0.023552471743953918,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+457,21.86811745511257376471538166121258269610997922278760,0.02294738815302777,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+458,21.88995034661708353029127798576212335520235455966647,0.022850207136304146,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+459,21.90584430536241100000000000000000000000000000000000,0.022477250153912554,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+460,21.92615198643524814072755649171116378540295320586943,0.022312107677938897,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+461,21.93640368082841196707882587915080578247305018589315,0.021680176352223857,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+462,21.96618577218312090138059294340935002867561535939524,0.021959451184796697,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+463,21.97059962839679786045099519553360395633781097597045,0.021060356006235237,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+464,21.98626853264782258014169490493983321293156345083728,0.020686892605377816,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+465,21.99519709175385398046053140092049921642362569264817,0.020002841135719818,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+466,22,0.019130320146574897,exact axis-aligned grid,,integer grid construction
+467,22,0.018038589442044506,exact axis-aligned grid,,integer grid construction
+468,22,0.016950359746253252,exact axis-aligned grid,,integer grid construction
+469,22,0.015865612387142347,exact axis-aligned grid,,integer grid construction
+470,22,0.014784328831773497,exact axis-aligned grid,,integer grid construction
+471,22,0.013706490685001071,exact axis-aligned grid,,integer grid construction
+472,22,0.012632079688155828,exact axis-aligned grid,,integer grid construction
+473,22,0.011561077717746171,exact axis-aligned grid,,integer grid construction
+474,22,0.010493466784175842,exact axis-aligned grid,,integer grid construction
+475,22,0.009429229030471609,exact axis-aligned grid,,integer grid construction
+476,22,0.008368346731032483,exact axis-aligned grid,,integer grid construction
+477,22,0.007310802290386276,exact axis-aligned grid,,integer grid construction
+478,22,0.0062565782419661264,exact axis-aligned grid,,integer grid construction
+479,22,0.005205657246898365,exact axis-aligned grid,,integer grid construction
+480,22,0.004158022092804581,exact axis-aligned grid,,integer grid construction
+481,22,0.0031136556926170122,exact axis-aligned grid,,integer grid construction
+482,22,0.002072541083409263,exact axis-aligned grid,,integer grid construction
+483,22,0.0010346614252381148,exact axis-aligned grid,,integer grid construction
+484,22,0.0,exact axis-aligned grid,,integer grid construction
+485,22.53553390595426980000000000000000000000000000000000,0.023285882222311427,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+486,22.53553390595426980000000000000000000000000000000000,0.022232576866250353,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+487,22.57142857233286300000000000000000000000000000000000,0.022809060038864626,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+488,22.59137814591959500000000000000000000000000000000000,0.022663637284739746,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+489,22.60660171781982030000000000000000000000000000000000,0.022305867519648137,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+490,22.65685424951403850000000000000000000000000000000000,0.023532343470417993,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+491,22.69238815544681020000000000000000000000000000000000,0.024093141326978484,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+492,22.70710678120825360000000000000000000000000000000000,0.023715433788320972,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+493,22.70710678120825360000000000000000000000000000000000,0.022676655810200508,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+494,22.73768431411764996799999891466667483733336560639941,0.023016781860672353,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+495,22.76937071596350186970649684769920691956030997850263,0.023407107005144256,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+496,22.78113654659265460961565906570457719760400845945548,0.022903227490993494,local-candidate-bank,078e7749d1581668dab5f5fbfc893d7f77299c09f7ebec1c4cf5e810b427f2e2,official raw and pandas certified; public source and inherited attribution retained
+497,22.80242872095830550000000000000000000000000000000000,0.022828716181080067,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+498,22.82424410091795200000000000000000000000000000000000,0.022778834221505617,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+499,22.82957912373088972048538701249933536243870145629666,0.021992320195438397,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 native 361635074; official raw and pandas independently certified
+500,22.85459098198551838561591480319105547206452188419840,0.022088380673465746,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+501,22.86693229617174688139127225713610365932565752489736,0.0216191921298019,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+502,22.89282000427782600000000000000000000000000000000000,0.021756560839250927,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+503,22.90111081176052800000000000000000000000000000000000,0.02111006178345809,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+504,22.92292634845072323743494708485737355797226148030115,0.02106829402566257,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+505,22.93988497096047887388668285403453249256341649833460,0.020811483144949294,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+506,22.95797274327766715895207971845288272737881269802051,0.020606376839191975,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+507,22.97369716370121180000000000000000000000000000000000,0.020297710903371957,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+508,22.98235832767665298888710691151594678154480696007119,0.019677263189875616,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+509,22.99087804839778594750061112251521946670384815871652,0.01905275311305976,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+510,23,0.018457118371109527,exact axis-aligned grid,,integer grid construction
+511,23,0.017460096968760386,exact axis-aligned grid,,integer grid construction
+512,23,0.01646599795566206,exact axis-aligned grid,,integer grid construction
+513,23,0.01547480708320026,exact axis-aligned grid,,integer grid construction
+514,23,0.014486510199831049,exact axis-aligned grid,,integer grid construction
+515,23,0.013501093250233076,exact axis-aligned grid,,integer grid construction
+516,23,0.012518542274467359,exact axis-aligned grid,,integer grid construction
+517,23,0.011538843407147725,exact axis-aligned grid,,integer grid construction
+518,23,0.010561982876617693,exact axis-aligned grid,,integer grid construction
+519,23,0.00958794700413823,exact axis-aligned grid,,integer grid construction
+520,23,0.008616722203083738,exact axis-aligned grid,,integer grid construction
+521,23,0.007648294978144232,exact axis-aligned grid,,integer grid construction
+522,23,0.00668265192453954,exact axis-aligned grid,,integer grid construction
+523,23,0.005719779727239915,exact axis-aligned grid,,integer grid construction
+524,23,0.004759665160193549,exact axis-aligned grid,,integer grid construction
+525,23,0.003802295085564955,exact axis-aligned grid,,integer grid construction
+526,23,0.0028476564529789083,exact axis-aligned grid,,integer grid construction
+527,23,0.0018957362987737092,exact axis-aligned grid,,integer grid construction
+528,23,0.0009465217452626629,exact axis-aligned grid,,integer grid construction
+529,23,0.0,exact axis-aligned grid,,integer grid construction
+530,23.53553390595527480000000000000000000000000000000000,0.022318264735605498,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+531,23.53553390595527480000000000000000000000000000000000,0.021355176189524316,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+532,23.56976942043014800399506659981140054549958087199279,0.021879102191985966,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,official raw and pandas certified
+533,23.58378219105542000000000000000000000000000000000000,0.021527001821561864,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+534,23.60660171782081730000000000000000000000000000000000,0.02155756515284657,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+535,23.65685424951503850000000000000000000000000000000000,0.02277499830808738,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+536,23.65685501106282404961566084581985024389010510204494,0.021820504630667648,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,official raw and pandas certified
+537,23.69238815833925600000000000000000000000000000000000,0.022402014032083528,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+538,23.70710678120925360000000000000000000000000000000000,0.02208594922968543,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+539,23.73768431412764800000000000000000000000000000000000,0.022454444959302267,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 native 361635074; official raw and pandas independently certified
+540,23.75609756278925501161558666647349268779209086721835,0.02229966923957094,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 native 361635074; official raw and pandas independently certified
+541,23.77817459419936900000000000000000000000000000000000,0.022303573847849645,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+542,23.79155762505818443601061965437701104467467468688013,0.02193490436392964,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+543,23.80242872095930250000000000000000000000000000000000,0.021459985898879097,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+544,23.82500232578379775398428117899141438957089310380448,0.02148854747222595,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+545,23.84668558984244830961565485159990157390691297718879,0.02147978072181389,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,official raw and pandas certified
+546,23.86207403714491101928791443161106134513010809397245,0.02120249572684041,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+547,23.87612178715053100000000000000000000000000000000000,0.02086924963653547,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+548,23.89066242170468407236620663714014877062262905795426,0.020558519395472485,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+549,23.91000971916408700000000000000000000000000000000000,0.020454347868996026,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,official raw and pandas certified
+550,23.91846528516747100000000000000000000000000000000000,0.01988678658490084,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+551,23.93471590479891676858689473313692601588858509698804,0.019653178860585818,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+552,23.95316671013811435107271883454579214042799230312888,0.019514479717905875,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+553,23.97084826199000000000000000000000000000000000000000,0.019344155352481573,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,official raw and pandas certified
+554,23.97990643174045916811110531349645090278221295834337,0.018808598877266602,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+555,23.98997141430638028205708638106959877090564779411848,0.018317574192125763,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+556,24,0.017826715615965272,exact axis-aligned grid,,integer grid construction
+557,24,0.016912636656885915,exact axis-aligned grid,,integer grid construction
+558,24,0.016001016001524038,exact axis-aligned grid,,integer grid construction
+559,24,0.015091842650752474,exact axis-aligned grid,,integer grid construction
+560,24,0.014185105674219933,exact axis-aligned grid,,integer grid construction
+561,24,0.013280794209797886,exact axis-aligned grid,,integer grid construction
+562,24,0.012378897463034777,exact axis-aligned grid,,integer grid construction
+563,24,0.011479404706614904,exact axis-aligned grid,,integer grid construction
+564,24,0.010582305279822846,exact axis-aligned grid,,integer grid construction
+565,24,0.009687588588010998,exact axis-aligned grid,,integer grid construction
+566,24,0.00879524410207666,exact axis-aligned grid,,integer grid construction
+567,24,0.007905261357939342,exact axis-aligned grid,,integer grid construction
+568,24,0.0070176299560269495,exact axis-aligned grid,,integer grid construction
+569,24,0.0061323395607644215,exact axis-aligned grid,,integer grid construction
+570,24,0.00524937990006924,exact axis-aligned grid,,integer grid construction
+571,24,0.004368740764849388,exact axis-aligned grid,,integer grid construction
+572,24,0.0034904120085088586,exact axis-aligned grid,,integer grid construction
+573,24,0.002614383546456267,exact axis-aligned grid,,integer grid construction
+574,24,0.0017406453556187973,exact axis-aligned grid,,integer grid construction
+575,24,0.0008691874739588101,exact axis-aligned grid,,integer grid construction
+576,24,0.0,exact axis-aligned grid,,integer grid construction
+577,24.53553390595627180000000000000000000000000000000000,0.021427641309153644,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+578,24.53553390595627180000000000000000000000000000000000,0.020543670878478748,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+579,24.56344800307646300000000000000000000000000000000000,0.02082206180362811,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+580,24.58378219106542100000000000000000000000000000000000,0.020785994338427427,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+581,24.60660171782181330000000000000000000000000000000000,0.02085385618913782,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+582,24.64969334352762809464486645521921886803763377310940,0.02176266227728707,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,official raw and pandas certified
+583,24.65685425350876920000000000000000000000000000000000,0.021182563463763904,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+584,24.67766952968736480000000000000000000000000000000000,0.021169230987624577,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+585,24.70710678121025360000000000000000000000000000000000,0.021513144024882136,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+586,24.70710678121025360000000000000000000000000000000000,0.020641173619261766,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+587,24.75609756279925438584107032807252281792897606924838,0.021793498324283345,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 native 361635074; official raw and pandas independently certified
+588,24.76687579050683800000000000000000000000000000000000,0.021368743188224792,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+589,24.77817459307580910000000000000000000000000000000000,0.020966897628195813,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+590,24.80242872096030160000000000000000000000000000000000,0.021099831154421045,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+591,24.81964297318589300000000000000000000000000000000000,0.020943690488320676,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+592,24.82493944910836000000000000000000000000000000000000,0.020298726337557138,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+593,24.84682692693775833668578214251537336599961216567892,0.020336888730654312,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+594,24.86271842554517500000000000000000000000000000000000,0.02012969359989447,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+595,24.87612178755053800000000000000000000000000000000000,0.019821565533799435,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+596,24.88819738679123600000000000000000000000000000000000,0.019460287171897628,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+597,24.90111077436773140000000000000000000000000000000000,0.01913461976073716,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+598,24.91116089724849093348944821559139086058681887444073,0.01869312406520618,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+599,24.93266725457315000000000000000000000000000000000000,0.01872116666163759,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+600,24.94556125315211982610506210547069936166702505766947,0.018398273626093475,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+601,24.96319972031463170373043124005079609236486551970984,0.01827015584113667,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+602,24.97811581390818383417019983081716593099298289885607,0.018031999586004988,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+603,24.99035556940209032645023151568958969358412240061111,0.017685951393450416,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+604,24.99682786169411528979466599484114525054023577313062,0.017106500986801443,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 native 361635074; official raw and pandas independently certified
+605,25,0.016394535227177043,exact axis-aligned grid,,integer grid construction
+606,25,0.015555579627984484,exact axis-aligned grid,,integer grid construction
+607,25,0.014718698085248727,exact axis-aligned grid,,integer grid construction
+608,25,0.013883882067265985,exact axis-aligned grid,,integer grid construction
+609,25,0.013051123091384564,exact axis-aligned grid,,integer grid construction
+610,25,0.012220412723645158,exact axis-aligned grid,,integer grid construction
+611,25,0.011391742578418684,exact axis-aligned grid,,integer grid construction
+612,25,0.01056510431805413,exact axis-aligned grid,,integer grid construction
+613,25,0.009740489652524165,exact axis-aligned grid,,integer grid construction
+614,25,0.008917890339077195,exact axis-aligned grid,,integer grid construction
+615,25,0.008097298181889645,exact axis-aligned grid,,integer grid construction
+616,25,0.007278705031725341,exact axis-aligned grid,,integer grid construction
+617,25,0.006462102785593116,exact axis-aligned grid,,integer grid construction
+618,25,0.005647483386412189,exact axis-aligned grid,,integer grid construction
+619,25,0.004834838822675991,exact axis-aligned grid,,integer grid construction
+620,25,0.004024161128123538,exact axis-aligned grid,,integer grid construction
+621,25,0.0032154423814101385,exact axis-aligned grid,,integer grid construction
+622,25,0.002408674705781877,exact axis-aligned grid,,integer grid construction
+623,25,0.0016038502687549805,exact axis-aligned grid,,integer grid construction
+624,25,0.0008009612817945211,exact axis-aligned grid,,integer grid construction
+625,25,0.0,exact axis-aligned grid,,integer grid construction
+626,25.52081528019583040000000000000000000000000000000000,0.02001692381333453,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+627,25.53553390595727280000000000000000000000000000000000,0.0197909938961649,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+628,25.53553390691425300000000000000000000000000000000000,0.018978734949326226,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+629,25.58378219107542200000000000000000000000000000000000,0.020092198832176056,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+630,25.60460147622184800000000000000000000000000000000000,0.02011174049953346,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+631,25.62741699799415370000000000000000000000000000000000,0.02021136213900654,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+632,25.65685424951703640000000000000000000000000000000000,0.020574864361915468,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+633,25.65685425350897160000000000000000000000000000000000,0.01976840460454654,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+634,25.70710678121125560000000000000000000000000000000000,0.020959636302989804,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+635,25.70710678121125560000000000000000000000000000000000,0.020155414329977583,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+636,25.72792206138258400000000000000000000000000000000000,0.020178469400614185,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+637,25.75750716190308900000000000000000000000000000000000,0.0205495912128848,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+638,25.77698701059518200000000000000000000000000000000000,0.020520688404419563,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+639,25.78119289369330866427942057085373306980090012781802,0.019888228419764342,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+640,25.80242872096130550000000000000000000000000000000000,0.019930549029786304,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+641,25.81961613692793700000000000000000000000000000000000,0.01981352296379546,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,official raw and pandas certified
+642,25.83399936293368500000000000000000000000000000000000,0.019586626794914075,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+643,25.85166673392066049781260814660704678399101341024412,0.019490215761656104,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 native 361635074; official raw and pandas independently certified
+644,25.86152836202598046784915799120025970107346508017957,0.019086981168015882,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+645,25.87612178795053800000000000000000000000000000000000,0.018871300409533998,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+646,25.89111337722985700000000000000000000000000000000000,0.018672231100732573,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+647,25.89959674350999900000000000000000000000000000000000,0.01821821484361119,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,official raw and pandas certified
+648,25.91000967753056580000000000000000000000000000000000,0.017841307977274123,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+649,25.92510576536269628191005350055382106562037943444608,0.017649417706238513,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+650,25.94193641767061502441710140985119489619611912441556,0.017526461646813596,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+651,25.95870315890644562097415644935283996220023464178292,0.01740179135736386,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+652,25.97663614069385784412346048375133891054598254684761,0.017323585636665362,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+653,25.98922053040165932878336998757639838350016425342785,0.0170367910106779,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+654,25.99480164253240740961566084581987562858835884801037,0.01647718124498576,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+655,26,0.015904064713932575,exact axis-aligned grid,,integer grid construction
+656,26,0.015129452275939537,exact axis-aligned grid,,integer grid construction
+657,26,0.014356609033131518,exact axis-aligned grid,,integer grid construction
+658,26,0.013585528261085722,exact axis-aligned grid,,integer grid construction
+659,26,0.012816203271105664,exact axis-aligned grid,,integer grid construction
+660,26,0.012048627409979806,exact axis-aligned grid,,integer grid construction
+661,26,0.0112827940597382,exact axis-aligned grid,,integer grid construction
+662,26,0.010518696637413338,exact axis-aligned grid,,integer grid construction
+663,26,0.009756328594802577,exact axis-aligned grid,,integer grid construction
+664,26,0.008995683418232758,exact axis-aligned grid,,integer grid construction
+665,26,0.008236754628325738,exact axis-aligned grid,,integer grid construction
+666,26,0.00747953577976701,exact axis-aligned grid,,integer grid construction
+667,26,0.006724020461076341,exact axis-aligned grid,,integer grid construction
+668,26,0.0059702022943779465,exact axis-aligned grid,,integer grid construction
+669,26,0.005218074935176897,exact axis-aligned grid,,integer grid construction
+670,26,0.00446763207213241,exact axis-aligned grid,,integer grid construction
+671,26,0.003718867426837802,exact axis-aligned grid,,integer grid construction
+672,26,0.002971774753597334,exact axis-aligned grid,,integer grid construction
+673,26,0.002226347839209719,exact axis-aligned grid,,integer grid construction
+674,26,0.0014825805027489647,exact axis-aligned grid,,integer grid construction
+675,26,0.000740466595351208,exact axis-aligned grid,,integer grid construction
+676,26,0.0,exact axis-aligned grid,,integer grid construction
+677,26.52081528019682740000000000000000000000000000000000,0.01927773188729187,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+678,26.53553390595827080000000000000000000000000000000000,0.019091040188326636,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+679,26.53553390692425000000000000000000000000000000000000,0.018340328491701863,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+680,26.57142857245153800000000000000000000000000000000000,0.018967770936449524,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+681,26.59137814622141600000000000000000000000000000000000,0.018983824613664213,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+682,26.62132034358526410000000000000000000000000000000000,0.01938304096973087,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+683,26.65685424951803840000000000000000000000000000000000,0.0199961806836082,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+684,26.65685425350916690000000000000000000000000000000000,0.019250296874901762,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+685,26.69238815944895040000000000000000000000000000000000,0.019863727589898517,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+686,26.70710678121225360000000000000000000000000000000000,0.01968207517635978,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+687,26.72792206138358400000000000000000000000000000000000,0.01973383069906598,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+688,26.72792206138358400000000000000000000000000000000000,0.018992475580570156,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+689,26.76235850325534920000000000000000000000000000000000,0.019564658980222305,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+690,26.77738872000542817243494903526033809365632543532219,0.019397766701947816,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+691,26.78710455442177095794694291580148498751904074253061,0.019029482388098318,local-candidate-bank,1afb3c54ef87a50b76776e49142e44a95347b2e25a52f0ee9d2513273c93e76a,official raw and pandas certified; public source and inherited attribution retained
+692,26.80251266501028897435465272561482226630516145625441,0.018878651693014836,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+693,26.81760995798386938481238576041445572954655249739818,0.01871676336052297,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+694,26.83127730033260100000000000000000000000000000000000,0.018501358206086005,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+695,26.85166673598363660000000000000000000000000000000000,0.01854177503060206,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+696,26.86237595276004014384106580819822995251375087245803,0.01821573278341826,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+697,26.87612178835054500000000000000000000000000000000000,0.018005703900504377,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+698,26.88829294080073110000000000000000000000000000000000,0.01773689699487102,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+699,26.90005335981745600000000000000000000000000000000000,0.01745346141880777,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+700,26.90839913857003503896818979995136748243809995127901,0.01704188999315681,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+701,26.91803110501205030000000000000000000000000000000000,0.016680003274901267,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+702,26.93831928789659400000000000000000000000000000000000,0.016721342271323714,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+703,26.95887468691914934781635543965094753975276289192743,0.01677321608687654,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+704,26.96871465017713260983090994349218586726658093154238,0.016421676963617404,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+705,26.98527893316118161601139880359561028864295518333202,0.016324401706597547,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+706,26.99396897946484307001565549947244638341990248459347,0.015931424366134816,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+707,27,0.015439509500212,exact axis-aligned grid,,integer grid construction
+708,27,0.014722137803818924,exact axis-aligned grid,,integer grid construction
+709,27,0.014006284354717513,exact axis-aligned grid,,integer grid construction
+710,27,0.01329194380508203,exact axis-aligned grid,,integer grid construction
+711,27,0.012579110833421447,exact axis-aligned grid,,integer grid construction
+712,27,0.01186778014441292,exact axis-aligned grid,,integer grid construction
+713,27,0.01115794646873658,exact axis-aligned grid,,integer grid construction
+714,27,0.010449604562911663,exact axis-aligned grid,,integer grid construction
+715,27,0.00974274920913376,exact axis-aligned grid,,integer grid construction
+716,27,0.009037375215113386,exact axis-aligned grid,,integer grid construction
+717,27,0.00833347741391588,exact axis-aligned grid,,integer grid construction
+718,27,0.00763105066380243,exact axis-aligned grid,,integer grid construction
+719,27,0.006930089848071974,exact axis-aligned grid,,integer grid construction
+720,27,0.0062305898749053235,exact axis-aligned grid,,integer grid construction
+721,27,0.0055325456772092885,exact axis-aligned grid,,integer grid construction
+722,27,0.004835952212462358,exact axis-aligned grid,,integer grid construction
+723,27,0.004140804462562375,exact axis-aligned grid,,integer grid construction
+724,27,0.003447097433674662,exact axis-aligned grid,,integer grid construction
+725,27,0.002754826156080137,exact axis-aligned grid,,integer grid construction
+726,27,0.002063985684027436,exact axis-aligned grid,,integer grid construction
+727,27,0.0013745710955834767,exact axis-aligned grid,,integer grid construction
+728,27,0.0006865774924866841,exact axis-aligned grid,,integer grid construction
+729,27,0.0,exact axis-aligned grid,,integer grid construction
+730,27.52081528019782840000000000000000000000000000000000,0.01859107210580735,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+731,27.53553390595927480000000000000000000000000000000000,0.018438510988837864,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+732,27.53553390693425100000000000000000000000000000000000,0.0177426185548335,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+733,27.57142857246153900000000000000000000000000000000000,0.01837395035638023,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+734,27.59137814602962300000000000000000000000000000000000,0.018416350888184052,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+735,27.61757217412525000000000000000000000000000000000000,0.01868949612446147,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+736,27.65254331129758408994262362688490313125507794273682,0.019286269618933094,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+737,27.65685425350936640000000000000000000000000000000000,0.01875332012834985,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+738,27.69128362421149290961566049059241376071899556743421,0.0193302365310275,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 native 361635074; official raw and pandas independently certified
+739,27.69145092487102128349980626786202965872155718403980,0.018646488684895823,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,official raw and pandas certified
+740,27.70710678121325360000000000000000000000000000000000,0.018533502073123875,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+741,27.72792206138458400000000000000000000000000000000000,0.01861066889848373,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+742,27.76215668670495500000000000000000000000000000000000,0.019180834781240552,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+743,27.76687579170684500000000000000000000000000000000000,0.018667875819964097,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+744,27.78597326429703380000000000000000000000000000000000,0.018683204317403668,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+745,27.79621966271858500000000000000000000000000000000000,0.01837469372999867,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+746,27.80242872096330760000000000000000000000000000000000,0.017919237846406366,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+747,27.82509018813789000000000000000000000000000000000000,0.018066811215782907,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+748,27.83519059326500400000000000000000000000000000000000,0.0177553650588802,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+749,27.85395140958196700000000000000000000000000000000000,0.017761233988117908,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+750,27.86568692913166600000000000000000000000000000000000,0.017511020764151564,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+751,27.87612178875054500000000000000000000000000000000000,0.01721413110693626,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+752,27.88841246022467330000000000000000000000000000000000,0.016985761600112337,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+753,27.90115375776651500000000000000000000000000000000000,0.01677456659556653,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+754,27.90821609541687200000000000000000000000000000000000,0.01635728436448458,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+755,27.91803110501305150000000000000000000000000000000000,0.016041181819392847,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+756,27.92595192677047700000000000000000000000000000000000,0.015657052048599907,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+757,27.94909422684847148748687876373032083289958050679630,0.015827108063128037,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+758,27.96580252720366301224594012527575868813812441132987,0.01576368906315828,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+759,27.97842760325318191410033156931872930130422594673872,0.015552583702161948,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+760,27.99292323333215357025961342204758276480719958296266,0.01541004884676167,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+761,27.99878415679960900000000000000000000000000000000000,0.014955132750598121,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+762,28,0.014332978403105878,exact axis-aligned grid,,integer grid construction
+763,28,0.013668059958395151,exact axis-aligned grid,,integer grid construction
+764,28,0.013004447409390218,exact axis-aligned grid,,integer grid construction
+765,28,0.012342136487062172,exact axis-aligned grid,,integer grid construction
+766,28,0.011681122941893829,exact axis-aligned grid,,integer grid construction
+767,28,0.01102140254376649,exact axis-aligned grid,,integer grid construction
+768,28,0.01036297108184514,exact axis-aligned grid,,integer grid construction
+769,28,0.00970582436446632,exact axis-aligned grid,,integer grid construction
+770,28,0.009049958219025989,exact axis-aligned grid,,integer grid construction
+771,28,0.008395368491867616,exact axis-aligned grid,,integer grid construction
+772,28,0.0077420510481724936,exact axis-aligned grid,,integer grid construction
+773,28,0.0070900017718489305,exact axis-aligned grid,,integer grid construction
+774,28,0.006439216565425232,exact axis-aligned grid,,integer grid construction
+775,28,0.005789691349939563,exact axis-aligned grid,,integer grid construction
+776,28,0.0051414220648333675,exact axis-aligned grid,,integer grid construction
+777,28,0.004494404667845453,exact axis-aligned grid,,integer grid construction
+778,28,0.003848635134904521,exact axis-aligned grid,,integer grid construction
+779,28,0.003204109460025917,exact axis-aligned grid,,integer grid construction
+780,28,0.002560823655206157,exact axis-aligned grid,,integer grid construction
+781,28,0.0019187737503183477,exact axis-aligned grid,,integer grid construction
+782,28,0.0012779557930122643,exact axis-aligned grid,,integer grid construction
+783,28,0.0006383658486086574,exact axis-aligned grid,,integer grid construction
+784,28,0.0,exact axis-aligned grid,,integer grid construction
+785,28.52081528019883040000000000000000000000000000000000,0.017951548812096707,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+786,28.53553390596027280000000000000000000000000000000000,0.01782878683533884,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+787,28.53553390694424900000000000000000000000000000000000,0.017181930251639388,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+788,28.57142857247154000000000000000000000000000000000000,0.0178149998644348,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+789,28.59137814603962400000000000000000000000000000000000,0.017880015818702688,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+790,28.61436893961678200000000000000000000000000000000000,0.01805355968906497,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+791,28.64213562379181377738825321551824507599488263150241,0.018397102694147183,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+792,28.65685424952003550000000000000000000000000000000000,0.018276975749331736,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+793,28.67877987936412940000000000000000000000000000000000,0.018413334189392394,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+794,28.69145092488102000000000000000000000000000000000000,0.018221492494092217,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,official raw and pandas certified; public source and inherited attribution retained
+795,28.70710678121425360000000000000000000000000000000000,0.018136156114430646,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+796,28.72792206138558400000000000000000000000000000000000,0.01823420041302848,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+797,28.75165647510076300000000000000000000000000000000000,0.018435924136195325,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+798,28.76235850425734830000000000000000000000000000000000,0.018176454077768023,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+799,28.77518105823721440000000000000000000000000000000000,0.017992727213087978,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+800,28.78672865434700576923132169163752510236375732436281,0.017764551983293186,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+801,28.79629042081054181568279446958515495823152399416206,0.017466893270220885,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+802,28.80734042453528221961566084581987562858835884801037,0.017222553628165604,local-candidate-bank,011755bd9d2c94b7095ed8644afbd4eb85ff7e904567c7f3c68f9333f8390b8a,official raw and pandas certified; own controlled experiment on inherited witness
+803,28.82758522241189279999999997999999999999866666666667,0.017303390825755605,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+804,28.83181861894546443905306610757924134405853220508150,0.016819843005174473,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+805,28.85166768914077900000000000000000000000000000000000,0.01688766942535458,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+806,28.86390495114566300000000000000000000000000000000000,0.016687689192603328,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+807,28.87562552315034700000000000000000000000000000000000,0.01647015958165987,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+808,28.88371345442487185625117679320301928269287483097383,0.01612549346133174,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+809,28.89830629890016695580792189796075440509553045095053,0.01601034307599236,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+810,28.91111920316454600000000000000000000000000000000000,0.015833182073691887,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+811,28.91803110501405740000000000000000000000000000000000,0.015449414267072026,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+812,28.92595192717047700000000000000000000000000000000000,0.015101911269153057,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+813,28.93831932317542800000000000000000000000000000000000,0.014911168775075145,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+814,28.96598739655804215559854308379669015868025856623066,0.015257332853825467,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+815,28.97963898219195800000000000000000000000000000000000,0.01511247860452647,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+816,28.98969913055253162089030238950060629088932453703713,0.014842458361920441,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+817,28.99687595659947400000000000000000000000000000000000,0.014472274941383034,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+818,29,0.013961221848845184,exact axis-aligned grid,,integer grid construction
+819,29,0.013342008831187746,exact axis-aligned grid,,integer grid construction
+820,29,0.012723928865888467,exact axis-aligned grid,,integer grid construction
+821,29,0.012106978501675192,exact axis-aligned grid,,integer grid construction
+822,29,0.011491154301976003,exact axis-aligned grid,,integer grid construction
+823,29,0.010876452844837292,exact axis-aligned grid,,integer grid construction
+824,29,0.010262870722845596,exact axis-aligned grid,,integer grid construction
+825,29,0.009650404543047442,exact axis-aligned grid,,integer grid construction
+826,29,0.009039050926870518,exact axis-aligned grid,,integer grid construction
+827,29,0.008428806510045295,exact axis-aligned grid,,integer grid construction
+828,29,0.007819667942527975,exact axis-aligned grid,,integer grid construction
+829,29,0.007211631888422554,exact axis-aligned grid,,integer grid construction
+830,29,0.006604695025903773,exact axis-aligned grid,,integer grid construction
+831,29,0.00599885404714251,exact axis-aligned grid,,integer grid construction
+832,29,0.0053941056582278435,exact axis-aligned grid,,integer grid construction
+833,29,0.004790446579093777,exact axis-aligned grid,,integer grid construction
+834,29,0.004187873543443521,exact axis-aligned grid,,integer grid construction
+835,29,0.003586383298674889,exact axis-aligned grid,,integer grid construction
+836,29,0.0029859726058081293,exact axis-aligned grid,,integer grid construction
+837,29,0.0023866382394110985,exact axis-aligned grid,,integer grid construction
+838,29,0.001788376987526874,exact axis-aligned grid,,integer grid construction
+839,29,0.0011911856516018116,exact axis-aligned grid,,integer grid construction
+840,29,0.000595061046413603,exact axis-aligned grid,,integer grid construction
+841,29,0.0,exact axis-aligned grid,,integer grid construction
+842,29.52081528019983040000000000000000000000000000000000,0.01735447920140576,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+843,29.53553390596127280000000000000000000000000000000000,0.017257823450631538,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+844,29.53553390695425300000000000000000000000000000000000,0.016655003980939442,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+845,29.57142857248153700000000000000000000000000000000000,0.01728806892074286,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+846,29.58378219072366700000000000000000000000000000000000,0.017111383206830144,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+847,29.60660172182554180000000000000000000000000000000000,0.017294874307624664,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+848,29.64213562375959310000000000000000000000000000000000,0.017915116480785587,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+849,29.64213562375959310000000000000000000000000000000000,0.017315460984572928,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+850,29.65685424952103640000000000000000000000000000000000,0.017221708714091788,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+851,29.69145092489102200000000000000000000000000000000000,0.017809829213324635,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,official raw and pandas certified; public source and inherited attribution retained
+852,29.70710678121525660000000000000000000000000000000000,0.017748708406480018,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+853,29.70710678121525660000000000000000000000000000000000,0.0171519632901469,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+854,29.72792206538932420000000000000000000000000000000000,0.01726855098898028,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+855,29.74873734155791440000000000000000000000000000000000,0.017385350476855965,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+856,29.76687579250685200000000000000000000000000000000000,0.017410869162440168,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+857,29.77595865906029447570008208237640858579869523208472,0.017127372108459715,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+858,29.78962350843775774858225810122533013643905582567965,0.017000977997381872,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+859,29.79897559596201720615908784645506591817340329194633,0.016727926748333566,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+860,29.80981982969283615906947584285425313453167491349428,0.01650641922425944,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+861,29.82804674048006520000000000000000000000000000000000,0.01653711347911213,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+862,29.84225147690058122496279233789141486092102440579231,0.01643111891648963,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+863,29.84734006182084306110192604568742996598883870829376,0.01601527162429206,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+864,29.86095191407794361050730705190319902270905058800580,0.015890214212161524,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+865,29.87562552355035500000000000000000000000000000000000,0.015801742310105782,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+866,29.88353652855352000000000000000000000000000000000000,0.0154839091820278,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+867,29.88984375249567207340233930394999422069587834540353,0.015112313914072306,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+868,29.90889298722658974032564604193919386801975444152188,0.015173976441465342,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+869,29.91719273256698100000000000000000000000000000000000,0.014871253177729304,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+870,29.92595192757048400000000000000000000000000000000000,0.014584790659819324,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+871,29.93831932357543500000000000000000000000000000000000,0.014421251366662613,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+872,29.95831888519152966389301757402185073755319707953200,0.01451669156399471,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+873,29.97328625022202947404135912788587028476242665929694,0.014442041687172225,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+874,29.98777882400706140149525879884880646225070919303991,0.01435174979315157,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+875,29.99682786930411528979466599484114525054023577313062,0.014077868084052758,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,official raw and pandas certified
+876,30,0.013606067599228888,exact axis-aligned grid,,integer grid construction
+877,30,0.013028020179761457,exact axis-aligned grid,,integer grid construction
+878,30,0.012450960594240446,exact axis-aligned grid,,integer grid construction
+879,30,0.011874886032327225,exact axis-aligned grid,,integer grid construction
+880,30,0.011299793694863114,exact axis-aligned grid,,integer grid construction
+881,30,0.010725680793813641,exact axis-aligned grid,,integer grid construction
+882,30,0.010152544552210818,exact axis-aligned grid,,integer grid construction
+883,30,0.009580382204096738,exact axis-aligned grid,,integer grid construction
+884,30,0.00900919099446873,exact axis-aligned grid,,integer grid construction
+885,30,0.008438968179221407,exact axis-aligned grid,,integer grid construction
+886,30,0.007869711025093817,exact axis-aligned grid,,integer grid construction
+887,30,0.007301416809611938,exact axis-aligned grid,,integer grid construction
+888,30,0.006734082821036491,exact axis-aligned grid,,integer grid construction
+889,30,0.006167706358306546,exact axis-aligned grid,,integer grid construction
+890,30,0.005602284730986229,exact axis-aligned grid,,integer grid construction
+891,30,0.005037815259212097,exact axis-aligned grid,,integer grid construction
+892,30,0.00447429527363763,exact axis-aligned grid,,integer grid construction
+893,30,0.003911722115381933,exact axis-aligned grid,,integer grid construction
+894,30,0.003350093135976673,exact axis-aligned grid,,integer grid construction
+895,30,0.0027894056973134518,exact axis-aligned grid,,integer grid construction
+896,30,0.0022296571715914038,exact axis-aligned grid,,integer grid construction
+897,30,0.0016708449412667914,exact axis-aligned grid,,integer grid construction
+898,30,0.0011129663989997152,exact axis-aligned grid,,integer grid construction
+899,30,0.0005560189476050414,exact axis-aligned grid,,integer grid construction
+900,30,0.0,exact axis-aligned grid,,integer grid construction
+901,30.52081528020082740000000000000000000000000000000000,0.01679577962160894,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+902,30.53553390596227080000000000000000000000000000000000,0.01672206592422243,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+903,30.53553390696425000000000000000000000000000000000000,0.016158940981703784,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+904,30.56363514340545071922866957255270984022901432342246,0.016531383874486938,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+905,30.58378219073366800000000000000000000000000000000000,0.016639319609987657,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+906,30.59137814630142300000000000000000000000000000000000,0.01633046420019202,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+907,30.61908950125374307289046363020577290605927188097024,0.016690179747022027,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+908,30.64213562376059410000000000000000000000000000000000,0.01689498653489263,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+909,30.65685424952203840000000000000000000000000000000000,0.016823670437385863,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+910,30.69145092490102300000000000000000000000000000000000,0.017411691162360743,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,official raw and pandas certified; public source and inherited attribution retained
+911,30.70710678121625360000000000000000000000000000000000,0.017371835717347794,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+912,30.70710678121625360000000000000000000000000000000000,0.016813913089308796,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+913,30.72792206539932300000000000000000000000000000000000,0.016945792703916718,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+914,30.74667958978244830961565485159990157390691297718879,0.017009768137254078,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+915,30.76235850325934930000000000000000000000000000000000,0.016972202060065777,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+916,30.76315064167907239033343706193817118813574090363512,0.01644310763117307,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+917,30.78427610572609245000000000000000000000000000000000,0.01658635875810499,local-candidate-bank,011755bd9d2c94b7095ed8644afbd4eb85ff7e904567c7f3c68f9333f8390b8a,official raw and pandas certified; public source and inherited attribution retained
+918,30.78779364874790162887602377390624209964368899476414,0.016148607832686457,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+919,30.80308601105902699104120902418795507877858078293625,0.016100050232978225,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+920,30.81029107230100528293647388991949410945537805038450,0.015785215635791383,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+921,30.83127758593261800000000000000000000000000000000000,0.015925137228420594,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+922,30.83838468984642545706538033570264942750696884027343,0.015608112222794679,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+923,30.85592665794247900000000000000000000000000000000000,0.01563519713108108,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+924,30.86390495194567100000000000000000000000000000000000,0.015347928810492961,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+925,30.87562552395035500000000000000000000000000000000000,0.015184313711375852,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+926,30.88353652895352000000000000000000000000000000000000,0.014895981719174056,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+927,30.89562312995835900000000000000000000000000000000000,0.014745401235930267,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+928,30.90890023717208362663431228329437200312728324677086,0.014634358440024808,local-candidate-bank,1afb3c54ef87a50b76776e49142e44a95347b2e25a52f0ee9d2513273c93e76a,official raw and pandas certified; public source and inherited attribution retained
+929,30.91766617951248100834746434879700331407862736769945,0.014375723107301841,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+930,30.92350769996951200000000000000000000000000000000000,0.01402176413520051,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+931,30.93831934597543700000000000000000000000000000000000,0.013962462496964756,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+932,30.96020972602757180000000000000000000000000000000000,0.014135388464934229,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+933,30.97239544840655900000000000000000000000000000000000,0.013990704484408978,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+934,30.98352842236982204407035803119993302693192775987396,0.013812019571489254,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+935,30.99417405818492647662638212218950253093865874275818,0.013617878589259114,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+936,31,0.013266698213950878,exact axis-aligned grid,,integer grid construction
+937,31,0.012725856596441876,exact axis-aligned grid,,integer grid construction
+938,31,0.012185880094925716,exact axis-aligned grid,,integer grid construction
+939,31,0.011646766405498221,exact axis-aligned grid,,integer grid construction
+940,31,0.01110851323283546,exact axis-aligned grid,,integer grid construction
+941,31,0.010571118290153114,exact axis-aligned grid,,integer grid construction
+942,31,0.010034579299165625,exact axis-aligned grid,,integer grid construction
+943,31,0.009498893990045998,exact axis-aligned grid,,integer grid construction
+944,31,0.008964060101384952,exact axis-aligned grid,,integer grid construction
+945,31,0.008430075380150948,exact axis-aligned grid,,integer grid construction
+946,31,0.007896937581650443,exact axis-aligned grid,,integer grid construction
+947,31,0.007364644469488146,exact axis-aligned grid,,integer grid construction
+948,31,0.006833193815527938,exact axis-aligned grid,,integer grid construction
+949,31,0.006302583399853123,exact axis-aligned grid,,integer grid construction
+950,31,0.005772811010727796,exact axis-aligned grid,,integer grid construction
+951,31,0.005243874444558427,exact axis-aligned grid,,integer grid construction
+952,31,0.004715771505854782,exact axis-aligned grid,,integer grid construction
+953,31,0.004188500007192175,exact axis-aligned grid,,integer grid construction
+954,31,0.003662057769172833,exact axis-aligned grid,,integer grid construction
+955,31,0.003136442620389035,exact axis-aligned grid,,integer grid construction
+956,31,0.0026116523973838124,exact axis-aligned grid,,integer grid construction
+957,31,0.002087684944615642,exact axis-aligned grid,,integer grid construction
+958,31,0.0015645381144195891,exact axis-aligned grid,,integer grid construction
+959,31,0.001042209766971114,exact axis-aligned grid,,integer grid construction
+960,31,0.0005206977702494342,exact axis-aligned grid,,integer grid construction
+961,31,0.0,exact axis-aligned grid,,integer grid construction
+962,31.52081528020182840000000000000000000000000000000000,0.01627187291408605,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+963,31.53553390596327180000000000000000000000000000000000,0.016218377614380497,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+964,31.53553390697425100000000000000000000000000000000000,0.01569115666327736,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+965,31.56362565354789100000000000000000000000000000000000,0.01606906072521075,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+966,31.58378219074366600000000000000000000000000000000000,0.016191534839081978,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+967,31.59137814631142400000000000000000000000000000000000,0.015910233264201157,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,official raw and pandas certified; public source and inherited attribution retained
+968,31.61908950126374407786584690232379824490569617744327,0.016276027331271203,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 native 361635074; official raw and pandas independently certified
+969,31.64213562376159110000000000000000000000000000000000,0.016491845853070064,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+970,31.65685424952303840000000000000000000000000000000000,0.016440332463900642,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+971,31.67877987936472960000000000000000000000000000000000,0.016620425853654863,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+972,31.69238815944994960000000000000000000000000000000000,0.016533824173363243,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+973,31.70710678121725360000000000000000000000000000000000,0.016483176311375525,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+974,31.70710678121725360000000000000000000000000000000000,0.015961233696058175,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+975,31.72792206638973010000000000000000000000000000000000,0.016106716912534624,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+976,31.74783189281749419565904002809414414973945402893552,0.016223335047609755,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+977,31.76235850326035330000000000000000000000000000000000,0.016167875988020608,alexchilton/fault-line-dp-basin-hopping-lb-22-3747,417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982,official raw and pandas certified; public source and inherited attribution retained
+978,31.77968560618838990000000000000000000000000000000000,0.016202289546891846,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,official raw and pandas certified; public source and inherited attribution retained
+979,31.78427643031382400961566084581987562858835884801037,0.01582988017340692,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+980,31.79585071994312200000000000000000000000000000000000,0.015681194460406278,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+981,31.79794809382699877669764526526665430680355393292741,0.015230350012176874,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+982,31.81859771932754900000000000000000000000000000000000,0.015372254645289463,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+983,31.82200257149073674066016316221693705655198812990365,0.014964255097237089,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+984,31.83985302733599498725139432188969743081047599643650,0.015017441879433102,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+985,31.84830289692327533900139805148811105694645820639181,0.0147713089940682,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+986,31.86390495234567100000000000000000000000000000000000,0.014753459207580866,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+987,31.87619082135059000000000000000000000000000000000000,0.01463033294998839,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+988,31.88384615235365200000000000000000000000000000000000,0.014360274590325295,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+989,31.89562313035835900000000000000000000000000000000000,0.01422180983692578,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+990,31.91222876236500000000000000000000000000000000000000,0.014237208812073243,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+991,31.91719273336698800000000000000000000000000000000000,0.013883041268190732,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+992,31.92595192837049100000000000000000000000000000000000,0.013649987376257222,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+993,31.93414207639136595658830666843108547838645083356836,0.013399367525884553,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,official raw and pandas certified; public source and inherited attribution retained
+994,31.96020972602857100000000000000000000000000000000000,0.013716296659181504,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+995,31.96801087519521000000000000000000000000000000000000,0.01345407648413488,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+996,31.98000104239211100000000000000000000000000000000000,0.013325109618098185,lightningv08/squares-in-squares-cuda-packing-search,51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9,official raw and pandas certified; public source and inherited attribution retained
+997,31.99604644019931500961566084581987562858835884801037,0.013324957856083453,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+998,31.99687592032366860445333448258679015719496433888863,0.01284340951846974,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,official metric source matched; raw and pandas verified
+999,32,0.01243519546933225,exact axis-aligned grid,,integer grid construction
+1000,32,0.011928851253881323,exact axis-aligned grid,,integer grid construction

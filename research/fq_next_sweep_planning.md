@@ -31,3 +31,19 @@ The completed broad and saved-output recovery union has 63 new best whole-case g
 These are hypothetical joins, not valid proposals or credited gains. Actual D4 corner separation, full stitch, clearance and fresh raw/pandas/interval gates remain necessary. There are no guarded L-frame closure gains. A cheap focused four-join check, followed if useful by localized crops from changed cases, is more justified than an unchanged broad GPU composition iteration. Longer chains and historical-interface diversity are outside this scalar audit.
 
 The corrected report is `artifacts/fq-next-step-planning-v1/composition-planning.json`, SHA256 `daa146498ca6a04d3f910f72167de2b1e8e8fa354aab7aeeed92f45ae4120895`. No search, geometry construction, GPU launch, canonical mutation or submission was performed by this planning pass. Completed campaign source and outputs remain unchanged.
+
+## Authorized focused join screen
+
+After root authorization, `experiments/screen_broad_delta_four_joins.py` completed the four-hypothesis screen in 1.72 seconds using one CPU, bounded externally at 120 seconds. It tested all eight D4 transforms of each new whole donor, both pinned classic motif poses and their D4 transforms, and both block orders: 1,024 actual unit-square SAT join checks. All failed, so there were zero full proposals, zero additional candidate certificates and zero gains. This does not rule out localized crops or different constructions.
+
+The existing classic two-motif buffered stitch positive control passed complete official raw, ordinary-pandas and independent interval gates. A coincident-square SAT negative control also passed. The finite result is preserved under `artifacts/broad-delta-four-joins-v1/`, including original sources/arrays, each pair's separate BR/TL profile compatibility, exact SAT outcome and controls. Manifest SHA256 is `61c4e8f82109ef07989be39256e88887450ba2b443ba0b9196bcbf94db919ee3`. Source hashes remained unchanged. No broad GPU composition job, canonical mutation or submission resulted.
+
+The separate authorized rigid sweep has begun under its own source, input freeze and research note (`research/fq_current_rigid_sweep.md`); it is not an extension of this completed join screen.
+
+## Finite rigid sweep outcome
+
+The final result-based audit refined the preliminary counts to 223 recent-current rigid-untried sources, 35 materially changed winner follow-ups and seven prior attempts without a returned result. It excluded 16 completed equivalent rigid results, 27 completed equivalent inputs and the three repeatedly tested policy exclusions. The fixed queue contained 138 fresh current sources, all 35 changed follow-ups and all seven no-return attempts.
+
+After the root's explicit go, that separate 180-source sweep completed all 180 trials in 437.14 seconds (438.15 seconds including its supervisor), exit zero. It retained 132 fully certified poses and found 31 case improvements totaling 0.0002297011647683 against frozen final-v2. This is a sum of certified per-case gains, not a replacement for the portfolio owner's full merge/SAFE proof. No extension was started and all three workers are free.
+
+Its final immutable candidate JSON is `artifacts/fq-current-rigid-v1/complete/candidates.json`, SHA256 `09262fb799c16b722d52413536329bbeef15243f31de0a806da5ae06959b6372`. The frozen worker SHA remained `05c07430d935b6d005ec1d0dde7a383aa32aa6e22745dcfc3dc765f5440d75eb`. Detailed exposure/protocol and final attribution are in the separate rigid sweep note and retained trial records. No canonical portfolio or submission was modified by this lane.
