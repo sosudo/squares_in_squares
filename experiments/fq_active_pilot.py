@@ -106,8 +106,14 @@ def trial(job):
     (Path(out)/f'{name}.log').write_text(run.stdout + '\n' + run.stderr)
     if run.returncode != 0 or not dst.exists():
         return {**record, 'status': 'failed'}, None
-    record['fq'] = json.loads(run.stdout.strip().splitlines()[-1])
-    q = decode(dst, len(p))
+    try:
+        record['fq'] = json.loads(run.stdout.strip().splitlines()[-1])
+    except (ValueError, IndexError):
+        return {**record, 'status': 'invalid-optimizer-report'}, None
+    try:
+        q = decode(dst, len(p))
+    except (ValueError, IndexError, OSError):
+        return {**record, 'status': 'invalid-optimizer-coordinates'}, None
     if q is None:
         return {**record, 'status': 'failed-clearance'}, None
     record['after'] = bloat(q, w, h)
@@ -160,8 +166,17 @@ def main():
                  (mode, key) for mode in args.modes for key in keys)]
     records, donors = [], {}
     with ProcessPoolExecutor(max_workers=args.workers) as pool:
-        for future in as_completed([pool.submit(trial, job) for job in jobs]):
-            record, donor = future.result()
+        pending = {pool.submit(trial, job): job for job in jobs}
+        for future in as_completed(pending):
+            try:
+                record, donor = future.result()
+            except Exception as exc:
+                job = pending[future]
+                # Preserve completed candidates and account for every failed
+                # trial. Never turn an exceptional worker into geometry.
+                record = {'key': job[0], 'mode': job[2], 'seed': job[5],
+                          'status': 'worker-error', 'error_type': type(exc).__name__}
+                donor = None
             records.append(record)
             if donor:
                 donors[donor[0]] = donor[1]

@@ -1,0 +1,78 @@
+{
+  "schema_version": 2,
+  "purpose": "Search baseline only; user permits submission only when raw and ordinary-roundtrip score are strictly below22.3.",
+  "user_submission_score_threshold": 22.3,
+  "eligible_under_user_score_threshold": false,
+  "raw_source": "/workspace/squares_in_squares/artifacts/merged-fq-full-basin-v1.csv",
+  "raw_sha256": "be22cb064c823a843d44b6734d78b5101cad7d7c3d27d97168845454e124e721",
+  "raw_score": 22.301742652498454,
+  "safe_submission": "/workspace/squares_in_squares/artifacts/submission-fq-full-basin-v1-safe.csv",
+  "safe_sha256": "8cd7c023ab18b5875fcd5084e23415eda3181df1f4e70b5558bfe9eb039b0658",
+  "safe_score": 22.301742653369043,
+  "roundtrip_submission": "/workspace/squares_in_squares/artifacts/submission-fq-full-basin-v1-safe-roundtrip.csv",
+  "roundtrip_sha256": "e4443211f7aee170cf3d1c7c56a251d35a1e07bdbb29cdfd5e9d80e4242a63fa",
+  "roundtrip_score": 22.301742653369043,
+  "safe_invalid_count": 0,
+  "roundtrip_invalid_count": 0,
+  "safe_case_coverage": 1000,
+  "safe_reuse": {
+    "reused": 998,
+    "evaluated": 2
+  },
+  "roundtrip_case_coverage": 1000,
+  "roundtrip_reuse": {
+    "reused": 998,
+    "evaluated": 2
+  },
+  "roundtrip_evaluated": 2,
+  "roundtrip_reused": 998,
+  "same_binary64_score": true,
+  "absolute_score_difference": 0.0,
+  "score_tolerance": 1e-10,
+  "scores_agree_within_1e_10": true,
+  "baseline_role": "Previous fully certified fine composition portfolio",
+  "baseline_sha256": "bcdec008d7f128c44bf31b51013449b39df988158cac52869c47dda9d0a2bb19",
+  "baseline_score": 22.301832917346843,
+  "gain_over_previous_baseline": 9.026397779976492e-05,
+  "roundtrip_gain_over_previous_baseline": 9.026397779976492e-05,
+  "strictly_better_raw_and_roundtrip": true,
+  "case_score_changes": [
+    {
+      "n": 702,
+      "gain": 7.940442112008839e-05,
+      "old_side": "26.93948607087906700000000000000000000000000000000000",
+      "new_side": "26.93738222830188665923132169163581587104206568288451"
+    },
+    {
+      "n": 813,
+      "gain": 1.0859556681008797e-05,
+      "old_side": "28.93664823187339500000000000000000000000000000000000",
+      "new_side": "28.93633859165205423390352403563226744838947557793316"
+    }
+  ],
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "factor": "1.00000000001",
+  "safety_scaled_cases": 89,
+  "transform_report": "/workspace/squares_in_squares/artifacts/submission-fq-full-basin-v1-safe.transport-transform.json",
+  "transform_report_sha256": "57777ac778685e2ea770c8ada6b535ef430d3b90ced183c0cfbbe1b5936ac0c7",
+  "raw_official_report_sha256": "18c552580762d485a24e3e35e242c61dd1e9be62d44cd310d9864178297006ad",
+  "safe_official_report_sha256": "5198f097096b5883d5ecce92a2c83b2332d91f73a3d75562d6aeada3b251da93",
+  "roundtrip_official_report_sha256": "0abc89f13b77b5066da60531247330b52936818679f5ef04b0ce32a5667100c0",
+  "safe_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-composition-fine-v1-safe-official.json",
+    "report_sha256": "ef9b572762d6a82459d49fd40b4471baeb32966e6d84de0cff81dec18432b45c",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-composition-fine-v1-safe.csv",
+    "sha256": "bcdec008d7f128c44bf31b51013449b39df988158cac52869c47dda9d0a2bb19"
+  },
+  "roundtrip_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-composition-fine-v1-safe-roundtrip-official.json",
+    "report_sha256": "63dad7bc2a99404a9de9cd57cf1e57f8b3b6f9451adeef641c971788ca224bce",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-composition-fine-v1-safe-roundtrip.csv",
+    "sha256": "d41165da570886395ad1de244976029df724edbbcc423cfdc5e7d3a4703d1429"
+  },
+  "composition_merge_provenance": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-full-basin-v1.validation.json",
+    "sha256": "092d38f8a42db2436bf316e21b7f5735f92d83bb4aac9171d3f99a8b084b40ed"
+  },
+  "competition_submission_performed": false
+}

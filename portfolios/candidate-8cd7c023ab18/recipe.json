@@ -1,0 +1,32 @@
+{
+  "status": "Certified search incumbent; private CPU export complete and remote bytes verified; not submitted",
+  "csv_sha256": "8cd7c023ab18b5875fcd5084e23415eda3181df1f4e70b5558bfe9eb039b0658",
+  "raw_csv_sha256": "be22cb064c823a843d44b6734d78b5101cad7d7c3d27d97168845454e124e721",
+  "official_score": 22.301742653369043,
+  "roundtrip_score": 22.301742653369043,
+  "source_notebook": {
+    "ref": "sos54352/squares-portfolio-8cd7c023ab18",
+    "version": 1,
+    "output_file": "submission.csv"
+  },
+  "source_sha256": "b205e7a454cde03a742a6b9ac07c19c17b92792bb579ef663c0343b48181becc",
+  "source_bytes": 850357,
+  "composition_notebook": {
+    "ref": "sos54352/squares-composition-fine-9c8cccde95fe",
+    "version": 1
+  },
+  "raw_baseline_sha256": "dcef215e7561ef72ee959782b2f03736b858307113776bbbfe3293002bf70128",
+  "full_basin_cases": [
+    702,
+    813
+  ],
+  "finding": "Preserves all public v28, CPU replay, n599, and fine-composition gains; adds independently certified full-basin improvements to n702 and n813.",
+  "transport_helper": "scripts/make_transport_safe.py",
+  "centre_dilation_factor": "1.00000000001",
+  "reproduce_command": "python3 portfolios/candidate-8cd7c023ab18/export.py --destination /tmp/squares-candidate-8cd7c023ab18/submission.csv",
+  "submission_policy": {
+    "maximum_score_exclusive": 22.3,
+    "eligible": false,
+    "competition_submission_performed": false
+  }
+}

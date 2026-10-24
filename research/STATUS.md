@@ -18,6 +18,14 @@ This competition task is ongoing. The user wants the highest possible rank, idea
 - All 138 tests passed in 5.132 seconds at this checkpoint. Git push uses `git push origin HEAD:main`. Preserve frozen inputs and immutable private notebook slugs; attachment version suffixes do not pin output bytes.
 - Environment install/start draft is saved and tested, with Python 3.12, pinned CPU stack, Rust 1.99.1 and portable FQ controls. Publication remains user-side. Paperspace FREE-only access remains blocked by explicit nonretryable Cloudflare 1010; do not repeat or spoof. Credentials stay protected and untracked.
 
+### Subsequent verified checkpoint — 08:05 UTC
+
+The n702/n813 merge is complete: **22.301742653369043**, identical safe and pandas-roundtrip score, zero invalid cases, two fresh official checks and 998 exact reuses. Safe SHA 8cd7c023ab18b5875fcd5084e23415eda3181df1f4e70b5558bfe9eb039b0658; raw SHA be22cb064c823a843d44b6734d78b5101cad7d7c3d27d97168845454e124e721. Canonical summary `artifacts/submission-fq-full-basin-v1-safe.transport-validation.json`, SHA 1072cfe3877df76345369bf2e0f2c3533870df7c15fe2186b7748f2d73de1a74. Unique private CPU source `sos54352/squares-portfolio-8cd7c023ab18/1` is COMPLETE and remotely hash-verified. Portable recipe and all v28 source notices are tracked in `portfolios/candidate-8cd7c023ab18/`. No competition submission.
+
+Native FQ malformed reports/coordinates now produce rejected trial records; an unexpected worker exception no longer loses other completed certified results. Three integration tests include a real subprocess campaign with one failed worker and one independently certified surviving pose. Existing trial API and search parameters are unchanged.
+
+Full-witness translated-window search is complete: 169,575 threshold queries across 175 public complete poses, all non-perfect target counts n=2..1000 covered, no feasible improvements. Search time 392.55 seconds plus 10.27 seconds preparation. This rules out only fixed axis-oriented windows; it does not establish a global packing bound. A distinct complete-puzzle localized soft-shape control is being prepared before further allocation.
+
 ## User instructions
 
 - Commit and push at useful validated checkpoints. Git branch `work` tracks `origin/main`; use `git push origin HEAD:main` explicitly. Remote is sosudo/squares_in_squares.

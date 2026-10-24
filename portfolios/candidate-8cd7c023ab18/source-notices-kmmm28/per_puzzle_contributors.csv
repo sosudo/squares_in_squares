@@ -1,0 +1,1001 @@
+n,provider_id,source,source_sha256,discovery_attribution,upstream_evidence
+1,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+2,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+3,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+4,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+5,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+6,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+7,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+8,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+9,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+10,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+11,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+12,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+13,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+14,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+15,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+16,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+17,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+18,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+19,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+20,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+21,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+22,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+23,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+24,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+25,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+26,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+27,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+28,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+29,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+30,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+31,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+32,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+33,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+34,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+35,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+36,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+37,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+38,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+39,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+40,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+41,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+42,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+43,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+44,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+45,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+46,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+47,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+48,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+49,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+50,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+51,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+52,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+53,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+54,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+55,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+56,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+57,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+58,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+59,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+60,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+61,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+62,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+63,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+64,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+65,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+66,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+67,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+68,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+69,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+70,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+71,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+72,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+73,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+74,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+75,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+76,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+77,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+78,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+79,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+80,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+81,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+82,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+83,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+84,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+85,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+86,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+87,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+88,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+89,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+90,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+91,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+92,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+93,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+94,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+95,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+96,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+97,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+98,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+99,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+100,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+101,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+102,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+103,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+104,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+105,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+106,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+107,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+108,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+109,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+110,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+111,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+112,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+113,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+114,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+115,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+116,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+117,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+118,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+119,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+120,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+121,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+122,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+123,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+124,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+125,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+126,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+127,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+128,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+129,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+130,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+131,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+132,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+133,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+134,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+135,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+136,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+137,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+138,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+139,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+140,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+141,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+142,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+143,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+144,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+145,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+146,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+147,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+148,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+149,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+150,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+151,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+152,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+153,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+154,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+155,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+156,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+157,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+158,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+159,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+160,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+161,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+162,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+163,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+164,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+165,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+166,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+167,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+168,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+169,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+170,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+171,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+172,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+173,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+174,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+175,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+176,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+177,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+178,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+179,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+180,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+181,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+182,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+183,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+184,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+185,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+186,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+187,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+188,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+189,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+190,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+191,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+192,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+193,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+194,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+195,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+196,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+197,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+198,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+199,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+200,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+201,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+202,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+203,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+204,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+205,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+206,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+207,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+208,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+209,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+210,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+211,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+212,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+213,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+214,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+215,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+216,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+217,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+218,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+219,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+220,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+221,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+222,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+223,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+224,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+225,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+226,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+227,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+228,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+229,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+230,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+231,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+232,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+233,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+234,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+235,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+236,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+237,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+238,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+239,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+240,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+241,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+242,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+243,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+244,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+245,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+246,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+247,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+248,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+249,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+250,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+251,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+252,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+253,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+254,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+255,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+256,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+257,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+258,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+259,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+260,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+261,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+262,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+263,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+264,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+265,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+266,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+267,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+268,EXT-lightningv08,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; cuda_merge_20261024_1024_provenance.json
+269,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+270,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+271,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+272,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+273,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+274,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+275,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+276,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+277,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+278,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+279,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+280,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+281,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+282,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+283,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+284,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+285,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+286,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+287,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+288,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+289,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+290,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+291,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+292,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+293,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+294,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+295,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+296,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+297,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+298,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+299,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+300,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+301,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+302,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+303,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+304,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+305,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+306,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+307,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+308,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+309,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+310,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+311,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+312,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+313,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+314,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+315,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+316,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+317,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+318,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+319,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+320,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+321,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+322,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+323,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+324,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+325,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+326,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+327,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+328,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+329,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+330,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+331,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+332,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+333,EXT-kirilltym,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; public_batch_20261024_provenance.json
+334,EXT-kirilltym,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; public_batch_20261024_provenance.json
+335,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+336,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+337,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+338,METHOD-local-strata,local-candidate-bank,287242a3b81b242449695db0a8261781be8b3613d6d524f8ebcd88f5092b1c36,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0610_provenance.json; preserved source notices and local parent ledger
+339,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+340,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+341,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+342,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+343,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+344,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+345,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+346,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+347,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+348,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+349,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+350,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+351,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+352,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+353,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+354,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+355,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+356,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+357,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+358,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+359,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+360,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+361,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+362,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+363,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+364,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+365,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+366,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+367,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+368,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+369,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+370,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+371,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+372,EXT-kirilltym,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; public_batch_20261024_provenance.json
+373,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+374,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+375,EXT-kirilltym,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; public_batch_20261024_provenance.json
+376,METHOD-local-strata,local-candidate-bank,844e15f9cb437093784b80297f2baab068518f3d5c853356941201b854ade753,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0610_provenance.json; preserved source notices and local parent ledger
+377,EXT-lightningv08,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 public portfolio adoption; all inherited discoverers retain credit,SOURCE_NOTICES.md; v17_micro_batch_provenance.json
+378,EXT-kirilltym,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; public_batch_20261024_provenance.json
+379,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+380,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+381,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+382,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+383,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+384,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+385,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+386,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+387,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+388,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+389,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+390,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+391,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+392,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+393,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+394,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+395,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+396,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+397,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+398,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+399,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+400,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+401,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+402,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+403,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+404,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+405,EXT-kirilltym,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; public_batch_20261024_provenance.json
+406,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+407,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+408,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+409,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+410,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+411,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+412,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+413,EXT-lightningv08,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 public portfolio adoption; all inherited discoverers retain credit,SOURCE_NOTICES.md; v17_micro_batch_provenance.json
+414,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+415,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+416,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+417,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+418,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+419,EXT-kirilltym,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; public_batch_20261024_provenance.json
+420,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+421,EXT-kirilltym,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; public_batch_20261024_provenance.json
+422,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+423,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+424,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+425,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+426,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+427,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+428,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+429,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+430,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+431,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+432,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+433,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+434,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+435,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+436,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+437,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+438,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+439,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+440,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+441,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+442,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+443,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+444,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+445,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+446,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+447,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+448,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+449,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+450,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+451,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+452,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+453,EXT-kirilltym,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; public_batch_20261024_provenance.json
+454,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+455,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+456,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+457,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+458,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+459,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=459; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+460,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+461,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+462,EXT-lightningv08,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 public portfolio adoption; all inherited discoverers retain credit,SOURCE_NOTICES.md; v17_micro_batch_provenance.json
+463,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+464,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+465,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+466,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+467,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+468,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+469,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+470,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+471,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+472,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+473,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+474,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+475,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+476,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+477,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+478,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+479,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+480,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+481,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+482,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+483,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+484,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+485,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+486,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+487,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+488,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+489,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+490,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+491,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+492,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+493,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+494,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+495,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+496,METHOD-local-strata,local-batch-20261024-0437,078e7749d1581668dab5f5fbfc893d7f77299c09f7ebec1c4cf5e810b427f2e2,New local refinement on inherited witness; original source lineage retained in previous snapshot and parent ledger,local_batch_0437_provenance.json; preserved previous source notices and parent adoptions ledger
+497,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+498,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+499,EXT-lightningv08,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 public portfolio adoption; all inherited discoverers retain credit,SOURCE_NOTICES.md; v17_micro_batch_provenance.json
+500,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+501,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+502,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+503,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+504,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+505,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+506,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+507,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+508,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+509,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+510,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+511,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+512,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+513,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+514,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+515,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+516,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+517,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+518,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+519,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+520,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+521,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+522,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+523,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+524,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+525,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+526,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+527,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+528,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+529,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+530,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+531,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+532,EXT-kirilltym,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; public_batch_20261024_provenance.json
+533,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+534,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+535,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+536,EXT-lightningv08,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; cuda_merge_20261024_1024_provenance.json
+537,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+538,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+539,EXT-lightningv08,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 public portfolio adoption; all inherited discoverers retain credit,SOURCE_NOTICES.md; v17_micro_batch_provenance.json
+540,EXT-lightningv08,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 public portfolio adoption; all inherited discoverers retain credit,SOURCE_NOTICES.md; v17_micro_batch_provenance.json
+541,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+542,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+543,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+544,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+545,EXT-kirilltym,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; public_batch_20261024_provenance.json
+546,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+547,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+548,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+549,EXT-kirilltym,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; public_batch_20261024_provenance.json
+550,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+551,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+552,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+553,EXT-kirilltym,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; public_batch_20261024_provenance.json
+554,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+555,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+556,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+557,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+558,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+559,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+560,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+561,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+562,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+563,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+564,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+565,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+566,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+567,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+568,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+569,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+570,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+571,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+572,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+573,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+574,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+575,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+576,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+577,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+578,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+579,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+580,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+581,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+582,EXT-kirilltym,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; public_batch_20261024_provenance.json
+583,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+584,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+585,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+586,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+587,EXT-lightningv08,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 public portfolio adoption; all inherited discoverers retain credit,SOURCE_NOTICES.md; v17_micro_batch_provenance.json
+588,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=588; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+589,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+590,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=590; published lineage=sub:submission_merged.csv:543+border1; original discovery identity unresolved where only a merged-file label is supplied
+591,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+592,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+593,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+594,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+595,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+596,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+597,EXT-lightningv08,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 public portfolio adoption; all inherited discoverers retain credit,SOURCE_NOTICES.md; v17_micro_batch_provenance.json
+598,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+599,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+600,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+601,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+602,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+603,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+604,EXT-lightningv08,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 public portfolio adoption; all inherited discoverers retain credit,SOURCE_NOTICES.md; v17_micro_batch_provenance.json
+605,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+606,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+607,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+608,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+609,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+610,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+611,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+612,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+613,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+614,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+615,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+616,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+617,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+618,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+619,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+620,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+621,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+622,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+623,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+624,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+625,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+626,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+627,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+628,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+629,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+630,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+631,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+632,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+633,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+634,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+635,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+636,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+637,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=637; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+638,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+639,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+640,METHOD-local-strata,local-candidate-bank,622e010b551a1ece548aa97270e01d44df3e47afc6785f71a032e74c1da9a2d0,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+641,EXT-lightningv08,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; cuda_merge_20261024_1024_provenance.json
+642,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=642; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+643,EXT-lightningv08,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 public portfolio adoption; all inherited discoverers retain credit,SOURCE_NOTICES.md; v17_micro_batch_provenance.json
+644,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+645,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+646,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=646; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+647,EXT-kirilltym,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; public_batch_20261024_provenance.json
+648,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+649,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+650,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=650; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+651,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+652,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+653,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+654,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+655,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+656,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+657,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+658,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+659,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+660,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+661,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+662,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+663,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+664,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+665,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+666,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+667,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+668,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+669,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+670,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+671,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+672,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+673,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+674,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+675,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+676,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+677,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+678,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+679,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+680,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+681,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+682,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+683,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+684,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+685,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+686,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+687,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+688,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+689,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=689; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+690,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+691,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=691; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+692,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+693,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+694,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=694; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+695,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+696,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+697,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+698,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+699,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+700,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+701,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+702,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+703,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+704,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+705,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+706,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+707,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+708,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+709,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+710,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+711,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+712,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+713,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+714,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+715,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+716,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+717,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+718,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+719,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+720,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+721,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+722,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+723,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+724,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+725,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+726,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+727,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+728,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+729,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+730,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+731,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+732,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+733,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+734,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+735,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+736,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+737,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+738,EXT-lightningv08,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 public portfolio adoption; all inherited discoverers retain credit,SOURCE_NOTICES.md; v17_micro_batch_provenance.json
+739,EXT-kirilltym,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; public_batch_20261024_provenance.json
+740,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+741,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+742,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+743,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=743; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+744,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+745,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=745; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+746,METHOD-local-strata,local-candidate-bank,d69e3d580cfeb6580d153d4f2a1c18f286a356f6efdd6a999daba7b16a263df7,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+747,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+748,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+749,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+750,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+751,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+752,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+753,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+754,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+755,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+756,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=756; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+757,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+758,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+759,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+760,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+761,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+762,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+763,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+764,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+765,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+766,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+767,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+768,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+769,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+770,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+771,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+772,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+773,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+774,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+775,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+776,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+777,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+778,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+779,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+780,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+781,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+782,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+783,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+784,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+785,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+786,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+787,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+788,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+789,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+790,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+791,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+792,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+793,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+794,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=794; published lineage=sub:submission_merged.csv:739+border1; original discovery identity unresolved where only a merged-file label is supplied
+795,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+796,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+797,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=797; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+798,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=798; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+799,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=799; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+800,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+801,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+802,METHOD-local-strata,local-batch-20261024-0437,e99431828ac05b09149616576aa61d5966cdf5aa827a85127ac9bf035230db01,New local refinement on inherited witness; original source lineage retained in previous snapshot and parent ledger,local_batch_0437_provenance.json; preserved previous source notices and parent adoptions ledger
+803,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+804,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+805,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=805; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+806,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=806; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+807,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+808,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+809,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+810,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+811,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+812,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=812; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+813,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+814,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+815,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=815; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+816,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+817,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+818,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+819,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+820,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+821,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+822,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+823,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+824,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+825,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+826,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+827,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+828,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+829,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+830,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+831,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+832,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+833,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+834,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+835,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+836,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+837,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+838,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+839,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+840,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+841,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+842,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+843,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+844,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+845,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+846,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+847,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+848,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+849,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+850,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+851,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=851; published lineage=sub:submission_merged.csv:739+border2; original discovery identity unresolved where only a merged-file label is supplied
+852,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+853,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+854,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+855,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+856,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=856; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+857,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+858,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+859,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+860,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+861,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=861; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+862,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+863,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+864,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+865,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+866,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=866; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+867,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+868,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+869,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+870,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=870; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+871,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+872,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+873,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+874,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+875,EXT-kirilltym,kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp,8b918a40c89b359f58377ebb7080b3f1a47c6b5f4ebc1fb664cce3a3c6ad3972,Inherited source credit retained; adoption is not exclusive discovery credit,SOURCE_NOTICES.md; public_batch_20261024_provenance.json
+876,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+877,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+878,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+879,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+880,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+881,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+882,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+883,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+884,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+885,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+886,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+887,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+888,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+889,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+890,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+891,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+892,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+893,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+894,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+895,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+896,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+897,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+898,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+899,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+900,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+901,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+902,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+903,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+904,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+905,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+906,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+907,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+908,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+909,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+910,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=910; published lineage=sub:submission_merged.csv:739+border3; original discovery identity unresolved where only a merged-file label is supplied
+911,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+912,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+913,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+914,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+915,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=915; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+916,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+917,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=917; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+918,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+919,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+920,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+921,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+922,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+923,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=923; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+924,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=924; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+925,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+926,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=926; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+927,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+928,METHOD-local-strata,local-candidate-bank,2f2266ba38cbd9730931b88087d432484a64d30b66889ce70dd0338f56f9e970,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0610_provenance.json; preserved source notices and local parent ledger
+929,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+930,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+931,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+932,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+933,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+934,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+935,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+936,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+937,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+938,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+939,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+940,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+941,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+942,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+943,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+944,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+945,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+946,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+947,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+948,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+949,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+950,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+951,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+952,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+953,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+954,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+955,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+956,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+957,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+958,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+959,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+960,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+961,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+962,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+963,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+964,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+965,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+966,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+967,EXT-aqibrazadev,aqibrazadev/squares-in-squares-top-lb-blending-visualization,d52514d7d2b89fdd642b432c916e6fa2eb8e7f103811e4d921f20f52a4595dd8,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+968,EXT-lightningv08,lightningv08/squares-in-squares-cuda-packing-search,8692aac5710cd93ca5b2dc648007a8295be3a8364571d26408abf8a088e98d8d,V17 public portfolio adoption; all inherited discoverers retain credit,SOURCE_NOTICES.md; v17_micro_batch_provenance.json
+969,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+970,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+971,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+972,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+973,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+974,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+975,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+976,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+977,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=977; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+978,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=978; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+979,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=979; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+980,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+981,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+982,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+983,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+984,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+985,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+986,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=986; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+987,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+988,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+989,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+990,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+991,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+992,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=992; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+993,EXT-cdeotte,cdeotte/squares-in-squares-ftmc-milp-refill-22-311,7a9fb4638f6de775d01a8300cbe3616b5c21052fdb5229a0d6bd4c9f67989725,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; public_local_0353_provenance.json; preserved source notices and local parent ledger
+994,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+995,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+996,EXT-malyshevdanil,malyshevdanil/squares-in-squares-neighbour-transfer-squeeze,cae1874fd7d790a654de246817901185a7f9b6e12cbf17f665d20ed3a569e81f,Source-provider adoption or local refinement on inherited witness; exclusive discoverers unresolved where not evidenced,SOURCE_NOTICES.md; upstream-malyshevdanil-0610-submission-sources.csv; n=996; published lineage=sub:submission_merged.csv; original discovery identity unresolved where only a merged-file label is supplied
+997,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+998,EXT-kirilltym,kirilltym/22-3720-cpu-cuda-mps-eda-snap-lp,2d639b85ca2fa65d99da35449bd72e068e5df144d6bdb1b705cbdf4edd363624,unresolved per-puzzle upstream ownership; provider is not necessarily discoverer,SOURCE_NOTICES.md
+999,BASELINE-grid,exact axis-aligned grid,,standard grid construction,
+1000,BASELINE-grid,exact axis-aligned grid,,standard grid construction,

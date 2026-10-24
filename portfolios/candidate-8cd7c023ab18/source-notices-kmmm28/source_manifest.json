@@ -1,0 +1,40 @@
+{
+  "retrieved_at": "2026-10-24T07:40:36.979771+00:00",
+  "files": [
+    {
+      "file": "SOURCE_NOTICES.md",
+      "sha256": "3211c4a35fe68bb03b19f003004d546772ec999cc957d0d1b923fca06b861aa5",
+      "bytes": 121748,
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/SOURCE_NOTICES.md?datasetVersionNumber=28",
+      "version": 28
+    },
+    {
+      "file": "portfolio_manifest.json",
+      "sha256": "34a8c488a5ae666d755b10e3bef72922147dadc364be65ca848a98a65fa54010",
+      "bytes": 405,
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/portfolio_manifest.json?datasetVersionNumber=28",
+      "version": 28
+    },
+    {
+      "file": "per_puzzle.csv",
+      "sha256": "7e10b3129903ff01da209029fc45533c21272e985d1091a1a130d5b48db8da52",
+      "bytes": 176972,
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/per_puzzle.csv?datasetVersionNumber=28",
+      "version": 28
+    },
+    {
+      "file": "per_puzzle_contributors.csv",
+      "sha256": "c0afcab10ab0e5021afc17532e106b85bf0d10996e23209a942ffe5de278f6b5",
+      "bytes": 190928,
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/per_puzzle_contributors.csv?datasetVersionNumber=28",
+      "version": 28
+    },
+    {
+      "file": "external_contributors.csv",
+      "sha256": "8ee3d2fe15394fe16ad0d0cc06bd3b72977c84d907a3e197b038bf08a7580a04",
+      "bytes": 2283,
+      "source_url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/external_contributors.csv?datasetVersionNumber=28",
+      "version": 28
+    }
+  ]
+}
