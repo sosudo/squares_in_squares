@@ -40,14 +40,18 @@ Direct local file upload is blocked at www.googleapis.com despite its saved netw
 - Those historical seed improvements did NOT improve the current full-puzzle frontier. Stronger existing crops dominate them; they need another0.11–0.35 bloat reduction. Do NOT launch the prepared30-minute historical-seed campaign artifacts/ftmc-campaign.
 - Composition v1 failed on a CuPy uint64 sentinel comparison. Temporary runtime copies now explicitly type the identical sentinel; original public sources and hashes are retained.
 - Composition v2: sos54352/squares-composition-pilot v2, COMPLETE in112s. All corner/seam/adaptive preflights passed. Only micro-gains beyond CPU closure; none of winning chains uses a fresh historical FTMC variant.
-- A new raw GPU+CPU candidate is being certified by validation agent; score about22.304803774638591 before transport clearance. Keep it separate from submitted files and queue only after both checks.
-- notebook_frontier exported51 ACTUAL current-frontier crops and partner thresholds under artifacts/active-frontier. packing_research is redesigning a900s/device dual-T4 pilot from these active families, with explicit priority and no historical scalar-bloat overwrite of compatible active poses. Not launched yet.
-- Versioned kernel_sources can mount our completed private baseline export/2 and FTMC pilot/1, keeping new jobs offline and well below1MB. Verify mounted hashes.
-- Last observed GPU quota:0.23h used,29.77h remaining. Read quota again for exact current use.
+- The new GPU composition candidate is certified: `artifacts/submission-gpu-composition-safe.csv`, SHA256 `26b4b55c89b3606385a74645e327c4b9a6b40fda7f62f6bdd969dbff1cb39afb`, official score **22.304803775499245**. Float roundtrip differs by only 3.55e-15 and has zero invalid cases. Both reports cover all 1,000 puzzles, with 14 freshly evaluated and 986 hash-identical certificates reused. It is queued, not yet submitted.
+- Private source-export version 3 completed and its downloaded CSV matches that exact hash. Reproducible recipe: `portfolios/candidate-26b4b55c89b3/`.
+- The active-frontier A/B pilot targets 17 actual chain bottlenecks. GPU 0 preserves every original separator profile; GPU 1 explores freely from the same active seeds. Both retain certified alternative variants. Budget: 900 seconds per GPU, 120 seconds worker grace, 1,500 seconds overall.
+- Active-frontier pilot version 1 was launched but failed before GPU preflight because the expected versioned notebook input was not mounted. The hash check correctly stopped execution. Investigate actual attachment semantics before retrying; versioned kernel_sources mounting is NOT yet proven.
+- A separate complete-puzzle FTMC pilot and crops from public n>1000 certificates are being prepared as independent search directions.
+- Last observed GPU quota: 0.27h used, 29.73h remaining. Read quota again for exact current use.
 
 ## Scheduler
 
-competition_research is finishing scripts/submission_scheduler.py with conservative tests. Default is check-only. It verifies queue/report/output hashes, live quota, full history, strict improvement, no pending/ambiguous scoring, and3600s since acceptance. It persists intent before submission and reconciles lost acknowledgements by a SHA marker. No daemon or automatic submission has been enabled yet. Local queue/state already adopted57583210. Root should review and enable only after tests and exact queue binding are complete.
+The reviewed submission controller verifies queue/report/output hashes, full raw and numeric-roundtrip coverage, live quota, full history, strict improvement, no pending/ambiguous scoring, and 3,600 seconds since acceptance. It persists intent before submission and reconciles lost acknowledgements by a SHA marker. The queue retains all candidates and chooses the lowest eligible score.
+
+Root enabled `scripts/run_submission_loop.py` at approximately 05:28 UTC with a 12-hour bound, 60-second checks and 600-second subprocess timeout. PID at launch: 15213. Its first actual tick correctly waited until 06:06:59.167 UTC. Read `artifacts/submissions/runner-status.json` and verify the PID before claiming it remains active. No system service is installed; survival across environment shutdown is not guaranteed. The adopted baseline and improved candidate are in `artifacts/submissions/queue.json`.
 
 ## Credentials and Paperspace
 

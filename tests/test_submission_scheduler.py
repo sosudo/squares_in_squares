@@ -105,6 +105,31 @@ class SchedulerTests(unittest.TestCase):
         self.assertEqual(scheduler.validate_candidate(frozen), scheduler.numeric_score(22.))
         self.assertNotEqual(frozen['csv']['path'], self.candidate['csv']['path'])
 
+    def test_complete_cached_transport_coverage_and_float_rounding_are_accepted(self):
+        transport_path = Path(self.candidate['transport_report']['path'])
+        summary = json.loads(transport_path.read_text())
+        rounded_path = Path(self.candidate['roundtrip_report']['path'])
+        rounded = json.loads(rounded_path.read_text()); rounded['score'] = 22.000000000000004
+        rounded_path.write_text(json.dumps(rounded))
+        self.candidate['roundtrip_report'] = scheduler.binding(rounded_path)
+        summary.update(roundtrip_score=rounded['score'], roundtrip_case_coverage=1000,
+            roundtrip_evaluated=14, roundtrip_reused=986,
+            roundtrip_reuse={'evaluated': 14, 'reused': 986}, same_binary64_score=False,
+            safe_official_report_sha256=self.candidate['raw_report']['sha256'],
+            roundtrip_official_report_sha256=self.candidate['roundtrip_report']['sha256'])
+        transport_path.write_text(json.dumps(summary))
+        self.candidate['transport_report'] = scheduler.binding(transport_path)
+        self.assertEqual(scheduler.validate_candidate(self.candidate), scheduler.numeric_score(22.))
+
+    def test_incomplete_or_contradictory_cached_transport_coverage_is_rejected(self):
+        base = {'roundtrip_case_coverage': 1000, 'roundtrip_evaluated': 14,
+                'roundtrip_reused': 986, 'roundtrip_reuse': {'evaluated': 14, 'reused': 986}}
+        self.assertTrue(scheduler.full_transport_coverage(base))
+        for patch in ({'roundtrip_case_coverage': 999}, {'roundtrip_reused': 985},
+                      {'roundtrip_evaluated': -1, 'roundtrip_reused': 1001},
+                      {'roundtrip_reuse': {'evaluated': 15, 'reused': 985}}):
+            self.assertFalse(scheduler.full_transport_coverage({**base, **patch}))
+
     def test_pending_remote_submission_blocks_even_after_one_hour(self):
         gateway = FakeGateway([{'ref': 7, 'date': (NOW - timedelta(hours=2)).isoformat(),
             'status': 'pending', 'description': '', 'public_score': None}])
@@ -190,6 +215,39 @@ class SchedulerTests(unittest.TestCase):
             'status': 'complete', 'description': '', 'public_score': '22.0000000001'}])
         result, _, _ = self.run_controller(gateway, execute=True)
         self.assertEqual(result['action'], 'wait')
+
+    def test_tracked_public_result_cannot_be_ignored_for_score_comparison(self):
+        self.candidate = self.fixture('worse-than-live', 22.300000008)
+        state = self.state_with_previous(score=22.300000009)
+        gateway = FakeGateway([{'ref': 7, 'date': (NOW - timedelta(hours=2)).isoformat(),
+            'status': 'complete', 'description': '', 'public_score': '22.3000000000'}])
+        direct = scheduler.plan([self.candidate], state, gateway.snapshot(), NOW)
+        self.assertEqual(direct['action'], 'wait')
+        result, _, _ = self.run_controller(gateway, state, execute=True)
+        self.assertEqual(result['action'], 'blocked')
+        self.assertEqual(gateway.submitted, 0)
+
+    def test_adopting_old_receipt_cannot_discard_an_ambiguous_intent(self):
+        state = scheduler.new_state()
+        state['pending'] = {'candidate': self.candidate, 'marker': scheduler.marker(self.candidate),
+                            'request_started_at': NOW.isoformat()}
+        previous = self.fixture('old-receipt', 23.)
+        row = {'ref': 7, 'date': (NOW - timedelta(hours=2)).isoformat(), 'status': 'complete',
+               'description': '', 'public_score': '23.0000000000'}
+        original = deepcopy(state)
+        with self.assertRaises(ValueError):
+            scheduler.adopt_existing(state, previous, row, NOW)
+        self.assertEqual(state, original)
+
+    def test_same_hash_old_receipt_without_pending_marker_is_not_adopted(self):
+        state = scheduler.new_state()
+        state['pending'] = {'candidate': self.candidate, 'marker': scheduler.marker(self.candidate),
+                            'request_started_at': NOW.isoformat()}
+        row = {'ref': 7, 'date': (NOW - timedelta(hours=2)).isoformat(), 'status': 'complete',
+               'description': 'An older submission without this intent marker', 'public_score': '22.0'}
+        with self.assertRaises(ValueError):
+            scheduler.adopt_existing(state, self.candidate, row, NOW)
+        self.assertIsNotNone(state['pending'])
 
 
 if __name__ == '__main__':

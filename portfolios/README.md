@@ -1,6 +1,6 @@
-# Reproducible submitted portfolios
+# Reproducible portfolios
 
-Each directory retains a small source-backed exporter, its input hashes and notices, validation evidence, and a submission receipt. Full CSVs are generated rather than committed. API keys are never needed to reconstruct these public-source portfolios.
+Each directory retains a small source-backed exporter, its input hashes and notices, and validation evidence. Submitted portfolios include a receipt; candidate directories record completion proof and explicitly state that they have not been submitted. Full CSVs are generated rather than committed. API keys are never needed to reconstruct these public-source portfolios.
 
 Run an export script from a new empty output directory using the project Python environment. It downloads pinned public datasets/certificates, verifies their hashes, reproduces the chosen coordinates and clearance transform, then asserts the final CSV hash. Internet access and mpmath1.3.0 are required. Source-specific licenses and attribution are retained under vendor/notices and inside export_manifest.json.
 

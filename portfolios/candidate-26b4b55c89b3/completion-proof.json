@@ -1,0 +1,15 @@
+{
+  "ref": "sos54352/squares-certified-portfolio-source-export",
+  "version": 3,
+  "output_file": "submission.csv",
+  "output_sha256": "26b4b55c89b3606385a74645e327c4b9a6b40fda7f62f6bdd969dbff1cb39afb",
+  "status": "complete",
+  "is_private": true,
+  "verified_at": "2026-10-24T05:24:00.564108+00:00",
+  "downloaded_csv": "artifacts/source-export-gpu-composition-v3-results/submission.csv",
+  "downloaded_csv_sha256": "26b4b55c89b3606385a74645e327c4b9a6b40fda7f62f6bdd969dbff1cb39afb",
+  "export_script_sha256": "c0bd5888fb0629009b7fc4049e956b4cba9beb39d7110b4cb2f8a72ddda872d5",
+  "build_report": "artifacts/source-export-gpu-composition-v3/build_report.json",
+  "downloaded_export_manifest": "artifacts/source-export-gpu-composition-v3-results/export_manifest.json",
+  "downloaded_export_manifest_sha256": "a6982bbec58e5ae8ade98b44aef64317416c768a563e21e7611c331e123f100f"
+}

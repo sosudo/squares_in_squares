@@ -1,0 +1,104 @@
+{
+  "raw_source": "/workspace/squares_in_squares/artifacts/merged-gpu-composition.csv",
+  "raw_sha256": "0a9e42b0b528f9a167451a2ba40b069aeaf868d6528ef8e2427b864de25f85e0",
+  "raw_score": 22.304803774638593,
+  "safe_submission": "/workspace/squares_in_squares/artifacts/submission-gpu-composition-safe.csv",
+  "safe_sha256": "26b4b55c89b3606385a74645e327c4b9a6b40fda7f62f6bdd969dbff1cb39afb",
+  "safe_score": 22.304803775499245,
+  "roundtrip_sha256": "1363a6fcd69b5b598321900eb8405d7c192f21d7366b37c3e0eda8937bf0af0d",
+  "roundtrip_score": 22.30480377549924,
+  "safe_invalid_count": 0,
+  "roundtrip_invalid_count": 0,
+  "roundtrip_case_coverage": 1000,
+  "roundtrip_reuse": {
+    "reused": 986,
+    "evaluated": 14
+  },
+  "baseline_sha256": "97df15c28ee66ab1a414d28218fd4e8b28c2bf6ce8869281db9610f7dac81da9",
+  "baseline_score": 22.30480381099813,
+  "gain_over_submitted_baseline": 3.549888560883119e-08,
+  "roundtrip_gain_over_submitted_baseline": 3.5498889161544867e-08,
+  "strictly_better_raw_and_roundtrip": true,
+  "case_score_changes": [
+    {
+      "n": 811,
+      "gain": 1.3915582020018746e-09
+    },
+    {
+      "n": 921,
+      "gain": 2.302089630035198e-09
+    },
+    {
+      "n": 924,
+      "gain": 3.5977965051614547e-09
+    },
+    {
+      "n": 927,
+      "gain": 2.2795785259432932e-09
+    },
+    {
+      "n": 930,
+      "gain": 1.6413141956661548e-09
+    },
+    {
+      "n": 931,
+      "gain": 2.293958356602843e-09
+    },
+    {
+      "n": 982,
+      "gain": 1.5140146913950048e-09
+    },
+    {
+      "n": 984,
+      "gain": 1.232584034838169e-09
+    },
+    {
+      "n": 986,
+      "gain": 4.056081914782794e-09
+    },
+    {
+      "n": 987,
+      "gain": 2.15413997750602e-09
+    },
+    {
+      "n": 988,
+      "gain": 2.7995619156229168e-09
+    },
+    {
+      "n": 989,
+      "gain": 2.7793360946049006e-09
+    },
+    {
+      "n": 991,
+      "gain": 3.4092950684794232e-09
+    },
+    {
+      "n": 992,
+      "gain": 4.047577384369561e-09
+    }
+  ],
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "factor": "1.00000000001",
+  "safety_scaled_cases": 88,
+  "schema_version": 2,
+  "roundtrip_evaluated": 14,
+  "roundtrip_reused": 986,
+  "same_binary64_score": false,
+  "absolute_score_difference": 3.552713678800501e-15,
+  "score_tolerance": 1e-10,
+  "scores_agree_within_1e_10": true,
+  "safe_official_report_sha256": "af4c1922a075abfa5a9bd7abcdc08bba8d47086e5ee0662d9a9608a9fc6ed967",
+  "roundtrip_official_report_sha256": "65a4b5af7e71a69e161e48c58df01ab50e2cb1395276dd94e054ceeb64b7be7e",
+  "safe_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-safe-official.json",
+    "report_sha256": "0c4237e219865ce74ff00e619eb6021fc2dceedd73b551a721ce9db42e3a1bda",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-safe.csv",
+    "sha256": "97df15c28ee66ab1a414d28218fd4e8b28c2bf6ce8869281db9610f7dac81da9"
+  },
+  "roundtrip_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-safe-roundtrip-official.json",
+    "report_sha256": "aa996fbb41b4cd1b809bd90a4a3c062303f72b62b0b2b189dfcdfc5a5dec2801",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-safe-roundtrip.csv",
+    "sha256": "c6d838d7a8b5f54dffaf497787c7805e47326f084595042591f3d7cacfc67e55"
+  }
+}

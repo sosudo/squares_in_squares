@@ -1,0 +1,16 @@
+{
+  "id": "sos54352/squares-certified-portfolio-source-export",
+  "title": "Squares Certified Portfolio Source Export",
+  "code_file": "export.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "squares-in-squares"
+  ]
+}

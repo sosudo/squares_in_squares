@@ -1,0 +1,31 @@
+{
+  "status": "certified candidate; private notebook v3 complete and downloaded output hash verified; not submitted to competition",
+  "csv_sha256": "26b4b55c89b3606385a74645e327c4b9a6b40fda7f62f6bdd969dbff1cb39afb",
+  "raw_csv_sha256": "0a9e42b0b528f9a167451a2ba40b069aeaf868d6528ef8e2427b864de25f85e0",
+  "official_score": 22.304803775499245,
+  "roundtrip_official_score": 22.30480377549924,
+  "source_notebook": {
+    "ref": "sos54352/squares-certified-portfolio-source-export",
+    "version": 3,
+    "output_file": "submission.csv"
+  },
+  "construction": {
+    "baseline": "artifacts/merged-v7.csv",
+    "baseline_sha256": "9c2cb31c689c90e7f1ab25672d77dea02b88ba63582f0b96dc3d2c992b2055e8",
+    "candidate_sources": [
+      "artifacts/candidates/gpu-composed.json",
+      "artifacts/candidates/ftmc-composed.json"
+    ],
+    "composition_notebook": {
+      "ref": "sos54352/squares-composition-pilot",
+      "version": 2
+    },
+    "transport_helper": "scripts/make_transport_safe.py",
+    "centre_dilation_factor": "1.00000000001",
+    "unchanged_source_notices": "vendor/notices/"
+  },
+  "reproduce_command": "python3 portfolios/candidate-26b4b55c89b3/export.py --destination /tmp/squares-candidate-26b4b55c89b3/submission.csv",
+  "export_script_sha256": "c0bd5888fb0629009b7fc4049e956b4cba9beb39d7110b4cb2f8a72ddda872d5",
+  "completion_proof": "completion-proof.json",
+  "scheduler_candidate": "artifacts/source-export-gpu-composition-v3/scheduler-candidate.json"
+}

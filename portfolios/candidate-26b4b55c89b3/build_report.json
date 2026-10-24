@@ -1,0 +1,12 @@
+{
+  "output": "artifacts/source-export-gpu-composition-v3",
+  "code_bytes": 691817,
+  "exact_local_reconstruction": true,
+  "csv_sha256": "26b4b55c89b3606385a74645e327c4b9a6b40fda7f62f6bdd969dbff1cb39afb",
+  "official_score": 22.304803775499245,
+  "public_csv_puzzles": 857,
+  "certificate_puzzles": 88,
+  "embedded_puzzles": 55,
+  "public_certificates": 79,
+  "embedded_compressed_bytes": 316176
+}

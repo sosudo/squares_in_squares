@@ -68,6 +68,24 @@ def numeric_score(value):
     return number
 
 
+def full_transport_coverage(summary):
+    """Allow full fresh evaluation or complete hash-certified delta reuse."""
+    coverage = summary.get('roundtrip_case_coverage')
+    if coverage is None:
+        return type(summary.get('roundtrip_evaluated')) is int and summary['roundtrip_evaluated'] == 1000
+    if type(coverage) is not int or coverage != 1000:
+        return False
+    reuse = summary.get('roundtrip_reuse', {})
+    evaluated = summary.get('roundtrip_evaluated', reuse.get('evaluated'))
+    reused = summary.get('roundtrip_reused', reuse.get('reused'))
+    if type(evaluated) is not int or type(reused) is not int or min(evaluated, reused) < 0:
+        return False
+    if evaluated + reused != coverage:
+        return False
+    return all(reuse.get(key, expected) == expected for key, expected in
+               (('evaluated', evaluated), ('reused', reused)))
+
+
 def validate_candidate(candidate):
     """Verify all local bindings and both complete official validation outcomes."""
     read_binding(candidate['csv'])
@@ -89,11 +107,14 @@ def validate_candidate(candidate):
             and transport.get('metric_sha256') == METRIC
             and transport.get('safe_invalid_count') == 0
             and transport.get('roundtrip_invalid_count') == 0
-            and transport.get('roundtrip_evaluated') == 1000
-            and transport.get('same_binary64_score') is True
+            and full_transport_coverage(transport)
             and abs(numeric_score(transport['safe_score']) - score) <= SCORE_TOLERANCE
             and abs(numeric_score(transport['roundtrip_score']) - roundtrip_score) <= SCORE_TOLERANCE):
         raise ValueError('Transport summary does not bind the same validated CSVs')
+    for key, bound in (('safe_official_report_sha256', candidate['raw_report']['sha256']),
+                       ('roundtrip_official_report_sha256', candidate['roundtrip_report']['sha256'])):
+        if key in transport and transport[key] != bound:
+            raise ValueError('Transport summary official-report hash mismatch')
     notebook = candidate['notebook']
     if not re.fullmatch(r'[A-Za-z0-9_-]+/[A-Za-z0-9_-]+', notebook['ref']):
         raise ValueError('Notebook must be an owner/slug reference')
@@ -155,6 +176,8 @@ def marker(candidate):
 
 
 def accept(state, candidate, record, now):
+    if state.get('pending') and state['pending']['candidate']['id'] != candidate['id']:
+        raise ValueError('A different ambiguous submission intent must not be cleared')
     for sha, entry in state.get('submitted', {}).items():
         if int(entry['ref']) == int(record['ref']) and sha != candidate['id']:
             raise ValueError('Submission reference is already bound to another CSV hash')
@@ -164,6 +187,18 @@ def accept(state, candidate, record, now):
         'public_score': record.get('public_score'), 'notebook': candidate['notebook'],
         'sha256': candidate['id'], 'marker': marker(candidate)}
     state['pending'] = None
+
+
+def adopt_existing(state, candidate, row, now):
+    pending = state.get('pending')
+    if pending and (pending['candidate']['id'] != candidate['id']
+                    or pending['marker'] not in row.get('description', '')):
+        raise ValueError('Adoption must resolve the same ambiguous intent by its history marker')
+    if row['status'] == 'error':
+        raise ValueError('Cannot adopt an errored submission as a successful baseline')
+    if row.get('public_score') and abs(numeric_score(row['public_score']) - numeric_score(candidate['score'])) > SCORE_TOLERANCE:
+        raise ValueError('Existing submission score differs from candidate validation')
+    accept(state, candidate, row, now)
 
 
 def save_state(path, state):
@@ -192,7 +227,7 @@ def reconcile(state, history, now):
             entry['status'] = row['status']; entry['public_score'] = row.get('public_score')
             entry['submitted_at'] = utc(row['date']).isoformat()
             if row['status'] == 'complete' and row.get('public_score') not in (None, ''):
-                if abs(numeric_score(row['public_score']) - numeric_score(entry['validated_score'])) > Decimal('0.00000001'):
+                if abs(numeric_score(row['public_score']) - numeric_score(entry['validated_score'])) > SCORE_TOLERANCE:
                     state['review_required'] = 'Kaggle score differs from the validated submitted score'
 
 
@@ -221,15 +256,14 @@ def plan(candidates, state, snapshot, now):
     submitted = state.get('submitted', {})
     scores = [numeric_score(e['validated_score']) for e in submitted.values()
               if e.get('status') != 'error']
-    known_refs = {int(e['ref']) for e in submitted.values()}
     for row in history:
         if row['status'] == 'complete':
             if row.get('public_score') in (None, ''):
                 return {'action': 'blocked', 'reason': 'A completed submission has no observable score'}
-            if int(row['ref']) not in known_refs:
-                # Published scores have ten decimal places. Demand a gain beyond
-                # one display unit when no exact submitted validation is known.
-                scores.append(numeric_score(row['public_score']) - SCORE_TOLERANCE)
+            # Never ignore the actual Kaggle result, including for tracked refs.
+            # Demand a gain beyond one display unit to avoid treating a slight
+            # local/public discrepancy as a real leaderboard improvement.
+            scores.append(numeric_score(row['public_score']) - SCORE_TOLERANCE)
     best = min(scores) if scores else Decimal('Infinity')
     eligible = []
     for candidate in candidates:
@@ -387,6 +421,8 @@ def main():
     parser.add_argument('--queue', type=Path, default=Path('artifacts/submissions/queue.json'))
     parser.add_argument('--state', type=Path, default=Path('artifacts/submissions/scheduler-state.json'))
     parser.add_argument('--execute', action='store_true', help='Explicitly allow at most one submission')
+    parser.add_argument('--reconcile-only', action='store_true',
+                        help='Read live history and persist reconciliation without submitting')
     parser.add_argument('--csv', type=Path); parser.add_argument('--raw-report', type=Path)
     parser.add_argument('--roundtrip-csv', type=Path); parser.add_argument('--roundtrip-report', type=Path)
     parser.add_argument('--transport-report', type=Path); parser.add_argument('--notebook')
@@ -395,10 +431,12 @@ def main():
     args = parser.parse_args(); now = datetime.now(timezone.utc)
     if args.execute and args.command != 'check':
         parser.error('--execute applies only to check')
+    if args.reconcile_only and (args.execute or args.command != 'check'):
+        parser.error('--reconcile-only applies only to check and excludes --execute')
     queue = json.loads(args.queue.read_text()) if args.queue.exists() else {'schema_version': 1, 'candidates': []}
-    if args.command == 'check' and not queue['candidates']:
+    if args.command == 'check' and not queue['candidates'] and not args.reconcile_only:
         print(json.dumps({'action': 'empty', 'reason': 'No queued candidate; no API request made'})); return
-    needs_write = args.execute or args.command != 'check'
+    needs_write = args.execute or args.reconcile_only or args.command != 'check'
     args.state.parent.mkdir(parents=True, exist_ok=True)
     lock = args.state.with_suffix('.lock').open('a') if needs_write else nullcontext()
     with lock as handle:
@@ -428,15 +466,17 @@ def main():
                 candidate = next(c for c in queue['candidates'] if c['id'] == args.candidate_id)
                 validate_candidate(candidate); history = gateway.snapshot()['history']
                 row = next(r for r in history if int(r['ref']) == args.submission_ref)
-                if row['status'] == 'error':
-                    raise ValueError('Cannot adopt an errored submission as a successful baseline')
-                if row.get('public_score') and abs(numeric_score(row['public_score']) - numeric_score(candidate['score'])) > Decimal('0.00000001'):
-                    raise ValueError('Existing submission score differs from candidate validation')
-                accept(state, candidate, row, now); save_state(args.state, state)
+                adopt_existing(state, candidate, row, now); save_state(args.state, state)
                 print(json.dumps({'action': 'adopted', 'ref': row['ref'], 'status': row['status']}))
             else:
                 def persist(value):
                     save_state(args.state, value)
+                if args.reconcile_only:
+                    reconcile(state, gateway.snapshot()['history'], now)
+                    persist(state)
+                    print(json.dumps({'action': 'pending' if state.get('pending') else 'reconciled',
+                                      'pending_intent': bool(state.get('pending'))}))
+                    return
                 result, _ = controller(queue['candidates'], state, gateway, now, args.execute, persist)
                 print(json.dumps(result))
 
