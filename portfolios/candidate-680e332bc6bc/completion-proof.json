@@ -1,0 +1,42 @@
+{
+  "ref": "sos54352/squares-portfolio-680e332bc6bc-incremental",
+  "version": 1,
+  "output_file": "submission.csv",
+  "output_sha256": "680e332bc6bc5bb7d741505b9460ca18fb410ce11929342e67fb2262b20a2d74",
+  "output_bytes": 32496900,
+  "status": "complete",
+  "is_private": true,
+  "verified_at": "2026-10-24T14:37:09.353122+00:00",
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "competition_sources": [
+    "squares-in-squares"
+  ],
+  "kernel_sources_actual": [
+    "sos54352/squares-portfolio-b84f2ff20f3e-incremental"
+  ],
+  "source_sha256": "7a3962c266aa030da426faf0a31ebf3bec4294a63d6d45c9680304c63730ba8f",
+  "source_bytes": 988623,
+  "server_timeout_seconds": 180,
+  "worker_timeout_seconds": 120,
+  "remote_runtime_seconds": 3.745709691000002,
+  "competition_submission_performed": false,
+  "transport_scaling_applied": false,
+  "remote_export_manifest_sha256": "c4680b9936b556f0e7501f65626407523ab94360c31c689baebf5b2dc3efe90c",
+  "remote_runtime_proof_sha256": "6bc2dd8c9c31657752bcc06a4b814f43f88109e1582f89ad3af7d15b5a1c7a64",
+  "download_receipt_sha256": "91ae9bd4809b86c8650409fb2f1fcd3a5e98d566342a93bfc823233e275d58ef",
+  "remote_source_verification_sha256": "bebb5ea1d834a44c447bb9aa941d202657b5f83f5f6677065d06a8c5410d5271",
+  "local_runtime_proof_sha256": "203776985691bafd2d9e5725951f7454a38d247b3c5cc7bcba267ca9f6733e22",
+  "canonical_transport_proof_sha256": "635aa9f44538930c89fb3595fabac91c807e094699d71604dea2f95521a60d2c",
+  "additional_source_provenance_sha256": "806876af93ae0504bc12d948a3fc93f37bf9548fe8f84e1b9f2a9fbcfbd3400f",
+  "independent_source_review_sha256": "950175ea399c1ea5aded57d75a1048195ac08e27e4cffc09dd666c72a09a8385",
+  "exact_source_notices_preserved": true,
+  "fresh_geometry_evaluations_by_exporter": 0,
+  "parent_notebook": "sos54352/squares-portfolio-b84f2ff20f3e-incremental/1",
+  "parent_csv_sha256": "b84f2ff20f3eec7dfadc6a9645dbb01a628629fb18ba7395421243a2d7770fe8",
+  "parent_remote_completion_sha256": "cc1e80b1bd273c57acfa2e11062f622a977ca68c61931420597af00ddda9a60b",
+  "official_score": 22.298021385704345,
+  "roundtrip_score": 22.298021385704345,
+  "threshold_eligible": true
+}

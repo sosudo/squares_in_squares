@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "source_sha256": "7a3962c266aa030da426faf0a31ebf3bec4294a63d6d45c9680304c63730ba8f",
+  "source_bytes": 988623,
+  "csv_sha256": "680e332bc6bc5bb7d741505b9460ca18fb410ce11929342e67fb2262b20a2d74",
+  "csv_bytes": 32496900,
+  "full_executable_reconstruction_exact": true,
+  "manifest_exact": true,
+  "parent_additional_provenance_exact": true,
+  "wrong_content_mount_ignored": true,
+  "runtime_scaling": false,
+  "actual_generated_source_tamper_rejections": [
+    "parent",
+    "patch"
+  ],
+  "wrapper_sha256": "520ff5e3bc02daaa764a91a653fdf3362f4764ed763cf081cf2d0ccb5b249411",
+  "base_builder_sha256": "477ef6ddcce7675e7e603678e488b3235b4de5988180adffe1c38e2b13131f0b",
+  "local_runtime_proof_sha256": "203776985691bafd2d9e5725951f7454a38d247b3c5cc7bcba267ca9f6733e22",
+  "check_source_sha256": "26e17ca0d7a2b12f081fc9b9ee2e8bfe1d9ee5606b3f5f024563b94be9800a2f"
+}

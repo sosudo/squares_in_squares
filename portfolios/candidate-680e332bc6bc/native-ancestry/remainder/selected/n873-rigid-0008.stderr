@@ -1,0 +1,76 @@
+outer 1: mu 1.0e1 s 29.905147414696 viol 4.99e-3 |g| 2.8e-3 evals 335
+outer 2: mu 1.0e1 s 29.964214570302 viol 1.45e-3 |g| 2.9e-3 evals 238
+outer 3: mu 1.0e2 s 29.967254783836 viol 6.19e-4 |g| 8.6e-4 evals 1160
+outer 4: mu 1.0e2 s 29.967971958581 viol 5.02e-4 |g| 7.0e-4 evals 453
+outer 5: mu 1.0e2 s 29.969188351585 viol 2.72e-4 |g| 9.7e-4 evals 413
+outer 6: mu 1.0e2 s 29.969761420652 viol 2.11e-4 |g| 8.0e-4 evals 180
+outer 7: mu 1.0e2 s 29.970469438522 viol 1.51e-4 |g| 9.1e-4 evals 1479
+outer 8: mu 1.0e2 s 29.970524130432 viol 1.46e-4 |g| 8.2e-4 evals 94
+outer 9: mu 1.0e2 s 29.970525026871 viol 1.44e-4 |g| 9.6e-4 evals 16
+outer 10: mu 1.0e2 s 29.970740856266 viol 1.03e-4 |g| 9.3e-4 evals 135
+outer 11: mu 1.0e2 s 29.970743026509 viol 7.04e-5 |g| 9.2e-4 evals 73
+outer 12: mu 1.0e2 s 29.970746095415 viol 6.84e-5 |g| 8.9e-4 evals 18
+outer 13: mu 1.0e2 s 29.971138138345 viol 6.00e-5 |g| 9.5e-4 evals 200
+outer 14: mu 1.0e2 s 29.971660512527 viol 2.15e-4 |g| 9.2e-4 evals 625
+outer 15: mu 1.0e2 s 29.971359557096 viol 9.26e-5 |g| 5.9e-4 evals 413
+outer 16: mu 1.0e2 s 29.971354139832 viol 3.78e-5 |g| 9.6e-4 evals 52
+outer 17: mu 1.0e2 s 29.971316968456 viol 5.40e-5 |g| 9.3e-4 evals 91
+outer 18: mu 1.0e2 s 29.971296583737 viol 5.40e-5 |g| 1.0e-3 evals 71
+outer 19: mu 1.0e2 s 29.971295705445 viol 4.33e-5 |g| 8.6e-4 evals 23
+outer 20: mu 1.0e2 s 29.970725038864 viol 2.52e-4 |g| 8.2e-4 evals 705
+outer 21: mu 1.0e2 s 29.971137010945 viol 1.11e-4 |g| 8.9e-4 evals 508
+outer 22: mu 1.0e2 s 29.971234986843 viol 6.97e-5 |g| 9.4e-4 evals 124
+outer 23: mu 1.0e2 s 29.971307889915 viol 6.71e-5 |g| 9.5e-4 evals 67
+outer 24: mu 1.0e2 s 29.971309846430 viol 5.60e-5 |g| 9.0e-4 evals 53
+outer 25: mu 1.0e2 s 29.971322585363 viol 5.40e-5 |g| 7.7e-4 evals 36
+outer 26: mu 1.0e2 s 29.972173357982 viol 2.98e-4 |g| 9.0e-4 evals 976
+outer 27: mu 1.0e2 s 29.971589951347 viol 2.38e-4 |g| 7.0e-4 evals 1133
+outer 28: mu 1.0e2 s 29.971703310809 viol 1.45e-4 |g| 8.3e-4 evals 127
+outer 29: mu 1.0e2 s 29.971739740263 viol 9.04e-5 |g| 8.7e-4 evals 124
+outer 30: mu 1.0e2 s 29.971747560575 viol 9.47e-5 |g| 8.9e-4 evals 35
+outer 31: mu 1.0e2 s 29.971010915190 viol 1.75e-4 |g| 9.3e-4 evals 512
+outer 32: mu 1.0e2 s 29.971441790021 viol 1.11e-4 |g| 8.5e-4 evals 369
+outer 33: mu 1.0e2 s 29.971438805856 viol 1.10e-4 |g| 8.8e-4 evals 35
+outer 34: mu 1.0e2 s 29.971439118348 viol 1.07e-4 |g| 8.5e-4 evals 27
+outer 35: mu 1.0e2 s 29.971443984464 viol 1.04e-4 |g| 7.8e-4 evals 98
+outer 36: mu 1.0e2 s 29.971450268226 viol 9.65e-5 |g| 9.6e-4 evals 59
+outer 37: mu 1.0e2 s 29.971449037437 viol 9.53e-5 |g| 7.4e-4 evals 40
+outer 38: mu 1.0e2 s 29.971476168539 viol 6.42e-5 |g| 8.8e-4 evals 98
+outer 39: mu 1.0e2 s 29.971477644987 viol 6.20e-5 |g| 9.6e-4 evals 17
+outer 40: mu 1.0e2 s 29.971497292203 viol 6.87e-5 |g| 8.0e-4 evals 71
+outer 41: mu 1.0e2 s 29.971501031109 viol 6.16e-5 |g| 8.0e-4 evals 45
+outer 42: mu 1.0e2 s 29.971500345996 viol 5.09e-5 |g| 8.3e-4 evals 31
+outer 43: mu 1.0e2 s 29.971548370214 viol 4.61e-5 |g| 9.8e-4 evals 81
+outer 44: mu 1.0e2 s 29.971583725563 viol 3.13e-5 |g| 8.3e-4 evals 69
+outer 45: mu 1.0e2 s 29.971562416718 viol 1.83e-5 |g| 9.3e-4 evals 48
+lp rows 22478 cols 5485 iters 62 sec 0.4188 ipm tag 0
+tr 1 R 1.00e-3 pred 1.37e-3 rho0 9.32e-1 rho 0.932 wmax 1.00 s 29.9715624167177 acc true
+  slp 1: R 1.0e-3 s 29.9715624167177 pred 1.37e-3 rho 0.93
+lp rows 22657 cols 5513 iters 53 sec 0.3574 ipm tag 0
+lp rows 22657 cols 5513 iters 50 sec 0.3262 ipm tag 1
+tr 2 R 2.00e-3 pred 1.09e-4 rho0 -8.81e-1 rho 0.992 wmax 1.00 s 29.9716599029176 acc true
+  slp 2: R 2.0e-3 s 29.9716599029176 pred 1.09e-4 rho 0.99
+lp rows 23005 cols 5570 iters 39 sec 0.2584 ipm tag 0
+lp rows 23005 cols 5570 iters 41 sec 0.2888 ipm tag 1
+tr 3 R 4.00e-3 pred 1.01e-5 rho0 -7.49e1 rho 0.865 wmax 1.00 s 29.9716426268134 acc true
+  slp 3: R 4.0e-3 s 29.9716426268134 pred 1.01e-5 rho 0.87
+lp rows 22982 cols 5566 iters 44 sec 0.3426 ipm tag 0
+lp rows 22982 cols 5566 iters 45 sec 0.3124 ipm tag 1
+tr 4 R 4.00e-3 pred 1.03e-5 rho0 -8.31e1 rho 0.405 wmax 1.00 s 29.9716335834220 acc true
+  slp 4: R 4.0e-3 s 29.9716335834220 pred 1.03e-5 rho 0.40
+lp rows 22976 cols 5565 iters 38 sec 0.2615 ipm tag 0
+tr 5 R 4.00e-3 pred 8.75e-6 rho0 -1.28e2 rho 0.736 wmax 1.00 s 29.9716246166252 acc true
+  slp 5: R 4.0e-3 s 29.9716246166252 pred 8.75e-6 rho 0.74
+lp rows 22986 cols 5567 iters 31 sec 0.2321 ipm tag 0
+lp rows 22986 cols 5567 iters 31 sec 0.2214 ipm tag 1
+tr 6 R 4.00e-3 pred 1.91e-6 rho0 -4.46e1 rho -0.368 wmax 1.00 s 29.9716219961861 acc false
+  slp 6: R 4.0e-3 s 29.9716219961861 pred 1.91e-6 rho -0.37
+lp rows 22443 cols 5480 iters 32 sec 0.2211 ipm tag 0
+tr 7 R 1.00e-3 pred 1.90e-6 rho0 -1.23e1 rho 0.986 wmax 1.00 s 29.9716219961861 acc true
+  slp 7: R 1.0e-3 s 29.9716219961861 pred 1.90e-6 rho 0.99
+lp rows 22729 cols 5524 iters 32 sec 0.2170 ipm tag 0
+tr 8 R 2.00e-3 pred 2.58e-8 rho0 9.99e-1 rho 0.999 wmax 0.98 s 29.9716218619665 acc true
+  slp 8: R 2.0e-3 s 29.9716218619665 pred 2.58e-8 rho 1.00
+lp rows 22998 cols 5569 iters 32 sec 0.2403 ipm tag 0
+  stall at it 9: R 4.0e-3 pred -5.8e-12, 0 ambiguous pairs, best flip None
+lp rows 16821 cols 4405 iters 33 sec 0.1330 ipm tag 3

@@ -1,0 +1,243 @@
+{
+  "frozen_case": {
+    "n": 693,
+    "reference_side": "26.81494927182315432988595358159292954069683435533689",
+    "source_key": "reference_693",
+    "device": 1,
+    "source_geometry_sha256": "0c99323787ff7d1e6602e3576976d0c5692cb03bb213956cfe3079aed1f6809e",
+    "binary_path": "/tmp/squares-fq-portable-target/release/fq",
+    "baseline_sha256": "fc931068f0f4accb37c8ed8b33ea59607e4690440d7c3f98b4b79fbb8c34cffc"
+  },
+  "exact_original_slots": [
+    {
+      "slot": {
+        "slot": 0,
+        "arm": "control",
+        "delta": 0.002,
+        "chain": 2,
+        "status": "selected",
+        "design": {
+          "chain": 2,
+          "pair": 2,
+          "arm": "control",
+          "n": 693,
+          "delta": 0.002,
+          "side": 26.812949271823154,
+          "temperature": 0.3,
+          "amplitude": 1.0,
+          "source_key": "reference_693"
+        },
+        "committed_best_energy": 1.2226765332865634e-06,
+        "current_energy_not_selected": 1.3300712768403727e-06,
+        "fixed_box": 26.812949271823154,
+        "last_completed_packet_sha256": "6267cb4cb1d46e9e44f7b7da598d69c509c006ad0d5b32dd474bf712f5e91c89"
+      },
+      "selected": {
+        "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/inputs/slot-00.npz",
+        "sha256": "f680e5a716ec4c1586b7944b43044cb36ca50897bb9b2990f264bd5f52a2ed9a"
+      },
+      "input": {
+        "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/inputs/slot-00.in",
+        "sha256": "48f5b93209cb5ae3574b80c563ce2f452161414421fc913ea1909c052d156285"
+      },
+      "original_record": {
+        "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/inputs/slot-00.original-record.json",
+        "sha256": "9ecee0959a2549469d9fc91986f2ae51efc1364b84b274f986248768e2953615"
+      },
+      "original_geometry_sha256": "1350485e27f6effe86d3c5ee1f96628f0d46b6cc910328d4bd7ff13b3fb96ebb",
+      "original_input_exact": true
+    },
+    {
+      "slot": {
+        "slot": 1,
+        "arm": "reset",
+        "delta": 0.002,
+        "chain": 18,
+        "status": "selected",
+        "design": {
+          "chain": 18,
+          "pair": 2,
+          "arm": "reset",
+          "n": 693,
+          "delta": 0.002,
+          "side": 26.812949271823154,
+          "temperature": 0.3,
+          "amplitude": 1.0,
+          "source_key": "reference_693"
+        },
+        "committed_best_energy": 1.1376949355085817e-06,
+        "current_energy_not_selected": 1.1376949355085817e-06,
+        "fixed_box": 26.812949271823154,
+        "last_completed_packet_sha256": "6267cb4cb1d46e9e44f7b7da598d69c509c006ad0d5b32dd474bf712f5e91c89"
+      },
+      "selected": {
+        "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/inputs/slot-01.npz",
+        "sha256": "6b29e481fe5d6edf5080e35dbc934db9a805deba9b87fc6169f385a03b292b60"
+      },
+      "input": {
+        "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/inputs/slot-01.in",
+        "sha256": "06915b20645a0558530528859f17cbb970b57eae5eb8830e90476cae6169470c"
+      },
+      "original_record": {
+        "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/inputs/slot-01.original-record.json",
+        "sha256": "169cae9b429ffeb9df028739f1a797ec3ce0ed40f4c2adc7739054693b361cde"
+      },
+      "original_geometry_sha256": "350c30664dcc6fe6a484353636d3ab18fe60186a71ea8e33e1014af6c180c8c0",
+      "original_input_exact": true
+    },
+    {
+      "slot": {
+        "slot": 2,
+        "arm": "control",
+        "delta": 0.008,
+        "chain": 11,
+        "status": "selected",
+        "design": {
+          "chain": 11,
+          "pair": 11,
+          "arm": "control",
+          "n": 693,
+          "delta": 0.008,
+          "side": 26.806949271823154,
+          "temperature": 0.3,
+          "amplitude": 1.5,
+          "source_key": "reference_693"
+        },
+        "committed_best_energy": 4.3182221672893794e-05,
+        "current_energy_not_selected": 4.8050735614592734e-05,
+        "fixed_box": 26.806949271823154,
+        "last_completed_packet_sha256": "6267cb4cb1d46e9e44f7b7da598d69c509c006ad0d5b32dd474bf712f5e91c89"
+      },
+      "selected": {
+        "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/inputs/slot-02.npz",
+        "sha256": "12b864da18e7d009685f070c39a6058960dfac51e37ef8ba432f195da5186938"
+      },
+      "input": {
+        "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/inputs/slot-02.in",
+        "sha256": "42a07d175c88191b023bae02cd1a0bcf7a605b64796f81099e1ade62b7208ba5"
+      },
+      "original_record": {
+        "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/inputs/slot-02.original-record.json",
+        "sha256": "225fa27595809826f7b6a3648dd9884a9117a98b4db744b1760bdf4b469a536c"
+      },
+      "original_geometry_sha256": "a2fd63b50aa77b21a76580dd3a3eab1b48e87be471b0a5c84fc378f061bd0cf2",
+      "original_input_exact": true
+    },
+    {
+      "slot": {
+        "slot": 3,
+        "arm": "reset",
+        "delta": 0.008,
+        "chain": 30,
+        "status": "selected",
+        "design": {
+          "chain": 30,
+          "pair": 14,
+          "arm": "reset",
+          "n": 693,
+          "delta": 0.008,
+          "side": 26.806949271823154,
+          "temperature": 3.0,
+          "amplitude": 1.0,
+          "source_key": "reference_693"
+        },
+        "committed_best_energy": 5.289281590285771e-05,
+        "current_energy_not_selected": 8.752454159060175e-05,
+        "fixed_box": 26.806949271823154,
+        "last_completed_packet_sha256": "6267cb4cb1d46e9e44f7b7da598d69c509c006ad0d5b32dd474bf712f5e91c89"
+      },
+      "selected": {
+        "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/inputs/slot-03.npz",
+        "sha256": "bc5cae9f7d0c18c0e757f54d82f317f58df83f9d97da91530febda7c4cbf10d1"
+      },
+      "input": {
+        "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/inputs/slot-03.in",
+        "sha256": "76ed281438242874d4235e89e52720726d933714762c6ba6bbcb8a9977fa1ae8"
+      },
+      "original_record": {
+        "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/inputs/slot-03.original-record.json",
+        "sha256": "cb55782f7ee19ffd866e706fa896af4ec7080d9d4b71d8d74e79125c1f3c7270"
+      },
+      "original_geometry_sha256": "964082183e3166fd5d5024831a3806393b2fa70f5a94279f8f03bcbf273829f8",
+      "original_input_exact": true
+    }
+  ],
+  "source_sha256": "d350aebf10c9bcd07eab3088fd33778cb2e9b55e114eb95bbf0b51a9883f070f",
+  "helper_sha256": "aab5ea32adc59fe26d1379879f8d4efc53cd1c157b6a02269c7d1dc9e400f543",
+  "binary_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+  "options": [
+    "--loosen",
+    "1",
+    "--outer",
+    "45",
+    "--pit",
+    "100",
+    "--flip-top",
+    "16"
+  ],
+  "numerical_sources": {
+    "experiments/fq_restart_hop_finish.py": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/source/experiments/fq_restart_hop_finish.py",
+      "sha256": "aab5ea32adc59fe26d1379879f8d4efc53cd1c157b6a02269c7d1dc9e400f543"
+    },
+    "experiments/fq_active_pilot.py": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/source/experiments/fq_active_pilot.py",
+      "sha256": "cc916fe5bc0e58a4cdfdeb6e4f498061522a2ae44cd6443fdffc1f485eb3db33"
+    },
+    "experiments/fq_capacity_probe.py": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/source/experiments/fq_capacity_probe.py",
+      "sha256": "35a750d6c5aa90f661b8e0e3491e11284f04f592cb320ae0112654c7dddfedd5"
+    },
+    "experiments/fq_variant_campaign.py": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/source/experiments/fq_variant_campaign.py",
+      "sha256": "a6cc4f2b41f78350fd52fa5d8c29a44152791322000fbb007c7fea85ad8ed825"
+    },
+    "experiments/compose_gadgets.py": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/source/experiments/compose_gadgets.py",
+      "sha256": "a8b1df4f9474425d434a44914a73d56703dfc485a79acb57d7d0a3d6e4a24568"
+    },
+    "scripts/score_official.py": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/source/scripts/score_official.py",
+      "sha256": "a6b0877295aa68940b4e32d9681a8f8d6a2e350de80c1b1f5aa54cd44e88d6ba"
+    },
+    "scripts/validate_submission.py": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/source/scripts/validate_submission.py",
+      "sha256": "a9db77693e2fb093dcfdbbbfbd913f9420ed0a661ae0eeb8076362c0a8cbae4b"
+    },
+    "research/official_metric_v17.py": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/source/research/official_metric_v17.py",
+      "sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733"
+    }
+  },
+  "changes_only": {
+    "native_seconds": 40,
+    "certificate_seconds": 8,
+    "workers": 2,
+    "whole_seconds": 120
+  },
+  "allocation": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "canonical_raw_sha256": "add7c0ee1599b97bb229f279dd0ee927c502ad6710940faccd92dca7c7658a53",
+  "no_reselection": true,
+  "no_gpu": true,
+  "no_submission": true,
+  "final_archive_sha256": "55d3a2d43bd2fcf513e061bb6374234697333709a3b6dca605ca703334338cf3",
+  "last_completed_packet": {
+    "index": 296,
+    "path": "raw-hop/packet-0296.npz",
+    "sha256": "6267cb4cb1d46e9e44f7b7da598d69c509c006ad0d5b32dd474bf712f5e91c89",
+    "bytes": 3788195,
+    "status": "completed",
+    "verified": false,
+    "resolved_path": "/kaggle/working/case-693/raw-hop/packet-0296.npz"
+  },
+  "wrapper_sha256": "147fcea86afb3f8bea4d61e2bcb28485684a474a504c0026f5225c5fa008951c"
+}

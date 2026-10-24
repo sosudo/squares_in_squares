@@ -1,0 +1,209 @@
+{
+  "record": {
+    "n": 873,
+    "job": 8,
+    "mode": "rigid_current",
+    "category": "unchanged_parent_timeout_remainder",
+    "same_parent_timeout_control": true,
+    "original_job": 126,
+    "original_seed": 9610126,
+    "legacy_history": "Same original10s parent/seed",
+    "parent_geometry_sha256": "1a561915ae24db9042f2290a8c926e4e46ad7d01af42bf032be03428d1ca2d60",
+    "canonical_raw_side": "29.97328625022202947404135912788587028476242665929694",
+    "native_seconds_cap": 30.0,
+    "certificate_seconds_cap": 6.0,
+    "parent_archive_sha256": "47d77357c29b495b0a990fefd6f40df3affcd342c97aa6c5623e615a6e7e4da3",
+    "input_sha256": "2a5e88426e2cf19e6a213f511746c0fb975abf86e767eb9f88d35e0c33cd994e",
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-timeout-remainder-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-timeout-remainder-v1/trials/n873-rigid-0008.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-timeout-remainder-v1/trials/n873-rigid-0008.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9610126",
+      "--loosen",
+      "1",
+      "--outer",
+      "45",
+      "--pit",
+      "20",
+      "--flip-top",
+      "0",
+      "--v"
+    ],
+    "command_sha256": "1d7d06b221d7f936558e95c02780f535bdaa76241b0af653e2b97ef76a6b7df8",
+    "returncode": 0,
+    "native_status": "returned",
+    "native_seconds": 9.718100439997215,
+    "stdout_sha256": "70b90cb77f4ac79ebdaca0438c409fa5d0485c8b6a2daae70d1b2344c55ec5bf",
+    "stderr_sha256": "9ef46cd4e61665ef6a4f499192e986f8125cb7d60495be7c0c17bd127a439ee2",
+    "log_sha256": "588e2dfa806897f2f26e05999937f967c328f05a1c11b539ce4d6925a073a6ba",
+    "trace_phase_counts": {
+      "outer": 45,
+      "slp": 8,
+      "trust_region": 8
+    },
+    "last_phase_lines": [
+      "tr 6 R 4.00e-3 pred 1.91e-6 rho0 -4.46e1 rho -0.368 wmax 1.00 s 29.9716219961861 acc false",
+      "  slp 6: R 4.0e-3 s 29.9716219961861 pred 1.91e-6 rho -0.37",
+      "tr 7 R 1.00e-3 pred 1.90e-6 rho0 -1.23e1 rho 0.986 wmax 1.00 s 29.9716219961861 acc true",
+      "  slp 7: R 1.0e-3 s 29.9716219961861 pred 1.90e-6 rho 0.99",
+      "tr 8 R 2.00e-3 pred 2.58e-8 rho0 9.99e-1 rho 0.999 wmax 0.98 s 29.9716218619665 acc true",
+      "  slp 8: R 2.0e-3 s 29.9716218619665 pred 2.58e-8 rho 1.00"
+    ],
+    "fq": {
+      "s": 29.971621861987757,
+      "s_alm": 29.971621861969368,
+      "viol": 1.83e-05,
+      "evals": 11557,
+      "outer": 45,
+      "slp_it": 9,
+      "slp_r": 0.004,
+      "flips": 0,
+      "min_gap": 4.18e-13,
+      "min_wall": 2.35e-13,
+      "sec": 9.708,
+      "s_coarse": 29.97352189284229,
+      "t_alm": 5.552,
+      "s_alm0": 29.971562416717656,
+      "trace": [
+        [
+          1,
+          0.4245,
+          29.971753247119732,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          2,
+          1.1588,
+          29.97164371290761,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          3,
+          1.7592,
+          29.97163491952048,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          4,
+          2.4695,
+          29.971630736867176,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          5,
+          2.7737,
+          29.971624296472715,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          7,
+          3.5483,
+          29.971621887783837,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          8,
+          3.7684,
+          29.971621861982936,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "b91e2ac7d613a9f4",
+      "ncontacts": 2063,
+      "fin": []
+    },
+    "native_output_path": "/workspace/squares_in_squares/artifacts/fq-timeout-remainder-v1/trials/n873-rigid-0008.out",
+    "native_output_sha256": "ed634d557e30da67899fda114c645f336cb28ef3c7c8066f4a790e58338c969a",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-timeout-remainder-v1/raw-returned/0008-n873.npz",
+      "sha256": "49c1fd4a8193a86b81e3fc45f5f3ce1e68a4679e9ddc13166fa9e882ac6ec80c",
+      "geometry_sha256": "a2b3543642c77e04e6ca1c53a9d7c1e664af6abb6a0764d0ab8fc1e9069e299e",
+      "verified": false
+    },
+    "status": "certified",
+    "decoded_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-timeout-remainder-v1/decoded/0008-n873.npz",
+      "sha256": "e4b8319e861ac291649349e1caec9ae1f89eab9986637cfc97c53358992a5937",
+      "geometry_sha256": "474e912fcbfbdc573bf1f88af054850f005d41304f0a5f62585c2c6b19ec4c00"
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "29.97162191991829227923132166465514769685533313586836",
+        "roundtrip_side": "29.97162191991829627923132166468478769685533843607038",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "29.97162191991829526923132166468632115842142304157301",
+      "independent_raw": {
+        "n": 873,
+        "valid": true,
+        "side_lower": "29.971621919918292279231321664655147696855333135868292758357822",
+        "side_upper": "29.971621919918292279231321664655147696855333135868421051063908",
+        "score_lower": "0.014385712640791821050668987898527080664228317325243576085494",
+        "score_upper": "0.014385712640791821050668987898527080664228317325251594379625",
+        "interval_pairs": 770,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 873,
+        "valid": true,
+        "side_lower": "29.971621919918295269231321664686321158421423041572956480064897",
+        "side_upper": "29.971621919918295269231321664686321158421423041573084772770982",
+        "score_lower": "0.014385712640791922246836779550280142558820434811530976202695",
+        "score_upper": "0.014385712640791922246836779550280142558820434811538994496826",
+        "interval_pairs": 770,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "bf9514d5aaf3c8e7b80e56eeabdaa25f38b1bd1a728c572aefc341c1d41c1834",
+      "ordinary_pandas_csv_sha256": "67b5aacaa63d0ac1364bfefa5bc83ea632b7760e123966d6d5f6bf02daf63608"
+    },
+    "geometry_sha256": "474e912fcbfbdc573bf1f88af054850f005d41304f0a5f62585c2c6b19ec4c00",
+    "archive_key": "873__current_rigid_474e912fcbfbdc573bf1f88af054850f005d41304f0a5f62585c2c6b19ec4c00",
+    "side": "29.971621919918292279231321664655147696855333135868421051063908",
+    "side_gain": "0.001664330303737194810037463231",
+    "score_gain": 5.6329046380507733e-05,
+    "retained_archive": "/workspace/squares_in_squares/artifacts/fq-timeout-remainder-v1/retained/0008-474e912fcbfbdc573bf1f88af054850f005d41304f0a5f62585c2c6b19ec4c00.npz",
+    "retained_archive_sha256": "4f80dcfcf7e17d1c22b264e61ba28510c9c6b10bdfed059f991094cc7195fc6c"
+  },
+  "archive_sha256": "4f80dcfcf7e17d1c22b264e61ba28510c9c6b10bdfed059f991094cc7195fc6c"
+}

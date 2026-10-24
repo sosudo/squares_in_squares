@@ -1,0 +1,26 @@
+{
+  "notebook": "sos54352/squares-portfolio-680e332bc6bc-incremental",
+  "version": 1,
+  "source_sha256": "7a3962c266aa030da426faf0a31ebf3bec4294a63d6d45c9680304c63730ba8f",
+  "status": "complete",
+  "files": {
+    "submission.csv": {
+      "sha256": "680e332bc6bc5bb7d741505b9460ca18fb410ce11929342e67fb2262b20a2d74",
+      "bytes": 32496900,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "export_manifest.json": {
+      "sha256": "c4680b9936b556f0e7501f65626407523ab94360c31c689baebf5b2dc3efe90c",
+      "bytes": 2630664,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "incremental_export_proof.json": {
+      "sha256": "6bc2dd8c9c31657752bcc06a4b814f43f88109e1582f89ad3af7d15b5a1c7a64",
+      "bytes": 1032,
+      "redirect_host": "www.kaggleusercontent.com"
+    }
+  },
+  "private_source_verified": true,
+  "enable_gpu": false,
+  "elapsed_seconds": 5.29677809200075
+}

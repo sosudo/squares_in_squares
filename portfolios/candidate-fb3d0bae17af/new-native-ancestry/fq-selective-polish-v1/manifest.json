@@ -1,0 +1,104 @@
+{
+  "baseline": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-timeout-all-v1.csv",
+    "sha256": "add7c0ee1599b97bb229f279dd0ee927c502ad6710940faccd92dca7c7658a53",
+    "score": 22.298021385039238,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-fq-timeout-all-v1-official.json",
+    "official_report_sha256": "a9142149b4a03b365545227e63dd8f5bb2992a74ec8b0d96f75a2821d89e3dd7",
+    "reuse": {
+      "reused": 978,
+      "evaluated": 22
+    }
+  },
+  "input_freeze_sha256": "9bc56d50ad65621ad40f3671b06c9fff1994d39871e2a52231cbea32bb2b0b92",
+  "source_hashes": {
+    "/workspace/squares_in_squares/experiments/fq_selective_polish_campaign.py": "13f94307e32befdc8ced68b4494985b0b71e74604f7a1bebe94e12fb5b449204",
+    "/workspace/squares_in_squares/experiments/fq_current_rigid_campaign.py": "05c07430d935b6d005ec1d0dde7a383aa32aa6e22745dcfc3dc765f5440d75eb",
+    "/workspace/squares_in_squares/experiments/prepare_selective_polish_sweep.py": "2383fe6b8292dcc0cb66fbe4ad079192fd8aa32c020adbec54978e936316d239",
+    "/workspace/squares_in_squares/experiments/fq_active_pilot.py": "cc916fe5bc0e58a4cdfdeb6e4f498061522a2ae44cd6443fdffc1f485eb3db33",
+    "/workspace/squares_in_squares/experiments/fq_capacity_probe.py": "35a750d6c5aa90f661b8e0e3491e11284f04f592cb320ae0112654c7dddfedd5",
+    "/workspace/squares_in_squares/experiments/fq_joint_seed_check.py": "b73deacaa0a363430f261f59650a303e4f3086faad28d752f6a0d8673ee71990",
+    "/workspace/squares_in_squares/experiments/fq_variant_campaign.py": "a6cc4f2b41f78350fd52fa5d8c29a44152791322000fbb007c7fea85ad8ed825",
+    "/workspace/squares_in_squares/experiments/compose_gadgets.py": "a8b1df4f9474425d434a44914a73d56703dfc485a79acb57d7d0a3d6e4a24568",
+    "/workspace/squares_in_squares/scripts/score_official.py": "a6b0877295aa68940b4e32d9681a8f8d6a2e350de80c1b1f5aa54cd44e88d6ba",
+    "/workspace/squares_in_squares/scripts/validate_submission.py": "a9db77693e2fb093dcfdbbbfbd913f9420ed0a661ae0eeb8076362c0a8cbae4b",
+    "/workspace/squares_in_squares/research/official_metric_v17.py": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733"
+  },
+  "unchanged_worker_sha256": "05c07430d935b6d005ec1d0dde7a383aa32aa6e22745dcfc3dc765f5440d75eb",
+  "binary_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+  "source_commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "workers": 2,
+  "maximum_total_seconds": 180,
+  "flags": [
+    "--no-alm",
+    "--loosen",
+    "1",
+    "--pit",
+    "80",
+    "--flip-top",
+    "0",
+    "--v"
+  ],
+  "environment_overrides": {
+    "FQ_TR": "1",
+    "FQ_LPT": "1"
+  },
+  "native_seconds_cap": 40,
+  "certificate_seconds_cap": 8,
+  "queue": [
+    {
+      "n": 761,
+      "category": "fresh_feasible_no_alm_tail_followup",
+      "geometry_sha256": "5c512964896a8f549a15c70a82eec66e875a14c5a374e7b1113e7850b93f81f3",
+      "canonical_raw_side": "27.99847533792380831588974175500837720999496978720862",
+      "current_raw_sha256": "add7c0ee1599b97bb229f279dd0ee927c502ad6710940faccd92dca7c7658a53",
+      "legacy_history": "Fresh exact current feasible RAW; prior rigid lineage is inherited in the canonical proof. This finite no-ALM pit80 tail is a different treatment, not a claim that the case was never tested."
+    },
+    {
+      "n": 920,
+      "category": "fresh_feasible_no_alm_tail_followup",
+      "geometry_sha256": "1c945982f5ca2fdd3409acaba9113532c7180d9e02b092842b0d7d70c4837271",
+      "canonical_raw_side": "30.80848338980294736516084558508891495162097465869251",
+      "current_raw_sha256": "add7c0ee1599b97bb229f279dd0ee927c502ad6710940faccd92dca7c7658a53",
+      "legacy_history": "Fresh exact current feasible RAW; prior rigid lineage is inherited in the canonical proof. This finite no-ALM pit80 tail is a different treatment, not a claim that the case was never tested."
+    },
+    {
+      "n": 997,
+      "category": "fresh_feasible_no_alm_tail_followup",
+      "geometry_sha256": "6d3536f261812ce601be6005f49dd4e9689f40ca7e68dc88ea754c3c1618485a",
+      "canonical_raw_side": "31.99428781220315059923132169129222855172045289686783",
+      "current_raw_sha256": "add7c0ee1599b97bb229f279dd0ee927c502ad6710940faccd92dca7c7658a53",
+      "legacy_history": "Fresh exact current feasible RAW; prior rigid lineage is inherited in the canonical proof. This finite no-ALM pit80 tail is a different treatment, not a claim that the case was never tested."
+    },
+    {
+      "n": 868,
+      "category": "fresh_feasible_no_alm_tail_followup",
+      "geometry_sha256": "bb163a4c5f2b8a6d453bea0fc50e0700e970ca30ab9b5e399da1371ea755fcd0",
+      "canonical_raw_side": "29.90826300900095386875359230618473371707712642837201",
+      "current_raw_sha256": "add7c0ee1599b97bb229f279dd0ee927c502ad6710940faccd92dca7c7658a53",
+      "legacy_history": "Fresh exact current feasible RAW; prior rigid lineage is inherited in the canonical proof. This finite no-ALM pit80 tail is a different treatment, not a claim that the case was never tested."
+    },
+    {
+      "n": 981,
+      "category": "fresh_feasible_no_alm_tail_followup",
+      "geometry_sha256": "e1cdd7a3491d216851ee3b2f959c20158c555849edaf0b579aede82ae91fbe8b",
+      "canonical_raw_side": "31.79745232556870626080682209515650234587146649200311",
+      "current_raw_sha256": "add7c0ee1599b97bb229f279dd0ee927c502ad6710940faccd92dca7c7658a53",
+      "legacy_history": "Fresh exact current feasible RAW; prior rigid lineage is inherited in the canonical proof. This finite no-ALM pit80 tail is a different treatment, not a claim that the case was never tested."
+    },
+    {
+      "n": 995,
+      "category": "fresh_feasible_no_alm_tail_followup",
+      "geometry_sha256": "323aea95a8b370eeb81cbd1eac0c0f5f67035110240dc47b181895ed473ca40e",
+      "canonical_raw_side": "31.96393521954160238155669067033092550151572091271724",
+      "current_raw_sha256": "add7c0ee1599b97bb229f279dd0ee927c502ad6710940faccd92dca7c7658a53",
+      "legacy_history": "Fresh exact current feasible RAW; prior rigid lineage is inherited in the canonical proof. This finite no-ALM pit80 tail is a different treatment, not a claim that the case was never tested."
+    }
+  ],
+  "hypothesis": "Fresh certified feasible starting side avoids the earlier ALM-infeasible stagnation reference; only final full gates establish gains.",
+  "no_native_source_edits": true,
+  "no_metric_edits": true,
+  "no_canonical_mutation": true,
+  "no_submission": true
+}

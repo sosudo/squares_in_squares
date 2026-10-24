@@ -1,0 +1,40 @@
+{
+  "status": "returned",
+  "returncode": 0,
+  "seconds": 12.403579212004843,
+  "output_exists": true,
+  "stdout_bytes": 818,
+  "stderr_bytes": 6979,
+  "stderr_lines": 105,
+  "outer_lines": 44,
+  "slp_lines": 15,
+  "tr_lines": 15,
+  "first_phase_lines": [
+    "outer 2: mu 1.0e1 s 29.714206700042 viol 7.16e-3 |g| 2.1e-3 evals 1",
+    "outer 3: mu 1.0e1 s 29.777650305627 viol 2.50e-3 |g| 3.0e-3 evals 168",
+    "outer 4: mu 1.0e2 s 29.784510926451 viol 4.43e-4 |g| 9.4e-4 evals 1290",
+    "outer 5: mu 1.0e2 s 29.786909170705 viol 1.96e-4 |g| 7.9e-4 evals 430",
+    "outer 6: mu 1.0e2 s 29.787621034834 viol 1.18e-4 |g| 9.5e-4 evals 493",
+    "outer 7: mu 1.0e2 s 29.787707518515 viol 8.69e-5 |g| 9.9e-4 evals 88"
+  ],
+  "last_phase_lines": [
+    "tr 12 R 1.25e-4 pred 1.15e-7 rho0 -1.02e1 rho -1.678 wmax 1.00 s 29.7888217755244 acc false",
+    "  slp 12: R 1.3e-4 s 29.7888217755244 pred 1.15e-7 rho -1.68",
+    "tr 13 R 3.13e-5 pred 7.67e-8 rho0 4.33e-1 rho 0.946 wmax 1.00 s 29.7888217755244 acc true",
+    "  slp 13: R 3.1e-5 s 29.7888217755244 pred 7.67e-8 rho 0.95",
+    "tr 14 R 6.25e-5 pred 2.84e-8 rho0 -9.59e0 rho 0.516 wmax 1.00 s 29.7888217630185 acc true",
+    "  slp 14: R 6.3e-5 s 29.7888217630185 pred 2.84e-8 rho 0.52",
+    "tr 15 R 1.25e-4 pred 5.86e-8 rho0 -2.50e1 rho -1.493 wmax 1.00 s 29.7888217391694 acc false",
+    "  slp 15: R 1.3e-4 s 29.7888217391694 pred 5.86e-8 rho -1.49"
+  ],
+  "files": {
+    "native.out": "54eaf706c1d4157d9cc51029da85cf56c7a42b62114b5d791d271f196aff447b",
+    "native.in": "4b5059bc4afc5d26a7d7cde2c0b6e63c85e0b0a18039efdd8c2344f9396e4ff0",
+    "diagnostic.py": "779f635b472b5fa90a052422ea7c8189edd2dad771536a9758904d1b1706b95f",
+    "parent.npz": "0bbf6f913abbdf7bc9a433f5f9f6783d878f04eee3ee40909b72455dc82869ec",
+    "fq": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+    "manifest.json": "9f918ef0c23c87afe7ee5569e8b6c10d26495feef26cddbc1c66b8a356ff9a9b",
+    "stdout.log": "52ba967d7fc0e7f97330dc96ff8384ad6dd425a0be2dc6ac32d6d8e47dd25bd6",
+    "stderr.log": "ad6fb1263dde845b6a2f22259b1f2f13d21d1b1ae25f759281f10e809ca87653"
+  }
+}

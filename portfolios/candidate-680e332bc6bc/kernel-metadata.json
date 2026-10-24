@@ -1,0 +1,18 @@
+{
+  "id": "sos54352/squares-portfolio-680e332bc6bc-incremental",
+  "title": "squares portfolio 680e332bc6bc incremental",
+  "code_file": "export.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [],
+  "competition_sources": [
+    "squares-in-squares"
+  ],
+  "kernel_sources": [
+    "sos54352/squares-portfolio-b84f2ff20f3e-incremental/1"
+  ]
+}

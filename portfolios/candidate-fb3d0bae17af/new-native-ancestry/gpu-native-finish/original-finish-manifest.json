@@ -1,0 +1,125 @@
+{
+  "case_config": {
+    "n": 693,
+    "reference_side": "26.81494927182315432988595358159292954069683435533689",
+    "source_key": "reference_693",
+    "device": 1,
+    "source_geometry_sha256": "0c99323787ff7d1e6602e3576976d0c5692cb03bb213956cfe3079aed1f6809e",
+    "binary_path": "/kaggle/working/bin/fq",
+    "baseline_sha256": "fc931068f0f4accb37c8ed8b33ea59607e4690440d7c3f98b4b79fbb8c34cffc"
+  },
+  "deadline_monotonic": 949.832340596,
+  "fixed_slots": [
+    {
+      "slot": 0,
+      "arm": "control",
+      "delta": 0.002,
+      "chain": 2,
+      "status": "selected",
+      "design": {
+        "chain": 2,
+        "pair": 2,
+        "arm": "control",
+        "n": 693,
+        "delta": 0.002,
+        "side": 26.812949271823154,
+        "temperature": 0.3,
+        "amplitude": 1.0,
+        "source_key": "reference_693"
+      }
+    },
+    {
+      "slot": 1,
+      "arm": "reset",
+      "delta": 0.002,
+      "chain": 18,
+      "status": "selected",
+      "design": {
+        "chain": 18,
+        "pair": 2,
+        "arm": "reset",
+        "n": 693,
+        "delta": 0.002,
+        "side": 26.812949271823154,
+        "temperature": 0.3,
+        "amplitude": 1.0,
+        "source_key": "reference_693"
+      }
+    },
+    {
+      "slot": 2,
+      "arm": "control",
+      "delta": 0.008,
+      "chain": 11,
+      "status": "selected",
+      "design": {
+        "chain": 11,
+        "pair": 11,
+        "arm": "control",
+        "n": 693,
+        "delta": 0.008,
+        "side": 26.806949271823154,
+        "temperature": 0.3,
+        "amplitude": 1.5,
+        "source_key": "reference_693"
+      }
+    },
+    {
+      "slot": 3,
+      "arm": "reset",
+      "delta": 0.008,
+      "chain": 30,
+      "status": "selected",
+      "design": {
+        "chain": 30,
+        "pair": 14,
+        "arm": "reset",
+        "n": 693,
+        "delta": 0.008,
+        "side": 26.806949271823154,
+        "temperature": 3.0,
+        "amplitude": 1.0,
+        "source_key": "reference_693"
+      }
+    }
+  ],
+  "options": [
+    "--loosen",
+    "1",
+    "--outer",
+    "45",
+    "--pit",
+    "100",
+    "--flip-top",
+    "16"
+  ],
+  "binary_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+  "native_source_commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+  "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "final_archive_sha256": "55d3a2d43bd2fcf513e061bb6374234697333709a3b6dca605ca703334338cf3",
+  "design_sha256": "fad1b2eae0b1519f1c2afe37ec030d42fd984a4776b0eb38881e7a5989bb2a9b",
+  "index_sha256": "a7cfa48e0a15c6baa2bfccbbea8b3a889a4c327f500ef680f516b691f7ca3d68",
+  "last_completed_packet": {
+    "index": 296,
+    "path": "raw-hop/packet-0296.npz",
+    "sha256": "6267cb4cb1d46e9e44f7b7da598d69c509c006ad0d5b32dd474bf712f5e91c89",
+    "bytes": 3788195,
+    "status": "completed",
+    "verified": false,
+    "resolved_path": "/kaggle/working/case-693/raw-hop/packet-0296.npz"
+  },
+  "helper_hashes": {
+    "/kaggle/working/experiments/fq_restart_hop_finish.py": "aab5ea32adc59fe26d1379879f8d4efc53cd1c157b6a02269c7d1dc9e400f543",
+    "/kaggle/working/experiments/fq_active_pilot.py": "cc916fe5bc0e58a4cdfdeb6e4f498061522a2ae44cd6443fdffc1f485eb3db33",
+    "/kaggle/working/experiments/fq_capacity_probe.py": "35a750d6c5aa90f661b8e0e3491e11284f04f592cb320ae0112654c7dddfedd5",
+    "/kaggle/working/experiments/fq_variant_campaign.py": "a6cc4f2b41f78350fd52fa5d8c29a44152791322000fbb007c7fea85ad8ed825",
+    "/kaggle/working/experiments/compose_gadgets.py": "a8b1df4f9474425d434a44914a73d56703dfc485a79acb57d7d0a3d6e4a24568",
+    "/kaggle/working/scripts/score_official.py": "a6b0877295aa68940b4e32d9681a8f8d6a2e350de80c1b1f5aa54cd44e88d6ba",
+    "/kaggle/working/scripts/validate_submission.py": "a9db77693e2fb093dcfdbbbfbd913f9420ed0a661ae0eeb8076362c0a8cbae4b",
+    "/kaggle/working/research/official_metric_v17.py": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733"
+  },
+  "selection": "One minimum committed best_energy_after perarm\u00d7delta; missing/deadline slots stay empty without reallocation.",
+  "input_status": "UNVERIFIED exact BEST states; low physical energy is not feasibility.",
+  "native_seconds_cap": 12.0,
+  "certificate_seconds_cap": 8.0
+}

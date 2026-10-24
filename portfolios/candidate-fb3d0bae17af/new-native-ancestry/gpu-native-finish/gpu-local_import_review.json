@@ -1,0 +1,29 @@
+{
+  "driver": {
+    "path": "experiments/fq_restart_hop_pilot.py",
+    "sha256": "fd1b34f98fb4759309ce8accb535b62cfb7b374ce6c3be75cbbe647949b6f297"
+  },
+  "finish": {
+    "path": "experiments/fq_restart_hop_finish.py",
+    "sha256": "aab5ea32adc59fe26d1379879f8d4efc53cd1c157b6a02269c7d1dc9e400f543"
+  },
+  "retention": {
+    "path": "experiments/fq_variant_campaign.py",
+    "sha256": "a6cc4f2b41f78350fd52fa5d8c29a44152791322000fbb007c7fea85ad8ed825"
+  },
+  "fused": {
+    "path": "experiments/fq_fused_hop_pilot.py",
+    "sha256": "bc105246e9b60e708ed167ab878c1d3aba1236f38af00eb0b0f7a032f9699292"
+  },
+  "generated_search_sha256": "ddcd70915276b288ae31aa05447c43ca9d44070cdb863431b8ff09c6c11c6d4d",
+  "actual_cuda_run": false,
+  "native_execution": false,
+  "input_and_pairing_checks": true,
+  "source_sha256": "d350aebf10c9bcd07eab3088fd33778cb2e9b55e114eb95bbf0b51a9883f070f",
+  "source_bytes": 995672,
+  "payload_files": 150,
+  "exact_payload_hashes_verified": true,
+  "isolated_extraction_directory": "/tmp/restart-frozen-import-yz89e0ry",
+  "executed_check_source_sha256": "95592c0fcc0cca334db436dc226be000055bdb03582e616edc5fea9c6e6bf5a5",
+  "executed_check_source_path": "artifacts/fq-restart-hop-job-v2/local_import_check.py"
+}

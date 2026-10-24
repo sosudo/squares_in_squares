@@ -1,0 +1,312 @@
+{
+  "record": {
+    "n": 868,
+    "job": 4,
+    "mode": "rigid_current",
+    "category": "fresh_feasible_no_alm_tail_followup",
+    "legacy_history": "Fresh exact current feasible RAW; prior rigid lineage is inherited in the canonical proof. This finite no-ALM pit80 tail is a different treatment, not a claim that the case was never tested.",
+    "parent_geometry_sha256": "bb163a4c5f2b8a6d453bea0fc50e0700e970ca30ab9b5e399da1371ea755fcd0",
+    "canonical_raw_side": "29.90826300900095386875359230618473371707712642837201",
+    "native_seconds_cap": 40.0,
+    "certificate_seconds_cap": 8.0,
+    "parent_archive_sha256": "69d5ac6ba458188bf6cc91b9b5f3aa29b950381a15f7124550ccf0dc0c82e9b1",
+    "input_sha256": "47a4802bb34cfe4b6a09e2f4f515d955433d9d8a61a52cfbd9c7c4ebf3e257b2",
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-selective-polish-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-selective-polish-v1/trials/n868-rigid-0004.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-selective-polish-v1/trials/n868-rigid-0004.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9610004",
+      "--no-alm",
+      "--loosen",
+      "1",
+      "--pit",
+      "80",
+      "--flip-top",
+      "0",
+      "--v"
+    ],
+    "command_sha256": "62d7588b994d7751f585d58d711ca2d2055e03416ab3f1c145c85db949d784d5",
+    "returncode": 0,
+    "native_status": "returned",
+    "native_seconds": 11.416624215999036,
+    "stdout_sha256": "f62a975b2ce03f69b13c2b27f093027ffc37f90f1bf46a7161e504be445bfa9a",
+    "stderr_sha256": "bc69ae76bb2e11862af2f3984b1a84208611c527709039f24f4f2f0b57d1e4b4",
+    "log_sha256": "3f567b6cf55e717bf96debcc4f7c31e82e7aae5e924a0868ada2d44fdc47658a",
+    "fq": {
+      "s": 29.908096448035856,
+      "s_alm": 29.90809644802952,
+      "viol": 0.0,
+      "evals": 0,
+      "outer": 0,
+      "slp_it": 30,
+      "slp_r": 9.8e-07,
+      "flips": 0,
+      "min_gap": 2.06e-13,
+      "min_wall": 1.01e-13,
+      "sec": 11.41,
+      "s_coarse": 29.908263009009698,
+      "t_alm": 0.0,
+      "s_alm0": 29.908263009000954,
+      "trace": [
+        [
+          1,
+          0.207,
+          29.908255798418192,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          2,
+          0.6109,
+          29.908244105486034,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          3,
+          0.8728,
+          29.90821836524689,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          4,
+          1.1163,
+          29.90819631953029,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          5,
+          1.3575,
+          29.908165103062974,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          6,
+          1.5892,
+          29.908135609257005,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          7,
+          1.8235,
+          29.90811037547899,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          9,
+          2.8311,
+          29.908097697767545,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          11,
+          4.3363,
+          29.90809700253224,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          12,
+          4.8108,
+          29.908096552227462,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          13,
+          5.3391,
+          29.908096532674502,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          14,
+          5.879,
+          29.90809645372494,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          16,
+          6.9813,
+          29.908096448256767,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          20,
+          8.7137,
+          29.90809644808798,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          21,
+          9.0634,
+          29.908096448029806,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          25,
+          10.2994,
+          29.908096448029863,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          26,
+          10.5494,
+          29.908096448029738,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          28,
+          11.0274,
+          29.908096448029752,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          29,
+          11.2586,
+          29.90809644802984,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "f8850e5df7991d85",
+      "ncontacts": 770,
+      "fin": []
+    },
+    "native_output_path": "/workspace/squares_in_squares/artifacts/fq-selective-polish-v1/trials/n868-rigid-0004.out",
+    "native_output_sha256": "2755d6b7f949f40a0f2db227e9a6276d1ab76a7cb2ab88c76cd4dc3959334574",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-selective-polish-v1/raw-returned/0004-n868.npz",
+      "sha256": "6d7cc9eb537ae3abf34e2e448dda77bfddc910b4efdc53a8d118791ceae8b5eb",
+      "geometry_sha256": "dd30eb5c950740b7ed5f298ca5fbe0b402e9f104e0e187307604fd7f1f4dc9c7",
+      "verified": false
+    },
+    "status": "certified",
+    "decoded_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-selective-polish-v1/decoded/0004-n868.npz",
+      "sha256": "04b005cdea41ce271fa1957007e0cf9122cf09dc24f42cb7f222c6fb2537e4e2",
+      "geometry_sha256": "1bb605fecc1e0c464d2950eb03e368091e69b00db37052596c680119e8b91d91"
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "29.90809650584589943635993498415513421103366856594930",
+        "roundtrip_side": "29.90809650584589943635993498415363421103366860322953",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "29.90809650584589953635993498412840574946757791870057",
+      "independent_raw": {
+        "n": 868,
+        "valid": true,
+        "side_lower": "29.908096505845899436359934984155134211033668565949265599900777",
+        "side_upper": "29.908096505845899436359934984155134211033668565949393892606862",
+        "score_lower": "0.015146942101854630306796919179198500808707381258225976861528",
+        "score_upper": "0.015146942101854630306796919179198500808707381258233995155659",
+        "interval_pairs": 1148,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 868,
+        "valid": true,
+        "side_lower": "29.908096505845899536359934984128405749467577918700481479419309",
+        "side_upper": "29.908096505845899536359934984128405749467577918700609772125395",
+        "score_lower": "0.015146942101854633701018085688944586136254133636556976689416",
+        "score_upper": "0.015146942101854633701018085688944586136254133636564994983547",
+        "interval_pairs": 1148,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "29be29ad4c651f9f4af855ed3df32046fa5a877b118e56fbc634378f29dcedd9",
+      "ordinary_pandas_csv_sha256": "bac9c0eb9b8ac12db0400b4ae0796c670d5ee24dc0be786d9ebbb2842f407e3b"
+    },
+    "geometry_sha256": "1bb605fecc1e0c464d2950eb03e368091e69b00db37052596c680119e8b91d91",
+    "archive_key": "868__current_rigid_1bb605fecc1e0c464d2950eb03e368091e69b00db37052596c680119e8b91d91",
+    "side": "29.908096505845899436359934984155134211033668565949393892606862",
+    "side_gain": "0.0001665031550544323936573220296",
+    "score_gain": 5.651485331765598e-06,
+    "retained_archive": "/workspace/squares_in_squares/artifacts/fq-selective-polish-v1/retained/0004-1bb605fecc1e0c464d2950eb03e368091e69b00db37052596c680119e8b91d91.npz",
+    "retained_archive_sha256": "a6d6d616dc7c7c2fbfdacdae6d2a89b324c18deb0a933f26ddf59edb78b82d8e"
+  },
+  "archive_sha256": "a6d6d616dc7c7c2fbfdacdae6d2a89b324c18deb0a933f26ddf59edb78b82d8e"
+}

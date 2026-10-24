@@ -1,0 +1,268 @@
+{
+  "record": {
+    "n": 996,
+    "job": 3,
+    "mode": "rigid_current",
+    "category": "unchanged_parent_timeout_extension",
+    "original_job": 21,
+    "original_seed": 9610021,
+    "legacy_history": "Exact same current/previous parent; original10s no-output timeout, observational30s extension only.",
+    "parent_geometry_sha256": "815676a812e3a2d223fa91576a9c2b7eace4c087004e39c3c9ea3ba48e9be285",
+    "canonical_raw_side": "31.98000061960000600000000000000000000000000000000000",
+    "native_seconds_cap": 30.0,
+    "certificate_seconds_cap": 6.0,
+    "parent_archive_sha256": "120b18c965cb49223b1f4be6a548ae8603a25ad572624c26ed210a6df8f62e8b",
+    "input_sha256": "53290fea6aaa94ef85a76c5d3c12afd3e475cfdd9d37d853c54a03c4f32a1a9c",
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-timeout-extension-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-timeout-extension-v1/trials/n996-rigid-0003.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-timeout-extension-v1/trials/n996-rigid-0003.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9610021",
+      "--loosen",
+      "1",
+      "--outer",
+      "45",
+      "--pit",
+      "20",
+      "--flip-top",
+      "0",
+      "--v"
+    ],
+    "command_sha256": "4e0f2dfed9fee40352f9c1c30e9cfbcbdf94232163b61f2bba0239712df26e05",
+    "returncode": 0,
+    "native_status": "returned",
+    "native_seconds": 17.819147166999755,
+    "stdout_sha256": "7afed1a5d710bfad55489d6fb5192153e9d4faf6009a4279c9f041c87fd70c7e",
+    "stderr_sha256": "a44f5e58153834b2b047e7d3c41dc7ad0bff1d631820e9a3402e10b3aa3ec948",
+    "log_sha256": "341ac8b4e2de51177aa7fb4f3977aca1adcc6cda07194928ce5c2a27d063077f",
+    "trace_phase_counts": {
+      "outer": 44,
+      "slp": 20,
+      "trust_region": 20
+    },
+    "last_phase_lines": [
+      "tr 18 R 2.50e-4 pred 1.77e-8 rho0 -3.00e2 rho 0.539 wmax 1.00 s 31.9795311403569 acc true",
+      "  slp 18: R 2.5e-4 s 31.9795311403569 pred 1.77e-8 rho 0.54",
+      "tr 19 R 5.00e-4 pred 4.19e-8 rho0 -3.01e2 rho -9.320 wmax 1.00 s 31.9795311232119 acc false",
+      "  slp 19: R 5.0e-4 s 31.9795311232119 pred 4.19e-8 rho -9.32",
+      "tr 20 R 1.25e-4 pred 1.64e-8 rho0 -6.70e1 rho 0.992 wmax 1.00 s 31.9795311232119 acc true",
+      "  slp 20: R 1.3e-4 s 31.9795311232119 pred 1.64e-8 rho 0.99"
+    ],
+    "fq": {
+      "s": 31.979531114860066,
+      "s_alm": 31.97953111473497,
+      "viol": 3.51e-05,
+      "evals": 3652,
+      "outer": 45,
+      "slp_it": 20,
+      "slp_r": 0.00025,
+      "flips": 0,
+      "min_gap": 2.06e-12,
+      "min_wall": 1.95e-12,
+      "sec": 17.811,
+      "s_coarse": 31.983189122197093,
+      "t_alm": 1.655,
+      "s_alm0": 31.97965124145826,
+      "trace": [
+        [
+          1,
+          0.4999,
+          31.97960557304132,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          2,
+          1.9053,
+          31.9795370057087,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          5,
+          3.7507,
+          31.979532089090746,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          7,
+          4.6249,
+          31.979531638539164,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          8,
+          4.9015,
+          31.9795314070222,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          9,
+          5.3331,
+          31.979531248982305,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          12,
+          7.7947,
+          31.979531223664694,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          13,
+          8.511,
+          31.97953122077587,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          14,
+          9.2736,
+          31.97953118384764,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          15,
+          10.1205,
+          31.979531162897324,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          17,
+          13.9986,
+          31.979531140754087,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          18,
+          14.8312,
+          31.979531131224757,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          20,
+          16.111,
+          31.979531114835282,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "7251e0d14d69c440",
+      "ncontacts": 535,
+      "fin": []
+    },
+    "native_output_path": "/workspace/squares_in_squares/artifacts/fq-timeout-extension-v1/trials/n996-rigid-0003.out",
+    "native_output_sha256": "6869b06cfe12d13a94d0538cef8b186861089eeff68dcda3a42fa50c0cdd7980",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-timeout-extension-v1/raw-returned/0003-n996.npz",
+      "sha256": "dbbaae66039003ff632ca3f22e7c7fad9926996b37d1f224a22bdd22e4b584db",
+      "geometry_sha256": "d078b1378c97eec41b5771e0c0c47377795f7bdaea38012f7604a0b4788f1f27",
+      "verified": false
+    },
+    "status": "certified",
+    "decoded_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-timeout-extension-v1/decoded/0003-n996.npz",
+      "sha256": "c8585a25440102d526b8639dd2459a645bc2496079ad6bd5fc23378d76c40c36",
+      "geometry_sha256": "1491873c34bbfd94ac8e0339688debb96d99adbc2e4e77686824ef5f6f8fe566"
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "31.97953117672467847178870848542080531691833641957395",
+        "roundtrip_side": "31.97953117672468247178870848542078531691833641957883",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "31.97953117672468148178870848542078031691833641958006",
+      "independent_raw": {
+        "n": 996,
+        "valid": true,
+        "side_lower": "31.979531176724678471788708485420805316918336419573905734948994",
+        "side_upper": "31.979531176724678471788708485420805316918336419574034027655079",
+        "score_lower": "0.013310221354701105309774998451158989911957630469246516738796",
+        "score_upper": "0.013310221354701105309774998451158989911957630469254535032927",
+        "interval_pairs": 1416,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 996,
+        "valid": true,
+        "side_lower": "31.979531176724681481788708485420780316918336419580023365976895",
+        "side_upper": "31.979531176724681481788708485420780316918336419580151658682980",
+        "score_lower": "0.013310221354701200685274702385084174298342894001460328871111",
+        "score_upper": "0.013310221354701200685274702385084174298342894001468347165242",
+        "interval_pairs": 1416,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "bdb8aefd6651b13f3aa622cbe8b3bea8a6b47cc24070e0d8cfa874e0e9b2c64f",
+      "ordinary_pandas_csv_sha256": "04455afb8a921aa647aa1160547b547843c4a51cb9aa2423ddecd06f8ffb7515"
+    },
+    "geometry_sha256": "1491873c34bbfd94ac8e0339688debb96d99adbc2e4e77686824ef5f6f8fe566",
+    "archive_key": "996__current_rigid_1491873c34bbfd94ac8e0339688debb96d99adbc2e4e77686824ef5f6f8fe566",
+    "side": "31.979531176724678471788708485420805316918336419574034027655079",
+    "side_gain": "0.0004694428753275282112915145792",
+    "score_gain": 1.4874866716549688e-05,
+    "retained_archive": "/workspace/squares_in_squares/artifacts/fq-timeout-extension-v1/retained/0003-1491873c34bbfd94ac8e0339688debb96d99adbc2e4e77686824ef5f6f8fe566.npz",
+    "retained_archive_sha256": "16dca2e35b87285bd54ad5d8e627ae7fdd18589c5e438c0f8469ae7f84bad85a"
+  },
+  "archive_sha256": "16dca2e35b87285bd54ad5d8e627ae7fdd18589c5e438c0f8469ae7f84bad85a"
+}

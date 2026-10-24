@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "candidates_sha256": "eb62b7cbafdeb2ad0197645931b8096f1d6420106f41d7bc0f7ffa3f8f6cff3e",
+  "manifest_sha256": "e3ae5ce36e604dcb82b60afa27b7993ee16721dbeb82858e60306c5cd8e34ddf",
+  "wrapper_sha256": "147fcea86afb3f8bea4d61e2bcb28485684a474a504c0026f5225c5fa008951c",
+  "unchanged_helper_sha256": "aab5ea32adc59fe26d1379879f8d4efc53cd1c157b6a02269c7d1dc9e400f543",
+  "winner_slot": 0,
+  "arm": "control",
+  "chain": 2,
+  "selected_geometry_sha256": "1350485e27f6effe86d3c5ee1f96628f0d46b6cc910328d4bd7ff13b3fb96ebb",
+  "exact_committed_gpu_best_and_original_native_input": true,
+  "exact_native_output_bounded_decode_and_certified_archive": true,
+  "exact_17g_candidate_and_raw_pandas_certificate_hashes": true,
+  "geometry_sha256": "e035209ea0b6ca7766327568fbe6161ce547912ca09ebb9eb2bf32e7310dbf3c",
+  "worst_certified_side": "26.813946701004592194357889411898414809504609397336433710822558",
+  "comparison_canonical_raw_sha256": "add7c0ee1599b97bb229f279dd0ee927c502ad6710940faccd92dca7c7658a53",
+  "comparison_side_lower": "26.814949271823154329885953581592929540696834355336830369964667",
+  "strict_side_gain": "0.001002570818562135528064169694514731192224958000396659142109",
+  "strict_score_gain": "0.00003808451614165068372514472727002422398368772629141627004799765382213177",
+  "native_executions_by_reviewer": 0,
+  "new_geometry_certificates": 0,
+  "reset_policy_causal_claim": false
+}

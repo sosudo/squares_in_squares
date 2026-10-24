@@ -1,0 +1,1241 @@
+[
+  {
+    "n": 600,
+    "job": 25,
+    "geometry_sha256": "e5417a3dd5598627f681b5aacf5d802a0b3d9d56e4f5bbd673bf6db5cdd80cd6",
+    "parent_geometry_sha256": "9a1f138ca3574262c4efe3b8783345673106a86cecd7db8e57ce9cb615f173b3",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n600-rigid-0025.in",
+        "sha256": "2f8bfe17603c9747354d560adfe60757efdcff0f747636dfea0f17c742001b78",
+        "bytes": 34360
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n600-rigid-0025.parent.npz",
+        "sha256": "b864d6d2f178a43ce1f59f086f16d01eb5ed9c9441d62bc1dcf1ff198f8549bb",
+        "bytes": 11732
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n600-rigid-0025.out",
+        "sha256": "746803c150e94e990efc43052eec483a0ee86caaeaba5292973bac6321656a0d",
+        "bytes": 35939
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n600-rigid-0025.log",
+        "sha256": "e354adcad7de246b36a23be0409e7365179f5843804dbe0f3ed2960ebfedf33f",
+        "bytes": 7902
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n600-rigid-0025.stdout",
+        "sha256": "3c2df54cb2431a1aa8b8bbe067266c8e98d101a9650537a353b25ab23bef7da1",
+        "bytes": 870
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n600-rigid-0025.stderr",
+        "sha256": "590ce46916014de7a9e52ebf2b937cb38f2890e00b09b97a5d037e5c36ca0be3",
+        "bytes": 7031
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0025-e5417a3dd5598627f681b5aacf5d802a0b3d9d56e4f5bbd673bf6db5cdd80cd6.npz",
+        "sha256": "35eb63674b49a09995376345fe23a40ad76faed9695bc2039dc8455f704ed137",
+        "bytes": 10740
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0025-e5417a3dd5598627f681b5aacf5d802a0b3d9d56e4f5bbd673bf6db5cdd80cd6.json",
+        "sha256": "6737767662b749a8b98340292043f050d8e196b166698b56aeac87e823bc1169",
+        "bytes": 7727
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0025-n600.npz",
+        "sha256": "292648217dd61a9fdbb61d8da6c2ea1013e9c4f505a0dab7da290798ddc71001",
+        "bytes": 10586
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0025-n600.npz",
+        "sha256": "c6860dac9177cf1377361cab413ee0bdb2ab05fd4896901da6d023eb09ed84b4",
+        "bytes": 10582
+      }
+    ]
+  },
+  {
+    "n": 649,
+    "job": 14,
+    "geometry_sha256": "b6db6cb898e714b0ebf450e14d0453a867883349819e7ebe5e147c4b90e0effa",
+    "parent_geometry_sha256": "ae638e0bd75d1a8a8c4f2305dd8d828ec94145aeadc402dc09f5c4943aadb076",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n649-rigid-0014.in",
+        "sha256": "7f4e203e064cae90f4795cd44aaa2280995a2ba3d50c1ee0da4b2e42bbe46c0b",
+        "bytes": 38259
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n649-rigid-0014.parent.npz",
+        "sha256": "27c5c83232ea89ed1cac2fa43e0f613a92c7ee2c2dab3152431245a8d418d37a",
+        "bytes": 14503
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n649-rigid-0014.out",
+        "sha256": "e23183c9a08212e720e19c7db970b3ff35e0ba21f54dd14ea42c42d632f2d990",
+        "bytes": 38980
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n649-rigid-0014.log",
+        "sha256": "5d962f9b99dddebc58a0826c1ecf8e73e252d25e1ade320ecce330c1dcd948f5",
+        "bytes": 7947
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n649-rigid-0014.stdout",
+        "sha256": "ec1a07546fc38c076393e0bbb99c799df3683f26d17fdd53368d75a064a901e9",
+        "bytes": 973
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n649-rigid-0014.stderr",
+        "sha256": "f9321f0d1ac996cd22070f13afa67f85465b33d6e9bb26dce87576942b558597",
+        "bytes": 6973
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0014-b6db6cb898e714b0ebf450e14d0453a867883349819e7ebe5e147c4b90e0effa.npz",
+        "sha256": "0a999cc834631bb667c70abe6e4a3bc8135262760b3150d7d2229f2c030d206a",
+        "bytes": 12043
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0014-b6db6cb898e714b0ebf450e14d0453a867883349819e7ebe5e147c4b90e0effa.json",
+        "sha256": "5249abb413bf8715fd1d055c2a150a9ca71d96acefe39a07e89e9d6ef38a930e",
+        "bytes": 8018
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0014-n649.npz",
+        "sha256": "12378aa0ede2065a25bcd3633c04edd60e1e13dcb283d3bf083692bb85451467",
+        "bytes": 11892
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0014-n649.npz",
+        "sha256": "121a16f6cb786bbc31e4cab0f1a599f79962cf3a1f42b591ed54c5bc758c9d81",
+        "bytes": 11885
+      }
+    ]
+  },
+  {
+    "n": 757,
+    "job": 10,
+    "geometry_sha256": "50adae84762c8b1fbb383e60296e7044ae63a7e0c24c535ab1dc2dc94cb4a179",
+    "parent_geometry_sha256": "8ed7c6649b5c033f4c6f6b951264595a79fc9f0971f48992ba82ae73124f8272",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n757-rigid-0010.in",
+        "sha256": "dd018dfd7615c5cef92397da88b299d385ce8832eef774c7eeb2260a33164c47",
+        "bytes": 44848
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n757-rigid-0010.parent.npz",
+        "sha256": "520a84e4ec906215286e932430eff74feab61c489b3b4aa75b8e88ce7e0de384",
+        "bytes": 16564
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n757-rigid-0010.out",
+        "sha256": "64b74839094ebecc7a939d41f6fd9ecdb94ccff3233a83eecc714070a2d43f8b",
+        "bytes": 45384
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n757-rigid-0010.log",
+        "sha256": "d158b1d813c35d2aa22819b0d34631fcc3e2f28b256f35de313f3d386915122a",
+        "bytes": 9082
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n757-rigid-0010.stdout",
+        "sha256": "6078f6634fde16e3a514ca183d7c86779d38e2dfc3b1f95d1546b076e8dc3f8c",
+        "bytes": 1087
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n757-rigid-0010.stderr",
+        "sha256": "e93c5180d922a8f8c1248455d082648d47dc7da01dbdb30585c7d236f75e6621",
+        "bytes": 7994
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0010-50adae84762c8b1fbb383e60296e7044ae63a7e0c24c535ab1dc2dc94cb4a179.npz",
+        "sha256": "be0a7306e4a1324a254de5d703a85dd251ee82913acaae669098503ceff1bfad",
+        "bytes": 10558
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0010-50adae84762c8b1fbb383e60296e7044ae63a7e0c24c535ab1dc2dc94cb4a179.json",
+        "sha256": "f8090ea54b1526e7de6e3face90bafed930d8fc7240ed51ca93b140085f6e85c",
+        "bytes": 8333
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0010-n757.npz",
+        "sha256": "1211f8ee965ce873c323907d2f5957675f34678f9cc0f9b373cc8ad9d5332dc2",
+        "bytes": 10399
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0010-n757.npz",
+        "sha256": "8a08371deb08d68f70cff715925a8e8e617c1c2337f20eb3c55ba6dde2ca60c2",
+        "bytes": 10400
+      }
+    ]
+  },
+  {
+    "n": 761,
+    "job": 28,
+    "geometry_sha256": "5c512964896a8f549a15c70a82eec66e875a14c5a374e7b1113e7850b93f81f3",
+    "parent_geometry_sha256": "8c08d84c82693c3eb414088bd6006501fe419e3139d9add3cfc85a6ffa2bfc76",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n761-rigid-0028.in",
+        "sha256": "c3c85309e760149dbc9a1edaa18cd169af46e913dec1c0508a523fd7e0f66e48",
+        "bytes": 42269
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n761-rigid-0028.parent.npz",
+        "sha256": "c38e8fd04a1ffa03d6dec193bccd4374c2bfb961d326f9586a64b0f630ddf475",
+        "bytes": 11477
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n761-rigid-0028.out",
+        "sha256": "0781324f07b786572d1eec9c2db52378ad37cc0b428bb7289337dbd6df702233",
+        "bytes": 45669
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n761-rigid-0028.log",
+        "sha256": "fdcb1885de3cca0560259bc472544f843f9ef50c41801c5eb418060983627aec",
+        "bytes": 9020
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n761-rigid-0028.stdout",
+        "sha256": "8179fd31dafa9d48dcc5bf4f02a8f198ec4370a0f16617c54236066331c0a019",
+        "bytes": 1079
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n761-rigid-0028.stderr",
+        "sha256": "f3fe4ee42d3ea6286325b5816edd94dbe1ea2543136cd1e3518e30714a60db40",
+        "bytes": 7940
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0028-5c512964896a8f549a15c70a82eec66e875a14c5a374e7b1113e7850b93f81f3.npz",
+        "sha256": "ecc281eea00d971189f84271d9a9eb33286e2cb6c0735c492582c8949b778b90",
+        "bytes": 12860
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0028-5c512964896a8f549a15c70a82eec66e875a14c5a374e7b1113e7850b93f81f3.json",
+        "sha256": "78dfc63bebe79b7984af65cb835107bab4a1dd935bdf425f97a2c468e554e0a9",
+        "bytes": 8324
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0028-n761.npz",
+        "sha256": "a1e2ab9adb6c7f8026f533ece94228aac6cbe008d008d0b53e8c9447d651037b",
+        "bytes": 12727
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0028-n761.npz",
+        "sha256": "766326c274bf6ac246aaa41a655dbcdc214e0707bb75284bca1d1ebcb26a5d1b",
+        "bytes": 12702
+      }
+    ]
+  },
+  {
+    "n": 802,
+    "job": 1,
+    "geometry_sha256": "3f018e42dfceb84521f1998ee0354cf89fbc62cad55c15a6cbc742da719af554",
+    "parent_geometry_sha256": "54bc68cd1e8748a65003fbc05baea2527d0e4e15bf8a46e953efdb4540139a93",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n802-rigid-0001.in",
+        "sha256": "059f10fcf420d1cfa535311cb122db4c1c43bf9ffe2a2371232824df7056a0d5",
+        "bytes": 36581
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n802-rigid-0001.parent.npz",
+        "sha256": "dce85d213552c62309d19ce270ac7477c14b09f6ee5b86fd8c7381a842e1afec",
+        "bytes": 8648
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n802-rigid-0001.out",
+        "sha256": "8e916b3ca2568032716404ed3a2855fbd87cb2a42745514571981751ebf88248",
+        "bytes": 48151
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n802-rigid-0001.log",
+        "sha256": "6ff2966cabd2ea9d8b6bc967a29bf8dfc03ce2875678d07b1e6cdad7f546b497",
+        "bytes": 9299
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n802-rigid-0001.stdout",
+        "sha256": "cc842500b77424f7832342b51d099728ac958d527189776065423609ab22e4e4",
+        "bytes": 1032
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n802-rigid-0001.stderr",
+        "sha256": "38373bcb7c8b912a963ba32dab6d4a9487b52de369b0807b50b73a52750d715c",
+        "bytes": 8266
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0001-3f018e42dfceb84521f1998ee0354cf89fbc62cad55c15a6cbc742da719af554.npz",
+        "sha256": "39a9d6b0b38be370f4e9cb72236843a0003fa4c68e1bdede27971388aec5985a",
+        "bytes": 14242
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0001-3f018e42dfceb84521f1998ee0354cf89fbc62cad55c15a6cbc742da719af554.json",
+        "sha256": "9a2daae541e89a836f5b1d4fc14fbfda20f45dee360709e0c20d7f9bb0eb2dc7",
+        "bytes": 8223
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0001-n802.npz",
+        "sha256": "70718df684cc53a198fac43cfe9dd52e4de870bb9805609bb1edca22abbe459e",
+        "bytes": 14092
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0001-n802.npz",
+        "sha256": "71609e32d29c723d130bf4ef6c755b04c27bed9a8664c62acb3b88dc6a0c9596",
+        "bytes": 14084
+      }
+    ]
+  },
+  {
+    "n": 816,
+    "job": 18,
+    "geometry_sha256": "2552fa79b1a5eaf3cb9a30ffe67a623883d6b17072f4b85db1f8cf7f48589ae4",
+    "parent_geometry_sha256": "59f051ecd491a01a11389a336f1e5e3d0a418e7680fa9a53adad9d9669c9cf4b",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n816-rigid-0018.in",
+        "sha256": "825927c9066b4a8b58fe360129d11ef482a6b013b95f5c3cf8c8b0c3305df6f1",
+        "bytes": 48459
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n816-rigid-0018.parent.npz",
+        "sha256": "e3b4bb560c551e780e3390c967177774e6e6a96ffbd613332582b75ef3c772eb",
+        "bytes": 17630
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n816-rigid-0018.out",
+        "sha256": "0574d2c6f4014c2f998a78aff3fc0b9c4ddee512e4ff02f54b504b5937d15924",
+        "bytes": 48996
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n816-rigid-0018.log",
+        "sha256": "529b64e23fb951eae6b6b88c7a754efc908946e2e8964fdbd2c4d2e4e08eff43",
+        "bytes": 7790
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n816-rigid-0018.stdout",
+        "sha256": "17a0ed5d4660246b6bf9c5c8709c95c023cef43328bbfbcdc63257892829984c",
+        "bytes": 817
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n816-rigid-0018.stderr",
+        "sha256": "08e07bddac214ba8eb91a6c7f511a9b9453fecd610637b62be9707bdd9d691e3",
+        "bytes": 6972
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0018-2552fa79b1a5eaf3cb9a30ffe67a623883d6b17072f4b85db1f8cf7f48589ae4.npz",
+        "sha256": "f8b4327cfa3e542ccf65ca82d9455f73427d272cb768a7107efc66aa7f9dc5a8",
+        "bytes": 11493
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0018-2552fa79b1a5eaf3cb9a30ffe67a623883d6b17072f4b85db1f8cf7f48589ae4.json",
+        "sha256": "3d15bbd5d19fc4666f9059eb5387e1df0477c48df3cbdbdd9512a9d980c64814",
+        "bytes": 7573
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0018-n816.npz",
+        "sha256": "c75dc9015dba29876a298cd32968df1200173ba93d41dad3fcb531b7d5709591",
+        "bytes": 11259
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0018-n816.npz",
+        "sha256": "76b7077060edc3900060a8fcc5509edbeb8617cec96f78723988f246315db1db",
+        "bytes": 11335
+      }
+    ]
+  },
+  {
+    "n": 857,
+    "job": 5,
+    "geometry_sha256": "63529d08ffd17182f280a271cb9247c7f76ffda973bbfb7ab75dddde4b44fbfb",
+    "parent_geometry_sha256": "75328ac514b76252c4d01f5eb2a7e736158b60f455f4387d0892e01c8d8faab0",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n857-rigid-0005.in",
+        "sha256": "cb6eaf6d54f4a480af386d4063ef92a3f6865ebb88f30953c50df1736f99b452",
+        "bytes": 50490
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n857-rigid-0005.parent.npz",
+        "sha256": "67fd8c1983686400faebdf0c672a1e3945f74dc5bd79437e0d15091775575912",
+        "bytes": 18996
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n857-rigid-0005.out",
+        "sha256": "9debed52fc27bde735e04f9a228eb2e313680ddb93d25512e0238f254e7c7d1d",
+        "bytes": 51433
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n857-rigid-0005.log",
+        "sha256": "6079268cf89b5862ace5ae43bcf8086b867211a1d2bab8b33001c4cf57e298e4",
+        "bytes": 9187
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n857-rigid-0005.stdout",
+        "sha256": "75bbe6c3f2b40ba79aeeeaae09d4422b13db977936d3a9fd5797f5cda10d8fb2",
+        "bytes": 1083
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n857-rigid-0005.stderr",
+        "sha256": "d21e4b7273a55eb53c0c1a36436696a323aff0aad3896e1df5bb6cd0553acdac",
+        "bytes": 8103
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0005-63529d08ffd17182f280a271cb9247c7f76ffda973bbfb7ab75dddde4b44fbfb.npz",
+        "sha256": "62f7a7a2da82b781c3fea0c652e58b1aa0b214acddce51771df88832aadc27c1",
+        "bytes": 12754
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0005-63529d08ffd17182f280a271cb9247c7f76ffda973bbfb7ab75dddde4b44fbfb.json",
+        "sha256": "5847067e8ab09ee09229c53da634b62a258bebeb9fbac1625a453873e7fd054d",
+        "bytes": 8333
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0005-n857.npz",
+        "sha256": "af3e3e7456a62335b5c12f685c6d6c9466f6283420f3cb1889a5816d5d201350",
+        "bytes": 12579
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0005-n857.npz",
+        "sha256": "cf72093e738f38ab2c3c7af6ee8e94da87f4dc2b49bb1a18449235682f2553eb",
+        "bytes": 12596
+      }
+    ]
+  },
+  {
+    "n": 859,
+    "job": 4,
+    "geometry_sha256": "559fe2a09a2ed8e322183f54b75688490bba6a0500f22200f116502345a078f5",
+    "parent_geometry_sha256": "36e720006f91d47628bba6e53e3147515d7b9369f3a69053de5f6ef34ace00f8",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n859-rigid-0004.in",
+        "sha256": "e19a631046f29273e45d3b6208911b32b593e8bd5cf9c788348251c009dcd471",
+        "bytes": 50917
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n859-rigid-0004.parent.npz",
+        "sha256": "8631c9f89ec78d6d446482f42c034a3199b738b77b7fa786246064e093583a86",
+        "bytes": 18929
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n859-rigid-0004.out",
+        "sha256": "4a2bbec7a4139e9ac7beefa7f1092cdf2cad9d6b44ebdec3f7128642e52b166b",
+        "bytes": 51540
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n859-rigid-0004.log",
+        "sha256": "f0bc91d1b95440c4c88e66c0b3bb2c212d497e3aa3e427af974958336f1f49b3",
+        "bytes": 8855
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n859-rigid-0004.stdout",
+        "sha256": "08ab0b054947fa30b815912911c8a5c2fcce0668de224a45001cc69ed344ef34",
+        "bytes": 1239
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n859-rigid-0004.stderr",
+        "sha256": "9b3c77461e942a244f6911dc6ba5911b870ace9370eb707c09cb92d714fe9c16",
+        "bytes": 7615
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0004-559fe2a09a2ed8e322183f54b75688490bba6a0500f22200f116502345a078f5.npz",
+        "sha256": "011c1d0efbc593cf9f54eae67a8065d0c377c3f728f380f1ae4d55fac6c6584a",
+        "bytes": 14915
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0004-559fe2a09a2ed8e322183f54b75688490bba6a0500f22200f116502345a078f5.json",
+        "sha256": "b3b9c082e987f9ca5396eb26be7b8406c36216762a07052b348c9f44ca447d7f",
+        "bytes": 8779
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0004-n859.npz",
+        "sha256": "55e21c8e3292b99f0cf1af46a3b7706611f623b7c885bd0481c664fb46f4f8ac",
+        "bytes": 14709
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0004-n859.npz",
+        "sha256": "b1ea79a0d1b55bea115b0dc13d1118f66615accb1f2444eb22000e6b577b430b",
+        "bytes": 14757
+      }
+    ]
+  },
+  {
+    "n": 862,
+    "job": 13,
+    "geometry_sha256": "ded38249b44a5fddeb7986cf78b8c5933803c2f32504499343cdb5ec53209910",
+    "parent_geometry_sha256": "c7236a9b166943b23e29cafdaed8a5a25c2c3d9d351e445453e9a539d7e2f9ba",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n862-rigid-0013.in",
+        "sha256": "21ab0b701c5a25da8bff7eef06a8d71d7591d4e1636387223a4a93f62d3a57bc",
+        "bytes": 51012
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n862-rigid-0013.parent.npz",
+        "sha256": "9f63318189796a529e9ccde46d8bff8cc0d693566fd0310399a2c852f5e10b8d",
+        "bytes": 18947
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n862-rigid-0013.out",
+        "sha256": "71288da042ba796fe61626e5bfc28c56abd5548bf9fa91b92f4a5caaf62d22bc",
+        "bytes": 51721
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n862-rigid-0013.log",
+        "sha256": "417322a466c37c6e0e0c29421ad65f371f54a39fa872f288a720e100dd83f46a",
+        "bytes": 7700
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n862-rigid-0013.stdout",
+        "sha256": "89741c401f63ec64ef5dfb6ccd7250c8d4cec159ec2e066d7aec0ffb41940e4f",
+        "bytes": 817
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n862-rigid-0013.stderr",
+        "sha256": "00cde2ee00b1e42e8576365d481334f78a421bbc60d76a17f95244878d81ac13",
+        "bytes": 6882
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0013-ded38249b44a5fddeb7986cf78b8c5933803c2f32504499343cdb5ec53209910.npz",
+        "sha256": "f1201e08aca8a0da1eb4b351a54c3ed67bd4e4c7811c9c912ca9d213616d1470",
+        "bytes": 12532
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0013-ded38249b44a5fddeb7986cf78b8c5933803c2f32504499343cdb5ec53209910.json",
+        "sha256": "b45864e7db4784efe19256012916eac56e518598be6cb1600998276b3bedf3a2",
+        "bytes": 7582
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0013-n862.npz",
+        "sha256": "19e9096af268bc6b2ec8053e2590e87fab4faec4ef80db37f70ffc142cfb877e",
+        "bytes": 12319
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0013-n862.npz",
+        "sha256": "a70f6d709267a4452136d2840752c799985930527531e2496cfe610c92b85850",
+        "bytes": 12374
+      }
+    ]
+  },
+  {
+    "n": 864,
+    "job": 16,
+    "geometry_sha256": "96f09515b1c62872faf7293b3b11cfc3b70b8e0c6f1a0a6fd2065ea4c2955b1d",
+    "parent_geometry_sha256": "09746f97636f72421e9038027613f1b5cc303a1063506cba87e19e3835d552cd",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n864-rigid-0016.in",
+        "sha256": "1e4f4156e0d0465d01e6cd643b41184b7fd4454c79bc457d5f9ddaf9dac8799e",
+        "bytes": 51049
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n864-rigid-0016.parent.npz",
+        "sha256": "48fe98f01aed8bb71500c82a075a575cae06600d2155810a1b6272a3a74a6f76",
+        "bytes": 19149
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n864-rigid-0016.out",
+        "sha256": "90697feaeaa718991f20c0aa2a54fb306cde3b3a939f414f4e6be357763fa83e",
+        "bytes": 51849
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n864-rigid-0016.log",
+        "sha256": "61076c32b46cb19dc12a134276b10c39f99f234913e27471c572b88243e16183",
+        "bytes": 8711
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n864-rigid-0016.stdout",
+        "sha256": "3b50a9560ae96f0b2c3fc8722b4efd230a3849291f284d62df7c211eb5816fd8",
+        "bytes": 1083
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n864-rigid-0016.stderr",
+        "sha256": "015da81da28f1bbf518938711c74c086c917a54530c9cb3b42ef6d752c8fd39d",
+        "bytes": 7627
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0016-96f09515b1c62872faf7293b3b11cfc3b70b8e0c6f1a0a6fd2065ea4c2955b1d.npz",
+        "sha256": "0d33584d8d2bf72b3ef89b209a762fc6b296445040a4693a2995099f0593e47f",
+        "bytes": 10040
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0016-96f09515b1c62872faf7293b3b11cfc3b70b8e0c6f1a0a6fd2065ea4c2955b1d.json",
+        "sha256": "62c4727f5ab40b6b36ff0f30cadd5271502b51ce68726f996b0f81c3549c03f8",
+        "bytes": 8316
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0016-n864.npz",
+        "sha256": "66b80d37d033f2550b13120b0dae5a702423f3b32862285064ea218b11776a6a",
+        "bytes": 9916
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0016-n864.npz",
+        "sha256": "4d8317b4b1e76034948bd7c60e1c98966d94f4cc7d0d565add0b4b05f069f1c2",
+        "bytes": 9882
+      }
+    ]
+  },
+  {
+    "n": 868,
+    "job": 20,
+    "geometry_sha256": "bb163a4c5f2b8a6d453bea0fc50e0700e970ca30ab9b5e399da1371ea755fcd0",
+    "parent_geometry_sha256": "26cd9682732cabb48b7064451d0fc05cfe5ff0361a63ec76959ecfaf6a79ca80",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n868-rigid-0020.in",
+        "sha256": "3cd68fe287a10ae09485a51da316d16609d8b44b3d5e8af647344aa2277ff2d2",
+        "bytes": 48049
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n868-rigid-0020.parent.npz",
+        "sha256": "d62f574ebc0558e6b213b606a6603d399329fb8b86e537524fa0c42bd173a298",
+        "bytes": 12561
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n868-rigid-0020.out",
+        "sha256": "d2940e6ca5029dac0f39ac68b0e77163ee2d992f2212db99dea07631429c65a2",
+        "bytes": 52067
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n868-rigid-0020.log",
+        "sha256": "99dc9a5c4c94457da5f8f4d0cd2fb49d440a9c10335485246b660750849698d6",
+        "bytes": 7935
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n868-rigid-0020.stdout",
+        "sha256": "5bc95e04367f2805a2cb510e0d5196cc6ec5cd154c788b81f13a5e6b40c3795b",
+        "bytes": 1085
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n868-rigid-0020.stderr",
+        "sha256": "a40a5d1727f70761ed9b98bd88f0b9ccfcb2772b4e1cca51ff5b1bc672f59401",
+        "bytes": 6849
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0020-bb163a4c5f2b8a6d453bea0fc50e0700e970ca30ab9b5e399da1371ea755fcd0.npz",
+        "sha256": "33e6699230825c19337f29e3a0039b12b39a01e2193346e42f08b39153d9063f",
+        "bytes": 15721
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0020-bb163a4c5f2b8a6d453bea0fc50e0700e970ca30ab9b5e399da1371ea755fcd0.json",
+        "sha256": "150a474e76d10534f806798d75ac0dade62444d08fefa0cd36236ae217a51771",
+        "bytes": 8332
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0020-n868.npz",
+        "sha256": "11e6882d8d8062e8c6c9595385811371cf4c279a90d2b9933e1b1ae5ff8c7d1c",
+        "bytes": 15571
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0020-n868.npz",
+        "sha256": "69d5ac6ba458188bf6cc91b9b5f3aa29b950381a15f7124550ccf0dc0c82e9b1",
+        "bytes": 15563
+      }
+    ]
+  },
+  {
+    "n": 873,
+    "job": 8,
+    "geometry_sha256": "474e912fcbfbdc573bf1f88af054850f005d41304f0a5f62585c2c6b19ec4c00",
+    "parent_geometry_sha256": "1a561915ae24db9042f2290a8c926e4e46ad7d01af42bf032be03428d1ca2d60",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n873-rigid-0008.in",
+        "sha256": "2a5e88426e2cf19e6a213f511746c0fb975abf86e767eb9f88d35e0c33cd994e",
+        "bytes": 51721
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n873-rigid-0008.parent.npz",
+        "sha256": "47d77357c29b495b0a990fefd6f40df3affcd342c97aa6c5623e615a6e7e4da3",
+        "bytes": 19181
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n873-rigid-0008.out",
+        "sha256": "ed634d557e30da67899fda114c645f336cb28ef3c7c8066f4a790e58338c969a",
+        "bytes": 52441
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n873-rigid-0008.log",
+        "sha256": "588e2dfa806897f2f26e05999937f967c328f05a1c11b539ce4d6925a073a6ba",
+        "bytes": 5894
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n873-rigid-0008.stdout",
+        "sha256": "70b90cb77f4ac79ebdaca0438c409fa5d0485c8b6a2daae70d1b2344c55ec5bf",
+        "bytes": 710
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n873-rigid-0008.stderr",
+        "sha256": "9ef46cd4e61665ef6a4f499192e986f8125cb7d60495be7c0c17bd127a439ee2",
+        "bytes": 5183
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0008-474e912fcbfbdc573bf1f88af054850f005d41304f0a5f62585c2c6b19ec4c00.npz",
+        "sha256": "4f80dcfcf7e17d1c22b264e61ba28510c9c6b10bdfed059f991094cc7195fc6c",
+        "bytes": 13402
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0008-474e912fcbfbdc573bf1f88af054850f005d41304f0a5f62585c2c6b19ec4c00.json",
+        "sha256": "5a072047542e01a52e65912c62507dd06d82159186bdb8d6186125341b6e93c5",
+        "bytes": 7263
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0008-n873.npz",
+        "sha256": "49c1fd4a8193a86b81e3fc45f5f3ce1e68a4679e9ddc13166fa9e882ac6ec80c",
+        "bytes": 13188
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0008-n873.npz",
+        "sha256": "e4b8319e861ac291649349e1caec9ae1f89eab9986637cfc97c53358992a5937",
+        "bytes": 13244
+      }
+    ]
+  },
+  {
+    "n": 916,
+    "job": 21,
+    "geometry_sha256": "b5ac7ce389fd1cce44f14c394ea4096f60c717309ea921ab67d20f2365ca024b",
+    "parent_geometry_sha256": "444b04c5bcccb53d68656b7296892437bf45a4cd4f3ab6249a1daca00f69a500",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n916-rigid-0021.in",
+        "sha256": "ab5c3cea01cccbede4fde19b64a88a5b88651818c2dc33b04938d0dfd3fbf9ce",
+        "bytes": 54146
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n916-rigid-0021.parent.npz",
+        "sha256": "d6e9cede299a3ee6b12c5fc4c4be199ecac1413a91a7948db4a1903ae30f2fc6",
+        "bytes": 20153
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n916-rigid-0021.out",
+        "sha256": "faf0ef436e269eed42f0d9049ea44c5053803de389c6e0a71e1be818db4d0eff",
+        "bytes": 55040
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n916-rigid-0021.log",
+        "sha256": "b6496734416256097ed264cc108bbace065223cf12ded7d9b22369c2ea9b2472",
+        "bytes": 7582
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n916-rigid-0021.stdout",
+        "sha256": "a186f885ba8ab74b2c2619186ead378a46097bb170c07f0758036aa682843b66",
+        "bytes": 873
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n916-rigid-0021.stderr",
+        "sha256": "7b11acf7cdb93f11ae7d448323c643d1a36de38926eecb47ee3943513dad0552",
+        "bytes": 6708
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0021-b5ac7ce389fd1cce44f14c394ea4096f60c717309ea921ab67d20f2365ca024b.npz",
+        "sha256": "f9d35f2b5c142b9c8511027dc58e6c992b2ba003b712e9cb693a7c06000f7920",
+        "bytes": 14667
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0021-b5ac7ce389fd1cce44f14c394ea4096f60c717309ea921ab67d20f2365ca024b.json",
+        "sha256": "bb4b7a710b8c92b9a7dac82d39afc974e32d17025d6b14ef0b872dc6f469a1f2",
+        "bytes": 7730
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0021-n916.npz",
+        "sha256": "719fcdf5f201784bc6d0ea982ee0d530c9b7e8c39e265ff84c1465de839a40e6",
+        "bytes": 14457
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0021-n916.npz",
+        "sha256": "1a14b30943be887e7b049fc93efcccfdd38b3c4219eed7f5bdf942a538cf8627",
+        "bytes": 14509
+      }
+    ]
+  },
+  {
+    "n": 918,
+    "job": 12,
+    "geometry_sha256": "895d33bd29288f8721b80bce9ea83161a2d146fde6293ec4c6ff00a2d6a5aabf",
+    "parent_geometry_sha256": "4b8460ea669c76c59b3152516cb17261585d1b48000acdcfd0c70d943c7273b0",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n918-rigid-0012.in",
+        "sha256": "07154147b560cdc236fafff393447787b442db144457c1b7a25aa7287e9e11e7",
+        "bytes": 54235
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n918-rigid-0012.parent.npz",
+        "sha256": "de0ee8b8e16f0a4399cc2a0761dca7975dfa66c805a9f6ff5c504f6928017aa7",
+        "bytes": 20099
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n918-rigid-0012.out",
+        "sha256": "f085f7b8534d8c968e5a87155b56859903f0741a0eb7e6fad0d76efff84818d6",
+        "bytes": 55217
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n918-rigid-0012.log",
+        "sha256": "cb2f5d293608dd1aca9e2478fd32002a42c95c58d1f07fbfa5a96232008c2cfa",
+        "bytes": 7895
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n918-rigid-0012.stdout",
+        "sha256": "c21cd7bed61de3f8efdc95df1dc12b9f1083d0971215852402c148d57b151074",
+        "bytes": 875
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n918-rigid-0012.stderr",
+        "sha256": "3abe49f739ac1fd66b061d928e99eb9b16ad99e666ac39dd69637928b84730b8",
+        "bytes": 7019
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0012-895d33bd29288f8721b80bce9ea83161a2d146fde6293ec4c6ff00a2d6a5aabf.npz",
+        "sha256": "dfa2198fbedc4132d23f019209efb05e9fa36f5fd0b05c12605037fc8a6b380e",
+        "bytes": 15018
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0012-895d33bd29288f8721b80bce9ea83161a2d146fde6293ec4c6ff00a2d6a5aabf.json",
+        "sha256": "1874b06d576d9d9796f6bdbeef080e933dac20fdda43276e6edb0564961aec59",
+        "bytes": 7728
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0012-n918.npz",
+        "sha256": "0c09846094d99781c104828bf0faa11561e27f13aef1a7d9edf1c47a5a9189db",
+        "bytes": 14837
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0012-n918.npz",
+        "sha256": "d3f61f86daebfc276c56ec7b7edfd2757af5dc8b620ff2bdcf37d272ba24de29",
+        "bytes": 14860
+      }
+    ]
+  },
+  {
+    "n": 921,
+    "job": 15,
+    "geometry_sha256": "81dddaf0de88f14aadd923aa391c9693cdd5bf936d782ff3df4b3363e0217eed",
+    "parent_geometry_sha256": "571d566f0180c7c618e36d382cf01e6099673f414b19a5548102dfa0a5d04034",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n921-rigid-0015.in",
+        "sha256": "24e7854f5b1f9f074450dc9fbe9d26a194c433a5a25f028f5bc196cb848ddfdd",
+        "bytes": 43001
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n921-rigid-0015.parent.npz",
+        "sha256": "a8731f2ebc6b26a96f81c82a95dcb531c5c52952cb252c3411276f7035b60f62",
+        "bytes": 9089
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n921-rigid-0015.out",
+        "sha256": "cd4e05fb21ee8ad6d915afb9b721531dc7b020efa074297f1423c43661fefbc7",
+        "bytes": 55269
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n921-rigid-0015.log",
+        "sha256": "707476bc538a4b48e30ecdad3f4963a15067b3dfc5961425681bd1dc946cc73d",
+        "bytes": 9190
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n921-rigid-0015.stdout",
+        "sha256": "d816040a89ea70165d7475c0bdbe1f9b1dfe0f66cd7acb3af83ff1a7dee0f8a3",
+        "bytes": 1086
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n921-rigid-0015.stderr",
+        "sha256": "93ea03955b333c12109c30262d53b236824c10ede9418679d888e9ba3ea225d1",
+        "bytes": 8103
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0015-81dddaf0de88f14aadd923aa391c9693cdd5bf936d782ff3df4b3363e0217eed.npz",
+        "sha256": "c5501fc0e6d7b98f70bb45a5e8d33e5fb977af0400323a86f0315de03dbf9058",
+        "bytes": 17641
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0015-81dddaf0de88f14aadd923aa391c9693cdd5bf936d782ff3df4b3363e0217eed.json",
+        "sha256": "50b9d3e278df9ac7ab0fb008ed2b6620f461c9f971940bdb3a9db4e66c62e3ed",
+        "bytes": 8329
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0015-n921.npz",
+        "sha256": "b4a8272892cc23c7df10d4ee25e27f472ac2c9735e7c9043df4561c9f390599c",
+        "bytes": 17481
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0015-n921.npz",
+        "sha256": "82b07ed197caa962e4cc75dcedd29f3c0c0f9e09f7fe880dc3553656601b70e1",
+        "bytes": 17483
+      }
+    ]
+  },
+  {
+    "n": 922,
+    "job": 26,
+    "geometry_sha256": "180cd665c9539eae0cf1f5d5f84eb4e8bc2fb91f7e35edc3117d2c1ffb271f9f",
+    "parent_geometry_sha256": "a35f48b1e03edc5932bc92d3ba4d844730dc743eefb7c36f5e6c2862ef93376c",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n922-rigid-0026.in",
+        "sha256": "55116eb9da485d06dcf53775cd71515a598afea42f484e49aeb79e4fd2dd3172",
+        "bytes": 54391
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n922-rigid-0026.parent.npz",
+        "sha256": "723a6b4282a16f5a92d6298038680a273c28994472955bc8b0a9c4a25c8c9707",
+        "bytes": 19980
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n922-rigid-0026.out",
+        "sha256": "1a06fff6ff2baf9f93f345803b136c87b83d7aa02247ebf123c504d0e57616a9",
+        "bytes": 55445
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n922-rigid-0026.log",
+        "sha256": "cdd8cde47505553b52d91cc574e7ff8b41b088aca4caa3a6921ee1746c78f1af",
+        "bytes": 7839
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n922-rigid-0026.stdout",
+        "sha256": "48388fdc3d2803ebf842f494e663a843c62af5e867ac20e4ec7d449787ee3375",
+        "bytes": 977
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n922-rigid-0026.stderr",
+        "sha256": "6055bbac2532ef69c8dfd54a2d2a7382e0cc185b673b9108e0d729768235663e",
+        "bytes": 6861
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0026-180cd665c9539eae0cf1f5d5f84eb4e8bc2fb91f7e35edc3117d2c1ffb271f9f.npz",
+        "sha256": "b195bb61c692415709a205f4c454fdd7eb85fbe0d4068f2fb4586a6aaaa950e3",
+        "bytes": 14621
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0026-180cd665c9539eae0cf1f5d5f84eb4e8bc2fb91f7e35edc3117d2c1ffb271f9f.json",
+        "sha256": "58c465c94ee725d933ada78c680bc7bcea91025fed8cc08c09296635d3b4341f",
+        "bytes": 8026
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0026-n922.npz",
+        "sha256": "938c99e2b572f6201ac4f994d9cca81cd877140c90dd3db2703b5f4e37176ee1",
+        "bytes": 14449
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0026-n922.npz",
+        "sha256": "991462e454f49213eaab8aeca545c31c9f613e27b937f5c5463988c4910b9b33",
+        "bytes": 14463
+      }
+    ]
+  },
+  {
+    "n": 928,
+    "job": 19,
+    "geometry_sha256": "470560fbb97a57e05d23cc5b515844eabdc8138d6d077fe64f8ec830dd7531af",
+    "parent_geometry_sha256": "cc07176ed55b4c977b79b0a273748b63e72e539abb47d687704a1b13711e555a",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n928-rigid-0019.in",
+        "sha256": "065df7c1d9f4a749e5034f790f9ac17d453c4614aeb67df1f591dbb1c022e35e",
+        "bytes": 54712
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n928-rigid-0019.parent.npz",
+        "sha256": "2128145b0bb9be0e78b4d11b9527f4dcfa44b09211ee8e59f38600554970cc80",
+        "bytes": 20073
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n928-rigid-0019.out",
+        "sha256": "9c0b6225865cff2aa580499cdebb500caa3e7eede2ca1ce3f57287e5c84e5e01",
+        "bytes": 55838
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n928-rigid-0019.log",
+        "sha256": "505da0da3faf5ba6c62396ea7fac9fc2ce0440b2ccb9a5186cea2f7d8fbd11cc",
+        "bytes": 7842
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n928-rigid-0019.stdout",
+        "sha256": "4777016dab66eb08fc29e62c72f36d8848f78ed84b8503d1869070cb551c9024",
+        "bytes": 872
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n928-rigid-0019.stderr",
+        "sha256": "866c00eac637fc5a444d5e89b42124b26f93f46c856f3b92505514785afb39c1",
+        "bytes": 6969
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0019-470560fbb97a57e05d23cc5b515844eabdc8138d6d077fe64f8ec830dd7531af.npz",
+        "sha256": "a45d560e9e1a25c124da368725c12dd291a106b076b8e0d588b81dd63a552883",
+        "bytes": 17069
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0019-470560fbb97a57e05d23cc5b515844eabdc8138d6d077fe64f8ec830dd7531af.json",
+        "sha256": "961ee4995960336eb9ee99773cc940465c128cf1283bf46c7e941a60110f80e1",
+        "bytes": 7773
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0019-n928.npz",
+        "sha256": "80d40c3490da89e1216501fccea96f62db7e950ce73679648a9df99df3b2573d",
+        "bytes": 16895
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0019-n928.npz",
+        "sha256": "a101a92f7dc046f5c7f69a455ae29b90faa9526d6119a5f4a1999e5148cca32d",
+        "bytes": 16911
+      }
+    ]
+  },
+  {
+    "n": 929,
+    "job": 23,
+    "geometry_sha256": "c4c71e603d4b2b87b894e515b053f69a417a8d862df58c930f77e824f3094d79",
+    "parent_geometry_sha256": "50dfc5a86b01e3745fbe979eba007a97ede886c8fcd5cd6a9fa4a89ec363991c",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n929-rigid-0023.in",
+        "sha256": "4f9abf03c9be394de41e6e2a0fa7609b4390301a258e476779f7cbe1f9026ba5",
+        "bytes": 50107
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n929-rigid-0023.parent.npz",
+        "sha256": "6f715ba531dcac8ace7e52b9de71292e23e170cf2894df61661a5aa43bf6a4da",
+        "bytes": 13478
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n929-rigid-0023.out",
+        "sha256": "34ad152dbb423a388bc274db677803aaf24bcbe8d16db90a07cc9bfe895e57ac",
+        "bytes": 55882
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n929-rigid-0023.log",
+        "sha256": "1f2ec3ca14b1017dab3e69616a659b4236139649a5a956cf99d2588c872efce6",
+        "bytes": 7752
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n929-rigid-0023.stdout",
+        "sha256": "18fbe8191438b212aa2a6f3d17ccbcf7a482d468723e57643a496981258c7da1",
+        "bytes": 874
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n929-rigid-0023.stderr",
+        "sha256": "730523f0bfdacffb15e1d436f2ea82dea66fa28a3b6e1705cbf9a117f42d92df",
+        "bytes": 6877
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0023-c4c71e603d4b2b87b894e515b053f69a417a8d862df58c930f77e824f3094d79.npz",
+        "sha256": "5ecef9b3a1524b502a0567d253c953b0c6ce0ecb7db2141519b7bdb567a03f65",
+        "bytes": 17767
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0023-c4c71e603d4b2b87b894e515b053f69a417a8d862df58c930f77e824f3094d79.json",
+        "sha256": "aa4f5c79b31dec10222e83ecef046874fbe5257ae888c22bf0889735e7fa1911",
+        "bytes": 7733
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0023-n929.npz",
+        "sha256": "46480857966448547b2cf767e65d2795705daf9f6a2ccef71982916405d57cd3",
+        "bytes": 17587
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0023-n929.npz",
+        "sha256": "8de3a77385b2b7b709f0748d300c219e00909eedea74e8315834d8a3b645c6a0",
+        "bytes": 17609
+      }
+    ]
+  },
+  {
+    "n": 934,
+    "job": 9,
+    "geometry_sha256": "69e9a170e1abc3dd5bfb77aa96998665c7386b7772e5d522cc0cbd896414cc03",
+    "parent_geometry_sha256": "a4c8304d712869b558c5f8bc42386d5655a29b365a60b7f835b86bdd110fbd13",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n934-rigid-0009.in",
+        "sha256": "967edcc8cca0bf214459680bb6f4b622c2e52b143b81fd49469b7f04f4946810",
+        "bytes": 55126
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n934-rigid-0009.parent.npz",
+        "sha256": "5ade0da4b5ab2920ad29fa1ac8525c10e8b62f94f86b53787d3e246787cd3a86",
+        "bytes": 20662
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n934-rigid-0009.out",
+        "sha256": "0e7c82eaab85ead8d9eab55163ddb6f1db79acf2b75ca6537acfb3a5a9a69676",
+        "bytes": 56031
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n934-rigid-0009.log",
+        "sha256": "796ad094e27ecb14998496ddc8942af612914eea662477649168c66193331c34",
+        "bytes": 7799
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n934-rigid-0009.stdout",
+        "sha256": "ce67b07a258340dd3f3149349cf50868aabc29d2f4dec9d9b5890a928ba3e76c",
+        "bytes": 821
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n934-rigid-0009.stderr",
+        "sha256": "74f0141d5109ee560c5bb2377594c85a4468cce6a1f90562ed4d3bc52004ed08",
+        "bytes": 6977
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0009-69e9a170e1abc3dd5bfb77aa96998665c7386b7772e5d522cc0cbd896414cc03.npz",
+        "sha256": "eb6993c155885455089934b965932cb88e5e5e03912fc57936a4ff2ea518d05e",
+        "bytes": 15261
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0009-69e9a170e1abc3dd5bfb77aa96998665c7386b7772e5d522cc0cbd896414cc03.json",
+        "sha256": "34d8ecfb03bd3e3149bc4dbef040b427c9fe418cc3f8d87d352912269d8c5b6c",
+        "bytes": 7577
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0009-n934.npz",
+        "sha256": "d2f3cc5ff81130a59dafc9c1d47b017bfb243abff86b4112f20eed7bde379597",
+        "bytes": 15068
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0009-n934.npz",
+        "sha256": "87c62db235d239677b2c1a55811c59639e957ab0d9e84789cf08ddd0a61538b0",
+        "bytes": 15103
+      }
+    ]
+  },
+  {
+    "n": 981,
+    "job": 24,
+    "geometry_sha256": "e1cdd7a3491d216851ee3b2f959c20158c555849edaf0b579aede82ae91fbe8b",
+    "parent_geometry_sha256": "f7ea0d587edcfe396e11d778d45dd03fae19f56e8b86105de68c7eb09de598ed",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n981-rigid-0024.in",
+        "sha256": "0e7d0f77a6befe3bae93f015dc5e136290924991aaf450d557745ab2236b2b7a",
+        "bytes": 57787
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n981-rigid-0024.parent.npz",
+        "sha256": "d21655a2e220826cb31e2f6779475ab576cb1b06b6b8f5b934a276c0bfd06f46",
+        "bytes": 21372
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n981-rigid-0024.out",
+        "sha256": "9aa8a3b7cab95c1a5379ea553c802b0c35ccb3ae8918be343dc7d88e4582a989",
+        "bytes": 58986
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n981-rigid-0024.log",
+        "sha256": "b56d4e77bf3fbc01b1280fcbebf851f74e54b763a695690ed1ed44164f0d9642",
+        "bytes": 7943
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n981-rigid-0024.stdout",
+        "sha256": "83b7f1d3ce3e0e2c1906a6d95a132929e6f009606fee494df7e9f898aaa02c28",
+        "bytes": 929
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n981-rigid-0024.stderr",
+        "sha256": "c13f5b439b50d76c179fafbd559e9c8ebb142ac5fb8d5dbfabdaf010ae000cf4",
+        "bytes": 7013
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0024-e1cdd7a3491d216851ee3b2f959c20158c555849edaf0b579aede82ae91fbe8b.npz",
+        "sha256": "c201b20bef37b3a24c05b9e1051eca9b920c537174a0de1edd69e27e6d7b7050",
+        "bytes": 17429
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0024-e1cdd7a3491d216851ee3b2f959c20158c555849edaf0b579aede82ae91fbe8b.json",
+        "sha256": "3c975017539847e2309c4086d54482216798996a86d0b2f956fbfc06d1239249",
+        "bytes": 7883
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0024-n981.npz",
+        "sha256": "bab8b6e359202dfd6e108c97d98eae17915ea3c3deb0778b184e8aaf0cc14392",
+        "bytes": 17268
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0024-n981.npz",
+        "sha256": "a0ddf5c74d52110612fbd78c42450dff7d44084448096fb42e95d9abc445fdad",
+        "bytes": 17271
+      }
+    ]
+  },
+  {
+    "n": 997,
+    "job": 6,
+    "geometry_sha256": "6d3536f261812ce601be6005f49dd4e9689f40ca7e68dc88ea754c3c1618485a",
+    "parent_geometry_sha256": "e0bca9deaee37091f878d4bec0e89d788228aadbc18fbc47a12e0ae4718ebb7d",
+    "parent_input_exact": true,
+    "files": [
+      {
+        "path": "native-ancestry/remainder/selected/n997-rigid-0006.in",
+        "sha256": "1c06a99f8fa4ee92eec7b69b4b0d68e9c3437843b61bac82a4436b75afeab1be",
+        "bytes": 59006
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n997-rigid-0006.parent.npz",
+        "sha256": "e002466147465ab720834b750c865609cbb8103e6d24baa98cbec57460f78c15",
+        "bytes": 21214
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n997-rigid-0006.out",
+        "sha256": "39288656eba296474d6506a043e96362f14a5aaed871b6dbed68c5064a314c91",
+        "bytes": 59875
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n997-rigid-0006.log",
+        "sha256": "ec3792a5f307d101499e41cd3b7584aa0d6ee3468dac6635986de7e455d1988b",
+        "bytes": 9298
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n997-rigid-0006.stdout",
+        "sha256": "ef77436b686b4048d5b372a6416e49f83dffce6a18edee85de118ab54e13c892",
+        "bytes": 1086
+      },
+      {
+        "path": "native-ancestry/remainder/selected/n997-rigid-0006.stderr",
+        "sha256": "2ea54485ca7998e05d5a0313443728070f9273725c084320cb9ff87a25ec5bf8",
+        "bytes": 8211
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0006-6d3536f261812ce601be6005f49dd4e9689f40ca7e68dc88ea754c3c1618485a.npz",
+        "sha256": "1ad8730320e78d0f9c3fef8db9cbd5f68680bf830804c82aa0a470561da23d9a",
+        "bytes": 15704
+      },
+      {
+        "path": "native-ancestry/remainder/selected/0006-6d3536f261812ce601be6005f49dd4e9689f40ca7e68dc88ea754c3c1618485a.json",
+        "sha256": "129e000f6b5022b8a1caea4a23214accb9171b59367c96de916e596b8c0e1290",
+        "bytes": 8331
+      },
+      {
+        "path": "native-ancestry/remainder/raw_returned/0006-n997.npz",
+        "sha256": "d8439897661d959a5c69aa37b4f5ffcefe2cf5f5586f3418cbba70d5e9bea209",
+        "bytes": 15532
+      },
+      {
+        "path": "native-ancestry/remainder/decoded_returned/0006-n997.npz",
+        "sha256": "5b2acdf1498dd7997dbd7ba3a8c2239d4c416b641819ba1c74b72fdeed6ab6f5",
+        "bytes": 15546
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "ref": "sos54352/squares-portfolio-680e332bc6bc-incremental",
+  "version": 1,
+  "status": "RUNNING",
+  "source_sha256": "7a3962c266aa030da426faf0a31ebf3bec4294a63d6d45c9680304c63730ba8f",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "competition_sources": [
+    "squares-in-squares"
+  ],
+  "kernel_sources": [
+    "sos54352/squares-portfolio-b84f2ff20f3e-incremental"
+  ],
+  "server_timeout_seconds": 180,
+  "verified_at": "2026-10-24T14:36:21.205433+00:00",
+  "competition_submission_performed": false
+}

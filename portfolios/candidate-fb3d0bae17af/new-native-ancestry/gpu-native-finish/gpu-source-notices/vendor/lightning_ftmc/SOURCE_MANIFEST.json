@@ -1,0 +1,29 @@
+{
+  "source": "lightningv08/squares-in-squares-cuda-packing-search",
+  "version": 21,
+  "retrieved": "2026-10-24",
+  "api_response_sha256": "8c311aa18b7972ca8e8e36489baffa582eced3fd1d310a65ad987f3e1391f609",
+  "files": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "NOTICE": "566c63f4cceeb86801e490cb5ee3d4589f36f4f6ee9d5f369723d8b6b8b6882c",
+    "gpu_adaptive_seams.py": "ab6802c4ee4b290662a4a7c5d8ba4794babf41793b19b70dc1eb80be7b954c32",
+    "gpu_families.py": "df4f37b43ca3aae13cd0329f5d20356811f9adf7c685af7d706f00e0502d8545",
+    "gpu_fault_composition.py": "d658274c60beaf0df8129054328ad676adc1215b32a843b21ecf27a17ab89785",
+    "gpu_ftmc_refill.py": "ea6a1487285c43e822066a95abe336d09556eed9e80296d6a2366ee03450560c",
+    "gpu_rect_explore.py": "2ca2a9586c9d758a66527c44fe68e34cd8f6e33f1216979f959b40597b0c71c4",
+    "gpu_rect_optimizer.py": "1e9214275e5ee750ad3b880813d42679f4b22674a5f927af568bce99e5567a7b",
+    "gpu_seam_profiles.py": "0319053b7608a02a9bec21a2cb5ba022f05cd04f3a7c7ce4d2e4cdce0051ec2c",
+    "gpu_topology.py": "93e352b406e100d6ae2a5eb2f8dc4dfa77df3a84da7cd92d6bb0fa990a700eb7",
+    "gpu_upright_rows.py": "7560511e30411dcd09c508b0783b66a19a493a39f2a40954181c089ecd46330c",
+    "hybrid_search.py": "1215d276fa6b638c002bd6c1005646f29c032c8ae3e1fe4cc657499708b0339c",
+    "night_campaign.py": "3bed150b354d676688bdc0f7747f20af95d01d55c998233dc3e8f82991b83e87",
+    "packing_pipeline.py": "b484c774f27724f4c75da950047e61347c0d14df0279ad04cb46d770e628f4f4",
+    "research/official_metric.py": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+    "research/top1-refresh/admit.py": "6b9aea97bddd3ea3f9673f9bb0ba619e59c33eb3fbcf57fec932aca92bf6b571",
+    "research/top1-refresh/kirill_sources/SOURCE_NOTICES.md": "c1e6c9f913f3a2d90e9e5754a3861fc056ab786b607fc2ec12df32f798d5693f",
+    "research/top1-refresh/kirill_sources/packing_geometry.py": "dd8efb81a9483d8340c7c065a39e3249315bea1c4212be6af74d3fb745f3ed98",
+    "research/validate_candidate.py": "9c473292c5b08993c5c67aa7cfdbe962689ca3c9407d5341754269b2cb9faf7f",
+    "solver.py": "923ce87cf1c4b2a7fc43e10220b1ef2ce4be02afdf52733a498641061b12f250",
+    "upright_refill.py": "2ca7759245c7eb65142319fd70c3c1323e2cbe6c9793f16d131fa6f01e7f79fd"
+  }
+}

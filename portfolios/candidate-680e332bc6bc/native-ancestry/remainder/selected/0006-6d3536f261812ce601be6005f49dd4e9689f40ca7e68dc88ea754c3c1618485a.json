@@ -1,0 +1,279 @@
+{
+  "record": {
+    "n": 997,
+    "job": 6,
+    "mode": "rigid_current",
+    "category": "unchanged_parent_timeout_remainder",
+    "same_parent_timeout_control": true,
+    "original_job": 117,
+    "original_seed": 9610117,
+    "legacy_history": "Same original10s parent/seed",
+    "parent_geometry_sha256": "e0bca9deaee37091f878d4bec0e89d788228aadbc18fbc47a12e0ae4718ebb7d",
+    "canonical_raw_side": "31.99517835407059016637728408214522161922953123545724",
+    "native_seconds_cap": 30.0,
+    "certificate_seconds_cap": 6.0,
+    "parent_archive_sha256": "e002466147465ab720834b750c865609cbb8103e6d24baa98cbec57460f78c15",
+    "input_sha256": "1c06a99f8fa4ee92eec7b69b4b0d68e9c3437843b61bac82a4436b75afeab1be",
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-timeout-remainder-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-timeout-remainder-v1/trials/n997-rigid-0006.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-timeout-remainder-v1/trials/n997-rigid-0006.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9610117",
+      "--loosen",
+      "1",
+      "--outer",
+      "45",
+      "--pit",
+      "20",
+      "--flip-top",
+      "0",
+      "--v"
+    ],
+    "command_sha256": "d7bb2c8e97e7ec2db8adecb320e9e2cc591fab07fe5b58b972dc4acba834c489",
+    "returncode": 0,
+    "native_status": "returned",
+    "native_seconds": 16.987192535998474,
+    "stdout_sha256": "ef77436b686b4048d5b372a6416e49f83dffce6a18edee85de118ab54e13c892",
+    "stderr_sha256": "2ea54485ca7998e05d5a0313443728070f9273725c084320cb9ff87a25ec5bf8",
+    "log_sha256": "ec3792a5f307d101499e41cd3b7584aa0d6ee3468dac6635986de7e455d1988b",
+    "trace_phase_counts": {
+      "outer": 45,
+      "slp": 20,
+      "trust_region": 20
+    },
+    "last_phase_lines": [
+      "tr 18 R 1.00e-3 pred 1.28e-6 rho0 -8.40e1 rho -4.725 wmax 1.00 s 31.9942883333064 acc false",
+      "  slp 18: R 1.0e-3 s 31.9942883333064 pred 1.28e-6 rho -4.73",
+      "tr 19 R 2.50e-4 pred 4.04e-7 rho0 -1.41e1 rho 0.242 wmax 1.00 s 31.9942883333064 acc true",
+      "  slp 19: R 2.5e-4 s 31.9942883333064 pred 4.04e-7 rho 0.24",
+      "tr 20 R 2.50e-4 pred 5.72e-7 rho0 -9.67e0 rho 0.968 wmax 1.00 s 31.9942880291757 acc true",
+      "  slp 20: R 2.5e-4 s 31.9942880291757 pred 5.72e-7 rho 0.97"
+    ],
+    "fq": {
+      "s": 31.99428775819763,
+      "s_alm": 31.994287742721575,
+      "viol": 1.18e-05,
+      "evals": 7163,
+      "outer": 45,
+      "slp_it": 20,
+      "slp_r": 0.0005,
+      "flips": 0,
+      "min_gap": 2.42e-10,
+      "min_wall": 2.42e-10,
+      "sec": 16.971,
+      "s_coarse": 31.995585679995138,
+      "t_alm": 3.44,
+      "s_alm0": 31.994316802741377,
+      "trace": [
+        [
+          1,
+          0.3558,
+          31.994412285195132,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          2,
+          1.1227,
+          31.99430674001405,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          4,
+          2.8535,
+          31.99430235251233,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          5,
+          3.5257,
+          31.994296361915026,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          7,
+          4.5138,
+          31.994294352626827,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          9,
+          5.433,
+          31.99429402938905,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          10,
+          5.9724,
+          31.994293475821024,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          11,
+          6.5532,
+          31.994292665524604,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          13,
+          7.8433,
+          31.99429192878763,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          14,
+          8.4322,
+          31.994290991001193,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          15,
+          9.1337,
+          31.99429070666329,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          17,
+          10.4074,
+          31.994288457853337,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          19,
+          12.1186,
+          31.99428832977488,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          20,
+          13.1768,
+          31.99428775436344,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "b946f7695b6aa77b",
+      "ncontacts": 2668,
+      "fin": []
+    },
+    "native_output_path": "/workspace/squares_in_squares/artifacts/fq-timeout-remainder-v1/trials/n997-rigid-0006.out",
+    "native_output_sha256": "39288656eba296474d6506a043e96362f14a5aaed871b6dbed68c5064a314c91",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-timeout-remainder-v1/raw-returned/0006-n997.npz",
+      "sha256": "d8439897661d959a5c69aa37b4f5ffcefe2cf5f5586f3418cbba70d5e9bea209",
+      "geometry_sha256": "19b103f903c1645aedc84277165366a30b30d9f236348a392207aa8217f0111c",
+      "verified": false
+    },
+    "status": "certified",
+    "decoded_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-timeout-remainder-v1/decoded/0006-n997.npz",
+      "sha256": "5b2acdf1498dd7997dbd7ba3a8c2239d4c416b641819ba1c74b72fdeed6ab6f5",
+      "geometry_sha256": "6d3536f261812ce601be6005f49dd4e9689f40ca7e68dc88ea754c3c1618485a"
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "31.99428781220315059923132169129222855172045289686783",
+        "roundtrip_side": "31.99428781220315059923132169129446855172045295022291",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "31.99428781220315056923132169129510201328653753622323",
+      "independent_raw": {
+        "n": 997,
+        "valid": true,
+        "side_lower": "31.994287812203150599231321691292228551720452896867768614487180",
+        "side_upper": "31.994287812203150599231321691292228551720452896867896907193265",
+        "score_lower": "0.013269261548621601933650579339012710599500430185092519620092",
+        "score_upper": "0.013269261548621601933650579339012710599500430185100537914224",
+        "interval_pairs": 1164,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 997,
+        "valid": true,
+        "side_lower": "31.994287812203150569231321691295102013286537536223138048221110",
+        "side_upper": "31.994287812203150569231321691295102013286537536223266340927196",
+        "score_lower": "0.013269261548621600983541046509799154770632942803769043004466",
+        "score_upper": "0.013269261548621600983541046509799154770632942803777061298597",
+        "interval_pairs": 1164,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "b9728dc8c05cb949e262a745cc1ec1f4eee6fbb9128ad445bdaf3f386f46f96a",
+      "ordinary_pandas_csv_sha256": "a05d856ac69328260563cf8a84857080971eb76dd88acd8168312f6b01a180f5"
+    },
+    "geometry_sha256": "6d3536f261812ce601be6005f49dd4e9689f40ca7e68dc88ea754c3c1618485a",
+    "archive_key": "997__current_rigid_6d3536f261812ce601be6005f49dd4e9689f40ca7e68dc88ea754c3c1618485a",
+    "side": "31.994287812203150599231321691292228551720452896867896907193265",
+    "side_gain": "0.0008905418674395671459623908530",
+    "score_gain": 2.8203743921264787e-05,
+    "retained_archive": "/workspace/squares_in_squares/artifacts/fq-timeout-remainder-v1/retained/0006-6d3536f261812ce601be6005f49dd4e9689f40ca7e68dc88ea754c3c1618485a.npz",
+    "retained_archive_sha256": "1ad8730320e78d0f9c3fef8db9cbd5f68680bf830804c82aa0a470561da23d9a"
+  },
+  "archive_sha256": "1ad8730320e78d0f9c3fef8db9cbd5f68680bf830804c82aa0a470561da23d9a"
+}

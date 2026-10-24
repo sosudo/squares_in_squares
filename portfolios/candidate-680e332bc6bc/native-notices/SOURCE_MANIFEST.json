@@ -1,0 +1,34 @@
+{
+  "repository": "https://github.com/evand/square-packing",
+  "commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+  "files": [
+    {
+      "upstream_path": "LICENSE",
+      "local_path": "LICENSE",
+      "sha256": "c51886c0f7e6724a7d89fc22cb237a1688ba1bbff04cb21a13b8e1a01fb15578"
+    },
+    {
+      "upstream_path": "search/packer/src/fq.rs",
+      "local_path": "src/fq.rs",
+      "sha256": "7045e9feff2d4b433053e4610258ca43d842e599fccf31d8b6b042276c2905c2"
+    },
+    {
+      "upstream_path": "search/packer/src/ldl.rs",
+      "local_path": "src/ldl.rs",
+      "sha256": "0d63b4adbf63f341dab62a1c5f61277e3f7d5af545e57460daf84525d12359ec"
+    },
+    {
+      "upstream_path": "search/packer/src/lpipm.rs",
+      "local_path": "src/lpipm.rs",
+      "sha256": "823e8bc365f482265da9c71b748885caa03f1cc9d1971c69fa229d92cd52a3de"
+    },
+    {
+      "upstream_path": "search/packer/Cargo.lock",
+      "local_path": "Cargo.lock",
+      "sha256": "48f5bc75c1d3df4044b62408b9f64af0b7c4f3a2e8083a423093793cb40bd0cb"
+    }
+  ],
+  "original_cargo_toml_sha256": "f5e0b69c38150bb0fbaf52f638dfceffdc182121eca4731dd0203303d5e050dd",
+  "local_manifest_note": "Only the fq binary and its dependencies/profile are retained; unrelated binaries and debug symbols omitted. Rust sources and dependency lock are unchanged.",
+  "license": "MIT, copyright2026 Evan Daniel"
+}

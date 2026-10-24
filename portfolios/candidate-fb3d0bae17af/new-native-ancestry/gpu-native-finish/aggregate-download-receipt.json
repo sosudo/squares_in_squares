@@ -1,0 +1,196 @@
+{
+  "notebook": "sos54352/squares-paired-restart-hop-453-693",
+  "version": 1,
+  "source_sha256": "d350aebf10c9bcd07eab3088fd33778cb2e9b55e114eb95bbf0b51a9883f070f",
+  "status": "complete",
+  "files": {
+    "supervisor-summary.json": {
+      "sha256": "ddeee9ce29222897c6e813fff72f31f56abc1b593ae32a1354358d04eeddfa9a",
+      "bytes": 89809,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "pilot-summary.json": {
+      "sha256": "82b43c729a00840c27f782f2d8f3dad7297514273b603a130b342ec365a9ec5b",
+      "bytes": 85185,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "worker.log": {
+      "sha256": "801cb292a6284624c0cb428cac46ef7a1ff52bbd465560244212d74773aeb471",
+      "bytes": 58021,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "job_manifest.json": {
+      "sha256": "4fcafa8e7a068121984cbb5942b5e1ebe1b2d7bfbd09ab4ee43db0904c796dc1",
+      "bytes": 21161,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "restart-config.json": {
+      "sha256": "f038eb4ae0af7e6b1c21ee176024a19b21b3a128156d9d1a2adab20e648b8c65",
+      "bytes": 1354,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-453/case-config.json": {
+      "sha256": "3d189deb69c27ddd0b13c7c863da7d1390f564e2c66a935cb331a5fe34a6212a",
+      "bytes": 368,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-453/hop-config.json": {
+      "sha256": "eaa874ce8313808eb053065c24b8c8b5b703e082231a965863e3c747b0d1d9a3",
+      "bytes": 98,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-453/chain-design.json": {
+      "sha256": "706af908569c738609fc371fa1f6b52431dc9437cdb1e01c9102dc07841801ab",
+      "bytes": 6661,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-453/preflight.json": {
+      "sha256": "1dbcad3db6b753418798292050e007826c55860664185b41ea80cdd5359e4331",
+      "bytes": 4729,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-453/hop-status.json": {
+      "sha256": "b035dff82bfbc42623023d73b864c192073de8746a713de1c7c0255d5c9f14ef",
+      "bytes": 12893,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-453/hop-events.jsonl": {
+      "sha256": "f206d83572b89e285b71930646833136e444f6b7ddd11d8ce941b4822007d239",
+      "bytes": 12528064,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-453/raw-index.json": {
+      "sha256": "21195a34cc05ebef61872f1a1562b04c5e0a1a4e083baa3c5e4a5010bedc6a23",
+      "bytes": 95701,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-453/final-current-best.npz": {
+      "sha256": "29e66c76bed177de3c5cf15ef5b954d3956d0c3e2dffd201cb595d512f3a33fe",
+      "bytes": 697870,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-453/recovery.json": {
+      "sha256": "e867092a447adb8b854f9440d4932bb581e0fbbc00f195d5de04fd3d64e4b631",
+      "bytes": 684,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-453/finish-summary.json": {
+      "sha256": "623a64c86fe71e59fece2728b225a23798e61b2ddc157448e2566e3806e8418f",
+      "bytes": 24279,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-453/finish/manifest.json": {
+      "sha256": "5665ca0750a050890085e218c64f36a5f9c2ed1311ef480e561823d3e466dea0",
+      "bytes": 4253,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-453/finish/results.json": {
+      "sha256": "a5668e86e0ac384ba09dd237eea38a28c11d32efe07fb5404ea31ddfb4ecbffe",
+      "bytes": 22247,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-453/finish/summary.json": {
+      "sha256": "623a64c86fe71e59fece2728b225a23798e61b2ddc157448e2566e3806e8418f",
+      "bytes": 24279,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-453/finish/certified.npz": {
+      "sha256": "09bb71b7e69a00cc7ba2b2a1db43423dadf7c80d59eb7f6f3b55ccf191fa0ff8",
+      "bytes": 29578,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-453/preflight.log": {
+      "sha256": "16e7ad1470a6f591d3247c9ed52fb087ea488efc5790407c09f6505633b8b7c0",
+      "bytes": 3349,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-453/finish.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/case-config.json": {
+      "sha256": "6a4cbcdc6465da34f81d13a84df959b1356477d8c4824285700240124528ab99",
+      "bytes": 368,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/hop-config.json": {
+      "sha256": "7ba378e3465caf49cd8b7f4f876a6addf546dbabbff14710a8a1ef7123389f1e",
+      "bytes": 98,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/chain-design.json": {
+      "sha256": "fad1b2eae0b1519f1c2afe37ec030d42fd984a4776b0eb38881e7a5989bb2a9b",
+      "bytes": 6661,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/preflight.json": {
+      "sha256": "9cd6610045457189ee296127f40198c3c2d0a38302fe30f1815c838cba8a15fd",
+      "bytes": 4749,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/hop-status.json": {
+      "sha256": "87f0b8efea17e3889f4607cd7eb1292432538e2b31f22c166bcc79a8ca81fe7f",
+      "bytes": 12867,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/hop-events.jsonl": {
+      "sha256": "3c486876a4f7a0ab7b27fd82fbe917765fc8ba7b28b7d9e64ca27beccac9496a",
+      "bytes": 9280669,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/raw-index.json": {
+      "sha256": "a7cfa48e0a15c6baa2bfccbbea8b3a889a4c327f500ef680f516b691f7ca3d68",
+      "bytes": 70086,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/final-current-best.npz": {
+      "sha256": "55d3a2d43bd2fcf513e061bb6374234697333709a3b6dca605ca703334338cf3",
+      "bytes": 1066510,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/recovery.json": {
+      "sha256": "ba9890401f5fb6521cd1a255575149e812c077532e1eba1bb637ca811417298e",
+      "bytes": 684,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish-summary.json": {
+      "sha256": "5fe4ee092075816f2c442d3a35f55b721c0322756b58a756ddc2f08337bdb248",
+      "bytes": 9848,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/manifest.json": {
+      "sha256": "77ef8d92644544453d47801d807686b0569cffe4c6c61cba7889383f226b4d12",
+      "bytes": 4254,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/results.json": {
+      "sha256": "b0949d898a770438b5fe5f527140e4748c5a3a8cfef64916b740a888f9479a58",
+      "bytes": 8508,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/summary.json": {
+      "sha256": "5fe4ee092075816f2c442d3a35f55b721c0322756b58a756ddc2f08337bdb248",
+      "bytes": 9848,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/certified.npz": {
+      "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+      "bytes": 22,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/preflight.log": {
+      "sha256": "27e3e81cef2b2c243287a732760d62c7e0c2eb1dca2fd76f0f3a37c6ad5eea79",
+      "bytes": 3369,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "redirect_host": "www.kaggleusercontent.com"
+    }
+  },
+  "private_source_verified": true,
+  "enable_gpu": true,
+  "elapsed_seconds": 27.5175052889972
+}

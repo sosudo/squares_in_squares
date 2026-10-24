@@ -1,0 +1,15 @@
+{
+  "status": "all_winning_cases_pass",
+  "puzzles": 18,
+  "valid_count": 18,
+  "raw_score_gain": 0.0002454283899011589,
+  "baseline_sha256": "a5086672035b695a9a67ebd551a1e595161d3a88436d9f27abd41835564cb0f0",
+  "candidate_json_sha256": "9ecab2750dd49159d3a27190f694924853f965ad43a5e1ce9e1f341753fb4323",
+  "raw_csv_sha256": "c4a062459b0fd57398ebf9f1fd084af01845719865b843722f9c286ee91c38ec",
+  "numeric_csv_sha256": "7959e24a002448a36d030df59326caa912b46b28ce0b4bbbc72a2f3afc5e1caf",
+  "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "official_case_report_sha256": "1eab2e9662ad9995461d89db1ad344a0e2e06f854afe2aab894d6a554af4f069",
+  "source_sha256": "396feaab6d9abe16d90c289f23079c1446f45d6fbf7b35944b19316b38913b80",
+  "seconds": 17.216392580998217,
+  "scope": "Only the18 changed whole cases; full merged portfolio/safe transport remains root-owned."
+}

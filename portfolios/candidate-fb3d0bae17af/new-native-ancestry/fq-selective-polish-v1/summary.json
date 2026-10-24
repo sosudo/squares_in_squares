@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "seconds": 118.06204076400172,
+  "trials": 6,
+  "queue_count": 6,
+  "certified_geometries": 3,
+  "improved_cases": 3,
+  "score_gain": 1.2992455971551214e-05,
+  "candidates_sha256": "011f8b798a76017472ff6d7fa7bc77fe35a4c3e4bd92876580ad8efbc1e0ff0a",
+  "results_sha256": "8126da637c5bba8b638c015545909df00ba30af7990937a3dbf00307bdf49960",
+  "manifest_sha256": "9461f1fb7967c7f2cb9c9cb19936d649314c15af1b386565c82723e1246953c8",
+  "source_hashes_unchanged": true
+}

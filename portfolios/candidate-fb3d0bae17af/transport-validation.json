@@ -1,0 +1,128 @@
+{
+  "schema_version": 2,
+  "purpose": "Certified current search baseline; submission requires SAFE and ordinary roundtrip scores below22.3 plus strict improvement and hourly policy.",
+  "user_submission_score_threshold": 22.3,
+  "eligible_under_user_score_threshold": true,
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "competition_submission_performed": false,
+  "baseline_role": "Immediately preceding certified portfolio",
+  "baseline_sha256": "680e332bc6bc5bb7d741505b9460ca18fb410ce11929342e67fb2262b20a2d74",
+  "baseline_score": 22.298021385704345,
+  "gain_over_previous_baseline": 5.326313799258742e-05,
+  "roundtrip_gain_over_previous_baseline": 5.326313799258742e-05,
+  "strictly_better_raw_and_roundtrip": true,
+  "factor": "1.00000000001",
+  "safety_scaled_cases": 68,
+  "transform_report": "/workspace/squares_in_squares/artifacts/submission-fq-gpu-polish-final-v1-safe.transport-transform.json",
+  "transform_report_sha256": "95a971a9c7b62404989e8d2e115bcf94bac72a1d377d19b73f5d61dea19586b7",
+  "composition_merge_provenance": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-gpu-polish-final-v1.validation.json",
+    "sha256": "cc540b55cc1995b7bd35f54a5b16dfd545b78cd0db43df3b7c9ddcf28ff9a4f8"
+  },
+  "case_score_changes": [
+    {
+      "n": 693,
+      "gain": 3.808451614140118e-05,
+      "old_side": "26.81494927182315432988595358159292954069683435533689",
+      "new_side": "26.81394670100459218435788941189841480950460939733638"
+    },
+    {
+      "n": 761,
+      "gain": 7.318503978837043e-06,
+      "old_side": "27.99847533792380831588974175500837720999496978720862",
+      "new_side": "27.99827344800114586385303613204348804575126714729386"
+    },
+    {
+      "n": 868,
+      "gain": 5.651485331936712e-06,
+      "old_side": "29.90826300900095386875359230618473371707712642837201",
+      "new_side": "29.90809650584589943635993498415513421103366856594930"
+    },
+    {
+      "n": 920,
+      "gain": 2.246666075400583e-08,
+      "old_side": "30.80848338980294736516084558508891495162097465869251",
+      "new_side": "30.80848270835538386581934957363573518873833056810592"
+    },
+    {
+      "n": 981,
+      "gain": 2.306987525457771e-07,
+      "old_side": "31.79745232556870626080682209515650234587146649200311",
+      "new_side": "31.79744509987164206542193978528014890554453145711533"
+    },
+    {
+      "n": 995,
+      "gain": 1.955467126446564e-06,
+      "old_side": "31.96393521954160238155669067033092550151572091271724",
+      "new_side": "31.96387353702848961530633326863652926919960015914036"
+    }
+  ],
+  "candidate_inputs": [
+    {
+      "path": "/workspace/squares_in_squares/artifacts/fq-selective-polish-v1/complete/candidates.json",
+      "sha256": "011f8b798a76017472ff6d7fa7bc77fe35a4c3e4bd92876580ad8efbc1e0ff0a"
+    },
+    {
+      "path": "/workspace/squares_in_squares/artifacts/fq-selective-polish-completion-v1/complete/candidates.json",
+      "sha256": "7e7bedbcc133fea40f685d9f608468f8adf53872eff1407e1942eae4c6b18acf"
+    },
+    {
+      "path": "/workspace/squares_in_squares/artifacts/fq-restart-hop-n693-long-finish-v1/candidates.json",
+      "sha256": "eb62b7cbafdeb2ad0197645931b8096f1d6420106f41d7bc0f7ffa3f8f6cff3e"
+    }
+  ],
+  "raw_source": "/workspace/squares_in_squares/artifacts/merged-fq-gpu-polish-final-v1.csv",
+  "raw_sha256": "28feb2d3059e33db0189aa46c2bdb5f1a0f0c0aa35fb0f2003181595491ba6a3",
+  "raw_score": 22.297968121901246,
+  "raw_official_report_sha256": "88e2979daf4f09503bc01a15748f0efabf82285dc66c3bc06892179d7337611f",
+  "raw_invalid_count": 0,
+  "raw_case_coverage": 1000,
+  "raw_reuse": {
+    "reused": 994,
+    "evaluated": 6
+  },
+  "raw_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/merged-fq-timeout-all-v1-official.json",
+    "report_sha256": "a9142149b4a03b365545227e63dd8f5bb2992a74ec8b0d96f75a2821d89e3dd7",
+    "submission": "/workspace/squares_in_squares/artifacts/merged-fq-timeout-all-v1.csv",
+    "sha256": "add7c0ee1599b97bb229f279dd0ee927c502ad6710940faccd92dca7c7658a53"
+  },
+  "safe_submission": "/workspace/squares_in_squares/artifacts/submission-fq-gpu-polish-final-v1-safe.csv",
+  "safe_sha256": "fb3d0bae17af84aa941cdc2ad9f8db942b1f2bd2940d063d79d6e1a28c350e8d",
+  "safe_score": 22.297968122566353,
+  "safe_official_report_sha256": "35a41212d5ba478b8049816bcdb95046147eb81f3de93c87e4471bd8b9e1627b",
+  "safe_invalid_count": 0,
+  "safe_case_coverage": 1000,
+  "safe_reuse": {
+    "reused": 994,
+    "evaluated": 6
+  },
+  "safe_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-fq-timeout-all-v1-safe-official.json",
+    "report_sha256": "558427933ed9977b098f7378187ba64363b9a8d33a9d1da276b5951f0c83d326",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-fq-timeout-all-v1-safe.csv",
+    "sha256": "680e332bc6bc5bb7d741505b9460ca18fb410ce11929342e67fb2262b20a2d74"
+  },
+  "roundtrip_submission": "/workspace/squares_in_squares/artifacts/submission-fq-gpu-polish-final-v1-safe-roundtrip.csv",
+  "roundtrip_sha256": "df2403cfe0c1e0505eac7d03cbed07e5cba1b8278df52f3016e32d5b800f7d2e",
+  "roundtrip_score": 22.297968122566353,
+  "roundtrip_official_report_sha256": "7c9a3e9b2277d3b88e7664d998a4078c9a1b9bfd2d729fa01b74a00ddfad0bc3",
+  "roundtrip_invalid_count": 0,
+  "roundtrip_case_coverage": 1000,
+  "roundtrip_reuse": {
+    "reused": 994,
+    "evaluated": 6
+  },
+  "roundtrip_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-fq-timeout-all-v1-safe-roundtrip-official.json",
+    "report_sha256": "9ccd5fbeaaaf1307f72643cfd13032a15b5a15c71eb2a42d2223a9c1f3f6970d",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-fq-timeout-all-v1-safe-roundtrip.csv",
+    "sha256": "4eae293bd91357e69d094859d0ddd06cb49cb7c5ac7f0d05bf6bbfe4b3bab882"
+  },
+  "roundtrip_evaluated": 6,
+  "roundtrip_reused": 994,
+  "same_binary64_score": true,
+  "absolute_score_difference": 0.0,
+  "score_tolerance": 1e-10,
+  "scores_agree_within_1e_10": true
+}

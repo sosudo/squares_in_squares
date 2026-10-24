@@ -1,0 +1,131 @@
+{
+  "notebook": "sos54352/squares-paired-restart-hop-453-693",
+  "version": 1,
+  "source_sha256": "d350aebf10c9bcd07eab3088fd33778cb2e9b55e114eb95bbf0b51a9883f070f",
+  "status": "complete",
+  "files": {
+    "case-693/finish/slot-00-control-0.selected.npz": {
+      "sha256": "f680e5a716ec4c1586b7944b43044cb36ca50897bb9b2990f264bd5f52a2ed9a",
+      "bytes": 14720,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-00-control-0.in": {
+      "sha256": "48f5b93209cb5ae3574b80c563ce2f452161414421fc913ea1909c052d156285",
+      "bytes": 39812,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-00-control-0.stdout": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-00-control-0.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-00-control-0.log": {
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-00-control-0.record.json": {
+      "sha256": "9ecee0959a2549469d9fc91986f2ae51efc1364b84b274f986248768e2953615",
+      "bytes": 1999,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-01-reset-0.selected.npz": {
+      "sha256": "6b29e481fe5d6edf5080e35dbc934db9a805deba9b87fc6169f385a03b292b60",
+      "bytes": 14803,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-01-reset-0.in": {
+      "sha256": "06915b20645a0558530528859f17cbb970b57eae5eb8830e90476cae6169470c",
+      "bytes": 39894,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-01-reset-0.stdout": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-01-reset-0.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-01-reset-0.log": {
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-01-reset-0.record.json": {
+      "sha256": "169cae9b429ffeb9df028739f1a797ec3ce0ed40f4c2adc7739054693b361cde",
+      "bytes": 1991,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-02-control-0.selected.npz": {
+      "sha256": "12b864da18e7d009685f070c39a6058960dfac51e37ef8ba432f195da5186938",
+      "bytes": 14791,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-02-control-0.in": {
+      "sha256": "42a07d175c88191b023bae02cd1a0bcf7a605b64796f81099e1ade62b7208ba5",
+      "bytes": 39838,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-02-control-0.stdout": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-02-control-0.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-02-control-0.log": {
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-02-control-0.record.json": {
+      "sha256": "225fa27595809826f7b6a3648dd9884a9117a98b4db744b1760bdf4b469a536c",
+      "bytes": 2002,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-03-reset-0.selected.npz": {
+      "sha256": "bc5cae9f7d0c18c0e757f54d82f317f58df83f9d97da91530febda7c4cbf10d1",
+      "bytes": 14813,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-03-reset-0.in": {
+      "sha256": "76ed281438242874d4235e89e52720726d933714762c6ba6bbcb8a9977fa1ae8",
+      "bytes": 39846,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-03-reset-0.stdout": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-03-reset-0.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-03-reset-0.log": {
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "case-693/finish/slot-03-reset-0.record.json": {
+      "sha256": "cb55782f7ee19ffd866e706fa896af4ec7080d9d4b71d8d74e79125c1f3c7270",
+      "bytes": 1989,
+      "redirect_host": "www.kaggleusercontent.com"
+    }
+  },
+  "private_source_verified": true,
+  "enable_gpu": true,
+  "elapsed_seconds": 13.777582729999267
+}

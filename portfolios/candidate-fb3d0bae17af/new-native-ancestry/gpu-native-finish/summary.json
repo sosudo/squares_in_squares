@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "seconds": 62.470540195994545,
+  "n": 693,
+  "slots": 4,
+  "certified": 4,
+  "improved_cases": [
+    "693"
+  ],
+  "canonical_raw_sha256": "add7c0ee1599b97bb229f279dd0ee927c502ad6710940faccd92dca7c7658a53",
+  "canonical_side_lower": "26.814949271823154329885953581592929540696834355336830369964667",
+  "candidates_sha256": "eb62b7cbafdeb2ad0197645931b8096f1d6420106f41d7bc0f7ffa3f8f6cff3e",
+  "results_sha256": "f5a6cc84633049bb431bfeea85c5d0493ada9880a897e7c013f2ee05c95090ed",
+  "certified_archive_sha256": "3d070f844f5441da2554f40ce69252fc5a9e5919e0ee6ad41ddb5beb88e7fbc9",
+  "manifest_sha256": "e3ae5ce36e604dcb82b60afa27b7993ee16721dbeb82858e60306c5cd8e34ddf",
+  "no_reselection": true,
+  "no_gpu": true,
+  "no_submission": true,
+  "no_canonical_mutation": true
+}

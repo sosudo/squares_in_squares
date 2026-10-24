@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "source_sha256": "d350aebf10c9bcd07eab3088fd33778cb2e9b55e114eb95bbf0b51a9883f070f",
+  "source_bytes": 995672,
+  "payload_files": 150,
+  "preserved_parent_payload_files": 65,
+  "driver_sha256": "fd1b34f98fb4759309ce8accb535b62cfb7b374ce6c3be75cbbe647949b6f297",
+  "finisher_sha256": "aab5ea32adc59fe26d1379879f8d4efc53cd1c157b6a02269c7d1dc9e400f543",
+  "source_scope": "Paired reset/controller and native-finisher interface delta; corrected CUDA kernel and physical-energy definition unchanged.",
+  "all_payload_hashes_verified": true,
+  "all_current_inputs_and_translation_only_normalization_verified": true,
+  "baseline_raw_sha256": "fc931068f0f4accb37c8ed8b33ea59607e4690440d7c3f98b4b79fbb8c34cffc",
+  "paired_boxes": [
+    0.002,
+    0.008
+  ],
+  "paired_chains": 16,
+  "batch_per_case": 32,
+  "cases": [
+    453,
+    693
+  ],
+  "search_seconds": 600,
+  "cooling_seconds": 150,
+  "periodic_reset_hot_phase_only": true,
+  "base_temperature_point3_never_reset": true,
+  "cooling_transition_own_best_reset": true,
+  "cooling_then_persistent": true,
+  "independent_pair_round_random_streams": true,
+  "acceptance_draws_separate_and_paired": true,
+  "seven_pose_packet_reserve_checked_at_n693": true,
+  "actual_generated_search_cpu_protocol_control": {
+    "passed": true,
+    "packets": 60,
+    "hot_periodic_rounds": [
+      16,
+      32
+    ],
+    "single_crossing_reset": true,
+    "own_best_state_and_energy_commit_exact": true,
+    "synthetic_energy_and_quench": true,
+    "not_a_physics_or_gpu_control": true
+  },
+  "protocol_tests": {
+    "file": "tests/test_fq_restart_hop_protocol.py",
+    "sha256": "e95b46871c3142604218dc371470be4d1bcee173019bbbe1c6631a966fa5542d",
+    "passed": 5,
+    "seconds": 0.615
+  },
+  "finisher_tests": {
+    "file": "tests/test_fq_restart_hop_finish.py",
+    "sha256": "ef7a7117a3311c1a3508ee87f00df9632d9ca6f5de06e39ccce4fc9c08861753",
+    "passed": 6,
+    "seconds": 0.018
+  },
+  "finisher_fixed_slots_per_case": 4,
+  "finisher_native_cap_seconds": 12,
+  "finisher_certificate_cap_seconds": 8,
+  "finisher_same_seed_per_delta_across_arms": true,
+  "finisher_committed_best_and_full_decimal_gates": true,
+  "actual_full453_and693_controls_required_before_search": true,
+  "isolated_import_smoke_receipt_sha256": "6ef917c27b24848281f52d4302a9bd0005429116b540fde0bb5321afc52d0426",
+  "parent_supervisor_only_counted_entrypoint_and_time_deltas": true,
+  "native_executions_by_reviewer": 0,
+  "cuda_executions_by_reviewer": 0,
+  "reviewer_remote_launch_or_submission": false
+}

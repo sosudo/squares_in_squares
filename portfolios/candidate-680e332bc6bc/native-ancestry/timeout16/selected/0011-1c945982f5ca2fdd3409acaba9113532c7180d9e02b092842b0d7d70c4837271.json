@@ -1,0 +1,288 @@
+{
+  "record": {
+    "n": 920,
+    "job": 11,
+    "mode": "rigid_current",
+    "category": "unchanged_parent_timeout_extension",
+    "original_job": 66,
+    "original_seed": 9610066,
+    "legacy_history": "Exact same current/previous parent; original10s no-output timeout, observational30s extension only.",
+    "parent_geometry_sha256": "66a624be07e11aea620b43d3f3b8d301dce8dd3a9f9ddf54af5aa93a733c5826",
+    "canonical_raw_side": "30.81029107230100528293647388991949410945537805038450",
+    "native_seconds_cap": 30.0,
+    "certificate_seconds_cap": 6.0,
+    "parent_archive_sha256": "20143a09d2489fa9f5e2927cc652fce00e49d28c9c0d54d7871c9290cbdc5ee5",
+    "input_sha256": "9f396b6af74fff8a46dab19948e6fec6a2e256f2f3b95c40d68e40d2e0bd9350",
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-timeout-extension-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-timeout-extension-v1/trials/n920-rigid-0011.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-timeout-extension-v1/trials/n920-rigid-0011.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9610066",
+      "--loosen",
+      "1",
+      "--outer",
+      "45",
+      "--pit",
+      "20",
+      "--flip-top",
+      "0",
+      "--v"
+    ],
+    "command_sha256": "7af0e8e44d650b2f5af025fd98f7f7694570608615f6452d758f6def273c1d02",
+    "returncode": 0,
+    "native_status": "returned",
+    "native_seconds": 22.07016522200138,
+    "stdout_sha256": "593516e547df57c335fc7aabfbc9583fe30750b4721096bc4f64d73137ed5a04",
+    "stderr_sha256": "a502ae07b1dcd65c17a0f0bce2ab6a74efc93ab554a99a0a13e812e6ebf84ddf",
+    "log_sha256": "e1f303a128d967bb70764025e9bdbf4ac23db0dc0371762b1e71b91473da372f",
+    "trace_phase_counts": {
+      "outer": 45,
+      "slp": 20,
+      "trust_region": 20
+    },
+    "last_phase_lines": [
+      "tr 18 R 4.00e-3 pred 4.10e-6 rho0 -2.86e1 rho -2.358 wmax 1.00 s 30.8084831865494 acc false",
+      "  slp 18: R 4.0e-3 s 30.8084831865494 pred 4.10e-6 rho -2.36",
+      "tr 19 R 1.00e-3 pred 3.95e-6 rho0 -3.06e0 rho -0.018 wmax 1.00 s 30.8084831865494 acc false",
+      "  slp 19: R 1.0e-3 s 30.8084831865494 pred 3.95e-6 rho -0.02",
+      "tr 20 R 2.50e-4 pred 3.83e-6 rho0 6.28e-1 rho 0.908 wmax 1.00 s 30.8084831865494 acc true",
+      "  slp 20: R 2.5e-4 s 30.8084831865494 pred 3.83e-6 rho 0.91"
+    ],
+    "fq": {
+      "s": 30.808483405039134,
+      "s_alm": 30.808482935635354,
+      "viol": 2.63e-05,
+      "evals": 6295,
+      "outer": 45,
+      "slp_it": 20,
+      "slp_r": 0.0005,
+      "flips": 0,
+      "min_gap": 7.63e-09,
+      "min_wall": 7.62e-09,
+      "sec": 22.061,
+      "s_coarse": 30.81117637367445,
+      "t_alm": 4.485,
+      "s_alm0": 30.808514784187658,
+      "trace": [
+        [
+          1,
+          0.4506,
+          30.80860966551043,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          2,
+          1.0812,
+          30.808529300253085,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          4,
+          2.5284,
+          30.808521984699606,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          6,
+          4.2642,
+          30.80851368337859,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          7,
+          5.177,
+          30.80851098637749,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          8,
+          6.1664,
+          30.808507413935285,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          10,
+          8.0362,
+          30.808506460354028,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          11,
+          8.8536,
+          30.808505230811782,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          12,
+          9.8811,
+          30.808502424865278,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          13,
+          10.8816,
+          30.808501352643813,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          14,
+          11.7482,
+          30.808498222572208,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          15,
+          12.677,
+          30.808494399056006,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          16,
+          13.6517,
+          30.8084902688097,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          17,
+          14.5872,
+          30.808486811004375,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          20,
+          17.4917,
+          30.80848328884512,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "0c16a570c1f0db25",
+      "ncontacts": 936,
+      "fin": []
+    },
+    "native_output_path": "/workspace/squares_in_squares/artifacts/fq-timeout-extension-v1/trials/n920-rigid-0011.out",
+    "native_output_sha256": "22d6d42d38974684f6db2b1cd4df3c12d5bd664f64ebed350d9a9ede48910124",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-timeout-extension-v1/raw-returned/0011-n920.npz",
+      "sha256": "8e5885995411a7537e3133701f8212785ec1065ba7c06c0751b662e1f6375126",
+      "geometry_sha256": "a4c62d4b78ade28bf59b59e6100b05c36b7fd5cfaeb9b2d0e775906e0f5a9a64",
+      "verified": false
+    },
+    "status": "certified",
+    "decoded_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-timeout-extension-v1/decoded/0011-n920.npz",
+      "sha256": "d1c15dcfa33fb3f42927c024cc61a7e0fdb22f0c71aac315d3cf4abeeceef08f",
+      "geometry_sha256": "1c945982f5ca2fdd3409acaba9113532c7180d9e02b092842b0d7d70c4837271"
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "30.80848338980294736516084558508891495162097465869251",
+        "roundtrip_side": "30.80848338980294736516084558508841495162097466502805",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "30.80848338980294723048474470258179616664244571995499",
+      "independent_raw": {
+        "n": 920,
+        "valid": true,
+        "side_lower": "30.808483389802947365160845585088914951620974658692396305130709",
+        "side_upper": "30.808483389802947365160845585088914951620974658692524597836795",
+        "score_lower": "0.015725618108725408559387909446645758028225894173953222096994",
+        "score_upper": "0.015725618108725408559387909446645758028225894173961240391125",
+        "interval_pairs": 998,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 920,
+        "valid": true,
+        "side_lower": "30.808483389802947230484744702581796166642445719954909784824659",
+        "side_upper": "30.808483389802947230484744702581796166642445719955080841766106",
+        "score_lower": "0.015725618108725404119248351696330158743677275021677258068610",
+        "score_upper": "0.015725618108725404119248351696330158743677275021685276362742",
+        "interval_pairs": 998,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "e4f2c6bd230e360745054aed146c077f026a750eebc22cccad9447f5f7fbe190",
+      "ordinary_pandas_csv_sha256": "56abf5440e22d00a2af54cf3556d2da1906c38ea6019ff2cf14fe9e409be1dc2"
+    },
+    "geometry_sha256": "1c945982f5ca2fdd3409acaba9113532c7180d9e02b092842b0d7d70c4837271",
+    "archive_key": "920__current_rigid_1c945982f5ca2fdd3409acaba9113532c7180d9e02b092842b0d7d70c4837271",
+    "side": "30.808483389802947365160845585088914951620974658692524597836795",
+    "side_gain": "0.001807682498057917775628304831",
+    "score_gain": 5.959752706593543e-05,
+    "retained_archive": "/workspace/squares_in_squares/artifacts/fq-timeout-extension-v1/retained/0011-1c945982f5ca2fdd3409acaba9113532c7180d9e02b092842b0d7d70c4837271.npz",
+    "retained_archive_sha256": "0413cff7fa1f4661be139b3f2421aaf43df558cbcc2021d9c25c754c12ba2e21"
+  },
+  "archive_sha256": "0413cff7fa1f4661be139b3f2421aaf43df558cbcc2021d9c25c754c12ba2e21"
+}
