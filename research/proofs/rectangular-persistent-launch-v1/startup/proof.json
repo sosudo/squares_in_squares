@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-24T17:58:41.167472+00:00",
+  "notebook": "sos54352/squares-rectangular-persistent-four",
+  "version": 1,
+  "source_sha256": "fb878006be0daa5bc1c6ce622c3dc58bf39f2b3171d45704f56260368e1df7b9",
+  "absolute_read_alarm_seconds": 29,
+  "one_read_only_log_request": true,
+  "decoder": "Reassemble outer.data per stream across SSE boundaries, then parse completed JSON lines.",
+  "private_exact_source_verified": true,
+  "http_status": 200,
+  "content_type": "text/event-stream",
+  "read_error_type": "ConnectionError",
+  "seconds": 11.286135533999186,
+  "line_count": 8,
+  "raw_bytes": 825,
+  "stream_sha256": "cb2c9af73ea9620140af758a6b6b05d286601cf76951ef19dd23848b7b21795c",
+  "stream_chunks": {
+    "stdout": 4
+  },
+  "events_sha256": "b5ded5fb99ceb33d91231ee61dbe142e715c6a76da7a6cfadf97c09bcaae407b",
+  "event_count": 4,
+  "stages": {
+    "rectangular_preflight": 2,
+    "rectangular_search": 2
+  },
+  "payloads": [],
+  "reader_sha256": "3920915cef6e1dd20f3914716362fe7b8df0c458097c2ccb006dba13ae4eb60e",
+  "scope": "Parent relayed stdout only; empty/partial live stream is not proof of a stalled child."
+}

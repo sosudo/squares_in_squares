@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-24T18:13:31.303098+00:00",
+  "source_sha256": "fb878006be0daa5bc1c6ce622c3dc58bf39f2b3171d45704f56260368e1df7b9",
+  "status": "RUNNING",
+  "private": true,
+  "gpu": true,
+  "internet": false,
+  "notebook": "sos54352/squares-rectangular-persistent-four",
+  "version": 1,
+  "existing_job_only": true,
+  "no_relaunch": true
+}

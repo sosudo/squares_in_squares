@@ -1,0 +1,698 @@
+[
+  {
+    "slot": 0,
+    "kind": "original_reference",
+    "delta": 0.0,
+    "chain": null,
+    "design": {
+      "source_key": "5_17_7__seed0"
+    },
+    "source_geometry_sha256": "47563e42c6d6210d0c6f85eaeacb637fe0ce2ec9b28255dd688acf59cec5d697",
+    "expected_native_input_sha256": "fb7d61ba2fe436ce479485e9389bd9bf0e94bfe8d8d0aeb106542688b0b5a2c8",
+    "n": 92,
+    "family_key": "5_17_7",
+    "w": 5,
+    "h": 17,
+    "d": 7,
+    "reference_f_lower": "0.802428750537875558847493575585334365330771529986770818674715",
+    "reference_f_upper": "0.802428750537875558847493575585334365330771529986770818674716",
+    "source_key": "5_17_7__seed0",
+    "selected_geometry_sha256": "47563e42c6d6210d0c6f85eaeacb637fe0ce2ec9b28255dd688acf59cec5d697",
+    "input_status": "CERTIFIED immutable original v2 reference control; not a GPU state",
+    "native_seconds_cap": 60,
+    "certificate_seconds_cap": 8,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/bin/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-00-original_reference.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-00-original_reference.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "12",
+      "--seed",
+      "9710000",
+      "--loosen",
+      "1",
+      "--outer",
+      "45",
+      "--pit",
+      "100",
+      "--flip-top",
+      "16"
+    ],
+    "input_sha256": "fb7d61ba2fe436ce479485e9389bd9bf0e94bfe8d8d0aeb106542688b0b5a2c8",
+    "native_offsets": [
+      0,
+      12
+    ],
+    "encoded_box": [
+      5.802428750537874,
+      17.802428750537874
+    ],
+    "encoding_note": "Translation-only normalization; physical input enclosure may exceed the GPU target rectangle.",
+    "command_sha256": "0edcfca648b8c76e0f2699181582df90f75206397e76309f31915b5092dc7890",
+    "effective_native_seconds_cap": 60.0,
+    "native_status": "returned",
+    "returncode": 0,
+    "native_seconds": 0.06615155300096376,
+    "stdout_sha256": "52e68cfde4a7cab0e92d8546034e520fd01d72629806ad779a1ae18a262a4206",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "native_output_path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-00-original_reference.out",
+    "native_output_sha256": "d6605f79ec9e55ad3eca057ab05ac80d851e63efeb0baeecee6c59d3f341a2c8",
+    "status": "certified",
+    "returned_native_box": [
+      5.802428716937136,
+      17.802428716937136
+    ],
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-00-original_reference.raw.npz",
+      "sha256": "fbbf99072e57ecfb718d2ef4031c1d0d1114e4a24cac2cffada6087e5b7f4b8b",
+      "geometry_sha256": "c9ab270023d73d307e56ba8c431522139fe3d544b4c19afb2dc4baff823df330",
+      "verified": false
+    },
+    "decoded_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-00-original_reference.decoded.npz",
+      "sha256": "735cf5ca0ff97974aa0bd64385b12208c6ecb64f15337889edcd19c9417767a7",
+      "geometry_sha256": "fbb85111907cf6e202bc1b5c6a94b1396014b67b302084e9ad9a55c14d496080"
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "17.80242875053813421545104261011746155675821663827513",
+        "roundtrip_side": "17.80242875053813432545104261011671155675821664551388",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "17.80242875053813428545104261011656155675821664696163",
+      "independent_raw": {
+        "n": 92,
+        "valid": true,
+        "side_lower": "17.802428750538134215451042610117461556758216638275104706289213",
+        "side_upper": "17.802428750538134215451042610117461556758216638275232998995298",
+        "score_lower": "0.856031499855640318309876548212729452225813953784890961892566",
+        "score_upper": "0.856031499855640318309876548212729452225813953784909671245538",
+        "interval_pairs": 208,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 92,
+        "valid": true,
+        "side_lower": "17.802428750538134285451042610116561556758216646961596473496026",
+        "side_upper": "17.802428750538134285451042610116561556758216646961724766202112",
+        "score_lower": "0.856031499855640325607881040210252314474720107816631786565256",
+        "score_upper": "0.856031499855640325607881040210252314474720107816650495918228",
+        "interval_pairs": 208,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "4963294faffa15609962738d3b7d4a672e92576cbd828f73cf91da53214d5235",
+      "ordinary_pandas_csv_sha256": "07c0757cb5390e87794431b3c610b3754eaa1497aacd63720bc7227a932eecd4"
+    },
+    "geometry_sha256": "fbb85111907cf6e202bc1b5c6a94b1396014b67b302084e9ad9a55c14d496080",
+    "worst_certified_square_side": "17.80242875053813432545104261011671155675821664551388",
+    "certified_square_sides": {
+      "official_raw": "17.80242875053813421545104261011746155675821663827513",
+      "official_17g_pandas": "17.80242875053813432545104261011671155675821664551388",
+      "official_default_pandas": "17.80242875053813428545104261011656155675821664696163",
+      "interval_raw": "17.802428750538134215451042610117461556758216638275232998995298",
+      "interval_default_pandas": "17.802428750538134285451042610116561556758216646961724766202112"
+    },
+    "certified_archive": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-00-original_reference.certified.npz",
+    "certified_archive_sha256": "735cf5ca0ff97974aa0bd64385b12208c6ecb64f15337889edcd19c9417767a7",
+    "strict_component_improvement": false,
+    "usable_rectangular_donor": true,
+    "rectangular_certificate": {
+      "valid": true,
+      "w": 5,
+      "h": 17,
+      "n": 92,
+      "transports": {
+        "raw": {
+          "csv_sha256": "4963294faffa15609962738d3b7d4a672e92576cbd828f73cf91da53214d5235",
+          "n": 92,
+          "width_lower": "5.802428726537934103891337503881085677463335537999959702841834",
+          "width_upper": "5.802428726537934103891337503881085677463335537999959702841835",
+          "height_lower": "17.802428750538134215451042610117461556758216638275128058888475",
+          "height_upper": "17.802428750538134215451042610117461556758216638275128058888476",
+          "f_lower": "0.802428750538134215451042610117461556758216638275128058888475",
+          "f_upper": "0.802428750538134215451042610117461556758216638275128058888476"
+        },
+        "pandas_17g": {
+          "csv_sha256": "cc077b3d2ee412540e2d91b1caf2a1be1b31fc8065003b66d8f25218974a493f",
+          "n": 92,
+          "width_lower": "5.802428726537934103891337503881085677463335537999959702841834",
+          "width_upper": "5.802428726537934103891337503881085677463335537999959702841835",
+          "height_lower": "17.802428750538134325451042610116711556758216645513881131534991",
+          "height_upper": "17.802428750538134325451042610116711556758216645513881131534992",
+          "f_lower": "0.802428750538134325451042610116711556758216645513881131534991",
+          "f_upper": "0.802428750538134325451042610116711556758216645513881131534992"
+        },
+        "pandas_default": {
+          "csv_sha256": "07c0757cb5390e87794431b3c610b3754eaa1497aacd63720bc7227a932eecd4",
+          "n": 92,
+          "width_lower": "5.802428726537934013891337503880585677463335556954235379500613",
+          "width_upper": "5.802428726537934013891337503880585677463335556954235379500614",
+          "height_lower": "17.802428750538134285451042610116561556758216646961631746064294",
+          "height_upper": "17.802428750538134285451042610116561556758216646961631746064295",
+          "f_lower": "0.802428750538134285451042610116561556758216646961631746064294",
+          "f_upper": "0.802428750538134285451042610116561556758216646961631746064295"
+        }
+      },
+      "f_lower": "0.802428750538134215451042610117461556758216638275128058888475",
+      "f_upper": "0.802428750538134325451042610116711556758216645513881131534992",
+      "fits_subunit_excess": true,
+      "meaning": "Translation-invariant unit-square spans; pair nonoverlap requires the separate full certificate."
+    },
+    "f_upper": "0.802428750538134325451042610116711556758216645513881131534992",
+    "f_lower": "0.802428750538134215451042610117461556758216638275128058888475",
+    "component_f_gain_lower": "-2.58766603549034531377191427445115527110312860277E-13",
+    "no_full_portfolio_gain_claim": true
+  },
+  {
+    "slot": 1,
+    "kind": "original_reference",
+    "delta": 0.0,
+    "chain": null,
+    "design": {
+      "source_key": "7_19_13__seed0"
+    },
+    "source_geometry_sha256": "2842b6fecf884fe6363e5a8f4a2d00f68b97ee5c94bca13034aebaa967181b07",
+    "expected_native_input_sha256": "5daf0b4a3708f7b1eaf32dc75afdd4acff3d36a4e7134405217154d031bcfc23",
+    "n": 146,
+    "family_key": "7_19_13",
+    "w": 7,
+    "h": 19,
+    "d": 13,
+    "reference_f_lower": "0.918030699055788269529721933994100362663857891034212236418791",
+    "reference_f_upper": "0.918030699055788269529721933994100362663857891034212236418792",
+    "source_key": "7_19_13__seed0",
+    "selected_geometry_sha256": "2842b6fecf884fe6363e5a8f4a2d00f68b97ee5c94bca13034aebaa967181b07",
+    "input_status": "CERTIFIED immutable original v2 reference control; not a GPU state",
+    "native_seconds_cap": 60,
+    "certificate_seconds_cap": 8,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/bin/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-01-original_reference.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-01-original_reference.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "12",
+      "--seed",
+      "9710000",
+      "--loosen",
+      "1",
+      "--outer",
+      "45",
+      "--pit",
+      "100",
+      "--flip-top",
+      "16"
+    ],
+    "input_sha256": "5daf0b4a3708f7b1eaf32dc75afdd4acff3d36a4e7134405217154d031bcfc23",
+    "native_offsets": [
+      0,
+      12
+    ],
+    "encoded_box": [
+      7.918030699055787,
+      19.918030699055787
+    ],
+    "encoding_note": "Translation-only normalization; physical input enclosure may exceed the GPU target rectangle.",
+    "command_sha256": "e5026efff6fd6b69a036936e616e4193ffb66e15f3351d12297f0187046bb136",
+    "effective_native_seconds_cap": 60.0,
+    "native_status": "returned",
+    "returncode": 0,
+    "native_seconds": 0.4220978750017821,
+    "stdout_sha256": "13bfbb0ba1f8ae0a1bb71f15f5f23e84a3be587d7b3e3fee16836f2bf428b40e",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "native_output_path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-01-original_reference.out",
+    "native_output_sha256": "e03f43e70f1370d6f88d901025dc388f34d702a87d5d9cde240cc5576639aa0c",
+    "status": "certified",
+    "returned_native_box": [
+      7.91803261654896,
+      19.91803261654896
+    ],
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-01-original_reference.raw.npz",
+      "sha256": "f3ac04183a5a3643cc7cbe129fc39264bd6b0afe87634918832bade04107a540",
+      "geometry_sha256": "35b81d4d57c00def81d48de8b61525ef4a6f2f99e77820ab332cc46548680c00",
+      "verified": false
+    },
+    "decoded_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-01-original_reference.decoded.npz",
+      "sha256": "8de30282d17c5f2b2f73f19e481894b5572f3c4e9a6a31e236ecdea4045af2fe",
+      "geometry_sha256": "5ac170fdda175900939ef53cceb6e4b675c05069608b7a0769f08d44d81811f6"
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "19.91803261015024778481626212973525011803627875867796",
+        "roundtrip_side": "19.91803261015025189481626212973675011803627872930407",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "19.91803261015024985481626212973725011803627871754055",
+      "independent_raw": {
+        "n": 146,
+        "valid": true,
+        "side_lower": "19.918032610150247784816262129735250118036278758677880527484277",
+        "side_upper": "19.918032610150247784816262129735250118036278758678008820190363",
+        "score_lower": "0.648428107753433810043961500188016423600853940740190852465132",
+        "score_upper": "0.648428107753433810043961500188016423600853940740209561818104",
+        "interval_pairs": 338,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 146,
+        "valid": true,
+        "side_lower": "19.918032610150249854816262129737250118036278717540433930266887",
+        "side_upper": "19.918032610150249854816262129737250118036278717540562222972973",
+        "score_lower": "0.648428107753433981358380440878347570432528399228768395539159",
+        "score_upper": "0.648428107753433981358380440878347570432528399228784432127421",
+        "interval_pairs": 338,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "5bc1872888a5ebb291a20412cb3b43428d8bc3d86aa994155eaceb03bf9f7a5d",
+      "ordinary_pandas_csv_sha256": "1d2eef6e630e481362ccdf9471e2e796be29556360a05dfa39807e24e5a217c9"
+    },
+    "geometry_sha256": "5ac170fdda175900939ef53cceb6e4b675c05069608b7a0769f08d44d81811f6",
+    "worst_certified_square_side": "19.91803261015025189481626212973675011803627872930407",
+    "certified_square_sides": {
+      "official_raw": "19.91803261015024778481626212973525011803627875867796",
+      "official_17g_pandas": "19.91803261015025189481626212973675011803627872930407",
+      "official_default_pandas": "19.91803261015024985481626212973725011803627871754055",
+      "interval_raw": "19.918032610150247784816262129735250118036278758678008820190363",
+      "interval_default_pandas": "19.918032610150249854816262129737250118036278717540562222972973"
+    },
+    "certified_archive": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-01-original_reference.certified.npz",
+    "certified_archive_sha256": "8de30282d17c5f2b2f73f19e481894b5572f3c4e9a6a31e236ecdea4045af2fe",
+    "strict_component_improvement": false,
+    "usable_rectangular_donor": true,
+    "rectangular_certificate": {
+      "valid": true,
+      "w": 7,
+      "h": 19,
+      "n": 146,
+      "transports": {
+        "raw": {
+          "csv_sha256": "5bc1872888a5ebb291a20412cb3b43428d8bc3d86aa994155eaceb03bf9f7a5d",
+          "n": 146,
+          "width_lower": "7.918032533365650929231321691615208561057045322339073195463582",
+          "width_upper": "7.918032533365650929231321691615208561057045322339073195463583",
+          "height_lower": "19.918032610150247784816262129735250118036278758677958036194098",
+          "height_upper": "19.918032610150247784816262129735250118036278758677958036194099",
+          "f_lower": "0.918032610150247784816262129735250118036278758677958036194098",
+          "f_upper": "0.918032610150247784816262129735250118036278758677958036194099"
+        },
+        "pandas_17g": {
+          "csv_sha256": "2e80961c8406bd6f3950f9b4566577949c36aa478fed15b75f8d6973d40c45ff",
+          "n": 146,
+          "width_lower": "7.918032533365651939231321691615208561057045322339073195463582",
+          "width_upper": "7.918032533365651939231321691615208561057045322339073195463583",
+          "height_lower": "19.918032610150251894816262129736750118036278729304066725129238",
+          "height_upper": "19.918032610150251894816262129736750118036278729304066725129239",
+          "f_lower": "0.918032610150251894816262129736750118036278729304066725129238",
+          "f_upper": "0.918032610150251894816262129736750118036278729304066725129239"
+        },
+        "pandas_default": {
+          "csv_sha256": "1d2eef6e630e481362ccdf9471e2e796be29556360a05dfa39807e24e5a217c9",
+          "n": 146,
+          "width_lower": "7.918032533365652119231321691615208561057045322339073195463582",
+          "width_upper": "7.918032533365652119231321691615208561057045322339073195463583",
+          "height_lower": "19.918032610150249854816262129737250118036278717540547566687320",
+          "height_upper": "19.918032610150249854816262129737250118036278717540547566687321",
+          "f_lower": "0.918032610150249854816262129737250118036278717540547566687320",
+          "f_upper": "0.918032610150249854816262129737250118036278717540547566687321"
+        }
+      },
+      "f_lower": "0.918032610150247784816262129735250118036278758677958036194098",
+      "f_upper": "0.918032610150251894816262129736750118036278729304066725129239",
+      "fits_subunit_excess": true,
+      "meaning": "Translation-invariant unit-square spans; pair nonoverlap requires the separate full certificate."
+    },
+    "f_upper": "0.918032610150251894816262129736750118036278729304066725129239",
+    "f_lower": "0.918032610150247784816262129735250118036278758677958036194098",
+    "component_f_gain_lower": "-0.000001911094463625286540195742649755372420838269854488710448",
+    "no_full_portfolio_gain_claim": true
+  },
+  {
+    "slot": 2,
+    "kind": "original_reference",
+    "delta": 0.0,
+    "chain": null,
+    "design": {
+      "source_key": "7_20_14__seed0"
+    },
+    "source_geometry_sha256": "0107a36686736ed8d5d5ea7b3b7e6f433bbaf7ef9b7b5407eb461d3adbf94a5b",
+    "expected_native_input_sha256": "719e18e0c322c324783cced6c5926aec6f7d3c7f10b0fbea51e674a059111174",
+    "n": 154,
+    "family_key": "7_20_14",
+    "w": 7,
+    "h": 20,
+    "d": 14,
+    "reference_f_lower": "0.925350264393717149231321364175414365625645193915222019686223",
+    "reference_f_upper": "0.925350264393717149231321364175414365625645193915222019686224",
+    "source_key": "7_20_14__seed0",
+    "selected_geometry_sha256": "0107a36686736ed8d5d5ea7b3b7e6f433bbaf7ef9b7b5407eb461d3adbf94a5b",
+    "input_status": "CERTIFIED immutable original v2 reference control; not a GPU state",
+    "native_seconds_cap": 60,
+    "certificate_seconds_cap": 8,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/bin/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-02-original_reference.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-02-original_reference.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "13",
+      "--seed",
+      "9710000",
+      "--loosen",
+      "1",
+      "--outer",
+      "45",
+      "--pit",
+      "100",
+      "--flip-top",
+      "16"
+    ],
+    "input_sha256": "719e18e0c322c324783cced6c5926aec6f7d3c7f10b0fbea51e674a059111174",
+    "native_offsets": [
+      0,
+      13
+    ],
+    "encoded_box": [
+      7.9253502643937175,
+      20.925350264393717
+    ],
+    "encoding_note": "Translation-only normalization; physical input enclosure may exceed the GPU target rectangle.",
+    "command_sha256": "aed95b383b3b71361051d65db631b48c367deb5bd37ee65c703ee749767520ef",
+    "effective_native_seconds_cap": 60.0,
+    "native_status": "returned",
+    "returncode": 0,
+    "native_seconds": 0.41948510200018063,
+    "stdout_sha256": "c647eca5f4a0682cb41ed97da9c1c992415f4e371fac6512e7ef1039051f2a84",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "native_output_path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-02-original_reference.out",
+    "native_output_sha256": "39c189fbbf4271292122a4ef62bfa682877f3d68008110f47d765b8583551f15",
+    "status": "certified",
+    "returned_native_box": [
+      7.92535022478296,
+      20.92535022478296
+    ],
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-02-original_reference.raw.npz",
+      "sha256": "a5527b59dd0f198587a247afea9207f6595bc241c9c15accca0d1a0b9af9c392",
+      "geometry_sha256": "8c2c3ee87247b3aca00f8c40a24e5c61020977b5a13c2da60af98ee48b208439",
+      "verified": false
+    },
+    "decoded_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-02-original_reference.decoded.npz",
+      "sha256": "dc5be6ad94f21949f40628454a233307a63f659d75f4e0a217580c9399aac801",
+      "geometry_sha256": "e475a43bcce37d84f07a40f84d34efa221ccd0cb582aadd97e0b2aa2a5045b76"
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "20.92535026461631287923132060563995832340810710811725",
+        "roundtrip_side": "20.92535026461631287923132060563995832340810710811725",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "20.92535026461631291923132060563995832340810710811725",
+      "independent_raw": {
+        "n": 154,
+        "valid": true,
+        "side_lower": "20.925350264616312879231320605639958323408107108117172534446737",
+        "side_upper": "20.925350264616312879231320605639958323408107108117300827152823",
+        "score_lower": "0.686212777350239320198471044101716986393664938512755194843117",
+        "score_upper": "0.686212777350239320198471044101716986393664938512771231431379",
+        "interval_pairs": 361,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 154,
+        "valid": true,
+        "side_lower": "20.925350264616312919231320605639958323408107108117166864773101",
+        "side_upper": "20.925350264616312919231320605639958323408107108117295157479187",
+        "score_lower": "0.686212777350239323421762900203238180194507004863267482988388",
+        "score_upper": "0.686212777350239323421762900203238180194507004863283519576649",
+        "interval_pairs": 361,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "ac3fabec7a7cb806f421ae623957ad7e1cb7c09c8fbbd980c79d33170b49eed4",
+      "ordinary_pandas_csv_sha256": "12ecc433eb18d813117ff09b3c8b5a2d0c370988939d9a1c53197ce7080fc050"
+    },
+    "geometry_sha256": "e475a43bcce37d84f07a40f84d34efa221ccd0cb582aadd97e0b2aa2a5045b76",
+    "worst_certified_square_side": "20.925350264616312919231320605639958323408107108117295157479187",
+    "certified_square_sides": {
+      "official_raw": "20.92535026461631287923132060563995832340810710811725",
+      "official_17g_pandas": "20.92535026461631287923132060563995832340810710811725",
+      "official_default_pandas": "20.92535026461631291923132060563995832340810710811725",
+      "interval_raw": "20.925350264616312879231320605639958323408107108117300827152823",
+      "interval_default_pandas": "20.925350264616312919231320605639958323408107108117295157479187"
+    },
+    "certified_archive": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-02-original_reference.certified.npz",
+    "certified_archive_sha256": "dc5be6ad94f21949f40628454a233307a63f659d75f4e0a217580c9399aac801",
+    "strict_component_improvement": false,
+    "usable_rectangular_donor": true,
+    "rectangular_certificate": {
+      "valid": true,
+      "w": 7,
+      "h": 20,
+      "n": 154,
+      "transports": {
+        "raw": {
+          "csv_sha256": "ac3fabec7a7cb806f421ae623957ad7e1cb7c09c8fbbd980c79d33170b49eed4",
+          "n": 154,
+          "width_lower": "7.925350238606986105430225438079132776319093821470485360623840",
+          "width_upper": "7.925350238606986105430225438079132776319093821470485360623841",
+          "height_lower": "20.925350264616312879231320605639958323408107108117249701846398",
+          "height_upper": "20.925350264616312879231320605639958323408107108117249701846399",
+          "f_lower": "0.925350264616312879231320605639958323408107108117249701846398",
+          "f_upper": "0.925350264616312879231320605639958323408107108117249701846399"
+        },
+        "pandas_17g": {
+          "csv_sha256": "3dd176e29c692caa9163cfae2ab215ea14599020678c40c0e060c5a98d324504",
+          "n": 154,
+          "width_lower": "7.925350238606985415430225438079132776319093821470485360623840",
+          "width_upper": "7.925350238606985415430225438079132776319093821470485360623841",
+          "height_lower": "20.925350264616312879231320605639958323408107108117249701846398",
+          "height_upper": "20.925350264616312879231320605639958323408107108117249701846399",
+          "f_lower": "0.925350264616312879231320605639958323408107108117249701846398",
+          "f_upper": "0.925350264616312879231320605639958323408107108117249701846399"
+        },
+        "pandas_default": {
+          "csv_sha256": "12ecc433eb18d813117ff09b3c8b5a2d0c370988939d9a1c53197ce7080fc050",
+          "n": 154,
+          "width_lower": "7.925350238606985385430225438064132776319104454452620826846242",
+          "width_upper": "7.925350238606985385430225438064132776319104454452620826846243",
+          "height_lower": "20.925350264616312919231320605639958323408107108117249701846398",
+          "height_upper": "20.925350264616312919231320605639958323408107108117249701846399",
+          "f_lower": "0.925350264616312919231320605639958323408107108117249701846398",
+          "f_upper": "0.925350264616312919231320605639958323408107108117249701846399"
+        }
+      },
+      "f_lower": "0.925350264616312879231320605639958323408107108117249701846398",
+      "f_upper": "0.925350264616312919231320605639958323408107108117249701846399",
+      "fits_subunit_excess": true,
+      "meaning": "Translation-invariant unit-square spans; pair nonoverlap requires the separate full certificate."
+    },
+    "f_upper": "0.925350264616312919231320605639958323408107108117249701846399",
+    "f_lower": "0.925350264616312879231320605639958323408107108117249701846398",
+    "component_f_gain_lower": "-2.22595769999999241464543957782461914202027682160176E-10",
+    "no_full_portfolio_gain_claim": true
+  },
+  {
+    "slot": 3,
+    "kind": "original_reference",
+    "delta": 0.0,
+    "chain": null,
+    "design": {
+      "source_key": "8_21_13__seed0"
+    },
+    "source_geometry_sha256": "6c123aaa93ed180901226f2e5e6c471a279117235ae17a709b30a1a2241d361d",
+    "expected_native_input_sha256": "29268907a7a8420b0052ddf74be705ba892eb93c9eb35d6b14b5bb0129a631b7",
+    "n": 181,
+    "family_key": "8_21_13",
+    "w": 8,
+    "h": 21,
+    "d": 13,
+    "reference_f_lower": "0.882903560350677879557428756426813908560813917406845390567284",
+    "reference_f_upper": "0.882903560350677879557428756426813908560813917406845390567285",
+    "source_key": "8_21_13__seed0",
+    "selected_geometry_sha256": "6c123aaa93ed180901226f2e5e6c471a279117235ae17a709b30a1a2241d361d",
+    "input_status": "CERTIFIED immutable original v2 reference control; not a GPU state",
+    "native_seconds_cap": 60,
+    "certificate_seconds_cap": 8,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/bin/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-03-original_reference.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-03-original_reference.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "13",
+      "--seed",
+      "9710000",
+      "--loosen",
+      "1",
+      "--outer",
+      "45",
+      "--pit",
+      "100",
+      "--flip-top",
+      "16"
+    ],
+    "input_sha256": "29268907a7a8420b0052ddf74be705ba892eb93c9eb35d6b14b5bb0129a631b7",
+    "native_offsets": [
+      0,
+      13
+    ],
+    "encoded_box": [
+      8.882903560350677,
+      21.882903560350677
+    ],
+    "encoding_note": "Translation-only normalization; physical input enclosure may exceed the GPU target rectangle.",
+    "command_sha256": "75149e7904020cd8e42084edf119d4a7a6471479040fdc6a85ea2011a4722e9a",
+    "effective_native_seconds_cap": 60.0,
+    "native_status": "returned",
+    "returncode": 0,
+    "native_seconds": 0.5178070859983563,
+    "stdout_sha256": "4bd2d4fbcd5225d6e40178359a718062cc294212f5380c62d22d3cdfac86fbf2",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "native_output_path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-03-original_reference.out",
+    "native_output_sha256": "45dedfd86e4947b8143ce21e3f22a307cb4af7f2a4d28eec5f1e35871e4386b8",
+    "status": "certified",
+    "returned_native_box": [
+      8.882903472603378,
+      21.882903472603378
+    ],
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-03-original_reference.raw.npz",
+      "sha256": "a53a86c5b4bdc42f826d5b2f4d14b2eca3872533bbce614f1d139a617fd9a4cc",
+      "geometry_sha256": "c64060baebb5ff2c68be34fda4ff28c70d80440fc8c5652b30fee61986ac4022",
+      "verified": false
+    },
+    "decoded_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-03-original_reference.decoded.npz",
+      "sha256": "c858b3538315fa156af7f47fdbfc6093c6bf2d1bf90a04941d004c9d6a092663",
+      "geometry_sha256": "f678c8a541ea820a6cbddb9ae1556606726cd22c7b740d3bb0b74aa67f2a6e11"
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "21.88290351403362246306206222545107660440761162161763",
+        "roundtrip_side": "21.88290351403362546306206222545107660440761162161763",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "21.88290351403362547306206222545107660440761162161763",
+      "independent_raw": {
+        "n": 181,
+        "valid": true,
+        "side_lower": "21.882903514033622463062062225451076604407611621617566542646828",
+        "side_upper": "21.882903514033622463062062225451076604407611621617694835352913",
+        "score_lower": "0.626543408487273706596904670184343095912685514016667206961144",
+        "score_upper": "0.626543408487273706596904670184343095912685514016683243549405",
+        "interval_pairs": 424,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 181,
+        "valid": true,
+        "side_lower": "21.882903514033625473062062225451076604407611621617599615235876",
+        "side_upper": "21.882903514033625473062062225451076604407611621617727907941962",
+        "score_lower": "0.626543408487273930328442690581404171387200658397424454700965",
+        "score_upper": "0.626543408487273930328442690581404171387200658397440491289226",
+        "interval_pairs": 424,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "81a2d59972795b1141fe6fc709aaa86d997d1c0f7df7c99f563fb5bcb853c469",
+      "ordinary_pandas_csv_sha256": "3b04591e2812d200bc92ed636ade9714422974194d227a7e4c5bb02ae4defe81"
+    },
+    "geometry_sha256": "f678c8a541ea820a6cbddb9ae1556606726cd22c7b740d3bb0b74aa67f2a6e11",
+    "worst_certified_square_side": "21.882903514033625473062062225451076604407611621617727907941962",
+    "certified_square_sides": {
+      "official_raw": "21.88290351403362246306206222545107660440761162161763",
+      "official_17g_pandas": "21.88290351403362546306206222545107660440761162161763",
+      "official_default_pandas": "21.88290351403362547306206222545107660440761162161763",
+      "interval_raw": "21.882903514033622463062062225451076604407611621617694835352913",
+      "interval_default_pandas": "21.882903514033625473062062225451076604407611621617727907941962"
+    },
+    "certified_archive": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/trials/slot-03-original_reference.certified.npz",
+    "certified_archive_sha256": "c858b3538315fa156af7f47fdbfc6093c6bf2d1bf90a04941d004c9d6a092663",
+    "strict_component_improvement": true,
+    "usable_rectangular_donor": true,
+    "rectangular_certificate": {
+      "valid": true,
+      "w": 8,
+      "h": 21,
+      "n": 181,
+      "transports": {
+        "raw": {
+          "csv_sha256": "81a2d59972795b1141fe6fc709aaa86d997d1c0f7df7c99f563fb5bcb853c469",
+          "n": 181,
+          "width_lower": "8.882903487918500966145483078355377917345246990318682961574104",
+          "width_upper": "8.882903487918500966145483078355377917345246990318682961574105",
+          "height_lower": "21.882903514033622463062062225451076604407611621617628598194866",
+          "height_upper": "21.882903514033622463062062225451076604407611621617628598194867",
+          "f_lower": "0.882903514033622463062062225451076604407611621617628598194866",
+          "f_upper": "0.882903514033622463062062225451076604407611621617628598194867"
+        },
+        "pandas_17g": {
+          "csv_sha256": "1ed0b58e1a66cd0b06d67ecadea130b392bcd6d8205ec14a06238ffd2db2a5c7",
+          "n": 181,
+          "width_lower": "8.882903487918500966145483078355327917345246990357952869743976",
+          "width_upper": "8.882903487918500966145483078355327917345246990357952869743977",
+          "height_lower": "21.882903514033625463062062225451076604407611621617628598194866",
+          "height_upper": "21.882903514033625463062062225451076604407611621617628598194867",
+          "f_lower": "0.882903514033625463062062225451076604407611621617628598194866",
+          "f_upper": "0.882903514033625463062062225451076604407611621617628598194867"
+        },
+        "pandas_default": {
+          "csv_sha256": "3b04591e2812d200bc92ed636ade9714422974194d227a7e4c5bb02ae4defe81",
+          "n": 181,
+          "width_lower": "8.882903487918501106145483078355307917345246990373660833011925",
+          "width_upper": "8.882903487918501106145483078355307917345246990373660833011926",
+          "height_lower": "21.882903514033625473062062225451076604407611621617628598194866",
+          "height_upper": "21.882903514033625473062062225451076604407611621617628598194867",
+          "f_lower": "0.882903514033625473062062225451076604407611621617628598194866",
+          "f_upper": "0.882903514033625473062062225451076604407611621617628598194867"
+        }
+      },
+      "f_lower": "0.882903514033622463062062225451076604407611621617628598194866",
+      "f_upper": "0.882903514033625473062062225451076604407611621617628598194867",
+      "fits_subunit_excess": true,
+      "meaning": "Translation-invariant unit-square spans; pair nonoverlap requires the separate full certificate."
+    },
+    "f_upper": "0.882903514033625473062062225451076604407611621617628598194867",
+    "f_lower": "0.882903514033622463062062225451076604407611621617628598194866",
+    "component_f_gain_lower": "4.6317052406495366530975737304153202295789216792372417E-8",
+    "no_full_portfolio_gain_claim": true
+  }
+]

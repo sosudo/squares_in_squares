@@ -1,0 +1,9 @@
+{
+  "returncode": 0,
+  "forced": false,
+  "seconds": 45.91131501599739,
+  "worker_seconds": 180,
+  "whole_seconds": 210,
+  "no_gpu": true,
+  "no_submission": true
+}

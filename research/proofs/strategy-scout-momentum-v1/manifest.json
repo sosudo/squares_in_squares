@@ -1,0 +1,69 @@
+{
+  "public_repository": "https://github.com/evand/square-packing",
+  "commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+  "source_hashes": {
+    "LICENSE": "c51886c0f7e6724a7d89fc22cb237a1688ba1bbff04cb21a13b8e1a01fb15578",
+    "search/packer/src/harden.rs": "635469a54a67deab5b6b77efe83546bc2d7b01b093fe7194527275eeb0b35876",
+    "search/packer/harden.py": "e86364c4a4a8b799b0df2e3010fe519d233828b7a04fa1a7caf50153d3fb5bc7",
+    "search/packer/PACKER.md": "e7422f92b66d0baabd42087e0f6e27b3d957c7b4f9f70f3bcb0133a2d9496ac5",
+    "search/packer/HANDOFF-2026-10-14.md": "cb72979371f0c12931c2c0c9f990baba7ce71ebfff7ad742f3a8358dbfcb2f16",
+    "search/packer/CLAIMS.md": "11c8f8f6bd536341f3984240373a532e55222a49d6bba932c1308c4c724b1fd7",
+    "search/packer/pk/bands.py": "15abb7ce3633ce91ce0be7a00cebdc6b665e1aee786eb0a58e69e0f9a945e01f",
+    "search/exact/batch/inputs/n-211.txt": "78828f9e8bde95b5da7b4dd3ab8291eb51fa139ae3ee80ef1bc65742defc9dd9"
+  },
+  "historical_input_side": "14.99796070496771500150",
+  "historical_input_sha256": "78828f9e8bde95b5da7b4dd3ab8291eb51fa139ae3ee80ef1bc65742defc9dd9",
+  "n": 211,
+  "cells": [
+    {
+      "hold": 8000,
+      "noise": ".008",
+      "seed": 1,
+      "r0": ".2"
+    },
+    {
+      "hold": 30000,
+      "noise": ".004",
+      "seed": 1,
+      "r0": ".2"
+    },
+    {
+      "hold": 8000,
+      "noise": ".008",
+      "seed": 2,
+      "r0": ".2"
+    },
+    {
+      "hold": 30000,
+      "noise": ".004",
+      "seed": 2,
+      "r0": ".2"
+    }
+  ],
+  "fixed_defaults": {
+    "pre": 2000,
+    "release": 4000,
+    "settle": 3000,
+    "hold_f": 1.0,
+    "lr": 0.04,
+    "mu": 0.02,
+    "beta": 0.85,
+    "velocity_cap": 0.03
+  },
+  "rustc_path": "/tmp/squares-rustup/toolchains/1.99.1-x86_64-unknown-linux-gnu/bin/rustc",
+  "rustc_sha256": "b53b780f77f952062f8ca8a3b70aef2390b1e45ad91939be94afdc9543026853",
+  "fq_path": "/tmp/squares-fq-portable-target/release/fq",
+  "fq_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+  "source_unchanged": true,
+  "unit_sizes_final": 1.0,
+  "missing_176_seed": "Exact13.808663 source not located; not substituted.",
+  "work_seconds": 180,
+  "whole_seconds": 210,
+  "workers": 1,
+  "no_quiet_parameter_retuning": true,
+  "source_caveats": [
+    "Disk endpoint h0 in fresh is not exercised.",
+    "Box force versus symmetric-resize derivative may reflect normalization/preconditioning; unchanged source is benchmarked, not silently corrected."
+  ],
+  "published_limit": "Prior author reports0newrecords across109\u2264324 packings plus multi-band negatives; historical reproduction is a mechanism control, not score gain evidence."
+}

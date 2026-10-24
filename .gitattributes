@@ -30,3 +30,9 @@ portfolios/candidate-*/source-notices-kmmm35/** -text whitespace=cr-at-eol,-blan
 # Local search checkpoints retain exact historical logs and upstream evidence.
 portfolios/search-*/evidence/**/*.log -text whitespace=-blank-at-eof
 portfolios/search-*/evidence/**/source-evidence/** -text whitespace=cr-at-eol,-blank-at-eof
+
+# Preserve complete immutable structural experiment snapshots byte for byte.
+research/proofs/structural-controls-20261024T1754/** -text whitespace=cr-at-eol,-blank-at-eof,-blank-at-eol
+research/proofs/rectangular-persistent-launch-v1/** -text whitespace=cr-at-eol,-blank-at-eof,-blank-at-eol
+research/proofs/strategy-scout-momentum-v1/** -text whitespace=cr-at-eol,-blank-at-eof,-blank-at-eol
+research/proofs/structural-verification-20261024T1817/test-suite.log -text whitespace=-blank-at-eof

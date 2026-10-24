@@ -6,7 +6,9 @@ Do not put API keys in the repository, scripts, logs, or research notes. Read au
 
 ## Checkpoint and submission cadence
 
-The user explicitly requests frequent commits and pushes at validated checkpoints. The latest instruction forbids any further submission until both the exact-decimal and numeric-roundtrip validated scores are strictly below 22.3 (the 22.2x range or better). The hourly runner was stopped. Once this threshold is met, submit at most hourly and only if strictly better than the best already submitted; skip unchanged or worse candidates. Respect the competition limit of ten submissions per day. Every submitted file must pass both exact-decimal and ordinary floating-point transport validation.
+The user explicitly requests frequent commits and pushes at validated checkpoints. The latest instruction forbids any further submission until both the transport-safe exact-decimal and ordinary numeric-roundtrip validated scores are strictly below 22.24 (the 22.23x range or better). The hourly runner was stopped. Once this threshold is met, submit at most hourly and only if strictly better than the best already submitted; skip unchanged or worse candidates. Respect the competition limit of ten submissions per day. Every submitted file must pass both exact-decimal and ordinary floating-point transport validation.
+
+The user also requests parallel strategy agents and Claude Code as an additional strategy collaborator through their Claude account. Coordinate independent experiments and resource budgets. Keep authentication outside the repository and exclude credentials from every model prompt.
 
 ## Current plan
 

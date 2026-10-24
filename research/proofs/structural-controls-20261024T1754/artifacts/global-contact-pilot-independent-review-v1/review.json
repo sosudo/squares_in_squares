@@ -1,0 +1,42 @@
+{
+  "status": "GREEN_FINITE_PILOT",
+  "runner_sha256": "dc42b06e0cd36d9e29854ce3c84590de10d3545fe4014ae17083cd268a65fcdb",
+  "input_manifest_sha256": "7bc5c82380ea913424bdb7c3c7c2b6994f4931cb9922b60c2c4c67ffcc3dfe64",
+  "inputs_sha256": "e2f0e4e8ef192d0e86ff8a68f0bf0f475491eaeca540ce7d2d8b0ea2ea44fe58",
+  "model_sha256": "78e06dc2a3584d4f8b978c9cb7db19794eca97e933ec33f5cc52e6e9c19901e5",
+  "model_control_review": {
+    "path": "artifacts/global-contact-controls-v2/independent_review.json",
+    "sha256": "7a54af3d202bd3926430d0ab97c819f8f9797a9fb81eb4f77e3af9dde974120a"
+  },
+  "rows": [
+    {
+      "n": 588,
+      "changed_angles": 183,
+      "reference_lower": "24.760135143296617919231321691618614715151806573133305723006703",
+      "original_geometry_sha256": "23c28ff665ebeb4e4436bfbd181323b6672e30e511a24a498335f63759cfc7d2",
+      "rotated_geometry_sha256": "a06b256d87dcbfc0731f1294400ca0e5ca3ab3d0a21e44d61d064470ceb3fa04"
+    },
+    {
+      "n": 335,
+      "changed_angles": 44,
+      "reference_lower": "18.822875655579203499999999999999999999999999999999973264528344",
+      "original_geometry_sha256": "ef76684b6f857ba45fcd8c11ed40d64f94ccd0a50db18485412e8364faf28198",
+      "rotated_geometry_sha256": "ed33912c7a0a24891e2e011f26e255138c9e8483a79d32c45c9697a661624a31"
+    },
+    {
+      "n": 147,
+      "changed_angles": 64,
+      "reference_lower": "12.656854249504036499999999999999999999999999999999979029635725",
+      "original_geometry_sha256": "634494e8a01fbfd4b36780a5eeb947bda30cacc3e9b7ad4c8733bf0c5916e93d",
+      "rotated_geometry_sha256": "53e54250bdfa364cdb1ae61b1eeede7c91be3ea6b6b49376b3507984d5abb81d"
+    }
+  ],
+  "checks": [
+    "Exact12 jobs/three current RAW inputs/original and declared fixed-angle perturbations/two trust radii reproduced; literal rows and full bank hashes bind current9d18 baseline.",
+    "FrozenLP3s then relaxedLP3s; only numerical relaxed headroom triggers<=45s MIP. Skip is a finite heuristic and cannot establish global packing impossibility.",
+    "All fixed/relaxed/MIP numerical endpoints retained as provisional; only bounded-clearance repaired endpoints with full raw/pandas/interval certificate may be admitted. Certified worse endpoints retained.",
+    "At most one promising endpoint per case/angle stratum, at most6 total native slots; unchanged aab5 ALM45/pit100/flip16/loosen1, delta.002 fixes seed9710000,32s native+8s fullgate; selected raw/native returns retained by pinned helper.",
+    "Two workers affinity0/1,880s work/900s outer; actual native inherits runner process group, allowing outer kill/wait. Latest canonical interval lower bounds govern final gains; no canonical/submission writes."
+  ],
+  "scope": "Source and exact saved-input audit only. No LP/MIP/native execution or full geometry gate rerun; previously independently reviewed model controls reused."
+}

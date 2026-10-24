@@ -1,0 +1,79 @@
+{
+  "driver": {
+    "path": "experiments/fq_rectangular_persistent_pilot.py",
+    "sha256": "fa3d0f34433e837d282a470fadf2aefbbaef5a20ee596fd1c7d6edf9334f8aa8"
+  },
+  "search": {
+    "path": "experiments/fq_rectangular_persistent_search.py",
+    "sha256": "10fee0016db9cf81347d2bce92d0052c0fcf80450f7149ead13f6cfbc4e49a1a"
+  },
+  "finish": {
+    "path": "experiments/fq_rectangular_persistent_finish.py",
+    "sha256": "47d391ec9541f70313451c55036702a21c6a8562dc75a75f7ba09d67a50d75b9"
+  },
+  "families": {
+    "5_17_7": {
+      "n": 92,
+      "chains": 64,
+      "seed_hashes": {
+        "5_17_7__seed0": "47563e42c6d6210d0c6f85eaeacb637fe0ce2ec9b28255dd688acf59cec5d697",
+        "5_17_7__seed1": "8e48e70a23e9abe6af2083da36def54c6f990ac9655794f22593b7f78defc5a9",
+        "5_17_7__seed2": "352725dd8484464193e6412f3f5b415b078b0e5699adbd0ee113618f9ba2ee21",
+        "5_17_7__seed3": "812eac8cf051c41de1452f8796c6a244a5ac5a43face826d398f5d3335cd9ee6"
+      },
+      "family_config_sha256": "f2d6d2cacbdd24d8c13739375c20a844b444f4a3ae6a363615c619e34f4322b9",
+      "reference_f_lower": "0.802428750537875558847493575585334365330771529986770818674715",
+      "reference_f_upper": "0.802428750537875558847493575585334365330771529986770818674716"
+    },
+    "7_19_13": {
+      "n": 146,
+      "chains": 64,
+      "seed_hashes": {
+        "7_19_13__seed0": "2842b6fecf884fe6363e5a8f4a2d00f68b97ee5c94bca13034aebaa967181b07",
+        "7_19_13__seed1": "b3c60e31061b04779263610c50ef41772e57e4180fa9a4e307cc0af1c4447770",
+        "7_19_13__seed2": "f59213a3fe8ffa4814ece9315c0dfee70cd61d517b31426d44e8a058adf97026",
+        "7_19_13__seed3": "ddabe9d7c2c22ae20f757e0932f0beb7f4a04a16c49c45e74e299277e11d3945"
+      },
+      "family_config_sha256": "d8299bc2ca44093fc2146dd050c8d2ffd4265823d0679cc93675d9ef49a2b8da",
+      "reference_f_lower": "0.918030699055788269529721933994100362663857891034212236418791",
+      "reference_f_upper": "0.918030699055788269529721933994100362663857891034212236418792"
+    },
+    "7_20_14": {
+      "n": 154,
+      "chains": 64,
+      "seed_hashes": {
+        "7_20_14__seed0": "0107a36686736ed8d5d5ea7b3b7e6f433bbaf7ef9b7b5407eb461d3adbf94a5b",
+        "7_20_14__seed1": "1ebf8823486dfe9685e07a8aa7549e782058ce0f95d718c6d26f208cc50e98ff",
+        "7_20_14__seed2": "f1ca583a3b8916df9deb8fa6886f3fbf725eae4ab353b1329af4c3c2d6a164d8",
+        "7_20_14__seed3": "1fa495c3d9b843474ffccd3f00a8bbeab11689bb47998d3d56bd35129056ebb8"
+      },
+      "family_config_sha256": "2bd20e1b2e3c40a5f84d692e64769e237bc654347f1241af8c2c1b06c49d1b0c",
+      "reference_f_lower": "0.925350264393717149231321364175414365625645193915222019686223",
+      "reference_f_upper": "0.925350264393717149231321364175414365625645193915222019686224"
+    },
+    "8_21_13": {
+      "n": 181,
+      "chains": 64,
+      "seed_hashes": {
+        "8_21_13__seed0": "6c123aaa93ed180901226f2e5e6c471a279117235ae17a709b30a1a2241d361d",
+        "8_21_13__seed1": "8f497652b18378df26f29ba90e521db342a1ac467ae51be391ac74618f3e2c9e",
+        "8_21_13__seed2": "1052bcfadac90268e69ae9f6178a7750690204fd43ef61469a212ab3a081c64f",
+        "8_21_13__seed3": "bb82203a9e4fd85a5a6769f20760f787da40691c458004e9a01a25d2bdf12d4a"
+      },
+      "family_config_sha256": "291f6438abe1500943b6e4964b2c658b2ae6fc5e81a4ffc837415855521ead5b",
+      "reference_f_lower": "0.882903514033622463062062225451076604407611621617628598194866",
+      "reference_f_upper": "0.882903560350677879557428756426813908560813917406845390567285"
+    }
+  },
+  "typed_count_design_and_seed_checks": true,
+  "exact_prepare_without_cuda": true,
+  "actual_cuda_run": false,
+  "native_execution": false,
+  "source_sha256": "fb878006be0daa5bc1c6ce622c3dc58bf39f2b3171d45704f56260368e1df7b9",
+  "source_bytes": 830379,
+  "payload_files": 155,
+  "fixture_members": 125,
+  "exact_payload_and_fixture_hashes_verified": true,
+  "isolated_extraction_directory": "/tmp/rectangular-frozen-smoke-zn6dug4w",
+  "check_source_sha256": "40b073cebb003b1bed2d69b3379d77fd6454cb41ac49b6762a2bdaddf7757056"
+}

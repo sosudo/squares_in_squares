@@ -1,0 +1,48 @@
+{
+  "status": "complete_with_disclosed_logging_limit",
+  "executed_driver_sha256": "4b0bc97aebe07f24dc82b8deb55ed98ce5e4512c77b995e27c8844040c207ea2",
+  "summary_sha256": "95c44224079f44ea3288090ae3aaa8a4f9f7846d3b43574ed731d0f2a4d9dbff",
+  "issues": [
+    {
+      "slot": 0,
+      "retained_stdout_path": "artifacts/nakajima-historical-controls-v1/trials/slot-00.stdout",
+      "retained_stdout_sha256": "39270210f9594e6f0976952280c5efc4db4a0ab87d8b719380d2b2170687a333",
+      "hardener_stdout_recorded_sha256": "1d5a53d85f2b7844f621cb3ad7f1bff4487ae17efd0ee74b0a741e7ebc9479b7",
+      "polish_stdout_recorded_sha256": "39270210f9594e6f0976952280c5efc4db4a0ab87d8b719380d2b2170687a333",
+      "hardener_stdout_overwritten": true,
+      "hardener_raw_output_preserved": true,
+      "native_raw_output_preserved": true
+    },
+    {
+      "slot": 1,
+      "retained_stdout_path": "artifacts/nakajima-historical-controls-v1/trials/slot-01.stdout",
+      "retained_stdout_sha256": "fe2fe0718bf5ed76a5a1c12049c259763ba07ec39f6aab5ff55c17b834d72723",
+      "hardener_stdout_recorded_sha256": "10c13169a0dab33f41cdd3d99309d3d7abaaac4ab4f48dfe7d0c1d410f8dc480",
+      "polish_stdout_recorded_sha256": "fe2fe0718bf5ed76a5a1c12049c259763ba07ec39f6aab5ff55c17b834d72723",
+      "hardener_stdout_overwritten": true,
+      "hardener_raw_output_preserved": true,
+      "native_raw_output_preserved": true
+    },
+    {
+      "slot": 2,
+      "retained_stdout_path": "artifacts/nakajima-historical-controls-v1/trials/slot-02.stdout",
+      "retained_stdout_sha256": "eed2119e373a8abc1764614db33f14baa8bc6e2a0df7a3affb86c33ccfa6e88b",
+      "hardener_stdout_recorded_sha256": "873e9feebb8b359a12e52bbc6223ae9e8e0e8b54c573c91a6f58752ce57f9072",
+      "polish_stdout_recorded_sha256": "eed2119e373a8abc1764614db33f14baa8bc6e2a0df7a3affb86c33ccfa6e88b",
+      "hardener_stdout_overwritten": true,
+      "hardener_raw_output_preserved": true,
+      "native_raw_output_preserved": true
+    },
+    {
+      "slot": 3,
+      "retained_stdout_path": "artifacts/nakajima-historical-controls-v1/trials/slot-03.stdout",
+      "retained_stdout_sha256": "7ec5990dbe0460d1fdc50c1e6047dbdd728b7a3740df5d03e4715a2ac0a06bb3",
+      "hardener_stdout_recorded_sha256": "35d0ee7f0edbb616ea82acfe6de73dd865641be61a480d00981fd4f43f78ed5b",
+      "polish_stdout_recorded_sha256": "7ec5990dbe0460d1fdc50c1e6047dbdd728b7a3740df5d03e4715a2ac0a06bb3",
+      "hardener_stdout_overwritten": true,
+      "hardener_raw_output_preserved": true,
+      "native_raw_output_preserved": true
+    }
+  ],
+  "interpretation": "Same-base with_suffix caused polish stdout to replace hardener single-line stdout. Exact input, hardener/polish output texts, commands, source/binary/options and all8certified geometries remain retained. Missing hardener stdout is not reconstructed or falsely marked verified."
+}

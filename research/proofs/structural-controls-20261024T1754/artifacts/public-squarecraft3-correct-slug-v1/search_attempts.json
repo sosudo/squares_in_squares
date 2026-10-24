@@ -1,0 +1,9708 @@
+[
+  {
+    "n": 5,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 0,
+    "lp_status": 0,
+    "stressed_contacts": 2
+  },
+  {
+    "n": 10,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 10,
+    "lp_status": 0,
+    "stressed_contacts": 4
+  },
+  {
+    "n": 11,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 12,
+    "lp_status": 0,
+    "stressed_contacts": 4
+  },
+  {
+    "n": 17,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 24,
+    "lp_status": 0,
+    "stressed_contacts": 10
+  },
+  {
+    "n": 18,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 32,
+    "lp_status": 0,
+    "stressed_contacts": 6
+  },
+  {
+    "n": 19,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 33,
+    "lp_status": 0,
+    "stressed_contacts": 7
+  },
+  {
+    "n": 26,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 63,
+    "lp_status": 0,
+    "stressed_contacts": 7
+  },
+  {
+    "n": 27,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 65,
+    "lp_status": 0,
+    "stressed_contacts": 8
+  },
+  {
+    "n": 28,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 60,
+    "lp_status": 0,
+    "stressed_contacts": 10
+  },
+  {
+    "n": 29,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 70,
+    "lp_status": 0,
+    "stressed_contacts": 14
+  },
+  {
+    "n": 37,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 94,
+    "lp_status": 0,
+    "stressed_contacts": 9
+  },
+  {
+    "n": 38,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 106,
+    "lp_status": 0,
+    "stressed_contacts": 10
+  },
+  {
+    "n": 39,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 94,
+    "lp_status": 0,
+    "stressed_contacts": 11
+  },
+  {
+    "n": 40,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 114,
+    "lp_status": 0,
+    "stressed_contacts": 9
+  },
+  {
+    "n": 41,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 109,
+    "lp_status": 0,
+    "stressed_contacts": 19
+  },
+  {
+    "n": 50,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 127,
+    "lp_status": 0,
+    "stressed_contacts": 11
+  },
+  {
+    "n": 51,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 149,
+    "lp_status": 0,
+    "stressed_contacts": 13
+  },
+  {
+    "n": 52,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 12
+  },
+  {
+    "n": 53,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 26
+  },
+  {
+    "n": 54,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 20
+  },
+  {
+    "n": 55,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 158,
+    "lp_status": 0,
+    "stressed_contacts": 27
+  },
+  {
+    "n": 65,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 12
+  },
+  {
+    "n": 66,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 11
+  },
+  {
+    "n": 67,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 14
+  },
+  {
+    "n": 68,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 16
+  },
+  {
+    "n": 69,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 37
+  },
+  {
+    "n": 70,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 71,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 40
+  },
+  {
+    "n": 82,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 14
+  },
+  {
+    "n": 83,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 29
+  },
+  {
+    "n": 84,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 18
+  },
+  {
+    "n": 85,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 14
+  },
+  {
+    "n": 86,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 24
+  },
+  {
+    "n": 87,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 42
+  },
+  {
+    "n": 88,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 16
+  },
+  {
+    "n": 89,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 14
+  },
+  {
+    "n": 101,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 16
+  },
+  {
+    "n": 102,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 17
+  },
+  {
+    "n": 103,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 20
+  },
+  {
+    "n": 104,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 18
+  },
+  {
+    "n": 105,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 97
+  },
+  {
+    "n": 106,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 18
+  },
+  {
+    "n": 107,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 27
+  },
+  {
+    "n": 108,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 62
+  },
+  {
+    "n": 109,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 16
+  },
+  {
+    "n": 110,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 91
+  },
+  {
+    "n": 122,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 18
+  },
+  {
+    "n": 123,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 22
+  },
+  {
+    "n": 124,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 17
+  },
+  {
+    "n": 125,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 20
+  },
+  {
+    "n": 126,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 18
+  },
+  {
+    "n": 127,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 27
+  },
+  {
+    "n": 128,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 20
+  },
+  {
+    "n": 129,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 33
+  },
+  {
+    "n": 130,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 78
+  },
+  {
+    "n": 131,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 20
+  },
+  {
+    "n": 132,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 145,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 20
+  },
+  {
+    "n": 146,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 69
+  },
+  {
+    "n": 147,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 19
+  },
+  {
+    "n": 148,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 19
+  },
+  {
+    "n": 149,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 22
+  },
+  {
+    "n": 150,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 18
+  },
+  {
+    "n": 151,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 22
+  },
+  {
+    "n": 152,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 56
+  },
+  {
+    "n": 153,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 22
+  },
+  {
+    "n": 154,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 155,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 135
+  },
+  {
+    "n": 156,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 84
+  },
+  {
+    "n": 170,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 22
+  },
+  {
+    "n": 171,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 23
+  },
+  {
+    "n": 172,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 23
+  },
+  {
+    "n": 173,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 21
+  },
+  {
+    "n": 174,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 24
+  },
+  {
+    "n": 175,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 26
+  },
+  {
+    "n": 176,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 52
+  },
+  {
+    "n": 177,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 24
+  },
+  {
+    "n": 178,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 24
+  },
+  {
+    "n": 179,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 24
+  },
+  {
+    "n": 180,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 109
+  },
+  {
+    "n": 181,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 60
+  },
+  {
+    "n": 182,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 56
+  },
+  {
+    "n": 183,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 108
+  },
+  {
+    "n": 197,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 24
+  },
+  {
+    "n": 198,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 25
+  },
+  {
+    "n": 199,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 25
+  },
+  {
+    "n": 200,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 23
+  },
+  {
+    "n": 201,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 26
+  },
+  {
+    "n": 202,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 19
+  },
+  {
+    "n": 203,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 22
+  },
+  {
+    "n": 204,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 108
+  },
+  {
+    "n": 205,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 26
+  },
+  {
+    "n": 206,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 53
+  },
+  {
+    "n": 207,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 26
+  },
+  {
+    "n": 208,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 49
+  },
+  {
+    "n": 209,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 83
+  },
+  {
+    "n": 210,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 68
+  },
+  {
+    "n": 211,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 128
+  },
+  {
+    "n": 226,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 26
+  },
+  {
+    "n": 227,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 27
+  },
+  {
+    "n": 228,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 64
+  },
+  {
+    "n": 229,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 27
+  },
+  {
+    "n": 230,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 25
+  },
+  {
+    "n": 231,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 232,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 30
+  },
+  {
+    "n": 233,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 24
+  },
+  {
+    "n": 234,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 235,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 236,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 237,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 238,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 239,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 240,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 208
+  },
+  {
+    "n": 241,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 144
+  },
+  {
+    "n": 257,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 258,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 29
+  },
+  {
+    "n": 259,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 29
+  },
+  {
+    "n": 260,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 29
+  },
+  {
+    "n": 261,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 25
+  },
+  {
+    "n": 262,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 30
+  },
+  {
+    "n": 263,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 264,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 29
+  },
+  {
+    "n": 265,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 26
+  },
+  {
+    "n": 266,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 30
+  },
+  {
+    "n": 267,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 67
+  },
+  {
+    "n": 268,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 56
+  },
+  {
+    "n": 269,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 30
+  },
+  {
+    "n": 270,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 59
+  },
+  {
+    "n": 271,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 199
+  },
+  {
+    "n": 272,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 148
+  },
+  {
+    "n": 273,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 125
+  },
+  {
+    "n": 290,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 30
+  },
+  {
+    "n": 291,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 30
+  },
+  {
+    "n": 292,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 31
+  },
+  {
+    "n": 293,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 31
+  },
+  {
+    "n": 294,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 29
+  },
+  {
+    "n": 295,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 296,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 297,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 30
+  },
+  {
+    "n": 298,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 299,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 300,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 301,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 302,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 303,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 122
+  },
+  {
+    "n": 304,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 73
+  },
+  {
+    "n": 305,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 74
+  },
+  {
+    "n": 306,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 307,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 204
+  },
+  {
+    "n": 308,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 230
+  },
+  {
+    "n": 325,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 326,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 327,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 33
+  },
+  {
+    "n": 328,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 33
+  },
+  {
+    "n": 329,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 31
+  },
+  {
+    "n": 330,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 29
+  },
+  {
+    "n": 331,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 34
+  },
+  {
+    "n": 332,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 333,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 58
+  },
+  {
+    "n": 334,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 241
+  },
+  {
+    "n": 335,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 34
+  },
+  {
+    "n": 336,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 34
+  },
+  {
+    "n": 337,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 34
+  },
+  {
+    "n": 338,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 450
+  },
+  {
+    "n": 339,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 34
+  },
+  {
+    "n": 340,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 72
+  },
+  {
+    "n": 341,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 34
+  },
+  {
+    "n": 342,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 202
+  },
+  {
+    "n": 343,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 201
+  },
+  {
+    "n": 344,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 208
+  },
+  {
+    "n": 362,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 34
+  },
+  {
+    "n": 363,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 34
+  },
+  {
+    "n": 364,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 34
+  },
+  {
+    "n": 365,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 35
+  },
+  {
+    "n": 366,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 33
+  },
+  {
+    "n": 367,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 31
+  },
+  {
+    "n": 368,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 31
+  },
+  {
+    "n": 369,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 370,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 52
+  },
+  {
+    "n": 371,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 372,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 95
+  },
+  {
+    "n": 373,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 374,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 375,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 224
+  },
+  {
+    "n": 376,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 522
+  },
+  {
+    "n": 377,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 129
+  },
+  {
+    "n": 378,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 73
+  },
+  {
+    "n": 379,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 70
+  },
+  {
+    "n": 380,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 381,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 246
+  },
+  {
+    "n": 382,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 257
+  },
+  {
+    "n": 401,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 402,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 403,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 404,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 37
+  },
+  {
+    "n": 405,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 37
+  },
+  {
+    "n": 406,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 35
+  },
+  {
+    "n": 407,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 33
+  },
+  {
+    "n": 408,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 409,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 410,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 81
+  },
+  {
+    "n": 411,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 272
+  },
+  {
+    "n": 412,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 413,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 224
+  },
+  {
+    "n": 414,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 415,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 357
+  },
+  {
+    "n": 416,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 447
+  },
+  {
+    "n": 417,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 583
+  },
+  {
+    "n": 418,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 498
+  },
+  {
+    "n": 419,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 161
+  },
+  {
+    "n": 420,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 209
+  },
+  {
+    "n": 421,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 263
+  },
+  {
+    "n": 422,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 300
+  },
+  {
+    "n": 423,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 252
+  },
+  {
+    "n": 442,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 443,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 444,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 445,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 39
+  },
+  {
+    "n": 446,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 33
+  },
+  {
+    "n": 447,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 37
+  },
+  {
+    "n": 448,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 35
+  },
+  {
+    "n": 449,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 40
+  },
+  {
+    "n": 450,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 451,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 31
+  },
+  {
+    "n": 452,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 453,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 63
+  },
+  {
+    "n": 454,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 40
+  },
+  {
+    "n": 455,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 40
+  },
+  {
+    "n": 456,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 266
+  },
+  {
+    "n": 457,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 603
+  },
+  {
+    "n": 458,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 415
+  },
+  {
+    "n": 459,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 145
+  },
+  {
+    "n": 460,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 404
+  },
+  {
+    "n": 461,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 473
+  },
+  {
+    "n": 462,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 215
+  },
+  {
+    "n": 463,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 298
+  },
+  {
+    "n": 464,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 211
+  },
+  {
+    "n": 465,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 547
+  },
+  {
+    "n": 485,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 40
+  },
+  {
+    "n": 486,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 40
+  },
+  {
+    "n": 487,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 40
+  },
+  {
+    "n": 488,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 41
+  },
+  {
+    "n": 489,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 490,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 39
+  },
+  {
+    "n": 491,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 37
+  },
+  {
+    "n": 492,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 42
+  },
+  {
+    "n": 493,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 42
+  },
+  {
+    "n": 494,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 130
+  },
+  {
+    "n": 495,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 401
+  },
+  {
+    "n": 496,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 63
+  },
+  {
+    "n": 497,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 85
+  },
+  {
+    "n": 498,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 148
+  },
+  {
+    "n": 499,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 182
+  },
+  {
+    "n": 500,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 320
+  },
+  {
+    "n": 501,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 363
+  },
+  {
+    "n": 502,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 300
+  },
+  {
+    "n": 503,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 293
+  },
+  {
+    "n": 504,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 530
+  },
+  {
+    "n": 505,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 508
+  },
+  {
+    "n": 506,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 620
+  },
+  {
+    "n": 507,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 353
+  },
+  {
+    "n": 508,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 259
+  },
+  {
+    "n": 509,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 465
+  },
+  {
+    "n": 530,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 42
+  },
+  {
+    "n": 531,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 42
+  },
+  {
+    "n": 532,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 232
+  },
+  {
+    "n": 533,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 43
+  },
+  {
+    "n": 534,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 535,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 41
+  },
+  {
+    "n": 536,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 41
+  },
+  {
+    "n": 537,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 39
+  },
+  {
+    "n": 538,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 44
+  },
+  {
+    "n": 539,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 161
+  },
+  {
+    "n": 540,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 35
+  },
+  {
+    "n": 541,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 40
+  },
+  {
+    "n": 542,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 659
+  },
+  {
+    "n": 543,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 89
+  },
+  {
+    "n": 544,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 475
+  },
+  {
+    "n": 545,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 46
+  },
+  {
+    "n": 546,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 369
+  },
+  {
+    "n": 547,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 324
+  },
+  {
+    "n": 548,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 549,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 232
+  },
+  {
+    "n": 550,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 203
+  },
+  {
+    "n": 551,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 555
+  },
+  {
+    "n": 552,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 630
+  },
+  {
+    "n": 553,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 368
+  },
+  {
+    "n": 554,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 542
+  },
+  {
+    "n": 555,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 674
+  },
+  {
+    "n": 577,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 44
+  },
+  {
+    "n": 578,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 44
+  },
+  {
+    "n": 579,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 45
+  },
+  {
+    "n": 580,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 45
+  },
+  {
+    "n": 581,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 40
+  },
+  {
+    "n": 582,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 321
+  },
+  {
+    "n": 583,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 43
+  },
+  {
+    "n": 584,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 585,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 46
+  },
+  {
+    "n": 586,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 46
+  },
+  {
+    "n": 587,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 37
+  },
+  {
+    "n": 588,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 276
+  },
+  {
+    "n": 589,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 42
+  },
+  {
+    "n": 590,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 56
+  },
+  {
+    "n": 591,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 262
+  },
+  {
+    "n": 592,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 46
+  },
+  {
+    "n": 593,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 594,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 332
+  },
+  {
+    "n": 595,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 329
+  },
+  {
+    "n": 596,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 200
+  },
+  {
+    "n": 597,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 177
+  },
+  {
+    "n": 598,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 777
+  },
+  {
+    "n": 599,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 146
+  },
+  {
+    "n": 600,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 601,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 602,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 772
+  },
+  {
+    "n": 603,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 116
+  },
+  {
+    "n": 604,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 278
+  },
+  {
+    "n": 626,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 41
+  },
+  {
+    "n": 627,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 46
+  },
+  {
+    "n": 628,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 46
+  },
+  {
+    "n": 629,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 47
+  },
+  {
+    "n": 630,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 60
+  },
+  {
+    "n": 631,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 35
+  },
+  {
+    "n": 632,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 45
+  },
+  {
+    "n": 633,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 45
+  },
+  {
+    "n": 634,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 48
+  },
+  {
+    "n": 635,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 48
+  },
+  {
+    "n": 636,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 41
+  },
+  {
+    "n": 637,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 148
+  },
+  {
+    "n": 638,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 269
+  },
+  {
+    "n": 639,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 613
+  },
+  {
+    "n": 640,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 65
+  },
+  {
+    "n": 641,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 350
+  },
+  {
+    "n": 642,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 287
+  },
+  {
+    "n": 643,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 106
+  },
+  {
+    "n": 644,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 645,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 332
+  },
+  {
+    "n": 646,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 197
+  },
+  {
+    "n": 647,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 308
+  },
+  {
+    "n": 648,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 214
+  },
+  {
+    "n": 649,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 650,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 259
+  },
+  {
+    "n": 651,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 652,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 749
+  },
+  {
+    "n": 653,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 654,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 371
+  },
+  {
+    "n": 677,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 43
+  },
+  {
+    "n": 678,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 48
+  },
+  {
+    "n": 679,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 48
+  },
+  {
+    "n": 680,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 48
+  },
+  {
+    "n": 681,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 58
+  },
+  {
+    "n": 682,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 49
+  },
+  {
+    "n": 683,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 47
+  },
+  {
+    "n": 684,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 47
+  },
+  {
+    "n": 685,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 45
+  },
+  {
+    "n": 686,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 50
+  },
+  {
+    "n": 687,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 43
+  },
+  {
+    "n": 688,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 58
+  },
+  {
+    "n": 689,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 411
+  },
+  {
+    "n": 690,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 738
+  },
+  {
+    "n": 691,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 410
+  },
+  {
+    "n": 692,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 475
+  },
+  {
+    "n": 693,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 844
+  },
+  {
+    "n": 694,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 395
+  },
+  {
+    "n": 695,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 107
+  },
+  {
+    "n": 696,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 569
+  },
+  {
+    "n": 697,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 336
+  },
+  {
+    "n": 698,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 209
+  },
+  {
+    "n": 699,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 315
+  },
+  {
+    "n": 700,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 148
+  },
+  {
+    "n": 701,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 229
+  },
+  {
+    "n": 702,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 342
+  },
+  {
+    "n": 703,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 704,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 705,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 863
+  },
+  {
+    "n": 706,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 868
+  },
+  {
+    "n": 730,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 45
+  },
+  {
+    "n": 731,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 50
+  },
+  {
+    "n": 732,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 50
+  },
+  {
+    "n": 733,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 50
+  },
+  {
+    "n": 734,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 51
+  },
+  {
+    "n": 735,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 51
+  },
+  {
+    "n": 736,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 82
+  },
+  {
+    "n": 737,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 49
+  },
+  {
+    "n": 738,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 47
+  },
+  {
+    "n": 739,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 47
+  },
+  {
+    "n": 740,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 52
+  },
+  {
+    "n": 741,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 60
+  },
+  {
+    "n": 742,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 375
+  },
+  {
+    "n": 743,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 255
+  },
+  {
+    "n": 744,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 341
+  },
+  {
+    "n": 745,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 328
+  },
+  {
+    "n": 746,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 78
+  },
+  {
+    "n": 747,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 42
+  },
+  {
+    "n": 748,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 149
+  },
+  {
+    "n": 749,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 232
+  },
+  {
+    "n": 750,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 514
+  },
+  {
+    "n": 751,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 341
+  },
+  {
+    "n": 752,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 261
+  },
+  {
+    "n": 753,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 319
+  },
+  {
+    "n": 754,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 313
+  },
+  {
+    "n": 755,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 293
+  },
+  {
+    "n": 756,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 226
+  },
+  {
+    "n": 757,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 974
+  },
+  {
+    "n": 758,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 629
+  },
+  {
+    "n": 759,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 727
+  },
+  {
+    "n": 760,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 351
+  },
+  {
+    "n": 761,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 208
+  },
+  {
+    "n": 785,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 47
+  },
+  {
+    "n": 786,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 52
+  },
+  {
+    "n": 787,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 52
+  },
+  {
+    "n": 788,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 52
+  },
+  {
+    "n": 789,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 53
+  },
+  {
+    "n": 790,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 53
+  },
+  {
+    "n": 791,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 46
+  },
+  {
+    "n": 792,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 51
+  },
+  {
+    "n": 793,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 49
+  },
+  {
+    "n": 794,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 49
+  },
+  {
+    "n": 795,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 54
+  },
+  {
+    "n": 796,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 64
+  },
+  {
+    "n": 797,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 322
+  },
+  {
+    "n": 798,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 420
+  },
+  {
+    "n": 799,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 419
+  },
+  {
+    "n": 800,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 333
+  },
+  {
+    "n": 801,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 592
+  },
+  {
+    "n": 802,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 341
+  },
+  {
+    "n": 803,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 54
+  },
+  {
+    "n": 804,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 774
+  },
+  {
+    "n": 805,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 136
+  },
+  {
+    "n": 806,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 395
+  },
+  {
+    "n": 807,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 339
+  },
+  {
+    "n": 808,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 1101
+  },
+  {
+    "n": 809,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 743
+  },
+  {
+    "n": 810,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 314
+  },
+  {
+    "n": 811,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 222
+  },
+  {
+    "n": 812,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 194
+  },
+  {
+    "n": 813,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 326
+  },
+  {
+    "n": 814,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 655
+  },
+  {
+    "n": 815,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 322
+  },
+  {
+    "n": 816,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 986
+  },
+  {
+    "n": 817,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 373
+  },
+  {
+    "n": 842,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 49
+  },
+  {
+    "n": 843,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 54
+  },
+  {
+    "n": 844,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 54
+  },
+  {
+    "n": 845,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 54
+  },
+  {
+    "n": 846,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 55
+  },
+  {
+    "n": 847,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 50
+  },
+  {
+    "n": 848,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 48
+  },
+  {
+    "n": 849,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 48
+  },
+  {
+    "n": 850,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 53
+  },
+  {
+    "n": 851,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 51
+  },
+  {
+    "n": 852,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 56
+  },
+  {
+    "n": 853,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 56
+  },
+  {
+    "n": 854,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 83
+  },
+  {
+    "n": 855,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 42
+  },
+  {
+    "n": 856,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 244
+  },
+  {
+    "n": 857,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 1022
+  },
+  {
+    "n": 858,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 859,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 860,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 861,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 111
+  },
+  {
+    "n": 862,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 863,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 864,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 865,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 317
+  },
+  {
+    "n": 866,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 383
+  },
+  {
+    "n": 867,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 868,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 970
+  },
+  {
+    "n": 869,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 381
+  },
+  {
+    "n": 870,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 231
+  },
+  {
+    "n": 871,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 356
+  },
+  {
+    "n": 872,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 873,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 874,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 729
+  },
+  {
+    "n": 875,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 313
+  },
+  {
+    "n": 901,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 51
+  },
+  {
+    "n": 902,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 56
+  },
+  {
+    "n": 903,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 56
+  },
+  {
+    "n": 904,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 905,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 57
+  },
+  {
+    "n": 906,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 57
+  },
+  {
+    "n": 907,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1
+  },
+  {
+    "n": 908,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 50
+  },
+  {
+    "n": 909,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 55
+  },
+  {
+    "n": 910,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 53
+  },
+  {
+    "n": 911,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 58
+  },
+  {
+    "n": 912,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 58
+  },
+  {
+    "n": 913,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 51
+  },
+  {
+    "n": 914,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 369
+  },
+  {
+    "n": 915,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 453
+  },
+  {
+    "n": 916,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 917,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 362
+  },
+  {
+    "n": 918,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 809
+  },
+  {
+    "n": 919,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 920,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 921,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 404
+  },
+  {
+    "n": 922,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 923,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 222
+  },
+  {
+    "n": 924,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 404
+  },
+  {
+    "n": 925,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 355
+  },
+  {
+    "n": 926,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 927,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 285
+  },
+  {
+    "n": 928,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 929,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 930,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 423
+  },
+  {
+    "n": 931,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 350
+  },
+  {
+    "n": 932,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 111
+  },
+  {
+    "n": 933,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 349
+  },
+  {
+    "n": 934,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 935,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 336
+  },
+  {
+    "n": 962,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 53
+  },
+  {
+    "n": 963,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 58
+  },
+  {
+    "n": 964,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 58
+  },
+  {
+    "n": 965,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 59
+  },
+  {
+    "n": 966,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 59
+  },
+  {
+    "n": 967,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 59
+  },
+  {
+    "n": 968,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 239
+  },
+  {
+    "n": 969,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 52
+  },
+  {
+    "n": 970,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 57
+  },
+  {
+    "n": 971,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 55
+  },
+  {
+    "n": 972,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 55
+  },
+  {
+    "n": 973,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 60
+  },
+  {
+    "n": 974,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 60
+  },
+  {
+    "n": 975,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 68
+  },
+  {
+    "n": 976,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 977,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 978,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 152
+  },
+  {
+    "n": 979,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 301
+  },
+  {
+    "n": 980,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 412
+  },
+  {
+    "n": 981,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 982,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 293
+  },
+  {
+    "n": 983,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 984,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 985,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 967
+  },
+  {
+    "n": 986,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 398
+  },
+  {
+    "n": 987,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 346
+  },
+  {
+    "n": 988,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 372
+  },
+  {
+    "n": 989,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 990,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 427
+  },
+  {
+    "n": 991,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 428
+  },
+  {
+    "n": 992,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 230
+  },
+  {
+    "n": 993,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 994,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 86
+  },
+  {
+    "n": 995,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 516
+  },
+  {
+    "n": 996,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 332
+  },
+  {
+    "n": 997,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 425
+  },
+  {
+    "n": 998,
+    "epoch": 0,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 699
+  },
+  {
+    "n": 5,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 2,
+    "lp_status": 0,
+    "stressed_contacts": 2
+  },
+  {
+    "n": 10,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 15,
+    "lp_status": 0,
+    "stressed_contacts": 4
+  },
+  {
+    "n": 11,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 28,
+    "lp_status": 0,
+    "stressed_contacts": 4
+  },
+  {
+    "n": 17,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 54,
+    "lp_status": 0,
+    "stressed_contacts": 10
+  },
+  {
+    "n": 18,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 64,
+    "lp_status": 0,
+    "stressed_contacts": 6
+  },
+  {
+    "n": 19,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 72,
+    "lp_status": 0,
+    "stressed_contacts": 7
+  },
+  {
+    "n": 26,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 113,
+    "lp_status": 0,
+    "stressed_contacts": 7
+  },
+  {
+    "n": 27,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 106,
+    "lp_status": 0,
+    "stressed_contacts": 8
+  },
+  {
+    "n": 28,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 104,
+    "lp_status": 0,
+    "stressed_contacts": 10
+  },
+  {
+    "n": 29,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 139,
+    "lp_status": 0,
+    "stressed_contacts": 14
+  },
+  {
+    "n": 37,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 9
+  },
+  {
+    "n": 38,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 10
+  },
+  {
+    "n": 39,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 11
+  },
+  {
+    "n": 40,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 12
+  },
+  {
+    "n": 41,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 19
+  },
+  {
+    "n": 50,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 11
+  },
+  {
+    "n": 51,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 13
+  },
+  {
+    "n": 52,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 12
+  },
+  {
+    "n": 53,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 29
+  },
+  {
+    "n": 54,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 12
+  },
+  {
+    "n": 55,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 24
+  },
+  {
+    "n": 65,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 12
+  },
+  {
+    "n": 66,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 11
+  },
+  {
+    "n": 67,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 14
+  },
+  {
+    "n": 68,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 52
+  },
+  {
+    "n": 69,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 14
+  },
+  {
+    "n": 70,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 14
+  },
+  {
+    "n": 71,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 44
+  },
+  {
+    "n": 82,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 14
+  },
+  {
+    "n": 83,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 29
+  },
+  {
+    "n": 84,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 29
+  },
+  {
+    "n": 85,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 14
+  },
+  {
+    "n": 86,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 30
+  },
+  {
+    "n": 87,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 45
+  },
+  {
+    "n": 88,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 16
+  },
+  {
+    "n": 89,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 14
+  },
+  {
+    "n": 101,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 16
+  },
+  {
+    "n": 102,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 17
+  },
+  {
+    "n": 103,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 104,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 18
+  },
+  {
+    "n": 105,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 43
+  },
+  {
+    "n": 106,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 18
+  },
+  {
+    "n": 107,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 18
+  },
+  {
+    "n": 108,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 109,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 16
+  },
+  {
+    "n": 110,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 75
+  },
+  {
+    "n": 122,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 18
+  },
+  {
+    "n": 123,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 19
+  },
+  {
+    "n": 124,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 23
+  },
+  {
+    "n": 125,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 20
+  },
+  {
+    "n": 126,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 30
+  },
+  {
+    "n": 127,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 54
+  },
+  {
+    "n": 128,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 20
+  },
+  {
+    "n": 129,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 33
+  },
+  {
+    "n": 130,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 39
+  },
+  {
+    "n": 131,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 20
+  },
+  {
+    "n": 132,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 27
+  },
+  {
+    "n": 145,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 20
+  },
+  {
+    "n": 146,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 21
+  },
+  {
+    "n": 147,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 26
+  },
+  {
+    "n": 148,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 19
+  },
+  {
+    "n": 149,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 22
+  },
+  {
+    "n": 150,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 18
+  },
+  {
+    "n": 151,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 22
+  },
+  {
+    "n": 152,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 22
+  },
+  {
+    "n": 153,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 22
+  },
+  {
+    "n": 154,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 91
+  },
+  {
+    "n": 155,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 117
+  },
+  {
+    "n": 156,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 117
+  },
+  {
+    "n": 170,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 22
+  },
+  {
+    "n": 171,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 23
+  },
+  {
+    "n": 172,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 23
+  },
+  {
+    "n": 173,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 21
+  },
+  {
+    "n": 174,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 24
+  },
+  {
+    "n": 175,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 26
+  },
+  {
+    "n": 176,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 52
+  },
+  {
+    "n": 177,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 24
+  },
+  {
+    "n": 178,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 24
+  },
+  {
+    "n": 179,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 27
+  },
+  {
+    "n": 180,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 69
+  },
+  {
+    "n": 181,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 58
+  },
+  {
+    "n": 182,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 53
+  },
+  {
+    "n": 183,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 143
+  },
+  {
+    "n": 197,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 24
+  },
+  {
+    "n": 198,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 25
+  },
+  {
+    "n": 199,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 25
+  },
+  {
+    "n": 200,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 23
+  },
+  {
+    "n": 201,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 26
+  },
+  {
+    "n": 202,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 19
+  },
+  {
+    "n": 203,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 22
+  },
+  {
+    "n": 204,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 116
+  },
+  {
+    "n": 205,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 26
+  },
+  {
+    "n": 206,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 53
+  },
+  {
+    "n": 207,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 26
+  },
+  {
+    "n": 208,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 162
+  },
+  {
+    "n": 209,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 79
+  },
+  {
+    "n": 210,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 83
+  },
+  {
+    "n": 211,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 226,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 26
+  },
+  {
+    "n": 227,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 27
+  },
+  {
+    "n": 228,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 34
+  },
+  {
+    "n": 229,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 105
+  },
+  {
+    "n": 230,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 25
+  },
+  {
+    "n": 231,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 232,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 30
+  },
+  {
+    "n": 233,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 24
+  },
+  {
+    "n": 234,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 235,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 236,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 105
+  },
+  {
+    "n": 237,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 238,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 180
+  },
+  {
+    "n": 239,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 56
+  },
+  {
+    "n": 240,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 210
+  },
+  {
+    "n": 241,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 257,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 258,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 29
+  },
+  {
+    "n": 259,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 29
+  },
+  {
+    "n": 260,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 29
+  },
+  {
+    "n": 261,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 262,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 30
+  },
+  {
+    "n": 263,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 264,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 29
+  },
+  {
+    "n": 265,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 26
+  },
+  {
+    "n": 266,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 30
+  },
+  {
+    "n": 267,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 72
+  },
+  {
+    "n": 268,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 45
+  },
+  {
+    "n": 269,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 67
+  },
+  {
+    "n": 270,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 69
+  },
+  {
+    "n": 271,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 226
+  },
+  {
+    "n": 272,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 115
+  },
+  {
+    "n": 273,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 207
+  },
+  {
+    "n": 290,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 30
+  },
+  {
+    "n": 291,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 30
+  },
+  {
+    "n": 292,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 31
+  },
+  {
+    "n": 293,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 31
+  },
+  {
+    "n": 294,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 29
+  },
+  {
+    "n": 295,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 296,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 297,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 30
+  },
+  {
+    "n": 298,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 28
+  },
+  {
+    "n": 299,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 300,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 301,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 302,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 49
+  },
+  {
+    "n": 303,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 107
+  },
+  {
+    "n": 304,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 67
+  },
+  {
+    "n": 305,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 230
+  },
+  {
+    "n": 306,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 307,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 204
+  },
+  {
+    "n": 308,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 243
+  },
+  {
+    "n": 325,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 326,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 327,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 33
+  },
+  {
+    "n": 328,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 33
+  },
+  {
+    "n": 329,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 31
+  },
+  {
+    "n": 330,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 29
+  },
+  {
+    "n": 331,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 34
+  },
+  {
+    "n": 332,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 333,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 119
+  },
+  {
+    "n": 334,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 247
+  },
+  {
+    "n": 335,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 34
+  },
+  {
+    "n": 336,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 34
+  },
+  {
+    "n": 337,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 34
+  },
+  {
+    "n": 338,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 339,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 90
+  },
+  {
+    "n": 340,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 61
+  },
+  {
+    "n": 341,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 34
+  },
+  {
+    "n": 342,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 205
+  },
+  {
+    "n": 343,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 43
+  },
+  {
+    "n": 344,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 243
+  },
+  {
+    "n": 362,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 34
+  },
+  {
+    "n": 363,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 34
+  },
+  {
+    "n": 364,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 35
+  },
+  {
+    "n": 365,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 35
+  },
+  {
+    "n": 366,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 33
+  },
+  {
+    "n": 367,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 31
+  },
+  {
+    "n": 368,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 31
+  },
+  {
+    "n": 369,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 370,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 52
+  },
+  {
+    "n": 371,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 32
+  },
+  {
+    "n": 372,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 93
+  },
+  {
+    "n": 373,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 374,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 375,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 376,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 377,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 162
+  },
+  {
+    "n": 378,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 73
+  },
+  {
+    "n": 379,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 99
+  },
+  {
+    "n": 380,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 86
+  },
+  {
+    "n": 381,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 189
+  },
+  {
+    "n": 382,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 296
+  },
+  {
+    "n": 401,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 402,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 403,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 404,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 37
+  },
+  {
+    "n": 405,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 37
+  },
+  {
+    "n": 406,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 35
+  },
+  {
+    "n": 407,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 33
+  },
+  {
+    "n": 408,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 409,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 410,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 110
+  },
+  {
+    "n": 411,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 210
+  },
+  {
+    "n": 412,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 413,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 213
+  },
+  {
+    "n": 414,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 415,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 416,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 417,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 418,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 419,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 170
+  },
+  {
+    "n": 420,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 151
+  },
+  {
+    "n": 421,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 170
+  },
+  {
+    "n": 422,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 303
+  },
+  {
+    "n": 423,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 442,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 443,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 444,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 445,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 39
+  },
+  {
+    "n": 446,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 39
+  },
+  {
+    "n": 447,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 37
+  },
+  {
+    "n": 448,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 35
+  },
+  {
+    "n": 449,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 40
+  },
+  {
+    "n": 450,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 451,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 452,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 453,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 454,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 40
+  },
+  {
+    "n": 455,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 40
+  },
+  {
+    "n": 456,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 457,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 596
+  },
+  {
+    "n": 458,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 459,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 130
+  },
+  {
+    "n": 460,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 461,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 462,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 67
+  },
+  {
+    "n": 463,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 464,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 345
+  },
+  {
+    "n": 465,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 577
+  },
+  {
+    "n": 485,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 40
+  },
+  {
+    "n": 486,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 40
+  },
+  {
+    "n": 487,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 40
+  },
+  {
+    "n": 488,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 41
+  },
+  {
+    "n": 489,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 490,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 39
+  },
+  {
+    "n": 491,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 37
+  },
+  {
+    "n": 492,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 42
+  },
+  {
+    "n": 493,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 42
+  },
+  {
+    "n": 494,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 495,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 496,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 63
+  },
+  {
+    "n": 497,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 85
+  },
+  {
+    "n": 498,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 158
+  },
+  {
+    "n": 499,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 202
+  },
+  {
+    "n": 500,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 501,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 502,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 503,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 504,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 505,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 506,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 507,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 353
+  },
+  {
+    "n": 508,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 281
+  },
+  {
+    "n": 509,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 530,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 42
+  },
+  {
+    "n": 531,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 42
+  },
+  {
+    "n": 532,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 533,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 43
+  },
+  {
+    "n": 534,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 38
+  },
+  {
+    "n": 535,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 41
+  },
+  {
+    "n": 536,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 41
+  },
+  {
+    "n": 537,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 39
+  },
+  {
+    "n": 538,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 44
+  },
+  {
+    "n": 539,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 540,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 42
+  },
+  {
+    "n": 541,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 40
+  },
+  {
+    "n": 542,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 543,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 78
+  },
+  {
+    "n": 544,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 545,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 46
+  },
+  {
+    "n": 546,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 547,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 548,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 549,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 216
+  },
+  {
+    "n": 550,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 213
+  },
+  {
+    "n": 551,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 552,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 553,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 331
+  },
+  {
+    "n": 554,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 555,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 577,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 44
+  },
+  {
+    "n": 578,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 44
+  },
+  {
+    "n": 579,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 45
+  },
+  {
+    "n": 580,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 45
+  },
+  {
+    "n": 581,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 40
+  },
+  {
+    "n": 582,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 583,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 43
+  },
+  {
+    "n": 584,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 36
+  },
+  {
+    "n": 585,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 46
+  },
+  {
+    "n": 586,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 46
+  },
+  {
+    "n": 587,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 37
+  },
+  {
+    "n": 588,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 297
+  },
+  {
+    "n": 589,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 42
+  },
+  {
+    "n": 590,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 87
+  },
+  {
+    "n": 591,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 288
+  },
+  {
+    "n": 592,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 46
+  },
+  {
+    "n": 593,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 256
+  },
+  {
+    "n": 594,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 350
+  },
+  {
+    "n": 595,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 596,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 235
+  },
+  {
+    "n": 597,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 167
+  },
+  {
+    "n": 598,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 599,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 145
+  },
+  {
+    "n": 600,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 601,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 602,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 603,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 180
+  },
+  {
+    "n": 604,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 296
+  },
+  {
+    "n": 626,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 41
+  },
+  {
+    "n": 627,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 46
+  },
+  {
+    "n": 628,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 46
+  },
+  {
+    "n": 629,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 47
+  },
+  {
+    "n": 630,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 108
+  },
+  {
+    "n": 631,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 35
+  },
+  {
+    "n": 632,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 45
+  },
+  {
+    "n": 633,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 45
+  },
+  {
+    "n": 634,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 48
+  },
+  {
+    "n": 635,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 48
+  },
+  {
+    "n": 636,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 41
+  },
+  {
+    "n": 637,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 152
+  },
+  {
+    "n": 638,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 639,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 640,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 641,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 642,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 643,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 644,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 645,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 646,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 189
+  },
+  {
+    "n": 647,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 648,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 242
+  },
+  {
+    "n": 649,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 650,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 651,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 652,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 653,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 654,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 449
+  },
+  {
+    "n": 677,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 43
+  },
+  {
+    "n": 678,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 48
+  },
+  {
+    "n": 679,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 48
+  },
+  {
+    "n": 680,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 48
+  },
+  {
+    "n": 681,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 49
+  },
+  {
+    "n": 682,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 49
+  },
+  {
+    "n": 683,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 47
+  },
+  {
+    "n": 684,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 47
+  },
+  {
+    "n": 685,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 45
+  },
+  {
+    "n": 686,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 50
+  },
+  {
+    "n": 687,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 43
+  },
+  {
+    "n": 688,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 43
+  },
+  {
+    "n": 689,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 690,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 691,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 692,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1
+  },
+  {
+    "n": 693,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 694,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 695,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 696,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 697,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 698,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 231
+  },
+  {
+    "n": 699,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 700,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 701,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 702,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 703,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 704,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 705,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1
+  },
+  {
+    "n": 706,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1
+  },
+  {
+    "n": 730,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 45
+  },
+  {
+    "n": 731,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 50
+  },
+  {
+    "n": 732,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 50
+  },
+  {
+    "n": 733,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 50
+  },
+  {
+    "n": 734,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 51
+  },
+  {
+    "n": 735,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 51
+  },
+  {
+    "n": 736,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 82
+  },
+  {
+    "n": 737,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 49
+  },
+  {
+    "n": 738,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 246
+  },
+  {
+    "n": 739,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 740,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 52
+  },
+  {
+    "n": 741,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 61
+  },
+  {
+    "n": 742,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 383
+  },
+  {
+    "n": 743,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 262
+  },
+  {
+    "n": 744,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 304
+  },
+  {
+    "n": 745,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 746,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 747,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 39
+  },
+  {
+    "n": 748,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 749,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 233
+  },
+  {
+    "n": 750,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 751,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 752,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 753,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 754,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 319
+  },
+  {
+    "n": 755,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 199
+  },
+  {
+    "n": 756,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 757,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 758,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 759,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 760,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 427
+  },
+  {
+    "n": 761,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 390
+  },
+  {
+    "n": 785,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 47
+  },
+  {
+    "n": 786,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 52
+  },
+  {
+    "n": 787,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 52
+  },
+  {
+    "n": 788,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 52
+  },
+  {
+    "n": 789,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 53
+  },
+  {
+    "n": 790,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 53
+  },
+  {
+    "n": 791,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 46
+  },
+  {
+    "n": 792,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 51
+  },
+  {
+    "n": 793,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 49
+  },
+  {
+    "n": 794,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 795,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 54
+  },
+  {
+    "n": 796,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 47
+  },
+  {
+    "n": 797,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 798,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 799,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 800,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 315
+  },
+  {
+    "n": 801,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 802,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 803,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 54
+  },
+  {
+    "n": 804,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 805,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 124
+  },
+  {
+    "n": 806,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 411
+  },
+  {
+    "n": 807,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 808,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1
+  },
+  {
+    "n": 809,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 810,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 329
+  },
+  {
+    "n": 811,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 4,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 812,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 813,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 814,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 815,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 816,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1
+  },
+  {
+    "n": 817,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 360
+  },
+  {
+    "n": 842,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 49
+  },
+  {
+    "n": 843,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 54
+  },
+  {
+    "n": 844,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 54
+  },
+  {
+    "n": 845,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 54
+  },
+  {
+    "n": 846,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 55
+  },
+  {
+    "n": 847,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 50
+  },
+  {
+    "n": 848,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 48
+  },
+  {
+    "n": 849,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 48
+  },
+  {
+    "n": 850,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 53
+  },
+  {
+    "n": 851,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1
+  },
+  {
+    "n": 852,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 56
+  },
+  {
+    "n": 853,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 56
+  },
+  {
+    "n": 854,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 67
+  },
+  {
+    "n": 855,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 42
+  },
+  {
+    "n": 856,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 266
+  },
+  {
+    "n": 857,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 858,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1
+  },
+  {
+    "n": 859,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 860,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 861,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 862,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 863,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1
+  },
+  {
+    "n": 864,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 865,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 866,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 867,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 868,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 869,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 870,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 871,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 872,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 873,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 874,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 875,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 901,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 51
+  },
+  {
+    "n": 902,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 56
+  },
+  {
+    "n": 903,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 56
+  },
+  {
+    "n": 904,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1
+  },
+  {
+    "n": 905,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 57
+  },
+  {
+    "n": 906,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 57
+  },
+  {
+    "n": 907,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 908,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 50
+  },
+  {
+    "n": 909,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 55
+  },
+  {
+    "n": 910,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 911,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 58
+  },
+  {
+    "n": 912,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 58
+  },
+  {
+    "n": 913,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 68
+  },
+  {
+    "n": 914,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 915,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 916,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 917,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 918,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 919,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 920,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 921,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 922,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 923,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 254
+  },
+  {
+    "n": 924,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 925,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 926,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 927,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 928,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 929,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 930,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 931,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 932,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 95
+  },
+  {
+    "n": 933,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 934,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 935,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 962,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 53
+  },
+  {
+    "n": 963,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 58
+  },
+  {
+    "n": 964,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 58
+  },
+  {
+    "n": 965,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 59
+  },
+  {
+    "n": 966,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 59
+  },
+  {
+    "n": 967,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 59
+  },
+  {
+    "n": 968,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 969,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 52
+  },
+  {
+    "n": 970,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 57
+  },
+  {
+    "n": 971,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 55
+  },
+  {
+    "n": 972,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 55
+  },
+  {
+    "n": 973,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 60
+  },
+  {
+    "n": 974,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 60
+  },
+  {
+    "n": 975,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 53
+  },
+  {
+    "n": 976,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 977,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 978,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 0,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 220
+  },
+  {
+    "n": 979,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 333
+  },
+  {
+    "n": 980,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 981,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1
+  },
+  {
+    "n": 982,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 983,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 984,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 985,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 986,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1
+  },
+  {
+    "n": 987,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 988,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 989,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1
+  },
+  {
+    "n": 990,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1
+  },
+  {
+    "n": 991,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 992,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1
+  },
+  {
+    "n": 993,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 1,
+    "stressed_contacts": 0
+  },
+  {
+    "n": 994,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 89
+  },
+  {
+    "n": 995,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 546
+  },
+  {
+    "n": 996,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  },
+  {
+    "n": 997,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0,
+    "stressed_contacts": 364
+  },
+  {
+    "n": 998,
+    "epoch": 1,
+    "method": "dual-guided contact surgery",
+    "status": 1,
+    "binaries": 160,
+    "lp_status": 0
+  }
+]

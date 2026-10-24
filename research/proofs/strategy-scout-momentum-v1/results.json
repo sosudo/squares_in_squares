@@ -1,0 +1,670 @@
+[
+  {
+    "slot": 0,
+    "hold": 8000,
+    "noise": ".008",
+    "seed": 1,
+    "source_input_sha256": "78828f9e8bde95b5da7b4dd3ab8291eb51fa139ae3ee80ef1bc65742defc9dd9",
+    "hardener": {
+      "status": "complete",
+      "returncode": 0,
+      "command": [
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/bin/harden",
+        "reharden",
+        "--in",
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/source/search/exact/batch/inputs/n-211.txt",
+        "--out",
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-00.harden.out",
+        "--seed",
+        "1",
+        "--r0",
+        ".2",
+        "--noise",
+        ".008",
+        "--hold",
+        "8000"
+      ],
+      "seconds": 2.433172213000944,
+      "limit_seconds": 18.0,
+      "stdout_sha256": "1d5a53d85f2b7844f621cb3ad7f1bff4487ae17efd0ee74b0a741e7ebc9479b7",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "raw_hardener_output_sha256": "c3a3fb4a703ccc77f76e1982fa0b1696648523606961ee892dc18555a8d0930e",
+    "hardener_certificate": {
+      "native_path": "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-00.harden.out",
+      "native_sha256": "c3a3fb4a703ccc77f76e1982fa0b1696648523606961ee892dc18555a8d0930e",
+      "native_declared_side": "15.09318566617689328",
+      "raw_array_sha256": "f60205d57c24b942258a27a606cf831d5f2f4772baaa5bd8ba60369a26a806d3",
+      "raw_archive_sha256": "d3899649bc1c68d80e00d22dc76f3dbbdbc445d293accd1b5c71bd9700e54ca8",
+      "n": 211,
+      "input_status": "Native text/raw arrays UNVERIFIED until unchanged gates pass",
+      "status": "certified",
+      "worst_certified_side": "15.09318569090552052972018329495769312492890486586676",
+      "certified_sides": {
+        "official_raw": "15.09318569090552041972018329495769312492890486586676",
+        "official_17g_pandas": "15.09318569090552052972018329495769312492890486586676",
+        "official_default_pandas": "15.09318569090552050972018329495769312492890486586676",
+        "interval_raw": "15.093185690905520419720183294957693124928904865866796059751633",
+        "interval_default_pandas": "15.093185690905520509720183294957693124928904865866793994044793"
+      },
+      "certificate": {
+        "valid": true,
+        "shared_official_gate": {
+          "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "raw_reason": "ok",
+          "roundtrip_reason": "ok",
+          "raw_side": "15.09318569090552041972018329495769312492890486586676",
+          "roundtrip_side": "15.09318569090552052972018329495769312492890486586676",
+          "valid": true
+        },
+        "ordinary_pandas_official_reason": "ok",
+        "ordinary_pandas_official_side": "15.09318569090552050972018329495769312492890486586676",
+        "independent_raw": {
+          "n": 211,
+          "valid": true,
+          "side_lower": "15.093185690905520419720183294957693124928904865866710531280909",
+          "side_upper": "15.093185690905520419720183294957693124928904865866796059751633",
+          "score_lower": "0.039057753756039175367290405850432001615505853337830672672401",
+          "score_upper": "0.039057753756039175367290405850432001615505853337841363731243",
+          "interval_pairs": 343,
+          "exact_pairs": 0
+        },
+        "independent_roundtrip": {
+          "n": 211,
+          "valid": true,
+          "side_lower": "15.093185690905520509720183294957693124928904865866729847691750",
+          "side_upper": "15.093185690905520509720183294957693124928904865866793994044793",
+          "score_lower": "0.039057753756039181563145923244059992845781711581221842372126",
+          "score_upper": "0.039057753756039181563145923244059992845781711581229860666258",
+          "interval_pairs": 343,
+          "exact_pairs": 0
+        },
+        "raw_csv_sha256": "4395abdd6a846a7d589862444652158043a30cdefd87d75edafc9aa677a9e30d",
+        "ordinary_pandas_csv_sha256": "cc09dc4ad5794632118018833d177b6e80f10291a33e6481451f2ad37309cf7a"
+      },
+      "geometry_sha256": "460dbfe3e03953e0cd0d6bd3f3277c91ea2511c87c84b1067a857f3f1e49ee47",
+      "certified_archive_sha256": "d24dd5195d06f0594d1a9a56e07fcbebf8ba7ba681d8c8fdbc1140577ede6097",
+      "decoded_differs_from_raw": true,
+      "clearance_policy": "Unchanged fq_active_pilot.decode/compose_gadgets.legalize; output validity applies to exact retained decoded .17g geometry, not an unchecked native header."
+    },
+    "native_polish": {
+      "status": "complete",
+      "returncode": 0,
+      "command": [
+        "/tmp/squares-fq-portable-target/release/fq",
+        "quench",
+        "--in",
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-00.harden.out",
+        "--out",
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-00.polish.out",
+        "--loosen",
+        "1",
+        "--no-alm",
+        "--seed",
+        "1"
+      ],
+      "seconds": 3.58744432599633,
+      "limit_seconds": 10.0,
+      "stdout_sha256": "39270210f9594e6f0976952280c5efc4db4a0ab87d8b719380d2b2170687a333",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "polish_certificate": {
+      "native_path": "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-00.polish.out",
+      "native_sha256": "bda1f99a38a2676d100133b27a4c9707bd88fc6992d655796fbcd1f3baf23627",
+      "native_declared_side": "15.00599402362115953",
+      "raw_array_sha256": "4da708e8e3600d87832a6b0ff58fe4744212fb97e308ee9f56c820704392ccdf",
+      "raw_archive_sha256": "65c07e7d1b9e0a0cd3bd204e2fa3925f4b96292ab86578080c11b5132e6c64de",
+      "n": 211,
+      "input_status": "Native text/raw arrays UNVERIFIED until unchanged gates pass",
+      "status": "certified",
+      "worst_certified_side": "15.005994051630093518307851404231817577568653994418893484136272",
+      "certified_sides": {
+        "official_raw": "15.00599405163009351830785140423181757756865399441885",
+        "official_17g_pandas": "15.00599405163009253830785140423192142383299232239743",
+        "official_default_pandas": "15.00599405163009254830785140423191142383299232240720",
+        "interval_raw": "15.005994051630093518307851404231817577568653994418893484136272",
+        "interval_default_pandas": "15.005994051630092548307851404231911423832992322407230180828821"
+      },
+      "certificate": {
+        "valid": true,
+        "shared_official_gate": {
+          "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "raw_reason": "ok",
+          "roundtrip_reason": "ok",
+          "raw_side": "15.00599405163009351830785140423181757756865399441885",
+          "roundtrip_side": "15.00599405163009253830785140423192142383299232239743",
+          "valid": true
+        },
+        "ordinary_pandas_official_reason": "ok",
+        "ordinary_pandas_official_side": "15.00599405163009254830785140423191142383299232240720",
+        "independent_raw": {
+          "n": 211,
+          "valid": true,
+          "side_lower": "15.005994051630093518307851404231817577568653994418829337783229",
+          "side_upper": "15.005994051630093518307851404231817577568653994418893484136272",
+          "score_lower": "0.033055233764091967373225153034598166003946675536558711293128",
+          "score_upper": "0.033055233764091967373225153034598166003946675536569402351970",
+          "interval_pairs": 224,
+          "exact_pairs": 0
+        },
+        "independent_roundtrip": {
+          "n": 211,
+          "valid": true,
+          "side_lower": "15.005994051630092548307851404231911423832992322407166034475778",
+          "side_upper": "15.005994051630092548307851404231911423832992322407230180828821",
+          "score_lower": "0.033055233764091900595671243347725165609803396806021093120058",
+          "score_upper": "0.033055233764091900595671243347725165609803396806029111414189",
+          "interval_pairs": 224,
+          "exact_pairs": 0
+        },
+        "raw_csv_sha256": "1bbd33ca79baeb011f90f7e4b3c625e4912d7d4d00e777137dcdc13755538da3",
+        "ordinary_pandas_csv_sha256": "9c0299bc4b9be4655f3031683894cc0353d1c3bf39ba3e51304a4b3cacd6cb13"
+      },
+      "geometry_sha256": "cba4c2e4c352e37047ff770703a6e5600b93492002b9911ebe205c53068eaf0a",
+      "certified_archive_sha256": "13c0ccce89474ee0b50e12ac81b8545597ed696e8d6e5a167f9481cce50c4099",
+      "decoded_differs_from_raw": true,
+      "clearance_policy": "Unchanged fq_active_pilot.decode/compose_gadgets.legalize; output validity applies to exact retained decoded .17g geometry, not an unchecked native header."
+    }
+  },
+  {
+    "slot": 1,
+    "hold": 30000,
+    "noise": ".004",
+    "seed": 1,
+    "source_input_sha256": "78828f9e8bde95b5da7b4dd3ab8291eb51fa139ae3ee80ef1bc65742defc9dd9",
+    "hardener": {
+      "status": "complete",
+      "returncode": 0,
+      "command": [
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/bin/harden",
+        "reharden",
+        "--in",
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/source/search/exact/batch/inputs/n-211.txt",
+        "--out",
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-01.harden.out",
+        "--seed",
+        "1",
+        "--r0",
+        ".2",
+        "--noise",
+        ".004",
+        "--hold",
+        "30000"
+      ],
+      "seconds": 6.388754225998127,
+      "limit_seconds": 18.0,
+      "stdout_sha256": "10c13169a0dab33f41cdd3d99309d3d7abaaac4ab4f48dfe7d0c1d410f8dc480",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "raw_hardener_output_sha256": "8cf13251f840d73a45e95c2e75874d72ec8fb97f08ae2f569a175914eee3a509",
+    "hardener_certificate": {
+      "native_path": "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-01.harden.out",
+      "native_sha256": "8cf13251f840d73a45e95c2e75874d72ec8fb97f08ae2f569a175914eee3a509",
+      "native_declared_side": "15.01529566496697399",
+      "raw_array_sha256": "878a933895db57e2fa9a5b850d576c145be4646536a226f9708bf3bc6211592e",
+      "raw_archive_sha256": "ee4447cb300a5323d368657e6075dcddee0a8e2bded034821826947f0e504425",
+      "n": 211,
+      "input_status": "Native text/raw arrays UNVERIFIED until unchanged gates pass",
+      "status": "certified",
+      "worst_certified_side": "15.015295692983380467866264955735833213057651919943700167022015",
+      "certified_sides": {
+        "official_raw": "15.01529569298338046786626495573583321305765191994367",
+        "official_17g_pandas": "15.01529569298338036786626504716273517798421304749202",
+        "official_default_pandas": "15.01529569298338031786626504716273517798421304749202",
+        "interval_raw": "15.015295692983380467866264955735833213057651919943700167022015",
+        "interval_default_pandas": "15.015295692983380317866265047162735177984213047492053698619658"
+      },
+      "certificate": {
+        "valid": true,
+        "shared_official_gate": {
+          "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "raw_reason": "ok",
+          "roundtrip_reason": "ok",
+          "raw_side": "15.01529569298338046786626495573583321305765191994367",
+          "roundtrip_side": "15.01529569298338036786626504716273517798421304749202",
+          "valid": true
+        },
+        "ordinary_pandas_official_reason": "ok",
+        "ordinary_pandas_official_side": "15.01529569298338031786626504716273517798421304749202",
+        "independent_raw": {
+          "n": 211,
+          "valid": true,
+          "side_lower": "15.015295692983380467866264955735833213057651919943636020668972",
+          "side_upper": "15.015295692983380467866264955735833213057651919943700167022015",
+          "score_lower": "0.033695585162976186027743332184605009606251979478342832153335",
+          "score_upper": "0.033695585162976186027743332184605009606251979478350850447466",
+          "interval_pairs": 466,
+          "exact_pairs": 0
+        },
+        "independent_roundtrip": {
+          "n": 211,
+          "valid": true,
+          "side_lower": "15.015295692983380317866265047162735177984213047491968170148934",
+          "side_upper": "15.015295692983380317866265047162735177984213047492053698619658",
+          "score_lower": "0.033695585162976175701317476155979190640198460481802441289831",
+          "score_upper": "0.033695585162976175701317476155979190640198460481813132348672",
+          "interval_pairs": 466,
+          "exact_pairs": 0
+        },
+        "raw_csv_sha256": "b1d78b396c83b962a9ecc0ddb71cb9893b58eb026bb8338968581960596b9bf0",
+        "ordinary_pandas_csv_sha256": "58f0a635e0eda80be45e32ea8078297b322659ddbfb3237c1cf28cd417f3b4b0"
+      },
+      "geometry_sha256": "75191eb446e7993128bd9bae5497f2fe001a7cd7641357bc64c123d6d2f4e75a",
+      "certified_archive_sha256": "e32a4a42a39242aaac87872dc01b4c59ad3210a8f574f61e66e149baf001a24c",
+      "decoded_differs_from_raw": true,
+      "clearance_policy": "Unchanged fq_active_pilot.decode/compose_gadgets.legalize; output validity applies to exact retained decoded .17g geometry, not an unchecked native header."
+    },
+    "native_polish": {
+      "status": "complete",
+      "returncode": 0,
+      "command": [
+        "/tmp/squares-fq-portable-target/release/fq",
+        "quench",
+        "--in",
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-01.harden.out",
+        "--out",
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-01.polish.out",
+        "--loosen",
+        "1",
+        "--no-alm",
+        "--seed",
+        "1"
+      ],
+      "seconds": 8.911648029999924,
+      "limit_seconds": 10.0,
+      "stdout_sha256": "fe2fe0718bf5ed76a5a1c12049c259763ba07ec39f6aab5ff55c17b834d72723",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "polish_certificate": {
+      "native_path": "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-01.polish.out",
+      "native_sha256": "d53a50db27b333c0e1e1d3bc14b831454a202d5c5cfd847e2208ee0c4747eaf8",
+      "native_declared_side": "15.00874329487004744",
+      "raw_array_sha256": "9137cb57262bcd09db12744c16f7ad05a50d36dc60fea0760840049d4f4b4bc7",
+      "raw_archive_sha256": "f0e22decb4b5d3919cb34d6147c40a857b4498d36e62fdc53045b0ab30160278",
+      "n": 211,
+      "input_status": "Native text/raw arrays UNVERIFIED until unchanged gates pass",
+      "status": "certified",
+      "worst_certified_side": "15.00874332288445240141504864496904285870631476465700",
+      "certified_sides": {
+        "official_raw": "15.00874332288445175141504864496188016510033939798324",
+        "official_17g_pandas": "15.00874332288445240141504864496904285870631476465700",
+        "official_default_pandas": "15.00874332288445237141504864496906132027239934666365",
+        "interval_raw": "15.008743322884451751415048644961880165100339397983292655334854",
+        "interval_default_pandas": "15.008743322884452371415048644969061320272399346663678356362039"
+      },
+      "certificate": {
+        "valid": true,
+        "shared_official_gate": {
+          "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "raw_reason": "ok",
+          "roundtrip_reason": "ok",
+          "raw_side": "15.00874332288445175141504864496188016510033939798324",
+          "roundtrip_side": "15.00874332288445240141504864496904285870631476465700",
+          "valid": true
+        },
+        "ordinary_pandas_official_reason": "ok",
+        "ordinary_pandas_official_side": "15.00874332288445237141504864496906132027239934666365",
+        "independent_raw": {
+          "n": 211,
+          "valid": true,
+          "side_lower": "15.008743322884451751415048644961880165100339397983228508981811",
+          "side_upper": "15.008743322884451751415048644961880165100339397983292655334854",
+          "score_lower": "0.033244501402648935806700711350981192062146879022674184438336",
+          "score_upper": "0.033244501402648935806700711350981192062146879022682202732467",
+          "interval_pairs": 205,
+          "exact_pairs": 0
+        },
+        "independent_roundtrip": {
+          "n": 211,
+          "valid": true,
+          "side_lower": "15.008743322884452371415048644969061320272399346663614210008996",
+          "side_upper": "15.008743322884452371415048644969061320272399346663678356362039",
+          "score_lower": "0.033244501402648978489260942285357280536203540487912168949924",
+          "score_upper": "0.033244501402648978489260942285357280536203540487920187244055",
+          "interval_pairs": 205,
+          "exact_pairs": 0
+        },
+        "raw_csv_sha256": "dfd8201e1ef705d6938a064edecc635aca67c6b82e505a8313cb4772f32bf4da",
+        "ordinary_pandas_csv_sha256": "fcd8c3b6495862bfa23dbed9a11d5f1c68dbacb38d5ac487c09b4a8ef8363b81"
+      },
+      "geometry_sha256": "664bbcfa5d82ef33f86e97a641cf2e569a63be733c3c1306ad4f3002327ef436",
+      "certified_archive_sha256": "ddc8c72f99caffe9bd57f3892434679be7154fc4f9257731e570ef916c76f737",
+      "decoded_differs_from_raw": true,
+      "clearance_policy": "Unchanged fq_active_pilot.decode/compose_gadgets.legalize; output validity applies to exact retained decoded .17g geometry, not an unchecked native header."
+    }
+  },
+  {
+    "slot": 2,
+    "hold": 8000,
+    "noise": ".008",
+    "seed": 2,
+    "source_input_sha256": "78828f9e8bde95b5da7b4dd3ab8291eb51fa139ae3ee80ef1bc65742defc9dd9",
+    "hardener": {
+      "status": "complete",
+      "returncode": 0,
+      "command": [
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/bin/harden",
+        "reharden",
+        "--in",
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/source/search/exact/batch/inputs/n-211.txt",
+        "--out",
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-02.harden.out",
+        "--seed",
+        "2",
+        "--r0",
+        ".2",
+        "--noise",
+        ".008",
+        "--hold",
+        "8000"
+      ],
+      "seconds": 2.47927001700009,
+      "limit_seconds": 18.0,
+      "stdout_sha256": "873e9feebb8b359a12e52bbc6223ae9e8e0e8b54c573c91a6f58752ce57f9072",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "raw_hardener_output_sha256": "7bbc87cfdc69f6e99dfa9c46e06842eab3c2f7ed10dec1d9342facc06852f067",
+    "hardener_certificate": {
+      "native_path": "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-02.harden.out",
+      "native_sha256": "7bbc87cfdc69f6e99dfa9c46e06842eab3c2f7ed10dec1d9342facc06852f067",
+      "native_declared_side": "15.07824865985689122",
+      "raw_array_sha256": "232f65bee5cdeeb8a72469fea492d480a5685bae9aa20b4ac3716e89fa2f4eb7",
+      "raw_archive_sha256": "ac252594a3db0a31639d61a128efab56141fd8e93a88bd0e1916d0286b9885bb",
+      "n": 211,
+      "input_status": "Native text/raw arrays UNVERIFIED until unchanged gates pass",
+      "status": "certified",
+      "worst_certified_side": "15.078248684246675240530740519917901130429321713480471806955271",
+      "certified_sides": {
+        "official_raw": "15.07824868424667419053074078991790067295096454233435",
+        "official_17g_pandas": "15.07824868424667419053074053991790111489271556358932",
+        "official_default_pandas": "15.07824868424667524053074051991790113042932171348043",
+        "interval_raw": "15.078248684246674190530740789917900672950964542334391324181663",
+        "interval_default_pandas": "15.078248684246675240530740519917901130429321713480471806955271"
+      },
+      "certificate": {
+        "valid": true,
+        "shared_official_gate": {
+          "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "raw_reason": "ok",
+          "roundtrip_reason": "ok",
+          "raw_side": "15.07824868424667419053074078991790067295096454233435",
+          "roundtrip_side": "15.07824868424667419053074053991790111489271556358932",
+          "valid": true
+        },
+        "ordinary_pandas_official_reason": "ok",
+        "ordinary_pandas_official_side": "15.07824868424667524053074051991790113042932171348043",
+        "independent_raw": {
+          "n": 211,
+          "valid": true,
+          "side_lower": "15.078248684246674190530740789917900672950964542334327177828620",
+          "side_upper": "15.078248684246674190530740789917900672950964542334391324181663",
+          "score_lower": "0.038029447810255200146132976088134032822914293327991661841428",
+          "score_upper": "0.038029447810255200146132976088134032822914293328002352900269",
+          "interval_pairs": 308,
+          "exact_pairs": 0
+        },
+        "independent_roundtrip": {
+          "n": 211,
+          "valid": true,
+          "side_lower": "15.078248684246675240530740519917901130429321713480407660602228",
+          "side_upper": "15.078248684246675240530740519917901130429321713480471806955271",
+          "score_lower": "0.038029447810255272431113993759560743156024258776889800409927",
+          "score_upper": "0.038029447810255272431113993759560743156024258776897818704058",
+          "interval_pairs": 308,
+          "exact_pairs": 0
+        },
+        "raw_csv_sha256": "1047d18b41eed4239dbcb985f55bf177323c034f3a54585ebd5efba4ead254c8",
+        "ordinary_pandas_csv_sha256": "f2df66ef4fe8c0acbfaab77f622307ac170d4ab5df6eb87c58b8c4bd7fc00d56"
+      },
+      "geometry_sha256": "035ed74e92c503ac64521ac3875b9e4cae83f6d5e9da83d7013408697a12ae5a",
+      "certified_archive_sha256": "31be7a3e24b62a9f805d3c3476e55b1b18763105f9e8be6a295fe892595de7c4",
+      "decoded_differs_from_raw": true,
+      "clearance_policy": "Unchanged fq_active_pilot.decode/compose_gadgets.legalize; output validity applies to exact retained decoded .17g geometry, not an unchecked native header."
+    },
+    "native_polish": {
+      "status": "complete",
+      "returncode": 0,
+      "command": [
+        "/tmp/squares-fq-portable-target/release/fq",
+        "quench",
+        "--in",
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-02.harden.out",
+        "--out",
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-02.polish.out",
+        "--loosen",
+        "1",
+        "--no-alm",
+        "--seed",
+        "2"
+      ],
+      "seconds": 1.6707938860054128,
+      "limit_seconds": 10.0,
+      "stdout_sha256": "eed2119e373a8abc1764614db33f14baa8bc6e2a0df7a3affb86c33ccfa6e88b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "polish_certificate": {
+      "native_path": "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-02.polish.out",
+      "native_sha256": "395a740d4c6eec27faab1d60c573235cc2422e3f0cfd55accf5db8b3adb1a086",
+      "native_declared_side": "15.00000000009646683",
+      "raw_array_sha256": "46eea6e461ee1f9742ea6aeb63fb0827302ebdd200e63901fdcdabc9f2b8985f",
+      "raw_archive_sha256": "668e64c48b2aa70bf08ddca45e4d570d6a0b2db637d5b05662ec4ec655b1cd90",
+      "n": 211,
+      "input_status": "Native text/raw arrays UNVERIFIED until unchanged gates pass",
+      "status": "certified",
+      "worst_certified_side": "15.000000028044149144394452835417762927630493197613720405099492",
+      "certified_sides": {
+        "official_raw": "15.00000002804414913439445283540776292763049434830927",
+        "official_17g_pandas": "15.00000002804414913439445283541776292763049319761369",
+        "official_default_pandas": "15.00000002804414914439445283541776292763049319761369",
+        "interval_raw": "15.000000028044149134394452835407762927630494348309291205967481",
+        "interval_default_pandas": "15.000000028044149144394452835417762927630493197613720405099492"
+      },
+      "certificate": {
+        "valid": true,
+        "shared_official_gate": {
+          "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "raw_reason": "ok",
+          "roundtrip_reason": "ok",
+          "raw_side": "15.00000002804414913439445283540776292763049434830927",
+          "roundtrip_side": "15.00000002804414913439445283541776292763049319761369",
+          "valid": true
+        },
+        "ordinary_pandas_official_reason": "ok",
+        "ordinary_pandas_official_side": "15.00000002804414914439445283541776292763049319761369",
+        "independent_raw": {
+          "n": 211,
+          "valid": true,
+          "side_lower": "15.000000028044149134394452835407762927630494348309227059614438",
+          "side_upper": "15.000000028044149134394452835407762927630494348309291205967481",
+          "score_lower": "0.032642588162910177926686055751580705417631515898118687958779",
+          "score_upper": "0.032642588162910177926686055751580705417631515898126706252911",
+          "interval_pairs": 260,
+          "exact_pairs": 0
+        },
+        "independent_roundtrip": {
+          "n": 211,
+          "valid": true,
+          "side_lower": "15.000000028044149144394452835417762927630493197613656258746449",
+          "side_upper": "15.000000028044149144394452835417762927630493197613720405099492",
+          "score_lower": "0.032642588162910178615114446573783355056261379595927666994396",
+          "score_upper": "0.032642588162910178615114446573783355056261379595935685288527",
+          "interval_pairs": 260,
+          "exact_pairs": 0
+        },
+        "raw_csv_sha256": "cbbcfa48ec80b28109bb6e3950f8a5e88801080cb1c0a9f18bb3e7cab0e1bc04",
+        "ordinary_pandas_csv_sha256": "2054e1dd4a9151ace792fe4144164601bb8a40231fa4e67e4482dd24c3a2de14"
+      },
+      "geometry_sha256": "ece48a67109239fd2a156a81dac4168dff1c517d116184b1f698ef8465851991",
+      "certified_archive_sha256": "049c1f5792d43d6e047429ae8d42375ccd4b81f7b5ce66918afcea23b96f62c3",
+      "decoded_differs_from_raw": true,
+      "clearance_policy": "Unchanged fq_active_pilot.decode/compose_gadgets.legalize; output validity applies to exact retained decoded .17g geometry, not an unchecked native header."
+    }
+  },
+  {
+    "slot": 3,
+    "hold": 30000,
+    "noise": ".004",
+    "seed": 2,
+    "source_input_sha256": "78828f9e8bde95b5da7b4dd3ab8291eb51fa139ae3ee80ef1bc65742defc9dd9",
+    "hardener": {
+      "status": "complete",
+      "returncode": 0,
+      "command": [
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/bin/harden",
+        "reharden",
+        "--in",
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/source/search/exact/batch/inputs/n-211.txt",
+        "--out",
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-03.harden.out",
+        "--seed",
+        "2",
+        "--r0",
+        ".2",
+        "--noise",
+        ".004",
+        "--hold",
+        "30000"
+      ],
+      "seconds": 6.6931998879954335,
+      "limit_seconds": 18.0,
+      "stdout_sha256": "35d0ee7f0edbb616ea82acfe6de73dd865641be61a480d00981fd4f43f78ed5b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "raw_hardener_output_sha256": "deea44a6216708f6f4b9c5956c31f88872e0a12bdfc929772ec9ca8fcc839e12",
+    "hardener_certificate": {
+      "native_path": "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-03.harden.out",
+      "native_sha256": "deea44a6216708f6f4b9c5956c31f88872e0a12bdfc929772ec9ca8fcc839e12",
+      "native_declared_side": "15.02156269873809435",
+      "raw_array_sha256": "3cbdae90f0f3bdf1a9e34e91ddf6c530d631aea62dde066d0a3464bf40cebb39",
+      "raw_archive_sha256": "efa84b2b33d7a40656217018576c1955104ec706226cfe19ac3345c723bb9fee",
+      "n": 211,
+      "input_status": "Native text/raw arrays UNVERIFIED until unchanged gates pass",
+      "status": "certified",
+      "worst_certified_side": "15.021562726766213120880759934004167545861276921796517078778495",
+      "certified_sides": {
+        "official_raw": "15.02156272676621100195440135637106828504140407493882",
+        "official_17g_pandas": "15.02156272676621307090074324508284068778787778486327",
+        "official_default_pandas": "15.02156272676621312088075993400416754586127692179647",
+        "interval_raw": "15.021562726766211001954401356371068285041404074938856548173099",
+        "interval_default_pandas": "15.021562726766213120880759934004167545861276921796517078778495"
+      },
+      "certificate": {
+        "valid": true,
+        "shared_official_gate": {
+          "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "raw_reason": "ok",
+          "roundtrip_reason": "ok",
+          "raw_side": "15.02156272676621100195440135637106828504140407493882",
+          "roundtrip_side": "15.02156272676621307090074324508284068778787778486327",
+          "valid": true
+        },
+        "ordinary_pandas_official_reason": "ok",
+        "ordinary_pandas_official_side": "15.02156272676621312088075993400416754586127692179647",
+        "independent_raw": {
+          "n": 211,
+          "valid": true,
+          "side_lower": "15.021562726766211001954401356371068285041404074938792401820055",
+          "side_upper": "15.021562726766211001954401356371068285041404074938856548173099",
+          "score_lower": "0.034127025561209995188020491541648290485554894123474845709106",
+          "score_upper": "0.034127025561209995188020491541648290485554894123482864003237",
+          "interval_pairs": 479,
+          "exact_pairs": 0
+        },
+        "independent_roundtrip": {
+          "n": 211,
+          "valid": true,
+          "side_lower": "15.021562726766213120880759934004167545861276921796452932425452",
+          "side_upper": "15.021562726766213120880759934004167545861276921796517078778495",
+          "score_lower": "0.034127025561210141060926822030726478805069908507723839802432",
+          "score_upper": "0.034127025561210141060926822030726478805069908507731858096563",
+          "interval_pairs": 479,
+          "exact_pairs": 0
+        },
+        "raw_csv_sha256": "f6d0de119869cfebd50de7e47f50b7778de800bdaa5ffc7993482c3e3a989d97",
+        "ordinary_pandas_csv_sha256": "546b63be05c52b4cbad6bad212b346eca35c54e400ab8c39ea4bdbc036532a7b"
+      },
+      "geometry_sha256": "9d46675d9b1142d61ecbaa360f5b2294f21a1eaaa3f10fe9bbdb02c866185008",
+      "certified_archive_sha256": "515d1c6f4621c96b9779c6079558b2c5df800d508e9f04b36cf8f8a6cfd18da3",
+      "decoded_differs_from_raw": true,
+      "clearance_policy": "Unchanged fq_active_pilot.decode/compose_gadgets.legalize; output validity applies to exact retained decoded .17g geometry, not an unchecked native header."
+    },
+    "native_polish": {
+      "status": "complete",
+      "returncode": 0,
+      "command": [
+        "/tmp/squares-fq-portable-target/release/fq",
+        "quench",
+        "--in",
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-03.harden.out",
+        "--out",
+        "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-03.polish.out",
+        "--loosen",
+        "1",
+        "--no-alm",
+        "--seed",
+        "2"
+      ],
+      "seconds": 7.612369819995365,
+      "limit_seconds": 10.0,
+      "stdout_sha256": "7ec5990dbe0460d1fdc50c1e6047dbdd728b7a3740df5d03e4715a2ac0a06bb3",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "polish_certificate": {
+      "native_path": "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/trials/slot-03.polish.out",
+      "native_sha256": "65c1a9c6e12f0b6abb367c92a0592888ea91e05c053e7ab59abf61c56fc76cfe",
+      "native_declared_side": "15.01465166275745133",
+      "raw_array_sha256": "3cf76f51fddb12dbd3f80a9d95d83928dcf8884bfc9f19f620f36051501b9097",
+      "raw_archive_sha256": "55edea66597718ad11db3d065c4257e7b6169ebbd14546d9dbfc6fc79285d843",
+      "n": 211,
+      "input_status": "Native text/raw arrays UNVERIFIED until unchanged gates pass",
+      "status": "certified",
+      "worst_certified_side": "15.014651690741736653961756125025594384781065669108795472468763",
+      "certified_sides": {
+        "official_raw": "15.01465169074173563396175612502559938478106566910632",
+        "official_17g_pandas": "15.01465169074173663396175612502559938478106566910632",
+        "official_default_pandas": "15.01465169074173665396175612502559438478106566910876",
+        "interval_raw": "15.014651690741735633961756125025599384781065669106354681927135",
+        "interval_default_pandas": "15.014651690741736653961756125025594384781065669108795472468763"
+      },
+      "certificate": {
+        "valid": true,
+        "shared_official_gate": {
+          "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "raw_reason": "ok",
+          "roundtrip_reason": "ok",
+          "raw_side": "15.01465169074173563396175612502559938478106566910632",
+          "roundtrip_side": "15.01465169074173663396175612502559938478106566910632",
+          "valid": true
+        },
+        "ordinary_pandas_official_reason": "ok",
+        "ordinary_pandas_official_side": "15.01465169074173665396175612502559438478106566910876",
+        "independent_raw": {
+          "n": 211,
+          "valid": true,
+          "side_lower": "15.014651690741735633961756125025599384781065669106290535574092",
+          "side_upper": "15.014651690741735633961756125025599384781065669106354681927135",
+          "score_lower": "0.033651250220286085932070819511210707163949310217397828368452",
+          "score_upper": "0.033651250220286085932070819511210707163949310217405846662583",
+          "interval_pairs": 216,
+          "exact_pairs": 0
+        },
+        "independent_roundtrip": {
+          "n": 211,
+          "valid": true,
+          "side_lower": "15.014651690741736653961756125025594384781065669108731326115719",
+          "side_upper": "15.014651690741736653961756125025594384781065669108795472468763",
+          "score_lower": "0.033651250220286156151766683305660930226213626218847600122051",
+          "score_upper": "0.033651250220286156151766683305660930226213626218858291180892",
+          "interval_pairs": 216,
+          "exact_pairs": 0
+        },
+        "raw_csv_sha256": "00201b48693aff8f265cb7b6cb83a3e6509c56a5493b4084a2a5a7659d2ac998",
+        "ordinary_pandas_csv_sha256": "e0c0e80ea2b73ae281c2a07d50f1cf3eee6cba00d49d01b059c5ab18dd0cd89e"
+      },
+      "geometry_sha256": "01a2d69d8ec65c804dc532e483983d216b9a087a972b68940772266a3b484498",
+      "certified_archive_sha256": "574e20405c362040d4e6ccdd5090356bb89afbc108bca7d2a2666da4774d40fe",
+      "decoded_differs_from_raw": true,
+      "clearance_policy": "Unchanged fq_active_pilot.decode/compose_gadgets.legalize; output validity applies to exact retained decoded .17g geometry, not an unchecked native header."
+    }
+  }
+]

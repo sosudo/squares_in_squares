@@ -1,0 +1,3198 @@
+{
+  "5": {
+    "fixed": {
+      "n": 5,
+      "trust_max": 2.0,
+      "neighbor_radius": 7.0710678218654754,
+      "broad_phase_proof": "Each center moves at most sqrt(2)*trust; unit-square circumradius sum is sqrt(2).",
+      "candidate_pairs": 10,
+      "guaranteed_separated_pairs": 0,
+      "modeled_pairs": 10,
+      "pair_domain_impossible": [],
+      "clearance": 1e-08,
+      "bound_roundoff_guard": 5.000009999999999e-10,
+      "global_geometry_claim": false,
+      "mode": "fixed",
+      "variables": 11,
+      "binary_variables": 0,
+      "binary_pairs": 0,
+      "constraints": 30,
+      "selected_pairs": [],
+      "big_m": [],
+      "status": 0,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.0030604009953094646,
+      "mip_dual_bound": 0.0,
+      "mip_gap": 0.0,
+      "mip_node_count": 0.0,
+      "provisional_side": 5.00000004,
+      "maximum_constraint_violation": 0.0,
+      "maximum_domain_violation": 0.0,
+      "maximum_center_coordinate_motion": 1.0,
+      "provisional_only": true,
+      "pair_pressure": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "own_dual": 1.0,
+          "score": 4.0
+        },
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "own_dual": 0.0,
+          "score": 3.0
+        },
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "own_dual": 0.0,
+          "score": 3.0
+        },
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "own_dual": 1.0,
+          "score": 5.0
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "own_dual": 0.0,
+          "score": 4.0
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "own_dual": 0.0,
+          "score": 3.0
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "own_dual": 1.0,
+          "score": 5.0
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "own_dual": 0.0,
+          "score": 3.0
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "own_dual": 1.0,
+          "score": 4.0
+        }
+      ]
+    },
+    "relaxed": {
+      "n": 5,
+      "trust_max": 2.0,
+      "neighbor_radius": 7.0710678218654754,
+      "broad_phase_proof": "Each center moves at most sqrt(2)*trust; unit-square circumradius sum is sqrt(2).",
+      "candidate_pairs": 10,
+      "guaranteed_separated_pairs": 0,
+      "modeled_pairs": 10,
+      "pair_domain_impossible": [],
+      "clearance": 1e-08,
+      "bound_roundoff_guard": 5.000009999999999e-10,
+      "global_geometry_claim": false,
+      "mode": "relaxed",
+      "variables": 11,
+      "binary_variables": 0,
+      "binary_pairs": 0,
+      "constraints": 28,
+      "selected_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "big_m": [],
+      "status": 0,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.002218626999820117,
+      "mip_dual_bound": 0.0,
+      "mip_gap": 0.0,
+      "mip_node_count": 0.0,
+      "provisional_side": 3.0,
+      "maximum_constraint_violation": 1.999999987845058e-08,
+      "maximum_domain_violation": 0.0,
+      "maximum_center_coordinate_motion": 2.0,
+      "provisional_only": true,
+      "pair_pressure": [
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        }
+      ]
+    },
+    "milp": {
+      "n": 5,
+      "trust_max": 2.0,
+      "neighbor_radius": 7.0710678218654754,
+      "broad_phase_proof": "Each center moves at most sqrt(2)*trust; unit-square circumradius sum is sqrt(2).",
+      "candidate_pairs": 10,
+      "guaranteed_separated_pairs": 0,
+      "modeled_pairs": 10,
+      "pair_domain_impossible": [],
+      "clearance": 1e-08,
+      "bound_roundoff_guard": 5.000009999999999e-10,
+      "global_geometry_claim": false,
+      "mode": "milp",
+      "variables": 19,
+      "binary_variables": 8,
+      "binary_pairs": 2,
+      "constraints": 38,
+      "selected_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "big_m": [
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -2.0,
+          "M": 3.000000010500001
+        },
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "axis": [
+            -1.0,
+            -0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0,
+          "M": 4.000000010500001
+        },
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "axis": [
+            -0.0,
+            1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -2.0,
+          "M": 3.000000010500001
+        },
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "axis": [
+            0.0,
+            -1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0,
+          "M": 4.000000010500001
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0,
+          "M": 4.000000010500001
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "axis": [
+            -1.0,
+            -0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -4.00001,
+          "M": 5.0000100105000005
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "axis": [
+            -0.0,
+            1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -2.0,
+          "M": 3.000000010500001
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "axis": [
+            0.0,
+            -1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0,
+          "M": 4.000000010500001
+        }
+      ],
+      "status": 0,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.003702839996549301,
+      "mip_dual_bound": 3.00000001,
+      "mip_gap": 0.0,
+      "mip_node_count": 1.0,
+      "provisional_side": 3.00000001,
+      "maximum_constraint_violation": 9.99999993922529e-09,
+      "maximum_domain_violation": 0.0,
+      "maximum_center_coordinate_motion": 1.99999999,
+      "provisional_only": true
+    },
+    "selected_pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "moved_existing_units": 4,
+    "source_side": 5.0,
+    "certified": {
+      "certificate": {
+        "valid": true,
+        "shared_official_gate": {
+          "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "raw_reason": "ok",
+          "roundtrip_reason": "ok",
+          "raw_side": "3.00000001399999980000000000000000000000000000000000",
+          "roundtrip_side": "3.00000001399999980000000000000000000000000000000000",
+          "valid": true
+        },
+        "ordinary_pandas_official_reason": "ok",
+        "ordinary_pandas_official_side": "3.00000001400000000000000000000000000000000000000000",
+        "independent_raw": {
+          "n": 5,
+          "valid": true,
+          "side_lower": "3.000000013999999799999999999999999999999999999999995649695266",
+          "side_upper": "3.000000013999999800000000000000000000000000000000000995224687",
+          "score_lower": "0.341640792760864065402196251192864157344997725749593614586714",
+          "score_upper": "0.341640792760864065402196251192864157344997725749601632880846",
+          "interval_pairs": 0,
+          "exact_pairs": 0
+        },
+        "independent_roundtrip": {
+          "n": 5,
+          "valid": true,
+          "side_lower": "3.000000013999999999999999999999999999999999999999999374503608",
+          "side_upper": "3.000000014000000000000000000000000000000000000000004720033029",
+          "score_lower": "0.341640792760864154844915351184452013711944475000642773559052",
+          "score_upper": "0.341640792760864154844915351184452013711944475000653464617893",
+          "interval_pairs": 0,
+          "exact_pairs": 0
+        },
+        "raw_csv_sha256": "2aed35f406ef18ce5cc146c4b12795e11822ed156601bec8a2f0a8c38d913283",
+        "ordinary_pandas_csv_sha256": "b15c6d760a250fd3679d55b1ff3838ad4bf730197406de016842342137c1a478"
+      },
+      "actual_side_upper": 3.000000014,
+      "provisional_sha256": "2fc8579190dc0edbc173fa6fda6c3c4acae826f61b2131f7d410383ee8f5463e",
+      "certified_sha256": "9ead2703f700e730dd38bc28e1a1e95a36e009af9b3d1150801fe06ab03aa584"
+    },
+    "selection_scope": "Known witness-obstructing branches ONLY for mathematical control; no production pressure claim."
+  },
+  "17": {
+    "fixed": {
+      "n": 17,
+      "trust_max": 2.0,
+      "neighbor_radius": 7.0710678218654754,
+      "broad_phase_proof": "Each center moves at most sqrt(2)*trust; unit-square circumradius sum is sqrt(2).",
+      "candidate_pairs": 136,
+      "guaranteed_separated_pairs": 0,
+      "modeled_pairs": 136,
+      "pair_domain_impossible": [],
+      "clearance": 1e-08,
+      "bound_roundoff_guard": 6.00001e-10,
+      "global_geometry_claim": false,
+      "mode": "fixed",
+      "variables": 35,
+      "binary_variables": 0,
+      "binary_pairs": 0,
+      "constraints": 204,
+      "selected_pairs": [],
+      "big_m": [],
+      "status": 0,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.0027679359991452657,
+      "mip_dual_bound": 0.0,
+      "mip_gap": 0.0,
+      "mip_node_count": 0.0,
+      "provisional_side": 6.00000005,
+      "maximum_constraint_violation": 0.0,
+      "maximum_domain_violation": 0.0,
+      "maximum_center_coordinate_motion": 4.999999969612645e-08,
+      "provisional_only": true,
+      "pair_pressure": [
+        {
+          "pair": [
+            1,
+            7
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            6,
+            7
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            7,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            7,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            7
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            1,
+            6
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            1,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            1,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "own_dual": 1.0,
+          "score": 4.0
+        },
+        {
+          "pair": [
+            6,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            6,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            6
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            12,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            0,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            7,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            7,
+            8
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            7
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            7,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            7
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            7,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            7,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            7
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            7,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            7,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            7
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            1,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            1,
+            8
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "own_dual": 1.0,
+          "score": 5.0
+        },
+        {
+          "pair": [
+            1,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "own_dual": 0.0,
+          "score": 4.0
+        },
+        {
+          "pair": [
+            1,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            1,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "own_dual": 0.0,
+          "score": 4.0
+        },
+        {
+          "pair": [
+            1,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            1,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "own_dual": 0.0,
+          "score": 3.0
+        },
+        {
+          "pair": [
+            6,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            6,
+            8
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            6
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            6,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            6
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            6,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            6,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            6
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            6,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            6,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            6
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            13,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            8,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            13,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            13,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            9,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            11,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            10,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            12,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            8,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            12,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            12,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            9,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            11,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            10,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            0,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            0,
+            8
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "own_dual": 0.0,
+          "score": 3.0
+        },
+        {
+          "pair": [
+            0,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "own_dual": 0.0,
+          "score": 3.0
+        },
+        {
+          "pair": [
+            0,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            0,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "own_dual": 0.0,
+          "score": 3.0
+        },
+        {
+          "pair": [
+            0,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            0,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            0,
+            5
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            8,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            14,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            14,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            9,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            11,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            10,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            2,
+            8
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            8,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            8
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            8,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            8,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            8
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            8,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            8,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            8
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            2,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "own_dual": 1.0,
+          "score": 5.0
+        },
+        {
+          "pair": [
+            2,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            2,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "own_dual": 0.0,
+          "score": 4.0
+        },
+        {
+          "pair": [
+            2,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            2,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "own_dual": 0.0,
+          "score": 3.0
+        },
+        {
+          "pair": [
+            3,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            15,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            9,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            11,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            10,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            3,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            3,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "own_dual": 1.0,
+          "score": 5.0
+        },
+        {
+          "pair": [
+            3,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            3,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "own_dual": 0.0,
+          "score": 3.0
+        },
+        {
+          "pair": [
+            9,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            11,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            10,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            4,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            9,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            9,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            4,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            4,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 2.0
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "own_dual": 1.0,
+          "score": 4.0
+        },
+        {
+          "pair": [
+            10,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        },
+        {
+          "pair": [
+            5,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 1.0
+        }
+      ]
+    },
+    "relaxed": {
+      "n": 17,
+      "trust_max": 2.0,
+      "neighbor_radius": 7.0710678218654754,
+      "broad_phase_proof": "Each center moves at most sqrt(2)*trust; unit-square circumradius sum is sqrt(2).",
+      "candidate_pairs": 136,
+      "guaranteed_separated_pairs": 0,
+      "modeled_pairs": 136,
+      "pair_domain_impossible": [],
+      "clearance": 1e-08,
+      "bound_roundoff_guard": 6.00001e-10,
+      "global_geometry_claim": false,
+      "mode": "relaxed",
+      "variables": 35,
+      "binary_variables": 0,
+      "binary_pairs": 0,
+      "constraints": 196,
+      "selected_pairs": [
+        [
+          3,
+          11
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          11,
+          16
+        ]
+      ],
+      "big_m": [],
+      "status": 0,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.002453578999848105,
+      "mip_dual_bound": 0.0,
+      "mip_gap": 0.0,
+      "mip_node_count": 0.0,
+      "provisional_side": 5.0,
+      "maximum_constraint_violation": 3.999999975690116e-08,
+      "maximum_domain_violation": 0.0,
+      "maximum_center_coordinate_motion": 2.0,
+      "provisional_only": true,
+      "pair_pressure": [
+        {
+          "pair": [
+            1,
+            7
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            6,
+            7
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            7,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            7,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            7
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            1,
+            6
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            1,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            1,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            1
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            6,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            6,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            6
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            12,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            7,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            7,
+            8
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            7
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            7,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            7
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            7,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            7,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            7
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            7,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            7,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            7
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            1,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            1,
+            8
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            1,
+            2
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            1,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            1,
+            3
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            1,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            1,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            1,
+            4
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            1,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            1,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            1,
+            5
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            6,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            6,
+            8
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            6
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            6,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            6
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            6,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            6,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            6
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            6,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            6,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            6
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            13,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            8,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            13,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            13,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            9,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            11,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            10,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            13
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            12,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            8,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            12,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            12,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            9,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            11,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            10,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            12
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            8
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            2
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            3
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            4
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            0,
+            5
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            8,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            14,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            14,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            9,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            11,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            10,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            14
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            8
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            8,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            8
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            8,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            8,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            8
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            8,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            8,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            8
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            4
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            15,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            9,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            10,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            15
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            4
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            9,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            10,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            16
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            9,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            9
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            4,
+            10
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        },
+        {
+          "pair": [
+            5,
+            11
+          ],
+          "own_dual": 0.0,
+          "score": 0.0
+        }
+      ]
+    },
+    "milp": {
+      "n": 17,
+      "trust_max": 2.0,
+      "neighbor_radius": 7.0710678218654754,
+      "broad_phase_proof": "Each center moves at most sqrt(2)*trust; unit-square circumradius sum is sqrt(2).",
+      "candidate_pairs": 136,
+      "guaranteed_separated_pairs": 0,
+      "modeled_pairs": 136,
+      "pair_domain_impossible": [],
+      "clearance": 1e-08,
+      "bound_roundoff_guard": 6.00001e-10,
+      "global_geometry_claim": false,
+      "mode": "milp",
+      "variables": 67,
+      "binary_variables": 32,
+      "binary_pairs": 8,
+      "constraints": 236,
+      "selected_pairs": [
+        [
+          3,
+          11
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          11,
+          16
+        ]
+      ],
+      "big_m": [
+        {
+          "pair": [
+            11,
+            15
+          ],
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -4.00001,
+          "M": 5.0000100106000005
+        },
+        {
+          "pair": [
+            11,
+            15
+          ],
+          "axis": [
+            -1.0,
+            -0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -2.0,
+          "M": 3.000000010600001
+        },
+        {
+          "pair": [
+            11,
+            15
+          ],
+          "axis": [
+            -0.0,
+            1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0,
+          "M": 4.000000010600001
+        },
+        {
+          "pair": [
+            11,
+            15
+          ],
+          "axis": [
+            0.0,
+            -1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -4.0,
+          "M": 5.000000010600001
+        },
+        {
+          "pair": [
+            3,
+            11
+          ],
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -2.0,
+          "M": 3.000000010600001
+        },
+        {
+          "pair": [
+            3,
+            11
+          ],
+          "axis": [
+            -1.0,
+            -0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -4.00001,
+          "M": 5.0000100106000005
+        },
+        {
+          "pair": [
+            3,
+            11
+          ],
+          "axis": [
+            -0.0,
+            1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -2.0,
+          "M": 3.000000010600001
+        },
+        {
+          "pair": [
+            3,
+            11
+          ],
+          "axis": [
+            0.0,
+            -1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0,
+          "M": 4.000000010600001
+        },
+        {
+          "pair": [
+            11,
+            16
+          ],
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0000099999999996,
+          "M": 4.0000100106000005
+        },
+        {
+          "pair": [
+            11,
+            16
+          ],
+          "axis": [
+            -1.0,
+            -0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -2.0000099999999996,
+          "M": 3.0000100106000005
+        },
+        {
+          "pair": [
+            11,
+            16
+          ],
+          "axis": [
+            -0.0,
+            1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0,
+          "M": 4.000000010600001
+        },
+        {
+          "pair": [
+            11,
+            16
+          ],
+          "axis": [
+            0.0,
+            -1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -4.0,
+          "M": 5.000000010600001
+        },
+        {
+          "pair": [
+            9,
+            11
+          ],
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -2.0,
+          "M": 3.000000010600001
+        },
+        {
+          "pair": [
+            9,
+            11
+          ],
+          "axis": [
+            -1.0,
+            -0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -4.00001,
+          "M": 5.0000100106000005
+        },
+        {
+          "pair": [
+            9,
+            11
+          ],
+          "axis": [
+            -0.0,
+            1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0,
+          "M": 4.000000010600001
+        },
+        {
+          "pair": [
+            9,
+            11
+          ],
+          "axis": [
+            0.0,
+            -1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0,
+          "M": 4.000000010600001
+        },
+        {
+          "pair": [
+            4,
+            11
+          ],
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -2.0000099999999996,
+          "M": 3.0000100106000005
+        },
+        {
+          "pair": [
+            4,
+            11
+          ],
+          "axis": [
+            -1.0,
+            -0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0000099999999996,
+          "M": 4.0000100106000005
+        },
+        {
+          "pair": [
+            4,
+            11
+          ],
+          "axis": [
+            -0.0,
+            1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -2.0,
+          "M": 3.000000010600001
+        },
+        {
+          "pair": [
+            4,
+            11
+          ],
+          "axis": [
+            0.0,
+            -1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0,
+          "M": 4.000000010600001
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -2.0000099999999996,
+          "M": 3.0000100106000005
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "axis": [
+            -1.0,
+            -0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0000099999999996,
+          "M": 4.0000100106000005
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "axis": [
+            -0.0,
+            1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -2.0,
+          "M": 3.000000010600001
+        },
+        {
+          "pair": [
+            4,
+            5
+          ],
+          "axis": [
+            0.0,
+            -1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -2.0,
+          "M": 3.000000010600001
+        },
+        {
+          "pair": [
+            10,
+            11
+          ],
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -2.0000099999999996,
+          "M": 3.0000100106000005
+        },
+        {
+          "pair": [
+            10,
+            11
+          ],
+          "axis": [
+            -1.0,
+            -0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0000099999999996,
+          "M": 4.0000100106000005
+        },
+        {
+          "pair": [
+            10,
+            11
+          ],
+          "axis": [
+            -0.0,
+            1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0,
+          "M": 4.000000010600001
+        },
+        {
+          "pair": [
+            10,
+            11
+          ],
+          "axis": [
+            0.0,
+            -1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0,
+          "M": 4.000000010600001
+        },
+        {
+          "pair": [
+            5,
+            10
+          ],
+          "axis": [
+            1.0,
+            0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0000099999999996,
+          "M": 4.0000100106000005
+        },
+        {
+          "pair": [
+            5,
+            10
+          ],
+          "axis": [
+            -1.0,
+            -0.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -2.0000099999999996,
+          "M": 3.0000100106000005
+        },
+        {
+          "pair": [
+            5,
+            10
+          ],
+          "axis": [
+            -0.0,
+            1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -2.0,
+          "M": 3.000000010600001
+        },
+        {
+          "pair": [
+            5,
+            10
+          ],
+          "axis": [
+            0.0,
+            -1.0
+          ],
+          "target": 1.00000001,
+          "projection_minimum": -3.0,
+          "M": 4.000000010600001
+        }
+      ],
+      "status": 0,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "seconds": 0.005879903997993097,
+      "mip_dual_bound": 5.0,
+      "mip_gap": 0.0,
+      "mip_node_count": 1.0,
+      "provisional_side": 5.0,
+      "maximum_constraint_violation": 3.999999975690116e-08,
+      "maximum_domain_violation": 0.0,
+      "maximum_center_coordinate_motion": 2.0,
+      "provisional_only": true
+    },
+    "selected_pairs": [
+      [
+        11,
+        15
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        11,
+        16
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        5,
+        10
+      ]
+    ],
+    "moved_existing_units": 6,
+    "source_side": 6.0,
+    "certified": {
+      "certificate": {
+        "valid": true,
+        "shared_official_gate": {
+          "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "raw_reason": "ok",
+          "roundtrip_reason": "ok",
+          "raw_side": "5.00000004800000040000000000000000000000000000000000",
+          "roundtrip_side": "5.00000004800000040000000000000000000000000000000000",
+          "valid": true
+        },
+        "ordinary_pandas_official_reason": "ok",
+        "ordinary_pandas_official_side": "5.00000004800000000000000000000000000000000000000000",
+        "independent_raw": {
+          "n": 17,
+          "valid": true,
+          "side_lower": "5.000000048000000399999999999999999999999999999999999195881149",
+          "side_upper": "5.000000048000000400000000000000000000000000000000009886939990",
+          "score_lower": "0.212678136823374966352765054021310478885625630797905431850771",
+          "score_upper": "0.212678136823374966352765054021310478885625630797916122909612",
+          "interval_pairs": 0,
+          "exact_pairs": 0
+        },
+        "independent_roundtrip": {
+          "n": 17,
+          "valid": true,
+          "side_lower": "5.000000047999999999999999999999999999999999999999991746264463",
+          "side_upper": "5.000000048000000000000000000000000000000000000000002437323305",
+          "score_lower": "0.212678136823374869338515039488121071323040784349032731259679",
+          "score_upper": "0.212678136823374869338515039488121071323040784349043422318521",
+          "interval_pairs": 0,
+          "exact_pairs": 0
+        },
+        "raw_csv_sha256": "01e36d6e2e59824906a9344bff3950324a27ef6ca3d78557cc1f3365621642fb",
+        "ordinary_pandas_csv_sha256": "e454c21c1b2675c2fc4058b2db2b0cbe43ceb899216dfb17fdca451ddc86b43f"
+      },
+      "actual_side_upper": 5.000000048,
+      "provisional_sha256": "440b0b6115570a6671449cb2d7d9a62663811d76fe5e6405b1a3d6c2a57d682c",
+      "certified_sha256": "8862ad5816aee133716c7d248ed6296c8d3440321cca0c0da22c9199534a8641"
+    },
+    "selection_scope": "Known witness-obstructing branches ONLY for mathematical control; no production pressure claim."
+  }
+}

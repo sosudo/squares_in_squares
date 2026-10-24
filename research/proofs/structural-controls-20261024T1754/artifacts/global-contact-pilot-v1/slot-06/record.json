@@ -1,0 +1,579 @@
+{
+  "slot": 6,
+  "n": 335,
+  "arm": "rotated",
+  "key": "n335_rotated",
+  "trust": 0.15,
+  "binary_pair_budget": 64,
+  "seed": 1170347548,
+  "status": "complete",
+  "endpoints": [],
+  "fixed": {
+    "n": 335,
+    "trust_max": 0.15,
+    "neighbor_radius": 1.8384776410850237,
+    "broad_phase_proof": "Each center moves at most sqrt(2)*trust; unit-square circumradius sum is sqrt(2).",
+    "candidate_pairs": 1202,
+    "guaranteed_separated_pairs": 58,
+    "modeled_pairs": 1144,
+    "pair_domain_impossible": [],
+    "clearance": 1e-08,
+    "bound_roundoff_guard": 1.8822876155579204e-09,
+    "global_geometry_claim": false,
+    "mode": "fixed",
+    "variables": 671,
+    "binary_variables": 0,
+    "binary_pairs": 0,
+    "constraints": 2484,
+    "selected_pairs": [],
+    "big_m": [],
+    "status": 2,
+    "success": false,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "seconds": 0.01368974299839465
+  },
+  "selected_pairs": [
+    [
+      0,
+      16
+    ],
+    [
+      0,
+      319
+    ],
+    [
+      1,
+      15
+    ],
+    [
+      1,
+      17
+    ],
+    [
+      2,
+      16
+    ],
+    [
+      2,
+      18
+    ],
+    [
+      3,
+      17
+    ],
+    [
+      3,
+      19
+    ],
+    [
+      4,
+      18
+    ],
+    [
+      4,
+      20
+    ],
+    [
+      5,
+      19
+    ],
+    [
+      5,
+      21
+    ],
+    [
+      6,
+      20
+    ],
+    [
+      6,
+      22
+    ],
+    [
+      7,
+      21
+    ],
+    [
+      7,
+      23
+    ],
+    [
+      8,
+      22
+    ],
+    [
+      8,
+      24
+    ],
+    [
+      9,
+      23
+    ],
+    [
+      9,
+      25
+    ],
+    [
+      10,
+      24
+    ],
+    [
+      10,
+      26
+    ],
+    [
+      11,
+      25
+    ],
+    [
+      11,
+      27
+    ],
+    [
+      12,
+      26
+    ],
+    [
+      12,
+      28
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      13,
+      27
+    ],
+    [
+      14,
+      28
+    ],
+    [
+      14,
+      258
+    ],
+    [
+      14,
+      260
+    ],
+    [
+      15,
+      30
+    ],
+    [
+      39,
+      53
+    ],
+    [
+      25,
+      40
+    ],
+    [
+      266,
+      269
+    ],
+    [
+      62,
+      72
+    ],
+    [
+      70,
+      81
+    ],
+    [
+      124,
+      305
+    ],
+    [
+      15,
+      320
+    ],
+    [
+      114,
+      329
+    ],
+    [
+      191,
+      201
+    ],
+    [
+      125,
+      140
+    ],
+    [
+      189,
+      289
+    ],
+    [
+      183,
+      194
+    ],
+    [
+      140,
+      156
+    ],
+    [
+      278,
+      279
+    ],
+    [
+      42,
+      320
+    ],
+    [
+      262,
+      263
+    ],
+    [
+      264,
+      267
+    ],
+    [
+      186,
+      197
+    ],
+    [
+      193,
+      203
+    ],
+    [
+      168,
+      182
+    ],
+    [
+      272,
+      275
+    ],
+    [
+      102,
+      107
+    ],
+    [
+      292,
+      295
+    ],
+    [
+      134,
+      315
+    ],
+    [
+      293,
+      294
+    ],
+    [
+      295,
+      297
+    ],
+    [
+      153,
+      166
+    ],
+    [
+      68,
+      79
+    ],
+    [
+      259,
+      261
+    ],
+    [
+      127,
+      306
+    ],
+    [
+      103,
+      108
+    ],
+    [
+      74,
+      272
+    ]
+  ],
+  "selection_ranking": "uninformative zero scores: lexicographic first half plus seeded random remaining half",
+  "relaxed_UNVERIFIED": {
+    "n": 335,
+    "trust_max": 0.15,
+    "neighbor_radius": 1.8384776410850237,
+    "broad_phase_proof": "Each center moves at most sqrt(2)*trust; unit-square circumradius sum is sqrt(2).",
+    "candidate_pairs": 1202,
+    "guaranteed_separated_pairs": 58,
+    "modeled_pairs": 1144,
+    "pair_domain_impossible": [],
+    "clearance": 1e-08,
+    "bound_roundoff_guard": 1.8822876155579204e-09,
+    "global_geometry_claim": false,
+    "mode": "relaxed",
+    "variables": 671,
+    "binary_variables": 0,
+    "binary_pairs": 0,
+    "constraints": 2420,
+    "selected_pairs": [
+      [
+        0,
+        16
+      ],
+      [
+        0,
+        319
+      ],
+      [
+        1,
+        15
+      ],
+      [
+        1,
+        17
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        2,
+        18
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        3,
+        19
+      ],
+      [
+        4,
+        18
+      ],
+      [
+        4,
+        20
+      ],
+      [
+        5,
+        19
+      ],
+      [
+        5,
+        21
+      ],
+      [
+        6,
+        20
+      ],
+      [
+        6,
+        22
+      ],
+      [
+        7,
+        21
+      ],
+      [
+        7,
+        23
+      ],
+      [
+        8,
+        22
+      ],
+      [
+        8,
+        24
+      ],
+      [
+        9,
+        23
+      ],
+      [
+        9,
+        25
+      ],
+      [
+        10,
+        24
+      ],
+      [
+        10,
+        26
+      ],
+      [
+        11,
+        25
+      ],
+      [
+        11,
+        27
+      ],
+      [
+        12,
+        26
+      ],
+      [
+        12,
+        28
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        13,
+        27
+      ],
+      [
+        14,
+        28
+      ],
+      [
+        14,
+        258
+      ],
+      [
+        14,
+        260
+      ],
+      [
+        15,
+        30
+      ],
+      [
+        15,
+        320
+      ],
+      [
+        25,
+        40
+      ],
+      [
+        39,
+        53
+      ],
+      [
+        42,
+        320
+      ],
+      [
+        62,
+        72
+      ],
+      [
+        68,
+        79
+      ],
+      [
+        70,
+        81
+      ],
+      [
+        74,
+        272
+      ],
+      [
+        102,
+        107
+      ],
+      [
+        103,
+        108
+      ],
+      [
+        114,
+        329
+      ],
+      [
+        124,
+        305
+      ],
+      [
+        125,
+        140
+      ],
+      [
+        127,
+        306
+      ],
+      [
+        134,
+        315
+      ],
+      [
+        140,
+        156
+      ],
+      [
+        153,
+        166
+      ],
+      [
+        168,
+        182
+      ],
+      [
+        183,
+        194
+      ],
+      [
+        186,
+        197
+      ],
+      [
+        189,
+        289
+      ],
+      [
+        191,
+        201
+      ],
+      [
+        193,
+        203
+      ],
+      [
+        259,
+        261
+      ],
+      [
+        262,
+        263
+      ],
+      [
+        264,
+        267
+      ],
+      [
+        266,
+        269
+      ],
+      [
+        272,
+        275
+      ],
+      [
+        278,
+        279
+      ],
+      [
+        292,
+        295
+      ],
+      [
+        293,
+        294
+      ],
+      [
+        295,
+        297
+      ]
+    ],
+    "big_m": [],
+    "status": 2,
+    "success": false,
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "seconds": 0.011372795001079794
+  },
+  "relaxation_numeric_headroom": false,
+  "milp": {
+    "status": "skipped_no_numeric_relaxation_headroom"
+  }
+}

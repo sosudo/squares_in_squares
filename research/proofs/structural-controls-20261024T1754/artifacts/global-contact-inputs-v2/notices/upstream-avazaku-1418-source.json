@@ -1,0 +1,11 @@
+{
+  "ref": "avazaku/squarecraft-iii-seam-surgery",
+  "folder": "seam-monitor-20261024-1418",
+  "version": 1,
+  "native_version_id": 361805137,
+  "license": "Apache-2.0",
+  "source_sha256": "bf3bd7fbf5d986f9717ad81c2da85503195c871b71f63a1d14738ef5b1dce70e",
+  "notebook_sha256": "62eeb53f3703413063e7f23a6a0601dfc9a98774fee5a7e49a4f8380f04b5e39",
+  "license_evidence": "Kaggle V1 rendered Apache2.0/PublicScore22.3073069299; full licenses and source_provenance notices retained",
+  "upstream_lineage": "Own V11 pinned baseline and original authors retained; only newly certified gains count as provider adoption"
+}

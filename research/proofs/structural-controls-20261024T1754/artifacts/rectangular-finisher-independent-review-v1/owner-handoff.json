@@ -1,0 +1,37 @@
+{
+  "status": "stable_reviewed_handoff",
+  "files": [
+    {
+      "path": "experiments/fq_rectangular_persistent_finish.py",
+      "sha256": "47d391ec9541f70313451c55036702a21c6a8562dc75a75f7ba09d67a50d75b9"
+    },
+    {
+      "path": "experiments/fq_rectangular_reference_controls.py",
+      "sha256": "f15bcbc3f3fbc5abd9e305d32527ba2fe46446a7a4113529a7280a3e252b0d85"
+    },
+    {
+      "path": "tests/test_fq_rectangular_persistent_finish.py",
+      "sha256": "0e2b5d35bc9ffa93883ee73efc5df0632c7570e10ea318f7b4f3b33d3dfb59f9"
+    },
+    {
+      "path": "research/rectangular_persistent_finishing.md",
+      "sha256": "523926f0d281d7946e16e54ac47bba3b5e81629b53a5db94bb642336d677b197"
+    },
+    {
+      "path": "artifacts/rectangular-finisher-independent-review-v1/review.json",
+      "sha256": "1c2f4afd7234e1d644ed57fe4ca4aba6f4a5f1763c2267c919738b88faa32815"
+    },
+    {
+      "path": "artifacts/rectangular-reference-independent-review-v1/review.json",
+      "sha256": "93440ff53cd0bf4443695343fa9cfc4f886beedd1042b308b67d1800806cc08c"
+    },
+    {
+      "path": "artifacts/fq-rectangular-reference-controls-v1/completion-proof.json",
+      "sha256": "748e36f1c09d4f47591097a43bca14865b4c32ed3bf0f055be1455200e24dfb6"
+    }
+  ],
+  "tests": 8,
+  "local_controls": 4,
+  "local_cpu_released": true,
+  "remote_launch_performed": false
+}

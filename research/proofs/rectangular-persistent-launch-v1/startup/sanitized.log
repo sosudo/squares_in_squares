@@ -1,0 +1,8 @@
+data: {"stream_name":"stdout","time":28.376964798,"data":"{\"stage\": \"rectangular_preflight\", \"family\": \"5_17_7\", \"passed\": true, \"seconds\": 5.61097138400001}\n"}
+
+data: {"stream_name":"stdout","time":28.878914464,"data":"{\"stage\": \"rectangular_preflight\", \"family\": \"7_19_13\", \"passed\": true, \"seconds\": 6.302183302000003}\n"}
+
+data: {"stream_name":"stdout","time":35.914997244,"data":"{\"elapsed_seconds\":1.701562958000011,\"family\":\"5_17_7\",\"minimum_best_energy\":8.147743994107097e-06,\"rounds\":0,\"sampled_packets\":1,\"stage\":\"rectangular_search\"}\n"}
+
+data: {"stream_name":"stdout","time":35.915075586,"data":"{\"elapsed_seconds\":1.8861406880000118,\"family\":\"7_19_13\",\"minimum_best_energy\":6.4394413272754104e-06,\"rounds\":0,\"sampled_packets\":1,\"stage\":\"rectangular_search\"}\n"}
+

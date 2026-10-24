@@ -57,6 +57,27 @@ all five transported side bounds against the latest canonical interval
 lower bound. No duplicate canonical controls, GPU run, canonical mutation
 or competition submission are part of this finite test.
 
-Preparation and source-delta controls are complete; independent bindings
-review precedes the already-authorized launch. No native results exist at
-this checkpoint. No extension is authorized without new outcome evidence.
+The finite run completed in168.27 seconds, without timeout or outer kill.
+All24 returned poses passed full gates;15 strictly beat the latest frozen
+canonical lower bounds and9 valid nonwinners were retained. Aggregate gain
+was0.0003450681437986338. Dominant gains were n588(0.000276831929 score,
+0.00671281753 physical side), n458(0.0000498644 score), and n982
+(0.0000115551 score). This outcome is not an across-source causal comparison:
+the older versions were not matched under the same full native profile.
+
+Exact candidate JSON is
+`artifacts/fq-public35-alternative-finish-v1/candidates.json`, SHA
+`2802350450ad7039c34fd812c00fa39b159ba0e46f49941cb7c1332ffcc3002c`.
+All source matrices, exact literal rows, native input/output/logs, decoded
+returns, full certificates and valid nonwinners remain immutable alongside
+the result. Independent terminal audit SHA is
+`766966579a0305ab72585719e3794966f42ca41716dfecd4b0f8145e033be538`,
+under`artifacts/native-two-batch-independent-review-v1`.
+
+This batch is closed without extension. The user subsequently tightened
+submission authorization to strict score<22.24; no22.29 candidate export,
+queue entry or competition submission was made by this lane. Root owns
+portfolio merges. Immediate whole-frame propagation of the two leading
+new poses offers no side improvement at larger sizes; their tilted units
+also span nearly the entire source square. No compact transferable gadget
+or larger family gain is claimed without a separate crop/count proof.

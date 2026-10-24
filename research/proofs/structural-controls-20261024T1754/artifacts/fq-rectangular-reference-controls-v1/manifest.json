@@ -1,0 +1,204 @@
+{
+  "source_sha256": "f15bcbc3f3fbc5abd9e305d32527ba2fe46446a7a4113529a7280a3e252b0d85",
+  "finisher_sha256": "47d391ec9541f70313451c55036702a21c6a8562dc75a75f7ba09d67a50d75b9",
+  "input_archive_sha256": "1c2d92e19f8cd35d275122b8ed5746aba03c0ed113d4650a34d19447fbb87751",
+  "inputs_source": "/workspace/squares_in_squares/artifacts/rectangular-persistent-inputs-v2",
+  "bindings": [
+    {
+      "original_path": "/workspace/squares_in_squares/experiments/fq_rectangular_reference_controls.py",
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/source/driver.py",
+      "sha256": "f15bcbc3f3fbc5abd9e305d32527ba2fe46446a7a4113529a7280a3e252b0d85"
+    },
+    {
+      "original_path": "/workspace/squares_in_squares/experiments/fq_rectangular_persistent_finish.py",
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/source/finisher.py",
+      "sha256": "47d391ec9541f70313451c55036702a21c6a8562dc75a75f7ba09d67a50d75b9"
+    },
+    {
+      "original_path": "/workspace/squares_in_squares/artifacts/rectangular-persistent-inputs-v2/rectangular-inputs.npz",
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/rectangular-inputs.npz",
+      "sha256": "1c2d92e19f8cd35d275122b8ed5746aba03c0ed113d4650a34d19447fbb87751"
+    },
+    {
+      "original_path": "/workspace/squares_in_squares/artifacts/rectangular-persistent-inputs-v2/rectangular-input-config.json",
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/rectangular-input-config.json",
+      "sha256": "0cf01a53c9e63b8ed8503276c3ae5f931047986bd98a22f59748546e59388987"
+    },
+    {
+      "original_path": "/workspace/squares_in_squares/artifacts/rectangular-persistent-inputs-v2/rectangular-input-proof.json",
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/rectangular-input-proof.json",
+      "sha256": "585cad3a005e40f427f0505a98d656978ddc1e711f25f2e7f212fdccfae6eb53"
+    },
+    {
+      "original_path": "/workspace/squares_in_squares/artifacts/rectangular-persistent-inputs-v2/prepare-source.py",
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/prepare-source.py",
+      "sha256": "b2cf609aaea9f85b220c7205d5cbd434d1b43a8f8bef91e703f9bb782d7f03c1"
+    },
+    {
+      "original_path": "/tmp/squares-fq-portable-target/release/fq",
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/bin/fq",
+      "sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d"
+    },
+    {
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/5_17_7.npz",
+      "sha256": "009ae69c40d5e3d297bc2b53e14c895d4d6d238b2d2e95b518baba8b4220ed0a"
+    },
+    {
+      "original_path": "/workspace/squares_in_squares/artifacts/rectangular-persistent-inputs-v2/certificates/5_17_7__seed0.json",
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/5_17_7.certificate.json",
+      "sha256": "f61f7da5162631f231e5490c17e6fc739a06c420477a52d9e48826624ca63cfe"
+    },
+    {
+      "original_path": "/workspace/squares_in_squares/artifacts/rectangular-persistent-inputs-v2/native-reference-inputs/5_17_7__seed0.in",
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/5_17_7.in",
+      "sha256": "fb7d61ba2fe436ce479485e9389bd9bf0e94bfe8d8d0aeb106542688b0b5a2c8"
+    },
+    {
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/7_19_13.npz",
+      "sha256": "4551dd3d5c283add0844b9a1b30bd66e1fc5ee5c0b6a412c16e77ccfa0eef36f"
+    },
+    {
+      "original_path": "/workspace/squares_in_squares/artifacts/rectangular-persistent-inputs-v2/certificates/7_19_13__seed0.json",
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/7_19_13.certificate.json",
+      "sha256": "a6a6fbc1ca8e4ff48570fbb87a40167958221fea1b35f5bd468b926e57b04a62"
+    },
+    {
+      "original_path": "/workspace/squares_in_squares/artifacts/rectangular-persistent-inputs-v2/native-reference-inputs/7_19_13__seed0.in",
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/7_19_13.in",
+      "sha256": "5daf0b4a3708f7b1eaf32dc75afdd4acff3d36a4e7134405217154d031bcfc23"
+    },
+    {
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/7_20_14.npz",
+      "sha256": "741068a012b08399ef091bfb94c55ad5b1f4a9e8ee971852c37540dc9ec42755"
+    },
+    {
+      "original_path": "/workspace/squares_in_squares/artifacts/rectangular-persistent-inputs-v2/certificates/7_20_14__seed0.json",
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/7_20_14.certificate.json",
+      "sha256": "008c3e93c4365da2db5a02724e275555840ef96d3d86c7d35ee88506cf9b839e"
+    },
+    {
+      "original_path": "/workspace/squares_in_squares/artifacts/rectangular-persistent-inputs-v2/native-reference-inputs/7_20_14__seed0.in",
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/7_20_14.in",
+      "sha256": "719e18e0c322c324783cced6c5926aec6f7d3c7f10b0fbea51e674a059111174"
+    },
+    {
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/8_21_13.npz",
+      "sha256": "4d21c67adbcedc9ecc46dcce606fe4ec44d74c2d9f3bd32e1244a9650cef4297"
+    },
+    {
+      "original_path": "/workspace/squares_in_squares/artifacts/rectangular-persistent-inputs-v2/certificates/8_21_13__seed0.json",
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/8_21_13.certificate.json",
+      "sha256": "ea8b191ad76b9cc18823b024cab8c5c7df0fff754e6eed99987414e037809784"
+    },
+    {
+      "original_path": "/workspace/squares_in_squares/artifacts/rectangular-persistent-inputs-v2/native-reference-inputs/8_21_13__seed0.in",
+      "path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/8_21_13.in",
+      "sha256": "29268907a7a8420b0052ddf74be705ba892eb93c9eb35d6b14b5bb0129a631b7"
+    }
+  ],
+  "helper_hashes": {
+    "/workspace/squares_in_squares/experiments/fq_rectangular_persistent_finish.py": "47d391ec9541f70313451c55036702a21c6a8562dc75a75f7ba09d67a50d75b9",
+    "/workspace/squares_in_squares/experiments/fq_restart_hop_finish.py": "aab5ea32adc59fe26d1379879f8d4efc53cd1c157b6a02269c7d1dc9e400f543",
+    "/workspace/squares_in_squares/experiments/fq_active_pilot.py": "cc916fe5bc0e58a4cdfdeb6e4f498061522a2ae44cd6443fdffc1f485eb3db33",
+    "/workspace/squares_in_squares/experiments/fq_capacity_probe.py": "35a750d6c5aa90f661b8e0e3491e11284f04f592cb320ae0112654c7dddfedd5",
+    "/workspace/squares_in_squares/experiments/compose_gadgets.py": "a8b1df4f9474425d434a44914a73d56703dfc485a79acb57d7d0a3d6e4a24568",
+    "/workspace/squares_in_squares/experiments/fq_variant_campaign.py": "a6cc4f2b41f78350fd52fa5d8c29a44152791322000fbb007c7fea85ad8ed825",
+    "/workspace/squares_in_squares/scripts/validate_submission.py": "a9db77693e2fb093dcfdbbbfbd913f9420ed0a661ae0eeb8076362c0a8cbae4b",
+    "/workspace/squares_in_squares/scripts/score_official.py": "a6b0877295aa68940b4e32d9681a8f8d6a2e350de80c1b1f5aa54cd44e88d6ba",
+    "/workspace/squares_in_squares/research/official_metric_v17.py": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733"
+  },
+  "cases": [
+    {
+      "key": "5_17_7",
+      "n": 92,
+      "w": 5,
+      "h": 17,
+      "d": 7,
+      "reference_f_lower": "0.802428750537875558847493575585334365330771529986770818674715",
+      "reference_f_upper": "0.802428750537875558847493575585334365330771529986770818674716",
+      "source_key": "5_17_7__seed0",
+      "source_geometry_sha256": "47563e42c6d6210d0c6f85eaeacb637fe0ce2ec9b28255dd688acf59cec5d697",
+      "selected_archive": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/5_17_7.npz",
+      "selected_archive_sha256": "009ae69c40d5e3d297bc2b53e14c895d4d6d238b2d2e95b518baba8b4220ed0a",
+      "expected_native_input_sha256": "fb7d61ba2fe436ce479485e9389bd9bf0e94bfe8d8d0aeb106542688b0b5a2c8",
+      "slot": 0
+    },
+    {
+      "key": "7_19_13",
+      "n": 146,
+      "w": 7,
+      "h": 19,
+      "d": 13,
+      "reference_f_lower": "0.918030699055788269529721933994100362663857891034212236418791",
+      "reference_f_upper": "0.918030699055788269529721933994100362663857891034212236418792",
+      "source_key": "7_19_13__seed0",
+      "source_geometry_sha256": "2842b6fecf884fe6363e5a8f4a2d00f68b97ee5c94bca13034aebaa967181b07",
+      "selected_archive": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/7_19_13.npz",
+      "selected_archive_sha256": "4551dd3d5c283add0844b9a1b30bd66e1fc5ee5c0b6a412c16e77ccfa0eef36f",
+      "expected_native_input_sha256": "5daf0b4a3708f7b1eaf32dc75afdd4acff3d36a4e7134405217154d031bcfc23",
+      "slot": 1
+    },
+    {
+      "key": "7_20_14",
+      "n": 154,
+      "w": 7,
+      "h": 20,
+      "d": 14,
+      "reference_f_lower": "0.925350264393717149231321364175414365625645193915222019686223",
+      "reference_f_upper": "0.925350264393717149231321364175414365625645193915222019686224",
+      "source_key": "7_20_14__seed0",
+      "source_geometry_sha256": "0107a36686736ed8d5d5ea7b3b7e6f433bbaf7ef9b7b5407eb461d3adbf94a5b",
+      "selected_archive": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/7_20_14.npz",
+      "selected_archive_sha256": "741068a012b08399ef091bfb94c55ad5b1f4a9e8ee971852c37540dc9ec42755",
+      "expected_native_input_sha256": "719e18e0c322c324783cced6c5926aec6f7d3c7f10b0fbea51e674a059111174",
+      "slot": 2
+    },
+    {
+      "key": "8_21_13",
+      "n": 181,
+      "w": 8,
+      "h": 21,
+      "d": 13,
+      "reference_f_lower": "0.882903560350677879557428756426813908560813917406845390567284",
+      "reference_f_upper": "0.882903560350677879557428756426813908560813917406845390567285",
+      "source_key": "8_21_13__seed0",
+      "source_geometry_sha256": "6c123aaa93ed180901226f2e5e6c471a279117235ae17a709b30a1a2241d361d",
+      "selected_archive": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/inputs/8_21_13.npz",
+      "selected_archive_sha256": "4d21c67adbcedc9ecc46dcce606fe4ec44d74c2d9f3bd32e1244a9650cef4297",
+      "expected_native_input_sha256": "29268907a7a8420b0052ddf74be705ba892eb93c9eb35d6b14b5bb0129a631b7",
+      "slot": 3
+    }
+  ],
+  "derivation": {
+    "original_function_sha256": "d18523c48e56ca2fcca6bc8cef30d8742a04a94e109c08bc91e34906fec54efc",
+    "generated_function_sha256": "62767e800c831617eda2793ad0dd87f81497c9b131c1714d0c31451a2c868fb5",
+    "replacements": 1,
+    "change": "Initializer status only; all numerical behavior unchanged."
+  },
+  "binary_path": "/workspace/squares_in_squares/artifacts/fq-rectangular-reference-controls-v1/bin/fq",
+  "binary_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+  "native_source_commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+  "options": [
+    "--loosen",
+    "1",
+    "--outer",
+    "45",
+    "--pit",
+    "100",
+    "--flip-top",
+    "16"
+  ],
+  "seed": 9710000,
+  "workers": 2,
+  "affinity": [
+    2,
+    3
+  ],
+  "native_seconds": 60,
+  "certificate_seconds": 8,
+  "work_seconds": 150,
+  "whole_seconds": 160,
+  "provenance": "Exact certified v2 seed0 original controls, not GPU states; source attribution/notices inherited from pinned input proof.",
+  "no_canonical_mutation": true,
+  "no_submission": true
+}

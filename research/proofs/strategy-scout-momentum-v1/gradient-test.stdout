@@ -1,0 +1,2 @@
+{"checked": 20000, "worst_dist_excess": 2.220e-16, "grad_err_gt_1e-5": "0/19999", "worst_grad_err": 2.813e-9}
+{"energy_grad_bad": "0/90"}

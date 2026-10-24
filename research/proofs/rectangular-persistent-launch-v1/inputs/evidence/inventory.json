@@ -1,0 +1,4168 @@
+{
+  "sources": [
+    {
+      "label": "coherent",
+      "archive": "artifacts/fq-coherent-v1/donors.npz",
+      "archive_sha256": "3ac366321c97e1ad6d66eef6d0bf51645a96db5dde0b9ac8d1faddc60d0b679e",
+      "proof": "artifacts/fq-coherent-v1/results.json",
+      "proof_sha256": "e4e166e45b4d23c8e1cb39cbed05d3a3dec781790d265e88e68a251376af506e",
+      "kind": "records",
+      "eligible_arrays": 29
+    },
+    {
+      "label": "broad",
+      "archive": "artifacts/active-broad-frontier-v1/active_seed_variants.npz",
+      "archive_sha256": "6c658b4b4ca5f3ece89c5d2e071022f08457f213c546251bfbc3185ca3968f74",
+      "proof": "artifacts/active-broad-frontier-v1/active_seed_validation.json",
+      "proof_sha256": "9e676c1540aff1312a3fc2cd273d2a54e5eee6466b1b381beb7c626fc6c6564d",
+      "kind": "broad",
+      "eligible_arrays": 10
+    },
+    {
+      "label": "variant",
+      "archive": "artifacts/fq-variant-v1/snapshot-00093/donors.npz",
+      "archive_sha256": "126b496f171d43193534e35694028de5c09129174a0ecd44c6d3f3b6f6530381",
+      "proof": "artifacts/fq-variant-v1/snapshot-00093/results.json",
+      "proof_sha256": "f267cbf7782bcefd16c821087905dc6e900972d1aef9192062593150d2c40bbb",
+      "kind": "records",
+      "eligible_arrays": 215
+    },
+    {
+      "label": "multiscale",
+      "archive": "artifacts/fq-multiscale-v1/snapshot-00099/donors.npz",
+      "archive_sha256": "95d5b73b8a36cea9ea540d5ef0eb9a999d4094b633fa9acb307588bd9fbf4962",
+      "proof": "artifacts/fq-multiscale-v1/snapshot-00099/results.json",
+      "proof_sha256": "39d9bdd1382dddef77e91c938ec6eb60c429aea86385634371cdb89c59a5520e",
+      "kind": "records",
+      "eligible_arrays": 114
+    },
+    {
+      "label": "focus",
+      "archive": "artifacts/fq-focus-v1/snapshot-00083/donors.npz",
+      "archive_sha256": "a1d7b556efc1d62f7d6516f26f74d12ad4c87457440437fc456436bbf63beadd",
+      "proof": "artifacts/fq-focus-v1/snapshot-00083/results.json",
+      "proof_sha256": "d6f800155786ed4bea9930d74c3fe93b00872c19c91babf717397b21cc305ec8",
+      "kind": "records",
+      "eligible_arrays": 623
+    },
+    {
+      "label": "soft",
+      "archive": "artifacts/fq-soft-v1/snapshot-00045/donors.npz",
+      "archive_sha256": "2b52aa18d4ea67a53f4e3deb7e9068f900baa8dc1b509967bb0dfcf3aa786342",
+      "proof": "artifacts/fq-soft-v1/snapshot-00045/results.json",
+      "proof_sha256": "027bc3d2a96a07bb1e3c61c8dcebfb2025cb4f5534f825f472059659ee7e5aba",
+      "kind": "records",
+      "eligible_arrays": 54
+    },
+    {
+      "label": "local_soft",
+      "archive": "artifacts/fq-local-soft-v1/all-strict/donors.npz",
+      "archive_sha256": "c2aeea8fd99ac4c6b5b8c983fb9ac61b0be30672da1560f94ba03ec518033c7e",
+      "proof": "artifacts/fq-local-soft-v1/all-strict/provenance.json",
+      "proof_sha256": "6fd6f0d80b33017d9f19c3fab8067ef6fd431f9290658095685536ec9da0409a",
+      "kind": "local",
+      "eligible_arrays": 256
+    },
+    {
+      "label": "combined",
+      "archive": "artifacts/combined-ftmc-results/artifacts/campaign_gadgets.npz",
+      "archive_sha256": "204eaa312767cdaf957e708bc8476f4fa5c7eba869e5994cdafd781b4a67d45f",
+      "proof": "artifacts/combined-ftmc-results/ftmc_candidates.json",
+      "proof_sha256": "d393bdec359a1b571ab38f8c23787ef88c26f1c9512d5a962288a4968983e58c",
+      "kind": "combined",
+      "eligible_arrays": 1724
+    }
+  ],
+  "selection": {
+    "5_17_7": [
+      {
+        "input_key": "5_17_7__seed0",
+        "source_label": "local_soft",
+        "source_key": "17_5_7__strict_9ed08f7e38271d52c43ed2d3c9cb4800d08170aa37cb4adf969bee523b7f3366",
+        "source_type": [
+          17,
+          5,
+          7
+        ],
+        "source_archive": "artifacts/fq-local-soft-v1/all-strict/donors.npz",
+        "source_archive_sha256": "c2aeea8fd99ac4c6b5b8c983fb9ac61b0be30672da1560f94ba03ec518033c7e",
+        "source_proof": "artifacts/fq-local-soft-v1/all-strict/provenance.json",
+        "source_proof_sha256": "6fd6f0d80b33017d9f19c3fab8067ef6fd431f9290658095685536ec9da0409a",
+        "source_geometry_sha256": "9ed08f7e38271d52c43ed2d3c9cb4800d08170aa37cb4adf969bee523b7f3366",
+        "source_npy_sha256": "940a2677985bf395f5959eccbe2b27c4ff57bc91a0e07ba32cfeb812d96c2c7a",
+        "geometry_sha256": "47563e42c6d6210d0c6f85eaeacb637fe0ce2ec9b28255dd688acf59cec5d697",
+        "transform": {
+          "transpose": true,
+          "angle_rule": "pi/2-angle",
+          "translation": [
+            -0.0,
+            -0.0
+          ],
+          "row_order": "unchanged",
+          "no_scaling": true
+        },
+        "f": 0.8024287505378744,
+        "descriptor": "19bcfb192adb96fa15fe76113455e5f600d18f4ff676e7ab556f8dcde27240d7",
+        "certificate": {
+          "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "raw_reason": "ok",
+          "roundtrip_reason": "ok",
+          "raw_side": "17.80242875053787565923132169162981856249344362904664",
+          "roundtrip_side": "17.80242875053787576923132169162981856249344362904664",
+          "valid": true
+        },
+        "source_record": {
+          "origin": "primary",
+          "record": {
+            "key": "17_5_7",
+            "mode": "local_soft_060",
+            "seed": 981277,
+            "before": 0.8024287505378958,
+            "seconds": 0.6279976789992361,
+            "returncode": 0,
+            "fq": {
+              "s": 5.802428716936742,
+              "s_alm": 5.802428716933102,
+              "viol": 1.47e-06,
+              "evals": 824,
+              "outer": 45,
+              "slp_it": 4,
+              "slp_r": 0.004,
+              "flips": 0,
+              "min_gap": 2.09e-13,
+              "min_wall": 1.01e-13,
+              "sec": 0.045,
+              "s_coarse": 5.802503999706513,
+              "t_alm": 0.022,
+              "s_alm0": 5.802427798019624,
+              "trace": [
+                [
+                  1,
+                  0.0063,
+                  5.80242879846057,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  0.011,
+                  5.802428716987222,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  3,
+                  0.0151,
+                  5.802428716933121,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ]
+              ],
+              "fp": "d7638022203a7c49",
+              "ncontacts": 181,
+              "fin": []
+            },
+            "after": 0.8024287505378744,
+            "gain": 2.1316282072803006e-14,
+            "certificate": {
+              "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+              "raw_reason": "ok",
+              "roundtrip_reason": "ok",
+              "raw_side": "17.80242875053787565923132169162981856249344362904664",
+              "roundtrip_side": "17.80242875053787576923132169162981856249344362904664",
+              "valid": true
+            },
+            "status": "certified",
+            "geometry_sha256": "9ed08f7e38271d52c43ed2d3c9cb4800d08170aa37cb4adf969bee523b7f3366",
+            "strict_improvement": false,
+            "command_options": [
+              "--loosen",
+              "1",
+              "--soft-compress",
+              "--soft-a0",
+              ".6",
+              "--soft-steps",
+              "16",
+              "--soft-p",
+              "2",
+              "--soft-kick",
+              ".004",
+              "--hold-f",
+              "1.001",
+              "--outer",
+              "45",
+              "--pit",
+              "100",
+              "--flip-top",
+              "16",
+              "--v",
+              "--kick",
+              ".1",
+              "--freeze",
+              "0,1,2,4,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,63,64,65,66,67,68,78,79,80,81,82,83,84,85,86,87,88,89,90,91"
+            ],
+            "configured_options": [
+              "--loosen",
+              "1",
+              "--soft-compress",
+              "--soft-a0",
+              ".6",
+              "--soft-steps",
+              "16",
+              "--soft-p",
+              "2",
+              "--soft-kick",
+              ".004",
+              "--hold-f",
+              "1.001",
+              "--outer",
+              "45",
+              "--pit",
+              "100",
+              "--flip-top",
+              "16",
+              "--v",
+              "--kick",
+              ".1"
+            ],
+            "release_command_options": [
+              "--loosen",
+              "1",
+              "--outer",
+              "45",
+              "--pit",
+              "100",
+              "--flip-top",
+              "16"
+            ],
+            "release_status": "certified",
+            "strict_intermediate": {
+              "geometry_sha256": "fb62adc79a8fef6612127259903a333bcfcb47f5a121d687dea6d26f1cb908c1",
+              "archive_path": "/workspace/squares_in_squares/artifacts/fq-local-soft-v1/trials/17_5_7-local_soft_060-981277-strict-intermediate.npz",
+              "archive_sha256": "86ccbcd6ef83d98dfdb271ba5905f67d61a3e2611e2d34daac56f59ce26fadf6",
+              "certificate": {
+                "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+                "raw_reason": "ok",
+                "roundtrip_reason": "ok",
+                "raw_side": "17.80242877265885501923132169152420740408948682675948",
+                "roundtrip_side": "17.80242877265885491923132169152630932722165601282520",
+                "valid": true
+              },
+              "rigid_return_trace": {
+                "valid": true,
+                "expected_steps": 16,
+                "reported_aspect_epsilons": [
+                  0.5273,
+                  0.4594,
+                  0.3961,
+                  0.3375,
+                  0.2836,
+                  0.2344,
+                  0.1898,
+                  0.15,
+                  0.1148,
+                  0.0844,
+                  0.0586,
+                  0.0375,
+                  0.0211,
+                  0.0094,
+                  0.0023,
+                  0.0
+                ],
+                "final_reported_epsilon": 0.0,
+                "log_sha256": "f6bb66f582c5ea9894ec791b573eda54d04a419b8bb56de350c3f56fbeec762f",
+                "source_invariant": "Pinned fq.rs sets e=e0*(1-k/K)^p; at k=K e is exactly0 and p.b is cleared. It calls set_soft(0.0) again before the rigid finish.",
+                "unit_square_certificate_valid": true
+              },
+              "command_options": [
+                "--loosen",
+                "1",
+                "--soft-compress",
+                "--soft-a0",
+                ".6",
+                "--soft-steps",
+                "16",
+                "--soft-p",
+                "2",
+                "--soft-kick",
+                ".004",
+                "--hold-f",
+                "1.001",
+                "--outer",
+                "45",
+                "--pit",
+                "100",
+                "--flip-top",
+                "16",
+                "--v",
+                "--kick",
+                ".1",
+                "--freeze",
+                "0,1,2,4,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,63,64,65,66,67,68,78,79,80,81,82,83,84,85,86,87,88,89,90,91"
+              ],
+              "local_selection": {
+                "center": [
+                  9.472479229257699,
+                  5.130217385558825
+                ],
+                "center_kind": "seeded_tilted_square",
+                "free_indices": [
+                  71,
+                  15,
+                  19,
+                  72,
+                  70,
+                  18,
+                  11,
+                  14,
+                  23,
+                  22,
+                  74,
+                  69,
+                  17,
+                  10,
+                  21,
+                  7,
+                  13,
+                  26,
+                  27,
+                  25,
+                  75,
+                  73,
+                  20,
+                  6,
+                  16,
+                  9,
+                  24,
+                  3,
+                  12,
+                  30,
+                  29,
+                  31,
+                  61,
+                  28,
+                  5,
+                  76,
+                  77,
+                  62,
+                  60,
+                  8
+                ],
+                "frozen_indices": [
+                  0,
+                  1,
+                  2,
+                  4,
+                  32,
+                  33,
+                  34,
+                  35,
+                  36,
+                  37,
+                  38,
+                  39,
+                  40,
+                  41,
+                  42,
+                  43,
+                  44,
+                  45,
+                  46,
+                  47,
+                  48,
+                  49,
+                  50,
+                  51,
+                  52,
+                  53,
+                  54,
+                  55,
+                  56,
+                  57,
+                  58,
+                  59,
+                  63,
+                  64,
+                  65,
+                  66,
+                  67,
+                  68,
+                  78,
+                  79,
+                  80,
+                  81,
+                  82,
+                  83,
+                  84,
+                  85,
+                  86,
+                  87,
+                  88,
+                  89,
+                  90,
+                  91
+                ]
+              },
+              "source_geometry_sha256": "efe9c4ccdcb218ecc41a7977fc3f27ea7c9b10f8ef4a914990f7074bd4224f90",
+              "key": "17_5_7",
+              "mode": "local_soft_060",
+              "seed": 981277
+            },
+            "local_selection": {
+              "center": [
+                9.472479229257699,
+                5.130217385558825
+              ],
+              "center_kind": "seeded_tilted_square",
+              "free_indices": [
+                71,
+                15,
+                19,
+                72,
+                70,
+                18,
+                11,
+                14,
+                23,
+                22,
+                74,
+                69,
+                17,
+                10,
+                21,
+                7,
+                13,
+                26,
+                27,
+                25,
+                75,
+                73,
+                20,
+                6,
+                16,
+                9,
+                24,
+                3,
+                12,
+                30,
+                29,
+                31,
+                61,
+                28,
+                5,
+                76,
+                77,
+                62,
+                60,
+                8
+              ],
+              "frozen_indices": [
+                0,
+                1,
+                2,
+                4,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91
+              ]
+            },
+            "rigid_return_trace": {
+              "valid": true,
+              "expected_steps": 16,
+              "reported_aspect_epsilons": [
+                0.5273,
+                0.4594,
+                0.3961,
+                0.3375,
+                0.2836,
+                0.2344,
+                0.1898,
+                0.15,
+                0.1148,
+                0.0844,
+                0.0586,
+                0.0375,
+                0.0211,
+                0.0094,
+                0.0023,
+                0.0
+              ],
+              "final_reported_epsilon": 0.0,
+              "log_sha256": "f6bb66f582c5ea9894ec791b573eda54d04a419b8bb56de350c3f56fbeec762f",
+              "source_invariant": "Pinned fq.rs sets e=e0*(1-k/K)^p; at k=K e is exactly0 and p.b is cleared. It calls set_soft(0.0) again before the rigid finish.",
+              "unit_square_certificate_valid": true
+            },
+            "soft_stage": {
+              "s": 5.802428750541495,
+              "s_alm": 5.802428750537912,
+              "viol": 4.95e-07,
+              "evals": 555,
+              "outer": 45,
+              "slp_it": 2,
+              "slp_r": 0.002,
+              "flips": 0,
+              "min_gap": 6.84e-10,
+              "min_wall": 1e-13,
+              "sec": 0.055,
+              "s_coarse": 5.802462301232577,
+              "t_alm": 0.049,
+              "s_alm0": 5.802429877090837,
+              "trace": [
+                [
+                  1,
+                  0.0021,
+                  5.802428750537912,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ]
+              ],
+              "fp": "6ccd0f4170587991",
+              "ncontacts": 1,
+              "fin": [],
+              "soft": {
+                "a0": 0.6,
+                "s_soft": 5.802428161845,
+                "s_hold": 5.808230590007,
+                "amax": 0.0156,
+                "viol_hard": 8.91e-09
+              },
+              "frozen": 52,
+              "frozen_dmax": 3.482e-12
+            },
+            "rigid_release_certificate_valid": true,
+            "trial_id": 277,
+            "parent": {
+              "source_archive": "donor_0",
+              "source_name": "17_5_7__focus_efe9c4ccdcb218ecc41a7977fc3f27ea7c9b10f8ef4a914990f7074bd4224f90",
+              "geometry_sha256": "efe9c4ccdcb218ecc41a7977fc3f27ea7c9b10f8ef4a914990f7074bd4224f90",
+              "bucket": "272428b3c438928d86f64c75e33519564665254693d236a6f7c478cc0019adda",
+              "selection": "diverse_archive",
+              "key": "17_5_7",
+              "mode": "local_soft_060",
+              "seed": 981277,
+              "trial_id": 277,
+              "parent_excess": 0.8024287505378958,
+              "reference_excess": 0.802428750537878
+            },
+            "reference_excess": 0.802428750537878,
+            "binary_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+            "source_commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+            "archive_key": "17_5_7__fqm_9ed08f7e38271d52c43ed2d3c9cb4800d08170aa37cb4adf969bee523b7f3366",
+            "reference_gain": 3.552713678800501e-15,
+            "strict_reference_improvement": false
+          }
+        },
+        "geometry_binding": "raw_little_endian_float64"
+      },
+      {
+        "input_key": "5_17_7__seed1",
+        "source_label": "broad",
+        "source_key": "17_5_7__c099c3d1ac59176d2641",
+        "source_type": [
+          17,
+          5,
+          7
+        ],
+        "source_archive": "artifacts/active-broad-frontier-v1/active_seed_variants.npz",
+        "source_archive_sha256": "6c658b4b4ca5f3ece89c5d2e071022f08457f213c546251bfbc3185ca3968f74",
+        "source_proof": "artifacts/active-broad-frontier-v1/active_seed_validation.json",
+        "source_proof_sha256": "9e676c1540aff1312a3fc2cd273d2a54e5eee6466b1b381beb7c626fc6c6564d",
+        "source_geometry_sha256": "c099c3d1ac59176d2641ab6d17b81c356ee716afd1287eca467bff1bd018d24d",
+        "source_npy_sha256": "8c057c417bc05c8df3dc0f2373a53e9a544ea1f75ebf55fe2d050cfcaf02f3a8",
+        "geometry_sha256": "8e48e70a23e9abe6af2083da36def54c6f990ac9655794f22593b7f78defc5a9",
+        "transform": {
+          "transpose": true,
+          "angle_rule": "pi/2-angle",
+          "translation": [
+            1.1102230246251565e-16,
+            2.220446049250313e-16
+          ],
+          "row_order": "unchanged",
+          "no_scaling": true
+        },
+        "f": 0.8024287505379668,
+        "descriptor": "103fa274f576be473c55cc62c965a75471e2eee6111ee308cf2f7999612dd058",
+        "certificate": {
+          "valid": true,
+          "geometry_sha256": "c099c3d1ac59176d2641ab6d17b81c356ee716afd1287eca467bff1bd018d24d",
+          "raw_csv_sha256": "fe8f846cf5873c326153d5a274c28c809e37665829343763b94368abaa269dd7",
+          "ordinary_pandas_csv_sha256": "49515a364093f17cb2f6ff519a52fd4c85dabefa2913927741fc36af099ab563",
+          "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "official_raw": {
+            "reason": "ok",
+            "side": "17.80242875053796528923132169163451625574031942494446"
+          },
+          "official_roundtrip": {
+            "reason": "ok",
+            "side": "17.80242875053796531923132169163432125574031942443371"
+          },
+          "independent_raw": {
+            "n": 92,
+            "valid": true,
+            "side_lower": "17.802428750537965289231321691634516255740319424944395811333328",
+            "side_upper": "17.802428750537965289231321691634516255740319424944524104039414",
+            "score_lower": "0.856031499855622706534014556220272553829376195064122982603495",
+            "score_upper": "0.856031499855622706534014556220272553829376195064141691956467",
+            "interval_pairs": 208,
+            "exact_pairs": 0
+          },
+          "independent_roundtrip": {
+            "n": 92,
+            "valid": true,
+            "side_lower": "17.802428750537965319231321691634321255740319424433660241786653",
+            "side_upper": "17.802428750537965319231321691634321255740319424433788534492739",
+            "score_lower": "0.856031499855622709661730767076373663846247845979791914093654",
+            "score_upper": "0.856031499855622709661730767076373663846247845979813296211336",
+            "interval_pairs": 208,
+            "exact_pairs": 0
+          }
+        },
+        "source_record": {
+          "valid": true,
+          "geometry_sha256": "c099c3d1ac59176d2641ab6d17b81c356ee716afd1287eca467bff1bd018d24d",
+          "raw_csv_sha256": "fe8f846cf5873c326153d5a274c28c809e37665829343763b94368abaa269dd7",
+          "ordinary_pandas_csv_sha256": "49515a364093f17cb2f6ff519a52fd4c85dabefa2913927741fc36af099ab563",
+          "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "official_raw": {
+            "reason": "ok",
+            "side": "17.80242875053796528923132169163451625574031942494446"
+          },
+          "official_roundtrip": {
+            "reason": "ok",
+            "side": "17.80242875053796531923132169163432125574031942443371"
+          },
+          "independent_raw": {
+            "n": 92,
+            "valid": true,
+            "side_lower": "17.802428750537965289231321691634516255740319424944395811333328",
+            "side_upper": "17.802428750537965289231321691634516255740319424944524104039414",
+            "score_lower": "0.856031499855622706534014556220272553829376195064122982603495",
+            "score_upper": "0.856031499855622706534014556220272553829376195064141691956467",
+            "interval_pairs": 208,
+            "exact_pairs": 0
+          },
+          "independent_roundtrip": {
+            "n": 92,
+            "valid": true,
+            "side_lower": "17.802428750537965319231321691634321255740319424433660241786653",
+            "side_upper": "17.802428750537965319231321691634321255740319424433788534492739",
+            "score_lower": "0.856031499855622709661730767076373663846247845979791914093654",
+            "score_upper": "0.856031499855622709661730767076373663846247845979813296211336",
+            "interval_pairs": 208,
+            "exact_pairs": 0
+          }
+        },
+        "geometry_binding": "raw_little_endian_float64"
+      },
+      {
+        "input_key": "5_17_7__seed2",
+        "source_label": "soft",
+        "source_key": "5_17_7__fqm_352725dd8484464193e6412f3f5b415b078b0e5699adbd0ee113618f9ba2ee21",
+        "source_type": [
+          5,
+          17,
+          7
+        ],
+        "source_archive": "artifacts/fq-soft-v1/snapshot-00045/donors.npz",
+        "source_archive_sha256": "2b52aa18d4ea67a53f4e3deb7e9068f900baa8dc1b509967bb0dfcf3aa786342",
+        "source_proof": "artifacts/fq-soft-v1/snapshot-00045/results.json",
+        "source_proof_sha256": "027bc3d2a96a07bb1e3c61c8dcebfb2025cb4f5534f825f472059659ee7e5aba",
+        "source_geometry_sha256": "352725dd8484464193e6412f3f5b415b078b0e5699adbd0ee113618f9ba2ee21",
+        "source_npy_sha256": "9cc8722dd4b29492773b02f023ff35b6e01b5f19d7fca07f6f9707c96621b657",
+        "geometry_sha256": "352725dd8484464193e6412f3f5b415b078b0e5699adbd0ee113618f9ba2ee21",
+        "transform": {
+          "transpose": false,
+          "angle_rule": "unchanged",
+          "translation": [
+            -0.0,
+            -0.0
+          ],
+          "row_order": "unchanged",
+          "no_scaling": true
+        },
+        "f": 0.8024287505380272,
+        "descriptor": "be976b9b184e2d0b238a96ef40539459d4352c8bc67b22352c3c2cfa106359c4",
+        "certificate": {
+          "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "raw_reason": "ok",
+          "roundtrip_reason": "ok",
+          "raw_side": "17.80242875053802528792044493359733174717896293032312",
+          "roundtrip_side": "17.80242875053802528792044493359433174717896304739981",
+          "valid": true
+        },
+        "source_record": {
+          "key": "5_17_7",
+          "mode": "soft_008",
+          "seed": 981122,
+          "before": 0.802428750537878,
+          "seconds": 2.2589065170013782,
+          "returncode": 0,
+          "fq": {
+            "s": 5.802428716936927,
+            "s_alm": 5.802428716933338,
+            "viol": 3.25e-06,
+            "evals": 706,
+            "outer": 35,
+            "slp_it": 5,
+            "slp_r": 0.004,
+            "flips": 0,
+            "min_gap": 2.12e-13,
+            "min_wall": 1.01e-13,
+            "sec": 2.255,
+            "s_coarse": 5.802619892929716,
+            "t_alm": 2.212,
+            "s_alm0": 5.802432349701237,
+            "trace": [
+              [
+                1,
+                0.0105,
+                5.802428754917207,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                2,
+                0.0172,
+                5.802428716951021,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                3,
+                0.0237,
+                5.802428716937066,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                4,
+                0.0299,
+                5.802428716933342,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ]
+            ],
+            "fp": "a003410d97666e81",
+            "ncontacts": 183,
+            "fin": [],
+            "soft": {
+              "a0": 0.08,
+              "s_soft": 5.747782020763,
+              "s_hold": 5.747782020763,
+              "amax": 0.08,
+              "viol_hard": 0.01368
+            }
+          },
+          "after": 0.8024287505380272,
+          "gain": -1.4921397450962104e-13,
+          "certificate": {
+            "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+            "raw_reason": "ok",
+            "roundtrip_reason": "ok",
+            "raw_side": "17.80242875053802528792044493359733174717896293032312",
+            "roundtrip_side": "17.80242875053802528792044493359433174717896304739981",
+            "valid": true
+          },
+          "status": "certified",
+          "geometry_sha256": "352725dd8484464193e6412f3f5b415b078b0e5699adbd0ee113618f9ba2ee21",
+          "strict_improvement": false,
+          "command_options": [
+            "--loosen",
+            "1",
+            "--soft-compress",
+            "--soft-steps",
+            "8",
+            "--soft-kick",
+            ".003",
+            "--outer",
+            "35",
+            "--pit",
+            "80",
+            "--flip-top",
+            "12",
+            "--v",
+            "--soft-a0",
+            ".08",
+            "--hold-f",
+            "1"
+          ],
+          "rigid_return_trace": {
+            "valid": true,
+            "expected_steps": 8,
+            "reported_aspect_epsilons": [
+              0.07,
+              0.06,
+              0.05,
+              0.04,
+              0.03,
+              0.02,
+              0.01,
+              0.0
+            ],
+            "final_reported_epsilon": 0.0,
+            "log_sha256": "fcd7b116dd83192dc1f9c336ce52fb0b1eacb576ccb049a044597e55c8ab28ee",
+            "source_invariant": "Pinned fq.rs sets e=e0*(1-k/K)^p; at k=K e is exactly0 and p.b is cleared. It calls set_soft(0.0) again before the rigid finish.",
+            "unit_square_certificate_valid": true
+          },
+          "trial_id": 122,
+          "parent": {
+            "source_archive": "campaign_best",
+            "source_name": "5_17_7",
+            "geometry_sha256": "a8456beafc9b0f69e901f03b9ee69899ffcef368501279ab72fe74925386e73d",
+            "selection": "incumbent",
+            "key": "5_17_7",
+            "mode": "soft_008",
+            "seed": 981122,
+            "trial_id": 122,
+            "parent_excess": 0.802428750537878,
+            "reference_excess": 0.802428750537878
+          },
+          "reference_excess": 0.802428750537878,
+          "binary_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+          "source_commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+          "archive_key": "5_17_7__fqm_352725dd8484464193e6412f3f5b415b078b0e5699adbd0ee113618f9ba2ee21",
+          "reference_gain": -1.4921397450962104e-13,
+          "strict_reference_improvement": false
+        },
+        "geometry_binding": "raw_little_endian_float64"
+      },
+      {
+        "input_key": "5_17_7__seed3",
+        "source_label": "combined",
+        "source_key": "5_17_7__2574befa80fd1c6573adf6b88fbf210ab8c7239d82e07e8b4837163a11b98b2e",
+        "source_type": [
+          5,
+          17,
+          7
+        ],
+        "source_archive": "artifacts/combined-ftmc-results/artifacts/campaign_gadgets.npz",
+        "source_archive_sha256": "204eaa312767cdaf957e708bc8476f4fa5c7eba869e5994cdafd781b4a67d45f",
+        "source_proof": "artifacts/combined-ftmc-results/ftmc_candidates.json",
+        "source_proof_sha256": "d393bdec359a1b571ab38f8c23787ef88c26f1c9512d5a962288a4968983e58c",
+        "source_geometry_sha256": "812eac8cf051c41de1452f8796c6a244a5ac5a43face826d398f5d3335cd9ee6",
+        "source_npy_sha256": "2574befa80fd1c6573adf6b88fbf210ab8c7239d82e07e8b4837163a11b98b2e",
+        "geometry_sha256": "812eac8cf051c41de1452f8796c6a244a5ac5a43face826d398f5d3335cd9ee6",
+        "transform": {
+          "transpose": false,
+          "angle_rule": "unchanged",
+          "translation": [
+            -0.0,
+            -0.0
+          ],
+          "row_order": "unchanged",
+          "no_scaling": true
+        },
+        "f": 0.8039881991799467,
+        "descriptor": "8d01c8da6a4254e437167eea479a2105fbc6c6b7206b06be5bbb3b0d9a4cf4dc",
+        "certificate": {
+          "bloat": 0.8039881991799467,
+          "certification_contract": "unchanged_public_certify_exact_geometry",
+          "dtype": "<f8",
+          "geometry_sha256": "2574befa80fd1c6573adf6b88fbf210ab8c7239d82e07e8b4837163a11b98b2e",
+          "h": 17,
+          "key": "5_17_7",
+          "npy_sha256": "2574befa80fd1c6573adf6b88fbf210ab8c7239d82e07e8b4837163a11b98b2e",
+          "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "official_raw_and_pandas": true,
+          "raw": true,
+          "roundtrip": true,
+          "shape": [
+            92,
+            3
+          ],
+          "signature": "dcac13ce4326",
+          "snapshot": "2574befa80fd1c6573adf6b88fbf210ab8c7239d82e07e8b4837163a11b98b2e.npy",
+          "status": "certified_geometry",
+          "w": 5
+        },
+        "source_record": {
+          "key": "5_17_7",
+          "bloat": 0.8039881991799467,
+          "original_seed_bloat": 0.8024338261062667,
+          "gain_from_original": -0.0015543730736800043,
+          "official_raw_and_roundtrip": true,
+          "exact_geometry_certificate": {
+            "bloat": 0.8039881991799467,
+            "certification_contract": "unchanged_public_certify_exact_geometry",
+            "dtype": "<f8",
+            "geometry_sha256": "2574befa80fd1c6573adf6b88fbf210ab8c7239d82e07e8b4837163a11b98b2e",
+            "h": 17,
+            "key": "5_17_7",
+            "npy_sha256": "2574befa80fd1c6573adf6b88fbf210ab8c7239d82e07e8b4837163a11b98b2e",
+            "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+            "official_raw_and_pandas": true,
+            "raw": true,
+            "roundtrip": true,
+            "shape": [
+              92,
+              3
+            ],
+            "signature": "dcac13ce4326",
+            "snapshot": "2574befa80fd1c6573adf6b88fbf210ab8c7239d82e07e8b4837163a11b98b2e.npy",
+            "status": "certified_geometry",
+            "w": 5
+          },
+          "sources": [
+            {
+              "device": 0,
+              "initial_bloat": 0.802428750537949,
+              "gain_from_device_initial": -0.0015594486419976406
+            }
+          ],
+          "active_join_compatibility": "not assessed; composition must verify actual joins"
+        },
+        "geometry_binding": "NPY_file_sha256; independent raw-array SHA also recorded"
+      }
+    ],
+    "7_19_13": [
+      {
+        "input_key": "7_19_13__seed0",
+        "source_label": "coherent",
+        "source_key": "19_7_13__coherent_ec5ee0f92ef0dea05f8fae44",
+        "source_type": [
+          19,
+          7,
+          13
+        ],
+        "source_archive": "artifacts/fq-coherent-v1/donors.npz",
+        "source_archive_sha256": "3ac366321c97e1ad6d66eef6d0bf51645a96db5dde0b9ac8d1faddc60d0b679e",
+        "source_proof": "artifacts/fq-coherent-v1/results.json",
+        "source_proof_sha256": "e4e166e45b4d23c8e1cb39cbed05d3a3dec781790d265e88e68a251376af506e",
+        "source_geometry_sha256": "ec5ee0f92ef0dea05f8fae44ccaf1046341e3add09186c442379964f9d396982",
+        "source_npy_sha256": "dc838c54a14ef37cb97a7904fe445402c198f8b637d2df93e56edf21e14157c9",
+        "geometry_sha256": "2842b6fecf884fe6363e5a8f4a2d00f68b97ee5c94bca13034aebaa967181b07",
+        "transform": {
+          "transpose": true,
+          "angle_rule": "pi/2-angle",
+          "translation": [
+            -0.0,
+            -0.0
+          ],
+          "row_order": "unchanged",
+          "no_scaling": true
+        },
+        "f": 0.9180306990557874,
+        "descriptor": "6464dc7a7caf5e880e2902e7563a07123b1b31bf9ac09c479dac60db6bfce9ae",
+        "certificate": {
+          "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "raw_reason": "ok",
+          "roundtrip_reason": "ok",
+          "raw_side": "19.91803069905578833923132104085171793884388344381045",
+          "roundtrip_side": "19.91803069905578844923132104085171793884388344381045",
+          "valid": true
+        },
+        "source_record": {
+          "trial_id": 3,
+          "key": "19_7_13",
+          "canonical": "7_19_13",
+          "mutation": {
+            "kind": "cluster_rotate",
+            "seed": 1193292,
+            "selected": [
+              114,
+              108,
+              107,
+              116,
+              104,
+              103,
+              112,
+              126,
+              102,
+              118,
+              105,
+              98
+            ],
+            "angle_delta": -0.025,
+            "centre": [
+              3.2251133776076304,
+              5.21984407566612
+            ],
+            "input_geometry_sha256": "b3b40e897d4dde7b7ea1f07ea84a01d648df80d3abf1b1644a80151ef36dacc2",
+            "mutated_geometry_sha256": "882cdd7e357b056b87937c67bffd4389f14adeda3c413db050c7ecd967a49c8a"
+          },
+          "command": [
+            "/workspace/squares_in_squares/artifacts/fq-coherent-v1/fq",
+            "quench",
+            "--in",
+            "/workspace/squares_in_squares/artifacts/fq-coherent-v1/trials/19_7_13-coherent_repair-1193292.in",
+            "--out",
+            "/workspace/squares_in_squares/artifacts/fq-coherent-v1/trials/19_7_13-coherent_repair-1193292.out",
+            "--rect-dx",
+            "12",
+            "--rect-dy",
+            "0",
+            "--seed",
+            "1193292",
+            "--loosen",
+            "1.001",
+            "--outer",
+            "45",
+            "--pit",
+            "80",
+            "--flip-top",
+            "12"
+          ],
+          "mode": "coherent_repair",
+          "seed": 1193292,
+          "before": 0.9180311384634798,
+          "seconds": 0.5470365210003365,
+          "returncode": 0,
+          "fq": {
+            "s": 7.91803066122441,
+            "s_alm": 7.918030661221418,
+            "viol": 2.82e-05,
+            "evals": 1772,
+            "outer": 45,
+            "slp_it": 27,
+            "slp_r": 0.002,
+            "flips": 0,
+            "min_gap": 2.34e-13,
+            "min_wall": 1.2e-13,
+            "sec": 0.544,
+            "s_coarse": 7.920274315385711,
+            "t_alm": 0.095,
+            "s_alm0": 7.918052349987292,
+            "trace": [
+              [
+                1,
+                0.0117,
+                7.918040669439166,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                2,
+                0.027,
+                7.918034737290419,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                4,
+                0.0732,
+                7.918034172016355,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                6,
+                0.123,
+                7.918033907599305,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                7,
+                0.1487,
+                7.918033270583938,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                8,
+                0.1659,
+                7.918032634886798,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                9,
+                0.1802,
+                7.918031439975913,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                10,
+                0.2052,
+                7.918030960700727,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                11,
+                0.2212,
+                7.918030669110536,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                12,
+                0.2318,
+                7.918030662313386,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                13,
+                0.2431,
+                7.918030661969805,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                14,
+                0.2582,
+                7.918030661733037,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                16,
+                0.2906,
+                7.918030661644138,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                17,
+                0.3008,
+                7.918030661410576,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                19,
+                0.3319,
+                7.918030661374422,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                21,
+                0.3613,
+                7.91803066135887,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                22,
+                0.3763,
+                7.918030661333156,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                24,
+                0.4044,
+                7.918030661319545,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                25,
+                0.4182,
+                7.918030661282298,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                26,
+                0.4413,
+                7.918030661221418,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ]
+            ],
+            "fp": "205bc572ea19b184",
+            "ncontacts": 286,
+            "fin": []
+          },
+          "after": 0.9180306990557874,
+          "gain": 4.3940769245409683e-07,
+          "certificate": {
+            "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+            "raw_reason": "ok",
+            "roundtrip_reason": "ok",
+            "raw_side": "19.91803069905578833923132104085171793884388344381045",
+            "roundtrip_side": "19.91803069905578844923132104085171793884388344381045",
+            "valid": true
+          },
+          "status": "certified",
+          "geometry_sha256": "ec5ee0f92ef0dea05f8fae44ccaf1046341e3add09186c442379964f9d396982",
+          "strict_improvement": true,
+          "independent_certificate": {
+            "n": 146,
+            "valid": true,
+            "side_lower": "19.918030699055788339231321040851717938843883443810409590914843",
+            "side_upper": "19.918030699055788339231321040851717938843883443810537883620929",
+            "score_lower": "0.648427949590130978791425058476286792321218318253906056430740",
+            "score_upper": "0.648427949590130978791425058476286792321218318253922093019002",
+            "interval_pairs": 338,
+            "exact_pairs": 0
+          },
+          "ordinary_roundtrip": [
+            146,
+            0.6484279495901308,
+            "19.91803069905578841923132104085171793884388344381045",
+            "ok"
+          ],
+          "reference_excess": 0.9180311384634798,
+          "gain_vs_fair_reference": 4.3940769245409683e-07,
+          "repair_contraction_from_mutated_box": 4.3940769245409683e-07,
+          "material_improvement": false,
+          "strict_improvement_reference": "orientation-fair frozen reference",
+          "whole_trial_seconds": 1.1050627029999305
+        },
+        "geometry_binding": "raw_little_endian_float64"
+      },
+      {
+        "input_key": "7_19_13__seed1",
+        "source_label": "broad",
+        "source_key": "19_7_13__b2874ad0f0e83ca288a9",
+        "source_type": [
+          19,
+          7,
+          13
+        ],
+        "source_archive": "artifacts/active-broad-frontier-v1/active_seed_variants.npz",
+        "source_archive_sha256": "6c658b4b4ca5f3ece89c5d2e071022f08457f213c546251bfbc3185ca3968f74",
+        "source_proof": "artifacts/active-broad-frontier-v1/active_seed_validation.json",
+        "source_proof_sha256": "9e676c1540aff1312a3fc2cd273d2a54e5eee6466b1b381beb7c626fc6c6564d",
+        "source_geometry_sha256": "b2874ad0f0e83ca288a9314763e30f0ccafe53b888ab2c4c04f00107fc8899e2",
+        "source_npy_sha256": "573a4789415f337985f4c46fe92824d5cb4a8c033c1c1f89681cb85222c4d511",
+        "geometry_sha256": "b3c60e31061b04779263610c50ef41772e57e4180fa9a4e307cc0af1c4447770",
+        "transform": {
+          "transpose": true,
+          "angle_rule": "pi/2-angle",
+          "translation": [
+            -0.0,
+            -0.0
+          ],
+          "row_order": "unchanged",
+          "no_scaling": true
+        },
+        "f": 0.9190881036616183,
+        "descriptor": "25f47d4b15ba775e553798acb9db43ded5f1db544aac4bd97552bfc9c958d5ff",
+        "certificate": {
+          "valid": true,
+          "geometry_sha256": "b2874ad0f0e83ca288a9314763e30f0ccafe53b888ab2c4c04f00107fc8899e2",
+          "raw_csv_sha256": "f1b4fc365b6794b5660737345f3a40bc2c647daf104bd63ed74789ee8cd69eb5",
+          "ordinary_pandas_csv_sha256": "1284d34994b504c3200ef391238bf18edc9f17459670ed654da2a40a76296f43",
+          "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "official_raw": {
+            "reason": "ok",
+            "side": "19.91908810366161813688212344553631762845461043433019"
+          },
+          "official_roundtrip": {
+            "reason": "ok",
+            "side": "19.91908810366161514688212344553631762845461043433019"
+          },
+          "independent_raw": {
+            "n": 146,
+            "valid": true,
+            "side_lower": "19.919088103661618136882123445536317628454610434330113077009801",
+            "side_upper": "19.919088103661618136882123445536317628454610434330241369715887",
+            "score_lower": "0.648515461017972979422051311074448846375364593626677487659914",
+            "score_upper": "0.648515461017972979422051311074448846375364593626693524248176",
+            "interval_pairs": 346,
+            "exact_pairs": 0
+          },
+          "independent_roundtrip": {
+            "n": 146,
+            "valid": true,
+            "side_lower": "19.919088103661615146882123445536317628454610434330141315936977",
+            "side_upper": "19.919088103661615146882123445536317628454610434330269608643062",
+            "score_lower": "0.648515461017972731967890618966431831541875499411003278760031",
+            "score_upper": "0.648515461017972731967890618966431831541875499411019315348293",
+            "interval_pairs": 346,
+            "exact_pairs": 0
+          }
+        },
+        "source_record": {
+          "valid": true,
+          "geometry_sha256": "b2874ad0f0e83ca288a9314763e30f0ccafe53b888ab2c4c04f00107fc8899e2",
+          "raw_csv_sha256": "f1b4fc365b6794b5660737345f3a40bc2c647daf104bd63ed74789ee8cd69eb5",
+          "ordinary_pandas_csv_sha256": "1284d34994b504c3200ef391238bf18edc9f17459670ed654da2a40a76296f43",
+          "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "official_raw": {
+            "reason": "ok",
+            "side": "19.91908810366161813688212344553631762845461043433019"
+          },
+          "official_roundtrip": {
+            "reason": "ok",
+            "side": "19.91908810366161514688212344553631762845461043433019"
+          },
+          "independent_raw": {
+            "n": 146,
+            "valid": true,
+            "side_lower": "19.919088103661618136882123445536317628454610434330113077009801",
+            "side_upper": "19.919088103661618136882123445536317628454610434330241369715887",
+            "score_lower": "0.648515461017972979422051311074448846375364593626677487659914",
+            "score_upper": "0.648515461017972979422051311074448846375364593626693524248176",
+            "interval_pairs": 346,
+            "exact_pairs": 0
+          },
+          "independent_roundtrip": {
+            "n": 146,
+            "valid": true,
+            "side_lower": "19.919088103661615146882123445536317628454610434330141315936977",
+            "side_upper": "19.919088103661615146882123445536317628454610434330269608643062",
+            "score_lower": "0.648515461017972731967890618966431831541875499411003278760031",
+            "score_upper": "0.648515461017972731967890618966431831541875499411019315348293",
+            "interval_pairs": 346,
+            "exact_pairs": 0
+          }
+        },
+        "geometry_binding": "raw_little_endian_float64"
+      },
+      {
+        "input_key": "7_19_13__seed2",
+        "source_label": "combined",
+        "source_key": "19_7_13__ffac5bf856b1c2efab2ea5aed6799b1514eef9c1fa3514cc8e711963187320b0",
+        "source_type": [
+          19,
+          7,
+          13
+        ],
+        "source_archive": "artifacts/combined-ftmc-results/artifacts/campaign_gadgets.npz",
+        "source_archive_sha256": "204eaa312767cdaf957e708bc8476f4fa5c7eba869e5994cdafd781b4a67d45f",
+        "source_proof": "artifacts/combined-ftmc-results/ftmc_candidates.json",
+        "source_proof_sha256": "d393bdec359a1b571ab38f8c23787ef88c26f1c9512d5a962288a4968983e58c",
+        "source_geometry_sha256": "86aac92617cc264b6ac8fef391e2d668fa3b32020f00a413bb00767863a02b10",
+        "source_npy_sha256": "ffac5bf856b1c2efab2ea5aed6799b1514eef9c1fa3514cc8e711963187320b0",
+        "geometry_sha256": "f59213a3fe8ffa4814ece9315c0dfee70cd61d517b31426d44e8a058adf97026",
+        "transform": {
+          "transpose": true,
+          "angle_rule": "pi/2-angle",
+          "translation": [
+            -0.0,
+            -0.0
+          ],
+          "row_order": "unchanged",
+          "no_scaling": true
+        },
+        "f": 0.9197646621092517,
+        "descriptor": "9436801a889c736d63d9f8d0f59800ef01f602eebf025aa157bfbf0a6c8e0407",
+        "certificate": {
+          "bloat": 0.9197646621092517,
+          "certification_contract": "unchanged_public_certify_exact_geometry",
+          "dtype": "<f8",
+          "geometry_sha256": "ffac5bf856b1c2efab2ea5aed6799b1514eef9c1fa3514cc8e711963187320b0",
+          "h": 7,
+          "key": "19_7_13",
+          "npy_sha256": "ffac5bf856b1c2efab2ea5aed6799b1514eef9c1fa3514cc8e711963187320b0",
+          "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "official_raw_and_pandas": true,
+          "raw": true,
+          "roundtrip": true,
+          "shape": [
+            146,
+            3
+          ],
+          "signature": "9b64ebb3c337",
+          "snapshot": "ffac5bf856b1c2efab2ea5aed6799b1514eef9c1fa3514cc8e711963187320b0.npy",
+          "status": "certified_geometry",
+          "w": 19
+        },
+        "source_record": {
+          "key": "19_7_13",
+          "bloat": 0.9197646621092517,
+          "original_seed_bloat": 0.9191501208825628,
+          "gain_from_original": -0.0006145412266889139,
+          "official_raw_and_roundtrip": true,
+          "exact_geometry_certificate": {
+            "bloat": 0.9197646621092517,
+            "certification_contract": "unchanged_public_certify_exact_geometry",
+            "dtype": "<f8",
+            "geometry_sha256": "ffac5bf856b1c2efab2ea5aed6799b1514eef9c1fa3514cc8e711963187320b0",
+            "h": 7,
+            "key": "19_7_13",
+            "npy_sha256": "ffac5bf856b1c2efab2ea5aed6799b1514eef9c1fa3514cc8e711963187320b0",
+            "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+            "official_raw_and_pandas": true,
+            "raw": true,
+            "roundtrip": true,
+            "shape": [
+              146,
+              3
+            ],
+            "signature": "9b64ebb3c337",
+            "snapshot": "ffac5bf856b1c2efab2ea5aed6799b1514eef9c1fa3514cc8e711963187320b0.npy",
+            "status": "certified_geometry",
+            "w": 19
+          },
+          "sources": [
+            {
+              "device": 0,
+              "initial_bloat": 0.9190881034764757,
+              "gain_from_device_initial": -0.0006765586327759365
+            }
+          ],
+          "active_join_compatibility": "not assessed; composition must verify actual joins"
+        },
+        "geometry_binding": "NPY_file_sha256; independent raw-array SHA also recorded"
+      },
+      {
+        "input_key": "7_19_13__seed3",
+        "source_label": "combined",
+        "source_key": "19_7_13__1018c069852bef3b29758cad29a2abc030c32ac1fa07f5855118a074de775ad6",
+        "source_type": [
+          19,
+          7,
+          13
+        ],
+        "source_archive": "artifacts/combined-ftmc-results/artifacts/campaign_gadgets.npz",
+        "source_archive_sha256": "204eaa312767cdaf957e708bc8476f4fa5c7eba869e5994cdafd781b4a67d45f",
+        "source_proof": "artifacts/combined-ftmc-results/ftmc_candidates.json",
+        "source_proof_sha256": "d393bdec359a1b571ab38f8c23787ef88c26f1c9512d5a962288a4968983e58c",
+        "source_geometry_sha256": "27c5843b87c2caf3968387a2250055e02161ca34de40c1b72817a29a7ce1f9eb",
+        "source_npy_sha256": "1018c069852bef3b29758cad29a2abc030c32ac1fa07f5855118a074de775ad6",
+        "geometry_sha256": "ddabe9d7c2c22ae20f757e0932f0beb7f4a04a16c49c45e74e299277e11d3945",
+        "transform": {
+          "transpose": true,
+          "angle_rule": "pi/2-angle",
+          "translation": [
+            -0.0,
+            -0.0
+          ],
+          "row_order": "unchanged",
+          "no_scaling": true
+        },
+        "f": 0.9191206236520655,
+        "descriptor": "12b8f2e0ef6b628c04fdb64398313f3b5f26bd288285affcd57642241ce8a4cf",
+        "certificate": {
+          "bloat": 0.9191206236520655,
+          "certification_contract": "unchanged_public_certify_exact_geometry",
+          "dtype": "<f8",
+          "geometry_sha256": "1018c069852bef3b29758cad29a2abc030c32ac1fa07f5855118a074de775ad6",
+          "h": 7,
+          "key": "19_7_13",
+          "npy_sha256": "1018c069852bef3b29758cad29a2abc030c32ac1fa07f5855118a074de775ad6",
+          "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "official_raw_and_pandas": true,
+          "raw": true,
+          "roundtrip": true,
+          "shape": [
+            146,
+            3
+          ],
+          "signature": "81252c811bb5",
+          "snapshot": "1018c069852bef3b29758cad29a2abc030c32ac1fa07f5855118a074de775ad6.npy",
+          "status": "certified_geometry",
+          "w": 19
+        },
+        "source_record": {
+          "key": "19_7_13",
+          "bloat": 0.9191206236520655,
+          "original_seed_bloat": 0.9191501208825628,
+          "gain_from_original": 2.949723049727737e-05,
+          "official_raw_and_roundtrip": true,
+          "exact_geometry_certificate": {
+            "bloat": 0.9191206236520655,
+            "certification_contract": "unchanged_public_certify_exact_geometry",
+            "dtype": "<f8",
+            "geometry_sha256": "1018c069852bef3b29758cad29a2abc030c32ac1fa07f5855118a074de775ad6",
+            "h": 7,
+            "key": "19_7_13",
+            "npy_sha256": "1018c069852bef3b29758cad29a2abc030c32ac1fa07f5855118a074de775ad6",
+            "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+            "official_raw_and_pandas": true,
+            "raw": true,
+            "roundtrip": true,
+            "shape": [
+              146,
+              3
+            ],
+            "signature": "81252c811bb5",
+            "snapshot": "1018c069852bef3b29758cad29a2abc030c32ac1fa07f5855118a074de775ad6.npy",
+            "status": "certified_geometry",
+            "w": 19
+          },
+          "sources": [
+            {
+              "device": 1,
+              "initial_bloat": 0.9191501208825628,
+              "gain_from_device_initial": 2.949723049727737e-05
+            }
+          ],
+          "active_join_compatibility": "not assessed; composition must verify actual joins"
+        },
+        "geometry_binding": "NPY_file_sha256; independent raw-array SHA also recorded"
+      }
+    ],
+    "7_20_14": [
+      {
+        "input_key": "7_20_14__seed0",
+        "source_label": "local_soft",
+        "source_key": "7_20_14__strict_0107a36686736ed8d5d5ea7b3b7e6f433bbaf7ef9b7b5407eb461d3adbf94a5b",
+        "source_type": [
+          7,
+          20,
+          14
+        ],
+        "source_archive": "artifacts/fq-local-soft-v1/all-strict/donors.npz",
+        "source_archive_sha256": "c2aeea8fd99ac4c6b5b8c983fb9ac61b0be30672da1560f94ba03ec518033c7e",
+        "source_proof": "artifacts/fq-local-soft-v1/all-strict/provenance.json",
+        "source_proof_sha256": "6fd6f0d80b33017d9f19c3fab8067ef6fd431f9290658095685536ec9da0409a",
+        "source_geometry_sha256": "0107a36686736ed8d5d5ea7b3b7e6f433bbaf7ef9b7b5407eb461d3adbf94a5b",
+        "source_npy_sha256": "5163ac6d8882b7c06419e1fb6edfd1dea854ead5cef87bcb8bc3dae3e072f07e",
+        "geometry_sha256": "0107a36686736ed8d5d5ea7b3b7e6f433bbaf7ef9b7b5407eb461d3adbf94a5b",
+        "transform": {
+          "transpose": false,
+          "angle_rule": "unchanged",
+          "translation": [
+            -0.0,
+            -0.0
+          ],
+          "row_order": "unchanged",
+          "no_scaling": true
+        },
+        "f": 0.9253502643937175,
+        "descriptor": "3ec65eb0432a1b14609b463f5b2b3f42524f814e343b74c72726d0fc708c8c7a",
+        "certificate": {
+          "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "raw_reason": "ok",
+          "roundtrip_reason": "ok",
+          "raw_side": "20.92535026439371714923132136417541436562564519391522",
+          "roundtrip_side": "20.92535026439371725923132136417541436562564519391522",
+          "valid": true
+        },
+        "source_record": {
+          "origin": "primary",
+          "record": {
+            "key": "7_20_14",
+            "mode": "local_soft_060",
+            "seed": 981250,
+            "before": 0.9253502644637095,
+            "seconds": 1.4090628109988756,
+            "returncode": 0,
+            "fq": {
+              "s": 7.925350224558674,
+              "s_alm": 7.925350224533032,
+              "viol": 1.12e-05,
+              "evals": 1413,
+              "outer": 45,
+              "slp_it": 22,
+              "slp_r": 0.004,
+              "flips": 0,
+              "min_gap": 7.15e-13,
+              "min_wall": 3.51e-13,
+              "sec": 0.466,
+              "s_coarse": 7.925946033174302,
+              "t_alm": 0.076,
+              "s_alm0": 7.925355789184088,
+              "trace": [
+                [
+                  1,
+                  0.0144,
+                  7.925359203888032,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  0.0411,
+                  7.925354382495664,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  3,
+                  0.0523,
+                  7.925350980391498,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  4,
+                  0.0813,
+                  7.925350377270592,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  5,
+                  0.098,
+                  7.925350302566796,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  6,
+                  0.1238,
+                  7.925350274539676,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  7,
+                  0.1388,
+                  7.925350224960099,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  8,
+                  0.1657,
+                  7.925350224786638,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  9,
+                  0.1825,
+                  7.925350224757998,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  10,
+                  0.1968,
+                  7.925350224731931,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  11,
+                  0.2076,
+                  7.925350224705236,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  12,
+                  0.2191,
+                  7.925350224684254,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  13,
+                  0.23,
+                  7.925350224663969,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  14,
+                  0.2453,
+                  7.92535022464789,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  15,
+                  0.2616,
+                  7.925350224633626,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  16,
+                  0.2727,
+                  7.925350224623933,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  17,
+                  0.3002,
+                  7.925350224611844,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  18,
+                  0.3265,
+                  7.925350224586968,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  19,
+                  0.3389,
+                  7.925350224564445,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  20,
+                  0.3518,
+                  7.925350224549176,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  21,
+                  0.3812,
+                  7.925350224542976,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ]
+              ],
+              "fp": "1a0f09f19c9a23d6",
+              "ncontacts": 305,
+              "fin": []
+            },
+            "after": 0.9253502643937175,
+            "gain": 6.999201218604867e-11,
+            "certificate": {
+              "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+              "raw_reason": "ok",
+              "roundtrip_reason": "ok",
+              "raw_side": "20.92535026439371714923132136417541436562564519391522",
+              "roundtrip_side": "20.92535026439371725923132136417541436562564519391522",
+              "valid": true
+            },
+            "status": "certified",
+            "geometry_sha256": "0107a36686736ed8d5d5ea7b3b7e6f433bbaf7ef9b7b5407eb461d3adbf94a5b",
+            "strict_improvement": false,
+            "command_options": [
+              "--loosen",
+              "1",
+              "--soft-compress",
+              "--soft-a0",
+              ".6",
+              "--soft-steps",
+              "16",
+              "--soft-p",
+              "2",
+              "--soft-kick",
+              ".004",
+              "--hold-f",
+              "1.001",
+              "--outer",
+              "45",
+              "--pit",
+              "100",
+              "--flip-top",
+              "16",
+              "--v",
+              "--kick",
+              ".1",
+              "--freeze",
+              "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,79,80,81,86,87,88,94,95,101,102,107,110,111,114,116,118,120,121,122,123,124,125,126,127,131,133,136,137,138,139,140,141,142,143,147,148,149,151,153"
+            ],
+            "configured_options": [
+              "--loosen",
+              "1",
+              "--soft-compress",
+              "--soft-a0",
+              ".6",
+              "--soft-steps",
+              "16",
+              "--soft-p",
+              "2",
+              "--soft-kick",
+              ".004",
+              "--hold-f",
+              "1.001",
+              "--outer",
+              "45",
+              "--pit",
+              "100",
+              "--flip-top",
+              "16",
+              "--v",
+              "--kick",
+              ".1"
+            ],
+            "release_command_options": [
+              "--loosen",
+              "1",
+              "--outer",
+              "45",
+              "--pit",
+              "100",
+              "--flip-top",
+              "16"
+            ],
+            "release_status": "certified",
+            "strict_intermediate": {
+              "geometry_sha256": "514178ac2a8979cc5992f8ea56be5de8bab21e798897470e8e96d33dc5f5fa40",
+              "archive_path": "/workspace/squares_in_squares/artifacts/fq-local-soft-v1/trials/7_20_14-local_soft_060-981250-strict-intermediate.npz",
+              "archive_sha256": "e3cef513ddd21ee14839e8490edd30d622b5539b8c1c381b9916961c8b19519e",
+              "certificate": {
+                "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+                "raw_reason": "ok",
+                "roundtrip_reason": "ok",
+                "raw_side": "20.92535026793475186923132055282650562435774739675241",
+                "roundtrip_side": "20.92535026793475176923132055303932754749014302658255",
+                "valid": true
+              },
+              "rigid_return_trace": {
+                "valid": true,
+                "expected_steps": 16,
+                "reported_aspect_epsilons": [
+                  0.5273,
+                  0.4594,
+                  0.3961,
+                  0.3375,
+                  0.2836,
+                  0.2344,
+                  0.1898,
+                  0.15,
+                  0.1148,
+                  0.0844,
+                  0.0586,
+                  0.0375,
+                  0.0211,
+                  0.0094,
+                  0.0023,
+                  0.0
+                ],
+                "final_reported_epsilon": 0.0,
+                "log_sha256": "509fea3a5f5e43edd49cac0031a7fb33725b444ed568a969ecd461d18fcd33f9",
+                "source_invariant": "Pinned fq.rs sets e=e0*(1-k/K)^p; at k=K e is exactly0 and p.b is cleared. It calls set_soft(0.0) again before the rigid finish.",
+                "unit_square_certificate_valid": true
+              },
+              "command_options": [
+                "--loosen",
+                "1",
+                "--soft-compress",
+                "--soft-a0",
+                ".6",
+                "--soft-steps",
+                "16",
+                "--soft-p",
+                "2",
+                "--soft-kick",
+                ".004",
+                "--hold-f",
+                "1.001",
+                "--outer",
+                "45",
+                "--pit",
+                "100",
+                "--flip-top",
+                "16",
+                "--v",
+                "--kick",
+                ".1",
+                "--freeze",
+                "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,79,80,81,86,87,88,94,95,101,102,107,110,111,114,116,118,120,121,122,123,124,125,126,127,131,133,136,137,138,139,140,141,142,143,147,148,149,151,153"
+              ],
+              "local_selection": {
+                "center": [
+                  7.294961003403543,
+                  16.234150722039004
+                ],
+                "center_kind": "seeded_tilted_square",
+                "free_indices": [
+                  130,
+                  103,
+                  132,
+                  152,
+                  96,
+                  108,
+                  97,
+                  104,
+                  89,
+                  145,
+                  134,
+                  90,
+                  109,
+                  115,
+                  98,
+                  105,
+                  82,
+                  91,
+                  144,
+                  83,
+                  135,
+                  117,
+                  113,
+                  84,
+                  128,
+                  99,
+                  92,
+                  106,
+                  75,
+                  76,
+                  150,
+                  146,
+                  119,
+                  85,
+                  77,
+                  112,
+                  129,
+                  100,
+                  93,
+                  78
+                ],
+                "frozen_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24,
+                  25,
+                  26,
+                  27,
+                  28,
+                  29,
+                  30,
+                  31,
+                  32,
+                  33,
+                  34,
+                  35,
+                  36,
+                  37,
+                  38,
+                  39,
+                  40,
+                  41,
+                  42,
+                  43,
+                  44,
+                  45,
+                  46,
+                  47,
+                  48,
+                  49,
+                  50,
+                  51,
+                  52,
+                  53,
+                  54,
+                  55,
+                  56,
+                  57,
+                  58,
+                  59,
+                  60,
+                  61,
+                  62,
+                  63,
+                  64,
+                  65,
+                  66,
+                  67,
+                  68,
+                  69,
+                  70,
+                  71,
+                  72,
+                  73,
+                  74,
+                  79,
+                  80,
+                  81,
+                  86,
+                  87,
+                  88,
+                  94,
+                  95,
+                  101,
+                  102,
+                  107,
+                  110,
+                  111,
+                  114,
+                  116,
+                  118,
+                  120,
+                  121,
+                  122,
+                  123,
+                  124,
+                  125,
+                  126,
+                  127,
+                  131,
+                  133,
+                  136,
+                  137,
+                  138,
+                  139,
+                  140,
+                  141,
+                  142,
+                  143,
+                  147,
+                  148,
+                  149,
+                  151,
+                  153
+                ]
+              },
+              "source_geometry_sha256": "d27be2e627d66ed81b72b52f88990cf411cd9fa63fcb0acf74bf27288dd19121",
+              "key": "7_20_14",
+              "mode": "local_soft_060",
+              "seed": 981250
+            },
+            "local_selection": {
+              "center": [
+                7.294961003403543,
+                16.234150722039004
+              ],
+              "center_kind": "seeded_tilted_square",
+              "free_indices": [
+                130,
+                103,
+                132,
+                152,
+                96,
+                108,
+                97,
+                104,
+                89,
+                145,
+                134,
+                90,
+                109,
+                115,
+                98,
+                105,
+                82,
+                91,
+                144,
+                83,
+                135,
+                117,
+                113,
+                84,
+                128,
+                99,
+                92,
+                106,
+                75,
+                76,
+                150,
+                146,
+                119,
+                85,
+                77,
+                112,
+                129,
+                100,
+                93,
+                78
+              ],
+              "frozen_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                79,
+                80,
+                81,
+                86,
+                87,
+                88,
+                94,
+                95,
+                101,
+                102,
+                107,
+                110,
+                111,
+                114,
+                116,
+                118,
+                120,
+                121,
+                122,
+                123,
+                124,
+                125,
+                126,
+                127,
+                131,
+                133,
+                136,
+                137,
+                138,
+                139,
+                140,
+                141,
+                142,
+                143,
+                147,
+                148,
+                149,
+                151,
+                153
+              ]
+            },
+            "rigid_return_trace": {
+              "valid": true,
+              "expected_steps": 16,
+              "reported_aspect_epsilons": [
+                0.5273,
+                0.4594,
+                0.3961,
+                0.3375,
+                0.2836,
+                0.2344,
+                0.1898,
+                0.15,
+                0.1148,
+                0.0844,
+                0.0586,
+                0.0375,
+                0.0211,
+                0.0094,
+                0.0023,
+                0.0
+              ],
+              "final_reported_epsilon": 0.0,
+              "log_sha256": "509fea3a5f5e43edd49cac0031a7fb33725b444ed568a969ecd461d18fcd33f9",
+              "source_invariant": "Pinned fq.rs sets e=e0*(1-k/K)^p; at k=K e is exactly0 and p.b is cleared. It calls set_soft(0.0) again before the rigid finish.",
+              "unit_square_certificate_valid": true
+            },
+            "soft_stage": {
+              "s": 7.925350264467955,
+              "s_alm": 7.925350264463744,
+              "viol": 8.19e-06,
+              "evals": 1088,
+              "outer": 45,
+              "slp_it": 9,
+              "slp_r": 0.00025,
+              "flips": 0,
+              "min_gap": 1.83e-09,
+              "min_wall": 1e-13,
+              "sec": 0.106,
+              "s_coarse": 7.925857709395771,
+              "t_alm": 0.069,
+              "s_alm0": 7.925350071122722,
+              "trace": [
+                [
+                  1,
+                  0.0027,
+                  7.925351747466855,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  2,
+                  0.0087,
+                  7.925350411041458,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  3,
+                  0.011,
+                  7.925350264469617,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  5,
+                  0.0155,
+                  7.925350264465409,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ],
+                [
+                  8,
+                  0.0215,
+                  7.925350264463744,
+                  0,
+                  0.0,
+                  0.0,
+                  0,
+                  0
+                ]
+              ],
+              "fp": "c1a8234731d3823f",
+              "ncontacts": 2,
+              "fin": [],
+              "soft": {
+                "a0": 0.6,
+                "s_soft": 7.92535069301,
+                "s_hold": 7.933276043703,
+                "amax": 0.1944,
+                "viol_hard": 0.0
+              },
+              "frozen": 114,
+              "frozen_dmax": 4.107e-12
+            },
+            "rigid_release_certificate_valid": true,
+            "trial_id": 250,
+            "parent": {
+              "source_archive": "campaign_best",
+              "source_name": "7_20_14",
+              "geometry_sha256": "d27be2e627d66ed81b72b52f88990cf411cd9fa63fcb0acf74bf27288dd19121",
+              "selection": "incumbent",
+              "key": "7_20_14",
+              "mode": "local_soft_060",
+              "seed": 981250,
+              "trial_id": 250,
+              "parent_excess": 0.9253502644637095,
+              "reference_excess": 0.9253502645387144
+            },
+            "reference_excess": 0.9253502645387144,
+            "binary_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+            "source_commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+            "archive_key": "7_20_14__fqm_0107a36686736ed8d5d5ea7b3b7e6f433bbaf7ef9b7b5407eb461d3adbf94a5b",
+            "reference_gain": 1.4499690337288484e-10,
+            "strict_reference_improvement": false
+          }
+        },
+        "geometry_binding": "raw_little_endian_float64"
+      },
+      {
+        "input_key": "7_20_14__seed1",
+        "source_label": "broad",
+        "source_key": "7_20_14__1ebf8823486dfe9685e0",
+        "source_type": [
+          7,
+          20,
+          14
+        ],
+        "source_archive": "artifacts/active-broad-frontier-v1/active_seed_variants.npz",
+        "source_archive_sha256": "6c658b4b4ca5f3ece89c5d2e071022f08457f213c546251bfbc3185ca3968f74",
+        "source_proof": "artifacts/active-broad-frontier-v1/active_seed_validation.json",
+        "source_proof_sha256": "9e676c1540aff1312a3fc2cd273d2a54e5eee6466b1b381beb7c626fc6c6564d",
+        "source_geometry_sha256": "1ebf8823486dfe9685e07a8aa7549e782058ce0f95d718c6d26f208cc50e98ff",
+        "source_npy_sha256": "cd0e3f64f3177c64436edcbc20491a9d108a692b2269eea783adc7b14dd49784",
+        "geometry_sha256": "1ebf8823486dfe9685e07a8aa7549e782058ce0f95d718c6d26f208cc50e98ff",
+        "transform": {
+          "transpose": false,
+          "angle_rule": "unchanged",
+          "translation": [
+            -0.0,
+            -0.0
+          ],
+          "row_order": "unchanged",
+          "no_scaling": true
+        },
+        "f": 0.9257597505167254,
+        "descriptor": "bcb1570a304d16111682be450ba7c13c47738b27bdd9318844079703b03262c1",
+        "certificate": {
+          "valid": true,
+          "geometry_sha256": "1ebf8823486dfe9685e07a8aa7549e782058ce0f95d718c6d26f208cc50e98ff",
+          "raw_csv_sha256": "b76d0e5c8413e717670babf1b2da33b544b5256ad53442ffeffc4bd1f3164eb7",
+          "ordinary_pandas_csv_sha256": "a4def9cdf81042126b152b95b0f813fe56e8963e95c864ec337c9d0b3b802e27",
+          "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "official_raw": {
+            "reason": "ok",
+            "side": "20.92575975051672494494379987252951032682142451462120"
+          },
+          "official_roundtrip": {
+            "reason": "ok",
+            "side": "20.92575975051672501494379987252951032682142451462120"
+          },
+          "independent_raw": {
+            "n": 154,
+            "valid": true,
+            "side_lower": "20.925759750516724944943799872529510326821424514621170250561177",
+            "side_upper": "20.925759750516724944943799872529510326821424514621298543267262",
+            "score_lower": "0.686245774664438985447286686705999389228916497747362491881184",
+            "score_upper": "0.686245774664438985447286686705999389228916497747378528469445",
+            "interval_pairs": 371,
+            "exact_pairs": 0
+          },
+          "independent_roundtrip": {
+            "n": 154,
+            "valid": true,
+            "side_lower": "20.925759750516725014943799872529510326821424514621128255455793",
+            "side_upper": "20.925759750516725014943799872529510326821424514621299312397240",
+            "score_lower": "0.686245774664438991088047434883661478380390113860755655179520",
+            "score_upper": "0.686245774664438991088047434883661478380390113860777037297202",
+            "interval_pairs": 371,
+            "exact_pairs": 0
+          }
+        },
+        "source_record": {
+          "valid": true,
+          "geometry_sha256": "1ebf8823486dfe9685e07a8aa7549e782058ce0f95d718c6d26f208cc50e98ff",
+          "raw_csv_sha256": "b76d0e5c8413e717670babf1b2da33b544b5256ad53442ffeffc4bd1f3164eb7",
+          "ordinary_pandas_csv_sha256": "a4def9cdf81042126b152b95b0f813fe56e8963e95c864ec337c9d0b3b802e27",
+          "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "official_raw": {
+            "reason": "ok",
+            "side": "20.92575975051672494494379987252951032682142451462120"
+          },
+          "official_roundtrip": {
+            "reason": "ok",
+            "side": "20.92575975051672501494379987252951032682142451462120"
+          },
+          "independent_raw": {
+            "n": 154,
+            "valid": true,
+            "side_lower": "20.925759750516724944943799872529510326821424514621170250561177",
+            "side_upper": "20.925759750516724944943799872529510326821424514621298543267262",
+            "score_lower": "0.686245774664438985447286686705999389228916497747362491881184",
+            "score_upper": "0.686245774664438985447286686705999389228916497747378528469445",
+            "interval_pairs": 371,
+            "exact_pairs": 0
+          },
+          "independent_roundtrip": {
+            "n": 154,
+            "valid": true,
+            "side_lower": "20.925759750516725014943799872529510326821424514621128255455793",
+            "side_upper": "20.925759750516725014943799872529510326821424514621299312397240",
+            "score_lower": "0.686245774664438991088047434883661478380390113860755655179520",
+            "score_upper": "0.686245774664438991088047434883661478380390113860777037297202",
+            "interval_pairs": 371,
+            "exact_pairs": 0
+          }
+        },
+        "geometry_binding": "raw_little_endian_float64"
+      },
+      {
+        "input_key": "7_20_14__seed2",
+        "source_label": "combined",
+        "source_key": "7_20_14__cfb63457a34a248f78e32d9e5a0d3e66f491d34c543d6628593d21c03de3e6c0",
+        "source_type": [
+          7,
+          20,
+          14
+        ],
+        "source_archive": "artifacts/combined-ftmc-results/artifacts/campaign_gadgets.npz",
+        "source_archive_sha256": "204eaa312767cdaf957e708bc8476f4fa5c7eba869e5994cdafd781b4a67d45f",
+        "source_proof": "artifacts/combined-ftmc-results/ftmc_candidates.json",
+        "source_proof_sha256": "d393bdec359a1b571ab38f8c23787ef88c26f1c9512d5a962288a4968983e58c",
+        "source_geometry_sha256": "f1ca583a3b8916df9deb8fa6886f3fbf725eae4ab353b1329af4c3c2d6a164d8",
+        "source_npy_sha256": "cfb63457a34a248f78e32d9e5a0d3e66f491d34c543d6628593d21c03de3e6c0",
+        "geometry_sha256": "f1ca583a3b8916df9deb8fa6886f3fbf725eae4ab353b1329af4c3c2d6a164d8",
+        "transform": {
+          "transpose": false,
+          "angle_rule": "unchanged",
+          "translation": [
+            -0.0,
+            -0.0
+          ],
+          "row_order": "unchanged",
+          "no_scaling": true
+        },
+        "f": 0.9262361681606315,
+        "descriptor": "7b386cff2c58f7f26daa0e5b7581cb607c47a3f23055f448dac796fa45fa6fca",
+        "certificate": {
+          "bloat": 0.9262361681606315,
+          "certification_contract": "unchanged_public_certify_exact_geometry",
+          "dtype": "<f8",
+          "geometry_sha256": "cfb63457a34a248f78e32d9e5a0d3e66f491d34c543d6628593d21c03de3e6c0",
+          "h": 20,
+          "key": "7_20_14",
+          "npy_sha256": "cfb63457a34a248f78e32d9e5a0d3e66f491d34c543d6628593d21c03de3e6c0",
+          "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "official_raw_and_pandas": true,
+          "raw": true,
+          "roundtrip": true,
+          "shape": [
+            154,
+            3
+          ],
+          "signature": "a6c828d8e03b",
+          "snapshot": "cfb63457a34a248f78e32d9e5a0d3e66f491d34c543d6628593d21c03de3e6c0.npy",
+          "status": "certified_geometry",
+          "w": 7
+        },
+        "source_record": {
+          "key": "7_20_14",
+          "bloat": 0.9262361681606315,
+          "original_seed_bloat": 0.9259512247852673,
+          "gain_from_original": -0.00028494337536422165,
+          "official_raw_and_roundtrip": true,
+          "exact_geometry_certificate": {
+            "bloat": 0.9262361681606315,
+            "certification_contract": "unchanged_public_certify_exact_geometry",
+            "dtype": "<f8",
+            "geometry_sha256": "cfb63457a34a248f78e32d9e5a0d3e66f491d34c543d6628593d21c03de3e6c0",
+            "h": 20,
+            "key": "7_20_14",
+            "npy_sha256": "cfb63457a34a248f78e32d9e5a0d3e66f491d34c543d6628593d21c03de3e6c0",
+            "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+            "official_raw_and_pandas": true,
+            "raw": true,
+            "roundtrip": true,
+            "shape": [
+              154,
+              3
+            ],
+            "signature": "a6c828d8e03b",
+            "snapshot": "cfb63457a34a248f78e32d9e5a0d3e66f491d34c543d6628593d21c03de3e6c0.npy",
+            "status": "certified_geometry",
+            "w": 7
+          },
+          "sources": [
+            {
+              "device": 0,
+              "initial_bloat": 0.9257597504760611,
+              "gain_from_device_initial": -0.0004764176845704071
+            }
+          ],
+          "active_join_compatibility": "not assessed; composition must verify actual joins"
+        },
+        "geometry_binding": "NPY_file_sha256; independent raw-array SHA also recorded"
+      },
+      {
+        "input_key": "7_20_14__seed3",
+        "source_label": "combined",
+        "source_key": "7_20_14__663d80adc86ee1c6e419afb41a3e5a789ab1a0c6313fdf28c1687e0dbc135f56",
+        "source_type": [
+          7,
+          20,
+          14
+        ],
+        "source_archive": "artifacts/combined-ftmc-results/artifacts/campaign_gadgets.npz",
+        "source_archive_sha256": "204eaa312767cdaf957e708bc8476f4fa5c7eba869e5994cdafd781b4a67d45f",
+        "source_proof": "artifacts/combined-ftmc-results/ftmc_candidates.json",
+        "source_proof_sha256": "d393bdec359a1b571ab38f8c23787ef88c26f1c9512d5a962288a4968983e58c",
+        "source_geometry_sha256": "1fa495c3d9b843474ffccd3f00a8bbeab11689bb47998d3d56bd35129056ebb8",
+        "source_npy_sha256": "663d80adc86ee1c6e419afb41a3e5a789ab1a0c6313fdf28c1687e0dbc135f56",
+        "geometry_sha256": "1fa495c3d9b843474ffccd3f00a8bbeab11689bb47998d3d56bd35129056ebb8",
+        "transform": {
+          "transpose": false,
+          "angle_rule": "unchanged",
+          "translation": [
+            -0.0,
+            -0.0
+          ],
+          "row_order": "unchanged",
+          "no_scaling": true
+        },
+        "f": 0.9272678408208392,
+        "descriptor": "a4224142f17a7c5811cbdf4e9e82d93832551a09be2e079b669fff39fb396ed4",
+        "certificate": {
+          "bloat": 0.9272678408208392,
+          "certification_contract": "unchanged_public_certify_exact_geometry",
+          "dtype": "<f8",
+          "geometry_sha256": "663d80adc86ee1c6e419afb41a3e5a789ab1a0c6313fdf28c1687e0dbc135f56",
+          "h": 20,
+          "key": "7_20_14",
+          "npy_sha256": "663d80adc86ee1c6e419afb41a3e5a789ab1a0c6313fdf28c1687e0dbc135f56",
+          "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "official_raw_and_pandas": true,
+          "raw": true,
+          "roundtrip": true,
+          "shape": [
+            154,
+            3
+          ],
+          "signature": "67ce151a26fb",
+          "snapshot": "663d80adc86ee1c6e419afb41a3e5a789ab1a0c6313fdf28c1687e0dbc135f56.npy",
+          "status": "certified_geometry",
+          "w": 7
+        },
+        "source_record": {
+          "key": "7_20_14",
+          "bloat": 0.9272678408208392,
+          "original_seed_bloat": 0.9259512247852673,
+          "gain_from_original": -0.0013166160355719825,
+          "official_raw_and_roundtrip": true,
+          "exact_geometry_certificate": {
+            "bloat": 0.9272678408208392,
+            "certification_contract": "unchanged_public_certify_exact_geometry",
+            "dtype": "<f8",
+            "geometry_sha256": "663d80adc86ee1c6e419afb41a3e5a789ab1a0c6313fdf28c1687e0dbc135f56",
+            "h": 20,
+            "key": "7_20_14",
+            "npy_sha256": "663d80adc86ee1c6e419afb41a3e5a789ab1a0c6313fdf28c1687e0dbc135f56",
+            "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+            "official_raw_and_pandas": true,
+            "raw": true,
+            "roundtrip": true,
+            "shape": [
+              154,
+              3
+            ],
+            "signature": "67ce151a26fb",
+            "snapshot": "663d80adc86ee1c6e419afb41a3e5a789ab1a0c6313fdf28c1687e0dbc135f56.npy",
+            "status": "certified_geometry",
+            "w": 7
+          },
+          "sources": [
+            {
+              "device": 1,
+              "initial_bloat": 0.9259512247852673,
+              "gain_from_device_initial": -0.0013166160355719825
+            }
+          ],
+          "active_join_compatibility": "not assessed; composition must verify actual joins"
+        },
+        "geometry_binding": "NPY_file_sha256; independent raw-array SHA also recorded"
+      }
+    ],
+    "8_21_13": [
+      {
+        "input_key": "8_21_13__seed0",
+        "source_label": "multiscale",
+        "source_key": "8_21_13__fqm_6c123aaa93ed180901226f2e5e6c471a279117235ae17a709b30a1a2241d361d",
+        "source_type": [
+          8,
+          21,
+          13
+        ],
+        "source_archive": "artifacts/fq-multiscale-v1/snapshot-00099/donors.npz",
+        "source_archive_sha256": "95d5b73b8a36cea9ea540d5ef0eb9a999d4094b633fa9acb307588bd9fbf4962",
+        "source_proof": "artifacts/fq-multiscale-v1/snapshot-00099/results.json",
+        "source_proof_sha256": "39d9bdd1382dddef77e91c938ec6eb60c429aea86385634371cdb89c59a5520e",
+        "source_geometry_sha256": "6c123aaa93ed180901226f2e5e6c471a279117235ae17a709b30a1a2241d361d",
+        "source_npy_sha256": "4e2317376ba42ddefb6134b3fe52ebbb7af7ca3e5f1eaf63df7e16725aa6188b",
+        "geometry_sha256": "6c123aaa93ed180901226f2e5e6c471a279117235ae17a709b30a1a2241d361d",
+        "transform": {
+          "transpose": false,
+          "angle_rule": "unchanged",
+          "translation": [
+            -0.0,
+            -0.0
+          ],
+          "row_order": "unchanged",
+          "no_scaling": true
+        },
+        "f": 0.8829035603506767,
+        "descriptor": "97bd5e7beca7b7df6094266765aba29fe1daada9e66acfff646f3fcecc3c70cf",
+        "certificate": {
+          "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "raw_reason": "ok",
+          "roundtrip_reason": "ok",
+          "raw_side": "21.88290356035067787955742875642681390856081391740685",
+          "roundtrip_side": "21.88290356035068087955742875642681390856081391740685",
+          "valid": true
+        },
+        "source_record": {
+          "key": "8_21_13",
+          "mode": "round_005",
+          "seed": 981444,
+          "before": 0.8829058640886771,
+          "seconds": 6.281383333000122,
+          "returncode": 0,
+          "fq": {
+            "s": 8.882903518696832,
+            "s_alm": 8.882903518486707,
+            "viol": 1.2e-05,
+            "evals": 2570,
+            "outer": 35,
+            "slp_it": 80,
+            "slp_r": 0.0005,
+            "flips": 0,
+            "min_gap": 4.9e-12,
+            "min_wall": 4.8e-12,
+            "sec": 6.273,
+            "s_coarse": 8.884017961095442,
+            "t_alm": 4.728,
+            "s_alm0": 8.883030047784871,
+            "trace": [
+              [
+                1,
+                0.0188,
+                8.882949952318997,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                2,
+                0.0402,
+                8.882909013976045,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                4,
+                0.0907,
+                8.882908082990529,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                5,
+                0.127,
+                8.882906462771947,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                6,
+                0.1458,
+                8.882904975927238,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                7,
+                0.1661,
+                8.88290388073764,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                9,
+                0.1996,
+                8.882903763115767,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                10,
+                0.2304,
+                8.882903749701407,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                12,
+                0.2802,
+                8.882903744842158,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                13,
+                0.3005,
+                8.882903730987524,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                15,
+                0.3495,
+                8.88290372642341,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                16,
+                0.3741,
+                8.882903720794872,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                18,
+                0.4125,
+                8.882903708300903,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                19,
+                0.4382,
+                8.882903701817952,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                21,
+                0.4845,
+                8.882903698963045,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                22,
+                0.505,
+                8.882903692455079,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                24,
+                0.5477,
+                8.882903689585996,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                25,
+                0.569,
+                8.882903683050774,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                27,
+                0.6045,
+                8.882903680167985,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                28,
+                0.6204,
+                8.882903673604828,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                30,
+                0.6628,
+                8.882903670708798,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                31,
+                0.6805,
+                8.882903664118045,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                33,
+                0.7159,
+                8.882903661208234,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                34,
+                0.7353,
+                8.882903654589773,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                36,
+                0.7693,
+                8.88290365166722,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                37,
+                0.7895,
+                8.882903645019583,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                39,
+                0.8219,
+                8.882903642081839,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                40,
+                0.8387,
+                8.88290363544619,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                42,
+                0.8726,
+                8.882903632457062,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                43,
+                0.8867,
+                8.8829036268037,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                45,
+                0.9209,
+                8.882903622820747,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                46,
+                0.9393,
+                8.88290361675182,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                48,
+                0.9773,
+                8.882903614103538,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                49,
+                0.9938,
+                8.882903609063407,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                51,
+                1.0266,
+                8.882903605351697,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                52,
+                1.0412,
+                8.882903599501278,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                54,
+                1.0778,
+                8.882903596565203,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                55,
+                1.0932,
+                8.88290359147786,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                57,
+                1.1292,
+                8.88290358774352,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                58,
+                1.1449,
+                8.882903581620038,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                60,
+                1.1849,
+                8.882903578887998,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                61,
+                1.2016,
+                8.882903572700915,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                63,
+                1.2349,
+                8.882903569994783,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                64,
+                1.2506,
+                8.882903563785122,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                66,
+                1.2819,
+                8.882903561067101,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                67,
+                1.2963,
+                8.882903555885237,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                69,
+                1.329,
+                8.882903552103546,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                70,
+                1.3429,
+                8.882903546111432,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                72,
+                1.3784,
+                8.882903543104186,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                73,
+                1.3953,
+                8.882903536822633,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                75,
+                1.4296,
+                8.882903534068662,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                76,
+                1.4601,
+                8.882903528705329,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                78,
+                1.4974,
+                8.882903524996454,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ],
+              [
+                79,
+                1.5149,
+                8.882903518666302,
+                0,
+                0.0,
+                0.0,
+                0,
+                0
+              ]
+            ],
+            "fp": "b0188daf65c8ac17",
+            "ncontacts": 423,
+            "fin": [],
+            "round": {
+              "r0": 0.05,
+              "s_soft": 8.855865839918,
+              "s_hold": 8.855865839918,
+              "viol_hard": 0.002991
+            }
+          },
+          "after": 0.8829035603506767,
+          "gain": 2.3037380003643193e-06,
+          "certificate": {
+            "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+            "raw_reason": "ok",
+            "roundtrip_reason": "ok",
+            "raw_side": "21.88290356035067787955742875642681390856081391740685",
+            "roundtrip_side": "21.88290356035068087955742875642681390856081391740685",
+            "valid": true
+          },
+          "status": "certified",
+          "geometry_sha256": "6c123aaa93ed180901226f2e5e6c471a279117235ae17a709b30a1a2241d361d",
+          "strict_improvement": true,
+          "command_options": [
+            "--loosen",
+            "1",
+            "--round-r0",
+            ".05",
+            "--round-compress",
+            "--round-steps",
+            "12",
+            "--round-kick",
+            ".003",
+            "--outer",
+            "35",
+            "--pit",
+            "80",
+            "--flip-top",
+            "12"
+          ],
+          "trial_id": 444,
+          "parent": {
+            "source_archive": "campaign_best",
+            "source_name": "8_21_13",
+            "geometry_sha256": "13dbd4ee427dadbbf28b12eb0d2b66236b1e3990ad2cd3dca890a47c0a693eee",
+            "selection": "incumbent",
+            "key": "8_21_13",
+            "mode": "round_005",
+            "seed": 981444,
+            "trial_id": 444,
+            "parent_excess": 0.8829058640886771,
+            "reference_excess": 0.8829058640886771
+          },
+          "reference_excess": 0.8829058640886771,
+          "binary_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+          "source_commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+          "archive_key": "8_21_13__fqm_6c123aaa93ed180901226f2e5e6c471a279117235ae17a709b30a1a2241d361d",
+          "reference_gain": 2.3037380003643193e-06,
+          "strict_reference_improvement": true
+        },
+        "geometry_binding": "raw_little_endian_float64"
+      },
+      {
+        "input_key": "8_21_13__seed1",
+        "source_label": "broad",
+        "source_key": "21_8_13__cdc79c6dbb15acd27d8a",
+        "source_type": [
+          21,
+          8,
+          13
+        ],
+        "source_archive": "artifacts/active-broad-frontier-v1/active_seed_variants.npz",
+        "source_archive_sha256": "6c658b4b4ca5f3ece89c5d2e071022f08457f213c546251bfbc3185ca3968f74",
+        "source_proof": "artifacts/active-broad-frontier-v1/active_seed_validation.json",
+        "source_proof_sha256": "9e676c1540aff1312a3fc2cd273d2a54e5eee6466b1b381beb7c626fc6c6564d",
+        "source_geometry_sha256": "cdc79c6dbb15acd27d8ae764069c2b72f96a91fa50ee220af34db1dd0273b7a9",
+        "source_npy_sha256": "c6fb506759a54311904a8eb2d427e5bde90ec35399bab434c6ad9a0eaf90eecc",
+        "geometry_sha256": "8f497652b18378df26f29ba90e521db342a1ac467ae51be391ac74618f3e2c9e",
+        "transform": {
+          "transpose": true,
+          "angle_rule": "pi/2-angle",
+          "translation": [
+            -0.0,
+            -0.0
+          ],
+          "row_order": "unchanged",
+          "no_scaling": true
+        },
+        "f": 0.8829059370630361,
+        "descriptor": "8459f893e081a2e7e0fd614a53a6f247c0ca320a060662fc0430d074275e129e",
+        "certificate": {
+          "valid": true,
+          "geometry_sha256": "cdc79c6dbb15acd27d8ae764069c2b72f96a91fa50ee220af34db1dd0273b7a9",
+          "raw_csv_sha256": "49ec750859d79cc68ce95b6cc0f2f4ac79806fb11bb0637e4b21849f326a537c",
+          "ordinary_pandas_csv_sha256": "7ab1de05e4e108b65f1c6ae3bdd35317bfb2b63e34faa60c7b748fed1e6cd830",
+          "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "official_raw": {
+            "reason": "ok",
+            "side": "21.88290593706303626923132169163968394934629478607121"
+          },
+          "official_roundtrip": {
+            "reason": "ok",
+            "side": "21.88290593706304031923132169163965548778021020407552"
+          },
+          "independent_raw": {
+            "n": 181,
+            "valid": true,
+            "side_lower": "21.882905937063036269231321691639683949346294786071133243286746",
+            "side_upper": "21.882905937063036269231321691639683949346294786071261535992831",
+            "score_lower": "0.626543588589631653279748939209952022361738390848175445034156",
+            "score_upper": "0.626543588589631653279748939209952022361738390848188808857707",
+            "interval_pairs": 426,
+            "exact_pairs": 0
+          },
+          "independent_roundtrip": {
+            "n": 181,
+            "valid": true,
+            "side_lower": "21.882905937063040319231321691639655487780210204075498727743397",
+            "side_upper": "21.882905937063040319231321691639655487780210204075627020449482",
+            "score_lower": "0.626543588589631954313878169312307832302546285214215719844249",
+            "score_upper": "0.626543588589631954313878169312307832302546285214229083667800",
+            "interval_pairs": 426,
+            "exact_pairs": 0
+          }
+        },
+        "source_record": {
+          "valid": true,
+          "geometry_sha256": "cdc79c6dbb15acd27d8ae764069c2b72f96a91fa50ee220af34db1dd0273b7a9",
+          "raw_csv_sha256": "49ec750859d79cc68ce95b6cc0f2f4ac79806fb11bb0637e4b21849f326a537c",
+          "ordinary_pandas_csv_sha256": "7ab1de05e4e108b65f1c6ae3bdd35317bfb2b63e34faa60c7b748fed1e6cd830",
+          "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "official_raw": {
+            "reason": "ok",
+            "side": "21.88290593706303626923132169163968394934629478607121"
+          },
+          "official_roundtrip": {
+            "reason": "ok",
+            "side": "21.88290593706304031923132169163965548778021020407552"
+          },
+          "independent_raw": {
+            "n": 181,
+            "valid": true,
+            "side_lower": "21.882905937063036269231321691639683949346294786071133243286746",
+            "side_upper": "21.882905937063036269231321691639683949346294786071261535992831",
+            "score_lower": "0.626543588589631653279748939209952022361738390848175445034156",
+            "score_upper": "0.626543588589631653279748939209952022361738390848188808857707",
+            "interval_pairs": 426,
+            "exact_pairs": 0
+          },
+          "independent_roundtrip": {
+            "n": 181,
+            "valid": true,
+            "side_lower": "21.882905937063040319231321691639655487780210204075498727743397",
+            "side_upper": "21.882905937063040319231321691639655487780210204075627020449482",
+            "score_lower": "0.626543588589631954313878169312307832302546285214215719844249",
+            "score_upper": "0.626543588589631954313878169312307832302546285214229083667800",
+            "interval_pairs": 426,
+            "exact_pairs": 0
+          }
+        },
+        "geometry_binding": "raw_little_endian_float64"
+      },
+      {
+        "input_key": "8_21_13__seed2",
+        "source_label": "combined",
+        "source_key": "8_21_13__3d3b7e24ec404c4d507135a03486b5d48dfe18463a0a46fcd47f32217343ced8",
+        "source_type": [
+          8,
+          21,
+          13
+        ],
+        "source_archive": "artifacts/combined-ftmc-results/artifacts/campaign_gadgets.npz",
+        "source_archive_sha256": "204eaa312767cdaf957e708bc8476f4fa5c7eba869e5994cdafd781b4a67d45f",
+        "source_proof": "artifacts/combined-ftmc-results/ftmc_candidates.json",
+        "source_proof_sha256": "d393bdec359a1b571ab38f8c23787ef88c26f1c9512d5a962288a4968983e58c",
+        "source_geometry_sha256": "1052bcfadac90268e69ae9f6178a7750690204fd43ef61469a212ab3a081c64f",
+        "source_npy_sha256": "3d3b7e24ec404c4d507135a03486b5d48dfe18463a0a46fcd47f32217343ced8",
+        "geometry_sha256": "1052bcfadac90268e69ae9f6178a7750690204fd43ef61469a212ab3a081c64f",
+        "transform": {
+          "transpose": false,
+          "angle_rule": "unchanged",
+          "translation": [
+            -0.0,
+            -0.0
+          ],
+          "row_order": "unchanged",
+          "no_scaling": true
+        },
+        "f": 0.8840343100103709,
+        "descriptor": "3750a0db066e450676d2b4968450451ca673cceccbcdc8cea7106d7e57339de1",
+        "certificate": {
+          "bloat": 0.8840343100103709,
+          "certification_contract": "unchanged_public_certify_exact_geometry",
+          "dtype": "<f8",
+          "geometry_sha256": "3d3b7e24ec404c4d507135a03486b5d48dfe18463a0a46fcd47f32217343ced8",
+          "h": 21,
+          "key": "8_21_13",
+          "npy_sha256": "3d3b7e24ec404c4d507135a03486b5d48dfe18463a0a46fcd47f32217343ced8",
+          "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "official_raw_and_pandas": true,
+          "raw": true,
+          "roundtrip": true,
+          "shape": [
+            181,
+            3
+          ],
+          "signature": "40f208c027b7",
+          "snapshot": "3d3b7e24ec404c4d507135a03486b5d48dfe18463a0a46fcd47f32217343ced8.npy",
+          "status": "certified_geometry",
+          "w": 8
+        },
+        "source_record": {
+          "key": "8_21_13",
+          "bloat": 0.8840343100103709,
+          "original_seed_bloat": 0.8835366420143043,
+          "gain_from_original": -0.000497667996066653,
+          "official_raw_and_roundtrip": true,
+          "exact_geometry_certificate": {
+            "bloat": 0.8840343100103709,
+            "certification_contract": "unchanged_public_certify_exact_geometry",
+            "dtype": "<f8",
+            "geometry_sha256": "3d3b7e24ec404c4d507135a03486b5d48dfe18463a0a46fcd47f32217343ced8",
+            "h": 21,
+            "key": "8_21_13",
+            "npy_sha256": "3d3b7e24ec404c4d507135a03486b5d48dfe18463a0a46fcd47f32217343ced8",
+            "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+            "official_raw_and_pandas": true,
+            "raw": true,
+            "roundtrip": true,
+            "shape": [
+              181,
+              3
+            ],
+            "signature": "40f208c027b7",
+            "snapshot": "3d3b7e24ec404c4d507135a03486b5d48dfe18463a0a46fcd47f32217343ced8.npy",
+            "status": "certified_geometry",
+            "w": 8
+          },
+          "sources": [
+            {
+              "device": 1,
+              "initial_bloat": 0.8835366420143043,
+              "gain_from_device_initial": -0.000497667996066653
+            }
+          ],
+          "active_join_compatibility": "not assessed; composition must verify actual joins"
+        },
+        "geometry_binding": "NPY_file_sha256; independent raw-array SHA also recorded"
+      },
+      {
+        "input_key": "8_21_13__seed3",
+        "source_label": "combined",
+        "source_key": "8_21_13__d53f6b87f631bae8cb4cfc4900b5186babb16256f1bbeaeab3c35fee13c51f06",
+        "source_type": [
+          8,
+          21,
+          13
+        ],
+        "source_archive": "artifacts/combined-ftmc-results/artifacts/campaign_gadgets.npz",
+        "source_archive_sha256": "204eaa312767cdaf957e708bc8476f4fa5c7eba869e5994cdafd781b4a67d45f",
+        "source_proof": "artifacts/combined-ftmc-results/ftmc_candidates.json",
+        "source_proof_sha256": "d393bdec359a1b571ab38f8c23787ef88c26f1c9512d5a962288a4968983e58c",
+        "source_geometry_sha256": "bb82203a9e4fd85a5a6769f20760f787da40691c458004e9a01a25d2bdf12d4a",
+        "source_npy_sha256": "d53f6b87f631bae8cb4cfc4900b5186babb16256f1bbeaeab3c35fee13c51f06",
+        "geometry_sha256": "bb82203a9e4fd85a5a6769f20760f787da40691c458004e9a01a25d2bdf12d4a",
+        "transform": {
+          "transpose": false,
+          "angle_rule": "unchanged",
+          "translation": [
+            -0.0,
+            -0.0
+          ],
+          "row_order": "unchanged",
+          "no_scaling": true
+        },
+        "f": 0.885205912574687,
+        "descriptor": "a75873c0e6bc13f59dd850244b6c8e2f01d9d1cd58fd9c6d21266061b52c985a",
+        "certificate": {
+          "bloat": 0.885205912574687,
+          "certification_contract": "unchanged_public_certify_exact_geometry",
+          "dtype": "<f8",
+          "geometry_sha256": "d53f6b87f631bae8cb4cfc4900b5186babb16256f1bbeaeab3c35fee13c51f06",
+          "h": 21,
+          "key": "8_21_13",
+          "npy_sha256": "d53f6b87f631bae8cb4cfc4900b5186babb16256f1bbeaeab3c35fee13c51f06",
+          "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+          "official_raw_and_pandas": true,
+          "raw": true,
+          "roundtrip": true,
+          "shape": [
+            181,
+            3
+          ],
+          "signature": "fdbdefe2ba92",
+          "snapshot": "d53f6b87f631bae8cb4cfc4900b5186babb16256f1bbeaeab3c35fee13c51f06.npy",
+          "status": "certified_geometry",
+          "w": 8
+        },
+        "source_record": {
+          "key": "8_21_13",
+          "bloat": 0.885205912574687,
+          "original_seed_bloat": 0.8835366420143043,
+          "gain_from_original": -0.0016692705603826852,
+          "official_raw_and_roundtrip": true,
+          "exact_geometry_certificate": {
+            "bloat": 0.885205912574687,
+            "certification_contract": "unchanged_public_certify_exact_geometry",
+            "dtype": "<f8",
+            "geometry_sha256": "d53f6b87f631bae8cb4cfc4900b5186babb16256f1bbeaeab3c35fee13c51f06",
+            "h": 21,
+            "key": "8_21_13",
+            "npy_sha256": "d53f6b87f631bae8cb4cfc4900b5186babb16256f1bbeaeab3c35fee13c51f06",
+            "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+            "official_raw_and_pandas": true,
+            "raw": true,
+            "roundtrip": true,
+            "shape": [
+              181,
+              3
+            ],
+            "signature": "fdbdefe2ba92",
+            "snapshot": "d53f6b87f631bae8cb4cfc4900b5186babb16256f1bbeaeab3c35fee13c51f06.npy",
+            "status": "certified_geometry",
+            "w": 8
+          },
+          "sources": [
+            {
+              "device": 0,
+              "initial_bloat": 0.8829059521786,
+              "gain_from_device_initial": -0.002299960396086931
+            }
+          ],
+          "active_join_compatibility": "not assessed; composition must verify actual joins"
+        },
+        "geometry_binding": "NPY_file_sha256; independent raw-array SHA also recorded"
+      }
+    ]
+  },
+  "diversity": {
+    "5_17_7": {
+      "audited_source_arrays": 2013,
+      "exact_type_array_unique": 2013,
+      "lowest_f": 0.8024287505378744,
+      "source_of_lowest": {
+        "source_label": "local_soft",
+        "source_key": "17_5_7__strict_9ed08f7e38271d52c43ed2d3c9cb4800d08170aa37cb4adf969bee523b7f3366",
+        "source_archive": "artifacts/fq-local-soft-v1/all-strict/donors.npz",
+        "source_geometry_sha256": "9ed08f7e38271d52c43ed2d3c9cb4800d08170aa37cb4adf969bee523b7f3366"
+      },
+      "near_reference_band": 0.06,
+      "coarse_descriptor_groups": 1799,
+      "bounded_assignment_panel": 100,
+      "selected_pairwise_assignments": [
+        {
+          "left": 0,
+          "right": 1,
+          "score": 0.028124269585704565,
+          "center_rms": 0.028123341991182677,
+          "center_max": 0.19853931175973247,
+          "angle_rms_radians": 0.0009136736955212164,
+          "angle_max_radians": 0.004627126004662863,
+          "reflection_index": 1
+        },
+        {
+          "left": 0,
+          "right": 2,
+          "score": 0.056233075120251226,
+          "center_rms": 0.05623238614149394,
+          "center_max": 0.4908379946762238,
+          "angle_rms_radians": 0.001113454543209051,
+          "angle_max_radians": 0.008945626801362128,
+          "reflection_index": 0
+        },
+        {
+          "left": 1,
+          "right": 2,
+          "score": 0.05097015536226003,
+          "center_rms": 0.05096965343739992,
+          "center_max": 0.45217754414569983,
+          "angle_rms_radians": 0.0009047972084110492,
+          "angle_max_radians": 0.006306058264744507,
+          "reflection_index": 2
+        },
+        {
+          "left": 0,
+          "right": 3,
+          "score": 0.035380137972719855,
+          "center_rms": 0.0353769787414871,
+          "center_max": 0.27283865106572147,
+          "angle_rms_radians": 0.0018911926102370277,
+          "angle_max_radians": 0.00945420889811821,
+          "reflection_index": 0
+        },
+        {
+          "left": 1,
+          "right": 3,
+          "score": 0.052407214071001317,
+          "center_rms": 0.05240508766589737,
+          "center_max": 0.47131891103549733,
+          "angle_rms_radians": 0.0018883788322084747,
+          "angle_max_radians": 0.00817288255922577,
+          "reflection_index": 2
+        },
+        {
+          "left": 2,
+          "right": 3,
+          "score": 0.0718702287843999,
+          "center_rms": 0.07186825744148949,
+          "center_max": 0.4782982554721729,
+          "angle_rms_radians": 0.002129254689419303,
+          "angle_max_radians": 0.009314149145763784,
+          "reflection_index": 0
+        }
+      ],
+      "selected_coarse_geometry_groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "geometry_group_threshold": 0.01,
+      "geometry_group_scope": "Minimum centered four-reflection assignment RMS in combined center/0.25*angle metric, unit angles modulo pi/2. Descriptor only bounds panel selection; no optimizer-basin/topology proof.",
+      "complete_source_minimum_scan": true,
+      "assignment_search_scope": "Finite descriptor panel only; not all-pair clustering of every source.",
+      "seed_reasons": [
+        "orientation_fair_minimum",
+        "geometry_and_profile_alternative",
+        "geometry_and_profile_alternative",
+        "geometry_and_profile_alternative"
+      ]
+    },
+    "7_19_13": {
+      "audited_source_arrays": 456,
+      "exact_type_array_unique": 455,
+      "lowest_f": 0.9180306990557874,
+      "source_of_lowest": {
+        "source_label": "coherent",
+        "source_key": "19_7_13__coherent_ec5ee0f92ef0dea05f8fae44",
+        "source_archive": "artifacts/fq-coherent-v1/donors.npz",
+        "source_geometry_sha256": "ec5ee0f92ef0dea05f8fae44ccaf1046341e3add09186c442379964f9d396982"
+      },
+      "near_reference_band": 0.06,
+      "coarse_descriptor_groups": 391,
+      "bounded_assignment_panel": 98,
+      "selected_pairwise_assignments": [
+        {
+          "left": 0,
+          "right": 1,
+          "score": 0.04129523938197413,
+          "center_rms": 0.038892332718050086,
+          "center_max": 0.24603217710056954,
+          "angle_rms_radians": 0.05552415710128888,
+          "angle_max_radians": 0.29957251983822175,
+          "reflection_index": 3
+        },
+        {
+          "left": 0,
+          "right": 2,
+          "score": 0.056494921737270165,
+          "center_rms": 0.055420701064794554,
+          "center_max": 0.5013910940887287,
+          "angle_rms_radians": 0.043858331128662074,
+          "angle_max_radians": 0.30590383609121385,
+          "reflection_index": 3
+        },
+        {
+          "left": 1,
+          "right": 2,
+          "score": 0.055650772441649406,
+          "center_rms": 0.054930977777347754,
+          "center_max": 0.4742878793833316,
+          "angle_rms_radians": 0.03568667062683723,
+          "angle_max_radians": 0.3099809683596444,
+          "reflection_index": 0
+        },
+        {
+          "left": 0,
+          "right": 3,
+          "score": 0.061107286944955555,
+          "center_rms": 0.06013177851982289,
+          "center_max": 0.5035865861595545,
+          "angle_rms_radians": 0.043500754902158,
+          "angle_max_radians": 0.30315633217262317,
+          "reflection_index": 0
+        },
+        {
+          "left": 1,
+          "right": 3,
+          "score": 0.04630637596772239,
+          "center_rms": 0.04543718541831249,
+          "center_max": 0.4774171414498903,
+          "angle_rms_radians": 0.035719493059325334,
+          "angle_max_radians": 0.30813088872143624,
+          "reflection_index": 0
+        },
+        {
+          "left": 2,
+          "right": 3,
+          "score": 0.04642451394364266,
+          "center_rms": 0.045523620941034695,
+          "center_max": 0.31932757351900387,
+          "angle_rms_radians": 0.036405588872140834,
+          "angle_max_radians": 0.3110128249043722,
+          "reflection_index": 0
+        }
+      ],
+      "selected_coarse_geometry_groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "geometry_group_threshold": 0.01,
+      "geometry_group_scope": "Minimum centered four-reflection assignment RMS in combined center/0.25*angle metric, unit angles modulo pi/2. Descriptor only bounds panel selection; no optimizer-basin/topology proof.",
+      "complete_source_minimum_scan": true,
+      "assignment_search_scope": "Finite descriptor panel only; not all-pair clustering of every source.",
+      "seed_reasons": [
+        "orientation_fair_minimum",
+        "geometry_and_profile_alternative",
+        "geometry_and_profile_alternative",
+        "geometry_and_profile_alternative"
+      ]
+    },
+    "7_20_14": {
+      "audited_source_arrays": 403,
+      "exact_type_array_unique": 403,
+      "lowest_f": 0.9253502643937175,
+      "source_of_lowest": {
+        "source_label": "local_soft",
+        "source_key": "7_20_14__strict_0107a36686736ed8d5d5ea7b3b7e6f433bbaf7ef9b7b5407eb461d3adbf94a5b",
+        "source_archive": "artifacts/fq-local-soft-v1/all-strict/donors.npz",
+        "source_geometry_sha256": "0107a36686736ed8d5d5ea7b3b7e6f433bbaf7ef9b7b5407eb461d3adbf94a5b"
+      },
+      "near_reference_band": 0.06,
+      "coarse_descriptor_groups": 259,
+      "bounded_assignment_panel": 97,
+      "selected_pairwise_assignments": [
+        {
+          "left": 0,
+          "right": 1,
+          "score": 0.04344832643557087,
+          "center_rms": 0.04164138672723911,
+          "center_max": 0.36858161776702547,
+          "angle_rms_radians": 0.049598706674177206,
+          "angle_max_radians": 0.30654894313056524,
+          "reflection_index": 0
+        },
+        {
+          "left": 0,
+          "right": 2,
+          "score": 0.06165963476951535,
+          "center_rms": 0.06133716723111079,
+          "center_max": 0.539973568902854,
+          "angle_rms_radians": 0.0251912606981949,
+          "angle_max_radians": 0.3072023847838061,
+          "reflection_index": 0
+        },
+        {
+          "left": 1,
+          "right": 2,
+          "score": 0.07957643200560474,
+          "center_rms": 0.07835513428566589,
+          "center_max": 0.735507329273317,
+          "angle_rms_radians": 0.0555527082065889,
+          "angle_max_radians": 0.307202386656368,
+          "reflection_index": 3
+        },
+        {
+          "left": 0,
+          "right": 3,
+          "score": 0.04964293691520432,
+          "center_rms": 0.04804952305436946,
+          "center_max": 0.415896625810585,
+          "angle_rms_radians": 0.04990623525205233,
+          "angle_max_radians": 0.30934853728331646,
+          "reflection_index": 0
+        },
+        {
+          "left": 1,
+          "right": 3,
+          "score": 0.04652271498355923,
+          "center_rms": 0.046520210558068716,
+          "center_max": 0.48196752081525424,
+          "angle_rms_radians": 0.001930881972315663,
+          "angle_max_radians": 0.009449759878877417,
+          "reflection_index": 0
+        },
+        {
+          "left": 2,
+          "right": 3,
+          "score": 0.06507816947921735,
+          "center_rms": 0.06417861718132586,
+          "center_max": 0.7363201396582814,
+          "angle_rms_radians": 0.043132027906614676,
+          "angle_max_radians": 0.3088376956288865,
+          "reflection_index": 0
+        }
+      ],
+      "selected_coarse_geometry_groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "geometry_group_threshold": 0.01,
+      "geometry_group_scope": "Minimum centered four-reflection assignment RMS in combined center/0.25*angle metric, unit angles modulo pi/2. Descriptor only bounds panel selection; no optimizer-basin/topology proof.",
+      "complete_source_minimum_scan": true,
+      "assignment_search_scope": "Finite descriptor panel only; not all-pair clustering of every source.",
+      "seed_reasons": [
+        "orientation_fair_minimum",
+        "geometry_and_profile_alternative",
+        "geometry_and_profile_alternative",
+        "geometry_and_profile_alternative"
+      ]
+    },
+    "8_21_13": {
+      "audited_source_arrays": 153,
+      "exact_type_array_unique": 153,
+      "lowest_f": 0.8829035603506767,
+      "source_of_lowest": {
+        "source_label": "multiscale",
+        "source_key": "8_21_13__fqm_6c123aaa93ed180901226f2e5e6c471a279117235ae17a709b30a1a2241d361d",
+        "source_archive": "artifacts/fq-multiscale-v1/snapshot-00099/donors.npz",
+        "source_geometry_sha256": "6c123aaa93ed180901226f2e5e6c471a279117235ae17a709b30a1a2241d361d"
+      },
+      "near_reference_band": 0.06,
+      "coarse_descriptor_groups": 151,
+      "bounded_assignment_panel": 97,
+      "selected_pairwise_assignments": [
+        {
+          "left": 0,
+          "right": 1,
+          "score": 0.0363638447724088,
+          "center_rms": 0.03636339470831693,
+          "center_max": 0.3040030828186914,
+          "angle_rms_radians": 0.0007236785915425305,
+          "angle_max_radians": 0.008637225619563704,
+          "reflection_index": 0
+        },
+        {
+          "left": 0,
+          "right": 2,
+          "score": 0.0798934536020404,
+          "center_rms": 0.07895919910923484,
+          "center_max": 0.7909544748696321,
+          "angle_rms_radians": 0.04872926094076849,
+          "angle_max_radians": 0.3312928947044209,
+          "reflection_index": 0
+        },
+        {
+          "left": 1,
+          "right": 2,
+          "score": 0.0788491773611074,
+          "center_rms": 0.0779025982873337,
+          "center_max": 0.783115998928893,
+          "angle_rms_radians": 0.04872419532112296,
+          "angle_max_radians": 0.33137045037681845,
+          "reflection_index": 0
+        },
+        {
+          "left": 0,
+          "right": 3,
+          "score": 0.05696238012241941,
+          "center_rms": 0.05629337200126922,
+          "center_max": 0.5692135546778665,
+          "angle_rms_radians": 0.034818160304696436,
+          "angle_max_radians": 0.24149606350824904,
+          "reflection_index": 0
+        },
+        {
+          "left": 1,
+          "right": 3,
+          "score": 0.053535028982938895,
+          "center_rms": 0.0528217384578447,
+          "center_max": 0.3824799885617939,
+          "angle_rms_radians": 0.0348398104461336,
+          "angle_max_radians": 0.2415038381845933,
+          "reflection_index": 0
+        },
+        {
+          "left": 2,
+          "right": 3,
+          "score": 0.07577979705616832,
+          "center_rms": 0.07421732693070235,
+          "center_max": 0.816350904207706,
+          "angle_rms_radians": 0.061236071086940264,
+          "angle_max_radians": 0.34145022717256257,
+          "reflection_index": 0
+        }
+      ],
+      "selected_coarse_geometry_groups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "geometry_group_threshold": 0.01,
+      "geometry_group_scope": "Minimum centered four-reflection assignment RMS in combined center/0.25*angle metric, unit angles modulo pi/2. Descriptor only bounds panel selection; no optimizer-basin/topology proof.",
+      "complete_source_minimum_scan": true,
+      "assignment_search_scope": "Finite descriptor panel only; not all-pair clustering of every source.",
+      "seed_reasons": [
+        "orientation_fair_minimum",
+        "geometry_and_profile_alternative",
+        "geometry_and_profile_alternative",
+        "geometry_and_profile_alternative"
+      ]
+    }
+  },
+  "baseline": {
+    "schema_version": 1,
+    "updated_at": "2026-10-24T17:18:10.778889+00:00",
+    "canonical_proof": "/workspace/squares_in_squares/artifacts/submission-sustained-alternatives-fresh-v1-safe.transport-validation.json",
+    "canonical_proof_sha256": "240059bff152c4fc1dc506a0fbd26888981142951c14b888c9dfd9b4c252479e",
+    "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+    "competition_submission_performed": false,
+    "raw": {
+      "path": "/workspace/squares_in_squares/artifacts/merged-sustained-alternatives-fresh-v1.csv",
+      "sha256": "9d18b33ca0efb4c55c0afac2c159f413676d76aae37fb3cbcc6ec93a43975396",
+      "score": 22.29648715263945,
+      "official_report": "/workspace/squares_in_squares/artifacts/merged-sustained-alternatives-fresh-v1-official.json",
+      "official_report_sha256": "3c9138c02e0f8dc35326acad9ee328561bb175331c10b0643443c913adeebdc0",
+      "reuse": {
+        "reused": 977,
+        "evaluated": 23
+      }
+    },
+    "safe": {
+      "path": "/workspace/squares_in_squares/artifacts/submission-sustained-alternatives-fresh-v1-safe.csv",
+      "sha256": "c9fca5a1a1fbf55bba5e3ed093cc5412b92845fb01809c3fbc61362bb01d3097",
+      "score": 22.29648715325571,
+      "official_report": "/workspace/squares_in_squares/artifacts/submission-sustained-alternatives-fresh-v1-safe-official.json",
+      "official_report_sha256": "603805d3afd8c92dafbae2290e2f2161afe2bf432c0e76b116d151b21ec02a06",
+      "reuse": {
+        "reused": 977,
+        "evaluated": 23
+      }
+    },
+    "roundtrip": {
+      "path": "/workspace/squares_in_squares/artifacts/submission-sustained-alternatives-fresh-v1-safe-roundtrip.csv",
+      "sha256": "fc5c2882e8443fb51d2c9f3f681494d7f5e418032cadbfa1669983fb8be2234e",
+      "score": 22.29648715325571,
+      "official_report": "/workspace/squares_in_squares/artifacts/submission-sustained-alternatives-fresh-v1-safe-roundtrip-official.json",
+      "official_report_sha256": "e084f0682fc6aa447d1bca7a639209c25d1b061e07f5b5a5f70462b1439677ed",
+      "reuse": {
+        "reused": 977,
+        "evaluated": 23
+      }
+    },
+    "independent_report": {
+      "path": "/workspace/squares_in_squares/artifacts/merged-sustained-alternatives-fresh-v1.validation.json",
+      "sha256": "39123c3b96a69a146614dea0a5866f665ad87457f107b81b92779d909befe0f2"
+    },
+    "authorization_policy": {
+      "score_ceiling": "22.24",
+      "minimum_interval_seconds": 3600,
+      "sha256": "550b4ae6cad0f160a3f06a51af3b53f960e73fc9bbbf020e9a4364ef2c78c27b",
+      "source": "/workspace/squares_in_squares/artifacts/submissions/authorization-policy.json"
+    },
+    "user_submission_score_threshold": 22.24,
+    "eligible_under_user_score_threshold": false
+  },
+  "provisional_inputs_sha256": "1c2d92e19f8cd35d275122b8ed5746aba03c0ed113d4650a34d19447fbb87751",
+  "preparation_source_sha256": "b2cf609aaea9f85b220c7205d5cbd434d1b43a8f8bef91e703f9bb782d7f03c1",
+  "seconds": 5.465858171999571,
+  "status": "selected_requires_exact_transformed_gates_and_final_proof",
+  "no_optimizer": true,
+  "no_native_run": true
+}

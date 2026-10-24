@@ -1,0 +1,1554 @@
+[
+  {
+    "n": 268,
+    "before": 16.874371620349773,
+    "after": 16.874371056891402,
+    "gain": 3.4418698083032974e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 303,
+    "before": 17.907275741626446,
+    "after": 17.90725342854798,
+    "gain": 1.2818528651859311e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 416,
+    "before": 20.88881235230348,
+    "after": 20.888641397257413,
+    "gain": 8.381760729209149e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 417,
+    "before": 20.90894020575263,
+    "after": 20.90893929597663,
+    "gain": 4.4551922326712085e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 418,
+    "before": 20.929431491561207,
+    "after": 20.929415531734648,
+    "gain": 7.806206336423331e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 423,
+    "before": 20.99653930836439,
+    "after": 20.99653576241415,
+    "gain": 1.7241000049831871e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 456,
+    "before": 21.857099671740528,
+    "after": 21.857098504672766,
+    "gain": 5.465295533076687e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 457,
+    "before": 21.868117455112575,
+    "after": 21.868100834991363,
+    "gain": 7.774564783285085e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 458,
+    "before": 21.889950346617084,
+    "after": 21.88992108621605,
+    "gain": 1.3672487505041259e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 459,
+    "before": 21.905844586030213,
+    "after": 21.905843781862984,
+    "gain": 3.753531182422735e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 460,
+    "before": 21.926151986435247,
+    "after": 21.926108439555048,
+    "gain": 2.0303837584989107e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 461,
+    "before": 21.936403680828413,
+    "after": 21.936369630495562,
+    "gain": 1.5858821061743893e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 463,
+    "before": 21.970599628396798,
+    "after": 21.970599362460263,
+    "gain": 1.2359118900288464e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 465,
+    "before": 21.995197091753855,
+    "after": 21.995188932933807,
+    "gain": 3.7835621997700015e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 495,
+    "before": 22.769370715963504,
+    "after": 22.769318793382016,
+    "gain": 2.3337464865150575e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 498,
+    "before": 22.82424410091795,
+    "after": 22.824240264018798,
+    "gain": 1.7193556230620128e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 500,
+    "before": 22.85459098198552,
+    "after": 22.854552237365176,
+    "gain": 1.7327120970335977e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 502,
+    "before": 22.892820004277826,
+    "after": 22.89280085865495,
+    "gain": 8.545109681012839e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 503,
+    "before": 22.901730735729014,
+    "after": 22.90172952957743,
+    "gain": 5.3779641019344026e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 504,
+    "before": 22.922926348450723,
+    "after": 22.922815792082584,
+    "gain": 4.924572041670608e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 505,
+    "before": 22.939884970960478,
+    "after": 22.939858053543386,
+    "gain": 1.1978093394366706e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 506,
+    "before": 22.957972743277665,
+    "after": 22.957887860686554,
+    "gain": 3.7734914462555173e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 509,
+    "before": 22.990878048397786,
+    "after": 22.990768522538374,
+    "gain": 4.854648366850881e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 536,
+    "before": 23.656855011062824,
+    "after": 23.65685429773696,
+    "gain": 3.0810984559681095e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 539,
+    "before": 23.737684314127648,
+    "after": 23.73768403004948,
+    "gain": 1.2236112956694975e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 542,
+    "before": 23.791557625058186,
+    "after": 23.791504801922116,
+    "gain": 2.26894797550903e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 544,
+    "before": 23.825002325783796,
+    "after": 23.82483429630168,
+    "gain": 7.204204611234212e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 546,
+    "before": 23.862074137634153,
+    "after": 23.861545562882878,
+    "gain": 2.2620911088452573e-05,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 547,
+    "before": 23.876122028865215,
+    "after": 23.876113157812185,
+    "gain": 3.792988380143727e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 548,
+    "before": 23.890662421704683,
+    "after": 23.89065593743763,
+    "gain": 2.7699416061170326e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 549,
+    "before": 23.910009719164087,
+    "after": 23.91000925580856,
+    "gain": 1.9775531966307575e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 550,
+    "before": 23.91847353505355,
+    "after": 23.91803116057402,
+    "gain": 1.8862911186632823e-05,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 551,
+    "before": 23.934715904798917,
+    "after": 23.934570001938763,
+    "gain": 6.215670816946578e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 552,
+    "before": 23.953166710138113,
+    "after": 23.95313442722381,
+    "gain": 1.3740520816798327e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 554,
+    "before": 23.97990643174046,
+    "after": 23.979866731110036,
+    "gain": 1.6867181601386482e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 555,
+    "before": 23.989971414306382,
+    "after": 23.989934422490197,
+    "gain": 1.5702151482946511e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 588,
+    "before": 24.766875950633818,
+    "after": 24.766874601705776,
+    "gain": 5.5628854838784204e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 591,
+    "before": 24.819642973185893,
+    "after": 24.819621584433484,
+    "gain": 8.79815710575527e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 592,
+    "before": 24.82493944910836,
+    "after": 24.82493925785943,
+    "gain": 7.860282586624021e-09,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 593,
+    "before": 24.84682692693776,
+    "after": 24.84673556192213,
+    "gain": 3.7519115039762067e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 594,
+    "before": 24.862718548250594,
+    "after": 24.862615621792376,
+    "gain": 4.223123734451172e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 595,
+    "before": 24.87612204886522,
+    "after": 24.876113159812103,
+    "gain": 3.6441564899044284e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 598,
+    "before": 24.91116089724849,
+    "after": 24.911089261823452,
+    "gain": 2.929390373490406e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 599,
+    "before": 24.932667374886588,
+    "after": 24.932594919221877,
+    "gain": 2.960458202553213e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 600,
+    "before": 24.94556125315212,
+    "after": 24.9455566811304,
+    "gain": 1.8665200509250499e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 601,
+    "before": 24.96319972031463,
+    "after": 24.963127081505796,
+    "gain": 2.9629988150877356e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 602,
+    "before": 24.978115813908182,
+    "after": 24.9780132576194,
+    "gain": 4.1798822825031845e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 637,
+    "before": 25.75750752132329,
+    "after": 25.757499472178345,
+    "gain": 3.1891873432612533e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 638,
+    "before": 25.77698701059518,
+    "after": 25.776978026030296,
+    "gain": 3.5570233008819315e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 639,
+    "before": 25.78119289369331,
+    "after": 25.78118147279182,
+    "gain": 4.518038802913334e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 641,
+    "before": 25.819616136927937,
+    "after": 25.819615376949393,
+    "gain": 3.0017347753008894e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 642,
+    "before": 25.833999568350833,
+    "after": 25.83396369077907,
+    "gain": 1.4159748113176885e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 644,
+    "before": 25.86152836202598,
+    "after": 25.861513828925922,
+    "gain": 5.726843694809094e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 645,
+    "before": 25.876122068865218,
+    "after": 25.87611316597455,
+    "gain": 3.5055097765718213e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 648,
+    "before": 25.910009677530567,
+    "after": 25.91000927961371,
+    "gain": 1.5631650432795334e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 649,
+    "before": 25.925105765362694,
+    "after": 25.92483762490909,
+    "gain": 1.0525433490683377e-05,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 651,
+    "before": 25.958703158906445,
+    "after": 25.95866866976363,
+    "gain": 1.3517360813028852e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 652,
+    "before": 25.97663614069386,
+    "after": 25.976626660761696,
+    "gain": 3.7126279662029735e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 653,
+    "before": 25.98922053040166,
+    "after": 25.989201383392313,
+    "gain": 7.492803764873476e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 689,
+    "before": 26.76235850325535,
+    "after": 26.762236234956443,
+    "gain": 4.658051212599945e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 690,
+    "before": 26.777388720005426,
+    "after": 26.777335341799272,
+    "gain": 2.032073579418766e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 692,
+    "before": 26.80251266501029,
+    "after": 26.802457664795302,
+    "gain": 2.090794456132351e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 693,
+    "before": 26.81760995798387,
+    "after": 26.817330293080595,
+    "gain": 1.0623591197566638e-05,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 694,
+    "before": 26.83127750755214,
+    "after": 26.831221822382524,
+    "gain": 2.1137801324829192e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 696,
+    "before": 26.86237595276004,
+    "after": 26.862373132334984,
+    "gain": 1.0690793585722346e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 697,
+    "before": 26.876122088865234,
+    "after": 26.876113163847887,
+    "gain": 3.3805913809322407e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 698,
+    "before": 26.88829294080073,
+    "after": 26.888197004632442,
+    "gain": 3.6312375218282696e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 699,
+    "before": 26.900053359817456,
+    "after": 26.89995681785571,
+    "gain": 3.651552353318178e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 702,
+    "before": 26.938319287896594,
+    "after": 26.938298263072884,
+    "gain": 7.935308344432505e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 703,
+    "before": 26.95887468691915,
+    "after": 26.958836150981508,
+    "gain": 1.4534104151271895e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 704,
+    "before": 26.968714650177134,
+    "after": 26.96861578349779,
+    "gain": 3.7261781778936396e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 705,
+    "before": 26.985278933161183,
+    "after": 26.985242978218803,
+    "gain": 1.3541414707293157e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 706,
+    "before": 26.993968979464842,
+    "after": 26.993967081534823,
+    "gain": 7.142953855323642e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 742,
+    "before": 27.76215678549839,
+    "after": 27.762033838089774,
+    "gain": 4.513541363596215e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 743,
+    "before": 27.766876070633828,
+    "after": 27.76687460588389,
+    "gain": 5.373646355755193e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 744,
+    "before": 27.785973264297034,
+    "after": 27.785972892995023,
+    "gain": 1.3612592191869549e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 745,
+    "before": 27.796219821848744,
+    "after": 27.796218774972143,
+    "gain": 3.835459106552507e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 748,
+    "before": 27.835190593265004,
+    "after": 27.835144229734386,
+    "gain": 1.695218571315564e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 749,
+    "before": 27.853951409581967,
+    "after": 27.853843341984295,
+    "gain": 3.94870407949737e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 750,
+    "before": 27.865686929131666,
+    "after": 27.863364689729682,
+    "gain": 8.47961936262611e-05,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 751,
+    "before": 27.87612210886522,
+    "after": 27.876113182238267,
+    "gain": 3.2573724385358274e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 752,
+    "before": 27.888412460224675,
+    "after": 27.88819700187593,
+    "gain": 7.856957551945022e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 753,
+    "before": 27.901153757766515,
+    "after": 27.901081204965763,
+    "gain": 2.643971040785791e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 754,
+    "before": 27.908216095416872,
+    "after": 27.90821523086141,
+    "gain": 3.1485252953043516e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 756,
+    "before": 27.925952165853673,
+    "after": 27.92591696016188,
+    "gain": 1.280418631161013e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 757,
+    "before": 27.94909422684847,
+    "after": 27.948724050562834,
+    "gain": 1.3454285947811157e-05,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 758,
+    "before": 27.965802527203664,
+    "after": 27.96579107062813,
+    "gain": 4.161215619866584e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 759,
+    "before": 27.97842760325318,
+    "after": 27.978324554417675,
+    "gain": 3.74043576105208e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 761,
+    "before": 27.99878427508381,
+    "after": 27.998783807238105,
+    "gain": 1.6959393567153468e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 797,
+    "before": 28.75165735985671,
+    "after": 28.7516553391738,
+    "gain": 7.157626095383222e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 798,
+    "before": 28.76235850425735,
+    "after": 28.762236240595264,
+    "gain": 4.328086721611411e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 799,
+    "before": 28.775181058237216,
+    "after": 28.775127899357944,
+    "gain": 1.880625959433184e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 801,
+    "before": 28.796290420810543,
+    "after": 28.796208788000108,
+    "gain": 2.8843535333332323e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 804,
+    "before": 28.831818618945466,
+    "after": 28.831668692263364,
+    "gain": 5.287506396047787e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 805,
+    "before": 28.851667847396364,
+    "after": 28.8516668131471,
+    "gain": 3.645249672249221e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 806,
+    "before": 28.863905229369564,
+    "after": 28.86379902242095,
+    "gain": 3.7409802085561513e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 807,
+    "before": 28.87562588453772,
+    "after": 28.87561173488587,
+    "gain": 4.980913352914408e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 808,
+    "before": 28.88371345442487,
+    "after": 28.883654766782954,
+    "gain": 2.064624037966723e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 809,
+    "before": 28.898306298900167,
+    "after": 28.898298525875052,
+    "gain": 2.7328500955609506e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 810,
+    "before": 28.911119321978866,
+    "after": 28.911117750224992,
+    "gain": 5.522580180161547e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 812,
+    "before": 28.92595220585367,
+    "after": 28.92591696218653,
+    "gain": 1.2368102513090946e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 813,
+    "before": 28.93831942387067,
+    "after": 28.93829861186753,
+    "gain": 7.299088172674309e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 814,
+    "before": 28.96598739655804,
+    "after": 28.96597516484842,
+    "gain": 4.2872120038993395e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 815,
+    "before": 28.979639180961893,
+    "after": 28.979614367031946,
+    "gain": 8.691940554588452e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 816,
+    "before": 28.98969913055253,
+    "after": 28.989586891867184,
+    "gain": 3.92913989371213e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 856,
+    "before": 29.76687615063382,
+    "after": 29.7668746117281,
+    "gain": 5.259871469729362e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 857,
+    "before": 29.775958659060294,
+    "after": 29.775887965598226,
+    "gain": 2.4148426628716724e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 858,
+    "before": 29.789623508437757,
+    "after": 29.789423849294934,
+    "gain": 6.816250747813893e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 859,
+    "before": 29.798975595962016,
+    "after": 29.798960161693117,
+    "gain": 5.266104590881646e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 860,
+    "before": 29.809819829692838,
+    "after": 29.809819639610293,
+    "gain": 6.4817609949535345e-09,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 862,
+    "before": 29.842251476900582,
+    "after": 29.842230977076966,
+    "gain": 6.982267632233209e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 863,
+    "before": 29.847340061820844,
+    "after": 29.847149161891448,
+    "gain": 6.498309169839193e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 864,
+    "before": 29.860951914077944,
+    "after": 29.860949976345754,
+    "gain": 6.592298782243804e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 865,
+    "before": 29.875625904537724,
+    "after": 29.87561173786722,
+    "gain": 4.816812477683403e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 866,
+    "before": 29.883537642235893,
+    "after": 29.883482721762437,
+    "gain": 1.866273659613927e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 867,
+    "before": 29.889843752495672,
+    "after": 29.889799230239888,
+    "gain": 1.5120550801183517e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 868,
+    "before": 29.90889298722659,
+    "after": 29.908883647150763,
+    "gain": 3.1702283070257874e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 869,
+    "before": 29.917192830159618,
+    "after": 29.917071532208055,
+    "gain": 4.1147511803720265e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 870,
+    "before": 29.925952245853672,
+    "after": 29.925916964163843,
+    "gain": 1.1961613109641102e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 871,
+    "before": 29.93831944387067,
+    "after": 29.93829858919318,
+    "gain": 7.066337895692751e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 872,
+    "before": 29.95831888519153,
+    "after": 29.95830838523379,
+    "gain": 3.5557343625276625e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 873,
+    "before": 29.97328625022203,
+    "after": 29.973234754019835,
+    "gain": 1.7428823806450885e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 874,
+    "before": 29.987778824007062,
+    "after": 29.98773786274078,
+    "gain": 1.385535500030913e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 915,
+    "before": 30.76235850325935,
+    "after": 30.76223558513686,
+    "gain": 4.063547783171829e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 918,
+    "before": 30.7877936487479,
+    "after": 30.78772653403843,
+    "gain": 2.215115489309207e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 919,
+    "before": 30.803086011059026,
+    "after": 30.802839949341372,
+    "gain": 8.116827112021194e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 920,
+    "before": 30.810291072301005,
+    "after": 30.81016793692643,
+    "gain": 4.059653078980129e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 921,
+    "before": 30.831277703526435,
+    "after": 30.83122183740389,
+    "gain": 1.8408513255342895e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 922,
+    "before": 30.838384689846425,
+    "after": 30.838337631174014,
+    "gain": 1.549794839515995e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 923,
+    "before": 30.855926855789406,
+    "after": 30.855924281348585,
+    "gain": 8.473875178797528e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 924,
+    "before": 30.863905309369564,
+    "after": 30.86379902653085,
+    "gain": 3.496448693878003e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 925,
+    "before": 30.875625924537715,
+    "after": 30.875611740810484,
+    "gain": 4.6635807859649227e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 926,
+    "before": 30.883537682235897,
+    "after": 30.88348272377726,
+    "gain": 1.806047010847628e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 927,
+    "before": 30.89562324719694,
+    "after": 30.895551249937913,
+    "gain": 2.3647002422462e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 929,
+    "before": 30.91766617951248,
+    "after": 30.917608638561315,
+    "gain": 1.887857369540962e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 930,
+    "before": 30.92350805990048,
+    "after": 30.923478055640466,
+    "gain": 9.838784450775087e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 931,
+    "before": 30.938319463870673,
+    "after": 30.93829859119317,
+    "gain": 6.840743753081216e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 933,
+    "before": 30.97239544840656,
+    "after": 30.9723080653137,
+    "gain": 2.8607940265488857e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 934,
+    "before": 30.983528422369822,
+    "after": 30.983436673013028,
+    "gain": 3.0021306624084084e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 968,
+    "before": 31.619089501263744,
+    "after": 31.61908832051053,
+    "gain": 3.7950845613318366e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 976,
+    "before": 31.747831892817494,
+    "after": 31.747756393186805,
+    "gain": 2.4166842873934963e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 977,
+    "before": 31.76235850326035,
+    "after": 31.762236060759587,
+    "gain": 3.917282651395531e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 978,
+    "before": 31.77968560618839,
+    "after": 31.7788490693836,
+    "gain": 2.6749497362955844e-05,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 979,
+    "before": 31.7842824813261,
+    "after": 31.78427975168691,
+    "gain": 8.723964680487133e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 980,
+    "before": 31.79585071994312,
+    "after": 31.79578166062864,
+    "gain": 2.2060188808216525e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 981,
+    "before": 31.797948093827,
+    "after": 31.797900154947868,
+    "gain": 1.5305706171979633e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 982,
+    "before": 31.818597816081795,
+    "after": 31.818536382884364,
+    "gain": 1.9604121066324024e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 983,
+    "before": 31.822002571490735,
+    "after": 31.821621940894012,
+    "gain": 1.2140230621953237e-05,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 984,
+    "before": 31.839853115344404,
+    "after": 31.83982788247335,
+    "gain": 8.043945493577071e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 985,
+    "before": 31.848302896923276,
+    "after": 31.84826401210978,
+    "gain": 1.2389731791476983e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 986,
+    "before": 31.863905349369567,
+    "after": 31.86379902858101,
+    "gain": 3.3859436919443535e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 987,
+    "before": 31.876190938428152,
+    "after": 31.87561174375895,
+    "gain": 1.843596944661337e-05,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 988,
+    "before": 31.88384628976494,
+    "after": 31.8837510087463,
+    "gain": 3.0312930179973767e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 989,
+    "before": 31.895623267196946,
+    "after": 31.895551279187753,
+    "gain": 2.289085517210745e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 990,
+    "before": 31.91222891940139,
+    "after": 31.912224507998648,
+    "gain": 1.4020358267898746e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 991,
+    "before": 31.91719287015962,
+    "after": 31.917071536176575,
+    "gain": 3.854300995931658e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 992,
+    "before": 31.92595232585367,
+    "after": 31.925916968181305,
+    "gain": 1.1226072202550312e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 996,
+    "before": 31.98000123920002,
+    "after": 31.979614375466795,
+    "gain": 1.2258246469689022e-05,
+    "method": "dual-guided contact surgery",
+    "epoch": 0
+  },
+  {
+    "n": 416,
+    "before": 20.888641397257413,
+    "after": 20.88787990918267,
+    "gain": 3.733502454315079e-05,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 457,
+    "before": 21.868100834991363,
+    "after": 21.868100602148278,
+    "gain": 1.0891940122519866e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 458,
+    "before": 21.88992108621605,
+    "after": 21.889920835182355,
+    "gain": 1.1730034157883398e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 461,
+    "before": 21.936369630495562,
+    "after": 21.936369134718248,
+    "gain": 2.3090651562074453e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 465,
+    "before": 21.995188932933807,
+    "after": 21.99518870229497,
+    "gain": 1.0695619913976987e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 494,
+    "before": 22.73768431411765,
+    "after": 22.737684015294253,
+    "gain": 1.3444700294459628e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 502,
+    "before": 22.89280085865495,
+    "after": 22.89279954070403,
+    "gain": 5.882302839453929e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 504,
+    "before": 22.922815792082584,
+    "after": 22.922815039517605,
+    "gain": 3.352190849448168e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 506,
+    "before": 22.957887860686554,
+    "after": 22.95788755881441,
+    "gain": 1.3419853733700055e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 542,
+    "before": 23.791504801922116,
+    "after": 23.791504700013515,
+    "gain": 4.377349214375524e-09,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 546,
+    "before": 23.861545562882878,
+    "after": 23.861545427042905,
+    "gain": 5.813414138809176e-09,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 548,
+    "before": 23.89065593743763,
+    "after": 23.890655816811066,
+    "gain": 5.1529113894688375e-09,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 552,
+    "before": 23.95313442722381,
+    "after": 23.953132433082068,
+    "gain": 8.487630899825696e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 554,
+    "before": 23.979866731110036,
+    "after": 23.97986638400967,
+    "gain": 1.4746881393484399e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 593,
+    "before": 24.84673556192213,
+    "after": 24.846735083490614,
+    "gain": 1.9646827604204508e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 598,
+    "before": 24.911089261823452,
+    "after": 24.91108804892459,
+    "gain": 4.9599122908874914e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 600,
+    "before": 24.9455566811304,
+    "after": 24.945556421689247,
+    "gain": 1.059164079156507e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 601,
+    "before": 24.963127081505796,
+    "after": 24.96311994195285,
+    "gain": 2.912284391299527e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 649,
+    "before": 25.92483762490909,
+    "after": 25.92483546679899,
+    "gain": 8.471323162997425e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 689,
+    "before": 26.762236234956443,
+    "after": 26.762235903950515,
+    "gain": 1.26103215646663e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 745,
+    "before": 27.796218774972143,
+    "after": 27.7962181222335,
+    "gain": 2.39144934994422e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 750,
+    "before": 27.863364689729682,
+    "after": 27.86336437262551,
+    "gain": 1.1579007149965227e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 798,
+    "before": 28.762236240595264,
+    "after": 28.762235971155455,
+    "gain": 9.538065851154922e-09,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 799,
+    "before": 28.775127899357944,
+    "after": 28.775126561150415,
+    "gain": 4.7342379151402884e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 806,
+    "before": 28.86379902242095,
+    "after": 28.86379876289955,
+    "gain": 9.141251429183522e-09,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 815,
+    "before": 28.979614367031946,
+    "after": 28.9796095307082,
+    "gain": 1.6940903194067904e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 866,
+    "before": 29.883482721762437,
+    "after": 29.883482515863527,
+    "gain": 6.996729794511929e-09,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 915,
+    "before": 30.76223558513686,
+    "after": 30.76223524658431,
+    "gain": 1.1192202047600633e-08,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 919,
+    "before": 30.802839949341372,
+    "after": 30.80279180851984,
+    "gain": 1.588019173175667e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 926,
+    "before": 30.88348272377726,
+    "after": 30.883482465559823,
+    "gain": 8.48555147620381e-09,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 934,
+    "before": 30.983436673013028,
+    "after": 30.983264314127876,
+    "gain": 5.639755003524947e-06,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 977,
+    "before": 31.762236060759587,
+    "after": 31.762235909965717,
+    "gain": 4.824323307314194e-09,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 982,
+    "before": 31.818536382884364,
+    "after": 31.818532445941003,
+    "gain": 1.2563291106280206e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 987,
+    "before": 31.87561174375895,
+    "after": 31.875611617625395,
+    "gain": 4.014875239614585e-09,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 988,
+    "before": 31.8837510087463,
+    "after": 31.8837509077357,
+    "gain": 3.213575365045519e-09,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  },
+  {
+    "n": 996,
+    "before": 31.979614375466795,
+    "after": 31.979609537976827,
+    "gain": 1.532817352104246e-07,
+    "method": "dual-guided contact surgery",
+    "epoch": 1
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "ref": "avazaku/squarecraft-iii-seam-surgery",
+  "version": 1,
+  "native_version_id_from_public35": 361805137,
+  "expected_notebook_sha256": "62eeb53f3703413063e7f23a6a0601dfc9a98774fee5a7e49a4f8380f04b5e39",
+  "published_csv_sha256": "bf3bd7fbf5d986f9717ad81c2da85503195c871b71f63a1d14738ef5b1dce70e",
+  "source_license": "Apache-2.0",
+  "notices_sha256": {
+    "upstream-avazaku-1418-source.json": "ee7249b98d1e6e6dc86044717a008e8c4184d7f7003dd89bbf69fb2e56c90fe4",
+    "upstream-avazaku-1418-notices.md": "6230fe206a2c80dc4f7469896f4ebc99da63244fd53edb26fba5ddce9ef2be91",
+    "upstream-avazaku-1418-file-map.json": "196b2082a691ef7688d3d40b8916402b462f9dbb099412a3e82614e805877fde",
+    "upstream-seam-a0836787-LICENSE-APACHE-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "upstream-seam-97d6f9c7-LICENSE-LEVY-SOURCES.txt": "9dd942ee31483b4efb61318868d80ba3b18c6bfd843a26f75fa43e08c08d8e28",
+    "upstream-seam-52f0ce0c-SOURCE_NOTICES.md": "b9f31a12f1274dc3c6dfb14c16a801f7ec53eb1a37d69f43b2c06c2ae3751e74",
+    "upstream-seam-08f2472e-kozykappa_SOURCE_NOTICES.md": "aa6939053c6ca1f6bb2c9792482dde1a7c1e39b7dbdc45c584312b7c936690ab",
+    "upstream-seam-cffec232-previous_SOURCE_NOTICES.md": "066c2ef839cce0bef517fec93c4b1316126d57a0eea1c53f39781b67a6b4e40a"
+  },
+  "checked_at_utc": "2026-10-24T17:20:42.115982+00:00",
+  "attempts": 1,
+  "method": "OfficialSDK GetKernel exactversion_label=v1",
+  "source_executed": false,
+  "status": "source_inaccessible_no_retry",
+  "error_type": "HTTPError",
+  "status_code": 404
+}

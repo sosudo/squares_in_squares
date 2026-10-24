@@ -1,0 +1,416 @@
+[
+  {
+    "id": 140098475,
+    "ref": "aqibrazadev/squares-in-squares-top-lb-blending-visualization",
+    "version_id": 361871556,
+    "evaluated": "2026-10-24T17:06:19.673Z",
+    "score": 22.3043561096,
+    "has_output": null,
+    "title": "Squares in Squares:Top LB Blending + Visualization"
+  },
+  {
+    "id": 140166481,
+    "ref": "malyshevdanil/squares-in-squares-neighbour-transfer-squeeze",
+    "version_id": 361847139,
+    "evaluated": "2026-10-24T15:33:50.323Z",
+    "score": 22.3043562104,
+    "has_output": null,
+    "title": "Squares in Squares | Neighbour Transfer + Squeeze"
+  },
+  {
+    "id": 140171258,
+    "ref": "alexchilton/fault-line-dp-basin-hopping-lb-22-3079",
+    "version_id": 361820762,
+    "evaluated": "2026-10-24T13:59:45.773Z",
+    "score": 22.3047645851,
+    "has_output": null,
+    "title": "Fault-line DP + Basin Hopping - LB 22.3079"
+  },
+  {
+    "id": 140482073,
+    "ref": "kmmmvs/squares-dashboard-public-batch-20261024",
+    "version_id": 361834797,
+    "evaluated": "2026-10-24T14:49:56.647Z",
+    "score": 22.3072750827,
+    "has_output": null,
+    "title": "Squares Dashboard Public Batch 20261024"
+  },
+  {
+    "id": 140591950,
+    "ref": "avazaku/squarecraft-iii-seam-surgery-22-3073-lb",
+    "version_id": 361805137,
+    "evaluated": "2026-10-24T13:01:42.950Z",
+    "score": 22.3073069299,
+    "has_output": null,
+    "title": "Squarecraft III | Seam Surgery | 22.3073 LB"
+  },
+  {
+    "id": 140605111,
+    "ref": "nilanjansaha123/improved-notebook",
+    "version_id": 361837104,
+    "evaluated": "2026-10-24T14:44:26.850Z",
+    "score": 22.3076439762,
+    "has_output": null,
+    "title": "Improved Notebook"
+  },
+  {
+    "id": 140094854,
+    "ref": "lightningv08/squares-in-squares-cuda-packing-search",
+    "version_id": 361805456,
+    "evaluated": "2026-10-24T13:03:00.277Z",
+    "score": 22.3078186507,
+    "has_output": null,
+    "title": "Squares in Squares | CUDA Packing Search"
+  },
+  {
+    "id": 140480233,
+    "ref": "cdeotte/squares-in-squares-ftmc-milp-refill-22-311",
+    "version_id": 361650292,
+    "evaluated": "2026-10-24T02:27:08.760Z",
+    "score": 22.3116182199,
+    "has_output": null,
+    "title": "Squares in Squares: FTMC & MILP Refill (22.311)"
+  },
+  {
+    "id": 140109166,
+    "ref": "kirilltym/22-3661-cpu-cuda-mps-eda-edge-lp",
+    "version_id": 361604407,
+    "evaluated": "2026-10-23T22:16:40.943Z",
+    "score": 22.3661304819,
+    "has_output": null,
+    "title": "22.3661 | CPU/CUDA/MPS | EDA+Edge LP"
+  },
+  {
+    "id": 140466026,
+    "ref": "kyleluecke/inos-v0-6-k-mosh-squares-in-squares-22-366222",
+    "version_id": 361724002,
+    "evaluated": "2026-10-24T07:48:52.870Z",
+    "score": 22.3662220561,
+    "has_output": null,
+    "title": "INOS v0.6 K.MOSH Squares in Squares (22.366222)"
+  },
+  {
+    "id": 140095515,
+    "ref": "lucifer19/think-rotate-verify-v10",
+    "version_id": 361869166,
+    "evaluated": "2026-10-24T16:56:59.633Z",
+    "score": 22.3720054811,
+    "has_output": null,
+    "title": "\ud83d\udc08\u200d\u2b1b Think. Rotate. Verify. \u2014 V10"
+  },
+  {
+    "id": 140268640,
+    "ref": "mirzamilanfarabi/squares-in-squares-v2",
+    "version_id": 361261634,
+    "evaluated": "2026-10-22T21:46:13.357Z",
+    "score": 22.3720142002,
+    "has_output": null,
+    "title": "Squares in Squares v2"
+  },
+  {
+    "id": 140093381,
+    "ref": "seshurajup/1000-puzzles-ensemble-lb-22-374662",
+    "version_id": 361851978,
+    "evaluated": "2026-10-24T15:52:05.210Z",
+    "score": 22.3746616722,
+    "has_output": null,
+    "title": "1000 Puzzles - Ensemble [LB 22.374662]"
+  },
+  {
+    "id": 140488157,
+    "ref": "mtoshidesu/testsquares-in-squares-ensemble-22-376",
+    "version_id": 361678976,
+    "evaluated": "2026-10-24T04:49:28.897Z",
+    "score": 22.3761295201,
+    "has_output": null,
+    "title": "TestSquares in Squares | Ensemble [22.376]"
+  },
+  {
+    "id": 140311880,
+    "ref": "cdeotte/squares-in-squares-ensemble-22-376",
+    "version_id": 361320805,
+    "evaluated": "2026-10-23T03:34:44.350Z",
+    "score": 22.3762889777,
+    "has_output": null,
+    "title": "Squares in Squares | Ensemble [22.376]"
+  },
+  {
+    "id": 140109525,
+    "ref": "kirilltym/22-3856-cpu-cuda-mps-eda-seam-lp",
+    "version_id": 361279753,
+    "evaluated": "2026-10-22T23:48:50.253Z",
+    "score": 22.3855817149,
+    "has_output": null,
+    "title": "22.3856 | CPU/CUDA/MPS | EDA+Seam LP"
+  },
+  {
+    "id": 140251640,
+    "ref": "avazaku/squarecraft-ii-unjam-the-grid-22-408597-lb",
+    "version_id": 361225541,
+    "evaluated": "2026-10-22T18:35:48.367Z",
+    "score": 22.4085972508,
+    "has_output": null,
+    "title": "Squarecraft II | Unjam the Grid | 22.408597 LB"
+  },
+  {
+    "id": 140220682,
+    "ref": "kozykappa/subset-transfer-contact-refinement-and-compaction",
+    "version_id": 361161040,
+    "evaluated": "2026-10-22T14:08:23.610Z",
+    "score": 22.475282496,
+    "has_output": null,
+    "title": "Subset transfer, contact refinement and compaction"
+  },
+  {
+    "id": 140204102,
+    "ref": "skarin/santa-2025-to-squares-in-squares-what-transfers",
+    "version_id": 361120075,
+    "evaluated": "2026-10-22T11:33:13.583Z",
+    "score": 22.4795353097,
+    "has_output": null,
+    "title": "Santa 2025 to Squares in Squares: What Transfers"
+  },
+  {
+    "id": 140125128,
+    "ref": "alexchilton/certified-witnesses-basin-hopping-lb-22-3084",
+    "version_id": 361794422,
+    "evaluated": "2026-10-24T12:20:51.620Z",
+    "score": 22.4796781374,
+    "has_output": null,
+    "title": "Certified Witnesses + Basin Hopping - LB 22.3084"
+  },
+  {
+    "id": 140129441,
+    "ref": "malyshevdanil/squares-in-squares-fresh-records-certified",
+    "version_id": 361020269,
+    "evaluated": "2026-10-22T05:19:28.607Z",
+    "score": 22.583444524,
+    "has_output": null,
+    "title": "Squares in Squares | Fresh Records, Certified"
+  },
+  {
+    "id": 140103661,
+    "ref": "alexchilton/certified-merge-of-public-packings-lb-22-5978",
+    "version_id": 360937955,
+    "evaluated": "2026-10-21T23:13:46.287Z",
+    "score": 22.5971998881,
+    "has_output": null,
+    "title": "Certified Merge of Public Packings - LB 22.5978"
+  },
+  {
+    "id": 140096809,
+    "ref": "prvsiyan/a-square-deal-research-to-verified-packings",
+    "version_id": 360935725,
+    "evaluated": "2026-10-21T22:59:34.410Z",
+    "score": 22.6021208457,
+    "has_output": null,
+    "title": "A Square Deal | Research to Verified Packings"
+  },
+  {
+    "id": 140099559,
+    "ref": "alexchilton/thinking-outside-the-grid-squares-in-squares-101",
+    "version_id": 361775144,
+    "evaluated": "2026-10-24T11:06:03.737Z",
+    "score": 22.7199690493,
+    "has_output": null,
+    "title": "Thinking Outside the Grid: Squares in Squares 101"
+  },
+  {
+    "id": 140094148,
+    "ref": "avazaku/squarecraft-beyond-the-grid-22-7417-lb",
+    "version_id": 360925822,
+    "evaluated": "2026-10-21T22:02:12.453Z",
+    "score": 22.7417270828,
+    "has_output": null,
+    "title": "Squarecraft | Beyond the Grid | 22.7417 LB"
+  },
+  {
+    "id": 140559482,
+    "ref": "evgendvorkin/squares-in-squares-deep-eda-analogies",
+    "version_id": 361802505,
+    "evaluated": "2026-10-24T12:51:31.653Z",
+    "score": 23.7215948182,
+    "has_output": null,
+    "title": "\ud83e\udde9 Squares in Squares | Deep EDA & Analogies"
+  },
+  {
+    "id": 140119740,
+    "ref": "yuki16/squares-baseline-merge-best-v2",
+    "version_id": 360962837,
+    "evaluated": "2026-10-22T01:29:22.203Z",
+    "score": 23.9695676592,
+    "has_output": null,
+    "title": "Squares_Baseline_Merge_Best_v2"
+  },
+  {
+    "id": 140095072,
+    "ref": "avikdas567/optimal-packing-of-n-unit-squares-sat-dynamics",
+    "version_id": 361179695,
+    "evaluated": "2026-10-22T15:54:18.637Z",
+    "score": 25.869391095,
+    "has_output": null,
+    "title": "Optimal Packing of N Unit Squares: SAT & Dynamics"
+  },
+  {
+    "id": 140235091,
+    "ref": "mirzamilanfarabi/squares-in-squares-v1",
+    "version_id": 361198879,
+    "evaluated": "2026-10-22T16:35:46.623Z",
+    "score": 28.8098947336,
+    "has_output": null,
+    "title": "Squares in Squares v1"
+  },
+  {
+    "id": 140152813,
+    "ref": "arunsworkspace/squares-in-squares-baseline-pipeline",
+    "version_id": 361031831,
+    "evaluated": "2026-10-22T06:08:27.443Z",
+    "score": 28.9376699165,
+    "has_output": null,
+    "title": "Squares in Squares - Baseline Pipeline"
+  },
+  {
+    "id": 140554895,
+    "ref": "zkskhurram/kaggle-squares-in-squares",
+    "version_id": 361736041,
+    "evaluated": "2026-10-24T08:36:52.810Z",
+    "score": 28.9376699165,
+    "has_output": null,
+    "title": "\ud83d\udcd0 Kaggle: Squares in Squares"
+  },
+  {
+    "id": 139891049,
+    "ref": "inversion/squares-in-squares-per-puzzle-leaderboard",
+    "version_id": 361620939,
+    "evaluated": "2026-10-24T00:02:02.353Z",
+    "score": null,
+    "has_output": null,
+    "title": "Squares in Squares - Per-Puzzle Leaderboard"
+  },
+  {
+    "id": 140115803,
+    "ref": "cdeotte/squares-in-squares-visual-eda-metric-gallery",
+    "version_id": 360956855,
+    "evaluated": "2026-10-22T00:55:10.763Z",
+    "score": null,
+    "has_output": null,
+    "title": "Squares in Squares | Visual EDA, Metric & Gallery"
+  },
+  {
+    "id": 140125404,
+    "ref": "malyshevdanil/squares-in-squares-getting-started",
+    "version_id": 360972385,
+    "evaluated": "2026-10-22T02:16:45.937Z",
+    "score": null,
+    "has_output": null,
+    "title": "Squares in Squares | Getting Started"
+  },
+  {
+    "id": 140132255,
+    "ref": "dariushafshar/squares-in-squares-exact-validator-record-merge",
+    "version_id": 361661625,
+    "evaluated": "2026-10-24T03:28:25.683Z",
+    "score": null,
+    "has_output": null,
+    "title": "Squares in Squares: Exact Validator, Record Merge"
+  },
+  {
+    "id": 140148980,
+    "ref": "cdeotte/squares-in-squares-multi-gadget-fault-dp-22-48",
+    "version_id": 361007999,
+    "evaluated": "2026-10-22T04:27:06.417Z",
+    "score": null,
+    "has_output": null,
+    "title": "Squares in Squares | Multi-Gadget Fault DP [22.48]"
+  },
+  {
+    "id": 140205700,
+    "ref": "robinamirbahar/squares-in-squares-fault-dp-contact-lp",
+    "version_id": 361123182,
+    "evaluated": "2026-10-22T11:44:55.923Z",
+    "score": null,
+    "has_output": null,
+    "title": "Squares in Squares Fault-DP & Contact LP"
+  },
+  {
+    "id": 140206700,
+    "ref": "yangkuangou/did-the-patch-help-an-lp-ablation-audit",
+    "version_id": 361127073,
+    "evaluated": "2026-10-22T11:59:46.313Z",
+    "score": null,
+    "has_output": null,
+    "title": "Did the Patch Help? An LP Ablation Audit"
+  },
+  {
+    "id": 140211799,
+    "ref": "mpwolke/squares-in-sq-intuition-is-not-enough",
+    "version_id": 361159084,
+    "evaluated": "2026-10-22T14:01:09.077Z",
+    "score": null,
+    "has_output": null,
+    "title": "Squares in Sq: Intuition is Not Enough"
+  },
+  {
+    "id": 140284254,
+    "ref": "yangkuangou/validate-the-delta-reuse-unchanged-packing-checks",
+    "version_id": 361296536,
+    "evaluated": "2026-10-23T01:26:32.297Z",
+    "score": null,
+    "has_output": null,
+    "title": "Validate the Delta: Reuse Unchanged Packing Checks"
+  },
+  {
+    "id": 140290674,
+    "ref": "jiwasawa/squares-in-squares-d4-seam-dp-dual-gpu-lbfgs",
+    "version_id": 361286836,
+    "evaluated": "2026-10-23T00:30:41.220Z",
+    "score": null,
+    "has_output": null,
+    "title": "Squares in Squares: D4 Seam DP Dual GPU LBFGS"
+  },
+  {
+    "id": 140293787,
+    "ref": "yangkuangou/squares-workbench-choose-a-patch-test-a-shrink",
+    "version_id": 361384699,
+    "evaluated": "2026-10-23T07:39:52.680Z",
+    "score": null,
+    "has_output": null,
+    "title": "Squares Workbench: Choose a Patch, Test a Shrink"
+  },
+  {
+    "id": 140333234,
+    "ref": "yangkuangou/fewer-inputs-prune-an-ensemble-by-score-loss",
+    "version_id": 361402519,
+    "evaluated": "2026-10-23T08:44:31.733Z",
+    "score": null,
+    "has_output": null,
+    "title": "Fewer Inputs: Prune an Ensemble by Score Loss"
+  },
+  {
+    "id": 140486172,
+    "ref": "janiogomesribeiro/notebook87513fb5d4",
+    "version_id": 361661300,
+    "evaluated": "2026-10-24T03:26:23.230Z",
+    "score": null,
+    "has_output": null,
+    "title": "notebook87513fb5d4"
+  },
+  {
+    "id": 140532320,
+    "ref": "yangkuangou/mind-the-gap-plan-your-next-packing-update",
+    "version_id": 361695087,
+    "evaluated": "2026-10-24T05:55:34.443Z",
+    "score": null,
+    "has_output": null,
+    "title": "Mind the Gap: Plan Your Next Packing Update"
+  },
+  {
+    "id": 140587942,
+    "ref": "yangkuangou/new-record-same-optimum-audit-the-last-decimal",
+    "version_id": 361812309,
+    "evaluated": "2026-10-24T13:28:35.370Z",
+    "score": null,
+    "has_output": null,
+    "title": "New Record, Same Optimum: Audit the Last Decimal"
+  }
+]

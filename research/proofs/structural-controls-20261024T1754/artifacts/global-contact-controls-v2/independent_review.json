@@ -1,0 +1,36 @@
+{
+  "status": "GREEN_independent_joint_contact_model_and_controls",
+  "model_sha256": "78e06dc2a3584d4f8b978c9cb7db19794eca97e933ec33f5cc52e6e9c19901e5",
+  "integration_source_sha256": "fb271d4d41d798ab923cf8b9efee13ac01b292197c1c4c38c9784f42e0178153",
+  "integration_report_sha256": "baa2383c8e67cbaf84892f4c70843b11fa0b5beffb766cfb12c9c83983b3f3f2",
+  "fixtures_sha256": "6c48862abeb021cf4cfac37f8d5773445e475954f08cf897f0996a1c544a6c8c",
+  "pure_test_source_sha256": "b9f573e9438e457974a8a829c19c7a73081d7e9f67c7382a3960b68cd803c3db",
+  "pure_tests_passed": 5,
+  "controls": [
+    {
+      "n": 5,
+      "simultaneous_frozen_branch_changes": 2,
+      "moved_existing_centers": 4,
+      "certified_worst_side": "3.000000014000000000000000000000000000000000000000004720033029",
+      "fixed_model_side": 5.00000004
+    },
+    {
+      "n": 17,
+      "simultaneous_frozen_branch_changes": 8,
+      "moved_existing_centers": 6,
+      "certified_worst_side": "5.000000048000000400000000000000000000000000000000009886939990",
+      "fixed_model_side": 6.00000005
+    }
+  ],
+  "negative_controls": [
+    "zero-trust overlapping pair has no feasible signed branch",
+    "zero-trust undersized wall domain rejected",
+    "area-infeasible container rejected",
+    "zero-trust valid identity preserves exact centers",
+    "NaN/Inf clearance/side limits rejected"
+  ],
+  "math_review": "Signed SAT projections and support radii use fixed angles and unit sides. BigM is derived from full clipped coordinate trust extrema; selector1 enforces exact branch, selector0 relaxes to minimum-minusguard. At least one selector per selected pair; all centers and L continuous. Unselected pairs retain a restrictive strongest branch. Broad phase radius covers every possible physical overlap under sqrt2*trust displacement percenter. Independent corner/envelope tests confirm constraints.",
+  "scope": "Known5/17 witnessed simultaneous branch-switch controls, not production discovery or proof of globally optimal packing. Solver feasibility tolerances exceed nominalclearance in some records; every returned pose remains provisional until unchanged full raw/default-pandas/interval certificate. Certificate byte bindings reused; no numerical certification/optimizer rerun by reviewer.",
+  "no_production_cases": true,
+  "no_submission": true
+}

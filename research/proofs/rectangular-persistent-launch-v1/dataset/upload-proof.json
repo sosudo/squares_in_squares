@@ -1,0 +1,9 @@
+{
+  "fixture_manifest_sha256": "2c64b3c3cfa4f83c547511ddbf6d65eaaced800e47724f3e79e9c3127a3f8a42",
+  "zip_sha256": "02aa681a3ed4487064ce2985cc5a9049557742b685ab9afd385ee7937216e703",
+  "zip_bytes": 1191272,
+  "metadata_sha256": "3c8a9495f0d1605dc306a350d9d75701da89db35fb98c54e8d5e73efa9e744f1",
+  "members": 125,
+  "inputs_sha256": "1c2d92e19f8cd35d275122b8ed5746aba03c0ed113d4650a34d19447fbb87751",
+  "private_create_required": true
+}

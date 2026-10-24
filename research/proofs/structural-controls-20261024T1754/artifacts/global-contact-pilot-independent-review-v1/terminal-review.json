@@ -1,0 +1,286 @@
+{
+  "status": "GREEN_COMPLETED_FINITE_NEGATIVE",
+  "execution_manifest_sha256": "01140b27020febcfd21dac067093cf79353c937d50b042b12ad382fbaf5f63cb",
+  "summary_sha256": "af1a5c3766c381fe6796f89bc3817b5e5ef61e862ffbbb7de3f81e353dfb4968",
+  "supervisor_sha256": "8270a5f37d4109a6a98f0fd246514ee3b5d7274f1e826a7e5e66d2ff613af514",
+  "results_sha256": "c27abcaee6ad8f232361cbb955df6f1747d8578507ed80fb4dbd25db40048379",
+  "certified_sha256": "3f106990e5fbb2e75aeca4af27faa96a77483c46a8a64a52a84a45416c6e15aa",
+  "initial_review_sha256": "d0cb85e078e664702714e82dfe1fefe55b29f6bb6e102200ba200b56247b706f",
+  "source_sha256": "dc42b06e0cd36d9e29854ce3c84590de10d3545fe4014ae17083cd268a65fcdb",
+  "jobs": [
+    {
+      "slot": 0,
+      "n": 588,
+      "arm": "original",
+      "trust": 0.15,
+      "relaxation_headroom": true,
+      "milp_status": 0,
+      "endpoints": [
+        {
+          "kind": "fixed",
+          "geometry_sha256": "101f42648a359a4a4fd056ff07bf8540f53935bab31a90d50ebc0ce329b954fd",
+          "worst_side": "24.760135880511459409231321691639596641515871876111380288485975",
+          "reference_lower": "24.760135143296617919231321691618614715151806573133305723006703",
+          "branch_switches": 0
+        },
+        {
+          "kind": "milp",
+          "geometry_sha256": "3370ec8514e8b0af74c3c3ba15b8a6f3b3520939ca989eca0cb7977c32b53f65",
+          "worst_side": "24.76015565772751731172185998228181045837246522808095",
+          "reference_lower": "24.760135143296617919231321691618614715151806573133305723006703",
+          "branch_switches": 0
+        }
+      ]
+    },
+    {
+      "slot": 1,
+      "n": 588,
+      "arm": "original",
+      "trust": 0.35,
+      "relaxation_headroom": true,
+      "milp_status": 0,
+      "endpoints": [
+        {
+          "kind": "fixed",
+          "geometry_sha256": "9d4bfca493a0c140b63c7b53a23f887e439b442da0cf656e900a844707d3f16d",
+          "worst_side": "24.76013523567499160765854595128408299040262497462425",
+          "reference_lower": "24.760135143296617919231321691618614715151806573133305723006703",
+          "branch_switches": 0
+        },
+        {
+          "kind": "milp",
+          "geometry_sha256": "9ce15470fc3ee8c7c3c787ff932cd5bfd9a334e01217bcc952719c3b94d0c782",
+          "worst_side": "24.76015361684639607336681066278522450641598226678593",
+          "reference_lower": "24.760135143296617919231321691618614715151806573133305723006703",
+          "branch_switches": 0
+        }
+      ]
+    },
+    {
+      "slot": 2,
+      "n": 588,
+      "arm": "rotated",
+      "trust": 0.15,
+      "relaxation_headroom": true,
+      "milp_status": 2,
+      "endpoints": []
+    },
+    {
+      "slot": 3,
+      "n": 588,
+      "arm": "rotated",
+      "trust": 0.35,
+      "relaxation_headroom": true,
+      "milp_status": 2,
+      "endpoints": []
+    },
+    {
+      "slot": 4,
+      "n": 335,
+      "arm": "original",
+      "trust": 0.15,
+      "relaxation_headroom": false,
+      "milp_status": "skipped_no_numeric_relaxation_headroom",
+      "endpoints": [
+        {
+          "kind": "fixed",
+          "geometry_sha256": "9b8e8e8895b21147c5f053688d3748749227c22f1d608be002e062c84a68aade",
+          "worst_side": "18.82287583132084008439187076396715328874948348236808",
+          "reference_lower": "18.822875655579203499999999999999999999999999999999973264528344",
+          "branch_switches": 0
+        }
+      ]
+    },
+    {
+      "slot": 5,
+      "n": 335,
+      "arm": "original",
+      "trust": 0.35,
+      "relaxation_headroom": false,
+      "milp_status": "skipped_no_numeric_relaxation_headroom",
+      "endpoints": [
+        {
+          "kind": "fixed",
+          "geometry_sha256": "7a0495c38e67ab548047b84a855a6fad1c7e78dc279cd196758ce7b6bdb43285",
+          "worst_side": "18.82287583132083208439187076396715328874948348236808",
+          "reference_lower": "18.822875655579203499999999999999999999999999999999973264528344",
+          "branch_switches": 0
+        }
+      ]
+    },
+    {
+      "slot": 6,
+      "n": 335,
+      "arm": "rotated",
+      "trust": 0.15,
+      "relaxation_headroom": false,
+      "milp_status": "skipped_no_numeric_relaxation_headroom",
+      "endpoints": []
+    },
+    {
+      "slot": 7,
+      "n": 335,
+      "arm": "rotated",
+      "trust": 0.35,
+      "relaxation_headroom": false,
+      "milp_status": "skipped_no_numeric_relaxation_headroom",
+      "endpoints": []
+    },
+    {
+      "slot": 8,
+      "n": 147,
+      "arm": "original",
+      "trust": 0.15,
+      "relaxation_headroom": false,
+      "milp_status": "skipped_no_numeric_relaxation_headroom",
+      "endpoints": [
+        {
+          "kind": "fixed",
+          "geometry_sha256": "1cf8fe9a0bfbaa6049375fafceda623157becd59f6752e5f2c3fa6862aae7a5c",
+          "worst_side": "12.65685438643406100000000000000000000000000000000000",
+          "reference_lower": "12.656854249504036499999999999999999999999999999999979029635725",
+          "branch_switches": 0
+        }
+      ]
+    },
+    {
+      "slot": 9,
+      "n": 147,
+      "arm": "original",
+      "trust": 0.35,
+      "relaxation_headroom": false,
+      "milp_status": "skipped_no_numeric_relaxation_headroom",
+      "endpoints": [
+        {
+          "kind": "fixed",
+          "geometry_sha256": "7c96fbb2be1499f83e731b8bc91c64ec0d63cb4b83dcf62b9a62002c2a1d8af1",
+          "worst_side": "12.656854386434023000000000000000000000000000000000011356240393",
+          "reference_lower": "12.656854249504036499999999999999999999999999999999979029635725",
+          "branch_switches": 0
+        }
+      ]
+    },
+    {
+      "slot": 10,
+      "n": 147,
+      "arm": "rotated",
+      "trust": 0.15,
+      "relaxation_headroom": false,
+      "milp_status": "skipped_no_numeric_relaxation_headroom",
+      "endpoints": []
+    },
+    {
+      "slot": 11,
+      "n": 147,
+      "arm": "rotated",
+      "trust": 0.35,
+      "relaxation_headroom": false,
+      "milp_status": "skipped_no_numeric_relaxation_headroom",
+      "endpoints": []
+    }
+  ],
+  "consumed_file_hashes": {
+    "slot-00/fixed-provisional.npz": "18abcc91b0a31e854908f8887e28436b15deb0162f64650407568c9b56374b62",
+    "slot-00/fixed-certified.npz": "883c3a82aeb7caa2109e4079bec9d27a6e10ef6c29aee546a9fd92aecd11163d",
+    "slot-00/record.json": "bdae68a28e3270e9ca4432d23126217431db3bef51a52818a4ce04f8c8540858",
+    "slot-00/milp-legalized-unverified.npz": "7bb56f852816404be18c0ca6ec36db9f4d1dca530be976eb36953d8e0ccf8025",
+    "slot-00/milp-certified.npz": "7bb56f852816404be18c0ca6ec36db9f4d1dca530be976eb36953d8e0ccf8025",
+    "slot-00/relaxed_UNVERIFIED.json": "22c4a5336a4c8cf08f74242d0c2087f8e53cd52eef3b7872a78d2f53f14f9269",
+    "slot-00/milp.json": "b0facd32ed69954f4e11d16daab42b0ee550bd5ff4bc903f180a7f782989d5b5",
+    "slot-00/input.npz": "7724027a41a2467c6f2e997e665f5dab7dd2c0b45ec40b9602f832c7eb1af209",
+    "slot-00/relaxed_UNVERIFIED-provisional.npz": "06077a6dc3e28d39a5ce9d511fcce0500524334933661c1f4d929a13ced77e62",
+    "slot-00/milp-certificate.json": "c99787f340ace520a6e6fde5896ce2d0470a267652f4b6e055b35f19a1e248cc",
+    "slot-00/fixed.json": "87b0d73421a503183b2938ca1b5b39995e01f597fc774c7a27f29be3bc034ad9",
+    "slot-00/fixed-legalized-unverified.npz": "883c3a82aeb7caa2109e4079bec9d27a6e10ef6c29aee546a9fd92aecd11163d",
+    "slot-00/milp-provisional.npz": "5580709adc10b36974e2f7e9ca1506a22b13ef9f8eb4fd00364998f5cacbaa4a",
+    "slot-00/fixed-certificate.json": "4fa8b26df8dcbd0fb4e6bcb335f64c5db6b786e820a1c007438ac74b52cc8743",
+    "slot-01/fixed-provisional.npz": "2cf8d8643fdb533866ddc922b4ffc20cad2a3f690aa449223c48e9074b87236a",
+    "slot-01/fixed-certified.npz": "ab8f85ae545743ab89260518deec4a4da4a9f354a81bbbc1f98f05067d29eb5e",
+    "slot-01/record.json": "aa84571a1692a28732d8a8b99e18e3ecc560e891316c19871855593b7ca126a3",
+    "slot-01/milp-legalized-unverified.npz": "bf0eabbc2a701e962880abd982ef5faf52841a50d8b6763e4fbb25488c23ab17",
+    "slot-01/milp-certified.npz": "bf0eabbc2a701e962880abd982ef5faf52841a50d8b6763e4fbb25488c23ab17",
+    "slot-01/relaxed_UNVERIFIED.json": "d3e443ffc50a89504054126d782c24dae22c673f6ce2d3164b637685596fece0",
+    "slot-01/milp.json": "579915f52c417b87efde26f09a0c1b50a1176d1bbf117997095278192b23607e",
+    "slot-01/input.npz": "7724027a41a2467c6f2e997e665f5dab7dd2c0b45ec40b9602f832c7eb1af209",
+    "slot-01/relaxed_UNVERIFIED-provisional.npz": "391a308f846dba4fb0b30d8c76e1aa321f8ab3dd2d28976264da523fbdf05bdf",
+    "slot-01/milp-certificate.json": "01d9199b901905788b7454469a895dae0cd8bb7ca0a5d403cff6f95d50aff9fe",
+    "slot-01/fixed.json": "f67dbfbe2819fd9583332774e607639bed38b90bb988cc1316424b4ecaefb713",
+    "slot-01/fixed-legalized-unverified.npz": "ab8f85ae545743ab89260518deec4a4da4a9f354a81bbbc1f98f05067d29eb5e",
+    "slot-01/milp-provisional.npz": "85e9cb5fcece8be6708f0509b4323a1cf235e46de3dd5c6037c0a1bc1b7209ad",
+    "slot-01/fixed-certificate.json": "6e1b4aa1aa5ee1dc1c687d10e1f94b45db4f08939c682bf15972595366fca796",
+    "slot-02/record.json": "a7daab2b9712f2dbbb025cb068ab05a46143a025afff77606e42d73f1d5911ac",
+    "slot-02/relaxed_UNVERIFIED.json": "df58a3e18f927ce401da5afc90464e4f39efb9ef05f300cccdee467489f93fa5",
+    "slot-02/milp.json": "2d13675817d5d42d3b592cb832812844cc0605ca63c909525163b9d086bb2297",
+    "slot-02/input.npz": "b8fa245eaebc533899a5d9045bf467d64d4f86e458b0016c51414e89b9f163aa",
+    "slot-02/relaxed_UNVERIFIED-provisional.npz": "fbb6ee72ec94b84143370a326c68bbc4f9ad0b31c40677718f7be94f862fc7dd",
+    "slot-02/fixed.json": "78c05bfc5a73f99910a0ba119ae02725b6d4562ca63cf12542d6d6558d5885b0",
+    "slot-03/record.json": "31b0c1daa1d8dd551974a94c22828df627da49873766d583442c06083b320235",
+    "slot-03/relaxed_UNVERIFIED.json": "caec1e31fd1172801bd70bdb53b764764af0427621255b40407147c4e29ca600",
+    "slot-03/milp.json": "cdd513b5ae757fb13c5b8b0c763dc37d1fd357f58f0feabd71073a2b21dae00a",
+    "slot-03/input.npz": "b8fa245eaebc533899a5d9045bf467d64d4f86e458b0016c51414e89b9f163aa",
+    "slot-03/relaxed_UNVERIFIED-provisional.npz": "b41f1f03e68edecf1b86cf56758696fedf11a5966778943f6f5da5f58ae05322",
+    "slot-03/fixed.json": "b0c5806d1f79b3c4309eb53310db2b754e0d97ca0e80915cab0d4f7c9c02118a",
+    "slot-04/fixed-provisional.npz": "0fb33254c677c5f2e10faa990261880795f669ef980b25659d4e9944de8aae46",
+    "slot-04/fixed-certified.npz": "0fb33254c677c5f2e10faa990261880795f669ef980b25659d4e9944de8aae46",
+    "slot-04/record.json": "bff9f357a0f1296366701301c9ff615b9429117de4822d350d71f54402187ec3",
+    "slot-04/relaxed_UNVERIFIED.json": "6837d653b969e7175506d840653ece19200350495d35db16eff5c979d5bd576e",
+    "slot-04/milp.json": "7e646e7931c2994694102cb32ad1bbab81afd015f3cc04ee6104318544f8bfab",
+    "slot-04/input.npz": "ae4d3c6438093f41ae8509fb1098a7bdad50d1a3d147cdaa0b2e6e8db2e1a9e9",
+    "slot-04/relaxed_UNVERIFIED-provisional.npz": "e0fa3cec0e9a625db2b5501819f80dfdff54e50036f55139d6903e046489006e",
+    "slot-04/fixed.json": "a6cccafc6122d4e97544e44c255cf5419ac5984416935b3b35e8cfd4ae1d63be",
+    "slot-04/fixed-legalized-unverified.npz": "0fb33254c677c5f2e10faa990261880795f669ef980b25659d4e9944de8aae46",
+    "slot-04/fixed-certificate.json": "5dbfa2a0d666ad8369f62fc9348a46f770bfc5b298754c8fa1e0040d85765e16",
+    "slot-05/fixed-provisional.npz": "0ff29e5eba4b47657ff280c87387c84aefcf92e27836eb8f6db742f9e12ced5d",
+    "slot-05/fixed-certified.npz": "0ff29e5eba4b47657ff280c87387c84aefcf92e27836eb8f6db742f9e12ced5d",
+    "slot-05/record.json": "934ff10178d3e8ee407b339b988385e33a3bde6c82ed02398a0010c4c4730fdc",
+    "slot-05/relaxed_UNVERIFIED.json": "ee60d995c10c8961daa8c963aaa77363ce2fb9e0c76b309de10206c1fda0f10b",
+    "slot-05/milp.json": "7e646e7931c2994694102cb32ad1bbab81afd015f3cc04ee6104318544f8bfab",
+    "slot-05/input.npz": "ae4d3c6438093f41ae8509fb1098a7bdad50d1a3d147cdaa0b2e6e8db2e1a9e9",
+    "slot-05/relaxed_UNVERIFIED-provisional.npz": "3ba36717f568572fddeae79264edf713cd27aa4e459d3bcd8f2dae33fd93495f",
+    "slot-05/fixed.json": "ce4107c210a2941c43e27411781ce18b307c2faab28d0319a2579d171ce3d5f9",
+    "slot-05/fixed-legalized-unverified.npz": "0ff29e5eba4b47657ff280c87387c84aefcf92e27836eb8f6db742f9e12ced5d",
+    "slot-05/fixed-certificate.json": "e0efc2a04fbb77a89062f88668f1f06cab854a485329cc36ede8112609b90d09",
+    "slot-06/record.json": "89a72dec5a1e1f5886a068cf639beb0d9218f02e43b5af616d55de1650cc9042",
+    "slot-06/relaxed_UNVERIFIED.json": "2ac503506c52c1ae71f03d856ba38f23c608f02644455d8ee0583e59da63c5ed",
+    "slot-06/milp.json": "7e646e7931c2994694102cb32ad1bbab81afd015f3cc04ee6104318544f8bfab",
+    "slot-06/input.npz": "c39d8b91a21586b0d2463511367dd3f1b417220748cb3f939e3346fc84c9c599",
+    "slot-06/fixed.json": "381dec6dfd3f5dc0a40abd4863b52c0582cd7c99e8dd09393522678673362e57",
+    "slot-07/record.json": "009397cb2c32a28912b135b7072e6681f4b36c9ba7e222df7448d69db4fe3d9f",
+    "slot-07/relaxed_UNVERIFIED.json": "b9a4be27c21b93dd11463dd338e4815d9bb1a81cc76208e81a2f246b4e719da1",
+    "slot-07/milp.json": "7e646e7931c2994694102cb32ad1bbab81afd015f3cc04ee6104318544f8bfab",
+    "slot-07/input.npz": "c39d8b91a21586b0d2463511367dd3f1b417220748cb3f939e3346fc84c9c599",
+    "slot-07/fixed.json": "7e060bb98ea44fba2a1797a7e71bdbb5e41795aa351d15b8e5fa72b642891586",
+    "slot-08/fixed-provisional.npz": "206bcf8a9a7d14461fbcf7a19d517e9939720b8618b80d28024633e2cf157815",
+    "slot-08/fixed-certified.npz": "2b0e9655aca2b325d1edb8018101a964fb1b396a125794999125ccb6eb4b432e",
+    "slot-08/record.json": "10cbb57e7aa920025ae955e73768cfd36118c640946ec0329a480e3b1067cd0a",
+    "slot-08/relaxed_UNVERIFIED.json": "01fe1328f3557b181deb42c0cab485d6ff0288b4d08d9d341060de2b1660d9d6",
+    "slot-08/milp.json": "7e646e7931c2994694102cb32ad1bbab81afd015f3cc04ee6104318544f8bfab",
+    "slot-08/input.npz": "fca9b11dda2ebf69d0da30122e2f9baa9c749db2d904d25241c6c48b7055de44",
+    "slot-08/relaxed_UNVERIFIED-provisional.npz": "a947f577f605eadea56ec3c409e702a95431cfc000c02d2e936eeb0e06c6e68f",
+    "slot-08/fixed.json": "79a7643538d0b494177a4af1da9a95fc3433549d50fb03abca9759b39148ba92",
+    "slot-08/fixed-legalized-unverified.npz": "2b0e9655aca2b325d1edb8018101a964fb1b396a125794999125ccb6eb4b432e",
+    "slot-08/fixed-certificate.json": "d9742c9e22055562d2df23d42096da1bf730598b51777dc0d86f7f5609134d60",
+    "slot-09/fixed-provisional.npz": "e897c29c83f1e819e716de25e4702f1452958cddb37e522204334a43e0c44b56",
+    "slot-09/fixed-certified.npz": "3f7dfd56c638f0efca293d22e4390ba1924a59c628f020dd55ff43dbe67f48fc",
+    "slot-09/record.json": "f213500a4c6347eda11dcbf32ba5010570d4170efef9d1c6658597b0149dadad",
+    "slot-09/relaxed_UNVERIFIED.json": "d05678d5ecc02bb22c8c889b21cae01440807bae3b79371dbc621301043e75f5",
+    "slot-09/milp.json": "7e646e7931c2994694102cb32ad1bbab81afd015f3cc04ee6104318544f8bfab",
+    "slot-09/input.npz": "fca9b11dda2ebf69d0da30122e2f9baa9c749db2d904d25241c6c48b7055de44",
+    "slot-09/relaxed_UNVERIFIED-provisional.npz": "495689fc75c96adae60c10addebd7cb641ca02e419b9bf50a1b2ac008a1c6f97",
+    "slot-09/fixed.json": "4465f331ce16ba95e6da514ccf1ab19e9f1e1807641bbfdfa3553640a57a00cf",
+    "slot-09/fixed-legalized-unverified.npz": "3f7dfd56c638f0efca293d22e4390ba1924a59c628f020dd55ff43dbe67f48fc",
+    "slot-09/fixed-certificate.json": "53ecdc33830c90de38c365b31f74595ce4b5c0e5b4dceda974dd5adb7a060eaf",
+    "slot-10/record.json": "086bc56873a62a62663277a58b391c10caba04c81b6bbeb94d6ced2297459e8e",
+    "slot-10/relaxed_UNVERIFIED.json": "267c389fd09aa1e671053783741e5cc916472d4244b778b9c20d99cb5ee2c661",
+    "slot-10/milp.json": "7e646e7931c2994694102cb32ad1bbab81afd015f3cc04ee6104318544f8bfab",
+    "slot-10/input.npz": "9cfd4410590ccb9bf272cadf7f1331d5bfd2b6cd2722ab9cb9722a505d87a6ee",
+    "slot-10/fixed.json": "59ccfe2fec6c97e9dda85cb3b4f33cebffce887c8f5ce6247120fc0da3d2ce42",
+    "slot-11/record.json": "a265432d73dde0410bd9a9a0ff6361aabb3dd201f5279be34053aac4f014f457",
+    "slot-11/relaxed_UNVERIFIED.json": "671c897bb84f9add23fc34fb7ed9f0c1e6c504bfdbaa114594a136602b061528",
+    "slot-11/milp.json": "7e646e7931c2994694102cb32ad1bbab81afd015f3cc04ee6104318544f8bfab",
+    "slot-11/input.npz": "9cfd4410590ccb9bf272cadf7f1331d5bfd2b6cd2722ab9cb9722a505d87a6ee",
+    "slot-11/fixed.json": "401206eb7dbe4b53d65c2af0cbadd2a5615ab05edeb5828602f512aca13a7e79"
+  },
+  "interpretation": "All12 declared jobs completed in8.65s,8 full-certified fixed/MIP endpoints are worse than the current interval lower bound,0 endpoints qualified for native finish,0 gains.335/147 integer stages were heuristically skipped after no numerical relaxed headroom;588 rotated selected-disjunction model was infeasible. These finite results do not establish physical/global impossibility.",
+  "no_solver_or_certificate_rerun": true
+}

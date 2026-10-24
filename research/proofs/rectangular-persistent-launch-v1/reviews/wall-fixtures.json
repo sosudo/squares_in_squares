@@ -1,0 +1,58 @@
+{
+  "5_17_7": {
+    "native_dense_finite_difference": 4.1200000042707074,
+    "analytic_gradient": 4.120000000000006,
+    "independent_rectangle": {
+      "pair_energy": 0.0,
+      "wall_energy": 1.0609000000000042,
+      "energy": 1.0609000000000042,
+      "minimum_pair_gap": 1.9999992773023223e-09,
+      "minimum_wall_gap": -1.030000000000002,
+      "count": 92,
+      "status": "Numerical rectangular input check; not a square-packing certificate"
+    },
+    "last_row": 91
+  },
+  "7_19_13": {
+    "native_dense_finite_difference": 4.120000004048663,
+    "analytic_gradient": 4.120000000000291,
+    "independent_rectangle": {
+      "pair_energy": 0.0,
+      "wall_energy": 1.0609000000001505,
+      "energy": 1.0609000000001505,
+      "minimum_pair_gap": 1.999999721391532e-09,
+      "minimum_wall_gap": -1.030000000000073,
+      "count": 146,
+      "status": "Numerical rectangular input check; not a square-packing certificate"
+    },
+    "last_row": 145
+  },
+  "7_20_14": {
+    "native_dense_finite_difference": 4.1200000042707074,
+    "analytic_gradient": 4.1200000000005685,
+    "independent_rectangle": {
+      "pair_energy": 0.0,
+      "wall_energy": 1.060900000000295,
+      "energy": 1.060900000000295,
+      "minimum_pair_gap": 2.000000165480742e-09,
+      "minimum_wall_gap": -1.0300000000001432,
+      "count": 154,
+      "status": "Numerical rectangular input check; not a square-packing certificate"
+    },
+    "last_row": 153
+  },
+  "8_21_13": {
+    "native_dense_finite_difference": 4.1200000042707074,
+    "analytic_gradient": 4.120000000000004,
+    "independent_rectangle": {
+      "pair_energy": 0.0,
+      "wall_energy": 1.0609000000000033,
+      "energy": 1.0609000000000033,
+      "minimum_pair_gap": 2.000000165480742e-09,
+      "minimum_wall_gap": -1.0300000000000016,
+      "count": 181,
+      "status": "Numerical rectangular input check; not a square-packing certificate"
+    },
+    "last_row": 180
+  }
+}

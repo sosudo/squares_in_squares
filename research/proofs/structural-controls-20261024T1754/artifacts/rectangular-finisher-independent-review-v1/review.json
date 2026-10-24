@@ -1,0 +1,26 @@
+{
+  "status": "GREEN_FINISHER_ONLY",
+  "source_sha256": "47d391ec9541f70313451c55036702a21c6a8562dc75a75f7ba09d67a50d75b9",
+  "tests_sha256": "0e2b5d35bc9ffa93883ee73efc5df0632c7570e10ea318f7b4f3b33d3dfb59f9",
+  "terminal_helper_sha256": "aab5ea32adc59fe26d1379879f8d4efc53cd1c157b6a02269c7d1dc9e400f543",
+  "tests": {
+    "command": "PYTHONPATH=tests:. .venv/bin/python -m unittest test_fq_rectangular_persistent_finish",
+    "passed": 8,
+    "seconds": 0.038,
+    "no_optimizer": true
+  },
+  "checks": [
+    "64 exact complete-unit chains; w*h+d count, four cuts and ordered W/H bind to the committed state, recovery source packet, metadata, array and config hashes.",
+    "Eight fixed BEST slots: independent per-box minimum plus near-best coarse D2 alternative; exact byte duplicates excluded; no energy comparison across different boxes and no topology claim.",
+    "All selected arrays are immutable before native workers start. Unchanged pinned native subprocess/parser/full-certificate helpers use actual rectangular offsets, constant9710000 seed, ALM45/pit100/flip16/loosen1, two workers,60s native and8s certificate caps.",
+    "Both x and y spans are bounded using interval arithmetic on raw17g, ordinary pandas17g and ordinary pandas default transports. max(width-w,height-h) upper bounds determine subunit usability and strict comparison against reference f lower; square bounding side is not substituted.",
+    "Native raw and decoded outputs retained before gates; full-certified arrays survive rectangle-proof failure/timeout and first certificate publication alarm. Such states remain explicitly unusable until rectangular proof passes.",
+    "Processed-slot completeness is explicitly distinct from attempted, returned, timed-out, geometry-certified and rectangle-proven outcomes. Conservative reported component gain uses Decimal160/ROUND_FLOOR.",
+    "This module relies on the campaign owner for the outer process-tree deadline; no entire GPU runtime or launch approval is implied by this receipt."
+  ],
+  "scope": "Independent source/math/interface/retention review and8 pure/mocked tests only. No optimizer, geometry recertification, canonical mutation or submission.",
+  "input_review": {
+    "path": "artifacts/rectangular-inputs-independent-review-v1/review.json",
+    "sha256": "ea8022d2d13640ea285de7af281f3e6a642480fb6e075d1522dbb344b27434ce"
+  }
+}

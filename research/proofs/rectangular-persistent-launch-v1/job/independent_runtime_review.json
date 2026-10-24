@@ -1,0 +1,63 @@
+{
+  "status": "GREEN_FOR_MANDATORY_DEVICE_GATED_LAUNCH",
+  "source_sha256": "fb878006be0daa5bc1c6ce622c3dc58bf39f2b3171d45704f56260368e1df7b9",
+  "source_bytes": 830379,
+  "payload_files": 155,
+  "preserved_parent_files": 147,
+  "fixture_files": 125,
+  "configuration_sha256": "9f0c9d4c3162c7ae4f0fa9d35abcf6095cad94598a8e096c6d72177dc058e22c",
+  "source_manifest": {
+    "experiments/fq_rectangular_persistent_pilot.py": "fa3d0f34433e837d282a470fadf2aefbbaef5a20ee596fd1c7d6edf9334f8aa8",
+    "experiments/fq_rectangular_persistent_search.py": "10fee0016db9cf81347d2bce92d0052c0fcf80450f7149ead13f6cfbc4e49a1a",
+    "experiments/fq_rectangular_persistent_finish.py": "47d391ec9541f70313451c55036702a21c6a8562dc75a75f7ba09d67a50d75b9",
+    "experiments/prepare_wall_aspect_inputs.py": "0c8fa418453cb8a67c00defe68142f8206ab65c3a5d1068874513f039585cf61",
+    "experiments/analyze_jam_row_evacuation.py": "ec67221af2900ac0a8a78c253360b9bb36b8c176a28ff6c30403dec30e60c052"
+  },
+  "kernel_metadata_sha256": "f04d5a7954e2a8b14657307dc1b15b6f450405710ca5dcbda7660eedc03fe470",
+  "isolated_import_review_sha256": "84447ed812c6ff129b6b41d1490b9660517cb096e7b31fca283906eff7188360",
+  "review_source_sha256": "10cd8d761a68e54891059ec4ebfada3268d25b79a01bb6ff74d95afa979530b0",
+  "tests": {
+    "passed": 15,
+    "seconds": 0.674,
+    "source_hashes": {
+      "tests/test_fq_rectangular_persistent_search.py": "de264462b052122df4be6de720726c1130c807b704618d9a7ee7ef5582ad96d1",
+      "tests/test_fq_rectangular_persistent_controller.py": "2b05501ea04b5f423f6fc79c3a8be1887bc7a8cae5d18e87e6e5b7865a7d69e6",
+      "tests/test_fq_rectangular_persistent_finish.py": "0e2b5d35bc9ffa93883ee73efc5df0632c7570e10ea318f7b4f3b33d3dfb59f9"
+    },
+    "actual_nested_process_deadline_controls": true,
+    "no_optimizer": true
+  },
+  "prior_reviews": {
+    "inputs": {
+      "path": "artifacts/rectangular-inputs-independent-review-v1/review.json",
+      "sha256": "ea8022d2d13640ea285de7af281f3e6a642480fb6e075d1522dbb344b27434ce"
+    },
+    "native_finisher": {
+      "path": "artifacts/rectangular-finisher-independent-review-v1/review.json",
+      "sha256": "1c2f4afd7234e1d644ed57fe4ca4aba6f4a5f1763c2267c919738b88faa32815"
+    },
+    "four_original_controls": {
+      "path": "artifacts/rectangular-reference-independent-review-v1/review.json",
+      "sha256": "93440ff53cd0bf4443695343fa9cfc4f886beedd1042b308b67d1800806cc08c"
+    },
+    "old_wall_fixture_failure": {
+      "path": "artifacts/rectangular-wall-control-independent-review-v1/review.json",
+      "sha256": "5a53fbf23a026b8fb16710c19087fcf92e5962025d6b914eaaf735db9b7ab7b5"
+    },
+    "new_wall_fixture_owner_check": {
+      "path": "artifacts/rectangular-runtime-local-review-v1/wall-fixtures.json",
+      "sha256": "066ed490c42c343cffb33142b561770913ab3e9feeaef9cf881e538bf1296d31"
+    }
+  },
+  "checks": [
+    "Whole-unit92/146/154/181 counts;4seed groups x4cuts x4independent streams. FP64 physical acceptance sums unordered SAT pairs once plus separateW/H walls; targets/energies never mixed between rectangles.",
+    "Quench imports unchanged reviewed symmetric-tie FP64 CUDA with --fmad=false and explicit proposal copy. Each family requires actualN, lastunit, hash-cell overlap, known positive fullrectangle repair/fullcertification, independentW/H oracle, actualB64 includingchain63, unchangedproposal and isolatedH-wall analytical gradient controls.",
+    "Corrected wall fixture places lowerfaceH+.03, eliminating pair-force cancellation. Failed old fixture preserved separately.",
+    "Atomic current/BEST head commits before scalar publication/in-memory advancement. Every scalar decision/RNG identity retained; full transitions sampled32/phase/zero/terminal with explicit storage skips. No full-history replay claim.",
+    "Decision-time cooling at75% of initialized3000s search epoch; tailguard+20s finalreserve. Explicit output ceilings can end search early and are reported; no guaranteed3000s optimization claim.",
+    "Two sequential families/GPU,6786s conservative phases within7100parent;7160worker/7195alarm/7200whole/7800server. RegisteredPID/starttime cleanup freezes/kills across setsid/reparenting and verifies gone/zombie before inventories; real tests preserve unrelated process.",
+    "Fixed8 nativeBEST slots/family,2workers60+8, actualrectangular offsets, allvalidworse retained. Comparisonlower=min(original lower, matchedcontrol lower); originalupper stillsets searchboxes. Full unit certificate and bothspan transports required for donors; no fullscore inference.",
+    "All147 retained parent numerical/native/license files byte-identical;3inactive fixtures removed. Privateversion1 full125-member binding and whole-inventory mount selection prevent duplicateNPZ ambiguity; isolatedprepare/import checks pass."
+  ],
+  "scope": "Independent source/math/protocol/bundle review plus15 CPU-only tests. No CUDA/optimizer/newgeometrycert/remote launch/canonical mutation/submission. Mandatory actualGPU gates remain before each search."
+}

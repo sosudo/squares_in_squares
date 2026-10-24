@@ -1,0 +1,13 @@
+........../workspace/squares_in_squares/tests/test_birth_continuation.py:31: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  self.assertAlmostEqual(float(e),numpy_oracle(p,box,size)['energy'],places=12)
+........{"stage": "cpu-dp", "round": 1, "state_improvements": 3, "gadgets": 1}
+....................................................................................................................................................................................../workspace/squares_in_squares/experiments/fractional_interface_search.py:134: RuntimeWarning: Unrecognized options detected: {'threads'}. These will be passed to HiGHS verbatim.
+  result=milp(objective,integrality=np.array(integrality),bounds=Bounds(lb,ub),
+.........................................................................................................................................................................../workspace/squares_in_squares/experiments/fractional_interface_search.py:134: RuntimeWarning: Unrecognized options detected: {'threads'}. These will be passed to HiGHS verbatim.
+  result=milp(objective,integrality=np.array(integrality),bounds=Bounds(lb,ub),
+.......................................
+----------------------------------------------------------------------
+Ran 410 tests in 16.033s
+
+OK

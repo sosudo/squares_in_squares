@@ -1,0 +1,96 @@
+{
+  "status": "historical_control_negative_no_current_pilot",
+  "files": {
+    "manifest.json": {
+      "sha256": "d8505856a42b7f48e7a6551facc4ae76526a8a5571181d77ed1d63b8e938e1ce",
+      "bytes": 2644,
+      "original_path": "artifacts/nakajima-historical-controls-v1/manifest.json"
+    },
+    "summary.json": {
+      "sha256": "95c44224079f44ea3288090ae3aaa8a4f9f7846d3b43574ed731d0f2a4d9dbff",
+      "bytes": 2356,
+      "original_path": "artifacts/nakajima-historical-controls-v1/summary.json"
+    },
+    "results.json": {
+      "sha256": "42282cb32a1f75bd816aaf9650fa3928f1811e40d2249322133f8cfb9eb3e80e",
+      "bytes": 35155,
+      "original_path": "artifacts/nakajima-historical-controls-v1/results.json"
+    },
+    "supervisor.json": {
+      "sha256": "b864ce6a19cdf5788744d868310da444a6f82a83445a866c6ee02eddb70aeb44",
+      "bytes": 165,
+      "original_path": "artifacts/nakajima-historical-controls-v1/supervisor.json"
+    },
+    "logging-limit.json": {
+      "sha256": "c27ba56f13995ea707222ac0506550da9dfbe83333255adff87174911b961994",
+      "bytes": 2850,
+      "original_path": "artifacts/nakajima-historical-controls-v1/logging-limit.json"
+    },
+    "gradient-test.stdout": {
+      "sha256": "2e0d15dc2816ef1118cdfd5d54a3ad730ad020033f1c283f237d92660b360c3b",
+      "bytes": 138,
+      "original_path": "artifacts/nakajima-historical-controls-v1/gradient-test.stdout"
+    },
+    "gradient-test.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "original_path": "artifacts/nakajima-historical-controls-v1/gradient-test.stderr"
+    },
+    "certified.npz": {
+      "sha256": "6503c508566414abd149e84480d5a3d4af4273db7b9015414dfc1db4cc49ef7a",
+      "bytes": 33644,
+      "original_path": "artifacts/nakajima-historical-controls-v1/certified.npz"
+    },
+    "driver-at-execution.py": {
+      "sha256": "4b0bc97aebe07f24dc82b8deb55ed98ce5e4512c77b995e27c8844040c207ea2",
+      "bytes": 12872,
+      "original_path": "artifacts/nakajima-historical-controls-v1/source/driver-at-execution.py"
+    },
+    "LICENSE": {
+      "sha256": "c51886c0f7e6724a7d89fc22cb237a1688ba1bbff04cb21a13b8e1a01fb15578",
+      "bytes": 1068,
+      "original_path": "artifacts/nakajima-historical-controls-v1/source/LICENSE"
+    },
+    "harden.rs": {
+      "sha256": "635469a54a67deab5b6b77efe83546bc2d7b01b093fe7194527275eeb0b35876",
+      "bytes": 27000,
+      "original_path": "artifacts/nakajima-historical-controls-v1/source/search/packer/src/harden.rs"
+    },
+    "n-211.txt": {
+      "sha256": "78828f9e8bde95b5da7b4dd3ab8291eb51fa139ae3ee80ef1bc65742defc9dd9",
+      "bytes": 9740,
+      "original_path": "artifacts/nakajima-historical-controls-v1/source/search/exact/batch/inputs/n-211.txt"
+    },
+    "geometry-census.json": {
+      "sha256": "41ea95f322fa997d9350ea9f759a1f3a6942a2188c2de85d63ac4c171fe6fcfd",
+      "bytes": 1313699,
+      "original_path": "artifacts/strategy-scout-v1/geometry-census.json"
+    }
+  },
+  "stable_sources": {
+    "experiments/strategy_scout_geometry.py": "58f632d92f95182e3d1623b7ec7377db411d0b617b4a6acfd8ed2d4b3c510dbc",
+    "experiments/nakajima_historical_controls.py": "7b269f4d3efe1c9ce9821f56bdd1d31684d3d413809fd287db481e718b97fadc",
+    "tests/test_nakajima_historical_logging.py": "a8d96b2c2fb4451e8be6021e58ded742bbbb6c8711700f093d5ce8e2928ff622",
+    "research/strategy_scout.md": "243990983db23ea781c641ed054782fe286dc86d16b36815f0e9b06b1b00be99"
+  },
+  "public_commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+  "public_license": "MIT;EvanDaniel2026",
+  "source_pins": {
+    "LICENSE": "c51886c0f7e6724a7d89fc22cb237a1688ba1bbff04cb21a13b8e1a01fb15578",
+    "search/packer/src/harden.rs": "635469a54a67deab5b6b77efe83546bc2d7b01b093fe7194527275eeb0b35876",
+    "search/packer/harden.py": "e86364c4a4a8b799b0df2e3010fe519d233828b7a04fa1a7caf50153d3fb5bc7",
+    "search/packer/PACKER.md": "e7422f92b66d0baabd42087e0f6e27b3d957c7b4f9f70f3bcb0133a2d9496ac5",
+    "search/packer/HANDOFF-2026-10-14.md": "cb72979371f0c12931c2c0c9f990baba7ce71ebfff7ad742f3a8358dbfcb2f16",
+    "search/packer/CLAIMS.md": "11c8f8f6bd536341f3984240373a532e55222a49d6bba932c1308c4c724b1fd7",
+    "search/packer/pk/bands.py": "15abb7ce3633ce91ce0be7a00cebdc6b665e1aee786eb0a58e69e0f9a945e01f",
+    "search/exact/batch/inputs/n-211.txt": "78828f9e8bde95b5da7b4dd3ab8291eb51fa139ae3ee80ef1bc65742defc9dd9"
+  },
+  "executed_driver_sha256": "4b0bc97aebe07f24dc82b8deb55ed98ce5e4512c77b995e27c8844040c207ea2",
+  "future_driver_logging_only_fix_regression_passed": true,
+  "no_new_numeric_execution_after_fix": true,
+  "all8certified_geometries_retained": true,
+  "unverified_raw_native_texts_remain_hashbound_at": "artifacts/nakajima-historical-controls-v1",
+  "no_gpu": true,
+  "no_current_case_optimizer": true,
+  "no_remote_export_queue_or_submission": true
+}

@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-24T17:51:37.798995+00:00",
+  "public_unauthenticated": true,
+  "status": 200,
+  "ref": "avazaku/squarecraft-iii-seam-surgery-22-3073-lb",
+  "response_sha256": "03d9e322d23c4bc2531d9bffc3149eb551de13cb155e8cc8d39d5907d38dc21b",
+  "public_catalogue_native_version": 361805137,
+  "reason": "Correct current slug from public catalogue replaces previously requested shortened slug returning404.",
+  "keys": [
+    "metadata",
+    "blob"
+  ],
+  "source_sha256": "62eeb53f3703413063e7f23a6a0601dfc9a98774fee5a7e49a4f8380f04b5e39",
+  "source_bytes": 440775
+}

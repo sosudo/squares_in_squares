@@ -1,0 +1,59 @@
+{
+  "status": "complete",
+  "no_gpu": true,
+  "no_submission": true,
+  "no_canonical_mutation": true,
+  "build": {
+    "status": "complete",
+    "returncode": 0,
+    "command": [
+      "/tmp/squares-rustup/toolchains/1.99.1-x86_64-unknown-linux-gnu/bin/rustc",
+      "--edition",
+      "2021",
+      "-O",
+      "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/source/search/packer/src/harden.rs",
+      "-o",
+      "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/bin/harden"
+    ],
+    "seconds": 1.1761131809980725,
+    "limit_seconds": 15.0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "hardener_sha256": "e7775f23b1f3102a1a1b52654d06bcf5509b8eda75672fe77976d68f71d7acf7",
+  "gradient_test": {
+    "status": "complete",
+    "returncode": 0,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/nakajima-historical-controls-v1/bin/harden",
+      "test"
+    ],
+    "seconds": 1.2186914789999719,
+    "limit_seconds": 20.0,
+    "stdout_sha256": "2e0d15dc2816ef1118cdfd5d54a3ad730ad020033f1c283f237d92660b360c3b",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "force_controls": [
+    {
+      "checked": 20000,
+      "worst_dist_excess": 2.22e-16,
+      "grad_err_gt_1e-5": "0/19999",
+      "worst_grad_err": 2.813e-09
+    },
+    {
+      "energy_grad_bad": "0/90"
+    }
+  ],
+  "trials": 4,
+  "certified": 8,
+  "best_certified_side": "15.000000028044149144394452835417762927630493197613720405099492",
+  "historical_seed_side": "14.99796070496771500150",
+  "historical_improvement": false,
+  "published_first_211_side_reproduced": false,
+  "interpretation": "Finite fixed published cells/seeds only; timeout/no-hit is not a reproduction of the full432-run published effort. No largeN or present-record gain claim.",
+  "seconds": 45.63201161300094,
+  "source_sha256": "4b0bc97aebe07f24dc82b8deb55ed98ce5e4512c77b995e27c8844040c207ea2",
+  "manifest_sha256": "d8505856a42b7f48e7a6551facc4ae76526a8a5571181d77ed1d63b8e938e1ce",
+  "certified_archive_sha256": "6503c508566414abd149e84480d5a3d4af4273db7b9015414dfc1db4cc49ef7a",
+  "results_sha256": "42282cb32a1f75bd816aaf9650fa3928f1811e40d2249322133f8cfb9eb3e80e"
+}

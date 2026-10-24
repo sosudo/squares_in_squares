@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-24T18:17:16.389355+00:00",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 taskset -c 3 .venv/bin/python -m unittest discover -s tests",
+  "exit_code": 0,
+  "tests": 410,
+  "seconds": 16.033,
+  "log_sha256": "d7b83a24f80a060d197bb16690a0f045a8babf69bb06826f606123165d0c3efb",
+  "context": "Full suite after environment publication and new structural campaign implementation; actual production GPU gates are recorded separately."
+}

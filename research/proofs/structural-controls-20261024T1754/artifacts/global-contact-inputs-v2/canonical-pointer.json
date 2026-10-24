@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-24T17:18:10.778889+00:00",
+  "canonical_proof": "/workspace/squares_in_squares/artifacts/submission-sustained-alternatives-fresh-v1-safe.transport-validation.json",
+  "canonical_proof_sha256": "240059bff152c4fc1dc506a0fbd26888981142951c14b888c9dfd9b4c252479e",
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "competition_submission_performed": false,
+  "raw": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-sustained-alternatives-fresh-v1.csv",
+    "sha256": "9d18b33ca0efb4c55c0afac2c159f413676d76aae37fb3cbcc6ec93a43975396",
+    "score": 22.29648715263945,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-sustained-alternatives-fresh-v1-official.json",
+    "official_report_sha256": "3c9138c02e0f8dc35326acad9ee328561bb175331c10b0643443c913adeebdc0",
+    "reuse": {
+      "reused": 977,
+      "evaluated": 23
+    }
+  },
+  "safe": {
+    "path": "/workspace/squares_in_squares/artifacts/submission-sustained-alternatives-fresh-v1-safe.csv",
+    "sha256": "c9fca5a1a1fbf55bba5e3ed093cc5412b92845fb01809c3fbc61362bb01d3097",
+    "score": 22.29648715325571,
+    "official_report": "/workspace/squares_in_squares/artifacts/submission-sustained-alternatives-fresh-v1-safe-official.json",
+    "official_report_sha256": "603805d3afd8c92dafbae2290e2f2161afe2bf432c0e76b116d151b21ec02a06",
+    "reuse": {
+      "reused": 977,
+      "evaluated": 23
+    }
+  },
+  "roundtrip": {
+    "path": "/workspace/squares_in_squares/artifacts/submission-sustained-alternatives-fresh-v1-safe-roundtrip.csv",
+    "sha256": "fc5c2882e8443fb51d2c9f3f681494d7f5e418032cadbfa1669983fb8be2234e",
+    "score": 22.29648715325571,
+    "official_report": "/workspace/squares_in_squares/artifacts/submission-sustained-alternatives-fresh-v1-safe-roundtrip-official.json",
+    "official_report_sha256": "e084f0682fc6aa447d1bca7a639209c25d1b061e07f5b5a5f70462b1439677ed",
+    "reuse": {
+      "reused": 977,
+      "evaluated": 23
+    }
+  },
+  "independent_report": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-sustained-alternatives-fresh-v1.validation.json",
+    "sha256": "39123c3b96a69a146614dea0a5866f665ad87457f107b81b92779d909befe0f2"
+  },
+  "authorization_policy": {
+    "score_ceiling": "22.24",
+    "minimum_interval_seconds": 3600,
+    "sha256": "550b4ae6cad0f160a3f06a51af3b53f960e73fc9bbbf020e9a4364ef2c78c27b",
+    "source": "/workspace/squares_in_squares/artifacts/submissions/authorization-policy.json"
+  },
+  "user_submission_score_threshold": 22.24,
+  "eligible_under_user_score_threshold": false
+}

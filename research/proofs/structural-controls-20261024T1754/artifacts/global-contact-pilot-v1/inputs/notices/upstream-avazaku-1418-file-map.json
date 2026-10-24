@@ -1,0 +1,32 @@
+[
+  {
+    "source": "avazaku/squarecraft-iii-seam-surgery",
+    "original_path": "licenses/LICENSE-APACHE-2.0.txt",
+    "retained_file": "upstream-seam-a0836787-LICENSE-APACHE-2.0.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "source": "avazaku/squarecraft-iii-seam-surgery",
+    "original_path": "licenses/LICENSE-LEVY-SOURCES.txt",
+    "retained_file": "upstream-seam-97d6f9c7-LICENSE-LEVY-SOURCES.txt",
+    "sha256": "9dd942ee31483b4efb61318868d80ba3b18c6bfd843a26f75fa43e08c08d8e28"
+  },
+  {
+    "source": "avazaku/squarecraft-iii-seam-surgery",
+    "original_path": "SOURCE_NOTICES.md",
+    "retained_file": "upstream-seam-52f0ce0c-SOURCE_NOTICES.md",
+    "sha256": "b9f31a12f1274dc3c6dfb14c16a801f7ec53eb1a37d69f43b2c06c2ae3751e74"
+  },
+  {
+    "source": "avazaku/squarecraft-iii-seam-surgery",
+    "original_path": "source_provenance/kozykappa_SOURCE_NOTICES.md",
+    "retained_file": "upstream-seam-08f2472e-kozykappa_SOURCE_NOTICES.md",
+    "sha256": "aa6939053c6ca1f6bb2c9792482dde1a7c1e39b7dbdc45c584312b7c936690ab"
+  },
+  {
+    "source": "avazaku/squarecraft-iii-seam-surgery",
+    "original_path": "source_provenance/previous_SOURCE_NOTICES.md",
+    "retained_file": "upstream-seam-cffec232-previous_SOURCE_NOTICES.md",
+    "sha256": "066c2ef839cce0bef517fec93c4b1316126d57a0eea1c53f39781b67a6b4e40a"
+  }
+]

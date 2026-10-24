@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-24T17:51:15.751885+00:00",
+  "public_unauthenticated": true,
+  "status": 200,
+  "request": {
+    "kernelFilterCriteria": {
+      "listRequest": {
+        "competitionId": 166661,
+        "pageSize": 100,
+        "sortBy": "SCORE_ASCENDING"
+      }
+    }
+  },
+  "response_sha256": "58da71b2c132490c24a5287d801ea7551c9a2d0b8476e408ef767328c211256d"
+}

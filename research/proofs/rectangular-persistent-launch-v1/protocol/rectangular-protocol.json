@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "families": [
+    "5_17_7",
+    "7_19_13",
+    "7_20_14",
+    "8_21_13"
+  ],
+  "batch_size": 64,
+  "cuts": [
+    0.002,
+    0.01,
+    0.03,
+    0.06
+  ],
+  "seed_design": "4 exact seed groups x4 fixed cuts x4 independent RNG streams",
+  "temperature_by_stream": [
+    0.3,
+    0.3,
+    1.0,
+    1.0
+  ],
+  "cooling_fraction": 0.25,
+  "cooled_temperature": 0.03,
+  "quench_steps": 2000,
+  "search_seconds": 3000,
+  "phase_seconds": {
+    "preflight": 60,
+    "search": 3040,
+    "recovery": 3,
+    "finish": 290
+  },
+  "queues": [
+    [
+      "5_17_7",
+      "7_20_14"
+    ],
+    [
+      "7_19_13",
+      "8_21_13"
+    ]
+  ],
+  "parent_seconds": 7100,
+  "outer_worker_seconds": 7160,
+  "outer_alarm_seconds": 7195,
+  "whole_seconds": 7200,
+  "server_seconds": 7800,
+  "conservative_two_wave_phase_seconds": 6786,
+  "parent_queue_reserve_seconds": 314,
+  "sample_every": 32,
+  "raw_samples_per_family_limit_bytes": 1073741824,
+  "zero_state_limit_bytes": 536870912,
+  "scalar_log_limit_bytes": 268435456,
+  "output_limit_bytes": 10737418240,
+  "latest_current_best_head": "Atomic overwrite every committed round; exploratory state, not certificate archive",
+  "raw_retention_scope": "Full transition every32 rounds/phase/newzero/terminal, with explicit routine storage skips; every scalar decision/RNG identity retained; no full replay claim",
+  "native_slots_per_family": 8,
+  "native_workers_per_family": 2,
+  "native_seconds": 60,
+  "certificate_seconds": 8,
+  "native_seed": 9710000,
+  "native_selection": "Per cut: minimum BEST and near-best coarse D2 diverse BEST; exact duplicate geometries excluded",
+  "input_archive_sha256": "1c2d92e19f8cd35d275122b8ed5746aba03c0ed113d4650a34d19447fbb87751",
+  "input_config_sha256": "0cf01a53c9e63b8ed8503276c3ae5f931047986bd98a22f59748546e59388987",
+  "input_proof_sha256": "585cad3a005e40f427f0505a98d656978ddc1e711f25f2e7f212fdccfae6eb53",
+  "numerical_quench": "Existing symmetric-tie FP64 gpu_rect_optimizer, --fmad=false; unchanged solver objective",
+  "acceptance": "Fresh unordered unit-square SAT plus independent W/H wall squared penetrations; never compare across target boxes",
+  "expansion_criterion": "At least2 fully validated recomposed case improvements totaling>=.001; component scalar gain alone does not qualify",
+  "submission_policy": "No submission unless below22.24; this notebook never submits or mutates canonical",
+  "no_automatic_extension": true,
+  "no_paid_resources": true,
+  "native_reference_results_path": "additional-provenance/fq-rectangular-reference-controls-v1/results.json",
+  "native_reference_results_sha256": "cfd2bb3de131ff17d538dcce76f54d9cb09faaebc25ced16fa397281bca1ccab",
+  "component_comparison": "Stronger interval lower bound of seed and matched native original; fixed GPU target still uses original seed upper."
+}

@@ -1,0 +1,15 @@
+{
+  "seconds": 2.602676908005378,
+  "cases": 4,
+  "certified": 4,
+  "rectangular_donors": 4,
+  "strict_component_gains": 1,
+  "native_timeouts": 0,
+  "results_sha256": "cfd2bb3de131ff17d538dcce76f54d9cb09faaebc25ced16fa397281bca1ccab",
+  "certified_sha256": "5482ea534fb0b51f8ab15c32e5dcab701e39743b382c5403fb80c810f8e5f198",
+  "rectangular_donors_sha256": "5482ea534fb0b51f8ab15c32e5dcab701e39743b382c5403fb80c810f8e5f198",
+  "no_gpu": true,
+  "no_full_score_gain_claim": true,
+  "no_canonical_mutation": true,
+  "no_submission": true
+}
