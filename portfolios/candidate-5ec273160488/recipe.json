@@ -1,0 +1,61 @@
+{
+  "status": "Certified search incumbent; private CPU export complete and remotely hash-verified; not submitted",
+  "csv_sha256": "5ec27316048815621d1eb424144f006726cf0053e376d5d5ed2cba174b2f69ac",
+  "raw_csv_sha256": "381ffdc98df53c4ba9838fdc556eeead2f62681e427039e1c25224df873e9f4c",
+  "official_score": 22.301061629093095,
+  "roundtrip_score": 22.301061629093095,
+  "source_notebook": {
+    "ref": "sos54352/squares-portfolio-5ec273160488-incremental",
+    "version": 1,
+    "output_file": "submission.csv"
+  },
+  "source_sha256": "d01da2ea709a014f41f02d5311f9c4cc84973e6630122da7a0f6021d5d17d2a5",
+  "source_bytes": 495476,
+  "parent_recipe": "../candidate-8cd7c023ab18/",
+  "parent_csv_sha256": "8cd7c023ab18b5875fcd5084e23415eda3181df1f4e70b5558bfe9eb039b0658",
+  "source_notices": "../candidate-8cd7c023ab18/source-notices-kmmm28/",
+  "changed_cases_from_parent": [
+    547,
+    595,
+    599,
+    637,
+    697,
+    701,
+    702,
+    748,
+    751,
+    755,
+    756,
+    798,
+    799,
+    806,
+    807,
+    811,
+    812,
+    813,
+    815,
+    865,
+    871,
+    921,
+    924,
+    927,
+    930,
+    931,
+    982,
+    986,
+    989,
+    992,
+    993
+  ],
+  "finding": "Preserves all prior gains; adds two diversity-GPU improvements at595/931 and three complete-case gains at702/807/865 from stronger remote-CPU rectangle donors.",
+  "transport_scaling_applied_by_incremental_export": false,
+  "reproduce_commands": [
+    "python3 portfolios/candidate-8cd7c023ab18/export.py --destination /tmp/squares-parent-8cd7/submission.csv",
+    "INCREMENTAL_PARENT_PATH=/tmp/squares-parent-8cd7/submission.csv INCREMENTAL_OUTPUT_ROOT=/tmp/squares-candidate-5ec2 python3 portfolios/candidate-5ec273160488/export.py"
+  ],
+  "submission_policy": {
+    "maximum_score_exclusive": 22.3,
+    "eligible": false,
+    "competition_submission_performed": false
+  }
+}

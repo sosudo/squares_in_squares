@@ -9,6 +9,7 @@ from pathlib import Path
 import numpy as np
 import fq_active_pilot as fq
 from fq_variant_campaign import atomic_json,atomic_npz,geometry_sha
+from fq_multiscale_campaign import diversity_bucket
 
 
 def raw_text_sha(p):
@@ -24,6 +25,8 @@ def analyze(remote,job,out,comparisons=()):
     receipt=json.loads((remote/'download_receipt.json').read_text())
     if receipt['source_sha256']!=source_sha or receipt['status']!='COMPLETE' or not receipt['is_private']:
         raise ValueError('Exact completed private source proof required')
+    if json.loads((remote/'job_manifest.json').read_text())!=manifest:
+        raise ValueError('Remote package manifest differs from the frozen job')
     for name,proof in receipt['files'].items():
         if fq.digest(remote/name)!=proof['sha256']:raise ValueError('Downloaded file changed')
     folder=remote/'campaign/remote-certified';summary=json.loads((folder/'summary.json').read_text())
@@ -38,7 +41,11 @@ def analyze(remote,job,out,comparisons=()):
                 p=z[name]
                 if p.shape!=(w*h+d,3)or not np.isfinite(p).all():raise ValueError('Invalid comparison pose')
                 reference[family]=min(reference.get(family,float('inf')),fq.bloat(p,w,h))
+    initial_buckets={}
+    with np.load(job/'inputs/donors.npz',allow_pickle=False)as z:
+        for name in z.files:initial_buckets.setdefault(name.split('__')[0],set()).add(diversity_bucket(z[name]))
     provenance=json.loads((folder/'provenance.json').read_text());poses={};near={};best={};records=0;outside=0
+    near_buckets={};new_buckets={}
     with np.load(folder/'donors.npz',allow_pickle=False)as z:
         if set(z.files)!=set(provenance):raise ValueError('Provenance/geometry key inventory differs')
         for name in z.files:
@@ -61,7 +68,10 @@ def analyze(remote,job,out,comparisons=()):
                         raise ValueError('Soft stage lacks exact zero-aspect return')
                 records+=1;outside+=not record['eligible_for_search']
             poses[name]=p.copy()
-            if family in reference and value<1 and value<=reference[family]+.005:near[name]=p.copy()
+            if family in reference and value<1 and value<=reference[family]+.005:
+                near[name]=p.copy();bucket=diversity_bucket(p)
+                near_buckets.setdefault(key,set()).add(bucket)
+                if bucket not in initial_buckets.get(key,set()):new_buckets.setdefault(key,set()).add(bucket)
             if family not in best or value<best[family]['excess']:
                 best[family]=dict(excess=value,archive_key=name,geometry_sha256=sha)
     if len(poses)!=summary['certified_variants']or records!=summary['complete_stage_records']:
@@ -72,7 +82,11 @@ def analyze(remote,job,out,comparisons=()):
     result=dict(status='exact_bindings_verified',source_sha256=source_sha,binary_sha256=manifest['binary_sha256'],
         complete_certified_variants=len(poses),complete_stage_records=records,archive_only_stage_records=outside,
         useful_near_reference_variants=len(near),near_reference_archive_sha256=fq.digest(out/'near_reference_donors.npz'),
+        near_reference_buckets_by_key={key:len(values)for key,values in near_buckets.items()},
+        new_near_reference_buckets_by_key={key:len(values)for key,values in new_buckets.items()},
+        diversity_note='Rounded buckets are diagnostics only; complete exact certified geometries remain retained.',
         comparison_sources=comparison_proof,orientation_fair_reference=reference,best_by_family=best,
+        best_bank_note='Best emitted poses only; incumbents must be preserved unless a strict comparison passes.',
         strict_family_improvements=wins,aggregate_sha256=summary['donors_sha256'],
         provenance_sha256=summary['provenance_sha256'],download_receipt_sha256=fq.digest(remote/'download_receipt.json'),
         geometry_recertification_performed=False,full_competition_score_claim=False)

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 from datetime import datetime, timezone
+from decimal import Decimal
 import fcntl
 import hashlib
 import json
@@ -55,12 +56,34 @@ def certified_record(proof_path):
     if digest(interval['path']) != interval['sha256']:
         raise ValueError('Independent interval merge report changed')
     merged = json.loads(Path(interval['path']).read_text())
-    if not merged.get('valid') or merged.get('sha256') != record['raw']['sha256']:
+    if not (merged.get('valid') and merged.get('sha256') == record['raw']['sha256']
+            and merged.get('puzzles') == 1000 and merged.get('rows') == 500500
+            and len(merged.get('results', [])) == 1000):
         raise ValueError('Independent interval proof does not match the raw CSV')
     record['independent_report'] = interval
     record['user_submission_score_threshold'] = 22.3
     record['eligible_under_user_score_threshold'] = all(record[k]['score'] < 22.3 for k in ('raw', 'safe', 'roundtrip'))
     return record
+
+
+def require_casewise_nonregression(previous, proposed):
+    """A lower total score must not discard another concurrent merge's gains."""
+    for record in (previous, proposed):
+        if digest(record['raw']['official_report']) != record['raw']['official_report_sha256']:
+            raise ValueError('Bound official case report changed')
+        if digest(record['independent_report']['path']) != record['independent_report']['sha256']:
+            raise ValueError('Bound independent case report changed')
+    old_hashes = json.loads(Path(previous['raw']['official_report']).read_text())['puzzle_hashes']
+    new_hashes = json.loads(Path(proposed['raw']['official_report']).read_text())['puzzle_hashes']
+    old = {row['n']: row for row in json.loads(Path(previous['independent_report']['path']).read_text())['results']}
+    new = {row['n']: row for row in json.loads(Path(proposed['independent_report']['path']).read_text())['results']}
+    if set(old) != set(range(1, 1001)) or set(new) != set(old):
+        raise ValueError('Complete independent case coverage required')
+    for n in old:
+        if old_hashes[str(n)] == new_hashes[str(n)]:
+            continue
+        if Decimal(new[n]['side_upper']) > Decimal(old[n]['side_lower']):
+            raise ValueError(f'Current case n={n} is not preserved; remerge against the current pointer')
 
 
 def update(proof_path, destination):
@@ -75,6 +98,7 @@ def update(proof_path, destination):
                 raise ValueError('Refuse to replace the current best with a score regression')
             if all(record[k]['sha256'] == previous[k]['sha256'] for k in ('raw', 'safe', 'roundtrip')):
                 return previous
+            require_casewise_nonregression(previous, record)
         with tempfile.NamedTemporaryFile('w', dir=destination.parent,
                                          prefix=destination.name + '.', suffix='.incoming', delete=False) as stream:
             temporary = Path(stream.name)

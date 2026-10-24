@@ -61,6 +61,11 @@ provenance also remain available. Component improvements do not establish a
 competition score gain; composition and final complete-CSV validation are
 separate.
 
+The recovery collector's `best_bank.npz` contains the best emitted pose for
+each type, which can be worse than the frozen input. It must not replace an
+incumbent without a strict comparison. The final analyzer reports fair family
+gains explicitly and retains a separate near-reference donor archive.
+
 Before launch, an actual frozen-loader local control ran eight trials across
 all eight orientations, four circle and four contact moves. It retained eleven
 fully certified stages, including five outside the search band, with zero
@@ -77,6 +82,55 @@ starts among 79 completed records. It contained 29 search-eligible certified
 records, 49 certified wider records, and one bounded stage timeout. No strict
 family improvement was observed in that early sample. Final results must be
 read from the completed hash-bound output archive.
+
+## Completed results
+
+The supervisor exited normally after 1,140.41 seconds; neither its hard kill
+nor the server ceiling was needed. All 644 trials were accounted for: 272
+returned search-eligible certified results, 355 returned certified archive-only
+stages, sixteen reached a stage deadline, and one native JSON parse failed
+before admission. There were 160 immutable-pool starts. Complete stage recovery
+retained 884 distinct certified poses, including local intermediates that can
+be better than their later releases. Exact array, decimal CSV, certificate,
+source, and archive bindings passed for all 884 outputs without repeating
+geometry certification.
+
+The full output is `campaign/remote-certified/donors.npz`, SHA-256
+`651ccf7ada9eec44f242415cbfee1b25277c64c315334559c78f7b2e7e74fb0b`.
+The local analysis directory is `artifacts/fq-remote-cpu-analysis-v1`. Its
+543-pose `near_reference_donors.npz` has SHA-256
+`10f00a2903c43c05fb8da7ec26ed7c56ec290108046064bdb41c93334f12a273`.
+Those near-reference poses occupy 497 rounded geometry buckets, 487 of which
+were absent from the compact input bank. Buckets measure coarse diversity,
+not independent minima or guaranteed composition gains.
+
+Trial 560, seed 12,124,560, reduced the 8×20+12 family excess from
+0.8743104660422176 to **0.8736854096406326**, a reduction of
+0.0006250564015851. It used a circle move followed by the original ALM release
+from the unchanged incumbent. Thus immutable-start coverage is established,
+but this particular gain is not attributed to an immutable restart. A retained
+5×18+11 local intermediate also improved its family by 2.60e-8. The other two
+families did not improve their orientation-fair minima.
+
+The exact two-pose selection is
+`artifacts/fq-remote-cpu-minima-v1/best_bank.npz`, SHA-256
+`ef78f8119597fc5be01af55565fd097d35a1289bb4d8fc4a6a755620530f4f16`.
+Its adjacent proof binds each unchanged array to its original full certificate.
+The remote best-emitted bank is also available as
+`campaign/remote-certified/best_bank.npz`, SHA-256
+`d66011ef2d82d000d8aea8a0eef8977b97837b0aea8921eb5a6d066177c87564`.
+
+A separately authorized one-CPU replay used the exact existing public stitch
+and SAT join checks on all three current winning chains containing the two
+improved families. Against certified raw ancestor
+`b9374e881450748a04a86e39b84c69ba8607ceb1e95a303caeb93f38d9174354`,
+it completed in 7.30 seconds and produced fully certified improvements for
+n=807, 865, and 702. Their combined per-case score reduction is
+**0.0000432566054706**. The candidate handoff is
+`artifacts/fq-remote-cpu-replay-v1/candidates.json`, SHA-256
+`e821645184d6039858d0705c56f87e30e1ec090ba76655be1b38154ea1a7ca8f`.
+The parent owns the subsequent portfolio merge and complete-CSV validation;
+no competition submission was performed here.
 
 The authorized launch command was:
 

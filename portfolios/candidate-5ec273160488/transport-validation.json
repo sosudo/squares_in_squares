@@ -1,0 +1,84 @@
+{
+  "schema_version": 2,
+  "purpose": "Search baseline only; user permits submission only when raw and ordinary-roundtrip score are strictly below22.3.",
+  "user_submission_score_threshold": 22.3,
+  "eligible_under_user_score_threshold": false,
+  "raw_source": "/workspace/squares_in_squares/artifacts/merged-fq-remote-replay-v1.csv",
+  "raw_sha256": "381ffdc98df53c4ba9838fdc556eeead2f62681e427039e1c25224df873e9f4c",
+  "raw_score": 22.301061628222506,
+  "safe_submission": "/workspace/squares_in_squares/artifacts/submission-fq-remote-replay-v1-safe.csv",
+  "safe_sha256": "5ec27316048815621d1eb424144f006726cf0053e376d5d5ed2cba174b2f69ac",
+  "safe_score": 22.301061629093095,
+  "roundtrip_submission": "/workspace/squares_in_squares/artifacts/submission-fq-remote-replay-v1-safe-roundtrip.csv",
+  "roundtrip_sha256": "4b24ba7f8c4a85eccc17a60510735afb1315339af9e59ec21007f06c95016fa6",
+  "roundtrip_score": 22.301061629093095,
+  "safe_invalid_count": 0,
+  "roundtrip_invalid_count": 0,
+  "safe_case_coverage": 1000,
+  "safe_reuse": {
+    "reused": 997,
+    "evaluated": 3
+  },
+  "roundtrip_case_coverage": 1000,
+  "roundtrip_reuse": {
+    "reused": 997,
+    "evaluated": 3
+  },
+  "roundtrip_evaluated": 3,
+  "roundtrip_reused": 997,
+  "same_binary64_score": true,
+  "absolute_score_difference": 0.0,
+  "score_tolerance": 1e-10,
+  "scores_agree_within_1e_10": true,
+  "baseline_role": "Previous certified diversity GPU portfolio",
+  "baseline_sha256": "68bcbd3feea3f32ae9e56822b4c1283be46db8769fd510e58da8f1f7adde2567",
+  "baseline_score": 22.301104885698567,
+  "gain_over_previous_baseline": 4.325660547266352e-05,
+  "roundtrip_gain_over_previous_baseline": 4.325660547266352e-05,
+  "strictly_better_raw_and_roundtrip": true,
+  "case_score_changes": [
+    {
+      "n": 702,
+      "gain": 9.813078934489843e-10,
+      "old_side": "26.936908755873940003159728050780670626754412123062000650125323",
+      "new_side": "26.936908729873910049615660845819850243890105102045007173816861"
+    },
+    {
+      "n": 807,
+      "gain": 2.200304853323073e-05,
+      "old_side": "28.874310552748721009615660845818856397266667207572897908617155",
+      "new_side": "28.873685495747466039615660845819808320757935938060873128365577"
+    },
+    {
+      "n": 865,
+      "gain": 2.1252575629605853e-05,
+      "old_side": "29.874310554748746039615660845819808320757935938060888777175272",
+      "new_side": "29.873685497747488009615660845819875628588358848010417833220051"
+    }
+  ],
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "factor": "1.00000000001",
+  "safety_scaled_cases": 89,
+  "transform_report": "/workspace/squares_in_squares/artifacts/submission-fq-remote-replay-v1-safe.transport-transform.json",
+  "transform_report_sha256": "fdeb4b21d3ce75ab708f44d86fd159ca91c498e37f023c4486a1b8a48b86d155",
+  "raw_official_report_sha256": "257cd473c2510d9aa33197f137599f46b9a724440b38d1c2b0e28bc034c387cd",
+  "safe_official_report_sha256": "55f7d837952532996140cacdb880dbe3d8520cfddc3892e569fed8215b5a0a93",
+  "roundtrip_official_report_sha256": "5b208e0b6ef80f7a8e6fcce25e46fa1a82d592b0549800e606258816b17ecf13",
+  "safe_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-composition-diversity-v1-safe-official.json",
+    "report_sha256": "2cd034703179fa8b4e38bab596af6d67a666cfcc6e2177cf8254722544b8575e",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-composition-diversity-v1-safe.csv",
+    "sha256": "68bcbd3feea3f32ae9e56822b4c1283be46db8769fd510e58da8f1f7adde2567"
+  },
+  "roundtrip_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-composition-diversity-v1-safe-roundtrip-official.json",
+    "report_sha256": "251b925dd2e1ef9dde331180d77af7c37998eb5527248e03de1b4b51a272c442",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-composition-diversity-v1-safe-roundtrip.csv",
+    "sha256": "7fb7144f9113957cce20c64d3da5ebd646d333e3772555ba964b4201c2993fbe"
+  },
+  "composition_merge_provenance": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-remote-replay-v1.validation.json",
+    "sha256": "a75432b7b7d786ea8fdb7cb3eb941a424a3ec8706bdd589a88c5933dc22c303a"
+  },
+  "competition_submission_performed": false
+}

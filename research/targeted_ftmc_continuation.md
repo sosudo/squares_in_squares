@@ -103,3 +103,40 @@ this run; the 40–45% setting is sampling mass only. The live exact named funne
 file request returned HTTP 404 while the notebook was running. The frozen
 source hashes, aggregate snapshot and unavailable-field evidence are preserved
 in `artifacts/targeted-ftmc-n65-counter-inspection-v1/inspection.json`.
+
+The run subsequently completed normally: 2,740.25 seconds total notebook
+runtime and 2,725.12 seconds for parallel worker search plus final export,
+with no timeout or worker failures. Both 2,700-second arms accepted zero
+strict minima improvements. Their 849,624 core trials led to 85,968 full
+FP32 quenches and 8,000 FP64 rows; all eleven final per-key minima equal
+the frozen starts. The monitor collected all 27 named outputs and exited
+successfully at 09:17:02 UTC.
+
+There are nevertheless 7,033 retained, exact certificate-bound geometries:
+4,595 from arm 0 and 2,449 from arm 1, sharing only the eleven initial
+incumbents. The union has no exact typed-array or cross-type-array duplicates.
+It retains 5,465 n65 poses and 1,568 poses across the other ten oriented types.
+All arrays, records, aggregate hashes and the remote immutable-snapshot
+verification receipts were checked locally without rerunning unchanged
+geometry certificates. Individual immutable snapshots were not downloaded;
+the proof explicitly distinguishes that from the remote runtime's check.
+Archive SHA256 is
+`b7f96c7c578eb45ef9f3663c4436043b93f464eb0ced888b69df564fd3408e1a`.
+
+The original-phase 32-bin separator pairs show actual interface diversity:
+for example 10×23 +14 has 5, 7 and 8 different pairs at 30°, 45° and 60°;
+n65 has one, three and one. These describe possible join choices, not score
+gains. All poses remain available for a separate composition partition in
+`artifacts/targeted-ftmc-n65-analysis-v1/typed-bank-handoff.json`. Eight D4
+transforms produce 56,264 sources before additional inputs, whose largest
+packed job ID is 3,406,391,351. This exceeds signed int32 but fits the format's
+unsigned32 field; every added source must be included in the bound.
+
+The global funnel also reveals expensive repeated certification: raw/pandas
+checks used 1,610.29 seconds (59.6% of arm 0) and 671.95 seconds (24.9% of
+arm 1), while general refill used 142.01 seconds (5.3%) and 635.50 seconds
+(23.5%). These timings are not assigned to n65. Per-key retained certificate
+counts are selection-biased and cannot recover missing core/full effort or
+wall shares. The exact final audit is reproducible with
+`scripts/analyze_targeted_ftmc.py`; three tamper/admission regressions pass.
+No further FTMC extension or GPU notebook was launched.
