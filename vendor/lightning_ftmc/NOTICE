@@ -1,0 +1,24 @@
+Squares in Squares | CUDA Packing Search
+Author: Vladislav Lavrentev (lightningv08)
+Public Kaggle notebook version 21, retrieved 2026-10-24.
+Source: https://www.kaggle.com/code/lightningv08/squares-in-squares-cuda-packing-search
+API: https://www.kaggle.com/api/v1/kernels/pull/lightningv08/squares-in-squares-cuda-packing-search
+
+The public Kaggle Notebook viewer states that public notebook code is released
+under the Apache 2.0 open source license. The accompanying API metadata declares
+isPrivate=false and currentVersionNumber=21. The Apache License is reproduced in
+LICENSE. This vendored source snapshot is unchanged; wrappers and campaign
+configuration in this repository are separate files. Existing source notices,
+including research/top1-refresh/kirill_sources/SOURCE_NOTICES.md, are retained.
+
+The FTMC architecture is credited by upstream to Chris Deotte's public notebook:
+https://www.kaggle.com/code/cdeotte/squares-in-squares-ftmc-milp-refill-22-311
+The before/after gadget examples come from his public dataset:
+https://www.kaggle.com/datasets/cdeotte/squares-in-squares-22-315-data
+
+Official metric source is included verbatim as published by upstream. It is used
+for candidate validation, not modified to change acceptance or scoring.
+
+License evidence: Kaggle's public KernelViewer.3f677ea09aac5828.js conditionally
+renders for !isPrivate: "This Notebook has been released under the Apache 2.0
+open source license." and links to the Apache License 2.0.

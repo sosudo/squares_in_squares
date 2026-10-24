@@ -1,0 +1,4 @@
+# Optional stochastic search backend. Keep the platform's CUDA-enabled torch on
+# Kaggle/Colab if it already exists. For a CPU-only local environment use:
+# uv pip install --python .venv/bin/python torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1

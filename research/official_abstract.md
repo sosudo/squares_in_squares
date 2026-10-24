@@ -1,0 +1,1 @@
+In this competition, you'll pack `n` non-overlapping unit squares (squares with a side length of 1) into the smallest possible axis-aligned square container across 1,000 puzzles. Most optimal configurations in combinatorial geometry are still unknown, so your algorithms can beat decades of human intuition and improve the state of the art.

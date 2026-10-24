@@ -1,0 +1,456 @@
+#!/usr/bin/env python3
+"""Compose rectangular square-packing motifs and certify improving full puzzles.
+
+The CPU implementation uses conservative empty-corner staircase joins inspired
+by Chris Deotte's public multi-gadget fault construction. The optional GPU
+adapter runs Vladislav Lavrentev's released corner/separator DP implementations
+in an isolated work directory, with explicit current-portfolio and fresh-donor
+inputs. It never overwrites the incumbent CSV. Original source notices apply.
+"""
+from __future__ import annotations
+
+import argparse
+from dataclasses import dataclass
+import hashlib
+import json
+import math
+import os
+from pathlib import Path
+import shutil
+import sys
+import tempfile
+import time
+
+import numpy as np
+import pandas as pd
+from scipy.spatial import cKDTree
+
+
+def extents(p):
+    h = .5 * (np.abs(np.cos(p[:, 2])) + np.abs(np.sin(p[:, 2])))
+    return p[:, :2] - h[:, None], p[:, :2] + h[:, None]
+
+
+def normalize(p):
+    p = np.asarray(p, dtype=float).copy()
+    lo, _ = extents(p)
+    p[:, :2] -= lo.min(axis=0)
+    return p
+
+
+def side(p):
+    lo, hi = extents(p)
+    return float((hi.max(axis=0) - lo.min(axis=0)).max())
+
+
+def legalize(p, clearance=2e-9):
+    """Outward center dilation repairs rounding only; large overlaps are rejected."""
+    p = normalize(p)
+    if not np.isfinite(p).all():
+        return None
+    pairs = cKDTree(p[:, :2]).query_pairs(1.5, output_type='ndarray')
+    if len(pairs):
+        i, j = pairs.T
+        delta = p[j, :2] - p[i, :2]
+        a, b = p[i, 2], p[j, 2]
+        projection = np.maximum.reduce([
+            np.abs(delta[:, 0] * np.cos(t) + delta[:, 1] * np.sin(t))
+            for t in (a, a + math.pi / 2, b, b + math.pi / 2)])
+        radius = .5 * (1 + np.abs(np.cos(a - b)) + np.abs(np.sin(a - b)))
+        factor = max(1., float(np.max((radius + clearance) / np.maximum(projection, 1e-30))))
+        if factor > 1.000001:
+            return None
+        p[:, :2] *= factor
+    return normalize(p)
+
+
+def read_baseline(path):
+    df = pd.read_csv(path)
+    result = {int(n): q.sort_values('square_id')[['x', 'y', 'angle']].to_numpy(float)
+              for n, q in df.groupby('n', sort=True)}
+    if set(result) != set(range(1, 1001)) or any(len(p) != n for n, p in result.items()):
+        raise ValueError('Expected complete baseline for n=1..1000')
+    return result
+
+
+def read_donors(paths):
+    donors = []
+    for path in paths:
+        with np.load(path, allow_pickle=False) as archive:
+            for key in archive.files:
+                p = np.asarray(archive[key], dtype=float)
+                if p.ndim != 2 or p.shape[1] != 3 or not len(p):
+                    raise ValueError(f'Invalid pose array: {path}:{key}')
+                q = legalize(p)
+                if q is not None:
+                    donors.append((q, f'{path.name}:{key}'))
+    return donors
+
+
+def orientations(p):
+    seen = set()
+    for swap in (False, True):
+        q = p.copy()
+        if swap:
+            q[:, :2] = q[:, [1, 0]]
+            q[:, 2] = math.pi / 2 - q[:, 2]
+        for sx, sy in ((1, 1), (-1, 1), (1, -1), (-1, -1)):
+            r = q.copy()
+            r[:, 0] *= sx
+            r[:, 1] *= sy
+            r[:, 2] *= sx * sy
+            r = normalize(r)
+            digest = hashlib.sha256(np.round(r, 8).tobytes()).digest()
+            if digest not in seen:
+                seen.add(digest)
+                yield r, (swap, sx, sy)
+
+
+@dataclass
+class Gadget:
+    w: int
+    h: int
+    d: int
+    br: int
+    tl: int
+    f: float
+    p: np.ndarray
+    source: str
+
+
+def extract_gadgets(donors, seconds=60.):
+    """Vectorized crop order statistics; retain the best of each corner type."""
+    started = time.monotonic()
+    best = {}
+    visited = 0
+    for p, label in donors:
+        for q, transform in orientations(p):
+            lo, hi = extents(q)
+            spans = hi.max(axis=0)
+            maxw, maxh = np.minimum(31, np.floor(spans + 1e-7).astype(int))
+            wh = np.array([(w, h) for w in range(1, maxw + 1)
+                           for h in range(1, maxh + 1) if w * h < len(q)], dtype=int)
+            if not len(wh):
+                continue
+            r = np.maximum(np.maximum(hi[None, :, 0] - wh[:, None, 0],
+                                      hi[None, :, 1] - wh[:, None, 1]), 0.)
+            order = np.argsort(r, axis=1, kind='stable')
+            sorted_r = np.take_along_axis(r, order, axis=1)
+            sizes = np.arange(1, len(q) + 1)[None, :]
+            surplus = sizes - (wh[:, 0] * wh[:, 1])[:, None]
+            mask = ((surplus > 0) & (surplus <= 63) &
+                    (sorted_r > 1e-10) & (sorted_r < 1. - 1e-7))
+            br_bad = (hi[None, :, 0] > wh[:, None, 0] + 1e-10) & (lo[None, :, 1] < 1. + 1e-10)
+            tl_bad = (lo[None, :, 0] < 1. + 1e-10) & (hi[None, :, 1] > wh[:, None, 1] + 1e-10)
+            br_bad = np.maximum.accumulate(np.take_along_axis(br_bad, order, axis=1), axis=1)
+            tl_bad = np.maximum.accumulate(np.take_along_axis(tl_bad, order, axis=1), axis=1)
+            for row, last in np.argwhere(mask):
+                w, h = map(int, wh[row])
+                d = int(surplus[row, last])
+                br, tl = int(not br_bad[row, last]), int(not tl_bad[row, last])
+                f = float(sorted_r[row, last]) + 3e-8
+                key = (w, h, d, br, tl)
+                if key not in best or f < best[key].f - 1e-10:
+                    best[key] = Gadget(w, h, d, br, tl, f,
+                                       q[order[row, :last + 1]].copy(),
+                                       f'{label}:D4={transform}:crop={w},{h},{d}')
+            visited += 1
+            if visited % 100 == 0:
+                print(json.dumps({'stage': 'crop', 'orientations': visited,
+                                  'gadgets': len(best), 'seconds': time.monotonic() - started}), flush=True)
+            if time.monotonic() - started >= seconds:
+                return sorted(best.values(), key=lambda g: g.f)
+    return sorted(best.values(), key=lambda g: g.f)
+
+
+def staircase_dp(gadgets, rounds=4):
+    """Minimax over rectangular fault chains, including one-cell X/Y buffers."""
+    shape = (32, 32, 64, 2)
+    value = np.full(shape, np.inf)
+    last = np.full(shape, -1, dtype=np.int32)
+    mode = np.full(shape, -1, dtype=np.int8)
+    predecessor_br = np.full(shape, -1, dtype=np.int8)
+    for i, g in enumerate(gadgets):
+        idx = (g.w, g.h, g.d, g.br)
+        if g.f < value[idx]:
+            value[idx], last[idx], mode[idx] = g.f, i, 3
+    for iteration in range(rounds):
+        changes = 0
+        for gi, g in enumerate(gadgets):
+            for join in range(3):
+                dx, dy = g.w + (join == 1), g.h + (join == 2)
+                if dx >= 31 or dy >= 31 or g.d >= 63:
+                    continue
+                source = value[1:32 - dx, 1:32 - dy, 1:64 - g.d]
+                if join != 0 or g.tl:
+                    pb = (source[..., 1] < source[..., 0]).astype(np.int8)
+                    previous = np.minimum(source[..., 0], source[..., 1])
+                else:
+                    pb = np.ones(source.shape[:-1], dtype=np.int8)
+                    previous = source[..., 1]
+                candidate = np.maximum(g.f, previous)
+                destination = (slice(dx + 1, 32), slice(dy + 1, 32),
+                               slice(g.d + 1, 64), g.br)
+                improve = candidate < value[destination] - 1e-12
+                count = int(improve.sum())
+                if count:
+                    value[destination][improve] = candidate[improve]
+                    last[destination][improve] = gi
+                    mode[destination][improve] = join
+                    predecessor_br[destination][improve] = pb[improve]
+                    changes += count
+        print(json.dumps({'stage': 'cpu-dp', 'round': iteration + 1,
+                          'state_improvements': changes, 'gadgets': len(gadgets)}), flush=True)
+        if not changes:
+            break
+    return value, last, mode, predecessor_br
+
+
+def recover_chain(index, gadgets, last, mode, predecessor_br):
+    w, h, d, b = map(int, index)
+    chain = []
+    while True:
+        idx = (w, h, d, b)
+        gi, join = int(last[idx]), int(mode[idx])
+        if gi < 0:
+            raise ValueError('Broken staircase predecessor')
+        chain.append((gi, join))
+        if join == 3:
+            return list(reversed(chain))
+        g = gadgets[gi]
+        b = int(predecessor_br[idx])
+        w -= g.w + (join == 1)
+        h -= g.h + (join == 2)
+        d -= g.d
+        if min(w, h, d) <= 0:
+            raise ValueError('Invalid staircase predecessor dimensions')
+
+
+def stitch(chain, gadgets, k):
+    width = sum(gadgets[i].w for i, _ in chain) + sum(m == 1 for _, m in chain[1:])
+    height = sum(gadgets[i].h for i, _ in chain) + sum(m == 2 for _, m in chain[1:])
+    if width > k or height > k:
+        raise ValueError('Chain exceeds target square')
+    f = max(gadgets[i].f for i, _ in chain)
+    blocks, spans = [], []
+    x, y = 0, height
+    previous_width = 0
+    for j, (i, join) in enumerate(chain):
+        g = gadgets[i]
+        if j:
+            x += previous_width + (join == 1)
+        y -= g.h + (join == 2)
+        q = g.p.copy()
+        q[:, :2] += [x, y]
+        blocks.append(q)
+        spans.append((x, y, g.w, g.h))
+        previous_width = g.w
+    fill = []
+    for column in range(k):
+        span = next((s for s in spans if s[0] <= column < s[0] + s[2]), None)
+        if span:
+            cut, occupied_height = span[1], span[3]
+        else:
+            following = next((s for s in spans if s[0] > column), None)
+            cut, occupied_height = (following[1] + following[3] if following else 0), 0
+        for row in range(k):
+            if span and cut <= row < cut + occupied_height:
+                continue
+            shift = 0. if row < cut else f
+            fill.append((column + .5 + shift, row + .5 + shift, 0.))
+    p = np.vstack([np.asarray(fill).reshape(-1, 3), *blocks])
+    expected = k * k + sum(gadgets[i].d for i, _ in chain)
+    if len(p) != expected:
+        raise ValueError(f'Composition count {len(p)} != {expected}')
+    return legalize(p)
+
+
+def cpu_compose(base, donors, seconds, rounds):
+    gadgets = extract_gadgets(donors, seconds)
+    if not gadgets:
+        return {}, {'gadgets': 0}
+    value, last, mode, predecessor = staircase_dp(gadgets, rounds)
+    candidates, recipes = {}, {}
+    for n in range(5, 1001):
+        k = math.isqrt(n)
+        d = n - k * k
+        if not d:
+            continue
+        slab = value[1:k + 1, 1:k + 1, d]
+        idx = np.unravel_index(np.argmin(slab), slab.shape)
+        if k + slab[idx] >= side(base[n]) - 1e-7:
+            continue
+        state = (idx[0] + 1, idx[1] + 1, d, idx[2])
+        chain = recover_chain(state, gadgets, last, mode, predecessor)
+        p = stitch(chain, gadgets, k)
+        if p is not None and side(p) < side(base[n]) - 1e-8:
+            candidates[n] = p
+            recipes[str(n)] = [{'source': gadgets[i].source, 'w': gadgets[i].w,
+                               'h': gadgets[i].h, 'surplus': gadgets[i].d,
+                               'bloat': gadgets[i].f, 'join_mode': m} for i, m in chain]
+    return candidates, {'gadgets': len(gadgets), 'recipes': recipes}
+
+
+def border_expand(p, t):
+    p = normalize(p)
+    if t == 0:
+        return p
+    L = side(p)
+    k = int(math.floor(L + 1e-10))
+    right = [(L + i + .5, j + .5, 0.) for i in range(t) for j in range(k)]
+    top = [(i + .5, L + j + .5, 0.) for j in range(t) for i in range(k + t)]
+    return np.vstack([p, right, top])
+
+
+def closure(base, candidates, seconds=60.):
+    """L-frame and central-subset closure across the current union of portfolios."""
+    started = time.monotonic()
+    lengths = np.array([side(candidates.get(n, base[n])) for n in range(1, 1001)])
+    result, labels = dict(candidates), {}
+    donors = [(p, f'composed:{n}') for n, p in candidates.items()]
+    donors += [(p, f'baseline:{n}') for n, p in base.items()
+               if side(p) < math.ceil(math.sqrt(n)) - 1e-7]
+    for p, source in donors:
+        L = side(p)
+        for t in range(max(0, int(math.floor(32. - L))) + 1):
+            q = border_expand(p, t)
+            lo, hi = extents(q)
+            center = (lo.min(axis=0) + hi.max(axis=0)) / 2
+            for dx in (-.5, 0., .5):
+                for dy in (-.5, 0., .5):
+                    c = center + [dx, dy]
+                    radial = np.maximum(np.max(hi - c, axis=1), np.max(c - lo, axis=1))
+                    order = np.argsort(radial, kind='stable')[:1000]
+                    lower = np.minimum.accumulate(lo[order], axis=0)
+                    upper = np.maximum.accumulate(hi[order], axis=0)
+                    sides = (upper - lower).max(axis=1)
+                    improve = np.flatnonzero(sides < lengths[:len(sides)] - 1e-7)
+                    for idx in improve:
+                        n = int(idx + 1)
+                        result[n] = q[order[:n]].copy()
+                        lengths[idx] = sides[idx]
+                        labels[str(n)] = {'source': source, 'border': t, 'subset_shift': [dx, dy]}
+            if time.monotonic() - started >= seconds:
+                return result, labels
+    return result, labels
+
+
+def gpu_compose(base, baseline, donors, source_dir, output_dir, method, seconds, bins):
+    """Stage explicit public inputs for the unmodified released GPU composers."""
+    sys.path.insert(0, str(source_dir.resolve()))
+    import gpu_fault_composition as fault
+    # Replace only the legacy file-loading entry point; geometry/kernels unchanged.
+    fault.inputs = lambda: (base, {n: 'current certified portfolio' for n in base}, donors)
+    import gpu_seam_profiles as seam
+    seam.inputs = fault.inputs
+    import gpu_adaptive_seams as adaptive
+    previous = Path.cwd()
+    all_candidates, reports = {}, {}
+    with tempfile.TemporaryDirectory(prefix='composition-', dir=output_dir) as directory:
+        work = Path(directory)
+        (work / 'artifacts').mkdir()
+        (work / 'research/latest').mkdir(parents=True)
+        shutil.copy2(baseline, work / 'research/latest/kirill.csv')
+        np.savez_compressed(work / 'artifacts/fault_source_donors.npz')
+        (work / 'artifacts/fault_source_labels.json').write_text('{}')
+        # The names below are compatibility inputs expected by the public module;
+        # their actual source labels and hashes are recorded in this adapter's report.
+        np.savez_compressed(work / 'artifacts/tip_frontier1_gadgets.npz',
+                            **{str(i): p for i, (p, _) in enumerate(donors)})
+        np.savez_compressed(work / 'artifacts/crystal_polished1_gadgets.npz')
+        methods = ('corner', 'seam', 'adaptive') if method == 'all' else (method,)
+        try:
+            os.chdir(work)
+            for selected in methods:
+                tag = 'compose_' + selected
+                if selected == 'corner':
+                    fault.run(seconds=seconds, tag=tag, transpose=True)
+                elif selected == 'seam':
+                    seam.run(seconds=seconds, tag=tag, bins=bins, transpose=True)
+                else:
+                    adaptive.run(str(baseline), tag=tag, seconds=seconds, bins=bins)
+                path = work / 'artifacts' / (tag + '_packings.npz')
+                with np.load(path, allow_pickle=False) as archive:
+                    for key in archive.files:
+                        n, p = int(key), archive[key]
+                        if n not in all_candidates or side(p) < side(all_candidates[n]):
+                            all_candidates[n] = p.copy()
+                reports[selected] = json.loads((work / 'research' / (tag + '.json')).read_text())
+                shutil.copy2(path, output_dir / path.name)
+        finally:
+            os.chdir(previous)
+    return all_candidates, reports
+
+
+def certify_candidates(base, candidates):
+    project_scripts = Path(__file__).resolve().parents[1] / 'scripts'
+    sys.path.insert(0, str(project_scripts))
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from validate_submission import Square, validate_puzzle
+    result, rejected = {}, {}
+    for n, p in sorted(candidates.items()):
+        q = legalize(p)
+        if q is None or side(q) >= side(base[n]) - 1e-8:
+            continue
+        rows = [[format(float(v), '.17g') for v in row] for row in q]
+        certificate = validate_puzzle(n, [Square(*row) for row in rows])
+        if certificate['valid']:
+            result[str(n)] = {'side': certificate['side_upper'], 'squares': rows,
+                              'source': 'gadget-composition', 'certificate': certificate}
+        else:
+            rejected[str(n)] = certificate
+    return result, rejected
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--baseline', type=Path, required=True)
+    parser.add_argument('--gadgets', nargs='*', type=Path, default=[])
+    parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--backend', choices=['cpu', 'gpu', 'closure'], default='cpu')
+    parser.add_argument('--method', choices=['corner', 'seam', 'adaptive', 'all'], default='all')
+    parser.add_argument('--source-dir', type=Path, default=Path('artifacts/public/lightning_sources'))
+    parser.add_argument('--baseline-donors', type=int, default=64)
+    parser.add_argument('--seconds', type=float, default=60., help='CPU crop budget or GPU budget per composer')
+    parser.add_argument('--closure-seconds', type=float, default=60.)
+    parser.add_argument('--rounds', type=int, default=4)
+    parser.add_argument('--bins', type=int, default=16)
+    args = parser.parse_args()
+    args.baseline = args.baseline.resolve()
+    args.output = args.output.resolve()
+    args.output.parent.mkdir(exist_ok=True, parents=True)
+    started = time.monotonic()
+    base = read_baseline(args.baseline)
+    donors = read_donors(args.gadgets)
+    fresh = len(donors)
+    eligible = [(p, f'certified baseline n={n}') for n, p in base.items()
+                if n >= 5 and side(p) < math.ceil(math.sqrt(n)) - 1e-7]
+    donors += eligible[:args.baseline_donors]
+    if args.backend == 'cpu':
+        candidates, details = cpu_compose(base, donors, args.seconds, args.rounds)
+    elif args.backend == 'gpu':
+        candidates, details = gpu_compose(base, args.baseline, donors, args.source_dir,
+                                          args.output.parent, args.method, args.seconds, args.bins)
+    else:
+        candidates, details = {}, {}
+    if args.closure_seconds > 0:
+        candidates, closure_labels = closure(base, candidates, args.closure_seconds)
+    else:
+        closure_labels = {}
+    result, rejected = certify_candidates(base, candidates)
+    args.output.write_text(json.dumps(result) + '\n')
+    gain = sum((side(base[int(n)]) - float(r['side'])) / math.sqrt(int(n)) for n, r in result.items())
+    report = {'baseline': str(args.baseline),
+              'baseline_sha256': hashlib.sha256(args.baseline.read_bytes()).hexdigest(),
+              'gadgets': [{'path': str(p), 'sha256': hashlib.sha256(p.read_bytes()).hexdigest()}
+                          for p in args.gadgets],
+              'backend': args.backend, 'fresh_donors': fresh, 'total_donors': len(donors),
+              'seconds': time.monotonic() - started, 'improvements': len(result),
+              'estimated_score_gain': gain, 'rejected': rejected,
+              'details': details, 'closure': closure_labels}
+    args.output.with_suffix('.report.json').write_text(json.dumps(report, indent=2) + '\n')
+    print(json.dumps({k: v for k, v in report.items() if k not in ('details', 'closure', 'rejected')}), flush=True)
+
+
+if __name__ == '__main__':
+    main()
