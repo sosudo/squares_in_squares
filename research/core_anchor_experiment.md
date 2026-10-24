@@ -87,3 +87,33 @@ CSV certification and numeric transport validation before any submission.
 This file records preparation and CPU evidence. Read the actual remote status
 and results before claiming GPU success or a leaderboard gain. The packaging
 agent did not launch the notebook or submit to the competition.
+
+## Executed anchor comparison
+
+Root subsequently launched private notebook
+`sos54352/squares-core-anchor-pilot`, version 1. It completed in 337.06 seconds,
+with both T4 preflights passing. Outputs are in `artifacts/anchor-ftmc-results`;
+`analysis.json` binds the summary and funnel reports.
+
+| Arm | Core trials | Passed core residual gate | Refill successes | Full quenches | Certified candidates |
+|---|---:|---:|---:|---:|---:|
+| Original centering | 385,344 | 99.976% | 0 | 0 | 0 |
+| Original anchor restored | 348,672 | 99.993% | 1 | 16 | 0 |
+
+The one anchored full-quench batch reached FP64 but retained maximum penetration
+around 0.022–0.025, so it correctly failed before contact LP or certification.
+Restoring the anchor alone did not fix the full-puzzle search funnel.
+
+Further inspection found a second restriction: the source worker only tries
+general 2D refill when the restricted whole-row count is at least `N-4`. A
+NumPy float32 reproduction of that row algorithm gave counts 78, 81, 99, 123,
+165, 194, 250 and 291 for the eight **unchanged original feasible** cores.
+Every one misses its `N-4` threshold even though strict 2D refill recovers N.
+Evidence: `artifacts/core-anchor-row-surrogate.json`. This is a CPU reproduction,
+not an actual CUDA measurement; the next pilot includes an actual GPU preflight.
+
+The row procedure explores only whole rows of two wall phases. Its count is
+not an upper bound for general 2D refill. With the source's soft overlap
+allowance, it is also an exploratory count rather than a certificate of strict
+geometric capacity. The next experiment tests bounded general refill attempts
+without using that count as an exclusion criterion.

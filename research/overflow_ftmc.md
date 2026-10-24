@@ -82,7 +82,7 @@ repair before the worker's forced side reductions; extending the unchanged
 search would not address this observed gate.
 
 The original-angle arm recorded one exploratory overflow core, with reported
-capacity three above target, but its core residual exceeded0.01. It was
+capacity three above target, but its core residual exceeded 0.01. It was
 correctly rejected before repair. The adapted arm recorded none. Both repair
 stages therefore had zero eligible inputs and finished immediately, preserving
 the remaining planned GPU time. There are no direct candidates or certified

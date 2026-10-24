@@ -8,3 +8,6 @@ artifacts/
 .env.*
 kaggle.json
 access_token
+
+# Rust optimizer build products
+vendor/fq/target/
