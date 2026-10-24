@@ -1,0 +1,66 @@
+{
+  "utc": "2026-10-24T16:48:41.453118+00:00",
+  "ref": "sos54352/squares-junction-single-birth-v1",
+  "version": 1,
+  "read_timeout_seconds": 30,
+  "decoder": "outer SSE data JSON, then each inner data line JSON",
+  "status_code": 200,
+  "content_type": "text/event-stream",
+  "seconds": 38.467366493001464,
+  "line_count": 13,
+  "stage_events": [
+    {
+      "stage": "birth_preflight",
+      "n": 498,
+      "passed": true,
+      "seconds": 2.964411554999998
+    },
+    {
+      "stage": "birth_preflight",
+      "n": 587,
+      "passed": true,
+      "seconds": 3.2888369510000075
+    },
+    {
+      "stage": "birth_cycle",
+      "n": 498,
+      "cycle": 0,
+      "stages": 12,
+      "full": true,
+      "min_full_energy": 0.0016459312707968164
+    },
+    {
+      "stage": "birth_cycle",
+      "n": 587,
+      "cycle": 0,
+      "stages": 12,
+      "full": true,
+      "min_full_energy": 0.0015236823859184302
+    },
+    {
+      "stage": "birth_cycle",
+      "n": 498,
+      "cycle": 1,
+      "stages": 12,
+      "full": true,
+      "min_full_energy": 0.001515139351535084
+    },
+    {
+      "stage": "birth_cycle",
+      "n": 587,
+      "cycle": 1,
+      "stages": 12,
+      "full": true,
+      "min_full_energy": 0.001477336568811747
+    },
+    {
+      "stage": "birth_cycle",
+      "n": 498,
+      "cycle": 2,
+      "stages": 12,
+      "full": true,
+      "min_full_energy": 0.0016643459111523916
+    }
+  ],
+  "actual_worker_progress_observed": true
+}

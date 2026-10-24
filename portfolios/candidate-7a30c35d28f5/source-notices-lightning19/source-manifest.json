@@ -1,0 +1,67 @@
+{
+  "dataset": "lightningv08/squares-in-squares-layout-atlas",
+  "version": 19,
+  "status": "Ready",
+  "publication_utc": "2026-10-24T12:57:40.833Z",
+  "packing_file": "refresh_submission.csv",
+  "packing_sha256": "51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9",
+  "notice": "submission.csv and validation.json are older retained outputs; current19 release is explicitly named by finalREADME section and refresh metadata.",
+  "license_name": "CC0: Public Domain",
+  "license_scope": "Mathematical coordinates and dataset metadata only; linked third-party notebook prose, code and artwork are excluded. All inherited grants and construction/solver credits remain.",
+  "files": [
+    {
+      "filename": "README.md",
+      "sha256": "d9a570038dad374834a59de5ff920e00946e74885f61980a9fac6dc5e056516d",
+      "bytes": 22705,
+      "url": "https://www.kaggle.com/api/v1/datasets/download/lightningv08/squares-in-squares-layout-atlas/README.md?datasetVersionNumber=19",
+      "origin": "public version19 file"
+    },
+    {
+      "filename": "refresh_SOURCE_NOTICES.md",
+      "sha256": "924ef719dc7ea4509df7ab9625d0ffb5145b6bbca536a38e3c7b9bd6afa0fe6a",
+      "bytes": 2490,
+      "url": "https://www.kaggle.com/api/v1/datasets/download/lightningv08/squares-in-squares-layout-atlas/refresh_SOURCE_NOTICES.md?datasetVersionNumber=19",
+      "origin": "public version19 file"
+    },
+    {
+      "filename": "refresh_sungheo_NOTICES.md",
+      "sha256": "751438e3ffb4fa569e7ad604705a8b231b10fd23577b9c938af817956832424b",
+      "bytes": 123039,
+      "url": "https://www.kaggle.com/api/v1/datasets/download/lightningv08/squares-in-squares-layout-atlas/refresh_sungheo_NOTICES.md?datasetVersionNumber=19",
+      "origin": "public version19 file"
+    },
+    {
+      "filename": "refresh_summary.json",
+      "sha256": "1b2f71da5ff350d5607bdc4ee24cd20fec1aa28f34aaf1c6ed87cf52c7fbc636",
+      "bytes": 15803,
+      "url": "https://www.kaggle.com/api/v1/datasets/download/lightningv08/squares-in-squares-layout-atlas/refresh_summary.json?datasetVersionNumber=19",
+      "origin": "public version19 file"
+    },
+    {
+      "filename": "refresh_manifest.json",
+      "sha256": "95058c49a65f35bcfaaeb37f11db56b10e8539c1ebed721314d657141886ac0f",
+      "bytes": 1358,
+      "url": "https://www.kaggle.com/api/v1/datasets/download/lightningv08/squares-in-squares-layout-atlas/refresh_manifest.json?datasetVersionNumber=19",
+      "origin": "public version19 file"
+    },
+    {
+      "filename": "refresh_validation.json",
+      "sha256": "04fbd5953a8e019497305258d18827109dd4e37286cbde4f23099d5da728fc4e",
+      "bytes": 330,
+      "url": "https://www.kaggle.com/api/v1/datasets/download/lightningv08/squares-in-squares-layout-atlas/refresh_validation.json?datasetVersionNumber=19",
+      "origin": "public version19 file"
+    },
+    {
+      "filename": "winning-case-lineage-and-license.json",
+      "sha256": "995ad5247129db771c0bf0c5b00068c033322f47c9314dad42ca088782a52c8a",
+      "bytes": 6579,
+      "url": null,
+      "origin": "local structured extraction of publisher metadata; no new geometry certificate"
+    }
+  ],
+  "metadata_sha256": "112fe67c4726f76894d122f1abb8a759aa5a9eebaf321c0b27fa82d64d4a85cc",
+  "complete_file_inventory_sha256": "7a42d83094168d715ff4efc7787256c1d4116078ab4ba589b1c4978e34c7f482",
+  "inventory_files": 153,
+  "current_release_manifest_crosschecks": "All4 locally downloaded files named by refresh_manifest.json match publisher hashes.",
+  "coordinate_csv_not_copied_here": true
+}

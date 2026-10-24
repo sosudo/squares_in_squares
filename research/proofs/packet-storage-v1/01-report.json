@@ -1,0 +1,939 @@
+{
+  "status": "positive_fixture_storage_result_not_production_codec",
+  "probe_source_sha256": "3bb000052f92b7cb5c7ba5ebae691eae3b55708cf8ed6381984c3d5fe63ecacd",
+  "source_report_sha256": "19e5866cd06a84b9c67de75781fc1b5d495f32e3820c40252fe6f7497eb43fb2",
+  "audit_source_sha256": "d30a472745e1821ff0f790015279b063b751a0fca61391261daaa53e20635920",
+  "seconds": 0.2960968400002457,
+  "records": [
+    {
+      "source": {
+        "path": "artifacts/fq-cold-transfer-packet-fixtures-v1/outputs/case-803/raw-hop/packet-0001.npz",
+        "sha256": "c68ecdd4b2d085969b1cf6f55a099dc9b996d38732d43eb849d290806b9ddad1"
+      },
+      "n": 803,
+      "arrays": {
+        "current_before_reset": {
+          "shape": [
+            32,
+            803,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "fb9ad9ac1c56d8b82c0e6f866c80d989e7ac7b24e283a8114c3c6b0a13b508c1",
+          "has_object": false
+        },
+        "pre_reset_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "4190c40da4709a758efbd84f8effacfa3b76413c7c9e5e833eb2f2826472bcc9",
+          "has_object": false
+        },
+        "current_before": {
+          "shape": [
+            32,
+            803,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "fb9ad9ac1c56d8b82c0e6f866c80d989e7ac7b24e283a8114c3c6b0a13b508c1",
+          "has_object": false
+        },
+        "proposal_input": {
+          "shape": [
+            32,
+            803,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "196109e333ffbc4cc418ca1138d4c187ce280daa3a061dc2658c0bd16a144e00",
+          "has_object": false
+        },
+        "best_before": {
+          "shape": [
+            32,
+            803,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "fb9ad9ac1c56d8b82c0e6f866c80d989e7ac7b24e283a8114c3c6b0a13b508c1",
+          "has_object": false
+        },
+        "sides": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "fc1a6318562be9b7c6bb20ae0f80ae92d86e4683b05af6679bf255e38b8dad36",
+          "has_object": false
+        },
+        "base_temperature": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "27adc338b0b34804e645ceb4b55b00dbcae1d4f642ee458f498ee0b2b31262df",
+          "has_object": false
+        },
+        "current_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "4190c40da4709a758efbd84f8effacfa3b76413c7c9e5e833eb2f2826472bcc9",
+          "has_object": false
+        },
+        "input_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "cbafb86cf9d77d278d62f29a2b253c2f8da4701e7ae6d1185fed44656cb0d49e",
+          "has_object": false
+        },
+        "best_energy_before": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "4190c40da4709a758efbd84f8effacfa3b76413c7c9e5e833eb2f2826472bcc9",
+          "has_object": false
+        },
+        "proposal_quenched": {
+          "shape": [
+            32,
+            803,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "a31520ff6f23bb1ea38d8612ebd6e998747f4bfbfc56f0f51a156db704871c6b",
+          "has_object": false
+        },
+        "current_after": {
+          "shape": [
+            32,
+            803,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "9a95b77b647d294566ae36109e79d81936e7f7d8eb176637cdad182751034c7c",
+          "has_object": false
+        },
+        "best_after": {
+          "shape": [
+            32,
+            803,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "fbd8bb5af0e17e5488e406356d4c77f3e9eca54a661e33a35cd721ba657d3632",
+          "has_object": false
+        },
+        "proposal_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "e85c2258f03a590e2ae2e2beed840b6a8fba235187d2a1b1cc03de62fa80cf78",
+          "has_object": false
+        },
+        "next_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "fa44a437e68c18eccc2050eca31195d19366ad8dd80d5c0fa8a24b886b7b719c",
+          "has_object": false
+        },
+        "best_energy_after": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "04c953b9776eaee181e5136e2bf71992ebb4a99344d855e58a79e18f51542aed",
+          "has_object": false
+        },
+        "uniform": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "7815e8ce07d2a3f0e2a6233422f43997e70b6b08385931583d94bc4f3ac7368e",
+          "has_object": false
+        },
+        "temperature": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "27adc338b0b34804e645ceb4b55b00dbcae1d4f642ee458f498ee0b2b31262df",
+          "has_object": false
+        },
+        "accepted": {
+          "shape": [
+            32
+          ],
+          "dtype": "|b1",
+          "sha256": "dbb31ea3b86a7f6650e2939e48b2f0de9553e960807daca398f1f1fa4eacc017",
+          "has_object": false
+        },
+        "accepted_uphill": {
+          "shape": [
+            32
+          ],
+          "dtype": "|b1",
+          "sha256": "864f72478029b4fd4d5134d767fbbad26a1516b4ef81dbc2f1da06f4205323a9",
+          "has_object": false
+        },
+        "metadata_json": {
+          "shape": [
+            62191
+          ],
+          "dtype": "|u1",
+          "sha256": "b7ffe35d984d80960e216d11780a9145857b0d0caad8b258b2025cefbe15e129",
+          "has_object": false
+        }
+      },
+      "metadata_json_included_and_byte_exact": true,
+      "metadata_json_dtype": "|u1",
+      "metadata_json_shape": [
+        62191
+      ],
+      "plain_bytes": 4387447,
+      "dedup_bytes": 1460950,
+      "fraction": 0.33298407935184177,
+      "unique_blocks": 923,
+      "plain_seconds": [
+        0.00519638900004793,
+        0.006234906002646312,
+        0.009022443002322689
+      ],
+      "encode_seconds": [
+        0.0066990880004595965,
+        0.005000475997803733,
+        0.0036320859944680706
+      ],
+      "decode_seconds": [
+        0.006453387002693489,
+        0.004144448997976724,
+        0.0038680989964632317
+      ],
+      "median_plain_seconds": 0.006234906002646312,
+      "median_encode_seconds": 0.005000475997803733,
+      "median_decode_seconds": 0.004144448997976724,
+      "all_fields_shape_dtype_byteorder_and_bytes_exact": true,
+      "original_field_order_preserved": false,
+      "independent_packet": true,
+      "repeats": 3
+    },
+    {
+      "source": {
+        "path": "artifacts/fq-cold-transfer-packet-fixtures-v1/outputs/case-803/raw-hop/packet-0248.npz",
+        "sha256": "ba139f8bd792b27b2c651eca4e53b2240dcd4dd8db200493de3184d5b5ed580f"
+      },
+      "n": 803,
+      "arrays": {
+        "current_before_reset": {
+          "shape": [
+            32,
+            803,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "46fede360b71312a766db6b84ed777ad08fb97a3d46afc4e0cdb5494bb3c964c",
+          "has_object": false
+        },
+        "pre_reset_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "7a8e231647f3a5d02a750214770a9e18f3ece156463f7467c958d7e0156ebacb",
+          "has_object": false
+        },
+        "current_before": {
+          "shape": [
+            32,
+            803,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "46fede360b71312a766db6b84ed777ad08fb97a3d46afc4e0cdb5494bb3c964c",
+          "has_object": false
+        },
+        "proposal_input": {
+          "shape": [
+            32,
+            803,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "62add89c14fce25e384abbe771acd8148d8c4bcbef7bcd8af2378129df1ae1b2",
+          "has_object": false
+        },
+        "best_before": {
+          "shape": [
+            32,
+            803,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "974c615edd959b21efaa311798f0efcb1a075d9f29e73992001683ffe04e6080",
+          "has_object": false
+        },
+        "sides": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "fc1a6318562be9b7c6bb20ae0f80ae92d86e4683b05af6679bf255e38b8dad36",
+          "has_object": false
+        },
+        "base_temperature": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "27adc338b0b34804e645ceb4b55b00dbcae1d4f642ee458f498ee0b2b31262df",
+          "has_object": false
+        },
+        "current_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "7a8e231647f3a5d02a750214770a9e18f3ece156463f7467c958d7e0156ebacb",
+          "has_object": false
+        },
+        "input_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "032d24de40c08e812e07a09190052f8ef1b049e3fa4cde7b87f1779f737e13f7",
+          "has_object": false
+        },
+        "best_energy_before": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "8782482d528fd66cd026505c1fb02b2bb9141ab50eebb4b63ca9922ddc4bb5dd",
+          "has_object": false
+        },
+        "proposal_quenched": {
+          "shape": [
+            32,
+            803,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "d3e9b551041fff5d5457857d500a3e921f74ad92a65ec879195dd041e9668186",
+          "has_object": false
+        },
+        "current_after": {
+          "shape": [
+            32,
+            803,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "457e806b0f48041a5cd16013e99b5e9620f6c721e94c4f43d011ff83a7167e9a",
+          "has_object": false
+        },
+        "best_after": {
+          "shape": [
+            32,
+            803,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "974c615edd959b21efaa311798f0efcb1a075d9f29e73992001683ffe04e6080",
+          "has_object": false
+        },
+        "proposal_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "308a94b1c6e08dc9f15b0d4dc735738e55b9210e63c7a0a57c28ed52f756088c",
+          "has_object": false
+        },
+        "next_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "9db7a85e938755c6c8184c00604490aa8d24534b800e9b171c5ff257c2a27002",
+          "has_object": false
+        },
+        "best_energy_after": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "8782482d528fd66cd026505c1fb02b2bb9141ab50eebb4b63ca9922ddc4bb5dd",
+          "has_object": false
+        },
+        "uniform": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "ae81285ef749720a9442e326c1bea31da1cc881635ed15955f97c9408e5a794d",
+          "has_object": false
+        },
+        "temperature": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "d4340a0a140ffb5a4c8bd8bc1f4943dbc65372eb8ed9b7d38ca73bd6b39b8bba",
+          "has_object": false
+        },
+        "accepted": {
+          "shape": [
+            32
+          ],
+          "dtype": "|b1",
+          "sha256": "45e7d6d5a115b54615eb8a55ec9fb5e8d6b7e0d38c2882c43c6ec91690cce8bb",
+          "has_object": false
+        },
+        "accepted_uphill": {
+          "shape": [
+            32
+          ],
+          "dtype": "|b1",
+          "sha256": "db04feb7a958fd871d20a1e5c2ef9e75514ea9bcdb2350b1ff291081d4bf29d1",
+          "has_object": false
+        },
+        "metadata_json": {
+          "shape": [
+            62150
+          ],
+          "dtype": "|u1",
+          "sha256": "13d3f45547c8d07e20c6efaddd1013eb09ec8ca63e9c4af2213372e8c903bd61",
+          "has_object": false
+        }
+      },
+      "metadata_json_included_and_byte_exact": true,
+      "metadata_json_dtype": "|u1",
+      "metadata_json_shape": [
+        62150
+      ],
+      "plain_bytes": 4387406,
+      "dedup_bytes": 1984757,
+      "fraction": 0.4523759597356616,
+      "unique_blocks": 1274,
+      "plain_seconds": [
+        0.009609621003619395,
+        0.011849471993627958,
+        0.0034489680037950166
+      ],
+      "encode_seconds": [
+        0.004317714003263973,
+        0.004415175004396588,
+        0.005559928002185188
+      ],
+      "decode_seconds": [
+        0.004102967999642715,
+        0.00390084399987245,
+        0.0037657789944205433
+      ],
+      "median_plain_seconds": 0.009609621003619395,
+      "median_encode_seconds": 0.004415175004396588,
+      "median_decode_seconds": 0.00390084399987245,
+      "all_fields_shape_dtype_byteorder_and_bytes_exact": true,
+      "original_field_order_preserved": false,
+      "independent_packet": true,
+      "repeats": 3
+    },
+    {
+      "source": {
+        "path": "artifacts/fq-cold-transfer-packet-fixtures-v1/outputs/case-861/raw-hop/packet-0001.npz",
+        "sha256": "74a913be4b583e378ef845be2a0a1868e5a11e753a333b9f8b11a8215d054cfc"
+      },
+      "n": 861,
+      "arrays": {
+        "current_before_reset": {
+          "shape": [
+            32,
+            861,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "a90cb0111f182d29d7d087f43ee8d1c50ee8b5b73f2b41b738fbd7328f506b15",
+          "has_object": false
+        },
+        "pre_reset_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "53038c726ba457529a673ff3138080b550b58fb88533da87f6ce45db0513282c",
+          "has_object": false
+        },
+        "current_before": {
+          "shape": [
+            32,
+            861,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "a90cb0111f182d29d7d087f43ee8d1c50ee8b5b73f2b41b738fbd7328f506b15",
+          "has_object": false
+        },
+        "proposal_input": {
+          "shape": [
+            32,
+            861,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "eff977cf25b7dead0444cf098f824c8c921088f9ad4690330151c9e594dedba5",
+          "has_object": false
+        },
+        "best_before": {
+          "shape": [
+            32,
+            861,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "a90cb0111f182d29d7d087f43ee8d1c50ee8b5b73f2b41b738fbd7328f506b15",
+          "has_object": false
+        },
+        "sides": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "62b3f05181338bfb963970360fba84d808e025d01e4e55c5dfd39cd8e98a25d3",
+          "has_object": false
+        },
+        "base_temperature": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "27adc338b0b34804e645ceb4b55b00dbcae1d4f642ee458f498ee0b2b31262df",
+          "has_object": false
+        },
+        "current_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "53038c726ba457529a673ff3138080b550b58fb88533da87f6ce45db0513282c",
+          "has_object": false
+        },
+        "input_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "36a20608d1bd8aa41bb1d1c5d26482882d6748851a39e824e84df7a77091f580",
+          "has_object": false
+        },
+        "best_energy_before": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "53038c726ba457529a673ff3138080b550b58fb88533da87f6ce45db0513282c",
+          "has_object": false
+        },
+        "proposal_quenched": {
+          "shape": [
+            32,
+            861,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "e8ce9e095c7c7b5f8207e21998aee602469aeb4b99953fababf1ec7403e56272",
+          "has_object": false
+        },
+        "current_after": {
+          "shape": [
+            32,
+            861,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "3a35d10b71fa775dee276d9f9b222dd62ee46bc7189b017e75a8ebff827d569a",
+          "has_object": false
+        },
+        "best_after": {
+          "shape": [
+            32,
+            861,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "32536c7fac720ca6d6e41d2e244b5700d33ad2c0f02dc9180239d40c85102f72",
+          "has_object": false
+        },
+        "proposal_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "0ce477482c2851c3e4e20e5e52189fb06ee402bf321decce56de2dbe8a67e9fb",
+          "has_object": false
+        },
+        "next_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "0e2a6f00ca54306ab3bd5c32ea5eb5bf2cbee7327cc240841ee679e098e45fcc",
+          "has_object": false
+        },
+        "best_energy_after": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "2e472cbd283ed6e04c20917c117efcc8e7df1e4a84e4a219c851989536361e7e",
+          "has_object": false
+        },
+        "uniform": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "8adb62cf5dfa0f85485f358a66ee93c8d9e924afd56ab80c04ba38338626aae4",
+          "has_object": false
+        },
+        "temperature": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "27adc338b0b34804e645ceb4b55b00dbcae1d4f642ee458f498ee0b2b31262df",
+          "has_object": false
+        },
+        "accepted": {
+          "shape": [
+            32
+          ],
+          "dtype": "|b1",
+          "sha256": "79fb2f1610024dcf8a7ec0e5bbe7972da5ab62e3d42d3a26754132a6a904cc9e",
+          "has_object": false
+        },
+        "accepted_uphill": {
+          "shape": [
+            32
+          ],
+          "dtype": "|b1",
+          "sha256": "658fce7342d3c8e1edebd0ef0b72612346500b72ceeb1aeed11845f1ad1401f6",
+          "has_object": false
+        },
+        "metadata_json": {
+          "shape": [
+            62196
+          ],
+          "dtype": "|u1",
+          "sha256": "b6c5794528b1b1c4f0686602dd830f8d7a808cf7ef45b414caa6e97907c93f41",
+          "has_object": false
+        }
+      },
+      "metadata_json_included_and_byte_exact": true,
+      "metadata_json_dtype": "|u1",
+      "metadata_json_shape": [
+        62196
+      ],
+      "plain_bytes": 4699260,
+      "dedup_bytes": 1560555,
+      "fraction": 0.3320852644884514,
+      "unique_blocks": 994,
+      "plain_seconds": [
+        0.010973483003908768,
+        0.0026495109996176325,
+        0.004001802997663617
+      ],
+      "encode_seconds": [
+        0.0038612400021520443,
+        0.0039381750029861,
+        0.00400091300252825
+      ],
+      "decode_seconds": [
+        0.0036100770012126304,
+        0.0035670259967446327,
+        0.003920155002560932
+      ],
+      "median_plain_seconds": 0.004001802997663617,
+      "median_encode_seconds": 0.0039381750029861,
+      "median_decode_seconds": 0.0036100770012126304,
+      "all_fields_shape_dtype_byteorder_and_bytes_exact": true,
+      "original_field_order_preserved": false,
+      "independent_packet": true,
+      "repeats": 3
+    },
+    {
+      "source": {
+        "path": "artifacts/fq-cold-transfer-packet-fixtures-v1/outputs/case-861/raw-hop/packet-0238.npz",
+        "sha256": "9d77d9c1684c8f26b6e2fed6fbbe5f9addf054641114a185a2d337432f23e217"
+      },
+      "n": 861,
+      "arrays": {
+        "current_before_reset": {
+          "shape": [
+            32,
+            861,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "b85ab37e81fda1da7d7af4f0a962e1e73c15d664de1994ffd95a97c170ed5453",
+          "has_object": false
+        },
+        "pre_reset_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "fcda6697c4e9ebea5788a9b7ff973910743f3bc653ce5d0a02d8645fe918ac7d",
+          "has_object": false
+        },
+        "current_before": {
+          "shape": [
+            32,
+            861,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "b85ab37e81fda1da7d7af4f0a962e1e73c15d664de1994ffd95a97c170ed5453",
+          "has_object": false
+        },
+        "proposal_input": {
+          "shape": [
+            32,
+            861,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "e9ccbff086f356563f0efac3dfa6d8d036c29211dc0a4b6c7a9425fe6b54f9a8",
+          "has_object": false
+        },
+        "best_before": {
+          "shape": [
+            32,
+            861,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "c8fea6793f8c8d4f374ed768d18a69173e284d01d14dadb4bb8690279f18dc7e",
+          "has_object": false
+        },
+        "sides": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "62b3f05181338bfb963970360fba84d808e025d01e4e55c5dfd39cd8e98a25d3",
+          "has_object": false
+        },
+        "base_temperature": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "27adc338b0b34804e645ceb4b55b00dbcae1d4f642ee458f498ee0b2b31262df",
+          "has_object": false
+        },
+        "current_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "fcda6697c4e9ebea5788a9b7ff973910743f3bc653ce5d0a02d8645fe918ac7d",
+          "has_object": false
+        },
+        "input_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "b7fe0bba96e88eee8ee28a6cbb052f5733b0601cea03e423368fb9c573f91832",
+          "has_object": false
+        },
+        "best_energy_before": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "39db8f569d2df9125d89da412226e83dc8c4cb1c3e564d1f99bdd40f40714be3",
+          "has_object": false
+        },
+        "proposal_quenched": {
+          "shape": [
+            32,
+            861,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "6414e2012c8837637fbc215b00643d6e741ae330433b0362fd3feac0f2c87bcf",
+          "has_object": false
+        },
+        "current_after": {
+          "shape": [
+            32,
+            861,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "5c48ff1b5e8cf54bcfe81caf42eb623a721345752b18fe9df0194da239ef821c",
+          "has_object": false
+        },
+        "best_after": {
+          "shape": [
+            32,
+            861,
+            3
+          ],
+          "dtype": "<f8",
+          "sha256": "a2a03c34aa17f76025a1d65039ef66f652d6641f7f8c761b44a2f228e0683e5d",
+          "has_object": false
+        },
+        "proposal_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "3ce05efe4f9b876568a8738acd3b3cf6809538dbc6494c9dd4f563cef411898d",
+          "has_object": false
+        },
+        "next_energy": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "d79faffede65b5939367f00f5009bc70e94e2e819faa13bccf4f3230e37b474c",
+          "has_object": false
+        },
+        "best_energy_after": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "fc29957caec60c4b9382cd8a4977d11ee863e9d64d37cc3913b7172ea6860153",
+          "has_object": false
+        },
+        "uniform": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "cbca3d346e2d0f6f96f66c217e6f20f52e268449479ddcb2220c5948c1312c42",
+          "has_object": false
+        },
+        "temperature": {
+          "shape": [
+            32
+          ],
+          "dtype": "<f8",
+          "sha256": "d4340a0a140ffb5a4c8bd8bc1f4943dbc65372eb8ed9b7d38ca73bd6b39b8bba",
+          "has_object": false
+        },
+        "accepted": {
+          "shape": [
+            32
+          ],
+          "dtype": "|b1",
+          "sha256": "e251680e4eb11642e218d8c51cbc9e2acbb4b16f9d1718acfc4a8b4b8ae9d78d",
+          "has_object": false
+        },
+        "accepted_uphill": {
+          "shape": [
+            32
+          ],
+          "dtype": "|b1",
+          "sha256": "1eb50e78e6dfb0a4725fb71ba0443c3129a6822213f3d40da2439fcd2bced580",
+          "has_object": false
+        },
+        "metadata_json": {
+          "shape": [
+            63018
+          ],
+          "dtype": "|u1",
+          "sha256": "f69cc4af6bbe9aab96be14dd3be1f8ba23ecce5e0449ac76ec2aa1047a8eacf7",
+          "has_object": false
+        }
+      },
+      "metadata_json_included_and_byte_exact": true,
+      "metadata_json_dtype": "|u1",
+      "metadata_json_shape": [
+        63018
+      ],
+      "plain_bytes": 4700082,
+      "dedup_bytes": 2022513,
+      "fraction": 0.4303144072805538,
+      "unique_blocks": 1303,
+      "plain_seconds": [
+        0.013482413000019733,
+        0.00443552100477973,
+        0.011550303002877627
+      ],
+      "encode_seconds": [
+        0.005238243997155223,
+        0.005044671997893602,
+        0.004457488001207821
+      ],
+      "decode_seconds": [
+        0.0044249989950913005,
+        0.0047181930058286525,
+        0.004180985000857618
+      ],
+      "median_plain_seconds": 0.011550303002877627,
+      "median_encode_seconds": 0.005044671997893602,
+      "median_decode_seconds": 0.0044249989950913005,
+      "all_fields_shape_dtype_byteorder_and_bytes_exact": true,
+      "original_field_order_preserved": false,
+      "independent_packet": true,
+      "repeats": 3
+    }
+  ],
+  "actual_individual_packets": 4,
+  "repeats_per_packet": 3,
+  "metadata_json_included": true,
+  "synthetic_mixedN_endian_dtype_case_passed": true,
+  "scalar_shape_defect": {
+    "input_shape": [],
+    "output_shape": [
+      1
+    ],
+    "preserved": false
+  },
+  "truncation_tests": [
+    {
+      "retained_bytes": 0,
+      "rejected": true
+    },
+    {
+      "retained_bytes": 1,
+      "rejected": true
+    },
+    {
+      "retained_bytes": 1488,
+      "rejected": true
+    },
+    {
+      "retained_bytes": 2975,
+      "rejected": true
+    }
+  ],
+  "valid_zip_pool_tamper_not_detected": true,
+  "encoder_accepts_object_pickle": true,
+  "decoder_rejects_object_pickle": true,
+  "requires_new_standalone_codec_before_production": true,
+  "no_gpu": true,
+  "no_search": true,
+  "no_production_consumer_or_frozen_job_changed": true,
+  "limitations": [
+    "Four B32 historical fixtures only; not measured B64 sustained packet workload.",
+    "Literal0d arrays become1d in the original probe; metadata_json in these actual packets is1d uint8.",
+    "Probe decoder lacks per-array content hashes, strict block/index schema bounds and explicit no-object encoder policy.",
+    "Timing includes in-memory serialization only; no fsync/index publication or search-coverage conclusion."
+  ]
+}

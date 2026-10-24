@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-24T16:01:59.557870+00:00",
+  "canonical_proof": "/workspace/squares_in_squares/artifacts/submission-fq-sustained-controls-v1-safe.transport-validation.json",
+  "canonical_proof_sha256": "145ad371d046f8a1ac94c70be3906f4672517730a5715f7a83bb8936d6127b39",
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "competition_submission_performed": false,
+  "raw": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-sustained-controls-v1.csv",
+    "sha256": "77072a68f862fc166264825aa19a1eb867692bf280ca531965499fab2e6baea0",
+    "score": 22.297959981773438,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-fq-sustained-controls-v1-official.json",
+    "official_report_sha256": "a379ea912b16480c352934f3c4a5205acd8d2e3040317e15c8cf58c271bb4483",
+    "reuse": {
+      "reused": 998,
+      "evaluated": 2
+    }
+  },
+  "safe": {
+    "path": "/workspace/squares_in_squares/artifacts/submission-fq-sustained-controls-v1-safe.csv",
+    "sha256": "3c4cfc19361e51e903b3d4c4018dc4ede002ce97f58071ad153207674cd28a2a",
+    "score": 22.297959982438545,
+    "official_report": "/workspace/squares_in_squares/artifacts/submission-fq-sustained-controls-v1-safe-official.json",
+    "official_report_sha256": "0bf98722a2e964a9966418a7cbd0d985ccb58fe2637ec9b5e465c4c470221b74",
+    "reuse": {
+      "reused": 998,
+      "evaluated": 2
+    }
+  },
+  "roundtrip": {
+    "path": "/workspace/squares_in_squares/artifacts/submission-fq-sustained-controls-v1-safe-roundtrip.csv",
+    "sha256": "71839809dc403b72fdc200add25656b3f3c6c34f8fbbcec73bbb73ac08201c61",
+    "score": 22.297959982438545,
+    "official_report": "/workspace/squares_in_squares/artifacts/submission-fq-sustained-controls-v1-safe-roundtrip-official.json",
+    "official_report_sha256": "f15b889ba809d5e67653f049615a585964db391e49b20937914e7e4de22c0541",
+    "reuse": {
+      "reused": 998,
+      "evaluated": 2
+    }
+  },
+  "independent_report": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-sustained-controls-v1.validation.json",
+    "sha256": "aff6df981e80a6dfd05ab6a725a7a37562d8af569485cb78ddabbcf0563e96ad"
+  },
+  "user_submission_score_threshold": 22.3,
+  "eligible_under_user_score_threshold": true
+}

@@ -1,0 +1,10 @@
+{
+  "source_sha256": "73c2518bf7d94e1b3fa1aa622f4b4a76cd8abdcdba862504bbbdf772eec34dec",
+  "source_bytes": 905073,
+  "files": 153,
+  "input_sha256": "4ad3d328d311d142f1e46ad993b4d02e7d1b310d478c639a32f95d1248dfe3b4",
+  "no_launch": true,
+  "actual_gpu_controls_required": true,
+  "whole_seconds": 600,
+  "server_seconds": 720
+}

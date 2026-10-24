@@ -1,0 +1,153 @@
+{
+  "source_csv": "artifacts/public-v35/files/submission.csv",
+  "source_sha256": "b8be571167c0d51693cdce9ac07187098a0d38bceef0d9e25d347d067e4eb6b9",
+  "archive_sha256": "55d9284e8d1f75dbe694bd8437ea202acc4f7e738f3b42b85567c082c69103c3",
+  "members_preserved": 2250,
+  "baseline": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-sustained-controls-v1.csv",
+    "sha256": "77072a68f862fc166264825aa19a1eb867692bf280ca531965499fab2e6baea0",
+    "score": 22.297959981773438,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-fq-sustained-controls-v1-official.json",
+    "official_report_sha256": "a379ea912b16480c352934f3c4a5205acd8d2e3040317e15c8cf58c271bb4483",
+    "reuse": {
+      "reused": 998,
+      "evaluated": 2
+    }
+  },
+  "pointer_sha256": "b767493c0af2e6c0eced5eee6ecdc27642d85298d55e1a7af16af2d7b8a5b169",
+  "pointer_changed_during_screen": false,
+  "rows": 500500,
+  "puzzles": 1000,
+  "schema_and_finite_counts_valid": true,
+  "promising_count": 18,
+  "estimated_gain": 6.435195799460973e-05,
+  "candidates": [
+    {
+      "n": 978,
+      "public_actual_float_side": 31.77884937717209,
+      "baseline_official_side": "31.77951694458250257695706655684211666303124616288009",
+      "side_gain": 0.0006675674104137386,
+      "estimated_score_gain": 2.134645192201746e-05
+    },
+    {
+      "n": 983,
+      "public_actual_float_side": 31.821622249110227,
+      "baseline_official_side": "31.82200257149073674066016316221693705655198812990365",
+      "side_gain": 0.00038032238050789147,
+      "estimated_score_gain": 1.2130400051404334e-05
+    },
+    {
+      "n": 863,
+      "public_actual_float_side": 29.847149450362902,
+      "baseline_official_side": "29.84734006182084306110192604568742996598883870829376",
+      "side_gain": 0.00019061145794196932,
+      "estimated_score_gain": 6.488489487320759e-06
+    },
+    {
+      "n": 804,
+      "public_actual_float_side": 28.831668970580047,
+      "baseline_official_side": "28.83181861894546443905306610757924134405853220508150",
+      "side_gain": 0.00014964836541864202,
+      "estimated_score_gain": 5.27769092342223e-06
+    },
+    {
+      "n": 509,
+      "public_actual_float_side": 22.990768742446058,
+      "baseline_official_side": "22.99087804839778594750061112251521946670384815871652",
+      "side_gain": 0.00010930595172808921,
+      "estimated_score_gain": 4.8449011301643215e-06
+    },
+    {
+      "n": 602,
+      "public_actual_float_side": 24.978013497399516,
+      "baseline_official_side": "24.97811581390818383417019983081716593099298289885607",
+      "side_gain": 0.00010231650866643349,
+      "estimated_score_gain": 4.1701095744919825e-06
+    },
+    {
+      "n": 753,
+      "public_actual_float_side": 27.90108147397657,
+      "baseline_official_side": "27.90115375776651500000000000000000000000000000000000",
+      "side_gain": 7.228378994383888e-05,
+      "estimated_score_gain": 2.6341677419548805e-06
+    },
+    {
+      "n": 867,
+      "public_actual_float_side": 29.88979951913787,
+      "baseline_official_side": "29.88984375249567207340233930394999422069587834540353",
+      "side_gain": 4.423335780145976e-05,
+      "estimated_score_gain": 1.5022435902255193e-06
+    },
+    {
+      "n": 705,
+      "public_actual_float_side": 26.98524323807122,
+      "baseline_official_side": "26.98527893316118161601139880359561028864295518333202",
+      "side_gain": 3.569508996292825e-05,
+      "estimated_score_gain": 1.344354862526762e-06
+    },
+    {
+      "n": 651,
+      "public_actual_float_side": 25.958668919350313,
+      "baseline_official_side": "25.95870315890644562097415644935283996220023464178292",
+      "side_gain": 3.42395561325759e-05,
+      "estimated_score_gain": 1.3419540079224525e-06
+    },
+    {
+      "n": 985,
+      "public_actual_float_side": 31.848264320592417,
+      "baseline_official_side": "31.84830289692327533900139805148811105694645820639181",
+      "side_gain": 3.857633085857515e-05,
+      "estimated_score_gain": 1.229144105048257e-06
+    },
+    {
+      "n": 984,
+      "public_actual_float_side": 31.839828190871625,
+      "baseline_official_side": "31.83985302733599498725139432188969743081047599643650",
+      "side_gain": 2.4836464369570876e-05,
+      "estimated_score_gain": 7.917575658432858e-07
+    },
+    {
+      "n": 465,
+      "public_actual_float_side": 21.995188912246846,
+      "baseline_official_side": "21.99519709175385398046053140092049921642362569264817",
+      "side_gain": 8.179507009486997e-06,
+      "estimated_score_gain": 3.7931555484420566e-07
+    },
+    {
+      "n": 652,
+      "public_actual_float_side": 25.97662691052796,
+      "baseline_official_side": "25.97663614069385784412346048375133891054598254684761",
+      "side_gain": 9.230165900930842e-06,
+      "estimated_score_gain": 3.614811948513296e-07
+    },
+    {
+      "n": 809,
+      "public_actual_float_side": 28.898298804858005,
+      "baseline_official_side": "28.89830629890016695580792189796075440509553045095053",
+      "side_gain": 7.4940421619373865e-06,
+      "estimated_score_gain": 2.6347649129408444e-07
+    },
+    {
+      "n": 423,
+      "public_actual_float_side": 20.996535962379507,
+      "baseline_official_side": "20.99653930836439008405127600654825112226438978279414",
+      "side_gain": 3.345984882940911e-06,
+      "estimated_score_gain": 1.6268735216741989e-07
+    },
+    {
+      "n": 706,
+      "public_actual_float_side": 26.99396734147449,
+      "baseline_official_side": "26.99396897946484307001565549947244638341990248459347",
+      "side_gain": 1.6379903513552563e-06,
+      "estimated_score_gain": 6.164658009410374e-08
+    },
+    {
+      "n": 754,
+      "public_actual_float_side": 27.90821549994356,
+      "baseline_official_side": "27.90821609541687200000000000000000000000000000000000",
+      "side_gain": 5.954733133251011e-07,
+      "estimated_score_gain": 2.1685859016335002e-08
+    }
+  ],
+  "scope": "Float64 actual corner-span screen only; no feasibility certificate or canonical mutation. Strictpromising cases stillneed fullraw/defaultpandas/interval gates."
+}

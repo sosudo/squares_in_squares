@@ -1,0 +1,14 @@
+{
+  "00-report.json": {
+    "original_path": "artifacts/fq-packet-dedup-probe-v1/report.json",
+    "sha256": "19e5866cd06a84b9c67de75781fc1b5d495f32e3820c40252fe6f7497eb43fb2"
+  },
+  "01-report.json": {
+    "original_path": "artifacts/fq-packet-dedup-independent-review-v1/report.json",
+    "sha256": "8a891d8573f5c7a185202ebfbafb5b950302c5d30bc45025503af271e067178d"
+  },
+  "02-read-only-proof.json": {
+    "original_path": "artifacts/p100-availability-audit-v1/read-only-proof.json",
+    "sha256": "92d1433d0669f95eadac1353d713ec07531bb8252d8a951ac2697670110b46c2"
+  }
+}

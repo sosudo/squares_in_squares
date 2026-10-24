@@ -1,0 +1,330 @@
+{
+  "cases": {
+    "978": {
+      "n": 978,
+      "reference_side": "31.77884937717209103000000000000000000000000000000000",
+      "source_key": "reference_978",
+      "device": 0,
+      "source_geometry_sha256": "d702ff5519855c5e0b22b87057a19b4defd8b525b528cc8f7565e15f0a6af9b5"
+    },
+    "983": {
+      "n": 983,
+      "reference_side": "31.82162224911022784863864950981599403180007691242007",
+      "source_key": "reference_983",
+      "device": 1,
+      "source_geometry_sha256": "8e3d31b63308cc0408da28b6179d7c0bd8e49ee94c264d6f9dfef26321966311"
+    },
+    "863": {
+      "n": 863,
+      "reference_side": "29.84714945036290140621881841140407503899540304999643",
+      "source_key": "reference_863",
+      "device": 2,
+      "source_geometry_sha256": "744aa4be34d892d3b2f6ecf317ada4167c1f79ab7705f9ccbed5cf171ba03e6d"
+    },
+    "804": {
+      "n": 804,
+      "reference_side": "28.83166897058004568752148865187389203021721263987746",
+      "source_key": "reference_804",
+      "device": 3,
+      "source_geometry_sha256": "0a83d1aeae0a9791184d909f3a5d7d020bf1267d3345fd7d2cd00596a6916b16"
+    },
+    "509": {
+      "n": 509,
+      "reference_side": "22.99076874244605877046133328689876145427387547516060",
+      "source_key": "reference_509",
+      "device": 4,
+      "source_geometry_sha256": "b71058da2f85696592e39e77f1d26020a4b9251473fffd90e6ec9e30b3690500"
+    },
+    "602": {
+      "n": 602,
+      "reference_side": "24.97801349739951824539959128636190261975551372994595",
+      "source_key": "reference_602",
+      "device": 5,
+      "source_geometry_sha256": "eb0c5912d6effe70f5026294b4fb2b53efd0b63dcb6a8576a6e5d6867b2ce9f3"
+    },
+    "753": {
+      "n": 753,
+      "reference_side": "27.90108147397657203000000000000000000000000000000000",
+      "source_key": "reference_753",
+      "device": 6,
+      "source_geometry_sha256": "47eb16639c49e9a12f04bba7d470bc0db2633d23c2ed8942ef7772ce1d0ab7f4"
+    },
+    "867": {
+      "n": 867,
+      "reference_side": "29.88979951913787046291316049116805030432951771094645",
+      "source_key": "reference_867",
+      "device": 7,
+      "source_geometry_sha256": "1b732fd519cead36a254bc7bdfeccdc9f220ab0038569b4e8cfc0d8ff7053cd4"
+    },
+    "705": {
+      "n": 705,
+      "reference_side": "26.98524323807121984231283713571299221073977594644566",
+      "source_key": "reference_705",
+      "device": 8,
+      "source_geometry_sha256": "e6d58f67caf841396266709207212ed2204bfde8265ed97cdbb42c15c0d6eeb5"
+    },
+    "651": {
+      "n": 651,
+      "reference_side": "25.95866891935031452590508107958515924900970500700768",
+      "source_key": "reference_651",
+      "device": 9,
+      "source_geometry_sha256": "19621da3702859ab5a36a96da3234b75ede30a2ec4c831753ac9c86edee1f79b"
+    },
+    "985": {
+      "n": 985,
+      "reference_side": "31.84826432059241816582099560831458492626845209220717",
+      "source_key": "reference_985",
+      "device": 10,
+      "source_geometry_sha256": "11261864daacc00a097639e3f40f61f5d8486c40906f44f2cf5e89c622694e0e"
+    },
+    "984": {
+      "n": 984,
+      "reference_side": "31.83982819087162489226978153146604397860076789109264",
+      "source_key": "reference_984",
+      "device": 11,
+      "source_geometry_sha256": "2c52a4538e67920d012ceefcd9671f1d5ca296b731b54a695564f196e27b6cd8"
+    },
+    "465": {
+      "n": 465,
+      "reference_side": "21.99518891224684417574822276038908974193581405549505",
+      "source_key": "reference_465",
+      "device": 12,
+      "source_geometry_sha256": "5e7d5e8e6f0ea5c7679ee8524f83a527a2d9f67db59e3a3a21a42c462b80b020"
+    },
+    "652": {
+      "n": 652,
+      "reference_side": "25.97662691052795746183960218494991472705318374035247",
+      "source_key": "reference_652",
+      "device": 13,
+      "source_geometry_sha256": "68aff448cf9c205e397d53c60f836cd3f89d455c3db961baa3cba26b0d4c98b5"
+    },
+    "809": {
+      "n": 809,
+      "reference_side": "28.89829880485800471975226741008132991458079081509675",
+      "source_key": "reference_809",
+      "device": 14,
+      "source_geometry_sha256": "6aeaf566a7920032903d673b4a3f312c9ee3fb588c7a669e91a75b63e98d9dab"
+    },
+    "423": {
+      "n": 423,
+      "reference_side": "20.99653596237950859392630056264899044709095323636809",
+      "source_key": "reference_423",
+      "device": 15,
+      "source_geometry_sha256": "131c499dfabe0dcd8ccf15fb184b7b87f632760a302d2c50cadf85e40216b48f"
+    },
+    "706": {
+      "n": 706,
+      "reference_side": "26.99396734147448910415412464626581445169088847591305",
+      "source_key": "reference_706",
+      "device": 16,
+      "source_geometry_sha256": "0d17ad8fbc56935475591126f040196f8bd7cf3b540b16466470d41ce73df5fe"
+    },
+    "754": {
+      "n": 754,
+      "reference_side": "27.90821549994355903000000000000000000000000000000000",
+      "source_key": "reference_754",
+      "device": 17,
+      "source_geometry_sha256": "d6cc11f2ca6842b87fb47d89da94dbbadec282180a8ef1d2024d4d252b66d75c"
+    }
+  },
+  "slots": [
+    {
+      "slot": 0,
+      "n": 978,
+      "key": "reference_978",
+      "role": "original_reference",
+      "geometry_sha256": "d702ff5519855c5e0b22b87057a19b4defd8b525b528cc8f7565e15f0a6af9b5",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "1907d47382dea1f51d4b7175b62b78013a62d2f16a3cc4d1d1127810dee3f77a"
+    },
+    {
+      "slot": 1,
+      "n": 983,
+      "key": "reference_983",
+      "role": "original_reference",
+      "geometry_sha256": "8e3d31b63308cc0408da28b6179d7c0bd8e49ee94c264d6f9dfef26321966311",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "5c3a2f8f7583d1b185b4d56eaff5b0cb802aa8b6319538cc2d66f6a674686cff"
+    },
+    {
+      "slot": 2,
+      "n": 863,
+      "key": "reference_863",
+      "role": "original_reference",
+      "geometry_sha256": "744aa4be34d892d3b2f6ecf317ada4167c1f79ab7705f9ccbed5cf171ba03e6d",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "6af92495dc38f1d359fbbf88908e19eac502895f611dadaf5663792e09b50c51"
+    },
+    {
+      "slot": 3,
+      "n": 804,
+      "key": "reference_804",
+      "role": "original_reference",
+      "geometry_sha256": "0a83d1aeae0a9791184d909f3a5d7d020bf1267d3345fd7d2cd00596a6916b16",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "d4eaf16496960ca4c09dc4fc1378f131ace2c2a97fbf230ee1d27909ccf7934a"
+    },
+    {
+      "slot": 4,
+      "n": 509,
+      "key": "reference_509",
+      "role": "original_reference",
+      "geometry_sha256": "b71058da2f85696592e39e77f1d26020a4b9251473fffd90e6ec9e30b3690500",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "9e7b8c006b6efbe3fe5d96bdfbc051286c1ecf52abb8bb45d2c4829698499b8f"
+    },
+    {
+      "slot": 5,
+      "n": 602,
+      "key": "reference_602",
+      "role": "original_reference",
+      "geometry_sha256": "eb0c5912d6effe70f5026294b4fb2b53efd0b63dcb6a8576a6e5d6867b2ce9f3",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "dc5b831f7ca1ff5ae4e28a16dc096d8749c61192241ebf64489f98c6ee897f86"
+    },
+    {
+      "slot": 6,
+      "n": 753,
+      "key": "reference_753",
+      "role": "original_reference",
+      "geometry_sha256": "47eb16639c49e9a12f04bba7d470bc0db2633d23c2ed8942ef7772ce1d0ab7f4",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "712185b87d4e2f2e3899c2805157d64a0a7025b077325a3c2213cbe2ae86779b"
+    },
+    {
+      "slot": 7,
+      "n": 867,
+      "key": "reference_867",
+      "role": "original_reference",
+      "geometry_sha256": "1b732fd519cead36a254bc7bdfeccdc9f220ab0038569b4e8cfc0d8ff7053cd4",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "c03883e946ac1a5ca703af06c1af6d224fa7f5e60e1ac6764196a56b2ff73683"
+    },
+    {
+      "slot": 8,
+      "n": 705,
+      "key": "reference_705",
+      "role": "original_reference",
+      "geometry_sha256": "e6d58f67caf841396266709207212ed2204bfde8265ed97cdbb42c15c0d6eeb5",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "6ca3bcb1259dd6c57efcdcbbcdb43081e72c5942645275d4ecf81ec819f96ae5"
+    },
+    {
+      "slot": 9,
+      "n": 651,
+      "key": "reference_651",
+      "role": "original_reference",
+      "geometry_sha256": "19621da3702859ab5a36a96da3234b75ede30a2ec4c831753ac9c86edee1f79b",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "9eccf031bca39e78a39b7e97bba9dde520fd9ca022056794d27cf86a2a945301"
+    },
+    {
+      "slot": 10,
+      "n": 985,
+      "key": "reference_985",
+      "role": "original_reference",
+      "geometry_sha256": "11261864daacc00a097639e3f40f61f5d8486c40906f44f2cf5e89c622694e0e",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "1219e5aedfb17a4a3f1f77d6b280bbe6c922a46e33e0d2546e91430a8d5712ba"
+    },
+    {
+      "slot": 11,
+      "n": 984,
+      "key": "reference_984",
+      "role": "original_reference",
+      "geometry_sha256": "2c52a4538e67920d012ceefcd9671f1d5ca296b731b54a695564f196e27b6cd8",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "da8ecf27d735632d3036d8962d842a38d1715ef2c7697fdffa6d9e1c86163132"
+    },
+    {
+      "slot": 12,
+      "n": 465,
+      "key": "reference_465",
+      "role": "original_reference",
+      "geometry_sha256": "5e7d5e8e6f0ea5c7679ee8524f83a527a2d9f67db59e3a3a21a42c462b80b020",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "c6d41eb6b5881271634ccb4c18e60767effe213372d63db5e923a5418ef50c0e"
+    },
+    {
+      "slot": 13,
+      "n": 652,
+      "key": "reference_652",
+      "role": "original_reference",
+      "geometry_sha256": "68aff448cf9c205e397d53c60f836cd3f89d455c3db961baa3cba26b0d4c98b5",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "1c536b07fa480a321aae0f5ac37c3e3a8080cd3f98329b35af73e6ffef727edb"
+    },
+    {
+      "slot": 14,
+      "n": 809,
+      "key": "reference_809",
+      "role": "original_reference",
+      "geometry_sha256": "6aeaf566a7920032903d673b4a3f312c9ee3fb588c7a669e91a75b63e98d9dab",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "c372d4df02e169b20df1459e380fdb23c6b7176c8cfaa9e999b9f43f1bd1f075"
+    },
+    {
+      "slot": 15,
+      "n": 423,
+      "key": "reference_423",
+      "role": "original_reference",
+      "geometry_sha256": "131c499dfabe0dcd8ccf15fb184b7b87f632760a302d2c50cadf85e40216b48f",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "f227c734db038b850c1e979ec5b687776de85a520e197de8695369b93a38c63b"
+    },
+    {
+      "slot": 16,
+      "n": 706,
+      "key": "reference_706",
+      "role": "original_reference",
+      "geometry_sha256": "0d17ad8fbc56935475591126f040196f8bd7cf3b540b16466470d41ce73df5fe",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "e643fa1c46937dde5ef52c2a6455af59a84ca5c2d837e4b519567bc995c56207"
+    },
+    {
+      "slot": 17,
+      "n": 754,
+      "key": "reference_754",
+      "role": "original_reference",
+      "geometry_sha256": "d6cc11f2ca6842b87fb47d89da94dbbadec282180a8ef1d2024d4d252b66d75c",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "f1f2b9d15c3608f5d2766573da1fa645461c6ad3221246b079bafb963c42e727"
+    }
+  ],
+  "baseline": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-kmmm35-v1.csv",
+    "sha256": "b39204c7f52f71cb7781c4f7f6bfb15ddc7ee801b62302a7e921680a0a858f23",
+    "score": 22.297895629815443,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-kmmm35-v1-official.json",
+    "official_report_sha256": "64db7c5703edb44705c0b3e2244b373264e17938e75e6716dfdedafd0ff06307",
+    "reuse": {
+      "reused": 982,
+      "evaluated": 18
+    }
+  },
+  "inputs_sha256": "51dc4a4494fde1bb68fff803fa2f8eb641a934378930c907bf6f4963bda3b0dd",
+  "input_proof_sha256": "c442623c574b1fe7277205cb86f466e034d52780671b24ccf21e3bf448724981",
+  "preparation_builder_sha256": "42207fe5db2dd6156128f6f917f91e6d607ff9d37767a6a71f7bc010ca829b03",
+  "preparation_cases_override": [
+    978,
+    983,
+    863,
+    804,
+    509,
+    602,
+    753,
+    867,
+    705,
+    651,
+    985,
+    984,
+    465,
+    652,
+    809,
+    423,
+    706,
+    754
+  ],
+  "input_status": "Original canonical arrays translated only; no perturbation, compression or rescaling.",
+  "inherited_gpu_defaults_unused": true
+}

@@ -1,0 +1,20 @@
+{
+  "kaggle_cli_version": "2.2.5",
+  "requested_shape": "NvidiaTeslaP100",
+  "official_installed_api_retired_mapping": "Sessions run on the default GPU (NvidiaTeslaT4) instead.",
+  "cli_documentation": "Retired accelerators such as NvidiaTeslaP100 are accepted but warn, since the session runs on a replacement instead.",
+  "status": "No supported genuine P100 benchmark route established. Installed official API explicitly maps retired P100 label to default NvidiaTeslaT4.",
+  "action": "No launch, push, cancellation, quota consumption or modification of either active T4 session.",
+  "read_only_evidence": {
+    ".venv/lib/python3.12/site-packages/kaggle/api/kaggle_api_extended.py": {
+      "sha256": "87fac121033a45f689803b62ae5bdfe879b094ae540a55902a46bb6cd5359b4d"
+    },
+    ".venv/lib/python3.12/site-packages/kaggle/cli.py": {
+      "sha256": "4a349f0cf2a8f2d622d73fa02b907a3d9baca6182c1cfb6b616ba13a4da2421b"
+    },
+    ".venv/lib/python3.12/site-packages/kagglesdk/kernels/types/kernels_api_service.py": {
+      "sha256": "a7dd65206e7fc27950385e7b163cda48a40766eb8ff7f89d7a334b9bfb151b5c"
+    }
+  },
+  "scope": "Installed official SDK/CLI source metadata; no claim of server-side GPU availability beyond the documented retirement/fallback semantics. Weekly quota lookup cannot establish availability of retired hardware."
+}

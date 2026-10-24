@@ -1,0 +1,46 @@
+{
+  "dataset": "kmmmvs/squares-in-squares-best-packings",
+  "version": 31,
+  "previous_pinned_version": 29,
+  "metadata_sha256": "4f066f7f9470aba75c42c61284941932216b3d91004b5747cf1dceeb6b2ac5ff",
+  "dataset_license_declaration": "Other (specified in description)",
+  "submission_sha256": "0dca84e8b18a0de1ec2f3f1bb8c1bd00a529c893a2591138f13231ec9109e799",
+  "files": {
+    "SOURCE_NOTICES.md": {
+      "url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/SOURCE_NOTICES.md?datasetVersionNumber=31",
+      "sha256": "ff1f69736ab286ef101d1a8675ed53a69400788169810b7a053a08671a091375",
+      "bytes": 123393,
+      "redirect_host": "storage.googleapis.com",
+      "retrieved_at": "2026-10-24T14:00:01.476898+00:00"
+    },
+    "per_puzzle_contributors.csv": {
+      "url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/per_puzzle_contributors.csv?datasetVersionNumber=31",
+      "sha256": "3f80ca06a3acdb8bb8e74efad05ce2e156e1930833f709542fe1c333593c3966",
+      "bytes": 187531,
+      "redirect_host": "storage.googleapis.com",
+      "retrieved_at": "2026-10-24T14:00:01.358666+00:00"
+    },
+    "portfolio_manifest.json": {
+      "url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/portfolio_manifest.json?datasetVersionNumber=31",
+      "sha256": "2a573352b2c7112f458c86d393364042aca5ad067dd41f9ab14bc0900920d544",
+      "bytes": 405,
+      "redirect_host": "storage.googleapis.com",
+      "retrieved_at": "2026-10-24T14:00:01.313205+00:00"
+    },
+    "per_puzzle.csv": {
+      "url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/per_puzzle.csv?datasetVersionNumber=31",
+      "sha256": "8006aa10b590fbc8f446276d5749a575a833265e75cb55ac6062792266bb4e07",
+      "bytes": 176813,
+      "redirect_host": "storage.googleapis.com",
+      "retrieved_at": "2026-10-24T14:00:01.586120+00:00"
+    },
+    "external_contributors.csv": {
+      "url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/external_contributors.csv?datasetVersionNumber=31",
+      "sha256": "1695410280e584b5b53116660d1366e80851aac1ddca31784c6500c555282e25",
+      "bytes": 2641,
+      "redirect_host": "storage.googleapis.com",
+      "retrieved_at": "2026-10-24T14:00:01.395204+00:00"
+    }
+  },
+  "scope": "Version31 is a new release whose notes identify same packing CSV as30. Only31 packing downloaded; no duplicate30 or29 coordinates fetched. Inherited source-specific terms retained, no blanket license assertion."
+}

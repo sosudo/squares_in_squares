@@ -1,0 +1,11 @@
+{
+  "sha256": "51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9",
+  "file": "artifacts\\refresh_final_submission.csv",
+  "metric_version": 17,
+  "rows": 290670,
+  "puzzles": 547,
+  "rejected": [],
+  "score": 22.307818650783023,
+  "grid_score": 28.937669916550586,
+  "elapsed_seconds": 8.442512699984945
+}

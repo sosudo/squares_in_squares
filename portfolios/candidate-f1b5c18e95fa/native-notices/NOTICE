@@ -1,0 +1,9 @@
+fq: fast smooth quench for unit-square packings
+Copyright (c) 2026 Evan Daniel. MIT license in LICENSE.
+Source: https://github.com/evand/square-packing
+Pinned commit:659ee62e4a9d39542a1146e8b011cc3ab6407ede
+
+The Rust sources are unchanged. The local Cargo manifest selects only fq.
+The original source credits Nakajima and Ostashev for soft-to-rigid search.
+Its floating-point feasibility output is a search proposal; this repository
+independently checks raw and numeric-roundtrip geometry with Kaggle metric17.

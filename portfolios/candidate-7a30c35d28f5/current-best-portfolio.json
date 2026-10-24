@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-24T16:39:57.877120+00:00",
+  "canonical_proof": "/workspace/squares_in_squares/artifacts/submission-kmmm35-v1-safe.transport-validation.json",
+  "canonical_proof_sha256": "71440cb5eb5194f1d028a2beaf001ec2012a6d40a3552c987a28d6dc64afa3c8",
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "competition_submission_performed": false,
+  "raw": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-kmmm35-v1.csv",
+    "sha256": "b39204c7f52f71cb7781c4f7f6bfb15ddc7ee801b62302a7e921680a0a858f23",
+    "score": 22.297895629815443,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-kmmm35-v1-official.json",
+    "official_report_sha256": "64db7c5703edb44705c0b3e2244b373264e17938e75e6716dfdedafd0ff06307",
+    "reuse": {
+      "reused": 982,
+      "evaluated": 18
+    }
+  },
+  "safe": {
+    "path": "/workspace/squares_in_squares/artifacts/submission-kmmm35-v1-safe.csv",
+    "sha256": "7a30c35d28f5df9f5cde6de6f831f1d4a76cd8cfbb87cc747bed395d84599e72",
+    "score": 22.297895630470705,
+    "official_report": "/workspace/squares_in_squares/artifacts/submission-kmmm35-v1-safe-official.json",
+    "official_report_sha256": "ff0860e17c7c7e3ab7ed739e686ca35ae23ea33cacb90f7ae009434ca6268cd3",
+    "reuse": {
+      "reused": 982,
+      "evaluated": 18
+    }
+  },
+  "roundtrip": {
+    "path": "/workspace/squares_in_squares/artifacts/submission-kmmm35-v1-safe-roundtrip.csv",
+    "sha256": "c261c77dce91b4a96ab84708224b8b73cf38fcad0658532924f42ce7cf380d5b",
+    "score": 22.29789563047071,
+    "official_report": "/workspace/squares_in_squares/artifacts/submission-kmmm35-v1-safe-roundtrip-official.json",
+    "official_report_sha256": "651b27746a2bcd5324f1af79c5ac66f6b9251af58242b3d43b0c03e9e4dc73b1",
+    "reuse": {
+      "reused": 982,
+      "evaluated": 18
+    }
+  },
+  "independent_report": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-kmmm35-v1.validation.json",
+    "sha256": "c502b561fd4ff1c3542c250fd4551b5f8e5a599c4f39b7c283abc50d2ace4ead"
+  },
+  "user_submission_score_threshold": 22.3,
+  "eligible_under_user_score_threshold": true
+}

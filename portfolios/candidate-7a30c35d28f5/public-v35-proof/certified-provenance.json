@@ -1,0 +1,70 @@
+{
+  "dataset": "kmmmvs/squares-in-squares-best-packings",
+  "dataset_version": 35,
+  "public_download_url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings?datasetVersionNumber=35",
+  "download_proof": {
+    "path": "artifacts/public-v35/download-proof.json",
+    "sha256": "82d3a1544d57fd95dbad172efbd58ec2a0bc033a7184d7db7b0faa9bf0d6f0fe"
+  },
+  "archive": {
+    "path": "artifacts/public-v35/dataset-v35.zip",
+    "sha256": "55d9284e8d1f75dbe694bd8437ea202acc4f7e738f3b42b85567c082c69103c3"
+  },
+  "original_csv": {
+    "path": "artifacts/public-v35/files/submission.csv",
+    "sha256": "b8be571167c0d51693cdce9ac07187098a0d38bceef0d9e25d347d067e4eb6b9"
+  },
+  "exact_decimal_subset": {
+    "path": "artifacts/public-v35/promising-exact-rows.csv",
+    "sha256": "ed80f7762a1a964e16b9b1090cc42ae29cc59c5677d841f6646e2eb4c3a66188"
+  },
+  "notices": {
+    "files/SOURCE_NOTICES.md": "8858c8531c4943018e4dc92fb2f71780f4a538bfdd7e9181b72035318eb79d16",
+    "files/LICENSE-APACHE-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "files/LICENSE-LEVY-SOURCES.txt": "9dd942ee31483b4efb61318868d80ba3b18c6bfd843a26f75fa43e08c08d8e28"
+  },
+  "all_original_download_members_preserved": true,
+  "baseline_path": "/workspace/squares_in_squares/artifacts/merged-fq-sustained-controls-v1.csv",
+  "baseline_sha256": "77072a68f862fc166264825aa19a1eb867692bf280ca531965499fab2e6baea0",
+  "certification_script": {
+    "path": "experiments/screen_public_portfolio_update.py",
+    "sha256": "a2145c46fa67158fd66275d8b9173dc6b20de3b3ddf4d3b795fad69b9ed883bd"
+  },
+  "certificate_scope": "All18 source cases passed unchanged original-decimal raw official, ordinary default-pandas official and independent interval gates. Future merged portfolio requires its own complete official/transport checks. No geometry transformation performed.",
+  "outputs": {
+    "certification-summary.json": {
+      "sha256": "46c847d962bc86dc60b5f4f635af3aa0274074c9b5885e04cf6c763dab3c8b81",
+      "bytes": 10793
+    },
+    "independent-candidates.json": {
+      "sha256": "91b6e4b1a3d988afd6ccde68dec456e558993e88397125a6da17a2cbd1fbf076",
+      "bytes": 1442463
+    },
+    "independent-certificates.json": {
+      "sha256": "21ea73dd66a925a0abf04e1f3b5ae4d8ebd2b9590c751c7b40db354d717a521b",
+      "bytes": 7884
+    },
+    "official-winning-cases.json": {
+      "sha256": "18d5146487964d81ed7861aba2e5b718203774fb602fb092467ec668897ac580",
+      "bytes": 19184
+    },
+    "side-screen.json": {
+      "sha256": "e988725b90cebaeb6139c624d9a419e2a6332e144aa152299991812ad37a105c",
+      "bytes": 14876
+    },
+    "winning-candidates-roundtrip.csv": {
+      "sha256": "b0fa100216f83aa5ea9a2c888491bc64e0320c0ad1023b4490637e86048b1dc2",
+      "bytes": 925646
+    },
+    "winning-candidates.csv": {
+      "sha256": "16658ba0adaa6be5107f9a2b246daf197e6a23710e468f920b76784e682d782a",
+      "bytes": 962930
+    },
+    "winning-candidates.json": {
+      "sha256": "91b6e4b1a3d988afd6ccde68dec456e558993e88397125a6da17a2cbd1fbf076",
+      "bytes": 1442463
+    }
+  },
+  "no_canonical_mutation": true,
+  "no_submission": true
+}

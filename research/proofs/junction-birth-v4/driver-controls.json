@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tests": 2,
+  "controls": [
+    "completed exact stage survives simulated next-stage interruption",
+    "real arm group and native descendant are killed before collection"
+  ],
+  "source_sha256": {
+    "experiments/birth_gpu_pilot.py": "dfff2b28abd6425fb6670e1942edec7b29de742dc81bbf84d41ab69ee54863d4",
+    "tests/test_birth_driver.py": "8e9c8b0a98db6bea9753e789630c61e6137efabf88269f35a38b7abe608b976c"
+  }
+}

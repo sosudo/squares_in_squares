@@ -1,0 +1,26 @@
+{
+  "current_raw": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-kmmm35-v1.csv",
+    "sha256": "b39204c7f52f71cb7781c4f7f6bfb15ddc7ee801b62302a7e921680a0a858f23",
+    "score": 22.297895629815443,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-kmmm35-v1-official.json",
+    "official_report_sha256": "64db7c5703edb44705c0b3e2244b373264e17938e75e6716dfdedafd0ff06307",
+    "reuse": {
+      "reused": 982,
+      "evaluated": 18
+    }
+  },
+  "birth_input_sha256": "4ad3d328d311d142f1e46ad993b4d02e7d1b310d478c639a32f95d1248dfe3b4",
+  "cases": {
+    "498": {
+      "coordinate_text_sha256": "9403de68ef84de3b0d8bfe086041601f5798f4d0d2d73f30211c21a95afa4dbc",
+      "unchanged_since_matched_controls": true,
+      "rows": 498
+    },
+    "587": {
+      "coordinate_text_sha256": "8b90221dbc015251175d476992146a67a1d02b98586318d65324add8cce86e91",
+      "unchanged_since_matched_controls": true,
+      "rows": 587
+    }
+  }
+}

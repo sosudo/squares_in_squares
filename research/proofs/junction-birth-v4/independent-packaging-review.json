@@ -1,0 +1,24 @@
+{
+  "status": "GREEN_packaging_imports_and_retention_delta",
+  "source_sha256": "73c2518bf7d94e1b3fa1aa622f4b4a76cd8abdcdba862504bbbdf772eec34dec",
+  "source_bytes": 905073,
+  "all_payload_hashes_verified": 153,
+  "original_native_license_files_preserved": 82,
+  "isolated_import_review_sha256": "c05789541279f097ee7344b6396bf9ec6d67d2aeaecd46469d5eb458d5216fed",
+  "builder_sha256": "cf57f10940fc73fd3b41adbc74743b696c0cb790768aef2be5fa510988ecbc5d",
+  "inputs_sha256": "4ad3d328d311d142f1e46ad993b4d02e7d1b310d478c639a32f95d1248dfe3b4",
+  "design_sha256": "57b375869f5b4530106b34e61b8db4ac023ca4771c1bbd8b4d411ab3f614a820",
+  "limits": {
+    "search_stage_admission_seconds": 300,
+    "maximum_cycles": 32,
+    "steps_per_growth_stage": 1200,
+    "worker575": true,
+    "parent_alarm_seconds": 595,
+    "whole_seconds": 600,
+    "server_seconds": 720
+  },
+  "scope": "The300-second deadline gates new stage starts; a final bounded kernel may complete afterward. No mixed-size state enters native finishing. Actual CUDA gates are mandatory before either search.",
+  "process_cleanup": "Registered arm/native groups killed and waited before final inventory; outer supervisor cleans the same owner-bound groups on timeout.",
+  "no_optimizer_or_gpu_in_review": true,
+  "verification_source_sha256": "5c331a85998300caa24438b5f7b434acd53e567cfc18bf2569941081a2cbea8f"
+}

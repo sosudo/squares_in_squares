@@ -1,0 +1,39 @@
+{
+  "script_sha256": "69c18a580bbf220e40ea7d3e10a467bddaf45e5a4617296bc824226439ed564d",
+  "script_bytes": 921655,
+  "parent_csv_sha256": "3c4cfc19361e51e903b3d4c4018dc4ede002ce97f58071ad153207674cd28a2a",
+  "target_csv_sha256": "7a30c35d28f5df9f5cde6de6f831f1d4a76cd8cfbb87cc747bed395d84599e72",
+  "changed_rows": 13493,
+  "changed_puzzles": [
+    423,
+    465,
+    509,
+    602,
+    651,
+    652,
+    705,
+    706,
+    753,
+    754,
+    804,
+    809,
+    863,
+    867,
+    978,
+    983,
+    984,
+    985
+  ],
+  "patch_compressed_bytes": 313756,
+  "local_exact_byte_reconstruction": true,
+  "transport_scaling_applied": false,
+  "launched": false,
+  "manifest_encoding": {
+    "encoding": "exact_json_lzma_base64",
+    "raw_bytes": 3554788,
+    "raw_sha256": "d533b72d5c5a8fe6896b2581d0d66a4b61e458c9a342fed35f19c961fe8b667a",
+    "compressed_bytes": 371268,
+    "compressed_sha256": "dc14ef93625310041f6073390c6daf37c1a81109dbd0b3a72b21bb3bec502bf3",
+    "decoder_sha256": "b84de8a5e20215f8be364f480609726a79ead18f0f3e275ee5a098b3b1ce7cf4"
+  }
+}

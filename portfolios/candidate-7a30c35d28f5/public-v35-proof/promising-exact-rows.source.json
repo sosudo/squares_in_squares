@@ -1,0 +1,29 @@
+{
+  "dataset": "kmmmvs/squares-in-squares-best-packings",
+  "version": 35,
+  "source_csv_sha256": "b8be571167c0d51693cdce9ac07187098a0d38bceef0d9e25d347d067e4eb6b9",
+  "subset_sha256": "ed80f7762a1a964e16b9b1090cc42ae29cc59c5677d841f6646e2eb4c3a66188",
+  "cases": [
+    423,
+    465,
+    509,
+    602,
+    651,
+    652,
+    705,
+    706,
+    753,
+    754,
+    804,
+    809,
+    863,
+    867,
+    978,
+    983,
+    984,
+    985
+  ],
+  "exact_coordinate_tokens_preserved": true,
+  "download_proof_sha256": "82d3a1544d57fd95dbad172efbd58ec2a0bc033a7184d7db7b0faa9bf0d6f0fe",
+  "source_notices_sha256": "8858c8531c4943018e4dc92fb2f71780f4a538bfdd7e9181b72035318eb79d16"
+}

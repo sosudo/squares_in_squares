@@ -1,0 +1,16 @@
+{
+  "notebook": "sos54352/squares-junction-single-birth-v1",
+  "version": 1,
+  "source_sha256": "73c2518bf7d94e1b3fa1aa622f4b4a76cd8abdcdba862504bbbdf772eec34dec",
+  "source_bytes": 905073,
+  "private": true,
+  "gpu": true,
+  "internet": false,
+  "tpu": false,
+  "status": "QUEUED",
+  "server_timeout_requested_seconds": 720,
+  "push_acknowledged_version": 1,
+  "whole_source_bound_seconds": 600,
+  "verified_utc": "2026-10-24T16:47:19.172973+00:00",
+  "no_competition_submission": true
+}

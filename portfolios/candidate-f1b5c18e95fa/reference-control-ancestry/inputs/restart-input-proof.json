@@ -1,0 +1,832 @@
+{
+  "baseline": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-kmmm35-v1.csv",
+    "sha256": "b39204c7f52f71cb7781c4f7f6bfb15ddc7ee801b62302a7e921680a0a858f23",
+    "score": 22.297895629815443,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-kmmm35-v1-official.json",
+    "official_report_sha256": "64db7c5703edb44705c0b3e2244b373264e17938e75e6716dfdedafd0ff06307",
+    "reuse": {
+      "reused": 982,
+      "evaluated": 18
+    }
+  },
+  "pointer_sha256": "ad2b0b4fd3c743cc33362e364d8f6dc268b561c20752312f9b1cf6fc93d73c78",
+  "official_report_sha256": "64db7c5703edb44705c0b3e2244b373264e17938e75e6716dfdedafd0ff06307",
+  "independent_report_sha256": "c502b561fd4ff1c3542c250fd4551b5f8e5a599c4f39b7c283abc50d2ace4ead",
+  "inputs_sha256": "51dc4a4494fde1bb68fff803fa2f8eb641a934378930c907bf6f4963bda3b0dd",
+  "cases": {
+    "978": {
+      "original_key": "original_978",
+      "reference_key": "reference_978",
+      "original_geometry_sha256": "26b73471a4fee22a7a253788897d283c90a4fc859b2755af89e8ad0e9f3518a7",
+      "reference_geometry_sha256": "d702ff5519855c5e0b22b87057a19b4defd8b525b528cc8f7565e15f0a6af9b5",
+      "original_coordinate_text_sha256": "5154388fbf68abdd2fbd40f5d1b9853a12beccb64e15181ae5721b14ec1a4e0a",
+      "translation_subtracted": [
+        4.999999969612645e-09,
+        4.999999969612645e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 978,
+        "score": 0.016175549891519703,
+        "side": "31.77884937717209103000000000000000000000000000000000",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 978,
+        "valid": true,
+        "side_lower": "31.778849377172091029999999999999999999999999999999968865663850",
+        "side_upper": "31.778849377172091030000000000000000000000000000000054394134574",
+        "score_lower": "0.016175549891519633961422398735461640004197599295675761234853",
+        "score_upper": "0.016175549891519633961422398735461640004197599295681106764274",
+        "interval_pairs": 798,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "983": {
+      "original_key": "original_983",
+      "reference_key": "reference_983",
+      "original_geometry_sha256": "d0c9176b4048e7a0abed88ad1ffacfe8359cf22a7104a31f901edc2316c87271",
+      "reference_geometry_sha256": "8e3d31b63308cc0408da28b6179d7c0bd8e49ee94c264d6f9dfef26321966311",
+      "original_coordinate_text_sha256": "160518045f1de55bd02762333c08c48aeefe6309385142334139cf344d068228",
+      "translation_subtracted": [
+        4.999999969612645e-09,
+        5.000014513534268e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 983,
+        "score": 0.014952124697185765,
+        "side": "31.82162224911022784863864950981599403180007691242007",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 983,
+        "valid": true,
+        "side_lower": "31.821622249110227848638649509815994031800076912419987556068266",
+        "side_upper": "31.821622249110227848638649509815994031800076912420115848774352",
+        "score_lower": "0.014952124697185761341724629170996069201181176212340422051794",
+        "score_upper": "0.014952124697185761341724629170996069201181176212348440345925",
+        "interval_pairs": 2644,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "863": {
+      "original_key": "original_863",
+      "reference_key": "reference_863",
+      "original_geometry_sha256": "4db9c3531b4beb2f49edda0bb8658f337654612cdc857eec3b28d0508b041ee8",
+      "reference_geometry_sha256": "744aa4be34d892d3b2f6ecf317ada4167c1f79ab7705f9ccbed5cf171ba03e6d",
+      "original_coordinate_text_sha256": "2cf61390ce66d9c300ca786feee990065ec4dcd7936c8761d80a98be40fa770f",
+      "translation_subtracted": [
+        5.000032055058057e-09,
+        4.999999969612645e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 863,
+        "score": 0.016008783134804805,
+        "side": "29.84714945036290140621881841140407503899540304999643",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 863,
+        "valid": true,
+        "side_lower": "29.847149450362901406218818411404075038995403049996398807983647",
+        "side_upper": "29.847149450362901406218818411404075038995403049996527100689732",
+        "score_lower": "0.016008783134804680229661066644532163490274488816643585128935",
+        "score_upper": "0.016008783134804680229661066644532163490274488816651603423066",
+        "interval_pairs": 1449,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "804": {
+      "original_key": "original_804",
+      "reference_key": "reference_804",
+      "original_geometry_sha256": "47494a79054e9d4e876595c33cc34a1bee147564c5edee98d25cedb76e466db9",
+      "reference_geometry_sha256": "0a83d1aeae0a9791184d909f3a5d7d020bf1267d3345fd7d2cd00596a6916b16",
+      "original_coordinate_text_sha256": "ff6b2bb3b767de9b940362f1b518f280b4491514f168edff458efc31513c536f",
+      "translation_subtracted": [
+        5.00000019165725e-09,
+        5.0000003026795525e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 804,
+        "score": 0.016814565314251073,
+        "side": "28.83166897058004568752148865187389203021721263987746",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 804,
+        "valid": true,
+        "side_lower": "28.831668970580045687521488651873892030217212639877394447119905",
+        "side_upper": "28.831668970580045687521488651873892030217212639877522739825990",
+        "score_lower": "0.016814565314251014852805784853878031816396342074275765257382",
+        "score_upper": "0.016814565314251014852805784853878031816396342074283783551514",
+        "interval_pairs": 1969,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "509": {
+      "original_key": "original_509",
+      "reference_key": "reference_509",
+      "original_geometry_sha256": "ae0ba838b8faa802c25a958bf344e329cafc67c2d5bbd46cb5fd0f5d7d59d901",
+      "reference_geometry_sha256": "b71058da2f85696592e39e77f1d26020a4b9251473fffd90e6ec9e30b3690500",
+      "original_coordinate_text_sha256": "42620b973b4619aaf190f6e67c996ebbf44a103a12aa41939544fadd4263a35b",
+      "translation_subtracted": [
+        5.000000413701855e-09,
+        4.999999969612645e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 509,
+        "score": 0.0190479082119297,
+        "side": "22.99076874244605877046133328689876145427387547516060",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 509,
+        "valid": true,
+        "side_lower": "22.990768742446058770461333286898761454273875475160557590915922",
+        "side_upper": "22.990768742446058770461333286898761454273875475160685883622007",
+        "score_lower": "0.019047908211929695852671386117671062046469931211155965475473",
+        "score_upper": "0.019047908211929695852671386117671062046469931211166656534314",
+        "interval_pairs": 1228,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "602": {
+      "original_key": "original_602",
+      "reference_key": "reference_602",
+      "original_geometry_sha256": "f168351f82df30d1c9761e8136f220bd9ee8a39b4d4b24e71e745eae80dbd95f",
+      "reference_geometry_sha256": "eb0c5912d6effe70f5026294b4fb2b53efd0b63dcb6a8576a6e5d6867b2ce9f3",
+      "original_coordinate_text_sha256": "4701d5db4b258e41ab2a0f549ec533ea7edd56971be007aee8fbb1b609f66090",
+      "translation_subtracted": [
+        5.000008962419145e-09,
+        5.0000031892594166e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 602,
+        "score": 0.018027829476430668,
+        "side": "24.97801349739951824539959128636190261975551372994595",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 602,
+        "valid": true,
+        "side_lower": "24.978013497399518245399591286361902619755513729945875770622160",
+        "side_upper": "24.978013497399518245399591286361902619755513729946004063328245",
+        "score_lower": "0.018027829476430642702053336615365929629633577199035602904220",
+        "score_upper": "0.018027829476430642702053336615365929629633577199043621198351",
+        "interval_pairs": 1665,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "753": {
+      "original_key": "original_753",
+      "reference_key": "reference_753",
+      "original_geometry_sha256": "fe75e8d4bdd235b24ab4d031ba621fce2a248e7ae1f31d3cbd5ddd3d44318e5d",
+      "reference_geometry_sha256": "47eb16639c49e9a12f04bba7d470bc0db2633d23c2ed8942ef7772ce1d0ab7f4",
+      "original_coordinate_text_sha256": "2958b0aa709e2fed559849aff88c62101ae33449a91a7e67992bdbe4d896d71b",
+      "translation_subtracted": [
+        4.999999969612645e-09,
+        4.999999969612645e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 753,
+        "score": 0.0167719324278246,
+        "side": "27.90108147397657203000000000000000000000000000000000",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 753,
+        "valid": true,
+        "side_lower": "27.901081473976572029999999999999999999999999999999958037210791",
+        "side_upper": "27.901081473976572030000000000000000000000000000000043565681515",
+        "score_lower": "0.016771932427824670104040233888496086059923700898341496332704",
+        "score_upper": "0.016771932427824670104040233888496086059923700898349514626835",
+        "interval_pairs": 785,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "867": {
+      "original_key": "original_867",
+      "reference_key": "reference_867",
+      "original_geometry_sha256": "31ff531661f4b89356175648947e652815822fd943fdbf6508b3edaed9c2b57c",
+      "reference_geometry_sha256": "1b732fd519cead36a254bc7bdfeccdc9f220ab0038569b4e8cfc0d8ff7053cd4",
+      "original_coordinate_text_sha256": "62af761299da4e78216d85219c1c034e0b13800b526ba2a6d2a6ca9db2f831da",
+      "translation_subtracted": [
+        4.999999969612645e-09,
+        5.000008629352237e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 867,
+        "score": 0.015110811670482116,
+        "side": "29.88979951913787046291316049116805030432951771094645",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 867,
+        "valid": true,
+        "side_lower": "29.889799519137870462913160491168050304329517710946416998492189",
+        "side_upper": "29.889799519137870462913160491168050304329517710946545291198275",
+        "score_lower": "0.015110811670482132040692589158589929743303669518629946673578",
+        "score_upper": "0.015110811670482132040692589158589929743303669518637964967709",
+        "interval_pairs": 2335,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "705": {
+      "original_key": "original_705",
+      "reference_key": "reference_705",
+      "original_geometry_sha256": "6421511abe52ea96ed0aa2749e1e4a74fa8fd9e926895799460b0a4a8bf558e2",
+      "reference_geometry_sha256": "e6d58f67caf841396266709207212ed2204bfde8265ed97cdbb42c15c0d6eeb5",
+      "original_coordinate_text_sha256": "d70c9a396b3be049b004a85d1f3d6654eb1a6b163d0a03b3cdbb63e34ab35d0d",
+      "translation_subtracted": [
+        5.000009295486052e-09,
+        5.000012848199731e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 705,
+        "score": 0.016323057351735004,
+        "side": "26.98524323807121984231283713571299221073977594644566",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 705,
+        "valid": true,
+        "side_lower": "26.985243238071219842312837135712992210739775946445574147107632",
+        "side_upper": "26.985243238071219842312837135712992210739775946445702439813718",
+        "score_lower": "0.016323057351734988142598761557979167934378899633318121607463",
+        "score_upper": "0.016323057351734988142598761557979167934378899633326139901595",
+        "interval_pairs": 2012,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "651": {
+      "original_key": "original_651",
+      "reference_key": "reference_651",
+      "original_geometry_sha256": "147614ea0f5e917a48d3424de56e83007bdaa3b8b2bd3e9d7fb543d240b711dd",
+      "reference_geometry_sha256": "19621da3702859ab5a36a96da3234b75ede30a2ec4c831753ac9c86edee1f79b",
+      "original_coordinate_text_sha256": "0ca8a4b32b6a0374bba9658cbb6b99bf006f130535b9f1b92f5faa3ea380099a",
+      "translation_subtracted": [
+        4.999999969612645e-09,
+        5.000000080634948e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 651,
+        "score": 0.017400449403355944,
+        "side": "25.95866891935031452590508107958515924900970500700768",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 651,
+        "valid": true,
+        "side_lower": "25.958668919350314525905081079585159249009705007007651998713964",
+        "side_upper": "25.958668919350314525905081079585159249009705007007780291420049",
+        "score_lower": "0.017400449403355914306217539824808975376892808281362333102193",
+        "score_upper": "0.017400449403355914306217539824808975376892808281370351396324",
+        "interval_pairs": 1587,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "985": {
+      "original_key": "original_985",
+      "reference_key": "reference_985",
+      "original_geometry_sha256": "58e69549ecacd302ca1ce52257a9cccd83118f6c163a127eb5c8b78270e505ee",
+      "reference_geometry_sha256": "11261864daacc00a097639e3f40f61f5d8486c40906f44f2cf5e89c622694e0e",
+      "original_coordinate_text_sha256": "0bf72eb7b32a943235962de2e442c11509ce552755af910ee48e5c8f03c1d3a0",
+      "translation_subtracted": [
+        4.999999969612645e-09,
+        5.000000080634948e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 985,
+        "score": 0.014770079849963036,
+        "side": "31.84826432059241816582099560831458492626845209220717",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 985,
+        "valid": true,
+        "side_lower": "31.848264320592418165820995608314584926268452092207072361457298",
+        "side_upper": "31.848264320592418165820995608314584926268452092207200654163383",
+        "score_lower": "0.014770079849963132197374346926754571030464789081210852663096",
+        "score_upper": "0.014770079849963132197374346926754571030464789081218870957227",
+        "interval_pairs": 2405,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "984": {
+      "original_key": "original_984",
+      "reference_key": "reference_984",
+      "original_geometry_sha256": "b0fc42239b163aa126df4e5d9b0474dbe10fe05bb33d0d61814a2aa5f140fb52",
+      "reference_geometry_sha256": "2c52a4538e67920d012ceefcd9671f1d5ca296b731b54a695564f196e27b6cd8",
+      "original_coordinate_text_sha256": "89f384dacc09bc28ce14250fcead51061e368a64c11e3deb1ae1a3976c26f71b",
+      "translation_subtracted": [
+        5.000000080634948e-09,
+        5.000018954426366e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 984,
+        "score": 0.01501665012186737,
+        "side": "31.83982819087162489226978153146604397860076789109264",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 984,
+        "valid": true,
+        "side_lower": "31.839828190871624892269781531466043978600767891092579503511160",
+        "side_upper": "31.839828190871624892269781531466043978600767891092707796217246",
+        "score_lower": "0.015016650121867373776247499296493399609200854849844326667305",
+        "score_upper": "0.015016650121867373776247499296493399609200854849852344961436",
+        "interval_pairs": 2344,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "465": {
+      "original_key": "original_465",
+      "reference_key": "reference_465",
+      "original_geometry_sha256": "b1c622834dc1e142cb2d2e9f054c1de851574a7f94c8f2aab5dafc2f76d31559",
+      "reference_geometry_sha256": "5e7d5e8e6f0ea5c7679ee8524f83a527a2d9f67db59e3a3a21a42c462b80b020",
+      "original_coordinate_text_sha256": "e7adab6328690bed23678787e2323e6b756176f9f43d6e128d37a4bc44079232",
+      "translation_subtracted": [
+        5.000011071842891e-09,
+        5.00000063574646e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 465,
+        "score": 0.020002461820164852,
+        "side": "21.99518891224684417574822276038908974193581405549505",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 465,
+        "valid": true,
+        "side_lower": "21.995188912246844175748222760389089741935814055494955472900936",
+        "side_upper": "21.995188912246844175748222760389089741935814055495126529842383",
+        "score_lower": "0.020002461820164824568046033840209660863382306028473805392972",
+        "score_upper": "0.020002461820164824568046033840209660863382306028487169216524",
+        "interval_pairs": 1134,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "652": {
+      "original_key": "original_652",
+      "reference_key": "reference_652",
+      "original_geometry_sha256": "d183a31002016c41fe18dc9203752b06a9c478589477f03fbfbc009fb7f7c8b7",
+      "reference_geometry_sha256": "68aff448cf9c205e397d53c60f836cd3f89d455c3db961baa3cba26b0d4c98b5",
+      "original_coordinate_text_sha256": "eaa55f7d17210083a46997adbdc0d1595faa26d390ddd40d79779ccd46e0ef6a",
+      "translation_subtracted": [
+        5.000004521527046e-09,
+        5.000000080634948e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 652,
+        "score": 0.017323224155470607,
+        "side": "25.97662691052795746183960218494991472705318374035247",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 652,
+        "valid": true,
+        "side_lower": "25.976626910527957461839602184949914727053183740352398960775544",
+        "side_upper": "25.976626910527957461839602184949914727053183740352570017716991",
+        "score_lower": "0.017323224155470502236176210381159480107436907557660331834480",
+        "score_upper": "0.017323224155470502236176210381159480107436907557671022893321",
+        "interval_pairs": 1765,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "809": {
+      "original_key": "original_809",
+      "reference_key": "reference_809",
+      "original_geometry_sha256": "ac6e998701554d79c914f26f1a572651d6146f1c6f4d3eaab1d90b5bdea8cb64",
+      "reference_geometry_sha256": "6aeaf566a7920032903d673b4a3f312c9ee3fb588c7a669e91a75b63e98d9dab",
+      "original_coordinate_text_sha256": "fe95aa4dd4e43d6a3cc2c8b00d6d80ff19ffc0100c919b4020c69150a9459de2",
+      "translation_subtracted": [
+        5.00002994563431e-09,
+        5.000004299482441e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 809,
+        "score": 0.01601007959950107,
+        "side": "28.89829880485800471975226741008132991458079081509675",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 809,
+        "valid": true,
+        "side_lower": "28.898298804858004719752267410081329914580790815096650577028451",
+        "side_upper": "28.898298804858004719752267410081329914580790815096821633969898",
+        "score_lower": "0.016010079599501023265752137914031630611322819317318831311013",
+        "score_upper": "0.016010079599501023265752137914031630611322819317326849605144",
+        "interval_pairs": 2205,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "423": {
+      "original_key": "original_423",
+      "reference_key": "reference_423",
+      "original_geometry_sha256": "dc2f8c73f67cd2e6de00c0712c8b6b97389813487195b5f4a7095063004574bd",
+      "reference_geometry_sha256": "131c499dfabe0dcd8ccf15fb184b7b87f632760a302d2c50cadf85e40216b48f",
+      "original_coordinate_text_sha256": "5f3a2305cd4018de7306f04b070cdd425fbe4daeac4915bbad041e90dc52778c",
+      "translation_subtracted": [
+        5.000000080634948e-09,
+        4.999999969612645e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 423,
+        "score": 0.02088651321257462,
+        "side": "20.99653596237950859392630056264899044709095323636809",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 423,
+        "valid": true,
+        "side_lower": "20.996535962379508593926300562648990447090953236368038839203848",
+        "side_upper": "20.996535962379508593926300562648990447090953236368167131909934",
+        "score_lower": "0.020886513212574769002889503757326517156394316295461615514947",
+        "score_upper": "0.020886513212574769002889503757326517156394316295472306573789",
+        "interval_pairs": 1000,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "706": {
+      "original_key": "original_706",
+      "reference_key": "reference_706",
+      "original_geometry_sha256": "773dbb9e6538f4bc86d55fc940401787d7820f168f5f0fcf86670011ea348161",
+      "reference_geometry_sha256": "0d17ad8fbc56935475591126f040196f8bd7cf3b540b16466470d41ce73df5fe",
+      "original_coordinate_text_sha256": "1e297da2afd93046de3ce440b73381887acbc2dfc4bbd1c2dd0d5e617be97cf0",
+      "translation_subtracted": [
+        5.000013070244336e-09,
+        5.000000857791065e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 706,
+        "score": 0.01593136271955453,
+        "side": "26.99396734147448910415412464626581445169088847591305",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 706,
+        "valid": true,
+        "side_lower": "26.993967341474489104154124646265814451690888475912976682436783",
+        "side_upper": "26.993967341474489104154124646265814451690888475913104975142869",
+        "score_lower": "0.015931362719554725382397828495981987894959867358486084488835",
+        "score_upper": "0.015931362719554725382397828495981987894959867358494102782966",
+        "interval_pairs": 1792,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "754": {
+      "original_key": "original_754",
+      "reference_key": "reference_754",
+      "original_geometry_sha256": "c0b7fb669379596efe3967d0ea20b1bdef1d5fa100940043a9643734572ffd09",
+      "reference_geometry_sha256": "d6cc11f2ca6842b87fb47d89da94dbbadec282180a8ef1d2024d4d252b66d75c",
+      "original_coordinate_text_sha256": "92616eadf67a6e351d09ffc7a77c93a1fd5ec588e365ff68ee3e9a821266309b",
+      "translation_subtracted": [
+        4.999999969612645e-09,
+        4.999999969612645e-09
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 754,
+        "score": 0.016357262678625473,
+        "side": "27.90821549994355903000000000000000000000000000000000",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 754,
+        "valid": true,
+        "side_lower": "27.908215499943559029999999999999999999999999999999959337014513",
+        "side_upper": "27.908215499943559030000000000000000000000000000000044865485237",
+        "score_lower": "0.016357262678625595437109735760963029248999163505246391848510",
+        "score_upper": "0.016357262678625595437109735760963029248999163505254410142641",
+        "interval_pairs": 834,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    }
+  },
+  "arrays": {
+    "original_978": {
+      "shape": [
+        978,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "26b73471a4fee22a7a253788897d283c90a4fc859b2755af89e8ad0e9f3518a7"
+    },
+    "reference_978": {
+      "shape": [
+        978,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "d702ff5519855c5e0b22b87057a19b4defd8b525b528cc8f7565e15f0a6af9b5"
+    },
+    "original_983": {
+      "shape": [
+        983,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "d0c9176b4048e7a0abed88ad1ffacfe8359cf22a7104a31f901edc2316c87271"
+    },
+    "reference_983": {
+      "shape": [
+        983,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "8e3d31b63308cc0408da28b6179d7c0bd8e49ee94c264d6f9dfef26321966311"
+    },
+    "original_863": {
+      "shape": [
+        863,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "4db9c3531b4beb2f49edda0bb8658f337654612cdc857eec3b28d0508b041ee8"
+    },
+    "reference_863": {
+      "shape": [
+        863,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "744aa4be34d892d3b2f6ecf317ada4167c1f79ab7705f9ccbed5cf171ba03e6d"
+    },
+    "original_804": {
+      "shape": [
+        804,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "47494a79054e9d4e876595c33cc34a1bee147564c5edee98d25cedb76e466db9"
+    },
+    "reference_804": {
+      "shape": [
+        804,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "0a83d1aeae0a9791184d909f3a5d7d020bf1267d3345fd7d2cd00596a6916b16"
+    },
+    "original_509": {
+      "shape": [
+        509,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "ae0ba838b8faa802c25a958bf344e329cafc67c2d5bbd46cb5fd0f5d7d59d901"
+    },
+    "reference_509": {
+      "shape": [
+        509,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "b71058da2f85696592e39e77f1d26020a4b9251473fffd90e6ec9e30b3690500"
+    },
+    "original_602": {
+      "shape": [
+        602,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "f168351f82df30d1c9761e8136f220bd9ee8a39b4d4b24e71e745eae80dbd95f"
+    },
+    "reference_602": {
+      "shape": [
+        602,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "eb0c5912d6effe70f5026294b4fb2b53efd0b63dcb6a8576a6e5d6867b2ce9f3"
+    },
+    "original_753": {
+      "shape": [
+        753,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "fe75e8d4bdd235b24ab4d031ba621fce2a248e7ae1f31d3cbd5ddd3d44318e5d"
+    },
+    "reference_753": {
+      "shape": [
+        753,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "47eb16639c49e9a12f04bba7d470bc0db2633d23c2ed8942ef7772ce1d0ab7f4"
+    },
+    "original_867": {
+      "shape": [
+        867,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "31ff531661f4b89356175648947e652815822fd943fdbf6508b3edaed9c2b57c"
+    },
+    "reference_867": {
+      "shape": [
+        867,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "1b732fd519cead36a254bc7bdfeccdc9f220ab0038569b4e8cfc0d8ff7053cd4"
+    },
+    "original_705": {
+      "shape": [
+        705,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "6421511abe52ea96ed0aa2749e1e4a74fa8fd9e926895799460b0a4a8bf558e2"
+    },
+    "reference_705": {
+      "shape": [
+        705,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "e6d58f67caf841396266709207212ed2204bfde8265ed97cdbb42c15c0d6eeb5"
+    },
+    "original_651": {
+      "shape": [
+        651,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "147614ea0f5e917a48d3424de56e83007bdaa3b8b2bd3e9d7fb543d240b711dd"
+    },
+    "reference_651": {
+      "shape": [
+        651,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "19621da3702859ab5a36a96da3234b75ede30a2ec4c831753ac9c86edee1f79b"
+    },
+    "original_985": {
+      "shape": [
+        985,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "58e69549ecacd302ca1ce52257a9cccd83118f6c163a127eb5c8b78270e505ee"
+    },
+    "reference_985": {
+      "shape": [
+        985,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "11261864daacc00a097639e3f40f61f5d8486c40906f44f2cf5e89c622694e0e"
+    },
+    "original_984": {
+      "shape": [
+        984,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "b0fc42239b163aa126df4e5d9b0474dbe10fe05bb33d0d61814a2aa5f140fb52"
+    },
+    "reference_984": {
+      "shape": [
+        984,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "2c52a4538e67920d012ceefcd9671f1d5ca296b731b54a695564f196e27b6cd8"
+    },
+    "original_465": {
+      "shape": [
+        465,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "b1c622834dc1e142cb2d2e9f054c1de851574a7f94c8f2aab5dafc2f76d31559"
+    },
+    "reference_465": {
+      "shape": [
+        465,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "5e7d5e8e6f0ea5c7679ee8524f83a527a2d9f67db59e3a3a21a42c462b80b020"
+    },
+    "original_652": {
+      "shape": [
+        652,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "d183a31002016c41fe18dc9203752b06a9c478589477f03fbfbc009fb7f7c8b7"
+    },
+    "reference_652": {
+      "shape": [
+        652,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "68aff448cf9c205e397d53c60f836cd3f89d455c3db961baa3cba26b0d4c98b5"
+    },
+    "original_809": {
+      "shape": [
+        809,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "ac6e998701554d79c914f26f1a572651d6146f1c6f4d3eaab1d90b5bdea8cb64"
+    },
+    "reference_809": {
+      "shape": [
+        809,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "6aeaf566a7920032903d673b4a3f312c9ee3fb588c7a669e91a75b63e98d9dab"
+    },
+    "original_423": {
+      "shape": [
+        423,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "dc2f8c73f67cd2e6de00c0712c8b6b97389813487195b5f4a7095063004574bd"
+    },
+    "reference_423": {
+      "shape": [
+        423,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "131c499dfabe0dcd8ccf15fb184b7b87f632760a302d2c50cadf85e40216b48f"
+    },
+    "original_706": {
+      "shape": [
+        706,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "773dbb9e6538f4bc86d55fc940401787d7820f168f5f0fcf86670011ea348161"
+    },
+    "reference_706": {
+      "shape": [
+        706,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "0d17ad8fbc56935475591126f040196f8bd7cf3b540b16466470d41ce73df5fe"
+    },
+    "original_754": {
+      "shape": [
+        754,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "c0b7fb669379596efe3967d0ea20b1bdef1d5fa100940043a9643734572ffd09"
+    },
+    "reference_754": {
+      "shape": [
+        754,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "d6cc11f2ca6842b87fb47d89da94dbbadec282180a8ef1d2024d4d252b66d75c"
+    }
+  },
+  "preparation_source_sha256": "42207fe5db2dd6156128f6f917f91e6d607ff9d37767a6a71f7bc010ca829b03"
+}

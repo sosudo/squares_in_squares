@@ -21,3 +21,8 @@ portfolios/candidate-*/new-native-ancestry/gpu-native-finish/gpu-source-notices/
 
 # Preserve immutable original-reference control log terminators.
 portfolios/candidate-*/reference-control-ancestry/**/*.log -text whitespace=-blank-at-eof
+
+# Exact public35 decimal CSVs and nested source notices are hash-bound evidence.
+portfolios/candidate-*/public-v35-proof/**/*.csv -text whitespace=cr-at-eol
+portfolios/candidate-*/public-v35-proof/*.csv -text whitespace=cr-at-eol
+portfolios/candidate-*/source-notices-kmmm35/** -text whitespace=cr-at-eol,-blank-at-eof

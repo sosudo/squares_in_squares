@@ -1,0 +1,68 @@
+{
+  "source_manifest_sha256": "b98720068180af1f7d45c963cd5fbf8cfde4803aff21d661af1a05b8f0e24ac5",
+  "scaffolds_archive_sha256": "7677274ce38e872e52bdf83ce458e4565918cad3946fa632ea8d2f68622a0edc",
+  "inputs_sha256": "4ad3d328d311d142f1e46ad993b4d02e7d1b310d478c639a32f95d1248dfe3b4",
+  "design_sha256": "57b375869f5b4530106b34e61b8db4ac023ca4771c1bbd8b4d411ab3f614a820",
+  "baseline": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-sustained-controls-v1.csv",
+    "sha256": "77072a68f862fc166264825aa19a1eb867692bf280ca531965499fab2e6baea0",
+    "score": 22.297959981773438,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-fq-sustained-controls-v1-official.json",
+    "official_report_sha256": "a379ea912b16480c352934f3c4a5205acd8d2e3040317e15c8cf58c271bb4483",
+    "reuse": {
+      "reused": 998,
+      "evaluated": 2
+    }
+  },
+  "source_hashes": {
+    "scripts/prepare_birth_inputs.py": "b3f661603d2b35775114af195b3c88d873413c65cfe95a8ebf0578320d92a962",
+    "experiments/birth_continuation.py": "352af8b9aafa4cdaa8440fe57a1ba21f17ae443769f2862be5a3d05ee4bee082",
+    "experiments/birth_cuda.py": "103d32554dcba39ad64e1650780e99c6bf713b56f9bb37b4d04e6e7e42397707"
+  },
+  "arrays": {
+    "n498_drop388": {
+      "shape": [
+        497,
+        3
+      ],
+      "dtype": "<f8",
+      "geometry_sha256": "67243f4184ee7a09e0af4ccd8ef38f6f1a0296f7c5b24c92f041773b634f0f4e"
+    },
+    "n498_drop480": {
+      "shape": [
+        497,
+        3
+      ],
+      "dtype": "<f8",
+      "geometry_sha256": "e83d8f0b31350aecb8b05a6df33c25208c3f572b85984ca6e3a3cb38fdf3426d"
+    },
+    "n587_drop91": {
+      "shape": [
+        586,
+        3
+      ],
+      "dtype": "<f8",
+      "geometry_sha256": "367040179a5ea52c1a31ca015d1f0e91afbde5413c62153e056513665d456c08"
+    },
+    "n587_drop551": {
+      "shape": [
+        586,
+        3
+      ],
+      "dtype": "<f8",
+      "geometry_sha256": "8a275379fd1886a4a7de6568faaed678697a0eec9653529eb8901d13ba6775f7"
+    }
+  },
+  "notices": {
+    "notices/04-SOURCE_NOTICES.md": "751438e3ffb4fa569e7ad604705a8b231b10fd23577b9c938af817956832424b",
+    "notices/03-NOTICE": "5f7e11ec2745ea88a03a6da0eb15a36981d575326796f5c0b0b995bf78c01b61",
+    "notices/01-NOTICE": "566c63f4cceeb86801e490cb5ee3d4589f36f4f6ee9d5f369723d8b6b8b6882c",
+    "notices/00-LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "notices/06-SOURCE_NOTICES.md": "ff1f69736ab286ef101d1a8675ed53a69400788169810b7a053a08671a091375",
+    "notices/05-SOURCE.md": "45db4353fd1c450bb4eac63f8382dbce22674ad53f4335a8ba71703587a7d58b",
+    "notices/02-LICENSE": "c51886c0f7e6724a7d89fc22cb237a1688ba1bbff04cb21a13b8e1a01fb15578"
+  },
+  "source_status": "All four N-1 inputs exact-bound to complete existing full certificates; initial tiny candidates screened independently, not fullN packings.",
+  "no_new_optimization": true,
+  "no_submission": true
+}

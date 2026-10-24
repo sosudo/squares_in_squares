@@ -1,0 +1,65 @@
+{
+  "status": "GREEN_independent_source_review_actual_CUDA_gates_still_mandatory",
+  "source_sha256": "73c2518bf7d94e1b3fa1aa622f4b4a76cd8abdcdba862504bbbdf772eec34dec",
+  "source_bytes": 905073,
+  "payload_files": 153,
+  "all_payload_hashes_independently_verified": true,
+  "source_hashes": {
+    "experiments/birth_continuation.py": "352af8b9aafa4cdaa8440fe57a1ba21f17ae443769f2862be5a3d05ee4bee082",
+    "experiments/birth_cuda.py": "54af109727260f9258edfbbb5c3cb96d42279c5fac73e82600eb4af00d35b9b6",
+    "experiments/birth_gpu_preflight.py": "d358c9f7edeb0ba096bb164b073e9d963a692f3c74e461ca7434721426d9844d",
+    "experiments/birth_gpu_pilot.py": "dfff2b28abd6425fb6670e1942edec7b29de742dc81bbf84d41ab69ee54863d4",
+    "experiments/birth_finish.py": "5235dce6b7f00baa0104dec05c897d9793663ac9eb80357d0cbf063f61ac3e6a",
+    "experiments/fq_restart_hop_finish.py": "aab5ea32adc59fe26d1379879f8d4efc53cd1c157b6a02269c7d1dc9e400f543",
+    "experiments/fq_capacity_probe.py": "35a750d6c5aa90f661b8e0e3491e11284f04f592cb320ae0112654c7dddfedd5",
+    "research/official_metric_v17.py": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+    "vendor/lightning_ftmc/gpu_topology.py": "93e352b406e100d6ae2a5eb2f8dc4dfa77df3a84da7cd92d6bb0fa990a700eb7",
+    "vendor/lightning_ftmc/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "vendor/lightning_ftmc/NOTICE": "566c63f4cceeb86801e490cb5ee3d4589f36f4f6ee9d5f369723d8b6b8b6882c"
+  },
+  "native_and_license_files_verified": 82,
+  "builder_sha256": "cf57f10940fc73fd3b41adbc74743b696c0cb790768aef2be5fa510988ecbc5d",
+  "generated_cuda_sha256": "f984eda41d5aac9d4804661bfc44d008a0351a5666e7e8693eea0e9af3d3fcb3",
+  "prior_controls": {
+    "artifacts/birth-cpu-controls-v2/report.json": {
+      "sha256": "64855a4cb3a865e0c7b89412ea0daea7f5044a1d471d4d7989d5a2c4c8e64b6c"
+    },
+    "artifacts/birth-cuda-cpu-controls-v2/report.json": {
+      "sha256": "09f9f71959d9551a6a033c1c41282dbf9e992b0a634ac6b8806221250004faa2"
+    },
+    "artifacts/birth-driver-controls-v1.json": {
+      "sha256": "f298d58cbd3c4b40dd2cf667dcf4487d3e3f10eb302ad20757847dbed6a83b48"
+    },
+    "artifacts/birth-targets-public35-confirmation.json": {
+      "sha256": "b27cd82d95008d07e44c355f752a4470198a479b5b2b93a678b569794934b0c7"
+    }
+  },
+  "packager_import_review_sha256": "c05789541279f097ee7344b6396bf9ec6d67d2aeaecd46469d5eb458d5216fed",
+  "math_review": {
+    "pair_depth": "Minimum of four exact center/radius SAT depths, with each owner support radius using the opposite square size.",
+    "energy": "One unordered-pair squared penetration plus each four-wall squared penetration; intentional new proposal objective, not the old weighted/clearance loss.",
+    "gradient": "Directed center/angle signs and opposite-size coefficients agree with dense corrected formulation. Mixed exact ties choose the one-sided ghost-angle-active branches then average both approaches; unit-size ties use symmetric active axes. Prior naive generalized-gradient failure remains preserved.",
+    "broad_phase": "All side lengths <=1 implies overlap center distance <=sqrt(2), within original 1.5 cells/3x3 neighborhood and radial cutoff2.00000001, including clipped boundary cells.",
+    "unit_count": "All old N-1 squares retain side1; only rowN-1 has prescribed positive lambda. Angles/centers all free; no unit scaling.",
+    "history": "Fresh allocation and evaluation for every fixed-size stage; no cross-size Metropolis comparisons.",
+    "scope": "Independent source/algebra and bounded existing-control review, not a general global convergence claim or a substitute for actual CUDA controls."
+  },
+  "protocol_review": {
+    "stage_retention": "Each returned pose/lambda/side packet and hash metadata commits before the next quench.",
+    "collection": "Both registered arm process groups, including native descendants, are stopped/waited before output hashing and ZIP creation; supervisor repeats group cleanup.",
+    "admission": "Only explicit final stage11 with all lambda==1 can reach the unchanged native full-gate helper. Mixed stages remain UNVERIFIED.",
+    "finisher": "At most4 fixed strata/case,2workers,60native+8gates; latest canonical comparison remains required at final merge.",
+    "bounds": "Paired actual preflight barrier;300s search;570s worker;575s supervisor wait;595s alarm;600s stated whole,720s server."
+  },
+  "tests_rerun": [
+    "completed-stage interruption retention",
+    "actual arm/native descendant process-group termination"
+  ],
+  "tests_passed": 2,
+  "test_source_sha256": "8e9c8b0a98db6bea9753e789630c61e6137efabf88269f35a38b7abe608b976c",
+  "actual_CUDA_controls_run_by_reviewer": false,
+  "fresh_geometry_certifications": 0,
+  "optimization": false,
+  "remote_launch_by_reviewer": false,
+  "competition_submission": false
+}

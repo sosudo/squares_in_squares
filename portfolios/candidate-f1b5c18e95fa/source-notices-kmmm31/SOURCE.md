@@ -1,0 +1,3 @@
+Public KMMM best-packings dataset, explicit Ready version31. Version30 announced60 puzzle improvements; version31 announces the same packing CSV and a confirmed receipt. Only version31 packing bytes were fetched. The exact packing SHA is0dca84e8b18a0de1ec2f3f1bb8c1bd00a529c893a2591138f13231ec9109e799.
+
+The metadata declares “Other (specified in description)”. SOURCE_NOTICES.md and all per-puzzle/source contributor records are preserved byte-for-byte; this is not a blanket relicensing. Cases802/928 are expressly local-candidate-bank refinements with inherited attribution. The publisher’s receipt and source labels are provenance, while our two-case independent/raw/ordinary-pandas gates establish local validity.

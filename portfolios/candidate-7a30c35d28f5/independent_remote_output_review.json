@@ -1,0 +1,14 @@
+{
+  "status": "GREEN_exact_downloaded_output_review",
+  "completion_proof_sha256": "9dd78ee3c0f3637ecca435050a419a89ee1fb4364b2fce2c54421d84f69a4db7",
+  "download_receipt_sha256": "da5eb4eed5a180e6f209eebce79d3cd4a831efe500b6b6e12d424d53c83dc8f6",
+  "source_sha256": "69c18a580bbf220e40ea7d3e10a467bddaf45e5a4617296bc824226439ed564d",
+  "output_sha256": "7a30c35d28f5df9f5cde6de6f831f1d4a76cd8cfbb87cc747bed395d84599e72",
+  "exact_bytes": 32310655,
+  "remote_manifest_identical_to_reviewed_manifest": true,
+  "private_CPU_offline_competition_attached": true,
+  "source_review_sha256": "054c46baf5ab6048dc0c9965f0efbe9488fcd4a0620b67378e3456f7d6360f59",
+  "network_requests": 0,
+  "fresh_geometry_certifications": 0,
+  "competition_submission": false
+}

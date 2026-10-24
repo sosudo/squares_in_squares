@@ -1,0 +1,471 @@
+{
+  "scope": "Concatenated first/last32-row real FP64 packets for serialization only; not a valid64-chain search history or measured GPU trial",
+  "source_probe_sha256": "6e19b49152eb42198e551b4af665fd4bd6db76be1797dc3fa017ff4925a9203d",
+  "source_sha256": "3bb000052f92b7cb5c7ba5ebae691eae3b55708cf8ed6381984c3d5fe63ecacd",
+  "seconds": 0.4642831710007158,
+  "records": [
+    {
+      "n": 803,
+      "source_packets": [
+        {
+          "path": "artifacts/fq-cold-transfer-packet-fixtures-v1/outputs/case-803/raw-hop/packet-0001.npz",
+          "sha256": "c68ecdd4b2d085969b1cf6f55a099dc9b996d38732d43eb849d290806b9ddad1"
+        },
+        {
+          "path": "artifacts/fq-cold-transfer-packet-fixtures-v1/outputs/case-803/raw-hop/packet-0248.npz",
+          "sha256": "ba139f8bd792b27b2c651eca4e53b2240dcd4dd8db200493de3184d5b5ed580f"
+        }
+      ],
+      "arrays": {
+        "current_before_reset": {
+          "shape": [
+            64,
+            803,
+            3
+          ],
+          "dtype": "float64",
+          "sha256": "b529eb627d88c4a8f308c8a9436a864c13861b58900e7f82b7f957c632aaf3ed"
+        },
+        "pre_reset_energy": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "2973fd62fda3ed9a23c1e2a9c285c9ee22ff966ab5f9d8998bd267c80b9dd33e"
+        },
+        "current_before": {
+          "shape": [
+            64,
+            803,
+            3
+          ],
+          "dtype": "float64",
+          "sha256": "b529eb627d88c4a8f308c8a9436a864c13861b58900e7f82b7f957c632aaf3ed"
+        },
+        "proposal_input": {
+          "shape": [
+            64,
+            803,
+            3
+          ],
+          "dtype": "float64",
+          "sha256": "5d57cdfbb40308e86110a239eee9a43110017f15011f4e32ffee7967965e8964"
+        },
+        "best_before": {
+          "shape": [
+            64,
+            803,
+            3
+          ],
+          "dtype": "float64",
+          "sha256": "dce88ddb754163f2e5071e1d4e0ae65fe741927a9ee3ec35376da2a10abc90f8"
+        },
+        "sides": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "72fecbef34c836f3a03b6a925871c52edcc01adbaf69fe32dc8ad076a4604709"
+        },
+        "base_temperature": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "8dde9617e8d3cbdc304645b48ba99f0bcc145edc3818031e3d032e17f9f2522b"
+        },
+        "current_energy": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "2973fd62fda3ed9a23c1e2a9c285c9ee22ff966ab5f9d8998bd267c80b9dd33e"
+        },
+        "input_energy": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "c179a0733e190bcb5b47c14e38dd011d5805f2e894dcf203dd845ab639705cf6"
+        },
+        "best_energy_before": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "ef4bacd16168698891cab8b905a25d08569d4e6889045822c1330bb2b00ea1c4"
+        },
+        "proposal_quenched": {
+          "shape": [
+            64,
+            803,
+            3
+          ],
+          "dtype": "float64",
+          "sha256": "6f6344622fdffbf61fb96f2c196b70223bafcdae948342780c24dcec3d6f90a6"
+        },
+        "current_after": {
+          "shape": [
+            64,
+            803,
+            3
+          ],
+          "dtype": "float64",
+          "sha256": "f0c9b470e729ecdb75fc3a3132a7dfffc3b792b071d6f9240289209022d46124"
+        },
+        "best_after": {
+          "shape": [
+            64,
+            803,
+            3
+          ],
+          "dtype": "float64",
+          "sha256": "7c0769542bddfcfed99a321d101a29b531021f8831db379b750c3236a4ce2546"
+        },
+        "proposal_energy": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "998cddd40348568a596ed526373b6e4676ad056a3d5705d1698926c5a46a9a18"
+        },
+        "next_energy": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "eea0f8459f8a76177a6af10f8faa1789d626ab1dc69f15c004972993b4ae3218"
+        },
+        "best_energy_after": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "4631535c5404f2fc4f29451f88e5b0974c56617daff46cd535ae6fea60b9d837"
+        },
+        "uniform": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "be3991639b35d72471fe2aa0e180a034efccfb47436605464745e91afaf96fbb"
+        },
+        "temperature": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "2bc43f7ae90a45c2aeedd4412fbb59afca7884d72d31400a871b3dfcc4a6477c"
+        },
+        "accepted": {
+          "shape": [
+            64
+          ],
+          "dtype": "bool",
+          "sha256": "18635328b3f466ee79484828967d239167f1949a68186096575ba421157a0b6d"
+        },
+        "accepted_uphill": {
+          "shape": [
+            64
+          ],
+          "dtype": "bool",
+          "sha256": "59a412d6eca725ce768305069841f0c0afc2a600c10ab253447346a332b6a4a7"
+        }
+      },
+      "original_stored_bytes": 8644406,
+      "modes": [
+        {
+          "block_bytes": null,
+          "unique_blocks": 218,
+          "bytes": 4218126,
+          "fraction": 0.487960190671285,
+          "encode_seconds": [
+            0.018467305999365635,
+            0.013221102999523282,
+            0.006166973995277658
+          ],
+          "decode_seconds": [
+            0.012042714995914139,
+            0.006083338004827965,
+            0.007201941996754613
+          ],
+          "median_encode_seconds": 0.013221102999523282,
+          "all_arrays_bit_exact": true,
+          "independently_decodable_packet": true
+        },
+        {
+          "block_bytes": 1536,
+          "unique_blocks": 2197,
+          "bytes": 3313215,
+          "fraction": 0.3832785040406478,
+          "encode_seconds": [
+            0.007513094999012537,
+            0.006916923004609998,
+            0.007873968002968468
+          ],
+          "decode_seconds": [
+            0.005953744999715127,
+            0.005651377003232483,
+            0.006025692004186567
+          ],
+          "median_encode_seconds": 0.007513094999012537,
+          "all_arrays_bit_exact": true,
+          "independently_decodable_packet": true
+        },
+        {
+          "block_bytes": 384,
+          "unique_blocks": 8271,
+          "bytes": 3298544,
+          "fraction": 0.3815813371098026,
+          "encode_seconds": [
+            0.013045480998698622,
+            0.01247737200174015,
+            0.01359462400432676
+          ],
+          "decode_seconds": [
+            0.008254503998614382,
+            0.009526418005407322,
+            0.009466814997722395
+          ],
+          "median_encode_seconds": 0.013045480998698622,
+          "all_arrays_bit_exact": true,
+          "independently_decodable_packet": true
+        }
+      ]
+    },
+    {
+      "n": 861,
+      "source_packets": [
+        {
+          "path": "artifacts/fq-cold-transfer-packet-fixtures-v1/outputs/case-861/raw-hop/packet-0001.npz",
+          "sha256": "74a913be4b583e378ef845be2a0a1868e5a11e753a333b9f8b11a8215d054cfc"
+        },
+        {
+          "path": "artifacts/fq-cold-transfer-packet-fixtures-v1/outputs/case-861/raw-hop/packet-0238.npz",
+          "sha256": "9d77d9c1684c8f26b6e2fed6fbbe5f9addf054641114a185a2d337432f23e217"
+        }
+      ],
+      "arrays": {
+        "current_before_reset": {
+          "shape": [
+            64,
+            861,
+            3
+          ],
+          "dtype": "float64",
+          "sha256": "4c7b42d9fdccbefb4e0b3653175a6bd080794bc9a5b87d847cb466874b7ae69a"
+        },
+        "pre_reset_energy": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "cc62c753180422f833b67fbd30e931061cc2885cbff34c92af29544c8bec9987"
+        },
+        "current_before": {
+          "shape": [
+            64,
+            861,
+            3
+          ],
+          "dtype": "float64",
+          "sha256": "4c7b42d9fdccbefb4e0b3653175a6bd080794bc9a5b87d847cb466874b7ae69a"
+        },
+        "proposal_input": {
+          "shape": [
+            64,
+            861,
+            3
+          ],
+          "dtype": "float64",
+          "sha256": "2fb8f1f06af7ccad6dba8d6ded18e93674739cc28fe6a092250657941cbda6ca"
+        },
+        "best_before": {
+          "shape": [
+            64,
+            861,
+            3
+          ],
+          "dtype": "float64",
+          "sha256": "8c750f04d3b79df33c79836958a8d09d383ab9598e1bcd27027e99d2dd1d0d84"
+        },
+        "sides": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "1d7ca3e643c28542e07e9fc8c7fe8cfb4469826ab19b4e29503b4494cb3344a7"
+        },
+        "base_temperature": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "8dde9617e8d3cbdc304645b48ba99f0bcc145edc3818031e3d032e17f9f2522b"
+        },
+        "current_energy": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "cc62c753180422f833b67fbd30e931061cc2885cbff34c92af29544c8bec9987"
+        },
+        "input_energy": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "85f9a1410b57724142f96d83ff825bdef83d9d029a3f2a2b44eab4e9f605ef1e"
+        },
+        "best_energy_before": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "68700c210eef941329e898da38f5929cdb34e8e4159e736fb4324e4e0a8e5112"
+        },
+        "proposal_quenched": {
+          "shape": [
+            64,
+            861,
+            3
+          ],
+          "dtype": "float64",
+          "sha256": "09abb0c1592e90a0310cf1338d8c0ed47cc5a902e473871eea8b56de3291e21f"
+        },
+        "current_after": {
+          "shape": [
+            64,
+            861,
+            3
+          ],
+          "dtype": "float64",
+          "sha256": "9901e23f5817493298e85e28677526e290d107a3e04c04afa12fb05410399bda"
+        },
+        "best_after": {
+          "shape": [
+            64,
+            861,
+            3
+          ],
+          "dtype": "float64",
+          "sha256": "e9f47337c112748845b41f7343dc26d8c47f54211f2b939488511bd9eeebff13"
+        },
+        "proposal_energy": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "e723de8e1fa766b29aa4f2541c9bc928947a32c1cc59d98bb7914ef62fe2550e"
+        },
+        "next_energy": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "481c919cafbb04776c5da748d44b0204cc3ac0bbfbd8af401870808535223e78"
+        },
+        "best_energy_after": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "51c56ff34445021a050a7bc49f29aff6e6e140eddb3dbcb4f6f4e311b26c5d50"
+        },
+        "uniform": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "d9235d6c40069cd14492251c7d4674b52e27d6b9c67a8c09c18ad98e69028254"
+        },
+        "temperature": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "sha256": "2bc43f7ae90a45c2aeedd4412fbb59afca7884d72d31400a871b3dfcc4a6477c"
+        },
+        "accepted": {
+          "shape": [
+            64
+          ],
+          "dtype": "bool",
+          "sha256": "8c2e8a53686eab053bb500c4b10d55c75541992aa74d7f32e21af8a876fa3ebb"
+        },
+        "accepted_uphill": {
+          "shape": [
+            64
+          ],
+          "dtype": "bool",
+          "sha256": "f6320597776ef2a573439b69d4a40bbd3d37999b0e6d3bc8ac06146c2416d353"
+        }
+      },
+      "original_stored_bytes": 9268022,
+      "modes": [
+        {
+          "block_bytes": null,
+          "unique_blocks": 211,
+          "bytes": 4376878,
+          "fraction": 0.47225589235761417,
+          "encode_seconds": [
+            0.009103042000788264,
+            0.013024241001403425,
+            0.008751517001655884
+          ],
+          "decode_seconds": [
+            0.005823565006721765,
+            0.006848655997600872,
+            0.007348688995989505
+          ],
+          "median_encode_seconds": 0.009103042000788264,
+          "all_arrays_bit_exact": true,
+          "independently_decodable_packet": true
+        },
+        {
+          "block_bytes": 1536,
+          "unique_blocks": 2241,
+          "bytes": 3366599,
+          "fraction": 0.36324892193825176,
+          "encode_seconds": [
+            0.007316932002140675,
+            0.009017557000333909,
+            0.007197695995273534
+          ],
+          "decode_seconds": [
+            0.005830244997923728,
+            0.006392543000401929,
+            0.0058339679962955415
+          ],
+          "median_encode_seconds": 0.007316932002140675,
+          "all_arrays_bit_exact": true,
+          "independently_decodable_packet": true
+        },
+        {
+          "block_bytes": 384,
+          "unique_blocks": 8366,
+          "bytes": 3378432,
+          "fraction": 0.3645256776472909,
+          "encode_seconds": [
+            0.011817694998171646,
+            0.011717172004864551,
+            0.012416994002705906
+          ],
+          "decode_seconds": [
+            0.00866841300012311,
+            0.009067847997357603,
+            0.008766938997723628
+          ],
+          "median_encode_seconds": 0.011817694998171646,
+          "all_arrays_bit_exact": true,
+          "independently_decodable_packet": true
+        }
+      ]
+    }
+  ],
+  "no_gpu": true,
+  "no_search": true,
+  "no_runtime_changes": true,
+  "metadata_scope": "Same numerical arrays as the earlier concatenation probe; original metadata_json remains in both hash-pinned source packets.",
+  "limitation": "Two concatenated real B32 fixtures; not measured actual B64 production overhead or search coverage."
+}

@@ -1,0 +1,122 @@
+{
+  "source_sha256": "fcd5ade9151c0db9a84ace6da488488ed0574624a348866f3172f65379004744",
+  "source_snapshot": "artifacts/birth-objective-review-v1/source-at-failing-review.py",
+  "poses": [
+    [
+      1.0,
+      1.0,
+      0.0
+    ],
+    [
+      1.5,
+      1.3,
+      0.0
+    ]
+  ],
+  "box": [
+    4.0,
+    4.0
+  ],
+  "birth_size": 0.2,
+  "energy": 0.009999999999999995,
+  "returned_gradient": [
+    [
+      0.19999999999999996,
+      0.0,
+      -0.03
+    ],
+    [
+      -0.19999999999999996,
+      0.0,
+      -0.03
+    ]
+  ],
+  "smooth_limits": [
+    {
+      "unit": 0,
+      "sign": -1,
+      "energy": 0.010000008000001991,
+      "gradient": [
+        [
+          0.2000000800000029,
+          -2.0000008000000357e-08,
+          -0.08000004000000438
+        ],
+        [
+          -0.2000000800000029,
+          2.0000008000000357e-08,
+          0.02000000599999949
+        ]
+      ]
+    },
+    {
+      "unit": 0,
+      "sign": 1,
+      "energy": 0.009999996000000797,
+      "gradient": [
+        [
+          0.19999996000000297,
+          1.9999996000000363e-08,
+          -0.0399999840000022
+        ],
+        [
+          -0.19999996000000297,
+          -1.9999996000000363e-08,
+          -0.019999994000000697
+        ]
+      ]
+    },
+    {
+      "unit": 1,
+      "sign": -1,
+      "energy": 0.010000001999999994,
+      "gradient": [
+        [
+          0.20000001999999895,
+          0.0,
+          -0.040000006000000095
+        ],
+        [
+          -0.20000001999999895,
+          0.0,
+          -0.019999999999999594
+        ]
+      ]
+    },
+    {
+      "unit": 1,
+      "sign": 1,
+      "energy": 0.010000001999999994,
+      "gradient": [
+        [
+          0.20000001999999895,
+          0.0,
+          -0.08000000599999929
+        ],
+        [
+          -0.20000001999999895,
+          0.0,
+          0.019999999999999594
+        ]
+      ]
+    }
+  ],
+  "analytic_limiting_angle_gradients": [
+    [
+      -0.04,
+      -0.02
+    ],
+    [
+      -0.08,
+      0.02
+    ]
+  ],
+  "distance_to_full_limiting_angle_segment": 0.01414213562373095,
+  "defect": "Unequal-size parallel pair: amin tie averaging plus abs(delta) zero derivative selects a non-realizable gradient. Angularpoint lies outside the Clarke hull, despite correct energy and coherent-angle sum.",
+  "earlier_provided_controls": {
+    "passed": 4,
+    "seconds": 0.468,
+    "scope": "Untied mixed FD, all-unit identity,containment/walls,and tiny5-squarebirth growth. No larger optimization orGPU."
+  },
+  "source_or_metric_edits_by_reviewer": false
+}

@@ -1,0 +1,67 @@
+{
+  "build-report.json": {
+    "source": "artifacts/birth-job-v4/build-report.json",
+    "sha256": "8f639b9bd4f8af8757ac9793cac70f76ed6fb1479a47ed4a25f91237bd070390",
+    "bytes": 328
+  },
+  "manifest.json": {
+    "source": "artifacts/birth-job-v4/manifest.json",
+    "sha256": "11668b75e78ec71fa0808886764fd4b6be447881ca50a6fd6df9bb8a53ce6230",
+    "bytes": 150729
+  },
+  "cpu-controls.json": {
+    "source": "artifacts/birth-cpu-controls-v2/report.json",
+    "sha256": "64855a4cb3a865e0c7b89412ea0daea7f5044a1d471d4d7989d5a2c4c8e64b6c",
+    "bytes": 8412
+  },
+  "cuda-host-controls.json": {
+    "source": "artifacts/birth-cuda-cpu-controls-v2/report.json",
+    "sha256": "09f9f71959d9551a6a033c1c41282dbf9e992b0a634ac6b8806221250004faa2",
+    "bytes": 9315
+  },
+  "driver-controls.json": {
+    "source": "artifacts/birth-driver-controls-v1.json",
+    "sha256": "f298d58cbd3c4b40dd2cf667dcf4487d3e3f10eb302ad20757847dbed6a83b48",
+    "bytes": 433
+  },
+  "independent-numerical-review.json": {
+    "source": "artifacts/birth-job-v4/independent_numerical_review.json",
+    "sha256": "70863bb3346d6de54f3bd956416138cd33a405ce2fac434af2b5357e07deccf0",
+    "bytes": 4830
+  },
+  "independent-packaging-review.json": {
+    "source": "artifacts/birth-job-v4/independent-packaging-review.json",
+    "sha256": "e2e81ee51718b290f7672ebb5a0c7f30d6ce7bfc3b0c3f6d7793ed7cadab21ea",
+    "bytes": 1366
+  },
+  "remote-source-proof.json": {
+    "source": "artifacts/birth-job-v4/remote-source-proof.json",
+    "sha256": "85d1d658a9878507e01731dc268609730f8e9ac3e66e83860c54bdf0ad0dca19",
+    "bytes": 489
+  },
+  "actual-startup-proof.json": {
+    "source": "artifacts/birth-job-v4/live-startup-check.json",
+    "sha256": "19c3fe34153cca48edeaf4a9876c596710dca56b6f5d79e5965bf5e60535824c",
+    "bytes": 1456
+  },
+  "input-proof.json": {
+    "source": "artifacts/birth-inputs-v1/input-proof.json",
+    "sha256": "3165b9e875422100341c16d112f771d997843245d3bd7adb33448744292b4dcb",
+    "bytes": 2913
+  },
+  "current-target-confirmation.json": {
+    "source": "artifacts/birth-targets-public35-confirmation.json",
+    "sha256": "b27cd82d95008d07e44c355f752a4470198a479b5b2b93a678b569794934b0c7",
+    "bytes": 958
+  },
+  "original-control-summary.json": {
+    "source": "artifacts/birth-original-controls-v1/summary.json",
+    "sha256": "a5049c5966756f78b32b7d4a415350760aee1e1b7271e4de44297592d916fb2c",
+    "bytes": 1202
+  },
+  "failed-unequal-tie.json": {
+    "source": "artifacts/birth-objective-review-v1/mixed-parallel-tie.json",
+    "sha256": "293dbf80d2375592691dedb21d98672683972640580bbde82492c74a661b5bc3",
+    "bytes": 2526
+  }
+}

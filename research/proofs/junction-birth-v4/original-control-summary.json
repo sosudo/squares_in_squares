@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "seconds": 5.533054571998946,
+  "workers": 2,
+  "whole_seconds": 80,
+  "native_seconds": 60,
+  "gate_seconds": 8,
+  "baseline": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-sustained-controls-v1.csv",
+    "sha256": "77072a68f862fc166264825aa19a1eb867692bf280ca531965499fab2e6baea0",
+    "score": 22.297959981773438,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-fq-sustained-controls-v1-official.json",
+    "official_report_sha256": "a379ea912b16480c352934f3c4a5205acd8d2e3040317e15c8cf58c271bb4483",
+    "reuse": {
+      "reused": 998,
+      "evaluated": 2
+    }
+  },
+  "source_sha256": "4b6dc0257a00d65c5962aa3cc762a2e86ce9294eb2b314af4b4c9c697c1b04f5",
+  "parent_finish_sha256": "8ea639b6a29ebb4dceeded24f2104ed37a12539239664d238d5ad91ef5e8a7ee",
+  "native_trial_sha256": "aab5ea32adc59fe26d1379879f8d4efc53cd1c157b6a02269c7d1dc9e400f543",
+  "results_sha256": "3fddeaec830da088724c44702e73585c96cb27a229e0e29b2f2d77e9bd999a12",
+  "certified_sha256": "86eb01fee7cb945895a2bc5657cfba390d4d914d6f0e88b7418dcbab7982ebea",
+  "all_certified": true,
+  "strict_winners": [],
+  "no_canonical_mutation": true,
+  "no_submission": true
+}

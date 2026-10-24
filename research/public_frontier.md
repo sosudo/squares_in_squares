@@ -110,3 +110,28 @@ were only about 1e-11, consistent with decimal/clearance conventions; they
 were not claimed as coordinate gains. The exact manifest and comparison are
 retained under `artifacts/public-freshness/jlevy-90a543771ae8/`. Witness
 coordinates were not re-imported, and the earlier checkout was not modified.
+
+At16:27 UTC on2026-10-24, an explicit maximum-Ready-version check found
+KMMM35, newer than the previously pinned31; Lightning remained19 and was
+not downloaded again. Exact public35 ZIP SHA256 is
+`55d9284e8d1f75dbe694bd8437ea202acc4f7e738f3b42b85567c082c69103c3`.
+Its complete2,250-file release, full inherited notices, source manifests,
+contributor metadata and license files are retained in`artifacts/public-v35`.
+The full1,000-case CSV SHA256 is
+`b8be571167c0d51693cdce9ac07187098a0d38bceef0d9e25d347d067e4eb6b9`.
+Version35's publication notes say its CSV matches34; explicit version35 bytes
+were still pinned rather than assuming the older convenience field was current.
+
+Eighteen cases strictly improved the then-current77072a68 RAW portfolio:
+423,465,509,602,651,652,705,706,753,754,804,809,863,867,978,983,984,985.
+Every exact-decimal case passed official raw, ordinary-pandas and independent
+interval gates; no candidate was rejected. Their certified aggregate import
+gain is0.00006435195799437. Candidate JSON SHA256 is
+`91b6e4b1a3d988afd6ccde68dec456e558993e88397125a6da17a2cbd1fbf076`;
+the exact release/candidate/notice/source bindings are in
+`artifacts/public-v35/certified-provenance.json`, SHA256
+`7c854ec129522515f8764197b0d89a4f0beec63a73af91053415fa5b2feef378`.
+Root subsequently adopted the merge at SAFE/ordinary-roundtrip score
+22.297895630470705. Native finishing of these newly changed public geometries
+is a separate experiment; its additional gains are not attributed to the
+public import. No notebook Rust/shell source was executed in this refresh.
