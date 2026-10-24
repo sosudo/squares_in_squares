@@ -1,0 +1,90 @@
+{
+  "schema_version": 2,
+  "purpose": "Search baseline only; user permits submission only when raw and ordinary-roundtrip score are strictly below22.3.",
+  "user_submission_score_threshold": 22.3,
+  "eligible_under_user_score_threshold": false,
+  "raw_source": "/workspace/squares_in_squares/artifacts/merged-cpu-bottleneck-v2.csv",
+  "raw_sha256": "d3ae8b1033de08735602a2ee5d741c120553a03c8c9ab5a7fdb2296b3da54526",
+  "raw_score": 22.30142774975716,
+  "safe_submission": "/workspace/squares_in_squares/artifacts/submission-cpu-bottleneck-v2-safe.csv",
+  "safe_sha256": "5cba3bdac3cf87483073025bdd3b6c058870518c617383276d8855bc454a5ab0",
+  "safe_score": 22.30142775062775,
+  "roundtrip_submission": "/workspace/squares_in_squares/artifacts/submission-cpu-bottleneck-v2-safe-roundtrip.csv",
+  "roundtrip_sha256": "1d3f102d52d274675deabe266d8c83d7019820e20add73cd1a07c09c045f8b05",
+  "roundtrip_score": 22.301427750627752,
+  "safe_invalid_count": 0,
+  "roundtrip_invalid_count": 0,
+  "safe_case_coverage": 1000,
+  "safe_reuse": {
+    "reused": 996,
+    "evaluated": 4
+  },
+  "roundtrip_case_coverage": 1000,
+  "roundtrip_reuse": {
+    "reused": 996,
+    "evaluated": 4
+  },
+  "roundtrip_evaluated": 4,
+  "roundtrip_reused": 996,
+  "same_binary64_score": false,
+  "absolute_score_difference": 3.552713678800501e-15,
+  "score_tolerance": 1e-10,
+  "scores_agree_within_1e_10": true,
+  "baseline_role": "Previous fully certified contact-polish portfolio",
+  "baseline_sha256": "ebb688d8bee556048e97952f024e22e5b78677e0283256da30c92819537f72f3",
+  "baseline_score": 22.301704750703177,
+  "gain_over_previous_baseline": 0.00027700007542819094,
+  "roundtrip_gain_over_previous_baseline": 0.00027700007542819094,
+  "strictly_better_raw_and_roundtrip": true,
+  "case_score_changes": [
+    {
+      "n": 702,
+      "gain": 1.7843269014550245e-05,
+      "old_side": "26.93738151832896933095218475899908989202800220920707",
+      "new_side": "26.93690875587394000315972805078067062675441212306196"
+    },
+    {
+      "n": 813,
+      "gain": 0.00012346341641955583,
+      "old_side": "28.93633855637753001311106933943689492967092956579322",
+      "new_side": "28.93281822486576600315972805078067062675441212306196"
+    },
+    {
+      "n": 871,
+      "gain": 0.00011933454053525416,
+      "old_side": "29.93634011244935712438974951645792996087340138546910",
+      "new_side": "29.93281822686576603961566084578612408692254720672932"
+    },
+    {
+      "n": 931,
+      "gain": 1.6358849459496838e-05,
+      "old_side": "30.93693675587436177302225364653951481751984833951339",
+      "new_side": "30.93643760987298204961566084581853101256841346125665"
+    }
+  ],
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "factor": "1.00000000001",
+  "safety_scaled_cases": 89,
+  "transform_report": "/workspace/squares_in_squares/artifacts/submission-cpu-bottleneck-v2-safe.transport-transform.json",
+  "transform_report_sha256": "d67219943566ce33f30c2dd25da94740043bee8d5dcc5b2e7a0a612c742a5fbf",
+  "raw_official_report_sha256": "569c8532cc383fded35e36624e80094306e4bfea49ce7981a787463ed8b8c4b7",
+  "safe_official_report_sha256": "e1f0261a90ebe734448bfdae4c45ea4a91219e4cc4e0868623a3b579a500e1a1",
+  "roundtrip_official_report_sha256": "4550f17f6a3ab4566ee080d6088e52a798da8d0d3e2cff1115451fd5d68c09d8",
+  "safe_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-fq-full-contact-v1-safe-official.json",
+    "report_sha256": "3eea500d1b2bd616b6c55f580a648025c94a23b1d8c4188698197834abdf4bc4",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-fq-full-contact-v1-safe.csv",
+    "sha256": "ebb688d8bee556048e97952f024e22e5b78677e0283256da30c92819537f72f3"
+  },
+  "roundtrip_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-fq-full-contact-v1-safe-roundtrip-official.json",
+    "report_sha256": "bb4b0911240b68a702b89b8805c92ed079ab92f97439c50039002c7a545bfe1d",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-fq-full-contact-v1-safe-roundtrip.csv",
+    "sha256": "5407bfd6505ea2b9322a7855a0e4fb2c98d02580696ccd2acaa86c5f604c7434"
+  },
+  "composition_merge_provenance": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-cpu-bottleneck-v2.validation.json",
+    "sha256": "072d9c5abfde0e1d889d67546b9c6af685368bcbc54bcdea4ba68701f682bce9"
+  },
+  "competition_submission_performed": false
+}

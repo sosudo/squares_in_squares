@@ -107,7 +107,13 @@ def trial(job):
     if run.returncode != 0 or not dst.exists():
         return {**record, 'status': 'failed'}, None
     try:
-        record['fq'] = json.loads(run.stdout.strip().splitlines()[-1])
+        report = json.loads(run.stdout.strip().splitlines()[-1])
+        if not isinstance(report, dict):
+            raise ValueError('Optimizer report must be an object')
+        # Python accepts nonstandard NaN/Infinity and overflowing exponents
+        # by default. Reject them before strict checkpoint serialization.
+        json.dumps(report, allow_nan=False)
+        record['fq'] = report
     except (ValueError, IndexError):
         return {**record, 'status': 'invalid-optimizer-report'}, None
     try:

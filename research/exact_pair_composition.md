@@ -47,6 +47,13 @@ mode 1. That search used the same unchanged helper; its evidence is retained
 in `artifacts/exact-pair-insertion-expanded-v1/`. The original six-type negative
 audit remains valid for its frozen inputs.
 
+Controlled substitution subsequently showed that older 7×20 +14 donors
+reproduce the identical certified side when paired with the same stronger
+4×16 +9 donor. The n=599 gain is therefore attributed to the improved 4×16 +9
+geometry and expanded pair search; insertion boundary diversity was not needed.
+The ablation is retained in
+`artifacts/exact-pair-insertion-ablation-v1/report.json`.
+
 The n=599 candidate was independently admitted into the immutable KMMM 28
 portfolio, then fully official/raw and default-pandas transport certified.
 `submission-pair-insertion-v1-safe.csv` scores **22.302014983057447**, with the

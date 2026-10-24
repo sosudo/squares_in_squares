@@ -331,3 +331,160 @@ the 133-pose primary donor archive SHA-256 is
 The winning pose, archive hashes, local zero-return trace, and both rigid
 certificates were independently checked before the downstream handoff. Full
 portfolio impact remains for composition to determine.
+
+The completed local run finished in 589.46 seconds, with 575 trials and 423
+certified primary results. The other outcomes were 151 failures of the
+near-best quality band and one timeout. Including every certified local
+intermediate retained 846 exact poses and all 846 certificate lineages.
+The final primary snapshot is `artifacts/fq-local-soft-v1/snapshot-00085`.
+The complete union is `artifacts/fq-local-soft-v1/all-strict/donors.npz`, SHA-256
+`c2aeea8fd99ac4c6b5b8c983fb9ac61b0be30672da1560f94ba03ec518033c7e`;
+its provenance SHA-256 is
+`6fd6f0d80b33017d9f19c3fab8067ef6fd431f9290658095685536ec9da0409a`.
+Exact minima were recomputed over the frozen references and all 846 poses.
+The resulting `all-strict/best_bank.npz` is identical to the primary best bank,
+SHA-256 `9443c4cb997cefd81f4b5f73ec52f2a38a54eaf851865dcfdbdf7c5d9bc4e1d8`.
+No certified intermediate contained an omitted better minimum. Archive,
+geometry, proof and log hashes, zero-aspect return and recorded official
+certificates were verified before handoff to composition. These checks bind
+the saved geometries to their existing certificates; they do not claim that
+all 846 official evaluations were rerun after completion.
+
+Besides the .007882171020 reduction for `9x20+13`, material family reductions
+were .001483748047 for `7x19+12`, .000548901579 for `8x20+12`, and
+.000150570026 for `7x20+13`. Opposite orientations count as one family.
+These rectangle reductions are not full competition score improvements.
+
+## Five current bottlenecks and contact-connected local regions
+
+The next explicitly bounded campaign targets the families limiting the current
+full-puzzle compositions: `7x21+15` (813 and 871), `8x20+12` (807),
+`6x22+16` (815), `10x23+14` (924), and `9x22+16` (931).
+`experiments/fq_bottleneck_inputs.py` freezes 655 exact donor poses and creates
+ten orientation-fair reference poses, all freshly certified through official
+raw and ordinary pandas round-trip checks. The input directory is
+`artifacts/fq-bottleneck-inputs-v1`; reference SHA-256 is
+`d6ec7dc541d2951d3c7a7b237e326ef37ea203f96cac9ef3420039d7a79fa310`,
+and donor SHA-256 is
+`333c643784bc24275b2b10c9895d2acff458267c0f9b7ef2234b3c3a83b4d888`.
+The source manifest and per-pose provenance preserve all original geometry
+and source-archive hashes. This immutable bank was also handed to the separate
+GPU continuation. The `9x22+16` references have 194 tilted squares; that exceeds
+the old 192-row GPU kernel limit, and was explicitly reported for its runtime
+preflight. The CPU method preserves all 214 squares without such a filter.
+
+`experiments/fq_bottleneck_campaign.py` alternates the proven circular region
+with a contact-connected region. It computes the maximum separating-axis gap
+over both squares' axes. Edges have gap at most .035 and center distance at
+most 1.6. A seeded opposite-tilt contact starts the region; weighted graph
+growth frees 24 or 40 squares. If its connected component is too small, the
+nearest remaining squares fill the mask and the fallback count is recorded.
+Unlike repeatedly choosing the globally closest opposite-tilt pair, this
+visits varied contact junctions. Source coordinates and angles stay unchanged
+before the optimizer; all other squares remain frozen during the local stage.
+Both policies use the same .3/.6 aspect schedules, exact zero-aspect return,
+global rigid release, official gates and full intermediate retention. This is
+an interleaved search comparison rather than a causal randomized efficacy
+trial: types, evolving incumbents and seeds also differ.
+
+Axis-aligned exact-gap and deterministic connected-mask tests pass under
+`unittest`. The eight-trial positive smoke finished in 12.04 seconds, retaining
+four certified primary outputs and six unique exact poses, with eight saved
+certificate lineages including intermediates.
+Both region policies produced certified outputs; four stronger attempts were
+rejected by the unchanged near-best gate. The production run
+`artifacts/fq-bottleneck-v1` has two CPU workers and a 900-second outer ceiling.
+Weights 6 and 5 emphasize the first two families; the other families receive
+weight 3 per orientation. These are sampling weights, not predicted score
+gains. Its frozen source manifest is
+`artifacts/fq-bottleneck-source-v1/manifest.json`, SHA-256
+`9b4568bafacbd140abeef4bf6320cc2c4a85b38c6e58054f4723bd18374bbe02`.
+The frozen trial source includes the parent's narrow malformed-native-output
+handling fix, while preserving the original eight-field API and search flags.
+
+The bottleneck campaign completed normally in 889.92 seconds: 548 trials,
+358 certified primary outputs, 189 quality-band rejections and one timeout.
+The complete union contains 652 distinct geometries with 716 saved certificate
+lineages. The new `experiments/fq_verify_local_bundle.py` audit checks every
+input/archive/source/geometry/log hash, the saved official raw and pandas
+certificates, exact zero-aspect traces, and coverage of every primary result
+and saved intermediate. It does not rerun the official evaluations. Its
+real-data smoke passed, and two corruption-rejection unit tests passed.
+The completed audit lives in
+`artifacts/fq-bottleneck-v1/final-verified/verification.json`.
+
+The largest canonical-family reductions are .003830007550 for `7x21+15` and
+.000737512109 for `9x22+16`. `8x20+12` added 3.624091e-6, `10x23+14`
+6.292750e-7, and `6x22+16` did not improve. Both orientations independently
+reached the same `7x21+15` minimum; this is one family improvement. Its first
+material basin transition was saved at 397.53 seconds. No canonical family
+gained more than 1e-5 afterward, and the final 187.5-second checkpoint window
+added only about 6e-14. The immutable trajectory report is
+`artifacts/fq-bottleneck-v1/trajectory-final.json`, SHA-256
+`938e75b790c94773857927481a1db748250fd06d300123b754abc465a2be3fe9`.
+
+The final handoff regenerates and freshly certifies both orientations from
+each family's exact minimum. It is
+`artifacts/fq-bottleneck-final-handoff-v1/reference.npz`, SHA-256
+`82aaa6f013bba306a25c3ecdafa8b13a841ea4fa22288d4e2ae9a3dc8696268d`.
+The accompanying 666-pose donor union includes the 652 outputs plus preserved
+references and new transposes; its SHA-256 is
+`826806dab055cf8265477ccc2fbff1589e2a20fd5d1a0f2c35f0696ba438e6eb`.
+The source manifest and per-pose provenance remain alongside those files.
+All earlier snapshots stay unchanged. Downstream composition independently
+reported four full-puzzle gains totaling approximately .000277 from the new
+basins; that evidence, rather than a sum of rectangle excess reductions,
+motivates further targeted search.
+
+## Prepared larger connected regions
+
+The plateau supports a distinct follow-up in
+`experiments/fq_large_region_campaign.py`: 64 or 96 connected free squares,
+with the same .3/.6 aspect schedules. Squares within .05 of an original wall
+and farther than six units from the selected junction stay frozen. On the
+actual new minimum, both requested region sizes are fully connected, with
+32–33 distant wall squares explicitly preserved. A deterministic geometry
+unit test passes. Global release uses the separately tested full-puzzle flags
+`--no-alm --loosen 1 --pit 20 --flip-top 0`; the existing shared twenty-second
+native-stage scheduling budget and all intermediate certificates remain.
+
+Fresh inputs in `artifacts/fq-large-region-inputs-v1` contain 275 diverse
+exact poses, retaining older starts inside the usual .005 excess band, and
+two freshly certified orientations at excess .932818138356037. The reference
+SHA-256 is
+`a1a6b075541c107d1aeeb2fcddcfaea0e325a8d533508a27d7feccb0c3189792`.
+An eight-trial real-data control run must demonstrate certified output and
+actual junction motion for the larger masks before the separately authorized
+900-second, two-worker production run starts.
+
+Those eight controls completed in 8.78 seconds. Both mask sizes passed at
+aspect .3, giving three certified primary outputs and six distinct certified
+poses with intermediates. The 64-free control moved nearby squares by .0552
+units and 1.244 degrees, with five contact changes; the 96-free control moved
+by .0645 units and .203 degrees, with six contact changes. Within 2.5 units
+of the selected center, the respective maximum motions were .01964 and
+.06451. The first also changed two nearby contact edges. Frozen distant
+squares moved only about 3e-8 after clearance legalization. This demonstrates
+that the larger neighborhoods can move while returning valid packings; the
+controls did not improve the objective.
+
+All four .6 controls failed the existing quality band, so production excludes
+that amplitude. The control configuration and actual executed trial dependency
+are preserved in `artifacts/fq-large-region-smoke-v1/source-executed`.
+The earlier `source/` capture coincided with the parent's parser update;
+`source-executed` restores the exact executed trial hash from the prior
+immutable snapshot and matches the smoke manifest. Neither artifact was
+retroactively overwritten. Motion and junction reports are separately bound
+in `motion-control.json` and `junction-motion-control.json`.
+
+The authorized production run is `artifacts/fq-large-region-v1`, with two
+workers and a 900-second outer ceiling. It alternates only `.3` continuation
+with 64 and 96 free squares, plus the twenty-iteration no-ALM global release.
+The source manifest SHA-256 is
+`038e4bddcb38a7e1d0c6cab41e6704559cb3a5e565955d685d8d7875c2969918`;
+the frozen trial source SHA-256 is
+`cc916fe5bc0e58a4cdfdeb6e4f498061522a2ae44cd6443fdffc1f485eb3db33`.
+That dependency includes the parent's tested rejection of nonfinite and
+non-object native diagnostics; search flags and geometry gates are unchanged.
+The 275-pose frozen donor input SHA-256 is
+`b1fef663f7feba5c4c817955c4b44b7034aef5829e9c7c6b12c9e810b12c0c72`.

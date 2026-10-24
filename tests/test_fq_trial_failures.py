@@ -32,7 +32,8 @@ class TrialFailureTests(unittest.TestCase):
                          19, 5., time.monotonic()+10.))
 
     def test_malformed_or_missing_report_rejected_without_crash(self):
-        for report in ['{"energy":-nan}', '']:
+        for report in ['{"energy":-nan}', '', '{"energy":NaN}',
+                       '{"energy":Infinity}', '{"energy":1e999}', '[]', 'null']:
             with self.subTest(report=report), tempfile.TemporaryDirectory() as tmp:
                 record, donor = self.run_trial(tmp, self.fake_binary(tmp, report))
                 self.assertEqual(record['status'], 'invalid-optimizer-report')

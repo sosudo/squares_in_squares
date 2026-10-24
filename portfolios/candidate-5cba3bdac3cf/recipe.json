@@ -1,0 +1,29 @@
+{
+  "status": "Certified search incumbent, private CPU export complete and remote bytes verified; not submitted",
+  "csv_sha256": "5cba3bdac3cf87483073025bdd3b6c058870518c617383276d8855bc454a5ab0",
+  "raw_csv_sha256": "d3ae8b1033de08735602a2ee5d741c120553a03c8c9ab5a7fdb2296b3da54526",
+  "official_score": 22.30142775062775,
+  "roundtrip_score": 22.301427750627752,
+  "source_notebook": {
+    "ref": "sos54352/squares-portfolio-5cba3bdac3cf",
+    "version": 1,
+    "output_file": "submission.csv"
+  },
+  "source_sha256": "a66f4b5d7a9c090df7aabccc54eb75b453aeddaa30cfcb604cb21b4d9fbdcc4d",
+  "source_bytes": 987338,
+  "source_notices": "../candidate-8cd7c023ab18/source-notices-kmmm28/",
+  "changed_cases": [
+    702,
+    813,
+    871,
+    931
+  ],
+  "finding": "Exact CPU replay of existing chains with stronger contact-deformed rectangle donors. All contact-LP, earlier GPU, public and n599 gains are preserved.",
+  "centre_dilation_factor": "1.00000000001",
+  "reproduce_command": "python3 portfolios/candidate-5cba3bdac3cf/export.py --destination /tmp/squares-candidate-5cba3bdac3cf/submission.csv",
+  "submission_policy": {
+    "maximum_score_exclusive": 22.3,
+    "eligible": false,
+    "competition_submission_performed": false
+  }
+}
