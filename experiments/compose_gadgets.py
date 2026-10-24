@@ -10,6 +10,7 @@ inputs. It never overwrites the incumbent CSV. Original source notices apply.
 from __future__ import annotations
 
 import argparse
+import atexit
 from dataclasses import dataclass
 import hashlib
 import json
@@ -24,6 +25,42 @@ import time
 import numpy as np
 import pandas as pd
 from scipy.spatial import cKDTree
+
+_GPU_SOURCE_CACHE = {}
+
+
+def compatible_gpu_sources(source_dir):
+    """Preserve originals; make the unsigned sentinel explicit for modern CuPy.
+
+    A Python integer 2**64-1 is otherwise inferred as signed by some CuPy
+    comparison kernels and raises OverflowError. The uint64 value is unchanged.
+    Sources remain alive for the process because the public modules hash their
+    own __file__ during later calls, including after preflight has completed.
+    """
+    source_dir = source_dir.resolve()
+    if str(source_dir) in _GPU_SOURCE_CACHE:
+        return _GPU_SOURCE_CACHE[str(source_dir)]
+    destination = Path(tempfile.mkdtemp(prefix='squares-gpu-source-compat-'))
+    shutil.copytree(source_dir, destination, dirs_exist_ok=True,
+                    ignore=shutil.ignore_patterns('__pycache__', '*.pyc'))
+    old = 'best!=np.iinfo(np.uint64).max'
+    new = 'best!=np.uint64(0xffffffffffffffff)'
+    patches = []
+    for name in ['gpu_seam_profiles.py', 'gpu_adaptive_seams.py']:
+        path = destination/name
+        original = path.read_bytes()
+        text = original.decode()
+        if text.count(old) != 1:
+            raise ValueError(f'Unexpected public comparison source in {name}')
+        changed = text.replace(old, new).encode()
+        path.write_bytes(changed)
+        patches.append({'file': name, 'reason': 'CuPy uint64 sentinel type compatibility',
+                        'original_sha256': hashlib.sha256(original).hexdigest(),
+                        'runtime_sha256': hashlib.sha256(changed).hexdigest(),
+                        'old_expression': old, 'new_expression': new})
+    atexit.register(shutil.rmtree, destination, ignore_errors=True)
+    _GPU_SOURCE_CACHE[str(source_dir)] = (destination, patches)
+    return destination, patches
 
 
 def extents(p):
@@ -336,8 +373,9 @@ def closure(base, candidates, seconds=60.):
 
 
 def gpu_compose(base, baseline, donors, source_dir, output_dir, method, seconds, bins):
-    """Stage explicit public inputs for the unmodified released GPU composers."""
-    sys.path.insert(0, str(source_dir.resolve()))
+    """Stage public inputs and the explicit unsigned-sentinel compatibility patch."""
+    runtime_sources, compatibility = compatible_gpu_sources(source_dir)
+    sys.path.insert(0, str(runtime_sources))
     import gpu_fault_composition as fault
     # Replace only the legacy file-loading entry point; geometry/kernels unchanged.
     fault.inputs = lambda: (base, {n: 'current certified portfolio' for n in base}, donors)
@@ -345,7 +383,7 @@ def gpu_compose(base, baseline, donors, source_dir, output_dir, method, seconds,
     seam.inputs = fault.inputs
     import gpu_adaptive_seams as adaptive
     previous = Path.cwd()
-    all_candidates, reports = {}, {}
+    all_candidates, reports = {}, {'_source_compatibility': compatibility}
     with tempfile.TemporaryDirectory(prefix='composition-', dir=output_dir) as directory:
         work = Path(directory)
         (work / 'artifacts').mkdir()
@@ -377,6 +415,8 @@ def gpu_compose(base, baseline, donors, source_dir, output_dir, method, seconds,
                             all_candidates[n] = p.copy()
                 reports[selected] = json.loads((work / 'research' / (tag + '.json')).read_text())
                 shutil.copy2(path, output_dir / path.name)
+                import cupy as cp
+                cp.get_default_memory_pool().free_all_blocks()
         finally:
             os.chdir(previous)
     return all_candidates, reports
@@ -409,13 +449,18 @@ def main():
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--backend', choices=['cpu', 'gpu', 'closure'], default='cpu')
     parser.add_argument('--method', choices=['corner', 'seam', 'adaptive', 'all'], default='all')
-    parser.add_argument('--source-dir', type=Path, default=Path('artifacts/public/lightning_sources'))
+    parser.add_argument('--source-dir', type=Path, default=Path('vendor/lightning_ftmc'))
     parser.add_argument('--baseline-donors', type=int, default=64)
-    parser.add_argument('--seconds', type=float, default=60., help='CPU crop budget or GPU budget per composer')
+    parser.add_argument('--seconds', type=float, default=60.,
+                        help='Crop/extraction budget per composer; DP and certification add time')
     parser.add_argument('--closure-seconds', type=float, default=60.)
     parser.add_argument('--rounds', type=int, default=4)
     parser.add_argument('--bins', type=int, default=16)
     args = parser.parse_args()
+    if args.seconds <= 0 or args.closure_seconds < 0 or args.rounds < 1 or args.baseline_donors < 0:
+        parser.error('Budgets/donor counts must be nonnegative; seconds and rounds must be positive')
+    if not 2 <= args.bins <= 32:
+        parser.error('Separator bins must be between 2 and 32')
     args.baseline = args.baseline.resolve()
     args.output = args.output.resolve()
     args.output.parent.mkdir(exist_ok=True, parents=True)

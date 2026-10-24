@@ -4,6 +4,10 @@ Maximize the leaderboard position in Kaggle Squares in Squares, ideally first pl
 
 Do not put API keys in the repository, scripts, logs, or research notes. Read authentication from the runtime or a protected credential store. The user authorizes using the full available Kaggle GPU quota, but expects intentional experiments. Start with short correctness and throughput pilots, checkpoint results, and allocate longer runs based on evidence. Do not create or resize paid resources. The user created Gradient project squares_in_squares (project ID pipamsa5ztw) and authorizes creating notebooks on FREE machines only, subject to availability. There is no running Paperspace machine. Do not create paid resources or upgrade the account. A PAPERSPACE_API_KEY secure binding is pending.
 
+## Checkpoint and submission cadence
+
+The user explicitly requests frequent commits and pushes at validated checkpoints. Check hourly for a submission that strictly improves on the best already submitted; skip unchanged or worse candidates. Respect the competition limit of ten submissions per day. Every submitted file must pass both exact-decimal and ordinary floating-point transport validation.
+
 ## Current plan
 
 1. Verify official rules, scoring version, deadline, and daily submission limits before submitting.

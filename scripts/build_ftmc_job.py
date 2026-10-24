@@ -2,7 +2,8 @@
 
 No credentials or external downloads are embedded. A validated source snapshot,
 published gadget fixtures, and this job's exact configuration are hashed into the
-manifest. The job uses one GPU, runs preflight checks, then a bounded worker.
+manifest. Jobs can resume a shared archive on one or two GPUs with independent
+seeds, per-device preflight checks, checkpointing and a hard overall timeout.
 """
 from __future__ import annotations
 import argparse
@@ -11,6 +12,7 @@ import hashlib
 import io
 import json
 from pathlib import Path
+import sys
 import zipfile
 import numpy as np
 
@@ -147,9 +149,20 @@ def main():
     ap.add_argument('--grace-seconds',type=int,default=180)
     ap.add_argument('--replicas',type=int,default=64)
     ap.add_argument('--seed',type=int,default=317)
+    ap.add_argument('--devices',default='0',help='Comma-separated CUDA device indices, e.g. 0,1.')
+    ap.add_argument('--seeds',help='One distinct CLI seed per selected device; defaults to seed+10007*i.')
+    ap.add_argument('--resume',type=Path,action='append',default=[],help='Worker gadget NPZ; may be repeated. Includes transpose variants.')
+    ap.add_argument('--wall-seconds',type=int,help='Overall parent alarm including preflight/export; default search+grace+420.')
+    ap.add_argument('--max-code-bytes',type=int,default=1_000_000)
     args=ap.parse_args()
     if args.seconds<=0 or args.grace_seconds<0 or not 1<=args.replicas<=512:
         raise ValueError('Invalid worker budget or replica count')
+    devices=[int(d) for d in args.devices.split(',')]
+    if not devices or min(devices)<0 or len(set(devices))!=len(devices):raise ValueError('Invalid CUDA device list')
+    seeds=[int(s)for s in args.seeds.split(',')]if args.seeds else [args.seed+10007*i for i in range(len(devices))]
+    if len(seeds)!=len(devices) or len(set(seeds))!=len(seeds):raise ValueError('Provide one distinct seed per device')
+    wall_seconds=args.wall_seconds or args.seconds+args.grace_seconds+420
+    if wall_seconds<args.seconds+args.grace_seconds+30:raise ValueError('Overall wall budget must include preflight/export time')
     fixtures=np.load(args.examples)
     ids=list(range(len(fixtures['meta_39']))) if args.ids=='all' else [int(i)for i in args.ids.split(',')]
     if not ids or any(i<0 or i>=len(fixtures['meta_39'])for i in ids):raise ValueError('Invalid gadget fixture index')
@@ -160,6 +173,21 @@ def main():
         if key.endswith('.py'):compile(payload,key,'exec')
         data[key]=payload
     data['examples.npz']=args.examples.read_bytes()
+    resume_files=[]
+    for i,path in enumerate(args.resume):
+        name=f'resume{i}.npz';data[name]=path.read_bytes();resume_files.append(name)
+    campaign=bool(args.resume) or len(devices)>1 or devices!=[0]
+    runtime=RUNTIME
+    seed_review=None
+    if campaign:
+        runtime=(ROOT/'experiments/ftmc_campaign_runtime.py').read_text()
+        data['ftmc_seed_bank.py']=(ROOT/'experiments/ftmc_seed_bank.py').read_bytes()
+        sys.path.insert(0,str(ROOT/'experiments'))
+        from ftmc_seed_bank import build_seed_bank
+        bank,variants,provenance,resume=build_seed_bank(args.examples,args.resume,ids)
+        seed_review={'gadgets':len(bank),'variants':len(variants),'resume_variants':len(resume),
+                     'incumbents':{key:rec['initial_bloat']for key,rec in provenance.items()},
+                     'provenance':provenance}
     required=['gpu_ftmc_refill.py','gpu_rect_optimizer.py','gpu_rect_explore.py',
               'gpu_topology.py','gpu_upright_rows.py','upright_refill.py','research/official_metric.py',
               'LICENSE','NOTICE','SOURCE_MANIFEST.json']
@@ -169,14 +197,26 @@ def main():
     manifest={'source':'lightningv08/squares-in-squares-cuda-packing-search','source_version':21,
               'source_license':'Apache-2.0','gadget_ids':ids,'search_seconds':args.seconds,
               'grace_seconds':args.grace_seconds,'replicas':args.replicas,'seed':args.seed,
+              'devices':devices,'wall_seconds':wall_seconds,'resume_files':resume_files,
+              'device_configs':{str(d):{'device':d,'replicas':args.replicas,'seed':s,
+                    'source_rng_seed':20261024+s+d*19937,'search_seconds':args.seconds,
+                    'resume_files':resume_files}for d,s in zip(devices,seeds)},
+              'quota_expectation':{'nominal_search_wall_hours':args.seconds/3600,
+                    'nominal_device_hours':args.seconds*len(devices)/3600,
+                    'hard_wall_hours':wall_seconds/3600,
+                    'hard_device_hours':wall_seconds*len(devices)/3600,
+                    'note':'Arithmetic device-hours; Kaggle quota billing must be checked against actual service metadata.'},
               'slug':args.slug,'embedded_sha256':{k:hashlib.sha256(v).hexdigest()for k,v in data.items()},
               'validation':'GPU analytic-gradient/refill preflight; per-gadget official metric; full composition still required.'}
     archive=io.BytesIO()
     with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for name,payload in data.items():z.writestr(name,payload)
     encoded=base64.b64encode(archive.getvalue()).decode()
-    script='# Private bounded FTMC search. No credentials embedded.\nCONFIG = '+repr(manifest)+'\nPAYLOAD = '+repr(encoded)+'\n'+RUNTIME
+    script='# Private bounded FTMC search. No credentials embedded.\nCONFIG = '+repr(manifest)+'\nPAYLOAD = '+repr(encoded)+'\n'+runtime
     compile(script,'search.py','exec')
+    code_bytes=len(script.encode())
+    if code_bytes>=args.max_code_bytes:
+        raise ValueError(f'Generated source is {code_bytes} bytes; must be below {args.max_code_bytes}. Use a smaller resume archive or source-backed data loader.')
     metadata={'id':args.slug,'title':args.title,'code_file':'search.py','language':'python',
               'kernel_type':'script','is_private':True,'enable_gpu':True,'enable_internet':False,
               'enable_tpu':False,'dataset_sources':[],'kernel_sources':[],
@@ -185,9 +225,11 @@ def main():
     (args.out/'search.py').write_text(script)
     (args.out/'kernel-metadata.json').write_text(json.dumps(metadata,indent=2)+'\n')
     (args.out/'job_manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
-    print(json.dumps({'built':str(args.out),'code_bytes':len(script),'fixtures':len(ids),
+    if seed_review:(args.out/'seed_review.json').write_text(json.dumps(seed_review,indent=2)+'\n')
+    print(json.dumps({'built':str(args.out),'code_bytes':code_bytes,'fixtures':len(ids),
                       'search_seconds':args.seconds,'grace_seconds':args.grace_seconds,
-                      'sources':len(data),'private':True}))
+                      'wall_seconds':wall_seconds,'devices':devices,'replicas':args.replicas,
+                      'sources':len(data),'private':True,'resume_variants':seed_review['resume_variants']if seed_review else 0}))
 
 
 if __name__=='__main__':main()

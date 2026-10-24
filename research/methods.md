@@ -136,3 +136,45 @@ need composition into complete puzzles before final CSV validation/submission.
 The generated job is `artifacts/ftmc-pilot/`. Local Python compilation, complete
 embedded-payload SHA256 verification, and the released CPU refill preflight pass.
 GPU execution and numerical results are recorded separately by the root agent.
+
+The first GPU pilot subsequently completed on Kaggle: all preflights passed,
+96,584 core trials and 15,808 full quenches took 601 seconds of worker time.
+It saved 154 officially checked variants across 19 improved gadget keys. For
+example, the 3x14+4 gadget improved from the published after bloat 0.8666866917
+to 0.8142939801. These are real gadget improvements; their competition-score
+effect still depends on composition into full puzzles. Detailed results and
+throughput are in `artifacts/ftmc-pilot-results/analysis.json`.
+
+## Prepared resumed dual-T4 campaign
+
+`artifacts/ftmc-campaign/` is prepared but has not been launched by this agent.
+It requests devices 0 and 1 for 1,800 seconds each, with 128 replicas and distinct
+CLI seeds 42001 and 52009. Both devices receive the same strongest published-plus-
+pilot incumbent bank, including transposed improvements, plus 308 resume poses
+each and 464 retained alternative poses. Reported strict gains compare against
+that stronger starting bank, so resuming an old pilot win is not counted again.
+
+The wrapper `experiments/ftmc_campaign_runtime.py` leaves the public solver code
+unchanged. It adds per-device manifests, parallel supervision, an 180-second
+worker grace period, a 2,400-second overall parent alarm, deduplicated official
+rechecks and per-device throughput reports. Checkpoints survive a timeout. The
+builder enforces source size below 1,000,000 bytes; this job is 871,359 bytes.
+The nominal search uses 1.0 arithmetic GPU device-hour (30 minutes on each T4);
+the hard total bound is 1.333 device-hours. Kaggle's actual quota accounting must
+be read from the service rather than inferred from those arithmetic figures.
+
+Rebuild without launching:
+
+```sh
+.venv/bin/python scripts/build_ftmc_job.py \
+  --seconds 1800 --grace-seconds 180 --wall-seconds 2400 \
+  --devices 0,1 --seeds 42001,52009 --replicas 128 \
+  --resume artifacts/ftmc-pilot-results/artifacts/worker0_gadgets.npz \
+  --slug sos54352/squares-ftmc-campaign --title 'Squares FTMC Campaign' \
+  --out artifacts/ftmc-campaign
+```
+
+Local validation checks payload hashes, unchanged public source hashes, all
+resumed SAT gaps, preservation of strongest transpose-equivalent incumbents,
+zero false new wins from imported seeds, and rejection of an oversized source.
+See `artifacts/ftmc-campaign/local_validation.json`.
