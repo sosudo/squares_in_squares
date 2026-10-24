@@ -1,2 +1,3 @@
 # Preserve the exact, hash-pinned upstream notice bytes (including CRLF).
-portfolios/candidate-6764e4b48e52/source-notices-kmmm29/* -text whitespace=cr-at-eol
+portfolios/candidate-*/source-notices-*/* -text whitespace=cr-at-eol
+vendor/notices/lightning-v19/* -text whitespace=cr-at-eol

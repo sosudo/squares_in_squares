@@ -126,3 +126,21 @@ was made by this experiment.
 The source-bound trace analysis is
 `artifacts/fq-torch-hop-results-v1/operator-temperature-analysis.json`, SHA256
 `3901bfd053bffd4c91bccb49a6966721ab8964dee2ffa5b7fba1568a93593975`.
+
+## Bounded native finishing consequence
+
+A separate root-authorized one-worker check finished BEST chains8,11,28 and10
+with the pinned native optimizer. All four final outputs passed the full
+certificates, but none improved canonical335. The first three returned to
+sides about18.82287569–18.82287576; source37 returned to18.82660566908.
+This finite consequence supplies no score benefit and does not justify an
+unchanged extension. Every valid returned geometry remains retained.
+
+Evidence is `artifacts/fq-torch-hop-native-finish-v1`; its four trials took
+25.95 seconds. The exact results SHA256 is
+`158b58da51a8bd605001a707d986439e4043878ec3f8b7802b36d5f999096504`.
+The independent actual-run audit at
+`artifacts/fq-torch-hop-results-v1/independent-actual-run-audit.json` replays
+all39 events and verifies representative full335 packet energies, acceptance,
+best/current selection, cooling and pending-timeout recovery. Protocol
+correctness remains separate from geometric or score success.
