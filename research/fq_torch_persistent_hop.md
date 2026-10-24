@@ -1,0 +1,41 @@
+# Persistent fixed-box ALM hopping pilot
+
+This experiment tests persistent uphill exploration after the first batched ALM pilot returned to familiar full-packing minima. It reuses the exact GPU-proved core, objective, fixtures and source notices from source `477fcf1001bca71020f16c2668951ec279a39c2176f55b7fa989d893e379059e`; it does not introduce a new geometry or gradient model. Evan Daniel's underlying FQ formulation is MIT-licensed at commit `659ee62e4a9d39542a1146e8b011cc3ab6407ede`.
+
+The approved design has 32 independent 335-square chains, split between fixed target boxes 18.807 and 18.803. Eight chains use base temperature 0.3, twelve use 1, and twelve use 3. These base temperatures apply for the first 120 seconds; all temperatures then decrease by a factor of ten for the remaining 60 seconds. The actual temperature and phase are recorded at acceptance. This cooling follows native evidence that a hot chain escaped but wandered at higher energy. Each temperature group includes mutation amplitude 1 and 1.5. Current state, proposal and best-ever state remain distinct. A proposal receives a bounded rigid ALM quench; acceptance compares freshly recomputed physical unit-square SAT penetration and wall energy at the same fixed box. Augmented-Lagrangian values and energies from different target boxes are not compared.
+
+The native acceptance rule for a positive-energy uphill proposal is
+
+`log(E_proposal / E_current) < -temperature * log(U)`.
+
+Thus a ratio of 100 has acceptance probability about 2.15e-7, 0.01 and 0.215 at the three temperatures. These are dimensionless temperatures; a common scalar energy normalization cancels. Changing relative wall/pair weights would change the experiment and is not allowed silently. Zero-energy and nonfinite cases require explicit controls in the implementation.
+
+The native calibration in `artifacts/packer-hop-335-v1-calibration-v2.json` found that 106 of 144 accepted hops were near-returns. All 42 accepted center swaps were near-returns, while coherent translations, rotations, shakes and occasional strip slides caused most realized motion. The new proposal palette therefore uses these four families, with weights 3/2/2/3 for translation/rotation/shake/strip slide. Actual changed masks and movement sizes, not just operator labels, must be recorded.
+
+Every completed proposal must be saved before accept/reject, with exact full input, old-current, quenched-proposal, next-current and best arrays and their hashes. Events record energies, ratios, random draws, temperatures and uphill acceptance. A finite packet/byte cap stops new work before storage exhaustion; it does not silently discard completed proposals. These are unverified search states. Any later packing admission requires the unchanged full geometry and ordinary-CSV transport gates.
+
+`scripts/build_fq_torch_hop_job.py` preserves all 26 original payloads byte-for-byte and adds only the hop helper, driver, frozen configuration and provenance. The parent supervisor changes only the child entrypoint: at most 180 seconds of planned search, a 300-second worker process-group limit, 475-second parent alarm and 600-second server cap. The private notebook is offline, has no mounted inputs and uses one device. No competition submission is part of this pilot.
+
+The frozen private pilot is `sos54352/squares-fq-torch-persistent-hop/1`, source SHA `a57ae191b9c61aee32b9a505a963de1bd585dfe815bf103d83e827b067a7e3b1` (320,478 bytes). Helper SHA is `367db4a17b2a1a6f67d9a7e0621eece18c101cf30ea3643efc5c957e9cf2dab3`; driver SHA is `2507a4260d1f7be8c67525a7ed4bbf401434cd1583f87049034faa04fdf97195`. Seven focused controls passed. Independent review `artifacts/fq-torch-hop-independent-delta-review.json` (SHA `59e9cac209729b85a92365f844900a8d49d7153b67781ae41dd182f76313446d`) verifies acceptance, exact rejected-state retention, full-335 physical coverage, packet atomicity, cooling and process ownership. All 26 parent payloads remain unchanged inside the 32-file bundle.
+
+The search has its own hard 180-second subprocess deadline after the unchanged live controls. Cooling is determined at acceptance time against that search deadline minus 60 seconds; exact decision timestamps and temperatures are retained. The finite cap is 512 packets and 1 GiB. Interrupted packets are marked incomplete and cannot become accepted chain states. The outer supervisor still owns the process group and its 300-second limit.
+
+The actual private T4 run completed normally at the outer level in 197.33 seconds. Its live controls passed in 2.77 seconds. The inner search was stopped at its hard 180-second bound, preserving 39 completed packets and one explicitly pending input packet. This represents 32 initial quenches plus 1,216 actual hops across 38 persistent rounds. The pending batch is excluded from acceptance and completion counts. All 63.3 MB of raw packets remain retained remotely; summaries, event records and representative packets were downloaded by exact filename and hash.
+
+Observed acceptance across both temperature phases was:
+
+| Base temperature | Completed hops | Accepted | Accepted uphill |
+| --- | ---: | ---: | ---: |
+| 0.3 | 304 | 54 | 16 |
+| 1 | 456 | 127 | 52 |
+| 3 | 456 | 271 | 95 |
+
+Cooling was actually reached: the first cooled decision was packet 26 at 124.10 seconds, followed by 13 cooled rounds. In this finite run, 29 of 32 best states improved after initialization; all 67 best updates came from quenched outputs rather than unquenched mutation inputs. Strip slides participated in 51 updates, rotations in 13, shakes in two and translations in one. These are participation counts, not an operator ablation. Cooling reduced median current energy in the base-temperature-1 and base-temperature-3 groups, but some hot chains remained diffuse. Retaining best states separately mattered: chain 28 ended at current energy about 0.9803 while retaining best energy about 0.000442.
+
+No zero-energy or certified packing improvement was found. The lowest recorded energy for target 18.807 was 0.00043583495 (chain 8), with physical span 18.80875779 and signed pair gap -0.00238964. For target 18.803, chain 11 retained energy 0.00064212358, span 18.80477858 and gap -0.00264670. These are materially overlapping, unverified states; their spans are not competition scores.
+
+Results are under `artifacts/fq-torch-hop-results-v1`, including the source-bound download receipt, actual packet index, event log and `operator-temperature-analysis.json`. Representative immutable packets and the recovered `final-current-best.npz` are in `artifacts/fq-torch-hop-selected-raw-v1`. The recovered archive SHA is `7c72b4fc73cdd159676e911ef3af7081d0438275b31fe8b5d8dd3c615c0ff228`; its keys are `current_after`, `best_after`, `sides`, `next_energy` and `best_energy_after`. No portfolio replacement or competition submission was made.
+
+Completion proof `artifacts/fq-torch-hop-results-v1/completion-proof.json` has SHA `eae3b0ab14cc27e36b9ca26bb03db27334df29ddabc2b1162da2d875a0a8bea8`. The separate authorized native finishes of BEST chains 8/11/28/10 all passed complete geometry and CSV gates, but returned to sides 18.82287569–18.82287576 for the first three and 18.82660566908 for the source-37 chain. Their new certified arrays are retained under `artifacts/fq-torch-hop-native-finish-v1`; they do not certify the overlapping GPU raw inputs. No further unchanged extension is justified by this finite result. Detailed method, temperature/operator interpretation and representative-state choices are in [the companion analysis](fq_torch_hop.md).
+
+The independent actual-run audit reproduced every recorded decision and current/best energy link exactly. It checked all 32 chains across six physical pose arrays in the first, first-cooled and last completed packets, plus the pending input, against independent dense full-335 SAT and wall energy (maximum difference 1.78e-15). Mutation masks, rejection retention, best-state selection and recovered-final equality all passed. The audit SHA is `a034ca9f956a32634f6f4e4846cb9b36c89ab83115f10cd23a59c1f072c5ca9e`; `final-evidence-binding.json` links it to completion and interpretation evidence. These checks validate the experiment's records, not the feasibility of its overlapping raw states.
