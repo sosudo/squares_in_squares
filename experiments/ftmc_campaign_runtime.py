@@ -51,6 +51,19 @@ with zipfile.ZipFile(io.BytesIO(base64.b64decode(PAYLOAD))) as archive:
         data=archive.read(entry)
         assert hashlib.sha256(data).hexdigest()==manifest['embedded_sha256'][entry.filename]
         target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(data)
+# Versioned Kaggle input attachments are immutable for this job. Resolve by
+# exact digest, never by whichever similarly named file happens to appear first.
+for attachment in manifest.get('input_attachments',[]):
+    matches=[]
+    for source in Path('/kaggle/input').rglob(attachment['basename']):
+        if source.is_file() and hashlib.sha256(source.read_bytes()).hexdigest()==attachment['sha256']:
+            matches.append(source)
+    if not matches:raise RuntimeError('Required immutable attachment not mounted: '+attachment['destination'])
+    data=matches[0].read_bytes();destination=root/attachment['destination']
+    assert destination.resolve().is_relative_to(root)
+    destination.parent.mkdir(parents=True,exist_ok=True);destination.write_bytes(data)
+    print(json.dumps({'stage':'verified_input','destination':attachment['destination'],
+                      'sha256':attachment['sha256'],'bytes':len(data)}),flush=True)
 sys.path.insert(0,str(root))
 import numpy as np
 import cupy as cp
@@ -80,11 +93,19 @@ for device in manifest['devices']:
 manifest.update(hardware=hardware,cupy_version=cp.__version__,numpy_version=np.__version__)
 atomic_json('job_manifest.json',manifest)
 
-bank,variants,provenance,resume=build_seed_bank('examples.npz',manifest['resume_files'],manifest['gadget_ids'])
+if manifest.get('frontier_mode')=='active_chains':
+    from ftmc_frontier_bank import build_frontier_bank
+    bank,variants,provenance,resume,priorities,targeting=build_frontier_bank(
+        'active_bank.npz',manifest['resume_files'],'active_priorities.json','active_targets.json',manifest['baseline_sha256'],
+        manifest.get('min_priority',1e-6))
+    atomic_json('frontier_targeting.json',targeting)
+else:
+    bank,variants,provenance,resume=build_seed_bank('examples.npz',manifest['resume_files'],manifest['gadget_ids'])
+    priorities={}
 atom_npz('artifacts/night_seed_gadgets.npz',bank)
 atom_npz('artifacts/night_seed_variants.npz',variants)
 atomic_json('research/night_seed_provenance.json',provenance)
-atomic_json('research/night_priorities.json',{})
+atomic_json('research/night_priorities.json',priorities)
 baseline={key:excess(p,*map(int,key.split('_')[:2])) for key,p in bank.items()}
 atomic_json('campaign_incumbents.json',baseline)
 for device in manifest['devices']:

@@ -1,35 +1,60 @@
-# Working status
+# Current working status
 
-Goal: highest possible rank in Kaggle Squares in Squares. Competition details and authorization are in GOAL.md. Keep working after context compaction; the task is ongoing.
+This competition task is ongoing. The user wants the highest possible rank, ideally first place. Continue optimization after compaction; this checkpoint is not a declaration of completion.
 
-## Confirmed
+## User instructions
 
-- Official competition metric v17 pinned SHA256312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733.10submissions/day,1final. Public solutions permitted with licensing/attribution.
-- Kaggle account sos54352 authenticated; user entered competition.30GPUhours authorized, roughly0.03h spent on successful infrastructure pilot so far.
-- Latest fully certified candidate: artifacts/merged-v7.csv, official score 22.304805438790023, SHA256 9c2cb31c689c90e7f1ab25672d77dea02b88ba63582f0b96dc3d2c992b2055e8. Its lossless private CPU export job is artifacts/certified-export. Local export test passed. All candidate/report versions immutable.
-- No competition submission registered yet. Initial local upload stopped at0bytes, next bounded attempt exposed denied destination www.googleapis.com. Domain added to latest network draft but still denied after user approved earlier settings.
-- Normal Kaggle notebook-output submissions are verified supported for this CSV competition. scripts/build_export_job.py builds a private CPU notebook which exports exactly certified CSV bytes. Use latest frozen candidate+official report; test export locally; push notebook, waitcomplete, then CLI competitions submit -k sos54352/squares-certified-portfolio -v VERSION -f submission.csv. This is the preferred supported submission route now.
-- scripts/kaggle_cli.py loads runtime credential or protected /tmp/squares-kaggle-auth/token. Never print credentials. No secrets embedded in jobs or source.
-- sos54352/squares-search-pilot version1 completed; artifacts/gpu-pilot-results contains outputs. Three30s searches, no new gains. Confirms privateGPUexecution and download work.
-- sos54352/squares-ftmc-pilot version1 is RUNNING. Bounded600s FTMC worker+180sgrace; uses released Apache2CUDAcode with39public gadgetfixtures. Pull outputs whencomplete, inspect preflight/worker status/candidate variants, and compose winning gadgets into fullpackings. Do not spend longGPUbudget until pilot provides useful throughput/gain evidence.
-- Notebook_frontier agent owns CPU/GPU gadget composition adapter and v7. Packing_research agent packagedFTMCpilot. Validation agent implemented officialdelta reuse by exactdecimalrowhash.
+- Commit and push at useful validated checkpoints. Git branch `work` tracks `origin/main`; use `git push origin HEAD:main` explicitly. Remote is sosudo/squares_in_squares.
+- Check hourly and submit only a strictly improved validated candidate, within Kaggle's ten submissions per UTC day.
+- The full available Kaggle GPU quota may be used, but experiments must be intentional and checkpointed. Start with pilots; allocate longer runs based on full-puzzle gains.
+- Paperspace/Gradient project squares_in_squares, ID pipamsa5ztw, is FREE instances only. No paid resources or upgrades. No machine exists.
 
-## Paperspace
+## Submitted baseline
 
-User created Gradient project squares_in_squares, IDpipamsa5ztw. No machine exists. ONLYFREEinstances authorized, no paid resources/upgrades. SSH key exists /workspace/.ssh/paperspace_squares_ed25519 (public supplied to user). APIkey configured in draft; runtimeenv absent but protected fallback/tmp/squares-paperspace-auth/token exists. Never print it.
+Kaggle submission **57583210** is COMPLETE. Actual public score **22.3048038109**, observed rank **15 / 491 teams**.
 
-Paperspace hosts reachable after networkapproval but respondCloudflareError1010 browser_signature_banned, explicitly nonretryable. Tokenvalidity/freeavailability remainunknown; noPaperspaceresourcescreated. scripts/paperspace_access.py stops on this response. Do not evade challenge/spoofbrowser or repeatedlyretryunchangedrequest. Continue Kaggle.
+- Accepted: 2026-10-24T05:06:59.167 UTC. Next improved submission no earlier than 2026-10-24T06:06:59.167 UTC.
+- Private source notebook: sos54352/squares-certified-portfolio-source-export, version2, output submission.csv.
+- Local submitted CSV: artifacts/submission-safe.csv.
+- SHA256: 97df15c28ee66ab1a414d28218fd4e8b28c2bf6ce8869281db9610f7dac81da9.
+- Official local raw and ALL1000 ordinary pandas float64-roundtrip checks both scored22.304803810998131 with zero invalid cases. Kaggle displays a truncated score.
+- Reproducible recipe and receipt: portfolios/baseline-57583210/. No credentials are in this recipe.
+- Nine submissions remained after this baseline. Check live limits before subsequent submissions.
 
-## Sources and artifacts
+## Validation and export
 
-See research/public_frontier.md and research/additional_sources.md for exactpublicsources/versions/hashes/licenses. vendor holds attributedMITShubinbaseline and ApacheLightningv21solver. artifactsignored byGit but retained. User asked persistentgoal and autonomouswork; don't stop merely after firstsubmission or baseline. Keep receipts, actualscores/rank, computeusage and bestcandidatehash.
+Official metric v17 hash:312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733. Rules permit public data/released solutions with their licenses.
 
-## Latest checkpoint (2026-10-24 05:03 UTC)
+Never mutate a certified file during evaluation. Independent and official reports bind exact CSV hashes; official incremental checks reuse only identical decimal-row hashes. Every future candidate must pass raw AND floating-point transport checks.
 
-- Initial raw CPU export succeeded remotely as sos54352/squares-certified-portfolio-source-export version1. Actual URL differs from early intended slug because title determined the slug. Its remote export_manifest matches immutable v7 exactly. No competition submission yet.
-- Important transport finding:8of88highprecisioncases fail after pandasfloat64roundtrip. Validation agent created scripts/make_transport_safe.py, scales only centres by1.00000000001 usingDecimal100, angles/unit sides unchanged. Current best safe artifact submission-safe.csv derives from merged-ftmc-cpu.csv; safe SHA97df15c28ee66ab1a414d28218fd4e8b28c2bf6ce8869281db9610f7dac81da9. Official rawscore22.304803810998131,0invalid. FullALL1000floatroundtripcheck running. Wait for that report beforefirstsubmit.
-- competition_research agent adapting scripts/build_source_export_job.py to reconstruct raw source portfolio then apply exact shared clearancetransform; artifacts/source-export-safe will fit<1MB and use existingactualrefabove forversion2. FullCSVliteral source was9.4MB and Kaggle rejects source>=1MB. Source-backed reconstruction is tested and works remotely.
-- FTMCpilot version1 completed:601sworker,96,584coretrials,76acceptedimprovementevents,154savedvariants,19directedgadgetkeys improved. Outputs artifacts/ftmc-pilot-results. Allpreflight andofficialchecks pass. CPUcomposition found no gain fromthese newgadgets underconservativecornerjoins; needGPUseparatorprofilecomposition.
-- sos54352/squares-composition-pilot version1 ERROR after31.6s. Cornerpreflight passed; seam/adaptivepreflight hitsCuPy PythonUINT64_MAXscalaroverflow. notebook_frontier agent prepares explicituint64compatibilitypatch, original/newhashrecord, then rootshouldpushcorrectedversion afterlocaltests. Do not assume numericalkernels validated.
-- Prepared but NOTLAUNCHED dualT4campaign artifacts/ftmc-campaign.1800sperdevice,128replicas,distinctseeds,resumepilotbestvariants,hard40mincap; code871KB. Wait forfullpuzzlecompositionbenefitbeforelaunch, peruserquotaintentionality.
-- Quota lastread:0.23hused,29.77hremaining.
+Important discovery: eight of88 long-precision raw cases overlapped after float64 conversion. scripts/make_transport_safe.py fixes this with deterministic Decimal precision100 centre-only scaling1.00000000001; angles/unit sides stay unchanged. Cost was8.61e-10. Do not revert this precaution.
+
+Kaggle source is limited to1MB. scripts/build_source_export_job.py reconstructs exact rows from hash-pinned public CSVs/certificates plus small embedded patches, then applies the shared transport transform. It is tested locally and remotely. Full literal CSV embedding exceeded the limit and is not used.
+
+Direct local file upload is blocked at www.googleapis.com despite its saved network requirement. Use the fully supported ordinary-CSV notebook-output submission route: CLI competitions submit squares-in-squares -k OWNER/SLUG -v VERSION -f submission.csv. This already worked for the baseline. Pin completed version and verify its remote output hash.
+
+## Search evidence and active work
+
+- Generic Torch pilot: sos54352/squares-search-pilot v1, completed; no gains. Verified private GPU execution/download.
+- FTMC pilot: sos54352/squares-ftmc-pilot v1, completed in679s wall /601s worker.96,584 core trials,76 accepted improvement events,154 saved variants,19 directed gadget keys improved. All GPU preflights and official checks passed. Outputs artifacts/ftmc-pilot-results.
+- Those historical seed improvements did NOT improve the current full-puzzle frontier. Stronger existing crops dominate them; they need another0.11–0.35 bloat reduction. Do NOT launch the prepared30-minute historical-seed campaign artifacts/ftmc-campaign.
+- Composition v1 failed on a CuPy uint64 sentinel comparison. Temporary runtime copies now explicitly type the identical sentinel; original public sources and hashes are retained.
+- Composition v2: sos54352/squares-composition-pilot v2, COMPLETE in112s. All corner/seam/adaptive preflights passed. Only micro-gains beyond CPU closure; none of winning chains uses a fresh historical FTMC variant.
+- A new raw GPU+CPU candidate is being certified by validation agent; score about22.304803774638591 before transport clearance. Keep it separate from submitted files and queue only after both checks.
+- notebook_frontier exported51 ACTUAL current-frontier crops and partner thresholds under artifacts/active-frontier. packing_research is redesigning a900s/device dual-T4 pilot from these active families, with explicit priority and no historical scalar-bloat overwrite of compatible active poses. Not launched yet.
+- Versioned kernel_sources can mount our completed private baseline export/2 and FTMC pilot/1, keeping new jobs offline and well below1MB. Verify mounted hashes.
+- Last observed GPU quota:0.23h used,29.77h remaining. Read quota again for exact current use.
+
+## Scheduler
+
+competition_research is finishing scripts/submission_scheduler.py with conservative tests. Default is check-only. It verifies queue/report/output hashes, live quota, full history, strict improvement, no pending/ambiguous scoring, and3600s since acceptance. It persists intent before submission and reconciles lost acknowledgements by a SHA marker. No daemon or automatic submission has been enabled yet. Local queue/state already adopted57583210. Root should review and enable only after tests and exact queue binding are complete.
+
+## Credentials and Paperspace
+
+Never print credentials, environment dumps, or signed URLs. Kaggle wrapper scripts/kaggle_cli.py reads a runtime binding or protected /tmp/squares-kaggle-auth/token. Paperspace fallback is /tmp/squares-paperspace-auth/token. SSH private key is /workspace/.ssh/paperspace_squares_ed25519; the public key was provided to the user.
+
+Paperspace API domains now respond with Cloudflare Error1010 browser_signature_banned, explicitly nonretryable and requiring site-owner action. This happens before credential authentication. Free availability/private notebook support remain unknown; no resources were created. scripts/paperspace_access.py stops on the denial. Do not spoof a browser or repeat unchanged denied requests. Continue using Kaggle.
+
+## Reproduction references
+
+research/public_frontier.md, additional_sources.md, decimal_transport.md, composition.md and notebook_submission.md describe evidence and exact sources. vendor contains attributed MIT Shubin baseline and Apache Lightning v21 solver plus inherited dataset notices. Artifacts are ignored by Git but retained; submitted reproducible recipes are tracked under portfolios/.

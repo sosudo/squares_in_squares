@@ -1,0 +1,14 @@
+{
+  "submission_ref": 57583210,
+  "submitted_at_utc": "2026-10-24T05:06:59.167Z",
+  "status": "COMPLETE",
+  "notebook_ref": "sos54352/squares-certified-portfolio-source-export",
+  "notebook_version": 2,
+  "file_name": "submission.csv",
+  "csv_sha256": "97df15c28ee66ab1a414d28218fd4e8b28c2bf6ce8869281db9610f7dac81da9",
+  "local_official_score": 22.30480381099813,
+  "public_score": "22.3048038109",
+  "rank": 15,
+  "next_improved_submission_not_before_utc": "2026-10-24T06:06:59.167Z",
+  "teams": 491
+}

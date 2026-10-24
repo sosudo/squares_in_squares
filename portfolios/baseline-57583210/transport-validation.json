@@ -1,0 +1,18 @@
+{
+  "source_sha256": "303f7c4953eb12ea5495a60aa0b2b285fc68118acfd05962ffc7b24ee088bd4e",
+  "source_score": 22.30480381013748,
+  "safe_sha256": "97df15c28ee66ab1a414d28218fd4e8b28c2bf6ce8869281db9610f7dac81da9",
+  "safe_score": 22.30480381099813,
+  "safe_invalid_count": 0,
+  "score_cost": 8.60651994116779e-10,
+  "roundtrip_sha256": "c6d838d7a8b5f54dffaf497787c7805e47326f084595042591f3d7cacfc67e55",
+  "roundtrip_score": 22.30480381099813,
+  "roundtrip_invalid_count": 0,
+  "roundtrip_evaluated": 1000,
+  "same_binary64_score": true,
+  "factor": "1.00000000001",
+  "changed_cases": 88,
+  "changed_rows": 55545,
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "helper": "scripts/make_transport_safe.py"
+}

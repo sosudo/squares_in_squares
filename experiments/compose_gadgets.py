@@ -339,22 +339,22 @@ def border_expand(p, t):
     return np.vstack([p, right, top])
 
 
-def closure(base, candidates, seconds=60.):
+def closure(base, candidates, seconds=60., offsets=(-.5, 0., .5), min_donor_n=1):
     """L-frame and central-subset closure across the current union of portfolios."""
     started = time.monotonic()
     lengths = np.array([side(candidates.get(n, base[n])) for n in range(1, 1001)])
     result, labels = dict(candidates), {}
     donors = [(p, f'composed:{n}') for n, p in candidates.items()]
     donors += [(p, f'baseline:{n}') for n, p in base.items()
-               if side(p) < math.ceil(math.sqrt(n)) - 1e-7]
+               if n >= min_donor_n and side(p) < math.ceil(math.sqrt(n)) - 1e-7]
     for p, source in donors:
         L = side(p)
         for t in range(max(0, int(math.floor(32. - L))) + 1):
             q = border_expand(p, t)
             lo, hi = extents(q)
             center = (lo.min(axis=0) + hi.max(axis=0)) / 2
-            for dx in (-.5, 0., .5):
-                for dy in (-.5, 0., .5):
+            for dx in offsets:
+                for dy in offsets:
                     c = center + [dx, dy]
                     radial = np.maximum(np.max(hi - c, axis=1), np.max(c - lo, axis=1))
                     order = np.argsort(radial, kind='stable')[:1000]
@@ -454,6 +454,8 @@ def main():
     parser.add_argument('--seconds', type=float, default=60.,
                         help='Crop/extraction budget per composer; DP and certification add time')
     parser.add_argument('--closure-seconds', type=float, default=60.)
+    parser.add_argument('--closure-offsets', type=float, nargs='+', default=[-.5,0.,.5])
+    parser.add_argument('--closure-min-n', type=int, default=1)
     parser.add_argument('--rounds', type=int, default=4)
     parser.add_argument('--bins', type=int, default=16)
     args = parser.parse_args()
@@ -479,7 +481,8 @@ def main():
     else:
         candidates, details = {}, {}
     if args.closure_seconds > 0:
-        candidates, closure_labels = closure(base, candidates, args.closure_seconds)
+        candidates, closure_labels = closure(base, candidates, args.closure_seconds,
+                                             args.closure_offsets, args.closure_min_n)
     else:
         closure_labels = {}
     result, rejected = certify_candidates(base, candidates)
@@ -490,6 +493,7 @@ def main():
               'gadgets': [{'path': str(p), 'sha256': hashlib.sha256(p.read_bytes()).hexdigest()}
                           for p in args.gadgets],
               'backend': args.backend, 'fresh_donors': fresh, 'total_donors': len(donors),
+              'closure_offsets': args.closure_offsets, 'closure_min_n': args.closure_min_n,
               'seconds': time.monotonic() - started, 'improvements': len(result),
               'estimated_score_gain': gain, 'rejected': rejected,
               'details': details, 'closure': closure_labels}
