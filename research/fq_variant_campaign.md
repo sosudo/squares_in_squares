@@ -488,3 +488,165 @@ That dependency includes the parent's tested rejection of nonfinite and
 non-object native diagnostics; search flags and geometry gates are unchanged.
 The 275-pose frozen donor input SHA-256 is
 `b1fef663f7feba5c4c817955c4b44b7034aef5829e9c7c6b12c9e810b12c0c72`.
+
+The initial larger-region run was stopped cooperatively after 418.33 seconds:
+508 trials, 396 certified primary outputs, and 792 distinct certified poses
+including intermediates, with no material objective gain. The verified union
+is `artifacts/fq-large-region-v1/final-verified/donors.npz`, SHA-256
+`c1afb9563c6098a55898a34687c31b733a13b6c11c855e261a522623e75639d4`.
+All 792 saved certificate lineages and intermediate coverage passed the audit.
+The STOP reason, complete trajectory and original configuration remain intact.
+
+At its 320-trial checkpoint, 80 starts were labelled diverse, but 67 came from
+newly generated campaign variants and only 13 from frozen inputs. None visited
+the older .936648 basin. The initial inputs were preserved but starved by the
+dynamic pool's objective-sorted traversal. The frozen evidence is
+`artifacts/fq-large-region-restart-audit-v1.json`, SHA-256
+`b49280f09773df48b396aae419663e2def9d026a1926e1a9b7d7ee61208d2bd5`.
+
+`experiments/fq_fixed_pool_campaign.py` applies a separate, checked AST adapter
+to the untouched runtime: every fourth visit to each type uses an immutable
+copy of its original eligible pool, cycled by full geometry SHA independently
+of later outputs. Other visits use the incumbent. Selection happens inside
+`next_job`, before parent metadata construction. The selected array is checked
+against its recorded exact parent SHA, original archive/name and pool index.
+The generated runtime source and original runtime hash are explicitly saved.
+Two deterministic tests demonstrate that 4,000 later better arrivals cannot
+starve the fixed cycle, that selected poses match their provenance, and that
+invalid/empty source pools fail closed.
+
+Sixteen real control trials finished in 10.65 seconds with fifteen certified
+results. Exactly four starts used immutable inputs, including two older
+.936648-basin layouts. Every native input file matched the encoding of its
+recorded parent geometry byte-for-byte. That proof is
+`artifacts/fq-fixed-pool-smoke-v1/source-binding-control.json`, SHA-256
+`5796e9468ea2dcfb82dca1036882290cf721be3936e6409bbb2d5094cf6e3736`.
+
+The separately authorized comparison, `artifacts/fq-fixed-pool-v1`, keeps the
+same reference, 275 input poses, 64/96 masks, .3 aspect schedule and LP20 release.
+It has two workers and a 600-second outer ceiling. Source-manifest SHA-256 is
+`a5a21db7eeef67950bb1aab83d3e23fe41914f61bc4a972fad7d9c278a85cdd6`;
+generated-runtime SHA-256 is
+`bc373592cae5a75510ce929a4163d64a4960c8125a27dc44ca25de494cc335fa`.
+Final reporting must include actual starts per pool and older-basin exposure,
+and continue comparing candidate sizes to the frozen .932818138356037 minimum.
+
+The fixed-pool comparison was stopped cooperatively at 277.67 seconds after
+308 trials. It produced 254 certified primary outputs and 478 distinct poses
+across 508 certificate lineages, without an objective improvement. The final
+archive is `artifacts/fq-fixed-pool-v1/final-verified/donors.npz`, SHA-256
+`a578c2f74b3e840dea54cf4fd61eba7ead871b584d60720dda904adec6c0b399`.
+The reference bank stayed exactly unchanged. All 308 native input files were
+checked against their recorded exact parent geometries. Actual starts were
+232 incumbents and 76 immutable inputs; 42 visited the older basin, 30 of
+those certified, and none regained the current minimum. This establishes
+that the scheduler corrected source starvation, without establishing that the
+larger-region geometry method improved the minimum. The frozen exposure report
+is `restart-exposure-final.json`, SHA-256
+`26e1a3b9a1111f5a44c2c6b00cf9349e5a379321f2848541da762a98fa330f82`.
+
+## Matched release-stage control
+
+Inspection of the earlier winning trajectories showed that their local
+intermediates did not yet have smaller bounding rectangles: the subsequent
+global release produced the material gains. This suggested a release-stage
+limitation, but did not establish one. The direct replay in
+`experiments/fq_release_matched_control.py` tests that interpretation on the
+exact certified intermediates from bottleneck trials 19 and 200. Each pair
+uses identical native input bytes, binary and seed, with LP20 or the original
+ALM45/polish100/flip16 release. Every returned geometry passes shared official
+raw and pandas checks, ordinary default-pandas official checking, and
+independent raw and round-trip interval certification.
+
+The four controls completed in 5.97 seconds and all certified. For `7x21+15`,
+both methods recovered the entire earlier improvement: from .936648145909761,
+LP20 reached .932818138356641 and ALM45 reached .932818138356272. Their
+difference is about 3.7e-13. Therefore release alone does not explain the
+plateau of the weaker, larger-region treatment on this target. For `22x9+16`,
+LP20 reached .936755293946543 while ALM45 reached .936542971735729, so the
+ordinary release configuration helped on that different family. Neither
+control beat its current family minimum; recovery from an older parent is
+reported separately from a new reference improvement.
+
+The immutable control is `artifacts/fq-release-matched-v1`. Its manifest
+SHA-256 is
+`ecfc52d72c1b57a9b02e1207739e371cd66f01e4e38b98ede4a971858180e06b`,
+results SHA-256 is
+`2d76eca19fa0e11f54a473c9520e817911305ddf17b709ec91c76470c777fa80`,
+and donor SHA-256 is
+`520bc93a9c5728f6fd8bfd7ec0f33818b16df33322805c2a17b0068e03b23d5c`.
+The additional byte-identity and certificate-binding report,
+`pair-binding.json`, has SHA-256
+`086b412cad69eb7435fbc8179affafafd962db288de39f6333c8b3e7155bf646`.
+Because the proposed restart was conditional on ALM recovering the focus-family
+gain while LP failed, that follow-up was not launched automatically. Both CPU
+slots were released after reporting the actual matched result.
+
+## Return to the observed productive40-square treatment
+
+After the matched replay, the next explicit authorization selected the actual
+productive local move rather than assuming a release-only explanation.
+`experiments/fq_productive_campaign.py` uses either the original circular
+40-square region or the contact-connected 40-square region, with aspect .6,
+16 steps, power2, hold factor1.001, soft kick .004 and initial kick .1. The
+global release is the original ALM45/polish100/flip16 configuration. The verified
+immutable-input scheduler is retained; 64/96-square .3 moves are not repeated.
+
+Current local inputs are only the two productive families, in both freshly
+certified orientations: `7x21+15` at .932818138356037 and `9x22+16` at
+.9364355079919164. `artifacts/fq-productive-inputs-v1/reference.npz` has SHA-256
+`603104923577c33b13a10ef6e1981875ec0d9c36c414b5134b6a97925dc27372`.
+The 384-pose donor input SHA-256 is
+`136f9e9f488049db2e0bdd4c07b098f057515571301049e5c4aee5211af84f07`.
+
+The real sixteen-trial control completed in 19.12 seconds and retained six
+primary/twelve distinct certified poses. Both region policies and both
+canonical target families produced accepted outputs. Every native input matched
+its exact recorded source; every selected region contained40 squares; the .6
+aspect and original release flags were checked directly. The control proof
+SHA-256 is
+`db3f19fcbb0efebde5cf4ee9224dfe5651857753f37861deaf251075a21e5a21`.
+The new local run `artifacts/fq-productive-v1` has two workers, a600-second
+outer ceiling, and seed range11319001 onward. Its complete source-manifest
+SHA-256 is
+`ccff3cb9dc81ea85657dfabc992e484c1f4d4b7236166346248b470929cecc5c`;
+productive wrapper SHA-256 is
+`25ab23286feafbbd20d9f1adf4eb0323bc009347b0e73cfb46e27867106b3932`.
+
+The verified wrapper and frozen dependencies were handed to the separate
+offline Kaggle CPU campaign for complementary families `5x18+11`, `8x20+12`,
+`6x22+16` and `10x23+14`, using seed range12124001 onward. That remote owner
+adds its independent interval/default-pandas certificate and subprocess-group
+guards without modifying this local source. It installs any trial hook before
+the scheduler captures its namespace, and preserves the returned generated
+runtime source instead of trying to reconstruct an already installed adapter.
+
+The productive local run completed normally in 588.76 seconds. It submitted
+487 trials and retained 175 certified primary outputs: 310 trials failed the
+quality band and two timed out. Including the saved local intermediates gives
+336 distinct exact geometries and 350 certificate lineages. All saved proof,
+geometry, archive and log bindings were audited; every one of the 487 native
+input files matched the encoding of its recorded exact parent geometry.
+
+Actual starts were 367 incumbents and 120 immutable inputs. The latter included
+73 older-basin starts; 19 certified and one regained its current family
+reference. The final new canonical gain is 2.049031108342092e-5 for `9x22+16`,
+whose excess reached .936415017680833. `7x21+15` stayed at
+.932818138356037. These are current-reference comparisons, with transposes
+counted once; recovering an older parent is not counted as a new minimum.
+The exposure proof SHA-256 is
+`2a448b0f55c6623271b965ccba2dbfc492a57cffe7106def0ccf4aa4376e2e1a`.
+
+The final orientation-fair handoff is
+`artifacts/fq-productive-final-handoff-v1/reference.npz`, SHA-256
+`9f7667ad3c23f0c5c5a574dd0df1b07a21394201468458dc2e92226e20ca9b7b`.
+Its 341-pose donor union adds preserved references and freshly certified
+transposes to the 336 outputs, with SHA-256
+`aba7b09155a1e97331ff8598f5bcee583fdc66ec2bd2c294e3608f1e784687ac`.
+Manifest SHA-256 is
+`614b6ce014011b177902b2aeae3b7a5957af3aa5d166d04a7eafa951ecd68eea`;
+provenance SHA-256 is
+`bde74b77cdc4306d441f21769ff8685a2ba82578ad80c3acaffc451ba4260e96`.
+The complete saved-certificate audit remains in
+`artifacts/fq-productive-v1/final-verified`. Both local CPU slots were released,
+and no unchanged extension was started.

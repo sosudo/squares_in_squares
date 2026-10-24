@@ -244,6 +244,20 @@ def main():
                     raise ValueError('Local donor hash differs from its frozen descriptor: '+label)
                 record['embedded_path']='inputs/attached_gadgets/'+label+'.npz'
                 payload[record['embedded_path']]=data
+        # Attribution can be much larger than the numerical adapter. Keep every
+        # exact notice byte in the hash-checked compressed payload rather than
+        # repeating uncompressed text in the notebook's configuration literal.
+        notices = attached.pop('source_notices', {})
+        if notices:
+            attached['source_notice_files'] = {}
+            for index, (name, notice) in enumerate(sorted(notices.items())):
+                if not isinstance(name, str) or not isinstance(notice, str):
+                    raise ValueError('Source notice names and contents must be strings')
+                data = notice.encode('utf-8')
+                path = f'source_notices/{index:04d}.txt'
+                payload[path] = data
+                attached['source_notice_files'][name] = {
+                    'path': path, 'sha256': hashlib.sha256(data).hexdigest()}
     elif args.source_backed:
         from build_source_export_job import make_loader
         report = args.baseline_report or args.baseline.with_name(args.baseline.stem+'-official.json')
@@ -275,7 +289,7 @@ def main():
                 'embedded_gadgets': embedded_gadgets, 'runtime_gadgets': args.runtime_gadgets,
                 'embedded_sha256': {name: hashlib.sha256(data).hexdigest() for name,data in payload.items()}}
     archive = io.BytesIO()
-    with zipfile.ZipFile(archive, 'w', compression=zipfile.ZIP_DEFLATED) as stream:
+    with zipfile.ZipFile(archive, 'w', compression=zipfile.ZIP_LZMA) as stream:
         for name, data in payload.items():
             stream.writestr(name, data)
     source = 'CONFIG = '+repr(manifest)+'\nPAYLOAD = '+repr(base64.b64encode(archive.getvalue()).decode())+'\n'+RUNTIME

@@ -1,0 +1,72 @@
+{
+  "schema_version": 2,
+  "purpose": "Search baseline only; user permits submission only when raw and ordinary-roundtrip score are strictly below22.3.",
+  "user_submission_score_threshold": 22.3,
+  "eligible_under_user_score_threshold": false,
+  "raw_source": "/workspace/squares_in_squares/artifacts/merged-omitted-donor-pair-v1.csv",
+  "raw_sha256": "b9374e881450748a04a86e39b84c69ba8607ceb1e95a303caeb93f38d9174354",
+  "raw_score": 22.301105560583192,
+  "safe_submission": "/workspace/squares_in_squares/artifacts/submission-omitted-donor-pair-v1-safe.csv",
+  "safe_sha256": "63e1b93cda7517e64341d11fa73aadf5c55e5d7d6d4a0f230a5fc3b8a9deef7d",
+  "safe_score": 22.30110556145378,
+  "roundtrip_submission": "/workspace/squares_in_squares/artifacts/submission-omitted-donor-pair-v1-safe-roundtrip.csv",
+  "roundtrip_sha256": "803280debbbb2433f6fa495b00cc24d8b4f63c7a0bc0b0d85ce4392335c81445",
+  "roundtrip_score": 22.301105561453785,
+  "safe_invalid_count": 0,
+  "roundtrip_invalid_count": 0,
+  "safe_case_coverage": 1000,
+  "safe_reuse": {
+    "reused": 999,
+    "evaluated": 1
+  },
+  "roundtrip_case_coverage": 1000,
+  "roundtrip_reuse": {
+    "reused": 999,
+    "evaluated": 1
+  },
+  "roundtrip_evaluated": 1,
+  "roundtrip_reused": 999,
+  "same_binary64_score": false,
+  "absolute_score_difference": 3.552713678800501e-15,
+  "score_tolerance": 1e-10,
+  "scores_agree_within_1e_10": true,
+  "baseline_role": "Previous certified fourteen-case consolidated GPU portfolio",
+  "baseline_sha256": "2eb0d422c4d926e2631ba2a84a6b52d5b5a8840170d1c040bffdde0231d46339",
+  "baseline_score": 22.301154107412255,
+  "gain_over_previous_baseline": 4.85459584744774e-05,
+  "roundtrip_gain_over_previous_baseline": 4.854595847092469e-05,
+  "strictly_better_raw_and_roundtrip": true,
+  "case_score_changes": [
+    {
+      "n": 798,
+      "gain": 4.854595847314935e-05,
+      "old_side": "28.760998599143886581135530933788080582767631613291704536762879",
+      "new_side": "28.759627229519353049615660845819850243890105102045005954960849"
+    }
+  ],
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "factor": "1.00000000001",
+  "safety_scaled_cases": 89,
+  "transform_report": "/workspace/squares_in_squares/artifacts/submission-omitted-donor-pair-v1-safe.transport-transform.json",
+  "transform_report_sha256": "42aa7c22c40d651cba914a04b6992ec9d41dd3c1d0778bd791707dd77d7a24f7",
+  "raw_official_report_sha256": "6b3a72b89706f29e093e8d1feaaa8e7f09ab89fc065023ee8807184cef8041fd",
+  "safe_official_report_sha256": "8157a0b4abb344f7e652f5aad0ac98caa4bd7d6a3f00e25230a1cb15e8b42e0a",
+  "roundtrip_official_report_sha256": "995d8192740956cb0fddd988db5e22a267f545f1dc6a4c2ff1cd4c267a891e0a",
+  "safe_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-composition-consolidated-v1-safe-official.json",
+    "report_sha256": "bfc80e34d9c609768660b5212830751dd1a826fe26d323a08a955a79eef75241",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-composition-consolidated-v1-safe.csv",
+    "sha256": "2eb0d422c4d926e2631ba2a84a6b52d5b5a8840170d1c040bffdde0231d46339"
+  },
+  "roundtrip_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-composition-consolidated-v1-safe-roundtrip-official.json",
+    "report_sha256": "ac7573d19b168e51be51159d9b1b0c9c817cee2ef8d39b66ebc64b5221b3aa25",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-composition-consolidated-v1-safe-roundtrip.csv",
+    "sha256": "8e2d48755b46c4a510dc7462caa7967af2c9660b594c5c3ce076a09eef77e443"
+  },
+  "composition_merge_provenance": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-omitted-donor-pair-v1.validation.json",
+    "sha256": "104501a548c0c882defff3a1be2036781d9facc51c6f3f925165a69be37da380"
+  },
+  "competition_submission_performed": false
+}

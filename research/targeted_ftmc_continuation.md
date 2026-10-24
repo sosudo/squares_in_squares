@@ -80,3 +80,26 @@ Evan Daniel's MIT FQ implementation at commit
 `659ee62e4a9d39542a1146e8b011cc3ab6407ede`, with inherited notices retained in
 the payload. This is a search notebook, not a competition submission. The
 user's strict submission threshold below 22.3 remains in force.
+
+The bounded read-only monitor now runs as local PID 54208 (exec session 18161).
+Its first two real polls verified the exact source and both active workers.
+State is in `artifacts/targeted-ftmc-n65-monitor-v1/latest.json`; its original
+70-minute deadline remains 2026-10-24 10:00:40.748376 UTC after a clean local
+monitor replacement. It polls every 150 seconds, with independent request
+timeouts and an exclusive lock. On completion it requests only 27 fixed named
+aggregate/summary/certificate outputs, records their hashes and treats missing
+outputs as incomplete. Eight monitor regressions passed. This is an owned
+process in the current environment, with no survival guarantee after shutdown;
+the remote notebook was never stopped or changed.
+
+At the 2,100-second job heartbeat, arm 0 had 193,703 core trials and 55,168 full
+quenches; arm 1 had 465,039 and 12,160 respectively, with no strict minimum
+improvements yet. Frozen instrumentation has no per-key stage counts or wall
+times. Its `families` counter means mutation modes, while the per-key `visits`
+dictionary is never persisted. Funnel timings are global and the refill
+per-key fields describe reference capacities rather than effort. Therefore
+the actual n65 core/full-quench effort and wall share cannot be quantified from
+this run; the 40–45% setting is sampling mass only. The live exact named funnel
+file request returned HTTP 404 while the notebook was running. The frozen
+source hashes, aggregate snapshot and unavailable-field evidence are preserved
+in `artifacts/targeted-ftmc-n65-counter-inspection-v1/inspection.json`.

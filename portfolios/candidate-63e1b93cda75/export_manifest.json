@@ -1,0 +1,675 @@
+{
+  "format_version": 1,
+  "kind": "exact_safe_csv_row_patch",
+  "parent_notebook": "sos54352/squares-portfolio-8cd7c023ab18/1",
+  "parent_output_file": "submission.csv",
+  "parent_csv_sha256": "8cd7c023ab18b5875fcd5084e23415eda3181df1f4e70b5558bfe9eb039b0658",
+  "parent_csv_bytes": 34917285,
+  "csv_sha256": "63e1b93cda7517e64341d11fa73aadf5c55e5d7d6d4a0f230a5fc3b8a9deef7d",
+  "csv_bytes": 34981914,
+  "rows": 500500,
+  "puzzles": 1000,
+  "schema": [
+    "id",
+    "n",
+    "square_id",
+    "x",
+    "y",
+    "angle"
+  ],
+  "line_ending": "CRLF",
+  "patch_sha256": "61b2a768e165b79078c714ddd6f722dfb2791f1b4bbc8473a7a8c6a8ffc4a80d",
+  "patch_bytes": 1954961,
+  "patch_compressed_sha256": "9c9fd77e4a1d5c3c0a67aa42f7630b8b383620a5343d5014e61372d3501c2f9f",
+  "patch_compressed_bytes": 331984,
+  "changed_rows": 24204,
+  "unchanged_rows": 476296,
+  "changed_puzzles": [
+    547,
+    595,
+    599,
+    637,
+    697,
+    701,
+    702,
+    748,
+    751,
+    755,
+    756,
+    798,
+    799,
+    806,
+    807,
+    811,
+    812,
+    813,
+    815,
+    865,
+    871,
+    921,
+    924,
+    927,
+    930,
+    931,
+    982,
+    986,
+    989,
+    992,
+    993
+  ],
+  "changed_parent_rows_sha256": "7fedcff94f488e349a041a1989d9c7118d775b2e039245b7feec75362e07e313",
+  "changed_target_rows_sha256": "add48d4e6788392415765e02bbfdaaba040e603c518ab4f6aa9272ae092cae89",
+  "unchanged_rows_sha256": "53d0b4405e2092fb61e4df44d22e03738aed6b2726b070906fc44fa6505bf51b",
+  "official_score": 22.30110556145378,
+  "parent_official_score": 22.301742653369043,
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "parent_proofs": {
+    "official_report_sha256": "5198f097096b5883d5ecce92a2c83b2332d91f73a3d75562d6aeada3b251da93",
+    "transport_proof_sha256": "1072cfe3877df76345369bf2e0f2c3533870df7c15fe2186b7748f2d73de1a74"
+  },
+  "target_proofs": {
+    "official_report_sha256": "8157a0b4abb344f7e652f5aad0ac98caa4bd7d6a3f00e25230a1cb15e8b42e0a",
+    "transport_proof_sha256": "611974f01413d9829e46be02b90a41c9e30a87170e0762ca2f3ec788827f19b9"
+  },
+  "parent_remote_completion_sha256": "40ce1da68fadd3471be17d1d2214af0fd9ab83d6c23a0c73e7b5e4c57b9623a1",
+  "parent_export_manifest_sha256": "4478ee01d6e19423b5b799aca892a886fbbde5f0bace39635b4e123b939c8c5e",
+  "transport_scaling_applied": false,
+  "source_notices": "Inherited source attribution/licenses retained in repository vendor/notices/; no mathematical discovery is claimed by the exporter.",
+  "inherited_sources": [
+    {
+      "key": "kmmmvs22",
+      "url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/submission.csv?datasetVersionNumber=22",
+      "sha256": "aa8d390849d0ff5a8acacc36ad62f232ab76a11acdb8402a79e29167f6d1d920",
+      "credit": "Sung Heo / kmmmvs and credited source authors, dataset v22"
+    },
+    {
+      "key": "kmmmvs24",
+      "url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/submission.csv?datasetVersionNumber=24",
+      "sha256": "79629f489cf84987f55165618f800c6e37c1dbdbd9d0ec8df30be21fee2436dc",
+      "credit": "Sung Heo / kmmmvs and credited source authors, dataset v24"
+    },
+    {
+      "key": "kmmmvs26",
+      "url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/submission.csv?datasetVersionNumber=26",
+      "sha256": "cab501fe499261db1c9a5b2d665ca7964e509484442a920376282281444cdd4c",
+      "credit": "Sung Heo / kmmmvs and credited source authors, dataset v26"
+    },
+    {
+      "key": "kmmmvs28",
+      "url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/submission.csv?datasetVersionNumber=28",
+      "sha256": "3d93fe9b1bbfa60a9a7941b33e835d1d0bb49662b0de0ab2704756c703ef1d48",
+      "credit": "Sung Heo / kmmmvs and credited source authors, dataset v28; source-specific notices retained in artifacts/public-v28/notices"
+    },
+    {
+      "key": "dariush11constructions",
+      "url": "https://www.kaggle.com/api/v1/datasets/download/dariushafshar/squares-in-squares-certified-packings/constructions_v1.csv?datasetVersionNumber=11",
+      "sha256": "a542b6a8c97922b0e923d59d96870fa10123fae47c9279a6eec096a7c5971786",
+      "credit": "Dariush Afshar and credited source authors, dataset v11 constructions_v1"
+    }
+  ],
+  "inherited_certificates": [
+    {
+      "key": "couzo_ad2f3d41bdd401a098fd",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n204.cert",
+      "sha256": "ad2f3d41bdd401a098fdb4dfce0847303213ad2ecb30f7ac2d00ac2addff82a3",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_e9833bf26e1bf7e4719e",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n268.cert",
+      "sha256": "e9833bf26e1bf7e4719ee983c91979ba51f7319d6caa8dd1911fce820903e07e",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU/GPU/MPS EDA+Seam LP\" v4; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_39a150f4cce7e435b0b7",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n303.cert",
+      "sha256": "39a150f4cce7e435b0b7d6d82dbf15d172611e07c413e1abe9d61cf90822791a",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_644e3e7fb393608777b6",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n333.cert",
+      "sha256": "644e3e7fb393608777b6b3c0836bca9a2391f317c69650238d1e05fed8e57839",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_0fc7ffca24014e8973d4",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n343.cert",
+      "sha256": "0fc7ffca24014e8973d43c130b48111e31d502da4dc03d8eb90e2299516fac72",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_88252b83d0f5b453dac9",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n370.cert",
+      "sha256": "88252b83d0f5b453dac91680d8daee7a5b8e5cf6054eaaf3f820854eed1004ab",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_91533649d8e1c083e9e2",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n371.cert",
+      "sha256": "91533649d8e1c083e9e2f20a33b7130cbc1619c8f67275c56f58466287f51c17",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_f1c7bc100e39157f5975",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/1c1715399709bc955e9b402947ab8b52bbacdfc3/certificates/best/n372.cert",
+      "sha256": "f1c7bc100e39157f59758c5c736aead1f5ea6e4031e34d0ba11d26d29f1b2469",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_d7964404e8a59bc80a2d",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n375.cert",
+      "sha256": "d7964404e8a59bc80a2dae6ca676a45a4e6d3bdf4b55bb71393e853a1450a82a",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_9e2ce261ae6badb28ebb",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n403.cert",
+      "sha256": "9e2ce261ae6badb28ebb6f8f2df10978a364499f9377f0c9e5cef6ce7719b631",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_72299efeced172d80656",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n410.cert",
+      "sha256": "72299efeced172d806564f89d8d59db2f54f4f35638feb83c2fbc008e1144854",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_b89b4305811d6716b1ce",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/1c1715399709bc955e9b402947ab8b52bbacdfc3/certificates/best/n412.cert",
+      "sha256": "b89b4305811d6716b1ce877b0adcad4202f0f1cdc6173e2e179114ee2bd4d7b6",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_cb2d5ec7c990055a6d91",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n414.cert",
+      "sha256": "cb2d5ec7c990055a6d9148188adbf3a278017c69bb9b0a6df4d8ded4cda9633d",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_ea19d2f88f6e3fd9cd46",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/1c1715399709bc955e9b402947ab8b52bbacdfc3/certificates/best/n417.cert",
+      "sha256": "ea19d2f88f6e3fd9cd46c5154b6b00c1372b15b3da04a409258e0589df6fda58",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_f74ceaf3c14a24de072b",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n421.cert",
+      "sha256": "f74ceaf3c14a24de072be6b389010571b38e1960239aeb7a51983cfbdb4ff4eb",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_0f1c5f248b959f06fb7b",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n422.cert",
+      "sha256": "0f1c5f248b959f06fb7b064eea2fce592fcd036e84efb47fcc93b50914e3709b",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Darius Muglich, with original seed and construction credits in source provenance; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_21ebfd0483c882f8cee8",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n453.cert",
+      "sha256": "21ebfd0483c882f8cee8fad03c0619d95b12e8de4e0e220369eb7a067ca53904",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_5a364a02bc95d7525fa5",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/1c1715399709bc955e9b402947ab8b52bbacdfc3/certificates/best/n458.cert",
+      "sha256": "5a364a02bc95d7525fa5721f007ed5e34cc374edf822b1d85504b736c1b25d89",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_c74e47ce3c3d16501e26",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n459.cert",
+      "sha256": "c74e47ce3c3d16501e26dd27e1fcd36d359e4169de03439656809d1d530c791d",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_807f82d8d20135efc23f",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n462.cert",
+      "sha256": "807f82d8d20135efc23fd45d3be695ac82d5db8af03530cfd586113d9c1e5703",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_9cdc3a2b51cfecebcd6e",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/1c1715399709bc955e9b402947ab8b52bbacdfc3/certificates/best/n463.cert",
+      "sha256": "9cdc3a2b51cfecebcd6e7cce52740f8b89b8c9b4ec0208e4fc6974ea33c5d49d",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_590eceeb2f1ea166a0b9",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n498.cert",
+      "sha256": "590eceeb2f1ea166a0b92ab6098c02077fa972b510a6f9306b43acdb0373feba",
+      "gzip": false,
+      "credit": "Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_e24e8370248423c6fe27",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n499.cert",
+      "sha256": "e24e8370248423c6fe2703a3e8dea4b8ddf2768bed5d0a4ccae78819dd435c8b",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_b8056da91e1a9da288b3",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/1c1715399709bc955e9b402947ab8b52bbacdfc3/certificates/best/n502.cert",
+      "sha256": "b8056da91e1a9da288b3f336fa8473c2471fc4c50d08477d6029267938e0d51a",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_097ca8fcf8029aff73e2",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n503.cert",
+      "sha256": "097ca8fcf8029aff73e20c597d11ffc937f3bc324c9e0d4b1779f5aebd665713",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_10f328e8d1841a791968",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n505.cert",
+      "sha256": "10f328e8d1841a791968e821cc659820dfe81155493c01139e9b79f4d31a707d",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_1ea0167350e114c69d46",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/1c1715399709bc955e9b402947ab8b52bbacdfc3/certificates/best/n506.cert",
+      "sha256": "1ea0167350e114c69d46b6f40869cc6cbdf29355588d8ed6df6316749f29ba48",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_541393b1e0fbf884a743",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n532.cert",
+      "sha256": "541393b1e0fbf884a7439f5218ae64b5ae0e2cafd16510391a93b070b8a1184d",
+      "gzip": false,
+      "credit": "kyleluecke, Kaggle notebook \"inos-v0-6-k-mosh-squares-in-squares-22-366222\" run 361592092; earlier construction credits in the notebook; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_9bc16a8f659bacf54497",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n536.cert",
+      "sha256": "9bc16a8f659bacf544975eaeb6abcb205994b7435b44b7eeb7b7bc6fa1057cfe",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_5d5b21d162529a167115",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n544.cert",
+      "sha256": "5d5b21d162529a1671152592d933a4a526689b42c290d41d3dbbb98d6e46b5ca",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_f73a7ab7f8852719227a",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n545.cert",
+      "sha256": "f73a7ab7f8852719227ac8ce3a86a18841a3bd37655222ea991176b03a4a8673",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_7dd14067c0f25ea5a0c7",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n548.cert",
+      "sha256": "7dd14067c0f25ea5a0c7306a799b285798717ac6acd27dcd910afede0714441d",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_073823b15645edeef857",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n549.cert",
+      "sha256": "073823b15645edeef857232a2d592be8e648edd60711226a8261cc76b1685db8",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_bf00ef4697434907e5d4",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n550.cert",
+      "sha256": "bf00ef4697434907e5d4fe037d0ee4bb0b6b78a8aa9b9f6d8379eb6996dadfb1",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_82d11374ef373124533e",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n552.cert",
+      "sha256": "82d11374ef373124533e2534f26a6690e251f62e44e653d5d36512ce9999a09c",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_e3f5dc5df488e70d9179",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n553.cert",
+      "sha256": "e3f5dc5df488e70d9179a712f63ce0fd73d60e6d8798a66a11fe01711d3777d1",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_57e82d6c4b1f0c2b6ebd",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n582.cert",
+      "sha256": "57e82d6c4b1f0c2b6ebd3369e98b73637803d7a9f652beac2a09a89fe68ce119",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_4fa50fb8f0d264d4810a",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n583.cert",
+      "sha256": "4fa50fb8f0d264d4810a4221b159223a22b360a0d2d440d6138d4f3bc99f7510",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_f8b107b7c275b2c8e9b1",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n587.cert",
+      "sha256": "f8b107b7c275b2c8e9b1b1db76263076bce0f03a022d88996f43ebc887dbb815",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_c942764a447aec9be46b",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n591.cert",
+      "sha256": "c942764a447aec9be46b7f1e302cc9be85e910e4dba8f73bebb8d2078ce7fe63",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_8cddf98fd6ac111a8ee3",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/1c1715399709bc955e9b402947ab8b52bbacdfc3/certificates/best/n592.cert",
+      "sha256": "8cddf98fd6ac111a8ee33cd6946fa1178e055a5cbf5be161f4f5821088d782c6",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_35b4ddfea801ebd8c79a",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n601.cert",
+      "sha256": "35b4ddfea801ebd8c79a879b16f0e39d90137a5513cb66d5c4f7959c2cbb0f23",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_a2799003de0ddbd062b6",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n642.cert",
+      "sha256": "a2799003de0ddbd062b6dd549f25211a53b7abe8b457bbfd8b70bf99dfec37a8",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_2628c78ea30b1bea30a9",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n643.cert",
+      "sha256": "2628c78ea30b1bea30a927c279895792e502feb5925af246b0d07b4b66c48973",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_1d9fe721301ce175ed79",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n647.cert",
+      "sha256": "1d9fe721301ce175ed791f6db67780598e6831fe0411533ccec3af778f953b00",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_91c77fbd278810e8b296",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n648.cert",
+      "sha256": "91c77fbd278810e8b296ea67f8efb23cdf5a192e958a62ed2e7cd66f4ed963d5",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_b14784c52de71c0eea99",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n680.cert",
+      "sha256": "b14784c52de71c0eea9950ddba310ec5a3887b6c0e1fc96752d4f5cfbaa5a5bf",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_968acfab4771ab65e7df",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n681.cert",
+      "sha256": "968acfab4771ab65e7df28c9e8136051208ca6c2ab8a0c06893d57094fc9ca27",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_7bbacf1ff6a9493edaf5",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n682.cert",
+      "sha256": "7bbacf1ff6a9493edaf5bc6aa5ab2ed64fb24617f891927ed44c1ebace1f2b54",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_fac3446c638a7a0ad00d",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n684.cert",
+      "sha256": "fac3446c638a7a0ad00d0b1b5d0c3873c9f71ca6b66bb242202a5689e0b68013",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_3cdba4baede1d8a53f29",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/1c1715399709bc955e9b402947ab8b52bbacdfc3/certificates/best/n691.cert",
+      "sha256": "3cdba4baede1d8a53f2927ab165ed65c36e22a27170cf7e60f644772140db561",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_032da2239f6bc6a0d1c6",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n695.cert",
+      "sha256": "032da2239f6bc6a0d1c61cea02a3bbb33e8d880798c096a0aedab30ea148f63d",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_2a68991a5602b77e6288",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n700.cert",
+      "sha256": "2a68991a5602b77e6288c5568a4ec3f39ce5da917e1f41d98fbc9cb49cb6335e",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_a680fb01cf8fb610b8cc",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n704.cert",
+      "sha256": "a680fb01cf8fb610b8ccccaa01c2826af2c44bd36297cb7805f1e34efb67ff69",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_f03b1f7b89e5b7f9c9ba",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n736.cert",
+      "sha256": "f03b1f7b89e5b7f9c9ba50e6ed6253101de0af0ac3354a2b75029eae9ba22862",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_58974a839ed95f054e55",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n739.cert",
+      "sha256": "58974a839ed95f054e557b0982b869a152ff6f770e307e8631d82d131f7b3d4a",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_2590ee3d85d0af892f5a",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/1c1715399709bc955e9b402947ab8b52bbacdfc3/certificates/best/n745.cert",
+      "sha256": "2590ee3d85d0af892f5a0c721c987fbcb39f8d1376962460630b466c61200ec4",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_bea475f3c3700d874969",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n747.cert",
+      "sha256": "bea475f3c3700d8749690d1e1bce72eeb67e360126923ecd748194fa1b59437c",
+      "gzip": false,
+      "credit": "Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_8a962d579bc5728ce4fc",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n749.cert",
+      "sha256": "8a962d579bc5728ce4fc2851cb8364e4380c75adfed297cadf2bd41d318893ac",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_14e78cdc1d4efefe6789",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/1c1715399709bc955e9b402947ab8b52bbacdfc3/certificates/best/n759.cert",
+      "sha256": "14e78cdc1d4efefe678992b9637bf82c139a3b2228c6532b779d5234ac41cd8c",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_32dbd6dc761d50324490",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n794.cert",
+      "sha256": "32dbd6dc761d5032449095ffb86083b554e18267d8d958ded19aa9163fde36f1",
+      "gzip": false,
+      "credit": "Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_e924776c1d5ff736126e",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n814.cert",
+      "sha256": "e924776c1d5ff736126edfa5016a04911bb0761d22473b117367d9ff0ac7c468",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_d5b6d63d6beab04c8f15",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n847.cert",
+      "sha256": "d5b6d63d6beab04c8f15e0235064e1561b7639c944ab6f297f6b022426af4dff",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_eda98bf81737ca2ca173",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n851.cert",
+      "sha256": "eda98bf81737ca2ca1736e81e0e4bdbad3e089bfd5ed497073d5786d2c7f2bdd",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_f9013e33ce7c17e4eda0",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n868.cert",
+      "sha256": "f9013e33ce7c17e4eda0619067e8a1b0fb567ce734fc0b5377a311af807dc479",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_ea5854de971403d14c3e",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n869.cert",
+      "sha256": "ea5854de971403d14c3e866d38660875def4f870426fe82c43274b40a61f2f68",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_ae03da2d235124e1e27b",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n904.cert",
+      "sha256": "ae03da2d235124e1e27bde3d55954c992c5bdc708ac0e1cbce16a1815955ce16",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_7ee50e8546bdc4a8a9d0",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n907.cert",
+      "sha256": "7ee50e8546bdc4a8a9d0ee3b954863355682a13f67fe90b6f7f106859b5e7258",
+      "gzip": false,
+      "credit": "kyleluecke, Kaggle notebook \"inos-v0-6-k-mosh-squares-in-squares-22-366222\" run 361592092; earlier construction credits in the notebook; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_7db5b8ac06fa9afa188f",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n914.cert",
+      "sha256": "7db5b8ac06fa9afa188f131ee503cd7c959bee87c587d9906c876ead0a000792",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_14865d49d9dccbd040f8",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n932.cert",
+      "sha256": "14865d49d9dccbd040f82b9725e9fa288aff81d0034a02ac773915341b6631cb",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_de6084fc9d66978049c1",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/1c1715399709bc955e9b402947ab8b52bbacdfc3/certificates/best/n933.cert",
+      "sha256": "de6084fc9d66978049c105fb3736b20f0e8f94c4e915624e528142a3510b9877",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_1ab380a2801afc3c764e",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n968.cert",
+      "sha256": "1ab380a2801afc3c764ef5ae0e390d92484729a1e2f13110c107ca2995192d01",
+      "gzip": false,
+      "credit": "kyleluecke, Kaggle notebook \"inos-v0-6-k-mosh-squares-in-squares-22-366222\" run 361592092; earlier construction credits in the notebook; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_16627bb668e2e4911691",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n972.cert",
+      "sha256": "16627bb668e2e49116910f1a9078120db791de9599c1d4d47fb85741a5930198",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_8c1b6af95a1f4cc359ad",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/1c1715399709bc955e9b402947ab8b52bbacdfc3/certificates/best/n975.cert",
+      "sha256": "8c1b6af95a1f4cc359ad1ea5be04bd99b40c837cef55b6f554bec86d66e126d2",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_38df87d2e16b95ac76ae",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n976.cert",
+      "sha256": "38df87d2e16b95ac76ae9ff040fc40bf89a64fdffcb42b1fe0f3d838540439a4",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_1075af6a39e51ed960d2",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n978.cert",
+      "sha256": "1075af6a39e51ed960d2dcb5ee65b1a6b8ce15425c656b972aa5efe349c11d52",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_395c69c1c90938bd134e",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/964ee2bdf301d0c8912d956d4010f478dcbbd5ea/certificates/best/n990.cert",
+      "sha256": "395c69c1c90938bd134ecc56ecd4e75b4daf593226bab345b85b42944e268aa9",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_226f46433e8f780316ec",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/1c1715399709bc955e9b402947ab8b52bbacdfc3/certificates/best/n994.cert",
+      "sha256": "226f46433e8f780316ec545d26d3f2b955d925bde45b405e6e29a2a0367d1b9f",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_779c6c2f76c049bcaf94",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/1c1715399709bc955e9b402947ab8b52bbacdfc3/certificates/best/n995.cert",
+      "sha256": "779c6c2f76c049bcaf949fd17435f72def2218de5e08ddb624842aa24220b39b",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    },
+    {
+      "key": "couzo_8c44c615008e10fd4d81",
+      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/1c1715399709bc955e9b402947ab8b52bbacdfc3/certificates/best/n997.cert",
+      "sha256": "8c44c615008e10fd4d8112bf64013ff28708e180db27b7e540ffd391b049f557",
+      "gzip": false,
+      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance"
+    }
+  ],
+  "local_geometry_provenance": "Existing target portfolio proofs and repository notices; exporter makes no new mathematical discovery.",
+  "runtime_sha256": "8fb206241da20a9f2437995eebc68c26a77d286201d0687e518344d68cf1b4d8",
+  "certificate_policy": "Reuse only exact previously certified parent/target CSV bytes."
+}
