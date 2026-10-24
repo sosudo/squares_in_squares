@@ -2,4 +2,4 @@ Exact SAFE row-byte export over immutable680e/1. Six selected certified cases: t
 
 Verified remote export: `sos54352/squares-portfolio-fb3d0bae17af-incremental/1`, private CPU/offline with competition attachment, COMPLETE and exact-hash checked at 2026-10-24 14:52:14 UTC. SAFE and ordinary-pandas-roundtrip scores are both 22.297968122566353. CSV SHA256: `fb3d0bae17af84aa941cdc2ad9f8db942b1f2bd2940d063d79d6e1a28c350e8d`; completion-proof SHA256: `813abe4ab11d3e53f205c5fcd089540ed7db768d05775e5d165ebe4b4beb7ae7`. No competition submission by this exporter.
 
-The guarded hourly controller submitted this exact version as57597986, accepted2026-10-24T14:53:12.753UTC; public scoring pending. Acceptance evidence is retained separately.
+The guarded hourly controller submitted this exact version as 57597986, accepted 2026-10-24T14:53:12.753UTC. Kaggle confirmed public score **22.2979681225**, rank **17** at 15:05UTC, agreeing with local validation within 1e-10. Acceptance and completion evidence are retained separately.
