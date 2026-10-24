@@ -1,0 +1,288 @@
+{
+  "record": {
+    "n": 555,
+    "mode": "contact100",
+    "seed": 9470280,
+    "parent_geometry_sha256": "1d60c00e98bc55a710d38dc591d2e0eb5295ef5ee95a9cf4441355e306fbf147",
+    "reference_side": 23.989971414306382,
+    "status": "certified",
+    "whole_stage_cap": 12.0,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n555-contact100-9470280.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n555-contact100-9470280.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9470280",
+      "--no-alm",
+      "--loosen",
+      "1",
+      "--pit",
+      "100",
+      "--flip-top",
+      "0"
+    ],
+    "input_sha256": "f6877a7370e2c6d40a5b7aa00b81a8f2871d5e6901a9ec812fc648194dc91634",
+    "returncode": 0,
+    "log_sha256": "4d3e949dc4fcc30ecb590faac74dd4f1cc98ab70c5972d896f745d0e03620a61",
+    "fq": {
+      "s": 23.988441583016158,
+      "s_alm": 23.98844158301125,
+      "viol": 0.0,
+      "evals": 0,
+      "outer": 0,
+      "slp_it": 22,
+      "slp_r": 0.004,
+      "flips": 0,
+      "min_gap": 2.02e-13,
+      "min_wall": 1.01e-13,
+      "sec": 6.082,
+      "s_coarse": 23.98853832614132,
+      "t_alm": 0.0,
+      "s_alm0": 23.988538326136464,
+      "trace": [
+        [
+          1,
+          0.1949,
+          23.98852157456876,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          2,
+          0.4099,
+          23.988514434425397,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          3,
+          0.6506,
+          23.988499880353498,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          4,
+          0.8697,
+          23.98849123128526,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          5,
+          1.0573,
+          23.98847086361463,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          7,
+          1.5617,
+          23.98846570520517,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          8,
+          1.7554,
+          23.988459970541594,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          9,
+          2.1728,
+          23.988451855140426,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          10,
+          2.6026,
+          23.98844270932079,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          13,
+          3.8474,
+          23.988442256552105,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          14,
+          4.2788,
+          23.988442117672253,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          15,
+          4.5835,
+          23.98844188876699,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          16,
+          4.7493,
+          23.988441844086154,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          17,
+          4.9532,
+          23.988441739773652,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          18,
+          5.2059,
+          23.98844158888272,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          19,
+          5.4012,
+          23.9884415846998,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          20,
+          5.5865,
+          23.98844158324305,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          21,
+          5.7529,
+          23.988441583011287,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "c433d613262ae1cb",
+      "ncontacts": 1612,
+      "fin": []
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "23.98844162898819970964476367028792705440661527650979",
+        "roundtrip_side": "23.98844162898819980964476367028326513127444604541828",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "23.98844162898820171923132169126429932255335762256369",
+      "independent_raw": {
+        "n": 555,
+        "valid": true,
+        "side_lower": "23.988441628988199709644763670287927054406615276509693324452778",
+        "side_upper": "23.988441628988199709644763670287927054406615276509864381394225",
+        "score_lower": "0.018252638421784883451267129293045037441477819921973395512062",
+        "score_upper": "0.018252638421784883451267129293045037441477819921984086570904",
+        "interval_pairs": 516,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 555,
+        "valid": true,
+        "side_lower": "23.988441628988201719231321691264299322553357622563621558850519",
+        "side_upper": "23.988441628988201719231321691264299322553357622563749851556605",
+        "score_lower": "0.018252638421784968753465850241024849651408633622160159824306",
+        "score_upper": "0.018252638421784968753465850241024849651408633622170850883147",
+        "interval_pairs": 516,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "a7e030ad7f6f93067727a3b44d6783a8127d1990d3a52896b0e5d0a0d12e99e4",
+      "ordinary_pandas_csv_sha256": "1f1ce07cb219a158e453ee045cb39469fb5a95771722b652c5e4a96ffb24251d"
+    },
+    "geometry_sha256": "5e815c9ebb621c9d2b036d7dbbb5c2b65ae1d185ec1c5e99e0186cad490501e0",
+    "side": 23.9884416289882,
+    "side_gain": 0.0015297853181834853,
+    "score_gain": 6.49357703410326e-05,
+    "elapsed_seconds": 7.219626707999851,
+    "job": 280,
+    "canonical_raw_side": "23.98997141430638028205708638106959877090564779411848",
+    "native_output_sha256": "7765fc74345f924261c7dc1076f549022615e72a71a9a68e1d643896315429f4",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/raw-returned/n555-contact100-0280.npz",
+      "sha256": "c8e063d1d06ea6368701136c7c62aeec08fa95a58f37c74cac2ef4f6f3ead9a3",
+      "geometry_sha256": "0ea27a01dc6d31bb65b95bcce78564bb06cdfbd47bdda92176350dbec98b972e",
+      "original_decimal_path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n555-contact100-9470280.out",
+      "verified": false
+    },
+    "archive_key": "555__broad_contact100_5e815c9ebb621c9d2b036d7dbbb5c2b65ae1d185ec1c5e99e0186cad490501e0"
+  },
+  "archive_sha256": "6fa9f2f7a33ac7c983343a1f68ffec2f773203074f127504913d43b941a69db2"
+}

@@ -1,0 +1,10 @@
+{
+  "purpose": "Frozen final-v1 certificate ancestor reused by final-v2; no new export or geometry evaluation.",
+  "files": {
+    "merged-fq-broad-final-v1.validation.json": "b700558520b140a378c956b5103d03b808b4f50f1657dca5e36943687bcf5143",
+    "merged-fq-broad-final-v1-official.json": "5da4e0002147908914a84cf774db92f4b0d11d82c5f23ae499ad1f931203e231",
+    "submission-fq-broad-final-v1-safe-official.json": "7f8858087f9ba45e6ea9791782ce06a46ad7be35f064efcffe4e4cd772155f54",
+    "submission-fq-broad-final-v1-safe-roundtrip-official.json": "3ef507cde4cc7af60c8986dfd873fc5ae2a92273689e48f8ba898a2fca373a60",
+    "submission-fq-broad-final-v1-safe.transport-validation.json": "24810548d4240204817843aa80270c398ec99591fd9539213e1950d7d677ac2d"
+  }
+}

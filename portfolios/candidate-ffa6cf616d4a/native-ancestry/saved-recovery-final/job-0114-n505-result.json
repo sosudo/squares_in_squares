@@ -1,0 +1,120 @@
+{
+  "n": 505,
+  "job": 114,
+  "original_status": "whole-stage-timeout",
+  "native_output_sha256": "0b42544a10c5c4e5e5271566d579cd573c14e2de43e41a64d0dfd4bde8d94726",
+  "original_record_sha256": "f5899a5709ba388543362760138d15f71bba830db998878cf7bbfc6a9d76ba32",
+  "parent_geometry_sha256": "874ae761e5495e74516c91b7a088f8080ec68df59ecb3e7c7653d6362b172ae4",
+  "stronger_side_threshold": "22.939236263594625422958046891047507569625595966076594755157420",
+  "source_files": {
+    "native.out": {
+      "original": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n505-contact20-9470114.out",
+      "path": "artifacts/fq-broad-final-native-recovery-v1/inputs/job-0114-n505/native.out",
+      "sha256": "0b42544a10c5c4e5e5271566d579cd573c14e2de43e41a64d0dfd4bde8d94726",
+      "bytes": 30109
+    },
+    "native.in": {
+      "original": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n505-contact20-9470114.in",
+      "path": "artifacts/fq-broad-final-native-recovery-v1/inputs/job-0114-n505/native.in",
+      "sha256": "1f0c0093bc7ccad9b14048d1bb0050fa487e20d7a8ed7b98bf22417ee90eacee",
+      "bytes": 30160
+    },
+    ".log": {
+      "original": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n505-contact20-9470114.log",
+      "path": "artifacts/fq-broad-final-native-recovery-v1/inputs/job-0114-n505/native.log",
+      "sha256": "58da866bb7cf196de16338de05307835848e2804b13a3778f1376adb835f9263",
+      "bytes": 1285
+    },
+    ".native-stdout": {
+      "original": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n505-contact20-9470114.native-stdout",
+      "path": "artifacts/fq-broad-final-native-recovery-v1/inputs/job-0114-n505/native.native-stdout",
+      "sha256": "f309880f31ef5b526ba301923cd528c9cd83a782cffcadfb25b1c609b0abd08c",
+      "bytes": 1284
+    },
+    ".native-stderr": {
+      "original": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n505-contact20-9470114.native-stderr",
+      "path": "artifacts/fq-broad-final-native-recovery-v1/inputs/job-0114-n505/native.native-stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  },
+  "native_command_for_lineage_only": [
+    "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/inputs/fq",
+    "quench",
+    "--in",
+    "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n505-contact20-9470114.in",
+    "--out",
+    "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n505-contact20-9470114.out",
+    "--rect-dx",
+    "0",
+    "--rect-dy",
+    "0",
+    "--seed",
+    "9470114",
+    "--no-alm",
+    "--loosen",
+    "1",
+    "--pit",
+    "20",
+    "--flip-top",
+    "0"
+  ],
+  "no_native_execution": true,
+  "raw_geometry_sha256": "a4c67ebc8322acf9010411ba413ac4bf3406fa1bf507897035059e4925a99331",
+  "raw_returned": {
+    "original": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/raw-returned/n505-contact20-0114.npz",
+    "path": "artifacts/fq-broad-final-native-recovery-v1/inputs/job-0114-n505/raw-returned.npz",
+    "sha256": "8824d68e5cadbf2acadd657963cc11c921a022e5823a1cba8bf79cf384218329",
+    "bytes": 5596
+  },
+  "parent_verified": true,
+  "parent_archive_source": {
+    "path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/inputs/current-poses.npz",
+    "key": "505",
+    "sha256": "c0c26006d9ddb1f8ba537780afb33acfc104bb17128269c53d10eb2c393a75f9"
+  },
+  "decoded_geometry_sha256": "4d6df7c0ac03be73938804b5aa2b30392a26503924a4bbc2d67b408db3779fc4",
+  "decoded_side": 22.93836220168611,
+  "status": "certified",
+  "estimated_score_gain": 3.889524443219532e-05,
+  "certificate": {
+    "valid": true,
+    "shared_official_gate": {
+      "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+      "raw_reason": "ok",
+      "roundtrip_reason": "ok",
+      "raw_side": "22.93836220168611275923132169163680317923158815914663",
+      "roundtrip_side": "22.93836220168611275923132169163680317923158815914663",
+      "valid": true
+    },
+    "ordinary_pandas_official_reason": "ok",
+    "ordinary_pandas_official_side": "22.93836220168611176923132169163680317923158815914663",
+    "independent_raw": {
+      "n": 505,
+      "valid": true,
+      "side_lower": "22.938362201686112759231321691636803179231588159146588805382649",
+      "side_upper": "22.938362201686112759231321691636803179231588159146717098088734",
+      "score_lower": "0.020743720801614870180113461231969783299355854229113201599790",
+      "score_upper": "0.020743720801614870180113461231969783299355854229123892658632",
+      "interval_pairs": 438,
+      "exact_pairs": 0
+    },
+    "independent_roundtrip": {
+      "n": 505,
+      "valid": true,
+      "side_lower": "22.938362201686111769231321691636803179231588159146547381804846",
+      "side_upper": "22.938362201686111769231321691636803179231588159146675674510932",
+      "score_lower": "0.020743720801614826125691671723475632899040921485006970774217",
+      "score_upper": "0.020743720801614826125691671723475632899040921485017661833059",
+      "interval_pairs": 438,
+      "exact_pairs": 0
+    },
+    "raw_csv_sha256": "63f9c37039f394e0338808f841f586aa6729d928b00b1914aef8cf2b777f3d7e",
+    "ordinary_pandas_csv_sha256": "d8b98e5c04fe3b9d05651fe57b4b7fcb2eb0764b8ddf94882e18611a0ebc8795"
+  },
+  "side_upper": "22.938362201686112759231321691636803179231588159146717098088734",
+  "certified_archive": "artifacts/fq-broad-final-native-recovery-v1/job-0114-n505-certified.npz",
+  "certified_archive_sha256": "6c05a6793324846526f01a34ab2e48b8b5d7a2c577b39b40fd93946b2c741785",
+  "strict_gain_vs_stronger_comparison": true,
+  "certification_seconds": 0.9503536810007063
+}

@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "seconds": 5.4436315769999055,
+  "certified": 3,
+  "retained_geometries": 3,
+  "canonical_comparison_sha256": "c57e2d8cd0d1859accf7ba9efdaffa0b059d74083367e3b24d16b767f5015437",
+  "strict_gains_vs_canonical": [
+    638,
+    807,
+    979
+  ],
+  "strict_gains_vs_latest_broad": [
+    638,
+    979,
+    807
+  ],
+  "canonical_score_gain": 6.906752082622334e-06,
+  "source_hashes": {
+    "/tmp/recover_broad_returns.py": "039081774a3c1cbf360efc4e370c4dabd4281d177f63983615537a3f876f64e5",
+    "/workspace/squares_in_squares/experiments/fq_active_pilot.py": "cc916fe5bc0e58a4cdfdeb6e4f498061522a2ae44cd6443fdffc1f485eb3db33",
+    "/workspace/squares_in_squares/experiments/fq_capacity_probe.py": "35a750d6c5aa90f661b8e0e3491e11284f04f592cb320ae0112654c7dddfedd5",
+    "/workspace/squares_in_squares/experiments/compose_gadgets.py": "a8b1df4f9474425d434a44914a73d56703dfc485a79acb57d7d0a3d6e4a24568",
+    "/workspace/squares_in_squares/scripts/score_official.py": "a6b0877295aa68940b4e32d9681a8f8d6a2e350de80c1b1f5aa54cd44e88d6ba",
+    "/workspace/squares_in_squares/scripts/validate_submission.py": "a9db77693e2fb093dcfdbbbfbd913f9420ed0a661ae0eeb8076362c0a8cbae4b",
+    "/workspace/squares_in_squares/research/official_metric_v17.py": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733"
+  },
+  "freeze_sha256": "1c85b92836ed4d2ec19f0e8704a48ba584473f4edcd70d5e21bfcf815e999d0a",
+  "candidates_sha256": "fb9ee6d6219945190f8d75eb5c57248455c26d255697e25312f34e2a248fbc16",
+  "donors_sha256": "f708efbcbfddc9a8492306d07ac62ee606a85bf4bad0af64082c3dd1234337ea",
+  "results_sha256": "5f16897f2d5c75ec692025e6f50d4eb2548a28bd01d3614772af438238e22c34",
+  "latest_broad_snapshot": {
+    "path": "artifacts/fq-broad-contact-v1/snapshots/gain-0104",
+    "candidate_sha256": "022332cdb4a340908959e547e4e473cb09df7bb2c3f86521d440df8844bc5a86",
+    "summary_sha256": "59f419fdd2e7b33b5866c07239a31c61e2e9ac82ee71566e6ab050ca0e48b1d7"
+  },
+  "no_native_execution": true,
+  "no_campaign_mutation": true
+}

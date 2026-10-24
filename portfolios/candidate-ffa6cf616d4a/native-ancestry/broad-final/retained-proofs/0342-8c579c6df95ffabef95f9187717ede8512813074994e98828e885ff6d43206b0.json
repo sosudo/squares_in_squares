@@ -1,0 +1,259 @@
+{
+  "record": {
+    "n": 641,
+    "mode": "rigid_winner",
+    "seed": 9470342,
+    "parent_geometry_sha256": "39a6fcbe4b441d78b95bbc2705009c7320c96d7aef520fa5846cc3251194f47d",
+    "reference_side": 25.819615840271283,
+    "status": "certified",
+    "whole_stage_cap": 10.0,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n641-rigid_winner-9470342.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n641-rigid_winner-9470342.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9470342",
+      "--loosen",
+      "1",
+      "--outer",
+      "45",
+      "--pit",
+      "20",
+      "--flip-top",
+      "0"
+    ],
+    "input_sha256": "a6de8709d98102a9f12f5fa7fb2e60e752b8ab709ce4ed4a9a9a5d6163154f43",
+    "returncode": 0,
+    "log_sha256": "5507b51bdac8c129ef6e31e28f4eb282947a69cf5fd6aba8fe19ea3bd96c534e",
+    "fq": {
+      "s": 25.819496567191536,
+      "s_alm": 25.8194965671862,
+      "viol": 2.38e-05,
+      "evals": 3790,
+      "outer": 45,
+      "slp_it": 18,
+      "slp_r": 0.001,
+      "flips": 0,
+      "min_gap": 2.03e-13,
+      "min_wall": 1.02e-13,
+      "sec": 4.774,
+      "s_coarse": 25.822060494306417,
+      "t_alm": 1.246,
+      "s_alm0": 25.81963385516615,
+      "trace": [
+        [
+          1,
+          0.2069,
+          25.819591212759907,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          2,
+          0.589,
+          25.819506950754942,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          3,
+          0.7115,
+          25.819499742985432,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          4,
+          0.8206,
+          25.819499558952295,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          5,
+          0.9605,
+          25.819499309138685,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          6,
+          1.2641,
+          25.819498999521688,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          7,
+          1.4321,
+          25.819498565329148,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          8,
+          1.5681,
+          25.819498186421708,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          9,
+          1.6937,
+          25.819497762121507,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          10,
+          1.9746,
+          25.819497293349627,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          11,
+          2.2087,
+          25.819496779175672,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          13,
+          2.6716,
+          25.81949663948263,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          15,
+          3.1027,
+          25.819496570537996,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          16,
+          3.2698,
+          25.819496567911923,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          17,
+          3.3862,
+          25.819496567186313,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "be0f44bcbb56aef7",
+      "ncontacts": 638,
+      "fin": []
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "25.81949661682527741097247740134376233225628104250934",
+        "roundtrip_side": "25.81949661682528141097247740134376233225628104250934",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "25.81949661682528142097247740134376233225628104250934",
+      "independent_raw": {
+        "n": 641,
+        "valid": true,
+        "side_lower": "25.819496616825277410972477401343762332256281042509265116418369",
+        "side_upper": "25.819496616825277410972477401343762332256281042509393409124454",
+        "score_lower": "0.019808802203567524647330179053848318590727508218146108041860",
+        "score_upper": "0.019808802203567524647330179053848318590727508218156799100701",
+        "interval_pairs": 763,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 641,
+        "valid": true,
+        "side_lower": "25.819496616825281420972477401343762332256281042509284739872609",
+        "side_upper": "25.819496616825281420972477401343762332256281042509413032578695",
+        "score_lower": "0.019808802203567683032807538493388258882327885688390960661152",
+        "score_upper": "0.019808802203567683032807538493388258882327885688398978955283",
+        "interval_pairs": 763,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "a2580b9b961e21ac953956e9241f1aab6f32e05cf06f8270486a8240e42966dd",
+      "ordinary_pandas_csv_sha256": "342082d462ece64ce5118d54b2023fbc00ce9ec73aca697b8db7ee27ed9c81e4"
+    },
+    "geometry_sha256": "8c579c6df95ffabef95f9187717ede8512813074994e98828e885ff6d43206b0",
+    "side": 25.819496616825276,
+    "side_gain": 0.0001192234460063446,
+    "score_gain": 4.7090429945516845e-06,
+    "elapsed_seconds": 6.021121022997249,
+    "job": 342,
+    "canonical_raw_side": "25.81961584027128300000000000000000000000000000000000",
+    "native_output_sha256": "528e0fdf057a34b2c824d45459d506754e1e8c5a9791ad94a203af4a51f1657e",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/raw-returned/n641-rigid_winner-0342.npz",
+      "sha256": "964044790fb825d2099fe6af30204ab307447ab8b14376f189c3e6faf5325cb6",
+      "geometry_sha256": "89bd4211a770f8368208822a5292915ffb902860dcee1c7c21cac5d98d05319f",
+      "original_decimal_path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n641-rigid_winner-9470342.out",
+      "verified": false
+    },
+    "archive_key": "641__broad_rigid_winner_8c579c6df95ffabef95f9187717ede8512813074994e98828e885ff6d43206b0"
+  },
+  "archive_sha256": "35eb6ebe8a689cc079e5d44458e4d3ef15d893798663fc6137a8d8df970203a3"
+}

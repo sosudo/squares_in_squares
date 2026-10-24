@@ -1,0 +1,218 @@
+{
+  "record": {
+    "n": 702,
+    "mode": "contact100",
+    "seed": 9470353,
+    "parent_geometry_sha256": "76f09db8aa2d4bd77a0e91efa433e4fe5ec7237b594d03c1ff21502c8a9b8490",
+    "reference_side": 26.93690872987391,
+    "status": "certified",
+    "whole_stage_cap": 12.0,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n702-contact100-9470353.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n702-contact100-9470353.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9470353",
+      "--no-alm",
+      "--loosen",
+      "1",
+      "--pit",
+      "100",
+      "--flip-top",
+      "0"
+    ],
+    "input_sha256": "2a9d531d813b4faf6fd1030c568dcf7b3dfe7912ba07c0a252953a74f75ae1ff",
+    "returncode": 0,
+    "log_sha256": "f4a79d17f4be4c7547d7e51a6354968fdb695730593d9e4908723a50720f7915",
+    "fq": {
+      "s": 26.936864984784762,
+      "s_alm": 26.936864984779135,
+      "viol": 0.0,
+      "evals": 0,
+      "outer": 0,
+      "slp_it": 19,
+      "slp_r": 9.8e-07,
+      "flips": 0,
+      "min_gap": 2.03e-13,
+      "min_wall": 1.05e-13,
+      "sec": 2.407,
+      "s_coarse": 26.93686503666109,
+      "t_alm": 0.0,
+      "s_alm0": 26.936865036655586,
+      "trace": [
+        [
+          1,
+          0.1921,
+          26.936865002098234,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          3,
+          0.444,
+          26.93686499014193,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          5,
+          0.7178,
+          26.936864985778595,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          6,
+          0.8366,
+          26.93686498531904,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          8,
+          1.5316,
+          26.93686498480055,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          10,
+          2.0293,
+          26.93686498478127,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          12,
+          2.1982,
+          26.93686498477943,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          14,
+          2.2726,
+          26.93686498477934,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          15,
+          2.3055,
+          26.936864984779355,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          16,
+          2.333,
+          26.936864984779344,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          18,
+          2.3801,
+          26.93686498477931,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "3dbc8241e4284969",
+      "ncontacts": 683,
+      "fin": []
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "26.93686503665303320772358525571737931432104325599463",
+        "roundtrip_side": "26.93686503665303320772358525571735431432104325600118",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "26.93686503665303321772358525571735431432104325600118",
+      "independent_raw": {
+        "n": 702,
+        "valid": true,
+        "side_lower": "26.936865036653033207723585255717379314321043255994553407725254",
+        "side_upper": "26.936865036653033207723585255717379314321043255994681700431339",
+        "score_lower": "0.016666455095158464887358190819259945679617740889892755878746",
+        "score_upper": "0.016666455095158464887358190819259945679617740889903446937588",
+        "interval_pairs": 613,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 702,
+        "valid": true,
+        "side_lower": "26.936865036653033217723585255717354314321043256001096264275833",
+        "side_upper": "26.936865036653033217723585255717354314321043256001224556981918",
+        "score_lower": "0.016666455095158465264783868867457585652347523255189023604463",
+        "score_upper": "0.016666455095158465264783868867457585652347523255197041898595",
+        "interval_pairs": 613,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "6ef68e76c38b13df16e02daebc3095dc521f40f0ca45095adfc744afa3baa0c6",
+      "ordinary_pandas_csv_sha256": "ccd1b4bebe242e5d60e59ff15fdd562119fdf490b3f469a09089709925b70d25"
+    },
+    "geometry_sha256": "867304496ccb0b8f99f4c648017319f7bd205b904897afcbf534851a50a3833c",
+    "side": 26.936865036653032,
+    "side_gain": 4.3693220877827343e-05,
+    "score_gain": 1.6490943515923693e-06,
+    "elapsed_seconds": 6.567273806998855,
+    "job": 353,
+    "canonical_raw_side": "26.93690872987391004961566084581985024389010510204494",
+    "native_output_sha256": "1334b4eb46256e942e6c001ba7d09b7bff3fa7c59b4a77a6267d032ecd9d1abb",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/raw-returned/n702-contact100-0353.npz",
+      "sha256": "821851307f805de53b9a8575421a11dbaf0c22b5064f2d91904a60f645e194b9",
+      "geometry_sha256": "6d6705afc588c0210aee81a60b2363c79ed1733b2b3602978eb90edd5dd7308c",
+      "original_decimal_path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n702-contact100-9470353.out",
+      "verified": false
+    },
+    "archive_key": "702__broad_contact100_867304496ccb0b8f99f4c648017319f7bd205b904897afcbf534851a50a3833c"
+  },
+  "archive_sha256": "4a1cf2d496ca7e4f9b4a5f40ba23ddfecbf56727158ccf76809fee486e27f092"
+}

@@ -1,0 +1,169 @@
+{
+  "record": {
+    "n": 419,
+    "mode": "rigid_winner",
+    "seed": 9470351,
+    "parent_geometry_sha256": "13aa74b4402fad80a34ebccc1cdc29582a5049b52a46f1c9a032892b054f9778",
+    "reference_side": 20.94998499802119,
+    "status": "certified",
+    "whole_stage_cap": 10.0,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n419-rigid_winner-9470351.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n419-rigid_winner-9470351.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9470351",
+      "--loosen",
+      "1",
+      "--outer",
+      "45",
+      "--pit",
+      "20",
+      "--flip-top",
+      "0"
+    ],
+    "input_sha256": "2c17bf194577f7da339ebd13dfa80d582c72399b063ff465c5bb4637174b6dbc",
+    "returncode": 0,
+    "log_sha256": "04cb05ef92c9059739e0fb99d07d79eb8658cd1430f665e9dc500245a5b1b4e9",
+    "fq": {
+      "s": 20.949965579247703,
+      "s_alm": 20.949965579243326,
+      "viol": 1.81e-05,
+      "evals": 2830,
+      "outer": 45,
+      "slp_it": 10,
+      "slp_r": 0.001,
+      "flips": 0,
+      "min_gap": 2.04e-13,
+      "min_wall": 1.05e-13,
+      "sec": 1.466,
+      "s_coarse": 20.95135396615043,
+      "t_alm": 0.539,
+      "s_alm0": 20.94991743937552,
+      "trace": [
+        [
+          1,
+          0.0993,
+          20.950006870919815,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          2,
+          0.1773,
+          20.949965929917173,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          6,
+          0.7307,
+          20.949965620283553,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          7,
+          0.775,
+          20.94996557926845,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          8,
+          0.8255,
+          20.94996557924363,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          9,
+          0.8754,
+          20.94996557924345,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "d7d468a041cd55eb",
+      "ncontacts": 330,
+      "fin": []
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "20.94996561914335012918376891597291236079498409154272",
+        "roundtrip_side": "20.94996561914335012918376891597304236079498409121251",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "20.94996561914335113918376891597303736079498409121373",
+      "independent_raw": {
+        "n": 419,
+        "valid": true,
+        "side_lower": "20.949965619143350129183768915972912360794984091542680722798817",
+        "side_upper": "20.949965619143350129183768915972912360794984091542809015504903",
+        "score_lower": "0.023472794908177380351065152387069057200490410260790222157613",
+        "score_upper": "0.023472794908177380351065152387069057200490410260800913216455",
+        "interval_pairs": 413,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 419,
+        "valid": true,
+        "side_lower": "20.949965619143351139183768915973037360794984091213652481698680",
+        "side_upper": "20.949965619143351139183768915973037360794984091213780774404765",
+        "score_lower": "0.023472794908177429692793995736257700316734009618260685398681",
+        "score_upper": "0.023472794908177429692793995736257700316734009618271376457523",
+        "interval_pairs": 413,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "7a9e4c69d8c5daf81906859e6e09243fc3deddf12cff7f6d07a71d2f644b7cb1",
+      "ordinary_pandas_csv_sha256": "c3dbf7d319095121c0f52b4b350fcae5dcff43ea5c1017c4b1ae68a48ea3c49a"
+    },
+    "geometry_sha256": "7533452300573f535e56fa546cc49b686c1f49f92a614c269edec535f1defc75",
+    "side": 20.94996561914335,
+    "side_gain": 1.9378877841091935e-05,
+    "score_gain": 9.467201343797488e-07,
+    "elapsed_seconds": 2.031335574996774,
+    "job": 351,
+    "canonical_raw_side": "20.94998499802119130000000000000000000000000000000000",
+    "native_output_sha256": "1111c93af865a0e164325d19aef23de9823f3269b152e9b8a7069dc94ab68f91",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/raw-returned/n419-rigid_winner-0351.npz",
+      "sha256": "ee8d477dd5eadbb7121f8e53249bc5fb00bc8b915e9dc2ec17d5adca51242f3e",
+      "geometry_sha256": "d9759041d436ef5aada2059cd71d815f797d83efe09861e7fa94dbd6040dce40",
+      "original_decimal_path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n419-rigid_winner-9470351.out",
+      "verified": false
+    },
+    "archive_key": "419__broad_rigid_winner_7533452300573f535e56fa546cc49b686c1f49f92a614c269edec535f1defc75"
+  },
+  "archive_sha256": "2ce31a4e330e32207c2556e2e98204ed24d274957de2966c9720146f284c24b5"
+}

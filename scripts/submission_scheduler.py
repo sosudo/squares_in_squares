@@ -70,6 +70,28 @@ def numeric_score(value):
     return number
 
 
+def safe_error_diagnostics(error):
+    """Extract only numeric HTTP/API codes; never retain messages or URLs."""
+    result = {}
+    response = getattr(error, 'response', None)
+    if response is None:
+        return result
+    status = getattr(response, 'status_code', None)
+    if type(status) is int and 100 <= status <= 599:
+        result['status_code'] = status
+    try:
+        payload = response.json()
+    except Exception:
+        return result
+    if isinstance(payload, dict):
+        for key in ('code', 'errorCode', 'error_code'):
+            code = payload.get(key)
+            if type(code) is int and -(2 ** 31) <= code < 2 ** 31:
+                result['error_code'] = code
+                break
+    return result
+
+
 def load_authorization_policy(path=None):
     """Require the persisted authorization, failing closed if absent or invalid."""
     path = Path(path or AUTHORIZATION_POLICY)
@@ -351,7 +373,9 @@ def controller(candidates, state, gateway, now, execute=False, persist=lambda st
             raise RuntimeError('Submission acknowledgment has no positive reference')
     except Exception as exc:
         # Never log exception strings: SDK errors may contain credentials or URLs.
-        state['pending']['error_type'] = type(exc).__name__; persist(state)
+        diagnostics = safe_error_diagnostics(exc)
+        state['pending']['error_type'] = type(exc).__name__
+        state['pending'].update(diagnostics); persist(state)
         try:
             reconcile(state, gateway.snapshot()['history'], now)
         except Exception:
@@ -359,7 +383,7 @@ def controller(candidates, state, gateway, now, execute=False, persist=lambda st
         persist(state)
         if state.get('pending'):
             return {'action': 'ambiguous', 'reason': 'Check submission history; automatic retry disabled',
-                    'error_type': type(exc).__name__}, state
+                    'error_type': type(exc).__name__, **diagnostics}, state
         entry = state['submitted'][candidate['id']]
         return {'action': 'reconciled', 'ref': entry['ref'], 'candidate_id': candidate['id']}, state
     accept(state, candidate, {'ref': response['ref'], 'date': utc(now).isoformat(),
@@ -425,6 +449,9 @@ class KaggleGateway:
         metadata = api.get_kernel(request).metadata
         if metadata.current_version_number != notebook['version'] or not metadata.is_private:
             raise ValueError('Notebook must be the exact private saved version')
+        competition_sources = getattr(metadata, 'competition_data_sources', None)
+        if not isinstance(competition_sources, list) or COMPETITION not in competition_sources:
+            raise ValueError('Notebook must attach the exact squares-in-squares competition')
         status_request = ApiGetKernelSessionStatusRequest(); status_request.user_name = owner
         status_request.kernel_slug = slug; status_request.version_label = request.version_label
         if api.get_kernel_session_status(status_request).status.name != 'COMPLETE':
@@ -444,6 +471,7 @@ class KaggleGateway:
         return {'ref': notebook['ref'], 'version': notebook['version'],
             'output_file': notebook['output_file'], 'output_sha256': expected_sha,
             'status': 'complete', 'is_private': True,
+            'competition_sources': list(competition_sources),
             'verified_at': datetime.now(timezone.utc).isoformat()}
 
     def submit_notebook(self, notebook, description):
@@ -530,5 +558,6 @@ if __name__ == '__main__':
     except Exception as error:
         # Never interpolate SDK/HTTP exception bodies, keys or signed URLs.
         print(json.dumps({'action': 'blocked', 'error_type': type(error).__name__,
-                          'reason': 'Controller stopped; inspect local validation/state and live submission history.'}))
+                          'reason': 'Controller stopped; inspect local validation/state and live submission history.',
+                          **safe_error_diagnostics(error)}))
         raise SystemExit(1)

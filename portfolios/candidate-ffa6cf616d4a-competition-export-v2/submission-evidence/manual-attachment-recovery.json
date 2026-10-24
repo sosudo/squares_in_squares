@@ -1,0 +1,116 @@
+{
+  "resolved_at": "2026-10-24T13:51:51.414709+00:00",
+  "resolution": "Manually inferred rejected request after repeated unchanged complete history and quota; correct missing competition attachment before a separate explicit controller execution. Original HTTP status/body were not recorded, so this is not a claimed server error message.",
+  "original_pending_intent": {
+    "candidate": {
+      "id": "ffa6cf616d4ae0fbe0f27dd655e0b31e624b7c014e82537700c71fca78eb563c",
+      "csv": {
+        "path": "/workspace/squares_in_squares/artifacts/submissions/queue-artifacts/ffa6cf616d4ae0fbe0f27dd655e0b31e624b7c014e82537700c71fca78eb563c/candidate.csv",
+        "sha256": "ffa6cf616d4ae0fbe0f27dd655e0b31e624b7c014e82537700c71fca78eb563c"
+      },
+      "raw_report": {
+        "path": "/workspace/squares_in_squares/artifacts/submissions/queue-artifacts/ffa6cf616d4ae0fbe0f27dd655e0b31e624b7c014e82537700c71fca78eb563c/raw-official.json",
+        "sha256": "6d91d6e89192b52e566a369a6c217700690d041692707a4f2d4da40afa7a7668"
+      },
+      "roundtrip_csv": {
+        "path": "/workspace/squares_in_squares/artifacts/submissions/queue-artifacts/ffa6cf616d4ae0fbe0f27dd655e0b31e624b7c014e82537700c71fca78eb563c/float-roundtrip.csv",
+        "sha256": "921059ab8b3082faca7a26c633ffaf0163b89f3ea341fddca49af8e708caff58"
+      },
+      "roundtrip_report": {
+        "path": "/workspace/squares_in_squares/artifacts/submissions/queue-artifacts/ffa6cf616d4ae0fbe0f27dd655e0b31e624b7c014e82537700c71fca78eb563c/float-official.json",
+        "sha256": "f76f4b626e5348f2b9c6897e763661242c060943b863ae90e80d9a95c89a3035"
+      },
+      "transport_report": {
+        "path": "/workspace/squares_in_squares/artifacts/submissions/queue-artifacts/ffa6cf616d4ae0fbe0f27dd655e0b31e624b7c014e82537700c71fca78eb563c/transport-validation.json",
+        "sha256": "bef9ee511de163b58609f24f19c9c2e785b6b5e383f6cbd2452a5fa6ffbc8480"
+      },
+      "notebook": {
+        "ref": "sos54352/squares-portfolio-ffa6cf616d4a-incremental",
+        "version": 1,
+        "output_file": "submission.csv"
+      },
+      "completion": {
+        "ref": "sos54352/squares-portfolio-ffa6cf616d4a-incremental",
+        "version": 1,
+        "output_file": "submission.csv",
+        "output_sha256": "ffa6cf616d4ae0fbe0f27dd655e0b31e624b7c014e82537700c71fca78eb563c",
+        "status": "complete",
+        "is_private": true,
+        "verified_at": "2026-10-24T13:45:18.341234+00:00"
+      },
+      "score": "22.29903477817329"
+    },
+    "marker": "[squares-sha256:ffa6cf616d4ae0fbe0f27dd655e0b31e624b7c014e82537700c71fca78eb563c]",
+    "request_started_at": "2026-10-24T13:45:36.903819+00:00",
+    "authorization_policy": {
+      "score_ceiling": "22.3",
+      "minimum_interval_seconds": 3600,
+      "sha256": "4ef2ab8de598110f2bb0b88b90309a2aba0592b801433be2ca1c5c35719b1b0a",
+      "source": "/workspace/squares_in_squares/artifacts/submissions/authorization-policy.json"
+    },
+    "error_type": "HTTPError"
+  },
+  "before": {
+    "history": [
+      {
+        "ref": 57584666,
+        "date": "2026-10-24T06:07:08.397000+00:00",
+        "description": "[squares-sha256:4636cfc395424574a77d81131110eea9444fde0f16e5d48a133e1364d9e95f21] validated score 22.304757959372726",
+        "status": "complete",
+        "public_score": "22.3047579593"
+      },
+      {
+        "ref": 57583210,
+        "date": "2026-10-24T05:06:59.167000+00:00",
+        "description": "Validated baseline: public frontier, exact certificates, and composition; raw and float transport certified",
+        "status": "complete",
+        "public_score": "22.3048038109"
+      }
+    ],
+    "limits": {
+      "num_today": 2,
+      "num_total": 2,
+      "num_allowed_now": 8
+    }
+  },
+  "after": {
+    "history": [
+      {
+        "ref": 57584666,
+        "date": "2026-10-24T06:07:08.397000+00:00",
+        "description": "[squares-sha256:4636cfc395424574a77d81131110eea9444fde0f16e5d48a133e1364d9e95f21] validated score 22.304757959372726",
+        "status": "complete",
+        "public_score": "22.3047579593"
+      },
+      {
+        "ref": 57583210,
+        "date": "2026-10-24T05:06:59.167000+00:00",
+        "description": "Validated baseline: public frontier, exact certificates, and composition; raw and float transport certified",
+        "status": "complete",
+        "public_score": "22.3048038109"
+      }
+    ],
+    "limits": {
+      "num_today": 2,
+      "num_total": 2,
+      "num_allowed_now": 8
+    }
+  },
+  "corrected_completion": {
+    "ref": "sos54352/squares-portfolio-ffa6cf616d4a-incremental",
+    "version": 2,
+    "output_file": "submission.csv",
+    "output_sha256": "ffa6cf616d4ae0fbe0f27dd655e0b31e624b7c014e82537700c71fca78eb563c",
+    "status": "complete",
+    "is_private": true,
+    "competition_sources": [
+      "squares-in-squares"
+    ],
+    "verified_at": "2026-10-24T13:51:51.019273+00:00"
+  },
+  "attachment_completion_proof": "artifacts/portfolio-ffa6cf616d4a-incremental-export-job-v2/completion-proof.json",
+  "attachment_completion_proof_sha256": "e0abff8b8461174f37347950bf3ca258acc9433e374f56fa8b0c797aae4b6ee2",
+  "metadata_delta_sha256": "fc40f34d27d21f272e1932fa50d3e4237d43e20b43814b9b70aa5334764c3856",
+  "source_and_csv_unchanged": true,
+  "competition_submission_performed": false
+}

@@ -1,0 +1,25 @@
+{
+  "status": "Private CPU version2 complete and remotely verified; competition attached; no submission by exporter",
+  "source_notebook": {
+    "ref": "sos54352/squares-portfolio-ffa6cf616d4a-incremental",
+    "version": 2,
+    "output_file": "submission.csv"
+  },
+  "csv_sha256": "ffa6cf616d4ae0fbe0f27dd655e0b31e624b7c014e82537700c71fca78eb563c",
+  "source_sha256": "01ebecfd454893ddb0418d46547ee3ddd1115842b71f465d00636a83175b48a3",
+  "official_score": 22.29903477817329,
+  "roundtrip_score": 22.29903477817329,
+  "complete_certified_source_recipe": "../candidate-ffa6cf616d4a/",
+  "numeric_parent_recipe": "../candidate-3d242df4547e/",
+  "metadata_only_delta": {
+    "competition_sources": {
+      "old": [],
+      "new": [
+        "squares-in-squares"
+      ]
+    }
+  },
+  "completion_proof_sha256": "e0abff8b8461174f37347950bf3ca258acc9433e374f56fa8b0c797aae4b6ee2",
+  "old_recipe_preserved": true,
+  "competition_submission_performed": false
+}

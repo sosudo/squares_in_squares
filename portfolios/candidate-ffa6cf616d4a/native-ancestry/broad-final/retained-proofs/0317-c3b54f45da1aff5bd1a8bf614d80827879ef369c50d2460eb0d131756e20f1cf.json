@@ -1,0 +1,209 @@
+{
+  "record": {
+    "n": 644,
+    "mode": "rigid_winner",
+    "seed": 9470317,
+    "parent_geometry_sha256": "5bb0651e4e1637c878b50b6b047100544e338fd855b447ac8247469aad5f8d40",
+    "reference_side": 25.86152836202598,
+    "status": "certified",
+    "whole_stage_cap": 10.0,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n644-rigid_winner-9470317.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n644-rigid_winner-9470317.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9470317",
+      "--loosen",
+      "1",
+      "--outer",
+      "45",
+      "--pit",
+      "20",
+      "--flip-top",
+      "0"
+    ],
+    "input_sha256": "2e6047900264e23b1ebaf470a760925aea495abc6e63740d0c12bddb1722378f",
+    "returncode": 0,
+    "log_sha256": "f3d9b8dfaf3993fb5149cbc00c4e0ab31a866726b7831834a322f07e4873f2e1",
+    "fq": {
+      "s": 25.861187275264196,
+      "s_alm": 25.861187275195697,
+      "viol": 2.92e-05,
+      "evals": 6368,
+      "outer": 45,
+      "slp_it": 16,
+      "slp_r": 0.001,
+      "flips": 0,
+      "min_gap": 1.46e-12,
+      "min_wall": 1.32e-12,
+      "sec": 4.732,
+      "s_coarse": 25.86413698497391,
+      "t_alm": 1.791,
+      "s_alm0": 25.861187216795262,
+      "trace": [
+        [
+          1,
+          0.1705,
+          25.86123589721105,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          2,
+          0.4461,
+          25.861192078674335,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          4,
+          0.953,
+          25.861188695917175,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          6,
+          1.3634,
+          25.861187959485694,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          8,
+          1.6499,
+          25.86118785128239,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          9,
+          1.775,
+          25.861187736461858,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          10,
+          1.9074,
+          25.86118753542303,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          12,
+          2.3143,
+          25.861187437741155,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          14,
+          2.724,
+          25.861187355170834,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          15,
+          2.8514,
+          25.8611872752464,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "b22a6d9ba968dc90",
+      "ncontacts": 1729,
+      "fin": []
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "25.86118732494531753187217130096938149126494014927213",
+        "roundtrip_side": "25.86118732494532163187217130096951956813277098468074",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "25.86118732494532160187217130096955302969885556667953",
+      "independent_raw": {
+        "n": 644,
+        "valid": true,
+        "side_lower": "25.861187324945317531872171300969381491264940149272066013395846",
+        "side_upper": "25.861187324945317531872171300969381491264940149272194306101931",
+        "score_lower": "0.019073542424406734539295847272515141360968732473154645757872",
+        "score_upper": "0.019073542424406734539295847272515141360968732473162664052003",
+        "interval_pairs": 609,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 644,
+        "valid": true,
+        "side_lower": "25.861187324945321601872171300969553029698855566679450551817709",
+        "side_upper": "25.861187324945321601872171300969553029698855566679578844523794",
+        "score_lower": "0.019073542424406894919763516929503103992568048106137300879615",
+        "score_upper": "0.019073542424406894919763516929503103992568048106147991938456",
+        "interval_pairs": 609,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "95fdc0fb3f4bd9913b50bb8faba877010e1bdb0112a7d0d1d1de7766bb2a5265",
+      "ordinary_pandas_csv_sha256": "8df55d864a07362aefef3a9340f2abefe0b0520da5c88c31cc16ec533abe2ee1"
+    },
+    "geometry_sha256": "c3b54f45da1aff5bd1a8bf614d80827879ef369c50d2460eb0d131756e20f1cf",
+    "side": 25.861187324945316,
+    "side_gain": 0.00034103708066268723,
+    "score_gain": 1.3438743609183368e-05,
+    "elapsed_seconds": 6.022854194998217,
+    "job": 317,
+    "canonical_raw_side": "25.86152836202598046784915799120025970107346508017957",
+    "native_output_sha256": "01e2ee7b61cf1311c5c01316ac1c8aebdaad99c45b63cd808f67260655c2c5a6",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/raw-returned/n644-rigid_winner-0317.npz",
+      "sha256": "8da2dd278e5edcb868b5043882d132a8ee11f6b235281918e7efb4694def49f0",
+      "geometry_sha256": "aa9cfd8ba9dea6c8ddfb725faf978a8e6ceef8e345dcce893facafb8c1e6bf15",
+      "original_decimal_path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n644-rigid_winner-9470317.out",
+      "verified": false
+    },
+    "archive_key": "644__broad_rigid_winner_c3b54f45da1aff5bd1a8bf614d80827879ef369c50d2460eb0d131756e20f1cf"
+  },
+  "archive_sha256": "ce0a27eeb1015c59475228299f55eca75bee14d8b58659d86ed864ed85ef205a"
+}

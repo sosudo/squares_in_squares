@@ -3,3 +3,6 @@ portfolios/candidate-*/source-notices-*/* -text whitespace=cr-at-eol
 vendor/notices/lightning-v19/* -text whitespace=cr-at-eol
 # Native logs are immutable evidence, including their terminal blank lines.
 portfolios/candidate-*/native-ancestry/selected-native-files/* -text whitespace=-blank-at-eof
+
+# Preserve nested immutable native logs in consolidated portfolio ancestry.
+portfolios/candidate-*/native-ancestry/**/*.log -text whitespace=-blank-at-eof

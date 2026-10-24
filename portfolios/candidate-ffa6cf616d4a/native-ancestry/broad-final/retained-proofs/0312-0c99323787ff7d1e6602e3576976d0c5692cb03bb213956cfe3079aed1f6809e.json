@@ -1,0 +1,219 @@
+{
+  "record": {
+    "n": 693,
+    "mode": "rigid_no_lp_gain",
+    "seed": 9470312,
+    "parent_geometry_sha256": "3e55008e02bfbb856afe56c7d8b625c1d5ae1531ad47d42927460044cae00ec3",
+    "reference_side": 26.81760995798387,
+    "status": "certified",
+    "whole_stage_cap": 10.0,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n693-rigid_no_lp_gain-9470312.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n693-rigid_no_lp_gain-9470312.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9470312",
+      "--loosen",
+      "1",
+      "--outer",
+      "45",
+      "--pit",
+      "20",
+      "--flip-top",
+      "0"
+    ],
+    "input_sha256": "ee10f71c51e082f87566196e49a9f1f56c5c74547052585e8590080abc239b4d",
+    "returncode": 0,
+    "log_sha256": "ba4d7719c37c11fe96d58a8145127edd0d6a05b369382204e4e6fdc4476e3105",
+    "fq": {
+      "s": 26.81494922454496,
+      "s_alm": 26.81494921646933,
+      "viol": 1.22e-05,
+      "evals": 5582,
+      "outer": 45,
+      "slp_it": 16,
+      "slp_r": 0.001,
+      "flips": 0,
+      "min_gap": 1.52e-10,
+      "min_wall": 1.51e-10,
+      "sec": 5.213,
+      "s_coarse": 26.816121754721458,
+      "t_alm": 1.71,
+      "s_alm0": 26.814921373997784,
+      "trace": [
+        [
+          1,
+          0.2221,
+          26.815053635131466,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          2,
+          0.6287,
+          26.814954844069515,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          3,
+          0.8537,
+          26.81495151707908,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          5,
+          1.3708,
+          26.814949662586873,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          7,
+          1.7292,
+          26.814949492705537,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          8,
+          1.9049,
+          26.814949464715713,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          9,
+          2.0696,
+          26.8149494152643,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          10,
+          2.2487,
+          26.81494933926744,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          12,
+          2.72,
+          26.81494927162699,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          14,
+          3.1943,
+          26.814949249491548,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          15,
+          3.4038,
+          26.81494922509588,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "bb97378ae5478573",
+      "ncontacts": 1745,
+      "fin": []
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "26.81494927182315432988595358159292954069683435533689",
+        "roundtrip_side": "26.81494927182315743988595358159292954069683435533689",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "26.81494927182315740988595358159302954069683435507684",
+      "independent_raw": {
+        "n": 693,
+        "valid": true,
+        "side_lower": "26.814949271823154329885953581592929540696834355336830369964667",
+        "side_upper": "26.814949271823154329885953581592929540696834355336958662670752",
+        "score_lower": "0.018615692250971839674953114846650516804663501731090216561860",
+        "score_upper": "0.018615692250971839674953114846650516804663501731098234855991",
+        "interval_pairs": 701,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 693,
+        "valid": true,
+        "side_lower": "26.814949271823157409885953581593029540696834355076766748380473",
+        "side_upper": "26.814949271823157409885953581593029540696834355076895041086558",
+        "score_lower": "0.018615692250971956674478280074948454242389588536966291778510",
+        "score_upper": "0.018615692250971956674478280074948454242389588536974310072641",
+        "interval_pairs": 701,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "f9c026e963c6a307457089aa9799dfb0bac2c60d4ea3c357651154f923395770",
+      "ordinary_pandas_csv_sha256": "240fb8bff7e55c7b1e23f557f0b1d2a1ae64905d3e3d5019db2f6afa803b0ad8"
+    },
+    "geometry_sha256": "0c99323787ff7d1e6602e3576976d0c5692cb03bb213956cfe3079aed1f6809e",
+    "side": 26.814949271823153,
+    "side_gain": 0.0026606861607163523,
+    "score_gain": 0.0001010711095511388,
+    "elapsed_seconds": 7.894289998999739,
+    "job": 312,
+    "canonical_raw_side": "26.81760995798386938481238576041445572954655249739818",
+    "native_output_sha256": "90c0d3116b32378848a9d2dfdd18088ae573dfb6799ceee2290cb51163233ebd",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/raw-returned/n693-rigid_no_lp_gain-0312.npz",
+      "sha256": "d6773b6beacbb5fad01009e1fd37ef092170f8ac424236a9a1ba61494058a75d",
+      "geometry_sha256": "bb6a18db0cb5ee6f1211b0b27d7eb358bbe594974deb7958d1511cedc522a5d9",
+      "original_decimal_path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n693-rigid_no_lp_gain-9470312.out",
+      "verified": false
+    },
+    "archive_key": "693__broad_rigid_no_lp_gain_0c99323787ff7d1e6602e3576976d0c5692cb03bb213956cfe3079aed1f6809e"
+  },
+  "archive_sha256": "bc5c9346d28d7faa42cf3c88a428dad878b3e55ca938c095ea5a8b2352d1678c"
+}

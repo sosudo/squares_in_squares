@@ -1,0 +1,198 @@
+{
+  "record": {
+    "n": 461,
+    "mode": "contact100",
+    "seed": 9470284,
+    "parent_geometry_sha256": "7589160bfae2a24cc340a02cd7fe0ba3e95f00517bf8b3de9a5d408766da08c9",
+    "reference_side": 21.936403680828413,
+    "status": "certified",
+    "whole_stage_cap": 12.0,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n461-contact100-9470284.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n461-contact100-9470284.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9470284",
+      "--no-alm",
+      "--loosen",
+      "1",
+      "--pit",
+      "100",
+      "--flip-top",
+      "0"
+    ],
+    "input_sha256": "f285d91bfc4006a77abb83aa2287d82c73371a0691d45e13aa1d0b199b17d6ae",
+    "returncode": 0,
+    "log_sha256": "22b7222d0407a2fd03318422c0518944e8689969b3c476a0fd90fdb2edb6a385",
+    "fq": {
+      "s": 21.934948865089005,
+      "s_alm": 21.93494886508437,
+      "viol": 0.0,
+      "evals": 0,
+      "outer": 0,
+      "slp_it": 17,
+      "slp_r": 9.8e-07,
+      "flips": 0,
+      "min_gap": 2.05e-13,
+      "min_wall": 1.05e-13,
+      "sec": 1.109,
+      "s_coarse": 21.934948908404746,
+      "t_alm": 0.0,
+      "s_alm0": 21.93494890840028,
+      "trace": [
+        [
+          1,
+          0.0808,
+          21.93494886828797,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          3,
+          0.2322,
+          21.934948865170927,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          6,
+          0.4381,
+          21.9349488651084,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          7,
+          0.5023,
+          21.93494886509621,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          9,
+          0.6403,
+          21.934948865085016,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          11,
+          0.7559,
+          21.93494886508457,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          13,
+          0.8842,
+          21.9349488650846,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          14,
+          0.9426,
+          21.9349488650846,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          16,
+          1.0612,
+          21.934948865084543,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "d78ff41520ac8d68",
+      "ncontacts": 1226,
+      "fin": []
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "21.93494890695438304536370769588795281802085674068504",
+        "roundtrip_side": "21.93494890695438704536370769588795281802085674068504",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "21.93494890695438706536370769588794781802085674068749",
+      "independent_raw": {
+        "n": 461,
+        "valid": true,
+        "side_lower": "21.934948906954383045363707695887952818020856740684986776697063",
+        "side_upper": "21.934948906954383045363707695887952818020856740685115069403148",
+        "score_lower": "0.021612420777983170841168024963094358906039931120559642455297",
+        "score_upper": "0.021612420777983170841168024963094358906039931120570333514138",
+        "interval_pairs": 429,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 461,
+        "valid": true,
+        "side_lower": "21.934948906954387065363707695887947818020856740687408601951946",
+        "side_upper": "21.934948906954387065363707695887947818020856740687536894658031",
+        "score_lower": "0.021612420777983358071234023677262556017615488295133084186252",
+        "score_upper": "0.021612420777983358071234023677262556017615488295143775245094",
+        "interval_pairs": 429,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "e95217cf90eb62ef5233989b523776919b50c2e8e849486ed4fb486169b9585b",
+      "ordinary_pandas_csv_sha256": "6f4c4721a8f989287cbf81feffc4c952ac38150fef2b5d3e08c95e96de57e22b"
+    },
+    "geometry_sha256": "e578170babd6f2b9156671355f4f74648857ddc4a86fb9bc51c5fcdc9e7aee54",
+    "side": 21.934948906954382,
+    "side_gain": 0.0014547738740304794,
+    "score_gain": 6.775557424077905e-05,
+    "elapsed_seconds": 2.0758804290016997,
+    "job": 284,
+    "canonical_raw_side": "21.93640368082841196707882587915080578247305018589315",
+    "native_output_sha256": "88c322b8634afe995a6e01afb60557ed0129ede2e5acd81517f21c1df066ecb1",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/raw-returned/n461-contact100-0284.npz",
+      "sha256": "a1c74d15968db33ca801c104752b567bf5aee7719506a0ef10ffacd0c50cdd1f",
+      "geometry_sha256": "fef525427dfe93107cc437cdc8cd99e4dc4b603acb2ac1f0ea99819b63ed22c7",
+      "original_decimal_path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n461-contact100-9470284.out",
+      "verified": false
+    },
+    "archive_key": "461__broad_contact100_e578170babd6f2b9156671355f4f74648857ddc4a86fb9bc51c5fcdc9e7aee54"
+  },
+  "archive_sha256": "06d64f8fd83008bce248ede88b20d782a24e3b1c114adef525b57b29f9ff947e"
+}

@@ -1,0 +1,116 @@
+{
+  "final_campaign_snapshots": {
+    "results.json": {
+      "original": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/complete/results.json",
+      "path": "artifacts/fq-broad-final-native-recovery-v1/comparison/results.json",
+      "sha256": "8258eaf3244b28011f8ac99a10e4ddce95d3162de0d1d49b10388ed51fa8c2d6",
+      "bytes": 1606514
+    },
+    "candidates.json": {
+      "original": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/complete/candidates.json",
+      "path": "artifacts/fq-broad-final-native-recovery-v1/comparison/candidates.json",
+      "sha256": "022332cdb4a340908959e547e4e473cb09df7bb2c3f86521d440df8844bc5a86",
+      "bytes": 3648350
+    },
+    "summary.json": {
+      "original": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/complete/summary.json",
+      "path": "artifacts/fq-broad-final-native-recovery-v1/comparison/summary.json",
+      "sha256": "49abe6736a846d1c4e55d525d396f185885feecfb037347226a17969c1384908",
+      "bytes": 1094
+    },
+    "manifest.json": {
+      "original": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/complete/manifest.json",
+      "path": "artifacts/fq-broad-final-native-recovery-v1/comparison/manifest.json",
+      "sha256": "ad96b6c961d022b2bf2ce3cf9549b20e6f10629258582e864425e076b73e3c80",
+      "bytes": 6247
+    },
+    "supervisor.json": {
+      "original": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/supervisor.json",
+      "path": "artifacts/fq-broad-final-native-recovery-v1/comparison/supervisor.json",
+      "sha256": "f2fde2eba25e9c88ee527962a703bbe1054bee6c9a2a9418ce387871bb537b98",
+      "bytes": 137
+    },
+    "prior_recovery_candidates": {
+      "original": "/workspace/squares_in_squares/artifacts/fq-broad-contact-recovery-v1/candidates.json",
+      "path": "artifacts/fq-broad-final-native-recovery-v1/comparison/prior-recovery-candidates.json",
+      "sha256": "fb9ee6d6219945190f8d75eb5c57248455c26d255697e25312f34e2a248fbc16",
+      "bytes": 266858
+    }
+  },
+  "canonical_pointer": {
+    "schema_version": 1,
+    "updated_at": "2026-10-24T13:25:44.504443+00:00",
+    "canonical_proof": "/workspace/squares_in_squares/artifacts/submission-fq-broad-gain28-safe.transport-validation.json",
+    "canonical_proof_sha256": "a5adccc130dbc5596e7103391b9432a0658453df72e6990ca2d004ac01ab2cdd",
+    "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+    "competition_submission_performed": false,
+    "raw": {
+      "path": "/workspace/squares_in_squares/artifacts/merged-fq-broad-gain28.csv",
+      "sha256": "2eafe2700ed9a9d07ddb0fabae516ea8652838b9d13affb2afe03ef5508f9990",
+      "score": 22.299925016393914,
+      "official_report": "/workspace/squares_in_squares/artifacts/merged-fq-broad-gain28-official.json",
+      "official_report_sha256": "334c9c2c491bc5c530aa34abe191da7be75cab078969687d98502955e262d06c",
+      "reuse": {
+        "reused": 972,
+        "evaluated": 28
+      }
+    },
+    "safe": {
+      "path": "/workspace/squares_in_squares/artifacts/submission-fq-broad-gain28-safe.csv",
+      "sha256": "3d242df4547e32775bdaca393927a43ff2b2c46650e35fafafe13be5d75a3c32",
+      "score": 22.299925017215607,
+      "official_report": "/workspace/squares_in_squares/artifacts/submission-fq-broad-gain28-safe-official.json",
+      "official_report_sha256": "902a1b56d152c943eafa1d9743b05de631ae4004367a62fc9f7d03dbe759f6f3",
+      "reuse": {
+        "reused": 972,
+        "evaluated": 28
+      }
+    },
+    "roundtrip": {
+      "path": "/workspace/squares_in_squares/artifacts/submission-fq-broad-gain28-safe-roundtrip.csv",
+      "sha256": "14d5150fb98120025bc4e2f4ba8d0af3ffa27b33a4b7ffa938ec1abea0461435",
+      "score": 22.299925017215607,
+      "official_report": "/workspace/squares_in_squares/artifacts/submission-fq-broad-gain28-safe-roundtrip-official.json",
+      "official_report_sha256": "ceb1e49226589d700d2a85d830f644c912f88547c35d70ae41b50c268a26d78c",
+      "reuse": {
+        "reused": 972,
+        "evaluated": 28
+      }
+    },
+    "independent_report": {
+      "path": "/workspace/squares_in_squares/artifacts/merged-fq-broad-gain28.validation.json",
+      "sha256": "7dd11a3900def1805a2c4ae6d0a0d3a90c2b2135b819ad08ff21a99c13b84330"
+    },
+    "user_submission_score_threshold": 22.3,
+    "eligible_under_user_score_threshold": true
+  },
+  "excluded_jobs": [
+    12,
+    26,
+    69
+  ],
+  "total_native_returns": 266,
+  "already_certified": 248,
+  "screened_unrecovered": 15,
+  "side_promising": 11,
+  "all_raw_returned_archives_accounted": true,
+  "initial_parent_bank_sha256": "c0c26006d9ddb1f8ba537780afb33acfc104bb17128269c53d10eb2c393a75f9",
+  "source_hashes": {
+    "/workspace/squares_in_squares/experiments/recover_broad_native_returns.py": "b9f66ac28b2970f729fdb2be2206c2ffc0cca664bb9389b61dd1b5628adfe816",
+    "/workspace/squares_in_squares/experiments/fq_active_pilot.py": "cc916fe5bc0e58a4cdfdeb6e4f498061522a2ae44cd6443fdffc1f485eb3db33",
+    "/workspace/squares_in_squares/experiments/fq_capacity_probe.py": "35a750d6c5aa90f661b8e0e3491e11284f04f592cb320ae0112654c7dddfedd5",
+    "/workspace/squares_in_squares/experiments/compose_gadgets.py": "a8b1df4f9474425d434a44914a73d56703dfc485a79acb57d7d0a3d6e4a24568",
+    "/workspace/squares_in_squares/scripts/score_official.py": "a6b0877295aa68940b4e32d9681a8f8d6a2e350de80c1b1f5aa54cd44e88d6ba",
+    "/workspace/squares_in_squares/scripts/validate_submission.py": "a9db77693e2fb093dcfdbbbfbd913f9420ed0a661ae0eeb8076362c0a8cbae4b",
+    "/workspace/squares_in_squares/research/official_metric_v17.py": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+    "/workspace/squares_in_squares/artifacts/fq-broad-contact-recovery-v1/source/recover_broad_returns.py": "039081774a3c1cbf360efc4e370c4dabd4281d177f63983615537a3f876f64e5"
+  },
+  "native_binary_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+  "source_commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+  "native_inventory_sha256": "321df9b6b0a0c0a89cc2f3e286fa80f085f301e3e4b9d222a9b8ad66cfc1c4fe",
+  "screen_sha256": "bb0aef6f6c07eeeee590df4df05d7bfb9265c56dedb52d7413ee197d36d98bf0",
+  "maximum_seconds": 180,
+  "workers": 1,
+  "no_native_execution": true,
+  "no_campaign_mutation": true
+}

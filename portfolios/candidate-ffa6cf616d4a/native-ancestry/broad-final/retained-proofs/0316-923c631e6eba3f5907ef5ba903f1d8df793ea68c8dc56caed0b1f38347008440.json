@@ -1,0 +1,218 @@
+{
+  "record": {
+    "n": 547,
+    "mode": "contact100",
+    "seed": 9470316,
+    "parent_geometry_sha256": "4166a70857703d7254cb7fa36b371b0520abef9adba92c7b268ac09424c2fd33",
+    "reference_side": 23.87612178715053,
+    "status": "certified",
+    "whole_stage_cap": 12.0,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n547-contact100-9470316.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n547-contact100-9470316.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9470316",
+      "--no-alm",
+      "--loosen",
+      "1",
+      "--pit",
+      "100",
+      "--flip-top",
+      "0"
+    ],
+    "input_sha256": "4413ec2b9ac0f28a18f5b1bdc108849946e3d8eeac08760dede6a8b79549f3dc",
+    "returncode": 0,
+    "log_sha256": "e2d337d9f5b0ec04405c5610a2943c46b57d2506f4192ae95d5db6cef0a995cd",
+    "fq": {
+      "s": 23.875794650375944,
+      "s_alm": 23.875794650370917,
+      "viol": 0.0,
+      "evals": 0,
+      "outer": 0,
+      "slp_it": 19,
+      "slp_r": 3.9e-06,
+      "flips": 0,
+      "min_gap": 2.02e-13,
+      "min_wall": 1.02e-13,
+      "sec": 1.055,
+      "s_coarse": 23.875794722841732,
+      "t_alm": 0.0,
+      "s_alm0": 23.875794722831014,
+      "trace": [
+        [
+          1,
+          0.0982,
+          23.875794683603996,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          3,
+          0.2732,
+          23.87579465243695,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          5,
+          0.4379,
+          23.875794650657912,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          7,
+          0.5834,
+          23.875794650395815,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          9,
+          0.741,
+          23.87579465039045,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          10,
+          0.7796,
+          23.875794650372033,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          13,
+          0.8816,
+          23.875794650371304,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          15,
+          0.9336,
+          23.875794650371247,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          16,
+          0.9595,
+          23.875794650371223,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          17,
+          0.9852,
+          23.875794650371223,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          18,
+          1.0121,
+          23.875794650371173,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "76387614466473d2",
+      "ncontacts": 635,
+      "fin": []
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "23.87579469612270401229096615671005799338569319661222",
+        "roundtrip_side": "23.87579469612270401229096615671026099338569319621418",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "23.87579469612270401229096615671030999338569319611473",
+      "independent_raw": {
+        "n": 547,
+        "valid": true,
+        "side_lower": "23.875794696122704012290966156710057993385693196612157357049055",
+        "side_upper": "23.875794696122704012290966156710057993385693196612285649755140",
+        "score_lower": "0.020855264234085400058652391234812171591286956880094198353363",
+        "score_upper": "0.020855264234085400058652391234812171591286956880102216647494",
+        "interval_pairs": 603,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 547,
+        "valid": true,
+        "side_lower": "23.875794696122704012290966156710309993385693196114672571533741",
+        "side_upper": "23.875794696122704012290966156710309993385693196114800864239826",
+        "score_lower": "0.020855264234085400058652391234822946333232143981098350147352",
+        "score_upper": "0.020855264234085400058652391234822946333232143981109041206193",
+        "interval_pairs": 603,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "d4c1ac9d9890fc98a1d9e99d250f3acbd4b8c7c5f4baeee695bc55a062a3eff9",
+      "ordinary_pandas_csv_sha256": "7ec73163b6e39a888932674df6f2b7a538238236170e32f120b06828c71b2022"
+    },
+    "geometry_sha256": "923c631e6eba3f5907ef5ba903f1d8df793ea68c8dc56caed0b1f38347008440",
+    "side": 23.875794696122703,
+    "side_gain": 0.00032709102782746413,
+    "score_gain": 1.3985402450106927e-05,
+    "elapsed_seconds": 2.398091820003174,
+    "job": 316,
+    "canonical_raw_side": "23.87612178715053100000000000000000000000000000000000",
+    "native_output_sha256": "23801503b30bb24c6c5ad9dd2f6937eaf7471f1dc221f8c743a441987f72e230",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/raw-returned/n547-contact100-0316.npz",
+      "sha256": "a8f49d488850712f76e72e220ac2d1ab205c975e2e14090555d947ac47a9f9e4",
+      "geometry_sha256": "3660a9d016a64a7a96022c69aa8c698f1876a2160af579c296a11934b6472ff5",
+      "original_decimal_path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n547-contact100-9470316.out",
+      "verified": false
+    },
+    "archive_key": "547__broad_contact100_923c631e6eba3f5907ef5ba903f1d8df793ea68c8dc56caed0b1f38347008440"
+  },
+  "archive_sha256": "f9bf75c59dcbe9db074b2b6246df95b69c340820b45daf375fbc5876726964f1"
+}

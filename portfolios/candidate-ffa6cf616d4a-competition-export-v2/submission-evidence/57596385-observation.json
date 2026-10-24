@@ -1,0 +1,18 @@
+{
+  "observed_at": "2026-10-24T13:52:53.399546+00:00",
+  "submission": {
+    "ref": 57596385,
+    "date": "2026-10-24T13:52:10.747000+00:00",
+    "description": "[squares-sha256:ffa6cf616d4ae0fbe0f27dd655e0b31e624b7c014e82537700c71fca78eb563c] validated score 22.29903477817329",
+    "status": "pending",
+    "public_score": null
+  },
+  "limits": {
+    "num_today": 3,
+    "num_total": 3,
+    "num_allowed_now": 7
+  },
+  "validated_score": "22.29903477817329",
+  "csv_sha256": "ffa6cf616d4ae0fbe0f27dd655e0b31e624b7c014e82537700c71fca78eb563c",
+  "notebook": "sos54352/squares-portfolio-ffa6cf616d4a-incremental/2"
+}

@@ -1,0 +1,29 @@
+{
+  "purpose": "Metadata-only attachment correction; no competition submission.",
+  "previous_version": 1,
+  "requested_new_version": 2,
+  "source_sha256": "01ebecfd454893ddb0418d46547ee3ddd1115842b71f465d00636a83175b48a3",
+  "source_bytes": 924954,
+  "metadata_diff": {
+    "competition_sources": {
+      "old": [],
+      "new": [
+        "squares-in-squares"
+      ]
+    }
+  },
+  "previous_metadata_sha256": "352f277ab587f573eeb60f49b171fb736eb79a0b57d9ab5c124bf0602e15fab1",
+  "new_metadata_sha256": "b4a04c4afe9ec2afae3cebb4d4fc49d629bf74bad2a39f8332d9e016d90b9650",
+  "previous_completion_proof_sha256": "09e734560b4fedd482925351e8cf6ff898b269f3e00e9246a4e94464492ea91c",
+  "copied_exact_files": {
+    "export.py": "01ebecfd454893ddb0418d46547ee3ddd1115842b71f465d00636a83175b48a3",
+    "incremental_loader.py": "e3cd3d02f16679d51c100531656e4b790e7c142c83febb60b2ef988acd890636",
+    "export_manifest.json": "e38b5e4df4a5311c66c2220dab7f5026bc929d05677a1860a8f1ea7d68f892aa",
+    "build_report.json": "8615889bbb513151d1b72a066692ea914e421b6204861a683621443060e8f5e8"
+  },
+  "numerical_runtime_changed": false,
+  "parent_changed": false,
+  "csv_sha256": "ffa6cf616d4ae0fbe0f27dd655e0b31e624b7c014e82537700c71fca78eb563c",
+  "old_recipe_and_evidence_unchanged": true,
+  "competition_submission_performed": false
+}

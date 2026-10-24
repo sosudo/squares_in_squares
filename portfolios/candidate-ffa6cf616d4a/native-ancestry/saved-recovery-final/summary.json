@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "seconds": 12.610082936000254,
+  "total_native_returns": 266,
+  "screened_uncertified_returns": 15,
+  "excluded_jobs": [
+    12,
+    26,
+    69
+  ],
+  "side_promising": 11,
+  "full_certificates_completed": 11,
+  "retained_certified_geometries": 11,
+  "improved_cases": [
+    456,
+    502,
+    505,
+    532,
+    550,
+    551,
+    555,
+    594,
+    645,
+    798,
+    988
+  ],
+  "score_gain_vs_stronger_final_comparison": 0.00020177539491064025,
+  "final_canonical_raw_sha256": "2eafe2700ed9a9d07ddb0fabae516ea8652838b9d13affb2afe03ef5508f9990",
+  "freeze_sha256": "82c807073512d34fdcfca0ea40abd1308edc712590b84aba94958e421fcffcc8",
+  "candidates_sha256": "be2b434f394ac0f67c9c2068c5d62e4e8cd12bb70e65b57bb1c667963552ac4d",
+  "donors_sha256": "bfb527f383edd52b203a2d4e990d0f0ceaecc5fe515af49f0eadf3168de4315c",
+  "results_sha256": "f2950816e31da76053730e2047bf32710f079f9e618656055bc5660555e7e0de",
+  "no_native_execution": true,
+  "no_campaign_mutation": true
+}

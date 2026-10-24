@@ -1,0 +1,218 @@
+{
+  "record": {
+    "n": 761,
+    "mode": "contact20",
+    "seed": 9470218,
+    "parent_geometry_sha256": "335b30b799caf82f7496ce96ed91f86868f321c9bb71dcdb183e937429bd0e9f",
+    "reference_side": 27.998486453997064,
+    "status": "certified",
+    "whole_stage_cap": 8.0,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n761-contact20-9470218.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n761-contact20-9470218.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9470218",
+      "--no-alm",
+      "--loosen",
+      "1",
+      "--pit",
+      "20",
+      "--flip-top",
+      "0"
+    ],
+    "input_sha256": "fad11672fd33282538da00cfe014a9dd286f2caf58007c7ce497db1d2bd77ffa",
+    "returncode": 0,
+    "log_sha256": "17495437b4bd48af76c4a8afa52ed2a186cced001a86029116409d6acef03b99",
+    "fq": {
+      "s": 27.998486329163594,
+      "s_alm": 27.998486329157675,
+      "viol": 0.0,
+      "evals": 0,
+      "outer": 0,
+      "slp_it": 20,
+      "slp_r": 7.8e-06,
+      "flips": 0,
+      "min_gap": 2.05e-13,
+      "min_wall": 1.05e-13,
+      "sec": 4.695,
+      "s_coarse": 27.99848645400277,
+      "t_alm": 0.0,
+      "s_alm0": 27.998486453997064,
+      "trace": [
+        [
+          2,
+          0.6317,
+          27.99848634641275,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          5,
+          1.4884,
+          27.998486334876365,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          6,
+          1.614,
+          27.998486330711795,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          8,
+          2.3095,
+          27.998486330514844,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          9,
+          2.5468,
+          27.998486330335165,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          10,
+          2.8148,
+          27.99848633008498,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          12,
+          3.0945,
+          27.998486329862395,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          13,
+          3.2255,
+          27.998486329559487,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          15,
+          3.4976,
+          27.998486329219414,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          17,
+          3.7477,
+          27.998486329160144,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          20,
+          4.6659,
+          27.998486329157892,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "a20b81d8b894cd39",
+      "ncontacts": 756,
+      "fin": []
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "27.99848638315480665923132169163713510236375732367281",
+        "roundtrip_side": "27.99848638315480665923132169163713510236375732367281",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "27.99848638315480666923132169163713510236375732367281",
+      "independent_raw": {
+        "n": 761,
+        "valid": true,
+        "side_lower": "27.998486383154806659231321691637135102363757323672737353049781",
+        "side_upper": "27.998486383154806659231321691637135102363757323672865645755866",
+        "score_lower": "0.014944338464407052268560615622385137790374701894862045507565",
+        "score_upper": "0.014944338464407052268560615622385137790374701894870063801696",
+        "interval_pairs": 800,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 761,
+        "valid": true,
+        "side_lower": "27.998486383154806669231321691637135102363757323672725244572531",
+        "side_upper": "27.998486383154806669231321691637135102363757323672853537278617",
+        "score_lower": "0.014944338464407052631060332419592016020350993080206261678642",
+        "score_upper": "0.014944338464407052631060332419592016020350993080216952737483",
+        "interval_pairs": 800,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "b6932c07f069217bd18e8a63f5b19276c4a7147d1d70e9f71e1c293a44b9a764",
+      "ordinary_pandas_csv_sha256": "a0373bf6711d3b7d22cb9b868307006e092f2a1ae15947d7960339b8f8674e59"
+    },
+    "geometry_sha256": "8c08d84c82693c3eb414088bd6006501fe419e3139d9add3cfc85a6ffa2bfc76",
+    "side": 27.998486383154805,
+    "side_gain": 7.084225828180024e-08,
+    "score_gain": 2.568029856442717e-09,
+    "elapsed_seconds": 6.079910856999049,
+    "job": 218,
+    "canonical_raw_side": "27.99848645399706403961566084581980832075793593806084",
+    "native_output_sha256": "b706d1694202f310dcaaa86279b5110107b5742004fe3f9f4f4f4a2d130e5d8d",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/raw-returned/n761-contact20-0218.npz",
+      "sha256": "5f2e18627de98fa3682f6341935fa6f606444891784179dd74f7e29213379912",
+      "geometry_sha256": "716658d2da63fd53d69faa0d850801e3824367ec7750d5178360a64386d95ef4",
+      "original_decimal_path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n761-contact20-9470218.out",
+      "verified": false
+    },
+    "archive_key": "761__broad_contact20_8c08d84c82693c3eb414088bd6006501fe419e3139d9add3cfc85a6ffa2bfc76"
+  },
+  "archive_sha256": "d4daa93ab7b0797b6f75bbfc32aced87ce269040b86ae6c9cfa15b424ba8872b"
+}

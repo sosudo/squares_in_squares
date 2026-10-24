@@ -1,0 +1,118 @@
+{
+  "status": "three_saved_outputs_frozen",
+  "campaign": "artifacts/fq-broad-contact-v1",
+  "campaign_manifest_sha256": "ad96b6c961d022b2bf2ce3cf9549b20e6f10629258582e864425e076b73e3c80",
+  "campaign_results_sha256": "c23d9c30df1bafbdd966a34e47088965685373c8698fa89ba295b66ab5f9d2c1",
+  "latest_broad_snapshot": {
+    "path": "artifacts/fq-broad-contact-v1/snapshots/gain-0055",
+    "candidate_sha256": "4064d083c84b648d0f4c8abcd14af3e69fd5069490e81685b079c584c31c3b65",
+    "summary_sha256": "18e925398371f7e22cbd97dbe171a81566319ad2b6ccad035968ff140235eb36"
+  },
+  "canonical_raw": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-broad-lightning19-v1.csv",
+    "sha256": "c57e2d8cd0d1859accf7ba9efdaffa0b059d74083367e3b24d16b767f5015437",
+    "score": 22.30061363233568,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-fq-broad-lightning19-v1-official.json",
+    "official_report_sha256": "432f4a3528beda83465e6bcedefd2c312652bea2136c0a68a8eca2d61c16f396",
+    "reuse": {
+      "reused": 979,
+      "evaluated": 21
+    }
+  },
+  "canonical_independent_report_sha256": "1073739c52d326444932f18d00c9cd602f248722f20dff22e2aa8ddaf7489b03",
+  "parent_poses_sha256": "b52702fac4047c52848db797ef54ccdaead748ac55095881227030e374aa3735",
+  "source_parent_archive_sha256": "c0c26006d9ddb1f8ba537780afb33acfc104bb17128269c53d10eb2c393a75f9",
+  "native_binary_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+  "source_commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+  "selected": [
+    {
+      "job": 12,
+      "n": 638,
+      "folder": "artifacts/fq-broad-contact-recovery-v1/inputs/job-0012-n638",
+      "files": {
+        "native.out": {
+          "source": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n638-contact20-9470012.out",
+          "path": "artifacts/fq-broad-contact-recovery-v1/inputs/job-0012-n638/native.out",
+          "sha256": "7b14228fae850673a526d062601ceaab998dade222d744b46a2c2203becdc809"
+        },
+        "native.in": {
+          "source": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n638-contact20-9470012.in",
+          "path": "artifacts/fq-broad-contact-recovery-v1/inputs/job-0012-n638/native.in",
+          "sha256": "706ed787a3e8cd5eebc6d880bf87c098c35a8695e46fb378850ecf2da0bec6e7"
+        },
+        "native.log": {
+          "source": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n638-contact20-9470012.log",
+          "path": "artifacts/fq-broad-contact-recovery-v1/inputs/job-0012-n638/native.log",
+          "sha256": "d5abb3f980a5193bff7cbef2a3c20c0874b20d5cd3cee304cf0a4eb81c09fd84"
+        },
+        "raw-returned.npz": {
+          "source": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/raw-returned/n638-contact20-0012.npz",
+          "path": "artifacts/fq-broad-contact-recovery-v1/inputs/job-0012-n638/raw-returned.npz",
+          "sha256": "9f5b00051cbfd858d746986b07feaaeecbcbc5ba8fc2881e75ec1ef959ab7ec6"
+        }
+      },
+      "original_record_sha256": "c843721313f67b605c12b23295cfd40d9d7b03be9b86960b9eaf5286bb072e80",
+      "already_certified_same_case_records": []
+    },
+    {
+      "job": 26,
+      "n": 979,
+      "folder": "artifacts/fq-broad-contact-recovery-v1/inputs/job-0026-n979",
+      "files": {
+        "native.out": {
+          "source": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n979-contact20-9470026.out",
+          "path": "artifacts/fq-broad-contact-recovery-v1/inputs/job-0026-n979/native.out",
+          "sha256": "330d65d3703ba73a47c6ff1faa989bab318f976f1723c6fc77300f49c2f3e873"
+        },
+        "native.in": {
+          "source": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n979-contact20-9470026.in",
+          "path": "artifacts/fq-broad-contact-recovery-v1/inputs/job-0026-n979/native.in",
+          "sha256": "99998a11969528921272711ae51ac1d8cb2b5a15191040ad094a515a8d24022f"
+        },
+        "native.log": {
+          "source": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n979-contact20-9470026.log",
+          "path": "artifacts/fq-broad-contact-recovery-v1/inputs/job-0026-n979/native.log",
+          "sha256": "874b2da1d003581180bd816b2148aa473a8465a03003638742633efb670d9e5b"
+        },
+        "raw-returned.npz": {
+          "source": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/raw-returned/n979-contact20-0026.npz",
+          "path": "artifacts/fq-broad-contact-recovery-v1/inputs/job-0026-n979/raw-returned.npz",
+          "sha256": "8372f919155004d76181481b3764d28dcee5ca0d2a5864f5498a8a4fc5011eed"
+        }
+      },
+      "original_record_sha256": "4400177df9477d05401b66225c5f58ef0adad8c886f1c0cc0b0458954c791bb4",
+      "already_certified_same_case_records": []
+    },
+    {
+      "job": 69,
+      "n": 807,
+      "folder": "artifacts/fq-broad-contact-recovery-v1/inputs/job-0069-n807",
+      "files": {
+        "native.out": {
+          "source": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n807-contact20-9470069.out",
+          "path": "artifacts/fq-broad-contact-recovery-v1/inputs/job-0069-n807/native.out",
+          "sha256": "27e6f212d46e0605f9648d2b07c7648bfd31f5e779093d08a8ae24e4133379c5"
+        },
+        "native.in": {
+          "source": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n807-contact20-9470069.in",
+          "path": "artifacts/fq-broad-contact-recovery-v1/inputs/job-0069-n807/native.in",
+          "sha256": "4d832374989245480e33c90af4a06ebd349f9d0f4ab2dcd4ba840575b285724d"
+        },
+        "native.log": {
+          "source": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n807-contact20-9470069.log",
+          "path": "artifacts/fq-broad-contact-recovery-v1/inputs/job-0069-n807/native.log",
+          "sha256": "383d87a40c8ac3df35cfcf38fd61d4ce765eeae4f32d7238086e0464f39be39e"
+        },
+        "raw-returned.npz": {
+          "source": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/raw-returned/n807-contact20-0069.npz",
+          "path": "artifacts/fq-broad-contact-recovery-v1/inputs/job-0069-n807/raw-returned.npz",
+          "sha256": "744d96546152a5f1e38f5ec671dff4c62ff32cac2ec510bd472ec3ca9fb3239b"
+        }
+      },
+      "original_record_sha256": "cd903cfdbfe97757795272f0849f3549ca7bc121e9835195203c53886adc1d93",
+      "already_certified_same_case_records": []
+    }
+  ],
+  "no_native_execution": true,
+  "no_source_campaign_mutation": true
+}

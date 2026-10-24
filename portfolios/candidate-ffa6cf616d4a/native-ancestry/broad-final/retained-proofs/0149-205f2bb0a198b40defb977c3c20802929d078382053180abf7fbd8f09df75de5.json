@@ -1,0 +1,148 @@
+{
+  "record": {
+    "n": 993,
+    "mode": "contact20",
+    "seed": 9470149,
+    "parent_geometry_sha256": "e37836fd31097263b7d7d5cc398e579da85ce79ee66b4e1c7dccd1ba4f9248f3",
+    "reference_side": 31.932818230865742,
+    "status": "certified",
+    "whole_stage_cap": 8.0,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n993-contact20-9470149.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n993-contact20-9470149.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9470149",
+      "--no-alm",
+      "--loosen",
+      "1",
+      "--pit",
+      "20",
+      "--flip-top",
+      "0"
+    ],
+    "input_sha256": "38b4a58110de873f2d3cefee9c9d09112f8b21507fab29600664bd112530b5b1",
+    "returncode": 0,
+    "log_sha256": "278303e8c36d8ae5ea347131a81dcca78bc55d9372c41fe5779aa47b2a5a8b8d",
+    "fq": {
+      "s": 31.932818096506168,
+      "s_alm": 31.932818096490408,
+      "viol": 0.0,
+      "evals": 0,
+      "outer": 0,
+      "slp_it": 8,
+      "slp_r": 0.00025,
+      "flips": 0,
+      "min_gap": 2.12e-13,
+      "min_wall": 9.81e-14,
+      "sec": 2.706,
+      "s_coarse": 31.93281823087637,
+      "t_alm": 0.0,
+      "s_alm0": 31.932818230865742,
+      "trace": [
+        [
+          3,
+          1.0972,
+          31.932818109563538,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          5,
+          1.8563,
+          31.932818099616785,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          6,
+          2.2181,
+          31.93281809649767,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          7,
+          2.3756,
+          31.932818096490497,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "36782dff383cda99",
+      "ncontacts": 726,
+      "fin": []
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "31.93281815836493941228475107562587550801676192967554",
+        "roundtrip_side": "31.93281815836493641228475107562587550801676192967554",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "31.93281815836493642228475107547587550801775644533593",
+      "independent_raw": {
+        "n": 993,
+        "valid": true,
+        "side_lower": "31.932818158364939412284751075625875508016761929675482706149620",
+        "side_upper": "31.932818158364939412284751075625875508016761929675610998855705",
+        "score_lower": "0.013357354257219541671586308124977678471898762050716352064505",
+        "score_upper": "0.013357354257219541671586308124977678471898762050724370358637",
+        "interval_pairs": 1298,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 993,
+        "valid": true,
+        "side_lower": "31.932818158364936422284751075475875508017756445335843822810848",
+        "side_upper": "31.932818158364936422284751075475875508017756445336014879752295",
+        "score_lower": "0.013357354257219446786804319801376470696684686847521073290670",
+        "score_upper": "0.013357354257219446786804319801376470696684686847529091584801",
+        "interval_pairs": 1298,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "92c01abcb0d6cb049518d8c55664c260f39ae5c1cc2489230f7db84beed670f3",
+      "ordinary_pandas_csv_sha256": "9868243d5ae916a1e865055137b619487321e9087664cd4970b0592fb04207c0"
+    },
+    "geometry_sha256": "205f2bb0a198b40defb977c3c20802929d078382053180abf7fbd8f09df75de5",
+    "side": 31.932818158364938,
+    "side_gain": 7.250080358289779e-08,
+    "score_gain": 2.3007434588432046e-09,
+    "elapsed_seconds": 4.031406799003889,
+    "job": 149,
+    "canonical_raw_side": "31.93281823086574200701072127636985228704855364026644",
+    "native_output_sha256": "e051f6fccc4e0ea41b9c79252a0e66080e364e0cfe6bd3e6fdd2eca4e2647439",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/raw-returned/n993-contact20-0149.npz",
+      "sha256": "a676155ed1c02d7dac897773fac4d2f577aab1626d00fe71be385cf3f62ed0fc",
+      "geometry_sha256": "546726ba6f8625527bbf8488bf9a639f31bf0ab85004dce52ac90ae83baa1f91",
+      "original_decimal_path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n993-contact20-9470149.out",
+      "verified": false
+    },
+    "archive_key": "993__broad_contact20_205f2bb0a198b40defb977c3c20802929d078382053180abf7fbd8f09df75de5"
+  },
+  "archive_sha256": "46c481140b03c6137d7dfc5f9b376a2a63bf829d84e6d6021573bd2ce38e2451"
+}
