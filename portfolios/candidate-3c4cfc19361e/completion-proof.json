@@ -1,0 +1,48 @@
+{
+  "ref": "sos54352/squares-portfolio-3c4cfc19361e-incremental",
+  "version": 1,
+  "output_file": "submission.csv",
+  "output_sha256": "3c4cfc19361e51e903b3d4c4018dc4ede002ce97f58071ad153207674cd28a2a",
+  "output_bytes": 32493636,
+  "status": "complete",
+  "is_private": true,
+  "verified_at": "2026-10-24T16:25:50.483052+00:00",
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "competition_sources": [
+    "squares-in-squares"
+  ],
+  "kernel_sources_actual": [
+    "sos54352/squares-portfolio-631b3114e7f3-incremental"
+  ],
+  "source_sha256": "d4fecf80050886f9d57429e34a6052950d795c1a1086a4cb62c3635132cf17ce",
+  "source_bytes": 369087,
+  "server_timeout_seconds": 180,
+  "worker_timeout_seconds": 120,
+  "remote_runtime_seconds": 3.81474372699995,
+  "competition_submission_performed": false,
+  "transport_scaling_applied": false,
+  "remote_export_manifest_sha256": "e99ded8dead11e4795910e230bf2dff57174ed91564402438d8ddc0e89f03951",
+  "remote_runtime_proof_sha256": "391cba6f629c73159ac76a114cb0b15919dc074b3459ac43466a9371721a1242",
+  "download_receipt_sha256": "9b107cdb916685495e64473951c7fa1523fe83e3ebb24038bd3a7cf1e33bf56e",
+  "remote_source_verification_sha256": "e0417af1ac6b3985ef0b0f0ef53e31aab7fc36795a7290a2a5a25e500a43b766",
+  "local_runtime_proof_sha256": "9aaa4bc396bfb2bbd9419f63b71a7523fc3ed89a2f2301062accee546c4ac349",
+  "canonical_transport_proof_sha256": "145ad371d046f8a1ac94c70be3906f4672517730a5715f7a83bb8936d6127b39",
+  "additional_source_provenance_sha256": "291da7a2148b56b69b60c448abb6c9a0d564269df52c1b2aa57290129d4f9ec3",
+  "independent_source_review_sha256": "716938022cae0ab117e78118b7527400a6b3af27ed33e7a46b148f490683f16e",
+  "exact_source_notices_preserved": true,
+  "fresh_geometry_evaluations_by_exporter": 0,
+  "parent_notebook": "sos54352/squares-portfolio-631b3114e7f3-incremental/1",
+  "parent_csv_sha256": "631b3114e7f3afeb0da5411115b69a41995a916bb04a72c46350115501514d60",
+  "parent_remote_completion_sha256": "9573d399d9ddd2519e2c9841d83ede1d7ae768436ec9b8465076b8f022553e01",
+  "official_score": 22.297959982438545,
+  "roundtrip_score": 22.297959982438545,
+  "threshold_eligible": true,
+  "changed_cases": [
+    411,
+    544
+  ],
+  "all_twelve_control_evidence_retained": true,
+  "canonical_pointer_mutated": false
+}

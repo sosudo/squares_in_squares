@@ -18,3 +18,6 @@ portfolios/candidate-*/kmmm31-proof/*.csv -text whitespace=cr-at-eol
 # Exact new native logs and inherited GPU dependency license bytes.
 portfolios/candidate-*/new-native-ancestry/**/*.log -text whitespace=-blank-at-eof
 portfolios/candidate-*/new-native-ancestry/gpu-native-finish/gpu-source-notices/** -text whitespace=cr-at-eol,-blank-at-eof
+
+# Preserve immutable original-reference control log terminators.
+portfolios/candidate-*/reference-control-ancestry/**/*.log -text whitespace=-blank-at-eof

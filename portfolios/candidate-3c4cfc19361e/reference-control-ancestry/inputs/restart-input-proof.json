@@ -1,0 +1,562 @@
+{
+  "baseline": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-lp100-final-v1.csv",
+    "sha256": "52c9d3e6c6da6ab41a8d7224d2f92548eae38630a7606f0075eb93ef43760f6e",
+    "score": 22.29796011866665,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-fq-lp100-final-v1-official.json",
+    "official_report_sha256": "eaf9c820016d08e7a677f63013c4bf826da0ce057849668675b39730d39b18e5",
+    "reuse": {
+      "reused": 998,
+      "evaluated": 2
+    }
+  },
+  "pointer_sha256": "3c2a4ffe7f9b532344c028d94e2e6a2b25d8b0b01712addc243993cdd380af94",
+  "official_report_sha256": "eaf9c820016d08e7a677f63013c4bf826da0ce057849668675b39730d39b18e5",
+  "independent_report_sha256": "0c11b6542ebc260a4020f5e2f49d5bb60207cebd7fd05dc2af3fbfd918439b67",
+  "inputs_sha256": "2c83f5ed74c060a401e517a100a518fb071e73bd36fafbe17af797743c7fe92f",
+  "cases": {
+    "412": {
+      "original_key": "original_412",
+      "reference_key": "reference_412",
+      "original_geometry_sha256": "8bf991270e59c7a24891c8f72beaa6bf3bb5a93387c22c1ef88e93042f36d858",
+      "reference_geometry_sha256": "713f6bd5831603f25ff9782b0e5d2c1e80338f5c9b74fb88c76cbcbb8311754f",
+      "original_coordinate_text_sha256": "96fd01b86211e28a4b84c6133ad73dd5306d9f0772563a3d7d3087cf7d65780b",
+      "translation_subtracted": [
+        9.992007221626409e-16,
+        9.992007221626409e-16
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 412,
+        "score": 0.02586945194877499,
+        "side": "20.82287565553740121670015669765751498873232609226702",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 412,
+        "valid": true,
+        "side_lower": "20.822875655537401216700156697657514988732326092266969105012484",
+        "side_upper": "20.822875655537401216700156697657514988732326092267054633483208",
+        "score_lower": "0.025869451948775006208139910844938296131932049448387261222910",
+        "score_upper": "0.025869451948775006208139910844938296131932049448395279517042",
+        "interval_pairs": 130,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "544": {
+      "original_key": "original_544",
+      "reference_key": "reference_544",
+      "original_geometry_sha256": "b15d8d14b38c26422d8e688552bdf977cd0cc4fef980c742404569300e9eec67",
+      "reference_geometry_sha256": "b15d8d14b38c26422d8e688552bdf977cd0cc4fef980c742404569300e9eec67",
+      "original_coordinate_text_sha256": "9dfe95308ca7680a35b55332a344892dde9b55e7dec287d8b993b21d8f94dd08",
+      "translation_subtracted": [
+        0.0,
+        0.0
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 544,
+        "score": 0.021443352833701468,
+        "side": "23.82394821473123592319066005628501961050573693647844",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 544,
+        "valid": true,
+        "side_lower": "23.823948214731235923190660056285019610505736936478376963528479",
+        "side_upper": "23.823948214731235923190660056285019610505736936478505256234564",
+        "score_lower": "0.021443352833701569494729156722525714505852443116916651043124",
+        "score_upper": "0.021443352833701569494729156722525714505852443116927342101965",
+        "interval_pairs": 155,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "742": {
+      "original_key": "original_742",
+      "reference_key": "reference_742",
+      "original_geometry_sha256": "9e891c24f0d3d3b9c4d0cd60d6fd872ebb78eb542fef1e26ab7201c2ee04be44",
+      "reference_geometry_sha256": "9e891c24f0d3d3b9c4d0cd60d6fd872ebb78eb542fef1e26ab7201c2ee04be44",
+      "original_coordinate_text_sha256": "e66b84e0935c68a6793008d12ebfc4bfa27bba8992467a6113e366d1dff91cd3",
+      "translation_subtracted": [
+        0.0,
+        0.0
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 742,
+        "score": 0.01908794899391708,
+        "side": "27.75962650786559863630890896668905299034053015403942",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 742,
+        "valid": true,
+        "side_lower": "27.759626507865598636308908966689052990340530154039360814609824",
+        "side_upper": "27.759626507865598636308908966689052990340530154039489107315909",
+        "score_lower": "0.019087948993917102493924457102216830775242652361863333538012",
+        "score_upper": "0.019087948993917102493924457102216830775242652361871351832144",
+        "interval_pairs": 671,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "591": {
+      "original_key": "original_591",
+      "reference_key": "reference_591",
+      "original_geometry_sha256": "eeb30768c3772eab5ab0b2af2accf8f5bda6179ae106ace6737f03988c6fb7f7",
+      "reference_geometry_sha256": "89214e9de8da1a7bbb6ecba8cdd4f4f486115993841775aaeb6c27eb2e1898cc",
+      "original_coordinate_text_sha256": "73bba9eab93f6b6e3110c282443c8de9c621b0c19ae0474eb7a582e21865a66e",
+      "translation_subtracted": [
+        9.992007221626409e-16,
+        9.992007221626409e-16
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 591,
+        "score": 0.020941534510062754,
+        "side": "24.81959056029464833538351260316752531055598807132213",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 591,
+        "valid": true,
+        "side_lower": "24.819590560294648335383512603167525310555988071322093233753145",
+        "side_upper": "24.819590560294648335383512603167525310555988071322178762223869",
+        "score_lower": "0.020941534510062817177971103483579478059218284448124953690348",
+        "score_upper": "0.020941534510062817177971103483579478059218284448132971984479",
+        "interval_pairs": 682,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "744": {
+      "original_key": "original_744",
+      "reference_key": "reference_744",
+      "original_geometry_sha256": "8bd6c2b617599e5ccf7db21c6c74704365328a4d0c10ce862531121dc1cfa4ef",
+      "reference_geometry_sha256": "8bd6c2b617599e5ccf7db21c6c74704365328a4d0c10ce862531121dc1cfa4ef",
+      "original_coordinate_text_sha256": "33aca4cddc27cee718d0c08f35ecf31974ef280cd949dfa61805c6f43b53a2c8",
+      "translation_subtracted": [
+        0.0,
+        0.0
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 744,
+        "score": 0.018683156590751704,
+        "side": "27.78597196248753104923132169163362625538121985845094",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 744,
+        "valid": true,
+        "side_lower": "27.785971962487531049231321691633626255381219858450863593937507",
+        "side_upper": "27.785971962487531049231321691633626255381219858450991886643592",
+        "score_lower": "0.018683156590751636502961806814167868811586012142752487326927",
+        "score_upper": "0.018683156590751636502961806814167868811586012142760505621058",
+        "interval_pairs": 782,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "641": {
+      "original_key": "original_641",
+      "reference_key": "reference_641",
+      "original_geometry_sha256": "8c579c6df95ffabef95f9187717ede8512813074994e98828e885ff6d43206b0",
+      "reference_geometry_sha256": "8c579c6df95ffabef95f9187717ede8512813074994e98828e885ff6d43206b0",
+      "original_coordinate_text_sha256": "d6c99996a7c3785220662edddaf2998de6c284b20cd2a81903d68a91ffe7f29c",
+      "translation_subtracted": [
+        0.0,
+        0.0
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 641,
+        "score": 0.0198088022035674,
+        "side": "25.81949661682527741097247740134376233225628104250934",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 641,
+        "valid": true,
+        "side_lower": "25.819496616825277410972477401343762332256281042509265116418369",
+        "side_upper": "25.819496616825277410972477401343762332256281042509393409124454",
+        "score_lower": "0.019808802203567524647330179053848318590727508218146108041860",
+        "score_upper": "0.019808802203567524647330179053848318590727508218156799100701",
+        "interval_pairs": 763,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "411": {
+      "original_key": "original_411",
+      "reference_key": "reference_411",
+      "original_geometry_sha256": "0d3c2bacfeca5b3c75a93d6bde895a1a81c382c62c558925d2e8bfd111a53ddc",
+      "reference_geometry_sha256": "0d3c2bacfeca5b3c75a93d6bde895a1a81c382c62c558925d2e8bfd111a53ddc",
+      "original_coordinate_text_sha256": "5ea69a0e61be39dafc7fb6ac86f950f0f85a094dfb9189bea7da356015371a25",
+      "translation_subtracted": [
+        0.0,
+        0.0
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 411,
+        "score": 0.02575626626770844,
+        "side": "20.79529519412144091826417072725494349494223220715717",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 411,
+        "valid": true,
+        "side_lower": "20.795295194121440918264170727254943494942232207157079892172153",
+        "side_upper": "20.795295194121440918264170727254943494942232207157250949113600",
+        "score_lower": "0.025756266267708602636107305607722075718379061094886553089713",
+        "score_upper": "0.025756266267708602636107305607722075718379061094899916913265",
+        "interval_pairs": 328,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "462": {
+      "original_key": "original_462",
+      "reference_key": "reference_462",
+      "original_geometry_sha256": "92bd47b1fe6d248163c3d042f614b3fe41e833885fb5480f35c35f75226ec538",
+      "reference_geometry_sha256": "996dfac0021487891ddda4c526d9bac287719ad09cfc4d905df3a5bd9a520101",
+      "original_coordinate_text_sha256": "138c4dc232c2624f2a52b68b1715a28bc8dd7a344c519428fcc8f47e7d6f9088",
+      "translation_subtracted": [
+        9.992007221626409e-16,
+        9.992007221626409e-16
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 462,
+        "score": 0.021920951281197754,
+        "side": "21.96535824812266217604860048847002223481577044163297",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 462,
+        "valid": true,
+        "side_lower": "21.965358248122662176048600488470022234815770441632921841738650",
+        "side_upper": "21.965358248122662176048600488470022234815770441633007370209374",
+        "score_lower": "0.021920951281197732702474257949520515447518395071595684242236",
+        "score_upper": "0.021920951281197732702474257949520515447518395071603702536368",
+        "interval_pairs": 406,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "978": {
+      "original_key": "original_978",
+      "reference_key": "reference_978",
+      "original_geometry_sha256": "598766d1927082dc948672e8959deee2eb05a413c5f4d4a07f3439eecd83dfde",
+      "reference_geometry_sha256": "3a975aad5a708ce8c1890eb54daf5689235f0467c0154cd64a35f81270e09e95",
+      "original_coordinate_text_sha256": "0f0d82a1d688d40fa6eda9a9d3e9824c191b8ce9c82262b9ac11ceec88f123db",
+      "translation_subtracted": [
+        9.992007221626409e-16,
+        9.992007221626409e-16
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 978,
+        "score": 0.01619689634344157,
+        "side": "31.77951694458250257695706655684211666303124616288009",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 978,
+        "valid": true,
+        "side_lower": "31.779516944582502576957066556842116663031246162879973830529801",
+        "side_upper": "31.779516944582502576957066556842116663031246162880144887471248",
+        "score_lower": "0.016196896343441581341925034591087786868797453775292422899469",
+        "score_upper": "0.016196896343441581341925034591087786868797453775303113958311",
+        "interval_pairs": 854,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "541": {
+      "original_key": "original_541",
+      "reference_key": "reference_541",
+      "original_geometry_sha256": "f852a71fee5b474d81de9c0122964f5d9b00b41a1ea9ea45e25a6b2ceb2a59a2",
+      "reference_geometry_sha256": "b11cdfa75712a7b70d6e00ff09e4fad121cbf1353e8efcfffa69d0e83f7a825a",
+      "original_coordinate_text_sha256": "7189905a73c5619ba6dc5aac2ade05c341e0432b000f2b4797a3f3a98bfbcfae",
+      "translation_subtracted": [
+        -1.14128984041173e-10,
+        -1.1407397249030282e-10
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 541,
+        "score": 0.022303573847849645,
+        "side": "23.77817459419936900000000000000000000000000000000000",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 541,
+        "valid": true,
+        "side_lower": "23.778174594199368999999999999999999999999999999999943573854126",
+        "side_upper": "23.778174594199369000000000000000000000000000000000029102324850",
+        "score_lower": "0.022303573847849575957817295721721694290127256285965345007886",
+        "score_upper": "0.022303573847849575957817295721721694290127256285973363302017",
+        "interval_pairs": 319,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "629": {
+      "original_key": "original_629",
+      "reference_key": "reference_629",
+      "original_geometry_sha256": "56d589cf79353d5cc07067fbce6f0b0a971ffbcfdbaeff82397f472f9043d076",
+      "reference_geometry_sha256": "56d589cf79353d5cc07067fbce6f0b0a971ffbcfdbaeff82397f472f9043d076",
+      "original_coordinate_text_sha256": "22171b3aaaa62aa09c1573b0afc39c8ff49e1eb9ff59949a0bfb7f2ad4fa8e9d",
+      "translation_subtracted": [
+        0.0,
+        0.0
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 629,
+        "score": 0.020092198832176056,
+        "side": "25.58378219107542200000000000000000000000000000000000",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 629,
+        "valid": true,
+        "side_lower": "25.583782191075421999999999999999999999999999999999977294125789",
+        "side_upper": "25.583782191075422000000000000000000000000000000000020058361151",
+        "score_lower": "0.020092198832176044111297642380262289998483376265832345904871",
+        "score_upper": "0.020092198832176044111297642380262289998483376265837691434292",
+        "interval_pairs": 198,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    },
+    "341": {
+      "original_key": "original_341",
+      "reference_key": "reference_341",
+      "original_geometry_sha256": "fa545acbbbe39c04dcb85658dfe3dce86eeac79355b4b355a1a49011e37e298d",
+      "reference_geometry_sha256": "b756fcfa9e1e4e360ad3d000d2b72b315dff7172a47b3ad8fda7f79cb3023784",
+      "original_coordinate_text_sha256": "7c66480c474c474457ada894a4c55eea9217d2b4d23c39f23349a2fe6e1f0958",
+      "translation_subtracted": [
+        -8.975986620640697e-12,
+        -8.975986620640697e-12
+      ],
+      "scaling_applied": false,
+      "original_case_official": {
+        "n": 341,
+        "score": 0.026301972383359074,
+        "side": "18.95188240873789600000000000000000000000000000000000",
+        "reason": "ok"
+      },
+      "original_case_interval": {
+        "n": 341,
+        "valid": true,
+        "side_lower": "18.951882408737895999999999999999999999999999999999936800659363",
+        "side_upper": "18.951882408737896000000000000000000000000000000000022329130087",
+        "score_lower": "0.026301972383359184148673771553892601646959196549835109171100",
+        "score_upper": "0.026301972383359184148673771553892601646959196549845800229942",
+        "interval_pairs": 315,
+        "exact_pairs": 0
+      },
+      "normalized_float_geometry_claim": "Source-bound translation only; actual CUDA/full-shape controls remain mandatory."
+    }
+  },
+  "arrays": {
+    "original_412": {
+      "shape": [
+        412,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "8bf991270e59c7a24891c8f72beaa6bf3bb5a93387c22c1ef88e93042f36d858"
+    },
+    "reference_412": {
+      "shape": [
+        412,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "713f6bd5831603f25ff9782b0e5d2c1e80338f5c9b74fb88c76cbcbb8311754f"
+    },
+    "original_544": {
+      "shape": [
+        544,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "b15d8d14b38c26422d8e688552bdf977cd0cc4fef980c742404569300e9eec67"
+    },
+    "reference_544": {
+      "shape": [
+        544,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "b15d8d14b38c26422d8e688552bdf977cd0cc4fef980c742404569300e9eec67"
+    },
+    "original_742": {
+      "shape": [
+        742,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "9e891c24f0d3d3b9c4d0cd60d6fd872ebb78eb542fef1e26ab7201c2ee04be44"
+    },
+    "reference_742": {
+      "shape": [
+        742,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "9e891c24f0d3d3b9c4d0cd60d6fd872ebb78eb542fef1e26ab7201c2ee04be44"
+    },
+    "original_591": {
+      "shape": [
+        591,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "eeb30768c3772eab5ab0b2af2accf8f5bda6179ae106ace6737f03988c6fb7f7"
+    },
+    "reference_591": {
+      "shape": [
+        591,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "89214e9de8da1a7bbb6ecba8cdd4f4f486115993841775aaeb6c27eb2e1898cc"
+    },
+    "original_744": {
+      "shape": [
+        744,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "8bd6c2b617599e5ccf7db21c6c74704365328a4d0c10ce862531121dc1cfa4ef"
+    },
+    "reference_744": {
+      "shape": [
+        744,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "8bd6c2b617599e5ccf7db21c6c74704365328a4d0c10ce862531121dc1cfa4ef"
+    },
+    "original_641": {
+      "shape": [
+        641,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "8c579c6df95ffabef95f9187717ede8512813074994e98828e885ff6d43206b0"
+    },
+    "reference_641": {
+      "shape": [
+        641,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "8c579c6df95ffabef95f9187717ede8512813074994e98828e885ff6d43206b0"
+    },
+    "original_411": {
+      "shape": [
+        411,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "0d3c2bacfeca5b3c75a93d6bde895a1a81c382c62c558925d2e8bfd111a53ddc"
+    },
+    "reference_411": {
+      "shape": [
+        411,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "0d3c2bacfeca5b3c75a93d6bde895a1a81c382c62c558925d2e8bfd111a53ddc"
+    },
+    "original_462": {
+      "shape": [
+        462,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "92bd47b1fe6d248163c3d042f614b3fe41e833885fb5480f35c35f75226ec538"
+    },
+    "reference_462": {
+      "shape": [
+        462,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "996dfac0021487891ddda4c526d9bac287719ad09cfc4d905df3a5bd9a520101"
+    },
+    "original_978": {
+      "shape": [
+        978,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "598766d1927082dc948672e8959deee2eb05a413c5f4d4a07f3439eecd83dfde"
+    },
+    "reference_978": {
+      "shape": [
+        978,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "3a975aad5a708ce8c1890eb54daf5689235f0467c0154cd64a35f81270e09e95"
+    },
+    "original_541": {
+      "shape": [
+        541,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "f852a71fee5b474d81de9c0122964f5d9b00b41a1ea9ea45e25a6b2ceb2a59a2"
+    },
+    "reference_541": {
+      "shape": [
+        541,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "b11cdfa75712a7b70d6e00ff09e4fad121cbf1353e8efcfffa69d0e83f7a825a"
+    },
+    "original_629": {
+      "shape": [
+        629,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "56d589cf79353d5cc07067fbce6f0b0a971ffbcfdbaeff82397f472f9043d076"
+    },
+    "reference_629": {
+      "shape": [
+        629,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "56d589cf79353d5cc07067fbce6f0b0a971ffbcfdbaeff82397f472f9043d076"
+    },
+    "original_341": {
+      "shape": [
+        341,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "fa545acbbbe39c04dcb85658dfe3dce86eeac79355b4b355a1a49011e37e298d"
+    },
+    "reference_341": {
+      "shape": [
+        341,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "b756fcfa9e1e4e360ad3d000d2b72b315dff7172a47b3ad8fda7f79cb3023784"
+    }
+  },
+  "preparation_source_sha256": "42207fe5db2dd6156128f6f917f91e6d607ff9d37767a6a71f7bc010ca829b03"
+}

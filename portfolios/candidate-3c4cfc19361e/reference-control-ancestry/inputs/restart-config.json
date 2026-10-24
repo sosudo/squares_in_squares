@@ -1,0 +1,110 @@
+{
+  "cases": {
+    "412": {
+      "n": 412,
+      "reference_side": "20.82287565553740121670015669765751498873232609226702",
+      "source_key": "reference_412",
+      "device": 0,
+      "source_geometry_sha256": "713f6bd5831603f25ff9782b0e5d2c1e80338f5c9b74fb88c76cbcbb8311754f"
+    },
+    "544": {
+      "n": 544,
+      "reference_side": "23.82394821473123592319066005628501961050573693647844",
+      "source_key": "reference_544",
+      "device": 1,
+      "source_geometry_sha256": "b15d8d14b38c26422d8e688552bdf977cd0cc4fef980c742404569300e9eec67"
+    },
+    "742": {
+      "n": 742,
+      "reference_side": "27.75962650786559863630890896668905299034053015403942",
+      "source_key": "reference_742",
+      "device": 2,
+      "source_geometry_sha256": "9e891c24f0d3d3b9c4d0cd60d6fd872ebb78eb542fef1e26ab7201c2ee04be44"
+    },
+    "591": {
+      "n": 591,
+      "reference_side": "24.81959056029464833538351260316752531055598807132213",
+      "source_key": "reference_591",
+      "device": 3,
+      "source_geometry_sha256": "89214e9de8da1a7bbb6ecba8cdd4f4f486115993841775aaeb6c27eb2e1898cc"
+    },
+    "744": {
+      "n": 744,
+      "reference_side": "27.78597196248753104923132169163362625538121985845094",
+      "source_key": "reference_744",
+      "device": 4,
+      "source_geometry_sha256": "8bd6c2b617599e5ccf7db21c6c74704365328a4d0c10ce862531121dc1cfa4ef"
+    },
+    "641": {
+      "n": 641,
+      "reference_side": "25.81949661682527741097247740134376233225628104250934",
+      "source_key": "reference_641",
+      "device": 5,
+      "source_geometry_sha256": "8c579c6df95ffabef95f9187717ede8512813074994e98828e885ff6d43206b0"
+    },
+    "411": {
+      "n": 411,
+      "reference_side": "20.79529519412144091826417072725494349494223220715717",
+      "source_key": "reference_411",
+      "device": 6,
+      "source_geometry_sha256": "0d3c2bacfeca5b3c75a93d6bde895a1a81c382c62c558925d2e8bfd111a53ddc"
+    },
+    "462": {
+      "n": 462,
+      "reference_side": "21.96535824812266217604860048847002223481577044163297",
+      "source_key": "reference_462",
+      "device": 7,
+      "source_geometry_sha256": "996dfac0021487891ddda4c526d9bac287719ad09cfc4d905df3a5bd9a520101"
+    },
+    "978": {
+      "n": 978,
+      "reference_side": "31.77951694458250257695706655684211666303124616288009",
+      "source_key": "reference_978",
+      "device": 8,
+      "source_geometry_sha256": "3a975aad5a708ce8c1890eb54daf5689235f0467c0154cd64a35f81270e09e95"
+    },
+    "541": {
+      "n": 541,
+      "reference_side": "23.77817459419936900000000000000000000000000000000000",
+      "source_key": "reference_541",
+      "device": 9,
+      "source_geometry_sha256": "b11cdfa75712a7b70d6e00ff09e4fad121cbf1353e8efcfffa69d0e83f7a825a"
+    },
+    "629": {
+      "n": 629,
+      "reference_side": "25.58378219107542200000000000000000000000000000000000",
+      "source_key": "reference_629",
+      "device": 10,
+      "source_geometry_sha256": "56d589cf79353d5cc07067fbce6f0b0a971ffbcfdbaeff82397f472f9043d076"
+    },
+    "341": {
+      "n": 341,
+      "reference_side": "18.95188240873789600000000000000000000000000000000000",
+      "source_key": "reference_341",
+      "device": 11,
+      "source_geometry_sha256": "b756fcfa9e1e4e360ad3d000d2b72b315dff7172a47b3ad8fda7f79cb3023784"
+    }
+  },
+  "inputs_sha256": "2c83f5ed74c060a401e517a100a518fb071e73bd36fafbe17af797743c7fe92f",
+  "baseline": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-lp100-final-v1.csv",
+    "sha256": "52c9d3e6c6da6ab41a8d7224d2f92548eae38630a7606f0075eb93ef43760f6e",
+    "score": 22.29796011866665,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-fq-lp100-final-v1-official.json",
+    "official_report_sha256": "eaf9c820016d08e7a677f63013c4bf826da0ce057849668675b39730d39b18e5",
+    "reuse": {
+      "reused": 998,
+      "evaluated": 2
+    }
+  },
+  "seed": 94833501,
+  "search_seconds": 600,
+  "cooling_seconds": 150,
+  "max_packets": 3000,
+  "max_bytes": 6442450944,
+  "quench_steps": 2000,
+  "cuda_options": [
+    "--std=c++17",
+    "--fmad=false"
+  ]
+}

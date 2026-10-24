@@ -1,0 +1,6 @@
+{
+  "native_binary_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+  "source_commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+  "matches_frozen_execution_manifest": true,
+  "scope": "Read-only hash verification; exporter does not execute the native binary."
+}

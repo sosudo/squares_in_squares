@@ -1,0 +1,38 @@
+{
+  "status": "GREEN_independent_exact_export_review",
+  "script_sha256": "d4fecf80050886f9d57429e34a6052950d795c1a1086a4cb62c3635132cf17ce",
+  "script_bytes": 369087,
+  "review_script_sha256": "7d0d6cf521f2a4f956261ea01c608f6cea0d9e36690c0757b9e5119024b08474",
+  "wrapper_sha256": "ecdcaeabb413fdbe1ee6ad98533ccb5d075eb27ba7d628b9e3b4e46a61cfb5b4",
+  "parent_notebook": "sos54352/squares-portfolio-631b3114e7f3-incremental/1",
+  "parent_sha256": "631b3114e7f3afeb0da5411115b69a41995a916bb04a72c46350115501514d60",
+  "target_sha256": "3c4cfc19361e51e903b3d4c4018dc4ede002ce97f58071ad153207674cd28a2a",
+  "target_bytes": 32493636,
+  "changed_puzzles": [
+    411,
+    544
+  ],
+  "changed_rows": 955,
+  "unchanged_rows": 499545,
+  "full_executable_replay_seconds": 2.2883497560032993,
+  "runtime_and_manifest_decoder_unchanged": true,
+  "all_162_native_control_files_hash_verified": true,
+  "selected_native_arrays_equal_exact_RAW_decimal_rows": true,
+  "complete_parent_notices_and_provenance_preserved": true,
+  "wrong_mounted_parent_ignored": true,
+  "actual_frozen_source_parent_tamper_rejected": true,
+  "actual_frozen_source_patch_tamper_rejected": true,
+  "wrapper_tests_passed": 4,
+  "metadata_private_CPU_offline_competition_attached": true,
+  "parent_exact_version": 1,
+  "additional_provenance_sha256": "291da7a2148b56b69b60c448abb6c9a0d564269df52c1b2aa57290129d4f9ec3",
+  "target_proofs": {
+    "official_report_sha256": "0bf98722a2e964a9966418a7cbd0d985ccb58fe2637ec9b5e465c4c470221b74",
+    "transport_proof_sha256": "145ad371d046f8a1ac94c70be3906f4672517730a5715f7a83bb8936d6127b39"
+  },
+  "owner_local_verification_sha256": "ae27b67ba2cbd7cdea5793adff5a13dfc4d32653684396f421585261248eecb4",
+  "fresh_geometry_evaluations": 0,
+  "optimization": false,
+  "remote_launch_by_reviewer": false,
+  "competition_submission": false
+}

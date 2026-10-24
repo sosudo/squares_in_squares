@@ -1,0 +1,23 @@
+{
+  "script_sha256": "d4fecf80050886f9d57429e34a6052950d795c1a1086a4cb62c3635132cf17ce",
+  "script_bytes": 369087,
+  "parent_csv_sha256": "631b3114e7f3afeb0da5411115b69a41995a916bb04a72c46350115501514d60",
+  "target_csv_sha256": "3c4cfc19361e51e903b3d4c4018dc4ede002ce97f58071ad153207674cd28a2a",
+  "changed_rows": 955,
+  "changed_puzzles": [
+    411,
+    544
+  ],
+  "patch_compressed_bytes": 13432,
+  "local_exact_byte_reconstruction": true,
+  "transport_scaling_applied": false,
+  "launched": false,
+  "manifest_encoding": {
+    "encoding": "exact_json_lzma_base64",
+    "raw_bytes": 2383561,
+    "raw_sha256": "ec011c3c955f2b240f904c83c3b170db16698af9df887ce0b050dfd8ed0b4fc8",
+    "compressed_bytes": 257164,
+    "compressed_sha256": "107ebd9934663865ceeeaacf8a59ded7d115a989f09c03940c929f4f3e75ae6f",
+    "decoder_sha256": "b84de8a5e20215f8be364f480609726a79ead18f0f3e275ee5a098b3b1ce7cf4"
+  }
+}

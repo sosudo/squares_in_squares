@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-24T15:13:11.885024+00:00",
+  "canonical_proof": "/workspace/squares_in_squares/artifacts/submission-fq-lp100-final-v1-safe.transport-validation.json",
+  "canonical_proof_sha256": "dc64dffbd2fa4300055c86f28d6fbcef73bf1b91d9875640d7a64342a6c30213",
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "competition_submission_performed": false,
+  "raw": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-lp100-final-v1.csv",
+    "sha256": "52c9d3e6c6da6ab41a8d7224d2f92548eae38630a7606f0075eb93ef43760f6e",
+    "score": 22.29796011866665,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-fq-lp100-final-v1-official.json",
+    "official_report_sha256": "eaf9c820016d08e7a677f63013c4bf826da0ce057849668675b39730d39b18e5",
+    "reuse": {
+      "reused": 998,
+      "evaluated": 2
+    }
+  },
+  "safe": {
+    "path": "/workspace/squares_in_squares/artifacts/submission-fq-lp100-final-v1-safe.csv",
+    "sha256": "631b3114e7f3afeb0da5411115b69a41995a916bb04a72c46350115501514d60",
+    "score": 22.297960119331755,
+    "official_report": "/workspace/squares_in_squares/artifacts/submission-fq-lp100-final-v1-safe-official.json",
+    "official_report_sha256": "f34c06f54f8ebc87e42357e33b23f028384a22fab8bec26f4dcc3c3a8ad0873e",
+    "reuse": {
+      "reused": 998,
+      "evaluated": 2
+    }
+  },
+  "roundtrip": {
+    "path": "/workspace/squares_in_squares/artifacts/submission-fq-lp100-final-v1-safe-roundtrip.csv",
+    "sha256": "f554d72cc48a5063ba4cab1582e7ce37c02d336147a34c50ba20cf64b2558350",
+    "score": 22.29796011933176,
+    "official_report": "/workspace/squares_in_squares/artifacts/submission-fq-lp100-final-v1-safe-roundtrip-official.json",
+    "official_report_sha256": "1a80d2307f9332ccd81bdf723226d75134adae4c25eab185ce8e0d3400bb1045",
+    "reuse": {
+      "reused": 998,
+      "evaluated": 2
+    }
+  },
+  "independent_report": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-lp100-final-v1.validation.json",
+    "sha256": "0c11b6542ebc260a4020f5e2f49d5bb60207cebd7fd05dc2af3fbfd918439b67"
+  },
+  "user_submission_score_threshold": 22.3,
+  "eligible_under_user_score_threshold": true
+}

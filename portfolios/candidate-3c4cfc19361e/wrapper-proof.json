@@ -1,0 +1,20 @@
+{
+  "wrapper_sha256": "ecdcaeabb413fdbe1ee6ad98533ccb5d075eb27ba7d628b9e3b4e46a61cfb5b4",
+  "parent_pins": {
+    "scripts/build_incremental_safe_export_job.py": "477ef6ddcce7675e7e603678e488b3235b4de5988180adffe1c38e2b13131f0b",
+    "artifacts/submission-fq-lp100-final-v1-safe.csv": "631b3114e7f3afeb0da5411115b69a41995a916bb04a72c46350115501514d60",
+    "artifacts/submission-fq-lp100-final-v1-safe-official.json": "f34c06f54f8ebc87e42357e33b23f028384a22fab8bec26f4dcc3c3a8ad0873e",
+    "artifacts/submission-fq-lp100-final-v1-safe.transport-validation.json": "dc64dffbd2fa4300055c86f28d6fbcef73bf1b91d9875640d7a64342a6c30213",
+    "artifacts/portfolio-631b3114e7f3-incremental-export-job/completion-proof.json": "9573d399d9ddd2519e2c9841d83ede1d7ae768436ec9b8465076b8f022553e01",
+    "artifacts/portfolio-631b3114e7f3-incremental-export-job/export_manifest.json": "4f6ee80b2b29fdb01542b8376d3b6f88f8552912ffe4101868b80ca7bac07c60"
+  },
+  "parent_notebook": "sos54352/squares-portfolio-631b3114e7f3-incremental/1",
+  "parent_version": 1,
+  "builder_code_object_unchanged": true,
+  "original_builder_globals_unchanged": true,
+  "competition_sources": [
+    "squares-in-squares"
+  ],
+  "runtime_sha256": "8fb206241da20a9f2437995eebc68c26a77d286201d0687e518344d68cf1b4d8",
+  "manifest_decoder_sha256": "b84de8a5e20215f8be364f480609726a79ead18f0f3e275ee5a098b3b1ce7cf4"
+}

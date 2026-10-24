@@ -1,0 +1,228 @@
+{
+  "cases": {
+    "412": {
+      "n": 412,
+      "reference_side": "20.82287565553740121670015669765751498873232609226702",
+      "source_key": "reference_412",
+      "device": 0,
+      "source_geometry_sha256": "713f6bd5831603f25ff9782b0e5d2c1e80338f5c9b74fb88c76cbcbb8311754f"
+    },
+    "544": {
+      "n": 544,
+      "reference_side": "23.82394821473123592319066005628501961050573693647844",
+      "source_key": "reference_544",
+      "device": 1,
+      "source_geometry_sha256": "b15d8d14b38c26422d8e688552bdf977cd0cc4fef980c742404569300e9eec67"
+    },
+    "742": {
+      "n": 742,
+      "reference_side": "27.75962650786559863630890896668905299034053015403942",
+      "source_key": "reference_742",
+      "device": 2,
+      "source_geometry_sha256": "9e891c24f0d3d3b9c4d0cd60d6fd872ebb78eb542fef1e26ab7201c2ee04be44"
+    },
+    "591": {
+      "n": 591,
+      "reference_side": "24.81959056029464833538351260316752531055598807132213",
+      "source_key": "reference_591",
+      "device": 3,
+      "source_geometry_sha256": "89214e9de8da1a7bbb6ecba8cdd4f4f486115993841775aaeb6c27eb2e1898cc"
+    },
+    "744": {
+      "n": 744,
+      "reference_side": "27.78597196248753104923132169163362625538121985845094",
+      "source_key": "reference_744",
+      "device": 4,
+      "source_geometry_sha256": "8bd6c2b617599e5ccf7db21c6c74704365328a4d0c10ce862531121dc1cfa4ef"
+    },
+    "641": {
+      "n": 641,
+      "reference_side": "25.81949661682527741097247740134376233225628104250934",
+      "source_key": "reference_641",
+      "device": 5,
+      "source_geometry_sha256": "8c579c6df95ffabef95f9187717ede8512813074994e98828e885ff6d43206b0"
+    },
+    "411": {
+      "n": 411,
+      "reference_side": "20.79529519412144091826417072725494349494223220715717",
+      "source_key": "reference_411",
+      "device": 6,
+      "source_geometry_sha256": "0d3c2bacfeca5b3c75a93d6bde895a1a81c382c62c558925d2e8bfd111a53ddc"
+    },
+    "462": {
+      "n": 462,
+      "reference_side": "21.96535824812266217604860048847002223481577044163297",
+      "source_key": "reference_462",
+      "device": 7,
+      "source_geometry_sha256": "996dfac0021487891ddda4c526d9bac287719ad09cfc4d905df3a5bd9a520101"
+    },
+    "978": {
+      "n": 978,
+      "reference_side": "31.77951694458250257695706655684211666303124616288009",
+      "source_key": "reference_978",
+      "device": 8,
+      "source_geometry_sha256": "3a975aad5a708ce8c1890eb54daf5689235f0467c0154cd64a35f81270e09e95"
+    },
+    "541": {
+      "n": 541,
+      "reference_side": "23.77817459419936900000000000000000000000000000000000",
+      "source_key": "reference_541",
+      "device": 9,
+      "source_geometry_sha256": "b11cdfa75712a7b70d6e00ff09e4fad121cbf1353e8efcfffa69d0e83f7a825a"
+    },
+    "629": {
+      "n": 629,
+      "reference_side": "25.58378219107542200000000000000000000000000000000000",
+      "source_key": "reference_629",
+      "device": 10,
+      "source_geometry_sha256": "56d589cf79353d5cc07067fbce6f0b0a971ffbcfdbaeff82397f472f9043d076"
+    },
+    "341": {
+      "n": 341,
+      "reference_side": "18.95188240873789600000000000000000000000000000000000",
+      "source_key": "reference_341",
+      "device": 11,
+      "source_geometry_sha256": "b756fcfa9e1e4e360ad3d000d2b72b315dff7172a47b3ad8fda7f79cb3023784"
+    }
+  },
+  "slots": [
+    {
+      "slot": 0,
+      "n": 412,
+      "key": "reference_412",
+      "role": "original_reference",
+      "geometry_sha256": "713f6bd5831603f25ff9782b0e5d2c1e80338f5c9b74fb88c76cbcbb8311754f",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "be5f7641372d93a61ce3f423d6fc84bd3401224716f86532f124300bf68b01b0"
+    },
+    {
+      "slot": 1,
+      "n": 544,
+      "key": "reference_544",
+      "role": "original_reference",
+      "geometry_sha256": "b15d8d14b38c26422d8e688552bdf977cd0cc4fef980c742404569300e9eec67",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "84fcf59b4675b47dcebd1fd933831c6dcdc6ab77f8f2e63100d676b01e70e6e6"
+    },
+    {
+      "slot": 2,
+      "n": 742,
+      "key": "reference_742",
+      "role": "original_reference",
+      "geometry_sha256": "9e891c24f0d3d3b9c4d0cd60d6fd872ebb78eb542fef1e26ab7201c2ee04be44",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "cf37d688d70201157b48bb5793d8f1c3d3c8ebf7025494a6a9310cc1b1ff4902"
+    },
+    {
+      "slot": 3,
+      "n": 591,
+      "key": "reference_591",
+      "role": "original_reference",
+      "geometry_sha256": "89214e9de8da1a7bbb6ecba8cdd4f4f486115993841775aaeb6c27eb2e1898cc",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "4e8141a47cf4deada9e8d6d0add29dd3548d36ede9213a3539a35b990359686b"
+    },
+    {
+      "slot": 4,
+      "n": 744,
+      "key": "reference_744",
+      "role": "original_reference",
+      "geometry_sha256": "8bd6c2b617599e5ccf7db21c6c74704365328a4d0c10ce862531121dc1cfa4ef",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "bbfa9c7aa2c20a712b986fda7e48e4d462dca06721c8e6b66941ec061e37acce"
+    },
+    {
+      "slot": 5,
+      "n": 641,
+      "key": "reference_641",
+      "role": "original_reference",
+      "geometry_sha256": "8c579c6df95ffabef95f9187717ede8512813074994e98828e885ff6d43206b0",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "aca5b2cf8411b875e926c7855dbcaec38959ed1250ed66e9585401a77e20a416"
+    },
+    {
+      "slot": 6,
+      "n": 411,
+      "key": "reference_411",
+      "role": "original_reference",
+      "geometry_sha256": "0d3c2bacfeca5b3c75a93d6bde895a1a81c382c62c558925d2e8bfd111a53ddc",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "993046b299b7345ccda72fd4f3613ac4459f55a784439e55dbb7bd24a14afada"
+    },
+    {
+      "slot": 7,
+      "n": 462,
+      "key": "reference_462",
+      "role": "original_reference",
+      "geometry_sha256": "996dfac0021487891ddda4c526d9bac287719ad09cfc4d905df3a5bd9a520101",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "9baf6d5b5dbeba9cff89b457c898fd24741ced10c88b9923e22a7bbfa605e7cc"
+    },
+    {
+      "slot": 8,
+      "n": 978,
+      "key": "reference_978",
+      "role": "original_reference",
+      "geometry_sha256": "3a975aad5a708ce8c1890eb54daf5689235f0467c0154cd64a35f81270e09e95",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "506574542c0dc02535efa0b68a1bf39afa4258cd95633070fd0e9eb06fef30e6"
+    },
+    {
+      "slot": 9,
+      "n": 541,
+      "key": "reference_541",
+      "role": "original_reference",
+      "geometry_sha256": "b11cdfa75712a7b70d6e00ff09e4fad121cbf1353e8efcfffa69d0e83f7a825a",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "2c8aec4bb633492b53fc96015d06c6b1873bd611359e496e78b93ea169ec5293"
+    },
+    {
+      "slot": 10,
+      "n": 629,
+      "key": "reference_629",
+      "role": "original_reference",
+      "geometry_sha256": "56d589cf79353d5cc07067fbce6f0b0a971ffbcfdbaeff82397f472f9043d076",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "8fd53c2376be01e57ee811ccedbde57d87e465638906292f02929714c35a1c0b"
+    },
+    {
+      "slot": 11,
+      "n": 341,
+      "key": "reference_341",
+      "role": "original_reference",
+      "geometry_sha256": "b756fcfa9e1e4e360ad3d000d2b72b315dff7172a47b3ad8fda7f79cb3023784",
+      "seed": 9710000,
+      "native_encoded_input_sha256": "4234ece33b7d9899d0ba002e78774e555292de0cba39fcb29c1faa0408ca5dc6"
+    }
+  ],
+  "baseline": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-lp100-final-v1.csv",
+    "sha256": "52c9d3e6c6da6ab41a8d7224d2f92548eae38630a7606f0075eb93ef43760f6e",
+    "score": 22.29796011866665,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-fq-lp100-final-v1-official.json",
+    "official_report_sha256": "eaf9c820016d08e7a677f63013c4bf826da0ce057849668675b39730d39b18e5",
+    "reuse": {
+      "reused": 998,
+      "evaluated": 2
+    }
+  },
+  "inputs_sha256": "2c83f5ed74c060a401e517a100a518fb071e73bd36fafbe17af797743c7fe92f",
+  "input_proof_sha256": "0f1ef06bd919dc9783c2f18e43cf66574531b5f9e25eb2f15ff395348c34912c",
+  "preparation_builder_sha256": "42207fe5db2dd6156128f6f917f91e6d607ff9d37767a6a71f7bc010ca829b03",
+  "preparation_cases_override": [
+    412,
+    544,
+    742,
+    591,
+    744,
+    641,
+    411,
+    462,
+    978,
+    541,
+    629,
+    341
+  ],
+  "input_status": "Original canonical arrays translated only; no perturbation, compression or rescaling.",
+  "inherited_gpu_defaults_unused": true
+}

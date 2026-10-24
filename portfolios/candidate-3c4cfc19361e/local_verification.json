@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "script_sha256": "d4fecf80050886f9d57429e34a6052950d795c1a1086a4cb62c3635132cf17ce",
+  "csv_sha256": "3c4cfc19361e51e903b3d4c4018dc4ede002ce97f58071ad153207674cd28a2a",
+  "exact_target_bytes": true,
+  "bytes": 32493636,
+  "seconds": 1.7045837369951187,
+  "runtime_proof_sha256": "9aaa4bc396bfb2bbd9419f63b71a7523fc3ed89a2f2301062accee546c4ac349",
+  "competition_submission": false,
+  "fresh_geometry_evaluations": 0
+}

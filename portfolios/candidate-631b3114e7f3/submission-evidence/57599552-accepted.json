@@ -1,0 +1,20 @@
+{
+  "ref": 57599552,
+  "submitted_at": "2026-10-24T15:54:13.077000+00:00",
+  "validated_score": "22.297960119331755",
+  "status": "pending",
+  "public_score": null,
+  "notebook": {
+    "ref": "sos54352/squares-portfolio-631b3114e7f3-incremental",
+    "version": 1,
+    "output_file": "submission.csv"
+  },
+  "sha256": "631b3114e7f3afeb0da5411115b69a41995a916bb04a72c46350115501514d60",
+  "marker": "[squares-sha256:631b3114e7f3afeb0da5411115b69a41995a916bb04a72c46350115501514d60]",
+  "authorization_policy": {
+    "score_ceiling": "22.3",
+    "minimum_interval_seconds": 3600,
+    "sha256": "4ef2ab8de598110f2bb0b88b90309a2aba0592b801433be2ca1c5c35719b1b0a",
+    "source": "/workspace/squares_in_squares/artifacts/submissions/authorization-policy.json"
+  }
+}

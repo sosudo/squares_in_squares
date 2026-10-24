@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "csv_sha256": "3c4cfc19361e51e903b3d4c4018dc4ede002ce97f58071ad153207674cd28a2a",
+  "rows": 500500,
+  "puzzles": 1000,
+  "parent_csv_sha256": "631b3114e7f3afeb0da5411115b69a41995a916bb04a72c46350115501514d60",
+  "patch_sha256": "3393c8234ff4faca1ac6fd17300afe949824ac6eae709dddcf7221bd217eea81",
+  "changed_rows": 955,
+  "changed_puzzles": [
+    411,
+    544
+  ],
+  "unchanged_rows_sha256": "246d44eaaa5ba0ca708c02e2aae3c9316616783a91f7f0fb7eb7ece2cb65f0f1",
+  "official_score": 22.297959982438545,
+  "transport_scaling_applied": false,
+  "fresh_geometry_evaluations": 0,
+  "certificate_reuse": "Exact previously certified SAFE-CSV bytes; no coordinate reserialization.",
+  "competition_submission_performed": false,
+  "seconds": 3.81474372699995
+}
