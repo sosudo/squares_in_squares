@@ -1,0 +1,12 @@
+{
+  "output": "artifacts/portfolio-9c8cccde95fe-export-job",
+  "code_bytes": 869290,
+  "exact_local_reconstruction": true,
+  "csv_sha256": "9c8cccde95fe1c6008737247c0f50c8c117037ae5b37e39fcf456b0dd09a6ed4",
+  "official_score": 22.30232558207879,
+  "public_csv_puzzles": 851,
+  "certificate_puzzles": 89,
+  "embedded_puzzles": 60,
+  "public_certificates": 80,
+  "embedded_compressed_bytes": 447912
+}

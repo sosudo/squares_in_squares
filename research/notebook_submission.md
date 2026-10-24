@@ -105,3 +105,12 @@ credentials or attempting a submission.
   `.venv/lib/python3.12/site-packages/kagglesdk/competitions/types/competition_api_service.py`,
   `ApiCreateCodeSubmissionRequest`.
 - Public source responses retained under `/tmp/kaggle-submission-research/`.
+
+
+## Bounded sessions and recovery (2026-10-24)
+
+Pass an explicit server limit to every private job: `kernels push -p JOB -t SECONDS`. The supported CLI maps this to `ApiSaveKernelRequest.session_timeout_seconds`. Keep the local child/process-group watchdog too. A stale earlier job blocked the two-session GPU limit despite its script-level cap; cancelling that exact job restored productive execution.
+
+When status metadata omits the execution ID, a supported `ApiDownloadKernelOutputRequest` for the exact owner, slug and version, without a file path, can return `/api/v1/kernels/output/download_zip/ID`. The official SDK names this parameter `kernel_session_id` in `ApiDownloadKernelOutputZipRequest`, matching `ApiCancelKernelSessionRequest`. Verify this namespace and exact owner/version binding before cancelling. Notebook IDs and saved-version labels are different identifiers and must never be guessed as session IDs. Cancelling a session preserves its notebook/history. The observed stale session361697299 went fromRUNNING toCANCEL_REQUESTED toCANCEL_ACKNOWLEDGED.
+
+SDK duration serialization has a separate trap: its `to_dict()` uses `timedelta.seconds`, dropping whole days. The108000-second/30-hour GPU allowance appeared as21600seconds. Use the duration’s `.total_seconds()` or the raw official `/api/v1/kernels/quota` response. Reserved session maximums are not consumed quota.

@@ -178,3 +178,82 @@ continuation; the other slots span the four kick sizes. No plain polishing is
 repeated. Its one-worker four-trial smoke completed in 6.44 seconds, exercised
 `.01`, `.03`, `.08`, and rounded `.15`, and retained two certified donors.
 Production launch is coordinated against the root's total CPU worker cap.
+
+The multiscale production run completed normally in 888.30 seconds: 695 trials,
+529 certified exact-SHA donors, and ten improved oriented types. Its final
+bundle is `artifacts/fq-multiscale-v1/snapshot-00099`; donor SHA-256
+`95d5b73b8a36cea9ea540d5ef0eb9a999d4094b633fa9acb307588bd9fbf4962`,
+best-bank SHA-256
+`5d8de5063a8c1c1559dc5a73b0f24c7bd6166609a1cabde99fd7d5ee7f38e0f7`.
+All returned certified poses, archive hashes, and per-trial option lists were
+checked again after completion.
+
+The one-worker focused production run completed normally in 888.25 seconds:
+739 trials and 623 certified exact-SHA donors. Its final bundle is
+`artifacts/fq-focus-v1/snapshot-00083`; donor SHA-256
+`a1d7b556efc1d62f7d6516f26f74d12ad4c87457440437fc456436bbf63beadd`,
+best-bank SHA-256
+`064b4e76c423c8b5617302b52c06ea8fc46b7f13d245550322406e7e36f8573d`.
+Canonical `7x19+13` improved by .000301428965 and `7x20+14` by
+.000121065914. Opposite orientations are not additive family gains.
+`5x17+7` did not improve materially. Recent improvements justified completing
+the original bound after an early-stop check; the slot was then released to
+the high-n donor export/certification task, without increasing another run's
+worker count.
+
+## Soft-shape continuation
+
+`experiments/fq_soft_campaign.py` is a distinct method using FQ's native
+area-preserving aspect variables. Square dimensions temporarily become
+`exp(a/2)` by `exp(-a/2)`, where `a = epsilon*tanh(b)`. Compression at nonzero
+epsilon can change contact arrangements; eight fixed-box continuation steps
+then reduce epsilon to zero before the ordinary rigid finish. Initial
+amplitudes are `.03`, `.08`, and `.15`, with one `.08` variant allowing
+`hold-f=1.002`. This is separate from both Gaussian-kick runs and rounded-corner
+continuation.
+
+Native shrink-hopping was inspected but deferred for rectangular inputs: its
+hop clamp uses `[0.5, s-0.5]` on both axes and ignores the rectangular offsets.
+The upstream MIT `melt_junction.py` and `contactswitch.py` are diagnostic
+analyses of local melt displacement and contact-side/role changes. They support
+investigating changed contact topology but are not themselves optimization
+implementations. Their source copies are retained with the soft run.
+
+The soft preflight compressed a deliberately loose asymmetric 3x3 grid by
+.299999996 and passed official raw and pandas checks. A real `5_17_7` packing
+activated log-aspect amplitude `.03`, then returned to a certified rigid pose.
+Every retained soft result requires all eight verbose continuation steps,
+monotone reported epsilon ending at zero, the expected initial amplitude,
+and the unchanged unit-square official certificate. The pinned Rust source
+sets exact epsilon zero at `k=K`, clears the aspect-variable vector, and calls
+`set_soft(0.0)` again before rigid finishing. The zero-return log SHA is stored
+in each record. A trial that lacks this evidence is excluded even if its
+geometry alone would certify.
+
+Prepared inputs are in `artifacts/fq-soft-inputs-v1`, containing 1,282 exact
+donors and twenty orientation-fair references across ten priority families.
+They combine final multiscale winners, the latest stronger focused winners,
+the new `6x22+16` family, and preserved original source variants. All twenty
+reference poses were recertified; the reference archive SHA-256 is
+`69c8f3c7a6a508451aa4840980113159426338e0d925b6828f815537a06aff8a`.
+
+The authorized production is `artifacts/fq-soft-v1`, bounded to 600 seconds
+and two CPU workers, with the same whole-process supervisor. Its frozen
+source and `rigid-return-proof.json` record the rigid-return evidence and the
+actual twenty-orientation scope. The shared runtime's inherited prose mentions
+21 types; the manifest and this proof file correctly describe this specialized
+run's twenty orientations.
+
+Snapshot `00023` was frozen for simultaneous CPU recipe replay and GPU
+composition: compact best-bank SHA-256
+`02eeffaa5854957c1ce35b408fda01d7ace9d26cd737e72bae55922447f3bff4`,
+45-donor archive SHA-256
+`a9858f78bae0fedb120840f947edac1c9c8cca70aa61ac368f6353627d68ab2e`.
+No live input changes were applied to those downstream jobs.
+
+If this distinct method plateaus, a separate aggressive pilot could increase
+log-aspect limits to `.3` or `.6` (roughly 16% or 35% maximum side extension),
+use 12–16 continuation steps with a smoother final schedule, and allow slight
+hold-box slack. It must preserve the same explicit zero-return and ordinary
+unit-square certification requirements. The current frozen 600-second run is
+not modified to test that proposal.

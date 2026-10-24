@@ -1,0 +1,28 @@
+{
+  "status": "Certified search incumbent; unique private CPU export COMPLETE and remote SHA verified; competition submission forbidden while score>=22.3",
+  "csv_sha256": "9c8cccde95fe1c6008737247c0f50c8c117037ae5b37e39fcf456b0dd09a6ed4",
+  "raw_csv_sha256": "994c032b4b7c24b6ff8f4e19ff0a7a6921ecbec437da2a3bc9549b85393ee9f8",
+  "official_score": 22.30232558207879,
+  "roundtrip_score": 22.30232558207879,
+  "source_notebook": {
+    "ref": "sos54352/squares-portfolio-9c8cccde95fe",
+    "version": 1,
+    "output_file": "submission.csv"
+  },
+  "composition_notebook": {
+    "ref": "sos54352/squares-composition-f64b8e59f3a4",
+    "version": 1
+  },
+  "search_baseline_sha256": "f64b8e59f3a4f19c8839b772115b3bcf63fd212c9986cb9b6161822561fb1abc",
+  "merge_baseline_raw_sha256": "4885ef2f2932bb665f8cad4a42cb5c0233224208970796ca93fbe20d1b95ff3f",
+  "accepted_composition_cases": 10,
+  "finding": "The GPU pass covered15312 orientations in149.13seconds. Ten proposals improved the newer CPU recipe-replay portfolio; its17 earlier wins were preserved. Full-puzzle FQ polishing gains were also preserved.",
+  "transport_helper": "scripts/make_transport_safe.py",
+  "centre_dilation_factor": "1.00000000001",
+  "reproduce_command": "python3 portfolios/candidate-9c8cccde95fe/export.py --destination /tmp/squares-candidate-9c8cccde95fe/submission.csv",
+  "submission_policy": {
+    "maximum_score_exclusive": 22.3,
+    "eligible": false,
+    "competition_submission_performed": false
+  }
+}
