@@ -1,0 +1,34 @@
+{
+  "dataset": "kmmmvs/squares-in-squares-best-packings",
+  "version": 26,
+  "files": [
+    {
+      "file": "portfolio_manifest.json",
+      "url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/portfolio_manifest.json?datasetVersionNumber=26",
+      "sha256": "6b0fbb16d248f25475d0d7bcd3cdf5eab514de07dc1f2ff4072cea8e09698811",
+      "bytes": 404,
+      "ok": true
+    },
+    {
+      "file": "SOURCE_NOTICES.md",
+      "url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/SOURCE_NOTICES.md?datasetVersionNumber=26",
+      "sha256": "2b6e5e2f65b8bb5dda257180e97f35f0a6a8f6b9b01981cb777edf10567e58e6",
+      "bytes": 120846,
+      "ok": true
+    },
+    {
+      "file": "LICENSE-APACHE-2.0.txt",
+      "url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/LICENSE-APACHE-2.0.txt?datasetVersionNumber=26",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "ok": true
+    },
+    {
+      "file": "LICENSE-LEVY-SOURCES.txt",
+      "url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/LICENSE-LEVY-SOURCES.txt?datasetVersionNumber=26",
+      "sha256": "9dd942ee31483b4efb61318868d80ba3b18c6bfd843a26f75fa43e08c08d8e28",
+      "bytes": 22046,
+      "ok": true
+    }
+  ]
+}

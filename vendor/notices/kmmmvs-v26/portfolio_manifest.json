@@ -1,0 +1,9 @@
+{
+  "total_score": 22.31032126032646,
+  "puzzles": 1000,
+  "rows": 500500,
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "submission_sha256": "cab501fe499261db1c9a5b2d665ca7964e509484442a920376282281444cdd4c",
+  "update_unit": "whole puzzle n",
+  "update_rule": "replace only after certified lower per-puzzle score; retain old versions and provenance"
+}

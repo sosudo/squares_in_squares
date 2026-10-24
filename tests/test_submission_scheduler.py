@@ -6,12 +6,14 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import submission_scheduler as scheduler
 
 
 NOW = datetime(2026, 10, 24, 8, tzinfo=timezone.utc)
+POLICY = {'score_ceiling': '22.3', 'minimum_interval_seconds': 3600, 'sha256': 'unit-test-policy'}
 
 
 class FakeGateway:
@@ -82,7 +84,7 @@ class SchedulerTests(unittest.TestCase):
         saved = []
         gateway = gateway or FakeGateway()
         result, final = scheduler.controller([self.candidate], state or scheduler.new_state(),
-            gateway, NOW, execute, lambda value: saved.append(deepcopy(value)))
+            gateway, NOW, execute, lambda value: saved.append(deepcopy(value)), policy=POLICY)
         return result, final, saved
 
     def test_changed_csv_is_rejected_before_any_api_request(self):
@@ -119,7 +121,7 @@ class SchedulerTests(unittest.TestCase):
             roundtrip_official_report_sha256=self.candidate['roundtrip_report']['sha256'])
         transport_path.write_text(json.dumps(summary))
         self.candidate['transport_report'] = scheduler.binding(transport_path)
-        self.assertEqual(scheduler.validate_candidate(self.candidate), scheduler.numeric_score(22.))
+        self.assertEqual(scheduler.validate_candidate(self.candidate), scheduler.numeric_score(rounded['score']))
 
     def test_incomplete_or_contradictory_cached_transport_coverage_is_rejected(self):
         base = {'roundtrip_case_coverage': 1000, 'roundtrip_evaluated': 14,
@@ -217,11 +219,11 @@ class SchedulerTests(unittest.TestCase):
         self.assertEqual(result['action'], 'wait')
 
     def test_tracked_public_result_cannot_be_ignored_for_score_comparison(self):
-        self.candidate = self.fixture('worse-than-live', 22.300000008)
-        state = self.state_with_previous(score=22.300000009)
+        self.candidate = self.fixture('worse-than-live', 22.200000008)
+        state = self.state_with_previous(score=22.200000009)
         gateway = FakeGateway([{'ref': 7, 'date': (NOW - timedelta(hours=2)).isoformat(),
-            'status': 'complete', 'description': '', 'public_score': '22.3000000000'}])
-        direct = scheduler.plan([self.candidate], state, gateway.snapshot(), NOW)
+            'status': 'complete', 'description': '', 'public_score': '22.2000000000'}])
+        direct = scheduler.plan([self.candidate], state, gateway.snapshot(), NOW, POLICY)
         self.assertEqual(direct['action'], 'wait')
         result, _, _ = self.run_controller(gateway, state, execute=True)
         self.assertEqual(result['action'], 'blocked')
@@ -248,6 +250,81 @@ class SchedulerTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             scheduler.adopt_existing(state, self.candidate, row, NOW)
         self.assertIsNotNone(state['pending'])
+
+    def policy_file(self, ceiling='22.3'):
+        path = self.root / 'authorization-policy.json'
+        path.write_text(json.dumps({'submission_score_must_be_strictly_below': ceiling,
+            'strict_improvement_required': True, 'minimum_interval_seconds': 3600}))
+        return path
+
+    def test_authorization_ceiling_is_strict_and_never_submits_22_point_3_or_higher(self):
+        for score in (22.3, 22.300000001, 22.3047579593, 23.):
+            self.candidate = self.fixture('threshold-' + str(score), score)
+            gateway = FakeGateway()
+            result, _, _ = self.run_controller(gateway, execute=True)
+            self.assertEqual(result['action'], 'blocked')
+            self.assertEqual(result['score_must_be_strictly_below'], '22.3')
+            self.assertEqual(gateway.submitted, 0)
+        self.candidate = self.fixture('below-threshold', 22.299999999)
+        result, _, _ = self.run_controller()
+        self.assertEqual(result['action'], 'ready')
+
+    def test_persisted_policy_survives_controller_restarts(self):
+        self.candidate = self.fixture('persistently-blocked', 22.30001)
+        policy_path = self.policy_file()
+        gateway = FakeGateway()
+        with patch.object(scheduler, 'AUTHORIZATION_POLICY', policy_path):
+            for _ in range(2):
+                result, _ = scheduler.controller([self.candidate], scheduler.new_state(),
+                    gateway, NOW, execute=True)
+                self.assertEqual(result['action'], 'blocked')
+        self.assertEqual(gateway.submitted, 0)
+
+    def test_raw_below_ceiling_but_numeric_roundtrip_at_ceiling_is_blocked(self):
+        self.candidate = self.fixture('transport-crosses-ceiling', 22.299999999999997)
+        path = Path(self.candidate['roundtrip_report']['path']); report = json.loads(path.read_text())
+        report['score'] = 22.3; path.write_text(json.dumps(report))
+        self.candidate['roundtrip_report'] = scheduler.binding(path)
+        path = Path(self.candidate['transport_report']['path']); summary = json.loads(path.read_text())
+        summary.update(roundtrip_score=22.3, same_binary64_score=False)
+        path.write_text(json.dumps(summary)); self.candidate['transport_report'] = scheduler.binding(path)
+        gateway = FakeGateway()
+        result, _, _ = self.run_controller(gateway, execute=True)
+        self.assertEqual(result['action'], 'blocked')
+        self.assertEqual(gateway.submitted, 0)
+
+    def test_missing_policy_prevents_direct_execute_before_api_initialization(self):
+        with patch.object(scheduler, 'AUTHORIZATION_POLICY', self.root / 'missing.json'), \
+             patch.object(sys, 'argv', ['submission_scheduler.py', 'check', '--execute']), \
+             patch.object(scheduler, 'KaggleGateway') as gateway:
+            with self.assertRaises(FileNotFoundError):
+                scheduler.main()
+            gateway.assert_not_called()
+
+    def test_policy_is_reloaded_after_remote_verification_before_mutation(self):
+        self.candidate = self.fixture('policy-tightened', 22.25)
+        policy_path = self.policy_file()
+        class TighteningGateway(FakeGateway):
+            def verify_notebook(inner, notebook, sha):
+                super().verify_notebook(notebook, sha)
+                self.policy_file('22.2')
+        gateway = TighteningGateway()
+        with patch.object(scheduler, 'AUTHORIZATION_POLICY', policy_path):
+            result, state = scheduler.controller([self.candidate], scheduler.new_state(),
+                gateway, NOW, execute=True)
+        self.assertEqual(result['action'], 'blocked')
+        self.assertIsNone(state['pending'])
+        self.assertEqual(gateway.submitted, 0)
+
+    def test_policy_cannot_weaken_score_ceiling_or_hourly_interval(self):
+        path = self.policy_file('22.4')
+        with self.assertRaises(ValueError):
+            scheduler.load_authorization_policy(path)
+        for patch_value in ({'strict_improvement_required': False}, {'minimum_interval_seconds': 3599}):
+            path = self.policy_file(); data = json.loads(path.read_text()); data.update(patch_value)
+            path.write_text(json.dumps(data))
+            with self.assertRaises(ValueError):
+                scheduler.load_authorization_policy(path)
 
 
 if __name__ == '__main__':

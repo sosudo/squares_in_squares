@@ -27,6 +27,8 @@ METRIC = '312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733'
 HOUR = 3600
 DAILY_LIMIT = 10
 SCORE_TOLERANCE = Decimal('0.0000000001')
+AUTHORIZATION_POLICY = Path(__file__).resolve().parents[1] / 'artifacts/submissions/authorization-policy.json'
+MAX_AUTHORIZED_SCORE = Decimal('22.3')
 
 
 def utc(value):
@@ -66,6 +68,31 @@ def numeric_score(value):
     if not number.is_finite() or number < 0:
         raise ValueError('Invalid competition score')
     return number
+
+
+def load_authorization_policy(path=None):
+    """Require the persisted authorization, failing closed if absent or invalid."""
+    path = Path(path or AUTHORIZATION_POLICY)
+    data = json.loads(path.read_text())
+    ceiling = numeric_score(data['submission_score_must_be_strictly_below'])
+    if ceiling <= 0 or ceiling > MAX_AUTHORIZED_SCORE:
+        raise ValueError('Authorization cannot permit submissions at or above22.3')
+    if data.get('strict_improvement_required') is not True:
+        raise ValueError('Strict improvement authorization must remain enabled')
+    interval = data.get('minimum_interval_seconds')
+    if type(interval) is not int or interval < HOUR:
+        raise ValueError('Authorization must retain the minimum hourly interval')
+    return {'score_ceiling': str(ceiling), 'minimum_interval_seconds': interval,
+            'sha256': digest(path), 'source': str(path.resolve())}
+
+
+def checked_policy(policy):
+    ceiling = numeric_score(policy['score_ceiling'])
+    if not (0 < ceiling <= MAX_AUTHORIZED_SCORE):
+        raise ValueError('Invalid strict authorization score ceiling')
+    if type(policy['minimum_interval_seconds']) is not int or policy['minimum_interval_seconds'] < HOUR:
+        raise ValueError('Invalid authorized submission interval')
+    return policy
 
 
 def full_transport_coverage(summary):
@@ -131,7 +158,8 @@ def validate_candidate(candidate):
         raise ValueError('Queue lacks matching completed private notebook output proof')
     if candidate.get('id') != candidate['csv']['sha256'] or numeric_score(candidate['score']) != score:
         raise ValueError('Queue identity or score does not match its validated CSV')
-    return score
+    # Authorization and selection use the worse of the two validated transports.
+    return max(score, roundtrip_score)
 
 
 def make_candidate(csv_path, raw_report, roundtrip_csv, roundtrip_report, transport_report,
@@ -181,11 +209,14 @@ def accept(state, candidate, record, now):
     for sha, entry in state.get('submitted', {}).items():
         if int(entry['ref']) == int(record['ref']) and sha != candidate['id']:
             raise ValueError('Submission reference is already bound to another CSV hash')
+    policy = deepcopy(state['pending'].get('authorization_policy')) if state.get('pending') else None
     state['submitted'][candidate['id']] = {
         'ref': int(record['ref']), 'submitted_at': utc(record.get('date') or now).isoformat(),
         'validated_score': candidate['score'], 'status': record.get('status', 'pending'),
         'public_score': record.get('public_score'), 'notebook': candidate['notebook'],
         'sha256': candidate['id'], 'marker': marker(candidate)}
+    if policy:
+        state['submitted'][candidate['id']]['authorization_policy'] = policy
     state['pending'] = None
 
 
@@ -231,13 +262,20 @@ def reconcile(state, history, now):
                     state['review_required'] = 'Kaggle score differs from the validated submitted score'
 
 
-def plan(candidates, state, snapshot, now):
-    """Pure eligibility decision; unknown or incomplete information fails closed."""
+def plan(candidates, state, snapshot, now, policy=None, validated_scores=None):
+    """Eligibility decision; immutable reports and unknown inputs fail closed."""
+    policy = checked_policy(policy if policy is not None else load_authorization_policy())
+    validated_scores = (validated_scores if validated_scores is not None
+                        else {c['id']: validate_candidate(c) for c in candidates})
     now = utc(now); history = snapshot['history']; limits = snapshot['limits']
     if state.get('review_required'):
         return {'action': 'blocked', 'reason': state['review_required']}
     if state.get('pending'):
         return {'action': 'blocked', 'reason': 'Ambiguous submission awaits history reconciliation; do not retry'}
+    authorized = [c for c in candidates if validated_scores[c['id']] < numeric_score(policy['score_ceiling'])]
+    if not authorized:
+        return {'action': 'blocked', 'reason': 'No validated candidate strictly below the authorized score ceiling',
+                'score_must_be_strictly_below': policy['score_ceiling']}
     if any(r['status'] == 'pending' for r in history):
         return {'action': 'wait', 'reason': 'An accepted Kaggle submission is still scoring'}
     if any(e.get('status') == 'pending' for e in state.get('submitted', {}).values()):
@@ -250,9 +288,10 @@ def plan(candidates, state, snapshot, now):
         return {'action': 'wait', 'reason': 'Live Kaggle daily submission allowance exhausted', 'limits': limits}
     dates = [utc(r['date']) for r in history]
     dates += [utc(r['submitted_at']) for r in state.get('submitted', {}).values()]
-    if dates and now < max(dates) + timedelta(seconds=HOUR):
+    interval = policy['minimum_interval_seconds']
+    if dates and now < max(dates) + timedelta(seconds=interval):
         return {'action': 'wait', 'reason': 'Hourly interval has not elapsed',
-                'not_before': (max(dates) + timedelta(seconds=HOUR)).isoformat()}
+                'not_before': (max(dates) + timedelta(seconds=interval)).isoformat()}
     submitted = state.get('submitted', {})
     scores = [numeric_score(e['validated_score']) for e in submitted.values()
               if e.get('status') != 'error']
@@ -266,29 +305,29 @@ def plan(candidates, state, snapshot, now):
             scores.append(numeric_score(row['public_score']) - SCORE_TOLERANCE)
     best = min(scores) if scores else Decimal('Infinity')
     eligible = []
-    for candidate in candidates:
+    for candidate in authorized:
         if candidate['id'] in submitted:
             continue
         if any(marker(candidate) in row.get('description', '') for row in history):
             continue
-        if numeric_score(candidate['score']) < best:
+        if validated_scores[candidate['id']] < best:
             eligible.append(candidate)
     if not eligible:
         return {'action': 'wait', 'reason': 'No new strictly better validated score',
                 'best_submitted_score_bound': str(best)}
-    winner = min(eligible, key=lambda c: numeric_score(c['score']))
-    return {'action': 'ready', 'candidate_id': winner['id'], 'score': winner['score'],
+    winner = min(eligible, key=lambda c: validated_scores[c['id']])
+    return {'action': 'ready', 'candidate_id': winner['id'], 'score': str(validated_scores[winner['id']]),
             'best_submitted_score_bound': str(best), 'limits': limits}
 
 
-def controller(candidates, state, gateway, now, execute=False, persist=lambda state: None):
+def controller(candidates, state, gateway, now, execute=False, persist=lambda state: None, policy=None):
     """Check or submit once; write intent before invoking the mutating API."""
     state = deepcopy(state)
-    for candidate in candidates:
-        validate_candidate(candidate)
+    current_policy = checked_policy(policy if policy is not None else load_authorization_policy())
+    validated_scores = {candidate['id']: validate_candidate(candidate) for candidate in candidates}
     snapshot = gateway.snapshot()
     reconcile(state, snapshot['history'], now)
-    decision = plan(candidates, state, snapshot, now)
+    decision = plan(candidates, state, snapshot, now, current_policy, validated_scores)
     if not execute or decision['action'] != 'ready':
         if execute:
             persist(state)
@@ -296,12 +335,14 @@ def controller(candidates, state, gateway, now, execute=False, persist=lambda st
     candidate = next(c for c in candidates if c['id'] == decision['candidate_id'])
     gateway.verify_notebook(candidate['notebook'], candidate['id'])
     # A download may take time; recheck history/quota immediately before mutation.
+    current_policy = checked_policy(policy if policy is not None else load_authorization_policy())
     snapshot = gateway.snapshot(); reconcile(state, snapshot['history'], now)
-    decision = plan(candidates, state, snapshot, now)
+    decision = plan(candidates, state, snapshot, now, current_policy, validated_scores)
     if decision.get('candidate_id') != candidate['id'] or decision['action'] != 'ready':
         persist(state); return decision, state
     state['pending'] = {'candidate': candidate, 'marker': marker(candidate),
-                        'request_started_at': utc(now).isoformat()}
+                        'request_started_at': utc(now).isoformat(),
+                        'authorization_policy': deepcopy(current_policy)}
     persist(state)
     description = marker(candidate) + ' validated score ' + candidate['score']
     try:
@@ -433,6 +474,8 @@ def main():
         parser.error('--execute applies only to check')
     if args.reconcile_only and (args.execute or args.command != 'check'):
         parser.error('--reconcile-only applies only to check and excludes --execute')
+    if args.execute:
+        load_authorization_policy()  # Required before even opening an API client.
     queue = json.loads(args.queue.read_text()) if args.queue.exists() else {'schema_version': 1, 'candidates': []}
     if args.command == 'check' and not queue['candidates'] and not args.reconcile_only:
         print(json.dumps({'action': 'empty', 'reason': 'No queued candidate; no API request made'})); return

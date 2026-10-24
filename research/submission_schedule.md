@@ -1,6 +1,14 @@
-# Conservative hourly submission controller
+# Current submission authorization
 
-`./.venv/bin/python scripts/submission_scheduler.py` defaults to a read-only Kaggle **check**. No system timer or cron job is installed. An explicit `check --execute` may create at most one submission; root enabled periodic execution in this environment on 2026-10-24 at 05:28 UTC.
+The user now requires **both the raw and ordinary numeric-roundtrip validated scores to be strictly below 22.3**. A score of 22.3 exactly does not qualify. Root stopped runner PID15213 after this instruction; it must remain stopped pending root review and an eligible candidate. No further submission has been made under this task.
+
+The persisted policy is `artifacts/submissions/authorization-policy.json`. The controller fails closed if it is missing or malformed, reloads it before mutation after remote-output verification, and enforces the stricter of the two validated scores. The score ceiling cannot be weakened above 22.3; strict improvement, the hourly minimum and live daily limits remain mandatory. Restarts and direct `check --execute` calls use the same policy.
+
+Latest accepted result: submission 57584666, 2026-10-24 06:07:08.397 UTC, actual Kaggle score 22.3047579593. The leaderboard observation at 06:14:40 UTC placed team 17191978 at rank 20 of 505. Its exact CSV/report/notebook bindings are in `artifacts/submissions/57584666-complete.json`. The next timing window is 07:07:08.397 UTC, but no current candidate meets the new score authorization.
+
+## Controller history and operation
+
+`./.venv/bin/python scripts/submission_scheduler.py` defaults to a read-only Kaggle **check**. No system timer or cron job is installed. An explicit `check --execute` may create at most one submission; root enabled periodic execution on 2026-10-24 at 05:28 UTC and later stopped it for the stricter score authorization above.
 
 The baseline was adopted from live Kaggle history: submission **57583210**, accepted **2026-10-24 05:06:59.167 UTC**, completed public score **22.3048038109**, exact validated score **22.30480381099813**. The earliest next accepted submission is **2026-10-24 06:06:59.167 UTC**, and only a new strictly better validated candidate may qualify. The adopted baseline itself can never be resubmitted by this controller.
 
@@ -31,7 +39,7 @@ Seventeen tests cover immutable binding/snapshot protection, numeric validation 
 
 ## Bounded periodic runner
 
-`run_submission_loop.py` is disabled by default. Root can explicitly enable a 12-hour run:
+`run_submission_loop.py` is disabled by default. After root review and a candidate meeting the current score authorization, root can explicitly enable a 12-hour run:
 
 ```bash
 .venv/bin/python scripts/run_submission_loop.py --enable-submissions --hours 12 --cadence 60 --timeout 600
@@ -47,3 +55,5 @@ There are now 25 targeted controller/runner tests. The added tests cover duplica
 
 
 Current-instance activation: root started runner PID 15213 at approximately 2026-10-24 05:28 UTC with the 12-hour bound, 60-second cadence and 600-second timeout. Startup reconciliation succeeded; the first tick observed no pending intent and waited until the baseline cooldown ends at 06:06:59.167 UTC. This records the observed current process, not a guarantee of survival after a task or machine restart.
+
+Policy regression coverage now includes 31controller/runner tests: exact 22.3 rejection, lower-score acceptance, persistent-policy restart behavior, missing-policy direct-execute blocking before API initialization, policy tightening during output verification, and a raw-below-ceiling/numeric-at-ceiling discrepancy. All 31 pass.
