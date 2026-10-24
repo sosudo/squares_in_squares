@@ -48,13 +48,29 @@ fractions, every source/settings combination, immutable arrays, and the actual
 adapted loader retaining all seven inputs. The frozen notebook is under 1 MB;
 the final source/config review is saved beside its build report before launch.
 
-The remote campaign reached its normal terminal log with 323 trials: 319 fully
-certified outputs and four timeouts at the shared search deadline. No material
-side gain was observed. The original output ZIP transfer was interrupted after
-75 MiB; complete CRC-checked members include all 319 immutable certificate/pose
-pairs and the aggregate archives. A bounded private CPU copying job retrieves
-the remaining native traces without rerunning search or certificates. The final
-native/physical-side/exposure audit is pending that exact-file recovery.
+The remote campaign stopped normally after 1194.554 seconds with four workers:
+323 trials, 319 fully certified outputs, and four timeouts at the shared search
+deadline. Counts for 147/299/335 were 81/81/161; the four settings received
+81/81/81/80 starts. Every original, controlled alternative and incumbent role
+reached all four settings. All 323 actual native input hashes reproduce from
+their recorded parent geometries. The exact certified side minima are
+12.6568542728061082, 17.8228756891781944 and 18.8228756911780941, respectively,
+all slightly wider than current RAW. There is no candidate to merge.
+
+Recovery is closed with an explicit native-trace limitation. Two supported
+whole-output ZIP requests ended prematurely near 75 MiB; the retry used a
+180-second read timeout and failed after 186.77 seconds with
+`ChunkedEncodingError`, not a client read timeout. The small private copying job
+failed before Python at the parent dataset mount. CRC-checked complete ZIP
+members preserve all 319 immutable geometry/certificate pairs and final
+termination/exposure records. Their exact binary64 and raw decimal bindings all
+pass. All 282 complete native trace sets also pass held-box, radius-zero and
+exact native-output decoding checks. The remaining 184 native-return files for
+37 certified stages were not downloaded; two failed-trial input files are also
+listed separately, although all parent input hashes reproduce exactly.
+`artifacts/fq-full-round-cpu-results-v1/bounded_completion_audit.json` records
+the precise scope and missing list. No geometry certificates were repeated, and
+no more recovery requests are planned for this zero-gain campaign.
 
 Two distinct local pilots are complete and frozen:
 

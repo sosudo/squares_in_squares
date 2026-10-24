@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "source_sha256": "1e64d68a48fcf70b168ff462d2cd2cbae07159f37a6ce34386477a0066869263",
+  "source_bytes": 862452,
+  "exact_target_sha256": "6764e4b48e5218b42f4ddaae83c8e38a81168e74c573404c5e3ee961141a06f0",
+  "exact_target_bytes": 34929343,
+  "byte_equal_to_certified_safe_csv": true,
+  "runtime_output_proof_sha256": "096a469dbc445a7936a7745c683abe1654e2bf25bb2e1b586b287e48f14fdb19",
+  "additional_provenance_sha256": "61d8fbec06afca3c5611c9e168fda02fcf0607520e8ac02aa56e47f02a7b5b62",
+  "source_notices_exact": true,
+  "transport_scaling_applied": false,
+  "competition_submission_performed": false
+}

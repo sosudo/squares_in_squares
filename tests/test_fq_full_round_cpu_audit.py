@@ -1,9 +1,12 @@
 """Replay already-completed native held controls; no optimization/certification."""
 import copy
+import hashlib
 import json
 from pathlib import Path
 import sys
+import tempfile
 import unittest
+import zipfile
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'experiments'))
@@ -11,9 +14,25 @@ from analyze_fq_full_round_cpu import audit_native_return
 
 
 class HeldReturnAuditTests(unittest.TestCase):
+    def setUp(self):
+        self.temporary=tempfile.TemporaryDirectory()
+        self.addCleanup(self.temporary.cleanup)
+        self.root=Path(self.temporary.name)
+        fixture=ROOT/'tests/fixtures/fq_full_round_held_native.zip'
+        with zipfile.ZipFile(fixture)as archive:
+            provenance=json.loads(archive.read('provenance.json'))
+            self.assertEqual(set(archive.namelist()),set(provenance['files'])|{'provenance.json'})
+            for name,evidence in provenance['files'].items():
+                value=archive.read(name)
+                self.assertEqual(hashlib.sha256(value).hexdigest(),evidence['sha256'])
+                self.assertEqual(len(value),evidence['bytes'])
+                target=self.root/name
+                self.assertTrue(target.resolve().is_relative_to(self.root.resolve()))
+                target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(value)
+
     def control(self,n=335):
-        root=ROOT/'artifacts/fq-full-round-held-control-v1'
-        path=next(p for p in (root/'strict-stages').glob('*.json')if len_key(json.loads(p.read_text())['key'])==n)
+        root=self.root
+        path=next(p for p in (root/'records').glob('*.json')if len_key(json.loads(p.read_text())['key'])==n)
         record=json.loads(path.read_text());trial=root/'trials'/path.stem
         return record,str(trial)
 

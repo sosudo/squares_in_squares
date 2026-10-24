@@ -213,6 +213,11 @@ def build(args):
         inherited_certificates=parent_export.get('certificates',[]),
         local_geometry_provenance='Existing target portfolio proofs and repository notices; exporter makes no new mathematical discovery.',
         runtime_sha256=sha(RUNTIME.encode()),certificate_policy='Reuse only exact previously certified parent/target CSV bytes.')
+    additional_path=getattr(args,'additional_provenance',None)
+    if additional_path is not None:
+        additional_raw=Path(additional_path).read_bytes()
+        manifest['additional_source_provenance']=json.loads(additional_raw)
+        manifest['additional_source_provenance_sha256']=sha(additional_raw)
     if ns['_line_digest'](new,changed,False)!=manifest['unchanged_rows_sha256']:
         raise ValueError('Unchanged byte sequence differs')
     rebuilt=ns['apply_safe_row_patch'](parent,encoded,manifest)
@@ -241,6 +246,8 @@ def main():
     parser.add_argument('--target',type=Path,default=ROOT/'artifacts/submission-cpu-bottleneck-v2-safe.csv')
     parser.add_argument('--target-report',type=Path,default=ROOT/'artifacts/submission-cpu-bottleneck-v2-safe-official.json')
     parser.add_argument('--target-transport',type=Path,default=ROOT/'artifacts/submission-cpu-bottleneck-v2-safe.transport-validation.json')
+    parser.add_argument('--additional-provenance',type=Path,
+                        help='Public source notices and per-case bindings embedded in the export manifest')
     parser.add_argument('--out',type=Path,required=True)
     parser.add_argument('--slug',default='sos54352/squares-portfolio-5cba3bdac3cf-incremental')
     build(parser.parse_args())

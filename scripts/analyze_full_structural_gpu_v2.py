@@ -2,6 +2,7 @@
 """Audit downloaded v2 aggregates without treating raw GPU stages as certified."""
 import argparse
 from collections import Counter,defaultdict
+from decimal import Decimal
 import hashlib
 import json
 import math
@@ -27,7 +28,7 @@ def analyze(folder):
     assert manifest['variants']==sum(map(len,config['source_order'].values()))==81
     with np.load(out/'artifacts/full_structural_v2_certified.npz',allow_pickle=False)as z:poses={k:z[k]for k in z.files}
     assert digest(out/'artifacts/full_structural_v2_certified.npz')==summary['archive_sha256']
-    records=load('full_structural_v2_records.json');certified_by_stage=defaultdict(set);best={}
+    records=load('full_structural_v2_records.json');certified_by_stage=defaultdict(set);target_box_admissions=Counter();best={}
     for record in records:
         sha=record['geometry_sha256'];p=poses[sha];n=int(record['n']);certificate=record['certificate']
         assert p.shape==(n,3)and p.dtype==np.float64 and np.isfinite(p).all()and geometry_sha(p)==sha
@@ -40,6 +41,9 @@ def analyze(folder):
         assert re.fullmatch('[0-9a-f]{64}',record['raw_bundle_sha256'])
         assert record['raw_input_geometry_sha256']==record['row']['mutation']['input_geometry_sha256']
         key=f"{record['device']}/{n}/{record['stage']}";certified_by_stage[key].add(sha)
+        if record['stage'].startswith('target'):
+            box=config['reference_sides'][str(n)]-record['row']['target_depth']
+            target_box_admissions[key]+=int(Decimal(certificate['independent_raw']['side_upper'])<=Decimal.from_float(box))
         if side<best.get(str(n),{}).get('side',math.inf):
             gain=config['reference_sides'][str(n)]-side
             best[str(n)]=dict(side=side,side_gain=gain,score_gain=gain/math.sqrt(n),geometry_sha256=sha,device=record['device'],stage=record['stage'])
@@ -96,6 +100,7 @@ def analyze(folder):
         seconds=summary['seconds'],failures=summary['failures'],preflight_passed=summary['preflight_passed'],
         devices=devices,actual_pairing=pairing['summary'],certified_geometries=len(poses),
         selected_certified_counts_by_origin_stage={k:len(v)for k,v in certified_by_stage.items()},
+        selected_certified_contracted_box_admissions=dict(target_box_admissions),
         best_certified_by_n=best,provisional_positive_score_gain=positive_gain,
         frozen_baseline_score=config['baseline']['score'],provisional_score=config['baseline']['score']-positive_gain,
         all_raw_candidates_certified=False,competition_submission_performed=False)
