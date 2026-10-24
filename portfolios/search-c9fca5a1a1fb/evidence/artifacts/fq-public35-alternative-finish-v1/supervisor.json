@@ -1,0 +1,11 @@
+{
+  "returncode": 0,
+  "forced": false,
+  "seconds": 168.3030232779929,
+  "whole_seconds": 900,
+  "workers": 2,
+  "cpu_affinity": [
+    0,
+    1
+  ]
+}

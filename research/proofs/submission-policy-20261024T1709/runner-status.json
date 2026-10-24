@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-10-24T17:09:56.668310+00:00",
+  "runner_pid": 101555,
+  "max_seconds": 14400.0,
+  "cadence_seconds": 60.0,
+  "controller_timeout_seconds": 300.0,
+  "event": "stopped",
+  "ticks": 175,
+  "seconds": 10489.608218793,
+  "stop_signal": true,
+  "pending_intent": false,
+  "reconciliation_required": false
+}

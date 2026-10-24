@@ -1,0 +1,36 @@
+{
+  "notebook": "sos54352/squares-sustained-output-extractor",
+  "version": 1,
+  "source_sha256": "75f5a14ff4f1d27e923241f47ff2e9e3369423fc36aab477d63a4b5b94a12e2b",
+  "status": "complete",
+  "files": {
+    "extractor-job-manifest.json": {
+      "sha256": "e8e02b775d402d207334c1dff77d8c8767d602f07b1dec92df341b3da26e0d54",
+      "bytes": 1276,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "extractor-summary.json": {
+      "sha256": "c55773066bf240ef8d46b26cbf41f931d99ede7cc298bfcd27a0cb38bf0eb15d",
+      "bytes": 664,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "extracted/inventory.json": {
+      "sha256": "8661d132a0ed092dfaa2559a42d959931f65f52cce8a7fc547e0db4358cb3a7c",
+      "bytes": 240215,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "extracted/selected-output.zip": {
+      "sha256": "6625715257bdf6ebee63ad87b000f0de919cf2e0686335d1247f3089981e2bb5",
+      "bytes": 124261924,
+      "redirect_host": "www.kaggleusercontent.com"
+    },
+    "extractor-worker.log": {
+      "sha256": "7779ba0412d99be5b72dbd4554e6269cfe591a9ef23186449fd8973fb532e9e1",
+      "bytes": 161,
+      "redirect_host": "www.kaggleusercontent.com"
+    }
+  },
+  "private_source_verified": true,
+  "enable_gpu": false,
+  "elapsed_seconds": 11.080614956998033
+}

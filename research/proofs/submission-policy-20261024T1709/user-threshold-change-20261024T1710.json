@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-10-24T17:09:56.667848+00:00",
+  "user_instruction": "Do not submit again until 22.23x range; pursue larger gains aggressively.",
+  "new_score_ceiling": "22.24",
+  "strictly_below": true,
+  "runner_pid_signalled": 101555,
+  "last_accepted_submission": 57601047,
+  "previous_policy": {
+    "submission_score_must_be_strictly_below": "22.3",
+    "strict_improvement_required": true,
+    "minimum_interval_seconds": 3600,
+    "reason": "User instruction: no more submissions until the 22.2x range; better scores also qualify."
+  }
+}

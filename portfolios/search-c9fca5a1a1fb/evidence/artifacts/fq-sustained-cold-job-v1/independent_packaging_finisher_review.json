@@ -1,0 +1,44 @@
+{
+  "status": "GREEN_packaging_and_native_finisher_delta",
+  "source_sha256": "dc6950e858285433d1975f537431e375bae95584ab314807a3ae08b79baa0451",
+  "source_bytes": 976585,
+  "payload_hashes_checked": 164,
+  "byte_identical_parent_payloads": 147,
+  "removed_inactive_data": [
+    "cold-config.json",
+    "cold-inputs.npz",
+    "cold-input-proof.json"
+  ],
+  "new_sources": {
+    "experiments/fq_sustained_cold_pilot.py": "5b06d48ccac0c9fb1828d80793ddaedd3cb67e8bf4b66f3925b7633d46634c19",
+    "experiments/fq_sustained_hop_finish.py": "e4dd34a61e8d03d512e4ecb29cfdc0bba5ed9dc2a71e898742384cbe4db0387e"
+  },
+  "builder_sha256": "7d6188ba2332c6246bb7daa36828691db5bb040aa837e1efb53d2cb17442d61e",
+  "local_import_review_sha256": "7064d29174ca3a3524c87d94dd32bc4e3bd1b7008ec756ebc5f43fd4ce14dddd",
+  "input_sha256": "6469ecb23f43a3fc6e59341501cf59b8ad857cda8d2ea8d51d2d7575bd6c3054",
+  "input_proof_sha256": "b3c79f03b890f2d3aa5dfd9a5975ef96f9eed75374b5d794dd77b1fa84fd1cb5",
+  "native_finisher_review": [
+    "Hash-bound cold17f0 loader/selector with explicit twelve-case inventory and supported batches; final parent requires64.",
+    "Only one aab5 native function expression changes: both contraction bands use seed9710000, matching original controls; no solver options or geometry gates change.",
+    "Per-case four fixed selected BEST slots preserve source/member/index links; native60+gate8; all valid worse outputs retained; no adaptive crosscase retry.",
+    "Isolated proxy and child initializer avoid mutation of legacy numerical globals."
+  ],
+  "packaging_review": [
+    "All164 exact payload hashes checked;147/150 old source/native/license files identical, only3 inactive root fixtures removed.",
+    "Only entrypoint,3570 worker wait and3595 parent alarm change in original supervisor.",
+    "Exact twelve-case/24-array current77072 input inventory, preserved evidence/control/occupancy pins and all inherited notices.",
+    "One hour bound and two fixed device queues; no internet/input attachment, no competition submission."
+  ],
+  "tests": {
+    "passed": 7,
+    "native_optimizer_executed": false,
+    "scope": "Three actual-fork mocked finisher tests plus four exact-fixture/policy/tamper packaging tests.",
+    "source_hashes": {
+      "test_fq_sustained_hop_finish.py": "72d7cdad6563bd11c5dea16c1248cfa44db732fa528ce74cf77500925b530f8a",
+      "test_fq_sustained_job.py": "52f3fed8d9e72a95112429a909f25b79d6c462a5737c26f00aca9603ee540782"
+    }
+  },
+  "driver_schedule_review": "Owned separately by exact_candidates; this receipt does not replace its final driver review.",
+  "actual_device_gates": "Still mandatory for each case before that case search; no actual CUDA success claimed by this source review.",
+  "launch_by_reviewer": false
+}

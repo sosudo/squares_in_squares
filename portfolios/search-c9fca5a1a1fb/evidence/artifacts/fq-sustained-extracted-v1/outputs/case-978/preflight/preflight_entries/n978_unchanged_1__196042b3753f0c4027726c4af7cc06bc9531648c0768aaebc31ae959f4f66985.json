@@ -1,0 +1,43 @@
+{
+  "geometry_sha256": "196042b3753f0c4027726c4af7cc06bc9531648c0768aaebc31ae959f4f66985",
+  "certificate": {
+    "valid": true,
+    "shared_official_gate": {
+      "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+      "raw_reason": "ok",
+      "roundtrip_reason": "ok",
+      "raw_side": "31.77951701556663968527158873802588891885472584173118",
+      "roundtrip_side": "31.77951701556664279527158873802588891885472584173118",
+      "valid": true
+    },
+    "ordinary_pandas_official_reason": "ok",
+    "ordinary_pandas_official_side": "31.77951701556664277527158873807588891885448139516477",
+    "independent_raw": {
+      "n": 978,
+      "valid": true,
+      "side_lower": "31.779517015566639685271588738025888918854725841731116201440617",
+      "side_upper": "31.779517015566639685271588738025888918854725841731244494146702",
+      "score_lower": "0.016196898613263993837194085600746844205251433573834821750502",
+      "score_upper": "0.016196898613263993837194085600746844205251433573842840044633",
+      "interval_pairs": 850,
+      "exact_pairs": 0
+    },
+    "independent_roundtrip": {
+      "n": 978,
+      "valid": true,
+      "side_lower": "31.779517015566642775271588738075888918854481395164720333363182",
+      "side_upper": "31.779517015566642775271588738075888918854481395164848626069267",
+      "score_lower": "0.016196898613264092644498651524100630584100754223302352532777",
+      "score_upper": "0.016196898613264092644498651524100630584100754223310370826908",
+      "interval_pairs": 850,
+      "exact_pairs": 0
+    },
+    "raw_csv_sha256": "94751f842b1c1189b43e12e6c1fd459fe6cb9deaab490593bdee181ed2fc6cf1",
+    "ordinary_pandas_csv_sha256": "dbd2f89cc804ef369c4f724761b13f123aac597a04205656b19f2f183ebb1db6"
+  },
+  "provenance": {
+    "control": "unchanged_full_seed",
+    "source_geometry_sha256": "3a975aad5a708ce8c1890eb54daf5689235f0467c0154cd64a35f81270e09e95"
+  },
+  "npz_sha256": "a4754b0bc21598a1d036bf8aecc5ce22996ab08998dcc9c8ef5d0bf73dbc9aa6"
+}

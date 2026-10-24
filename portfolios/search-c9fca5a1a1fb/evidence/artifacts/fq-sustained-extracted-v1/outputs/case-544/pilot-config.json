@@ -1,0 +1,17 @@
+{
+  "n": 544,
+  "inputs_sha256": "750a5f5a48eed84ad4aa97369237a955c873b3855fd82e11339dd10b7364da2f",
+  "exploratory_sources": [
+    "reference_544"
+  ],
+  "arrays": {
+    "reference_544": {
+      "shape": [
+        544,
+        3
+      ],
+      "dtype": "<f8",
+      "sha256": "d6a1e96eb1c36206c0ccf296eb7c0db2d5506946f526f5206887212eecc810b6"
+    }
+  }
+}

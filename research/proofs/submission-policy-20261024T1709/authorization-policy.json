@@ -1,0 +1,6 @@
+{
+  "submission_score_must_be_strictly_below": "22.24",
+  "strict_improvement_required": true,
+  "minimum_interval_seconds": 3600,
+  "reason": "User 2026-10-24: do not submit again until the 22.23x range; strict improvement and one-hour spacing remain required."
+}

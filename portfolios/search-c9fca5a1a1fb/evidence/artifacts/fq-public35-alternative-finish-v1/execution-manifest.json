@@ -1,0 +1,45 @@
+{
+  "input_manifest_sha256": "7a6a403ba514258f84b6753ee56a25948e85b76f9888ab678ff9d8745473d265",
+  "input_sha256": "350a35e27a6cd2920127bf0e2d2292b5a80de8a2d173190466f6c928d8920f81",
+  "source_hashes": {
+    "official_metric_v17.py": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+    "generated-trial.py": "9b811e94a736936c83d8121bc62e1140a6b9d3cf6772ab557567014a67ed8ba0",
+    "score_official.py": "a6b0877295aa68940b4e32d9681a8f8d6a2e350de80c1b1f5aa54cd44e88d6ba",
+    "LICENSE": "c51886c0f7e6724a7d89fc22cb237a1688ba1bbff04cb21a13b8e1a01fb15578",
+    "validate_submission.py": "a9db77693e2fb093dcfdbbbfbd913f9420ed0a661ae0eeb8076362c0a8cbae4b",
+    "fq_restart_hop_finish.py": "aab5ea32adc59fe26d1379879f8d4efc53cd1c157b6a02269c7d1dc9e400f543",
+    "fq_public35_reference_finish.py": "6c56fa97513e53642ef360fe914f6700dd086dd1eba211a66097b9b71d5e149a",
+    "compose_gadgets.py": "a8b1df4f9474425d434a44914a73d56703dfc485a79acb57d7d0a3d6e4a24568",
+    "fq_active_pilot.py": "cc916fe5bc0e58a4cdfdeb6e4f498061522a2ae44cd6443fdffc1f485eb3db33",
+    "fq_variant_campaign.py": "a6cc4f2b41f78350fd52fa5d8c29a44152791322000fbb007c7fea85ad8ed825",
+    "fq_public35_alternative_finish.py": "32d62da2670880e7267a8d78922a8acf6ff18e2798e9615d6994c5848c7ea61b",
+    "fq_capacity_probe.py": "35a750d6c5aa90f661b8e0e3491e11284f04f592cb320ae0112654c7dddfedd5",
+    "recover_broad_native_returns.py": "b9f66ac28b2970f729fdb2be2206c2ffc0cca664bb9389b61dd1b5628adfe816"
+  },
+  "parent_source_sha256": "6c56fa97513e53642ef360fe914f6700dd086dd1eba211a66097b9b71d5e149a",
+  "numerical_trial_sha256": "aab5ea32adc59fe26d1379879f8d4efc53cd1c157b6a02269c7d1dc9e400f543",
+  "binary_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+  "options": [
+    "--loosen",
+    "1",
+    "--outer",
+    "45",
+    "--pit",
+    "100",
+    "--flip-top",
+    "16"
+  ],
+  "seed": 9710000,
+  "workers": 2,
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "work_seconds": 880,
+  "whole_seconds": 900,
+  "native_seconds": 60,
+  "certificate_seconds": 8,
+  "no_gpu": true,
+  "no_submission": true,
+  "no_canonical_mutation": true
+}

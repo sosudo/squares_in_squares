@@ -1,0 +1,43 @@
+{
+  "geometry_sha256": "498594427a912d47ec0aedf80fbc1ed32ce986a77058c16a3e52595a206c35ff",
+  "certificate": {
+    "valid": true,
+    "shared_official_gate": {
+      "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+      "raw_reason": "ok",
+      "roundtrip_reason": "ok",
+      "raw_side": "25.58378224703633301558064355807091835075698054208225",
+      "roundtrip_side": "25.58378224703633312558064355807091835075698054208225",
+      "valid": true
+    },
+    "ordinary_pandas_official_reason": "ok",
+    "ordinary_pandas_official_side": "25.58378224703633308558064355802091835075736920422027",
+    "independent_raw": {
+      "n": 629,
+      "valid": true,
+      "side_lower": "25.583782247036333015580643558070918350756980542082184558841101",
+      "side_upper": "25.583782247036333015580643558070918350756980542082312851547187",
+      "score_lower": "0.020092201063483688156550638573117598748507821724538104378901",
+      "score_upper": "0.020092201063483688156550638573117598748507821724548795437742",
+      "interval_pairs": 198,
+      "exact_pairs": 0
+    },
+    "independent_roundtrip": {
+      "n": 629,
+      "valid": true,
+      "side_lower": "25.583782247036333085580643558020918350757369204220187868025815",
+      "side_upper": "25.583782247036333085580643558020918350757369204220316160731900",
+      "score_lower": "0.020092201063483690947633418472273965531386225261690336028869",
+      "score_upper": "0.020092201063483690947633418472273965531386225261698354323000",
+      "interval_pairs": 198,
+      "exact_pairs": 0
+    },
+    "raw_csv_sha256": "dd9ace47abecec3408d3de27bb3e873ea4f49558fc20de1acb8e6a105c3bee50",
+    "ordinary_pandas_csv_sha256": "f75ad2c95316dbf5116ec78f2fc9b9edd600781b46cda1af721533c8a7d95605"
+  },
+  "provenance": {
+    "control": "unchanged_full_seed",
+    "source_geometry_sha256": "56d589cf79353d5cc07067fbce6f0b0a971ffbcfdbaeff82397f472f9043d076"
+  },
+  "npz_sha256": "0026e0ed80a443221bd77962f2e63fd18ad73b391cff914281608a758f4ad245"
+}

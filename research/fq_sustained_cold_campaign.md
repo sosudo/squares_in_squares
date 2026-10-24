@@ -105,3 +105,63 @@ A separate read-only lossless ZIPlevel1 probe saved only11.4–11.9% on actual
 concatenated packets, adding0.261–0.388seconds compression versus0.008seconds
 stored serialization. The frozen job therefore retains the measured, reviewed
 ZIP_STORED path; no numerical or storage-method revision was launched.
+
+## Completed run and exact output audit
+
+The exact private version completed at17:03:51UTC. Its supervisor exited0
+without a forced phase or timeout after2467.908seconds (41.13minutes).
+All12 actual-size B64 controls passed, all48 fixed native finishes returned
+fully certified geometry, and the48 certified preflight poses were also
+preserved. The campaign produced1350 completed packets:12 initialization
+packets and1338 mutation rounds, totaling86400 chain quenches including
+initialization (85632 mutation proposals).
+
+Committed search exposure was352.045–357.515seconds percase, not the full
+planned360. All12 cases reached cooled decisions; their first cooled commits
+occurred261.799–265.001seconds into their respective initialized epochs.
+The audit derives phase from the saved decision timestamp and epoch deadline,
+and checks event/index coverage. It checks every terminal packet body and all
+its array hashes; earlier packet bodies remain bound by the original index
+and were deliberately not downloaded. There were no pending packets.
+
+Every case paused its hot phase at the predeclared storage reserve. Pauses
+were11.623–43.114seconds percase, summing356.817 case-seconds. The job retained
+8,148,494,035bytes, below the12GiB global cap; no global storage stop occurred.
+Thus a future exact packet codec can address measured idle time, although
+these results do not establish how much additional search would improve score.
+The running job's serializer was never changed.
+
+A separate reviewed private CPU-only extractor copied1183 whitelisted files
+(206,770,644 uncompressed bytes) into a124,261,924-byte ZIP. It retained all
+48 native slots, all preflight evidence, actual input/config files, and each
+case's exact terminal packet. Its separate source/version and parent manifest,
+config, source, completion and file hashes are recorded explicitly; the CPU
+receipt is not represented as a direct GPU download. No optimization or new
+geometry certification was performed by extraction or analysis.
+
+Five candidates strictly improve current RAW051bbbe869bd after comparing
+the worst of their saved official/ordinary-pandas/interval side bounds with
+the current independent lower bounds:
+
+| n | Certified side | Conservative score gain | Selected cut / state |
+|---|---:|---:|---|
+|411|20.79203459886416359|0.0001608318291463|0.002 / coarse-diverse BEST|
+|462|21.96403508542722889|0.0000615590997944|0.002 / lowest-energy BEST|
+|544|23.82380061366106752|0.0000061929245080|0.002 / coarse-diverse BEST|
+|641|25.81607653837555684|0.0001350849770239|0.0005 / lowest-energy BEST|
+|742|27.75861547071880332|0.0000371163413165|0.002 / coarse-diverse BEST|
+
+The conservative combined gain is0.0004007851717891. This is the full
+GPU-proposal-plus-native-finish pipeline result; coarse histogram diversity
+is not a proof of a distinct optimizer basin or a causal ablation. No benefit
+is claimed for the seven non-improving cases. The output handoff is
+`artifacts/fq-sustained-analysis-v1/candidates.json` (cc8398494089f5cc…),
+with all96 certified poses in `certified.npz` (c2821f58c3dd4586…). Root owns
+canonical merging, full portfolio gates, durable export and submissions.
+
+The read-only analyzer also passed an actual n411 replay after removing final
+aggregate finish publications, recovering all individual certificates without
+changing any geometry. A separate one-event publication-lag fixture recovered
+its last event from the exact terminal packet. Both controls retained the same
+eight certified poses and exact bindings. Evidence is
+`artifacts/fq-sustained-analyzer-review-v1/actual-n411-publication-controls.json`.

@@ -1,0 +1,18 @@
+{
+  "status": "local_exact_replay_passed_pending_independent_review",
+  "manifest_sha256": "336d74302a52df481ad786773a2cc76e367a50a8080c368c003d576ce8b63b03",
+  "target_hashes": {
+    "raw": "9d18b33ca0efb4c55c0afac2c159f413676d76aae37fb3cbcc6ec93a43975396",
+    "safe": "c9fca5a1a1fbf55bba5e3ed093cc5412b92845fb01809c3fbc61362bb01d3097",
+    "roundtrip": "fc5c2882e8443fb51d2c9f3f681494d7f5e418032cadbfa1669983fb8be2234e"
+  },
+  "parent_sha256": "f1b5c18e95fa637e93795102f892a160b972ad1fa13789b2e7d737b5b44a1494",
+  "wrong_parent_rejected_for_all_targets": true,
+  "certified_pose_count": 144,
+  "evidence_files": 1555,
+  "total_checkpoint_bytes": 28400163,
+  "seconds": 18.383596380997915,
+  "no_network": true,
+  "no_remote_export": true,
+  "no_submission": true
+}

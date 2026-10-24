@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "trials": 24,
+  "certified": 24,
+  "improved_cases": [
+    "917",
+    "637",
+    "588",
+    "458",
+    "692",
+    "980",
+    "743",
+    "996",
+    "856",
+    "638",
+    "982",
+    "858",
+    "644",
+    "696",
+    "697"
+  ],
+  "seconds": 168.26918365499296,
+  "canonical_raw_sha256": "051bbbe869bd4c2c1d70c42b6bf110f8414253d9537338442c30c88c1626715d",
+  "results_sha256": "2e2eac10b0de71aca6e0dc57655940a4112e2dcf043c98afe7c5dbf6f63c08a3",
+  "certified_archive_sha256": "4f84bd51f7c6d73d785b6aaebab0570b99805312c4c5d5d52877ea4ad50fc0e5",
+  "candidates_sha256": "2802350450ad7039c34fd812c00fa39b159ba0e46f49941cb7c1332ffcc3002c",
+  "execution_manifest_sha256": "9c7071a57ce45f42ca59418ddcca8c6878cba8a2215f4382df0c74097cf2c90f",
+  "no_submission": true,
+  "no_canonical_mutation": true
+}

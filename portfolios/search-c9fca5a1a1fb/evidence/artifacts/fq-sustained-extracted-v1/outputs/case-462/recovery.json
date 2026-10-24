@@ -1,0 +1,20 @@
+{
+  "packets": 129,
+  "completed": 129,
+  "pending": 0,
+  "total_bytes": 657336887,
+  "raw_index_sha256": "81e30c59dd6c1f8ffa037ef3c77f5a9f99a0c08c729e2e5df9e5efac31aafb10",
+  "recovery_scope": "Terminal packet and all its members verified; earlier raw files remain SHA-bound by index and are not reread.",
+  "recovered_final_archive_sha256": "95eff878e7afb6022f4e82ba8df94010473f75d02a62c28abf00bdb7fed37dbf",
+  "last_completed_packet": {
+    "index": 128,
+    "path": "raw-hop/packet-0128.npz",
+    "sha256": "35cf3974db6f25bb401815928902fd7fac4994258a66a8afd6ffd2d1e654e480",
+    "bytes": 5095141,
+    "status": "completed",
+    "verified": false
+  },
+  "rounds_completed": 128,
+  "recovery_status": "complete",
+  "recovery_seconds": 0.07376308199991399
+}

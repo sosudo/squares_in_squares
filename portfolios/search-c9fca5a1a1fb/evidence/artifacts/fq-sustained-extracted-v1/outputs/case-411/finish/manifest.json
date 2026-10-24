@@ -1,0 +1,246 @@
+{
+  "case_config": {
+    "n": 411,
+    "reference_side": "20.79529516423792097178870530291102548221800674847121",
+    "source_key": "reference_411",
+    "source_geometry_sha256": "42fe422059a66a7329cdf3408fbf0d75871de6229f76378e923086ab5a349261",
+    "binary_path": "/kaggle/working/bin/fq",
+    "device": 0,
+    "batch_size": 64,
+    "baseline_sha256": "77072a68f862fc166264825aa19a1eb867692bf280ca531965499fab2e6baea0"
+  },
+  "deadline_monotonic": 2831.76868002,
+  "workers": 2,
+  "max_slots": 4,
+  "native_seconds_cap": 60,
+  "certificate_seconds_cap": 8,
+  "options": [
+    "--loosen",
+    "1",
+    "--outer",
+    "45",
+    "--pit",
+    "100",
+    "--flip-top",
+    "16"
+  ],
+  "seed_policy": "Native seed9710000 for BOTH cuts and all selected states, matching the single original control; no adaptive allocation.",
+  "fixed_slots": [
+    {
+      "slot": 0,
+      "arm": "cold",
+      "delta": 0.0005,
+      "kind": "lowest_best_energy",
+      "chain": 2,
+      "status": "selected",
+      "design": {
+        "chain": 2,
+        "arm": "cold",
+        "n": 411,
+        "delta": 0.0005,
+        "side": 20.79479516423792,
+        "temperature": 0.3,
+        "amplitude": 1.0,
+        "source_key": "reference_411",
+        "case_seed": 116240412,
+        "stream_chain": 2,
+        "seed_recipe": "SeedSequence([case_seed,round,chain,41]); acceptance domain2718"
+      },
+      "committed_best_energy": 0.0,
+      "current_energy_not_selected": 0.0,
+      "fixed_box": 20.79479516423792,
+      "selected_geometry_sha256": "fc72e1520881ee73ba8eba812bfa4d76a450f70a9552ec7312bdcbebbd3e194a",
+      "last_completed_packet_sha256": "e6748a19cecaf549120c2bbd462eaad97468a53f5be4820dd1dc97f9f6085673",
+      "selected_before_submission": {
+        "path": "/kaggle/working/case-411/finish/slot-00-selected.npz",
+        "sha256": "51e0df57717bbedc1e3f1f66455b70fa7e2ba630721282226842827a2cb57cb4"
+      }
+    },
+    {
+      "slot": 1,
+      "arm": "cold",
+      "delta": 0.0005,
+      "kind": "coarse_diverse_best",
+      "chain": 22,
+      "status": "selected",
+      "design": {
+        "chain": 22,
+        "arm": "cold",
+        "n": 411,
+        "delta": 0.0005,
+        "side": 20.79479516423792,
+        "temperature": 0.3,
+        "amplitude": 1.0,
+        "source_key": "reference_411",
+        "case_seed": 116240412,
+        "stream_chain": 22,
+        "seed_recipe": "SeedSequence([case_seed,round,chain,41]); acceptance domain2718"
+      },
+      "near_best_energy_threshold": 1e-08,
+      "eligible_alternatives": [
+        5,
+        15,
+        16,
+        22,
+        11
+      ],
+      "histogram_distance": 0.015768225543571435,
+      "exact_duplicate_alternatives_excluded": [],
+      "positive_histogram_diversity": true,
+      "fallback_next_lowest_energy": false,
+      "diversity_claim": "Positive coarse D4 spatial/angle histogram distance only; not topology or basin proof.",
+      "committed_best_energy": 0.0,
+      "current_energy_not_selected": 0.0,
+      "fixed_box": 20.79479516423792,
+      "selected_geometry_sha256": "5b877abdbce24206b0f5b2fd73ef53e6c09694a6bb05b567e42b4015be19a4a1",
+      "last_completed_packet_sha256": "e6748a19cecaf549120c2bbd462eaad97468a53f5be4820dd1dc97f9f6085673",
+      "selected_before_submission": {
+        "path": "/kaggle/working/case-411/finish/slot-01-selected.npz",
+        "sha256": "4138b083d4a9710a964b4f92e856a1c648491f614a0b1cb51d1c9acb1d16cf0b"
+      }
+    },
+    {
+      "slot": 2,
+      "arm": "cold",
+      "delta": 0.002,
+      "kind": "lowest_best_energy",
+      "chain": 36,
+      "status": "selected",
+      "design": {
+        "chain": 36,
+        "arm": "cold",
+        "n": 411,
+        "delta": 0.002,
+        "side": 20.79329516423792,
+        "temperature": 0.3,
+        "amplitude": 1.0,
+        "source_key": "reference_411",
+        "case_seed": 116240412,
+        "stream_chain": 36,
+        "seed_recipe": "SeedSequence([case_seed,round,chain,41]); acceptance domain2718"
+      },
+      "committed_best_energy": 0.0,
+      "current_energy_not_selected": 0.0,
+      "fixed_box": 20.79329516423792,
+      "selected_geometry_sha256": "4102d790cfd709fc16e262454a201df3e50ee8a419d03ada081604e80beb221d",
+      "last_completed_packet_sha256": "e6748a19cecaf549120c2bbd462eaad97468a53f5be4820dd1dc97f9f6085673",
+      "selected_before_submission": {
+        "path": "/kaggle/working/case-411/finish/slot-02-selected.npz",
+        "sha256": "35f98370cf62882be311686abee2e9d2369af2ad62e58deec95927841907752f"
+      }
+    },
+    {
+      "slot": 3,
+      "arm": "cold",
+      "delta": 0.002,
+      "kind": "coarse_diverse_best",
+      "chain": 57,
+      "status": "selected",
+      "design": {
+        "chain": 57,
+        "arm": "cold",
+        "n": 411,
+        "delta": 0.002,
+        "side": 20.79329516423792,
+        "temperature": 0.3,
+        "amplitude": 1.5,
+        "source_key": "reference_411",
+        "case_seed": 116240412,
+        "stream_chain": 57,
+        "seed_recipe": "SeedSequence([case_seed,round,chain,41]); acceptance domain2718"
+      },
+      "near_best_energy_threshold": 1e-08,
+      "eligible_alternatives": [
+        46,
+        56,
+        57,
+        61,
+        40
+      ],
+      "histogram_distance": 0.014187230887701461,
+      "exact_duplicate_alternatives_excluded": [],
+      "positive_histogram_diversity": true,
+      "fallback_next_lowest_energy": false,
+      "diversity_claim": "Positive coarse D4 spatial/angle histogram distance only; not topology or basin proof.",
+      "committed_best_energy": 0.0,
+      "current_energy_not_selected": 0.0,
+      "fixed_box": 20.79329516423792,
+      "selected_geometry_sha256": "615dc228e60ea904583dca40b626d861627c40f866c6e7427310551c2912a0aa",
+      "last_completed_packet_sha256": "e6748a19cecaf549120c2bbd462eaad97468a53f5be4820dd1dc97f9f6085673",
+      "selected_before_submission": {
+        "path": "/kaggle/working/case-411/finish/slot-03-selected.npz",
+        "sha256": "3bf35472ead22c9de997891caf570e9a31f53d070d0a48710574f956dfc59476"
+      }
+    }
+  ],
+  "final_archive_sha256": "e1edf0c2f23d26b53189b4ab9499f9bf43c618bf513f398a153d68737803fc4d",
+  "design_sha256": "74d2c168b2dfefea541670dcbaefb0c6562db5bf82674b170c1bf6bbdf02cee0",
+  "index_sha256": "3cf3a151efe962009354a35427b3bf101459796a82d44ce8e37ff4167260682d",
+  "last_completed_packet": {
+    "index": 147,
+    "path": "raw-hop/packet-0147.npz",
+    "sha256": "e6748a19cecaf549120c2bbd462eaad97468a53f5be4820dd1dc97f9f6085673",
+    "bytes": 4547223,
+    "status": "completed",
+    "verified": false,
+    "resolved_path": "/kaggle/working/case-411/raw-hop/packet-0147.npz"
+  },
+  "frozen_terminal_helper_sha256": "aab5ea32adc59fe26d1379879f8d4efc53cd1c157b6a02269c7d1dc9e400f543",
+  "source_sha256": "e4dd34a61e8d03d512e4ecb29cfdc0bba5ed9dc2a71e898742384cbe4db0387e",
+  "binary_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+  "derivation": {
+    "original_cold_helper_sha256": "17f0fdf314fbe652f193e76b4101c1e14e688a0632642bd7b180f695959aafb9",
+    "original_terminal_helper_sha256": "aab5ea32adc59fe26d1379879f8d4efc53cd1c157b6a02269c7d1dc9e400f543",
+    "original_terminal_function_sha256": "55171b98475e1da89c57d9a1444030dd649b2e17f47b8f1d0d88072fa39c5619",
+    "seeded_terminal_function_sha256": "086712eee464dd84440a3b711ef788d2783880651b8d8564c5394acd1386cb16",
+    "terminal_function_changes": 1,
+    "terminal_change": "Only seedexpression\u2192constant9710000; no numerical options or gates changed.",
+    "selection_loader_changes": [
+      "isolated_terminal_proxy",
+      "two_authorized_cuts",
+      "twelve_case_guard",
+      "diagnostic_selected_batch_guard",
+      "half_batch_per_cut",
+      "public_wrapper_binding",
+      "matched_control_seed_metadata",
+      "derivation_metadata"
+    ],
+    "generated_finisher_sha256": "26b1f66be518056499af0f04ed2e9eb85bfc9822cd937d0944557df4a4f25c6c",
+    "cuts": [
+      0.0005,
+      0.002
+    ],
+    "supported_cases": [
+      341,
+      411,
+      412,
+      462,
+      541,
+      544,
+      591,
+      629,
+      641,
+      742,
+      744,
+      978
+    ],
+    "supported_batches": [
+      32,
+      64,
+      128
+    ]
+  },
+  "batch_size": 64,
+  "helper_hashes": {
+    "/kaggle/working/experiments/fq_restart_hop_finish.py": "aab5ea32adc59fe26d1379879f8d4efc53cd1c157b6a02269c7d1dc9e400f543",
+    "/kaggle/working/experiments/fq_active_pilot.py": "cc916fe5bc0e58a4cdfdeb6e4f498061522a2ae44cd6443fdffc1f485eb3db33",
+    "/kaggle/working/experiments/fq_capacity_probe.py": "35a750d6c5aa90f661b8e0e3491e11284f04f592cb320ae0112654c7dddfedd5",
+    "/kaggle/working/experiments/fq_variant_campaign.py": "a6cc4f2b41f78350fd52fa5d8c29a44152791322000fbb007c7fea85ad8ed825",
+    "/kaggle/working/experiments/compose_gadgets.py": "a8b1df4f9474425d434a44914a73d56703dfc485a79acb57d7d0a3d6e4a24568",
+    "/kaggle/working/scripts/score_official.py": "a6b0877295aa68940b4e32d9681a8f8d6a2e350de80c1b1f5aa54cd44e88d6ba",
+    "/kaggle/working/scripts/validate_submission.py": "a9db77693e2fb093dcfdbbbfbd913f9420ed0a661ae0eeb8076362c0a8cbae4b",
+    "/kaggle/working/research/official_metric_v17.py": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733"
+  },
+  "selection": "Perbox minimumBESTenergy plus nearbest-band maximum coarse D4 histogram distance; explicit nextlowest fallback. No topology claim.",
+  "input_status": "UNVERIFIED exact committed BEST arrays; physical energy is not feasibility."
+}

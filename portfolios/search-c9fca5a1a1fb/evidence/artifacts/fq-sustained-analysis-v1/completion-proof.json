@@ -1,0 +1,41 @@
+{
+  "status": "complete_exact_artifact_and_independent_winner_audit",
+  "parent_notebook": "sos54352/squares-sustained-cold-12case/1",
+  "parent_source_sha256": "dc6950e858285433d1975f537431e375bae95584ab314807a3ae08b79baa0451",
+  "extractor_notebook": "sos54352/squares-sustained-output-extractor/1",
+  "extractor_source_sha256": "75f5a14ff4f1d27e923241f47ff2e9e3369423fc36aab477d63a4b5b94a12e2b",
+  "files": {
+    "artifacts/fq-sustained-cold-job-v1/completion-status-proof.json": "f83b6e1c8602565a9b2c4b3e5ce5f37aa4d1886f0670863f2500e9bc7fca3b46",
+    "artifacts/fq-sustained-cold-job-v1/remote-source-proof.json": "8eb2c94fbc12b9c0bf715c468e9eaad608b082ff2f0ce61068a33b81321c722e",
+    "artifacts/fq-sustained-output-extract-job-v1/independent_source_review.json": "10597c017df9d5ec24c3d526ca613bd67634ed0c8d3d6d14a82e22d2e2a0e668",
+    "artifacts/fq-sustained-output-extract-job-v1/remote-source-proof.json": "58b712bbed2b5719e45ffb08c43ba4205aa7a82aada17cb069b3f6c215455a51",
+    "artifacts/fq-sustained-extractor-results-v1/download-receipt.json": "35cdadb363b32c3b271d17537cea0c4007615803922d9a261dc9edfeedb0af61",
+    "artifacts/fq-sustained-extracted-v1/extraction-receipt.json": "bf0c86332cb0c9644f1bcdaf4567cb3b33be34b9dd3805ba365a71b3e5afbd26",
+    "artifacts/fq-sustained-analyzer-review-v1/actual-n411-publication-controls.json": "9f4ec54074f2f72be1abb84fc64302db6317546c138d07b32cc439bbc9a61133",
+    "artifacts/fq-sustained-five-independent-review-v1/review.json": "8679fa018b5d6d74c00383c40a5b0159b9fe3af024705f5dd221e8b211a9a82c",
+    "experiments/analyze_fq_sustained_cold.py": "8cc8fc1895405aa9a3fe58b69c8d1665b587915f9258ad8297e6211f7bb8db51",
+    "scripts/unpack_fq_sustained_output.py": "c8884c65e2636bef7fae0e76430a68e20d18c37cea0ee7f7678909b18e00c7cd",
+    "artifacts/fq-sustained-analysis-v1/analysis.json": "87696e46a8733767766e317b746e45e4ea7720b2a8ac6a1127089e283b5e02a6",
+    "artifacts/fq-sustained-analysis-v1/candidates.json": "cc8398494089f5ccc5b2272c948bf5eca056e5a371cb272f042027f6dbbad760",
+    "artifacts/fq-sustained-analysis-v1/certified.npz": "c2821f58c3dd45862bc543acb038680710282050cb025725cd8354c93e47a16e",
+    "artifacts/fq-sustained-analysis-v1/bindings.json": "a21f7cfe8172e8d68987bf879c8433b0e571c434762091d5ac3e8aad9e044479",
+    "artifacts/fq-sustained-analysis-v1/handoff-summary.json": "ec5b5271c76b1bffdffb9b9e44dd60644b63caffe5294c7d6fac6b83fece921d"
+  },
+  "extracted_files": 1183,
+  "retained_certified_poses": 96,
+  "certified_native_slots": 48,
+  "improved_cases": [
+    411,
+    462,
+    544,
+    641,
+    742
+  ],
+  "conservative_score_gain": "0.000400785171789113339453154184607855749459132222330567324537184",
+  "comparison_raw_sha256": "051bbbe869bd4c2c1d70c42b6bf110f8414253d9537338442c30c88c1626715d",
+  "no_new_audit_certificates": true,
+  "no_optimizer_in_extractor_or_audit": true,
+  "no_canonical_mutation": true,
+  "no_submission": true,
+  "submission_policy": "User now requires score below22.24; these results are handed off for local merge only."
+}

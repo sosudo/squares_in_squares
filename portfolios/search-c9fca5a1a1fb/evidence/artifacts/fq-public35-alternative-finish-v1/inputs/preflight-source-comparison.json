@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "runner_sha256": "32d62da2670880e7267a8d78922a8acf6ff18e2798e9615d6994c5848c7ea61b",
+  "parent_sha256": "6c56fa97513e53642ef360fe914f6700dd086dd1eba211a66097b9b71d5e149a",
+  "unchanged_numeric_trial_sha256": "aab5ea32adc59fe26d1379879f8d4efc53cd1c157b6a02269c7d1dc9e400f543",
+  "generated_source_sha256": "9b811e94a736936c83d8121bc62e1140a6b9d3cf6772ab557567014a67ed8ba0",
+  "generated_delta": "human-readable input status only",
+  "no_native_or_geometry_gate_executed": true
+}

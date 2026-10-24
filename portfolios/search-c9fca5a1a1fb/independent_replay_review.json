@@ -1,0 +1,50 @@
+{
+  "status": "GREEN_independent_exact_local_checkpoint",
+  "manifest_sha256": "336d74302a52df481ad786773a2cc76e367a50a8080c368c003d576ce8b63b03",
+  "restore_source_sha256": "f91bf9b6023090e8d50c28ef95fbf69377b4d8ad221b44b53435d6be0be24681",
+  "builder_source_sha256": "b4f55785271340fb19d02e73ea81b9e00a8157dacc5051ee0fcbc9f955e9928b",
+  "owner_local_proof_sha256": "5fac44c778c37e208cfa4d9a57905e1c21259aacef07d344775aebd1d0b4bd57",
+  "parent_sha256": "f1b5c18e95fa637e93795102f892a160b972ad1fa13789b2e7d737b5b44a1494",
+  "verified_stored_files": 1560,
+  "verified_original_evidence_files": 1555,
+  "verified_certified_arrays": 144,
+  "target_hashes": {
+    "raw": "9d18b33ca0efb4c55c0afac2c159f413676d76aae37fb3cbcc6ec93a43975396",
+    "safe": "c9fca5a1a1fbf55bba5e3ed093cc5412b92845fb01809c3fbc61362bb01d3097",
+    "roundtrip": "fc5c2882e8443fb51d2c9f3f681494d7f5e418032cadbfa1669983fb8be2234e"
+  },
+  "target_bytes": {
+    "raw": 31123060,
+    "safe": 31987924,
+    "roundtrip": 24652683
+  },
+  "actual_system_python_isolated_cli_seconds": 2.709507018997101,
+  "all_three_actual_target_bytes_exact": true,
+  "wrong_parent_cli_rejected_before_output": true,
+  "existing_different_destination_preserved": true,
+  "per_target_negative_controls": [
+    "raw:wrong_parent",
+    "raw:corrupted_patch",
+    "raw:truncated_patch",
+    "safe:wrong_parent",
+    "safe:corrupted_patch",
+    "safe:truncated_patch",
+    "roundtrip:wrong_parent",
+    "roundtrip:corrupted_patch",
+    "roundtrip:truncated_patch"
+  ],
+  "codec_unit_tests": 3,
+  "codec_test_source_sha256": "e4d206db3160b74a38b5faf0d189d8183e0a01ec33341b13d73709948e26d26d",
+  "supplemental_terminal_reviews": {
+    "independent-fq-public35-alternative-finish-v1.json": "766966579a0305ab72585719e3794966f42ca41716dfecd4b0f8145e033be538",
+    "independent-fq-fresh-current-alm-finish-v1.json": "7ca91d6e8cfc4f26f80ab3db839870177bde0794b2d2d75bff4109d8158b7e98"
+  },
+  "scope": "All RAW/SAFE/roundtrip bytes restored by standalone stdlib copy/literal decoder; full stored and decompressed evidence hashes checked; all144 certified arrays and source/candidate/proof bindings retained. Parent recipe inherited notices referenced by exact committed hashes. Geometry certificates reused, never rerun.",
+  "no_numerical_transform": true,
+  "no_new_certificates": true,
+  "no_optimization": true,
+  "no_network": true,
+  "no_export_or_submission": true,
+  "executed_review_script_sha256": "48802c6662c3c7210b140d388d9ac945433083c9d076256c5be3fff0d77941ea",
+  "executed_review_script": "independent_replay_review.py"
+}

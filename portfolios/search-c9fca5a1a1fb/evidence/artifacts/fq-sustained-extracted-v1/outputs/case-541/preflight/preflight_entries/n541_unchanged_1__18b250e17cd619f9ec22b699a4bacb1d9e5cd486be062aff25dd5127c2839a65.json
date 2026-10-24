@@ -1,0 +1,43 @@
+{
+  "geometry_sha256": "18b250e17cd619f9ec22b699a4bacb1d9e5cd486be062aff25dd5127c2839a65",
+  "certificate": {
+    "valid": true,
+    "shared_official_gate": {
+      "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+      "raw_reason": "ok",
+      "roundtrip_reason": "ok",
+      "raw_side": "23.77817464475871337629850004233863016074923948152337",
+      "roundtrip_side": "23.77817464475871648629850004233863016074923948152337",
+      "valid": true
+    },
+    "ordinary_pandas_official_reason": "ok",
+    "ordinary_pandas_official_side": "23.77817464475871746629850004133863016079387430475534",
+    "independent_raw": {
+      "n": 541,
+      "valid": true,
+      "side_lower": "23.778174644758713376298500042338630160749239481523314138808222",
+      "side_upper": "23.778174644758713376298500042338630160749239481523442431514308",
+      "score_lower": "0.022303576021565570956990032209299553899583729147511161951386",
+      "score_upper": "0.022303576021565570956990032209299553899583729147521853010227",
+      "interval_pairs": 315,
+      "exact_pairs": 0
+    },
+    "independent_roundtrip": {
+      "n": 541,
+      "valid": true,
+      "side_lower": "23.778174644758717466298500041338630160793874304755290885948339",
+      "side_upper": "23.778174644758717466298500041338630160793874304755419178654424",
+      "score_lower": "0.022303576021565746799824412636544727237767218735391938304762",
+      "score_upper": "0.022303576021565746799824412636544727237767218735402629363603",
+      "interval_pairs": 315,
+      "exact_pairs": 0
+    },
+    "raw_csv_sha256": "328d44586f851b00a0f466efe9671813dd10653371324c69c3b0b6086972d7b3",
+    "ordinary_pandas_csv_sha256": "aad7f99ba033006fac33aebdfbd45952b1a871cb4846bbd5a0ca9b1b5c543fa3"
+  },
+  "provenance": {
+    "control": "unchanged_full_seed",
+    "source_geometry_sha256": "b11cdfa75712a7b70d6e00ff09e4fad121cbf1353e8efcfffa69d0e83f7a825a"
+  },
+  "npz_sha256": "6e3be78a00271e2876af07cbdca7666f95f563c93cdcad3898d38fb1219ac834"
+}

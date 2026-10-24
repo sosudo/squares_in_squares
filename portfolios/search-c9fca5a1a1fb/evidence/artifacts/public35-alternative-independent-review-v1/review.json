@@ -1,0 +1,199 @@
+{
+  "status": "GREEN_finite_public35_alternative_native_runner_review",
+  "review_script_sha256": "18c314f1d96964ab826c6f6c5ea2732da4c7bbdb6b23817078bd7163d857b8d1",
+  "runner_sha256": "32d62da2670880e7267a8d78922a8acf6ff18e2798e9615d6994c5848c7ea61b",
+  "input_manifest_sha256": "7a6a403ba514258f84b6753ee56a25948e85b76f9888ab678ff9d8745473d265",
+  "inputs_sha256": "350a35e27a6cd2920127bf0e2d2292b5a80de8a2d173190466f6c928d8920f81",
+  "parent_runner_sha256": "6c56fa97513e53642ef360fe914f6700dd086dd1eba211a66097b9b71d5e149a",
+  "numerical_helper_sha256": "aab5ea32adc59fe26d1379879f8d4efc53cd1c157b6a02269c7d1dc9e400f543",
+  "binary_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+  "baseline_sha256": "051bbbe869bd4c2c1d70c42b6bf110f8414253d9537338442c30c88c1626715d",
+  "selected": [
+    {
+      "n": 698,
+      "key": "public35_698",
+      "geometry_sha256": "26277ecf6dc65e94de7561bc013a2e610d703cfe3b761ddaa7c5d99660521d1c",
+      "native_input_sha256": "3cbd10f702286d01369e4a74df00d6928b5dd6f34abb7bb1a43dc9e7752f0666",
+      "literal_rows_sha256": "2b67f526c5413013effbb7505d50b6eccd27ac2937e4d25758283ba84368c000"
+    },
+    {
+      "n": 752,
+      "key": "public35_752",
+      "geometry_sha256": "8d555d4375be2ee51aaf5a258c396cd6dcd72da9a391a023fb875e08122031c5",
+      "native_input_sha256": "c23e53f8fec0a99699f4a750b1b0c4a514e0ed21123d9783f26d4f6e43a8345a",
+      "literal_rows_sha256": "cd5e7f622ddb15102196fd600e10de8b96ee0db15a56942f08fa7f70dbc07f2a"
+    },
+    {
+      "n": 805,
+      "key": "public35_805",
+      "geometry_sha256": "4fedcc9db3d2e375081bf94332611b92c422ccd88be5d2eb554637e4c26aa409",
+      "native_input_sha256": "b95e06dfcb0fa62db7f716ae9f43965785a1a040af02da378d4ccade0cff6efc",
+      "literal_rows_sha256": "e826e94d359fdff908ff1faddb8d4db5fceeb1458212dd23803b00b488540fe1"
+    },
+    {
+      "n": 917,
+      "key": "public35_917",
+      "geometry_sha256": "f023fe2d5e0ddf797150c6d4796cc461fd03669e19424b995bec471691634fde",
+      "native_input_sha256": "c9a559900bc8a40ae753c6c96f61077f79150cc115528383abd8dc8a0cecc064",
+      "literal_rows_sha256": "bbf167986e3f05ba3cc0da2176d61f18fdf29bfd84a2cc48996c3c11e09895bc"
+    },
+    {
+      "n": 797,
+      "key": "public35_797",
+      "geometry_sha256": "fbc926aaba01c4b639aec127d3b23c5f42aaae33cd55ffdad51e3fb7f0b4529c",
+      "native_input_sha256": "57916c4a2a0f9848c4c67451c2a9d3a3a0f13d013062b30eea4c2b1e1c49b411",
+      "literal_rows_sha256": "470ed9aae7d6ec6a8cf8143a4c161bb714b4cd767d7f9c57f01b139c0370283e"
+    },
+    {
+      "n": 458,
+      "key": "public35_458",
+      "geometry_sha256": "193a8d691e0c5733d8483c17496acef30a9bb64275c994fb8d66f5f69b2ad03a",
+      "native_input_sha256": "5b54b9ae4aeeb36bce67006d40432121f56c2acafc902b8a55a41d0a527190db",
+      "literal_rows_sha256": "82c21c3cd19f8f9f5635a9bf815dac3843f29c086bc4cf47bfebeccda375d457"
+    },
+    {
+      "n": 637,
+      "key": "public35_637",
+      "geometry_sha256": "940f4fba9296445ce2737f06eea6d72342537797495bce3d012e404d7c68f737",
+      "native_input_sha256": "b8f4157292e39bd9e3a94684c126342b2923319ea5752eb3865e7a71a58204c4",
+      "literal_rows_sha256": "3b9ba3fcc3fa4584f1af06755f7a0e2069a42c08c099b939515e7c43f67e50a1"
+    },
+    {
+      "n": 588,
+      "key": "public35_588",
+      "geometry_sha256": "a9f94e588c88b3880313682dac7a0a6214b1e5bcb72a1c8731da3ae70e9ebbdb",
+      "native_input_sha256": "3180b27ab6a06cc498821f857545cdaaf92baf4126928f89af8a8443ed312de9",
+      "literal_rows_sha256": "ec6bd5d55eb0349fc90c66b37ba947b37a16adfe98ee19abde88f268199296e9"
+    },
+    {
+      "n": 743,
+      "key": "public35_743",
+      "geometry_sha256": "9b523e07fb50c12bc2e700ae8e05566d405ff294f1371d0c762dc48d57b18bac",
+      "native_input_sha256": "0339ed88aaaaadf6821f04a3c3e431e53081be74515adacf590392e54471c701",
+      "literal_rows_sha256": "22950b522d63d3312e776a9546de7c2573fc3720d8b061982d6993e0ce5e42b8"
+    },
+    {
+      "n": 692,
+      "key": "public35_692",
+      "geometry_sha256": "1a9d640abbd6d8b4e8488b57b95acb99ac91a21c24f5360edef38feb01ab730e",
+      "native_input_sha256": "d0541aa7f8a17d05587b6471d5cae272913dcee808e2adc6f84f8e627bf740ac",
+      "literal_rows_sha256": "4a6bf313086e5a68cd5cd5c4d1d4d9156f7d94a93ec2e375c32ba921e35937c9"
+    },
+    {
+      "n": 372,
+      "key": "public35_372",
+      "geometry_sha256": "204eaf0c7e67ec8782aa10f502cd53c30bf02ac99c128373ecbf7ba92f9e0fad",
+      "native_input_sha256": "0e69481656285c4bd3bbf942bc14c94480e07c1f15f26cab19ffd58d236c3e1b",
+      "literal_rows_sha256": "4ddc624ee04fa41dd1be8b6f5983a7d8247e3bb0d544060b8c335255adbad7d3"
+    },
+    {
+      "n": 639,
+      "key": "public35_639",
+      "geometry_sha256": "1b7f163a593ad023198363b4d9041a1793878ecb8f49ddb35c54e6e43a02667d",
+      "native_input_sha256": "77b312bf714c750e0b73ea58b986691ed46fa3673a5d08b66fa79266c7e4a9af",
+      "literal_rows_sha256": "5de75b75b9614e732d67833435c1a228f2a5c6a44a06cb8ee35ab757f14c8f7c"
+    },
+    {
+      "n": 980,
+      "key": "public35_980",
+      "geometry_sha256": "852f79425ddca78a3c2476cdd6cee03503ed2e460288ec28657d54a2fc345c77",
+      "native_input_sha256": "28db821a417c7c965ee06f6f9fedbc608df84ad678d13d4d18033f9b8001adef",
+      "literal_rows_sha256": "64940806bb125c927b2a0fe5d77c25fd6801db4a6322a9c352e0282447be26e5"
+    },
+    {
+      "n": 593,
+      "key": "public35_593",
+      "geometry_sha256": "e3375389430e3b69085783e346180d74d0848d056e9835f967a995e4bbd29081",
+      "native_input_sha256": "b556f0ea757e71a8f8da6ec382bce4b8a5a7640866225201bacb0e6cff73afa7",
+      "literal_rows_sha256": "9160f420bcbca7f18d0f78e5cc1133402613d3a52c6947af5968a08fe7125593"
+    },
+    {
+      "n": 996,
+      "key": "public35_996",
+      "geometry_sha256": "b3e9422160ad4a11d99a3aabbe711a283937c13034af5236a36f9c3abfa98316",
+      "native_input_sha256": "e1a096a9a51505a46d0de73925bad5e70cc676e55a25d54a62cb2714c120a389",
+      "literal_rows_sha256": "e7245ad3d4471bcdb55389c4af6b86e75c448748cb72488664f2e2975308b426"
+    },
+    {
+      "n": 856,
+      "key": "public35_856",
+      "geometry_sha256": "7de8cf00e8e2beacfab864ac88d76d23c02da72ee9e3469a22a551defcd6c15e",
+      "native_input_sha256": "8611336e769472abc841810f61973e9e517d540b0ae97374c851ad5b68f19139",
+      "literal_rows_sha256": "d11923f98ee81a2384577aed39c57c3ebc531c1a1116d007cf7977e0a16b9a45"
+    },
+    {
+      "n": 982,
+      "key": "public35_982",
+      "geometry_sha256": "e78c87562aec5112be90ade50b21cd936c62bad02eb10cec8c65797edccc06c7",
+      "native_input_sha256": "a6b5e73d759d0f46b84fbc6796f80c7242055d4d6e60342682dd202c0b9f56bc",
+      "literal_rows_sha256": "ebdc959d195396d72de318602312355e21a740b7031e8ae8b20eec95e8bd462c"
+    },
+    {
+      "n": 638,
+      "key": "public35_638",
+      "geometry_sha256": "2bf1ef1d1c93b13b5d236dd326d79a33dd33606fd27addffdc047f5c4a7eb535",
+      "native_input_sha256": "e05b8fc8d3fe5b5f50360ede99bb9d34387d3860a280faf0cf57e44cb888da66",
+      "literal_rows_sha256": "4ea75d22ff9ea8dfac5652d609c63e88f825a2314b1c903740c5f625cade5faa"
+    },
+    {
+      "n": 644,
+      "key": "public35_644",
+      "geometry_sha256": "e34b7195f6677204d14e67511f85b5d4871ba488c6b5235160c5f50de2325e76",
+      "native_input_sha256": "4c8236a65a7421e17b515f3561de8e0f0231cd4803ccd1ae76b0b8ab4f8aeb46",
+      "literal_rows_sha256": "1398227585dd71f5551671351f0c0e918d43fa7df84eb73c5d4ce8f20957a53d"
+    },
+    {
+      "n": 858,
+      "key": "public35_858",
+      "geometry_sha256": "de7248c4187a573895e637f9855a19c0431b5c8edc3d0f6a3eda1587d7d113ca",
+      "native_input_sha256": "2869af7c178b2599e7ef3666ba71ca4864d0067aa563f87445b00bcde2fbabaa",
+      "literal_rows_sha256": "3601c5fca64e6a061c3ec6a8d0a44641f24ce71342530a8454b009d97accbd43"
+    },
+    {
+      "n": 502,
+      "key": "public35_502",
+      "geometry_sha256": "f871a884fa26be57bb20445fde4fe734c21e814221a60f743f53cbcb52251480",
+      "native_input_sha256": "40325092240608d0f94b6bea469e8873b899203884933526206e5630321c3185",
+      "literal_rows_sha256": "a667cae7b99e6789ac20b0ceed299c79e49fc276e1e621d5e50c84ef71ad5d16"
+    },
+    {
+      "n": 696,
+      "key": "public35_696",
+      "geometry_sha256": "a1f8970bd1d95c83a44ff264dba67f1e4bf3e673a77b4a8aa462ff10b6dd2e6f",
+      "native_input_sha256": "72cb159522c1a7aa022199d1eff21cd9d7eb625ab10fa9a752d36e196d30bb58",
+      "literal_rows_sha256": "f445ad6d1640551a57d99481757b463f54104c47aa29c3b7c651824c05376681"
+    },
+    {
+      "n": 697,
+      "key": "public35_697",
+      "geometry_sha256": "072b87c1f94c7386d929060df45802a0bebdf3eb171ad3b8af482c92058ad52b",
+      "native_input_sha256": "5e1b30bfdd04b0b3b31fbe3e8d31bfb0c8cf195f19662be84a7dd4f791a82f26",
+      "literal_rows_sha256": "837862ecc5a6058f8bd419eb37bfa55bb44639fe5e9bd948e45f89593f259851"
+    },
+    {
+      "n": 872,
+      "key": "public35_872",
+      "geometry_sha256": "86428cf1662a410046beed09e0514c4021c5ccb850ff9aa9ec4be335afcb735f",
+      "native_input_sha256": "8f78c07e864091b9f15d3455fb3b98bf702a0f19fa7ee90e06d8b98e0c33583e",
+      "literal_rows_sha256": "ce08993d51f2b982fabcdb731f371948d2896e4f8bd9edec9569b66edf549858"
+    }
+  ],
+  "selection_strata": [
+    16,
+    8
+  ],
+  "bounded_exposure_archive_count": 8,
+  "exposure_scope": "Only pinned screen corpus; zero exact encoded-input matches there, not a universal historical assertion.",
+  "native_source_public_provenance_review_sha256": "054c46baf5ab6048dc0c9965f0efbe9488fcd4a0620b67378e3456f7d6360f59",
+  "source_and_exact_literal_rows_and_native_encoding_verified": true,
+  "review_notes": [
+    "Parent18 runner numerical trial reused; only descriptive input-status text changes. No pre-native validity claim is made.",
+    "Fixed24 unique inputs,2CPU0/1,seed9710000,60s native+8s certificate; process group inherits all native descendants and outer supervisor kills/waits by900s.",
+    "Exact input/native/raw/decoded outputs are retained before full gates through unchangedaab5 helper. All valid worse poses retained in certified archive.",
+    "Live candidate comparison uses initial canonical interval lower; final candidate comparison refreshes current canonical interval lower and uses maximum of five certificate sides. No canonical mutation/submission."
+  ],
+  "no_optimizer": true,
+  "no_fresh_geometry_certifications": true,
+  "no_gpu": true,
+  "no_submission": true
+}

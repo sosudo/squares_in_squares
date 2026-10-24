@@ -1,0 +1,11 @@
+{
+  "returncode": 0,
+  "forced": false,
+  "seconds": 109.1811315790037,
+  "whole_seconds": 900,
+  "workers": 2,
+  "affinity": [
+    2,
+    3
+  ]
+}

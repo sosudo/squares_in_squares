@@ -1,0 +1,290 @@
+{
+  "744": {
+    "preflight": {
+      "phase": "preflight",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 19.961127475999973,
+      "phase_limit_seconds": 45.0,
+      "status": "complete"
+    },
+    "search": {
+      "phase": "search",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 356.83929198400006,
+      "phase_limit_seconds": 390.0,
+      "status": "complete"
+    },
+    "recovery": {
+      "packets": 82,
+      "completed": 82,
+      "pending": 0,
+      "total_bytes": 666679605,
+      "raw_index_sha256": "b38f19c8a791e16491a057663fce63fcb8a929e2f94ff27c208c3d3a884d6123",
+      "recovery_scope": "Terminal packet and all its members verified; earlier raw files remain SHA-bound by index and are not reread.",
+      "recovered_final_archive_sha256": "c41732c385250768307e5c740a605d3464a8475a3be2ff2167d5c302443295ba",
+      "last_completed_packet": {
+        "index": 81,
+        "path": "raw-hop/packet-0081.npz",
+        "sha256": "2291dd2bde236f34e18f438944fc8eb6f7705ea60e62a0fe3ada6aa40480424f",
+        "bytes": 8135477,
+        "status": "completed",
+        "verified": false
+      },
+      "rounds_completed": 81,
+      "recovery_status": "complete",
+      "recovery_seconds": 0.08629484200002935
+    },
+    "finish": {
+      "phase": "finish",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 35.868753150999964,
+      "phase_limit_seconds": 145.0,
+      "status": "complete"
+    },
+    "status": "complete",
+    "case_bytes": 676150964
+  },
+  "641": {
+    "preflight": {
+      "phase": "preflight",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 14.64828786299995,
+      "phase_limit_seconds": 45.0,
+      "status": "complete"
+    },
+    "search": {
+      "phase": "search",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 360.58847369599994,
+      "phase_limit_seconds": 390.0,
+      "status": "complete"
+    },
+    "recovery": {
+      "packets": 96,
+      "completed": 96,
+      "pending": 0,
+      "total_bytes": 674122847,
+      "raw_index_sha256": "b2bd663401b71f78a2109c6171d6ee9810c2bfa215d4fd17463ad73ff9f88481",
+      "recovery_scope": "Terminal packet and all its members verified; earlier raw files remain SHA-bound by index and are not reread.",
+      "recovered_final_archive_sha256": "054385843ea2dcd37bc3869f62903d1cec28256553f31ade8fce1febca7653d8",
+      "last_completed_packet": {
+        "index": 95,
+        "path": "raw-hop/packet-0095.npz",
+        "sha256": "75896846ae2184c0249feba39e42b9cd7ade9e6ea53870aacdb730228145fc21",
+        "bytes": 7023940,
+        "status": "completed",
+        "verified": false
+      },
+      "rounds_completed": 95,
+      "recovery_status": "complete",
+      "recovery_seconds": 0.10623093499998504
+    },
+    "finish": {
+      "phase": "finish",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 64.30437857800007,
+      "phase_limit_seconds": 145.0,
+      "status": "complete"
+    },
+    "status": "complete",
+    "case_bytes": 684743854
+  },
+  "591": {
+    "preflight": {
+      "phase": "preflight",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 13.848530350999908,
+      "phase_limit_seconds": 45.0,
+      "status": "complete"
+    },
+    "search": {
+      "phase": "search",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 359.6314220690001,
+      "phase_limit_seconds": 390.0,
+      "status": "complete"
+    },
+    "recovery": {
+      "packets": 102,
+      "completed": 102,
+      "pending": 0,
+      "total_bytes": 661371082,
+      "raw_index_sha256": "04e6ca1b48500156334e9b898321589bfee1c96e0fbd3536fde75a2f23b6871d",
+      "recovery_scope": "Terminal packet and all its members verified; earlier raw files remain SHA-bound by index and are not reread.",
+      "recovered_final_archive_sha256": "7dadc11ce833e66557c4ea58833c28781075d8e6a96a462861e567409968bd4c",
+      "last_completed_packet": {
+        "index": 101,
+        "path": "raw-hop/packet-0101.npz",
+        "sha256": "871f444e000d44417048a339cc99b27073f8cf7a484f641f0beb274811f14e36",
+        "bytes": 6485713,
+        "status": "completed",
+        "verified": false
+      },
+      "rounds_completed": 101,
+      "recovery_status": "complete",
+      "recovery_seconds": 0.05194212000014886
+    },
+    "finish": {
+      "phase": "finish",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 13.249756374000071,
+      "phase_limit_seconds": 145.0,
+      "status": "complete"
+    },
+    "status": "complete",
+    "case_bytes": 671239064
+  },
+  "541": {
+    "preflight": {
+      "phase": "preflight",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 17.865554074999864,
+      "phase_limit_seconds": 45.0,
+      "status": "complete"
+    },
+    "search": {
+      "phase": "search",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 359.43123231699997,
+      "phase_limit_seconds": 390.0,
+      "status": "complete"
+    },
+    "recovery": {
+      "packets": 113,
+      "completed": 113,
+      "pending": 0,
+      "total_bytes": 671904409,
+      "raw_index_sha256": "554f236cc66544c0e37f14a7d790d8ddcd027fc50258493e1b60b9cac0c4f46a",
+      "recovery_scope": "Terminal packet and all its members verified; earlier raw files remain SHA-bound by index and are not reread.",
+      "recovered_final_archive_sha256": "5478157d4c31e2caffbee525b9fd2062b00de0774ca96e8bfcd887c97fa4f1ba",
+      "last_completed_packet": {
+        "index": 112,
+        "path": "raw-hop/packet-0112.npz",
+        "sha256": "109aa69dbc2cf86b0fa00c3ea5f440e4157881767800298dc3a9ce264a5b4447",
+        "bytes": 5946799,
+        "status": "completed",
+        "verified": false
+      },
+      "rounds_completed": 112,
+      "recovery_status": "complete",
+      "recovery_seconds": 0.056713883999918835
+    },
+    "finish": {
+      "phase": "finish",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 17.87230568699988,
+      "phase_limit_seconds": 145.0,
+      "status": "complete"
+    },
+    "status": "complete",
+    "case_bytes": 682029472
+  },
+  "412": {
+    "preflight": {
+      "phase": "preflight",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 14.510903707999887,
+      "phase_limit_seconds": 45.0,
+      "status": "complete"
+    },
+    "search": {
+      "phase": "search",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 361.0260896289999,
+      "phase_limit_seconds": 390.0,
+      "status": "complete"
+    },
+    "recovery": {
+      "packets": 147,
+      "completed": 147,
+      "pending": 0,
+      "total_bytes": 669992191,
+      "raw_index_sha256": "68c4be5235850df4d3515fb9eb6332114d37bc883eafbcc65fe7994682c037af",
+      "recovery_scope": "Terminal packet and all its members verified; earlier raw files remain SHA-bound by index and are not reread.",
+      "recovered_final_archive_sha256": "8a9b6d54ef6b14cfa861fda436f6a4a7c38db897bad078d66665baa04cabe934",
+      "last_completed_packet": {
+        "index": 146,
+        "path": "raw-hop/packet-0146.npz",
+        "sha256": "9993a0de6be9104d431c8c67e2c56e10fb458aafa76a94696952367abd9d492c",
+        "bytes": 4556633,
+        "status": "completed",
+        "verified": false
+      },
+      "rounds_completed": 146,
+      "recovery_status": "complete",
+      "recovery_seconds": 0.05137941099974341
+    },
+    "finish": {
+      "phase": "finish",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 37.15505521800014,
+      "phase_limit_seconds": 145.0,
+      "status": "complete"
+    },
+    "status": "complete",
+    "case_bytes": 681440337
+  },
+  "341": {
+    "preflight": {
+      "phase": "preflight",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 12.248339155999929,
+      "phase_limit_seconds": 45.0,
+      "status": "complete"
+    },
+    "search": {
+      "phase": "search",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 360.94289475100004,
+      "phase_limit_seconds": 390.0,
+      "status": "complete"
+    },
+    "recovery": {
+      "packets": 179,
+      "completed": 179,
+      "pending": 0,
+      "total_bytes": 679137203,
+      "raw_index_sha256": "68f654e43156818f3fca0ae1f863c153d5717225641264743988e25bd08eb90e",
+      "recovery_scope": "Terminal packet and all its members verified; earlier raw files remain SHA-bound by index and are not reread.",
+      "recovered_final_archive_sha256": "9156a17d741c70dde5c9ab61e49388ebd7ac5b5fbd2ded24f1dc6790a1720b8f",
+      "last_completed_packet": {
+        "index": 178,
+        "path": "raw-hop/packet-0178.npz",
+        "sha256": "89bba9962dd393a11d9a8dd72e550b4acc35f6de9caf685d787f6bb96b0bca92",
+        "bytes": 3795816,
+        "status": "completed",
+        "verified": false
+      },
+      "rounds_completed": 178,
+      "recovery_status": "complete",
+      "recovery_seconds": 0.03363250900019921
+    },
+    "finish": {
+      "phase": "finish",
+      "returncode": 0,
+      "forced": false,
+      "seconds": 28.438640977999967,
+      "phase_limit_seconds": 145.0,
+      "status": "complete"
+    },
+    "status": "complete",
+    "case_bytes": 692110690
+  }
+}

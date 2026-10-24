@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-24T16:49:42.398699+00:00",
+  "canonical_proof": "/workspace/squares_in_squares/artifacts/submission-kmmm35-native-v1-safe.transport-validation.json",
+  "canonical_proof_sha256": "19d8f3b87cbb4e98fd1f0ecb25104334398379c3b02109dbfdeac6f51fb877da",
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "competition_submission_performed": false,
+  "raw": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-kmmm35-native-v1.csv",
+    "sha256": "051bbbe869bd4c2c1d70c42b6bf110f8414253d9537338442c30c88c1626715d",
+    "score": 22.297308538374587,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-kmmm35-native-v1-official.json",
+    "official_report_sha256": "39590be380d3d9ef379a6ac6ec865332f3b0d681c5d27c98b0294b6cdbc1404f",
+    "reuse": {
+      "reused": 982,
+      "evaluated": 18
+    }
+  },
+  "safe": {
+    "path": "/workspace/squares_in_squares/artifacts/submission-kmmm35-native-v1-safe.csv",
+    "sha256": "f1b5c18e95fa637e93795102f892a160b972ad1fa13789b2e7d737b5b44a1494",
+    "score": 22.29730853902985,
+    "official_report": "/workspace/squares_in_squares/artifacts/submission-kmmm35-native-v1-safe-official.json",
+    "official_report_sha256": "34beafc33dfed50cc2b2dd73a8321883118fb3fcf77a3db522c60cd5e18eac57",
+    "reuse": {
+      "reused": 982,
+      "evaluated": 18
+    }
+  },
+  "roundtrip": {
+    "path": "/workspace/squares_in_squares/artifacts/submission-kmmm35-native-v1-safe-roundtrip.csv",
+    "sha256": "6b2f7b9139f5fe9f6d1bea4dae718ebf29641fb04271277ffbf78dfc6ff6e620",
+    "score": 22.297308539029853,
+    "official_report": "/workspace/squares_in_squares/artifacts/submission-kmmm35-native-v1-safe-roundtrip-official.json",
+    "official_report_sha256": "b2143803095e3fa2ce305f6094cd7f3309036d0d25f17a4d52dab8a75ecabcb3",
+    "reuse": {
+      "reused": 982,
+      "evaluated": 18
+    }
+  },
+  "independent_report": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-kmmm35-native-v1.validation.json",
+    "sha256": "ab2e25f44f38a79074919c413d589b802a2ba4dd5ef170d9b173b626e8d4b5f1"
+  },
+  "user_submission_score_threshold": 22.3,
+  "eligible_under_user_score_threshold": true
+}

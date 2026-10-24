@@ -1,0 +1,91 @@
+{
+  "status": "passed_actual_case_and_two_interruption_controls",
+  "n": 411,
+  "analyzer_sha256": "8cc8fc1895405aa9a3fe58b69c8d1665b587915f9258ad8297e6211f7bb8db51",
+  "test_sha256": "8170f2a9d6ae47c5560e22a57370953ee6075eac897f44b80a18c5306f14e6f3",
+  "input_receipts": [
+    {
+      "path": "artifacts/fq-sustained-extracted-v1/extraction-receipt.json",
+      "sha256": "bf0c86332cb0c9644f1bcdaf4567cb3b33be34b9dd3805ba365a71b3e5afbd26",
+      "status": "complete",
+      "files": 1183
+    }
+  ],
+  "terminal_packet_sha256": "e6748a19cecaf549120c2bbd462eaad97468a53f5be4820dd1dc97f9f6085673",
+  "certified_geometry_hashes": {
+    "preflight_411_n411_unchanged_0__42fe422059a66a7329cdf3408fbf0d75871de6229f76378e923086ab5a349261": "42fe422059a66a7329cdf3408fbf0d75871de6229f76378e923086ab5a349261",
+    "preflight_411_n411_unchanged_1__42fe422059a66a7329cdf3408fbf0d75871de6229f76378e923086ab5a349261": "42fe422059a66a7329cdf3408fbf0d75871de6229f76378e923086ab5a349261",
+    "preflight_411_n411_overlap_repair__d8c6a9029d62fbf57e9f124da75e1072a7ecabcea82b26309638db804ada5c02": "d8c6a9029d62fbf57e9f124da75e1072a7ecabcea82b26309638db804ada5c02",
+    "preflight_411_n411_coherent_repair__3fbcb3523f05b27be83d211a0a83b63cb20bd68c03f93c49838319a342585b73": "3fbcb3523f05b27be83d211a0a83b63cb20bd68c03f93c49838319a342585b73",
+    "native_411_n411_lowest_best_energy_delta0.0005_chain2": "d221af3dea74ff21ae1abe9a74fcccdf84a566bbd118334a00595cae25170d39",
+    "native_411_n411_coarse_diverse_best_delta0.0005_chain22": "6e83332bb3f4fbc722b12ada098708647df50bde479f36743628247fcfb7cc15",
+    "native_411_n411_lowest_best_energy_delta0.002_chain36": "36ce2d077d394f5d29321a6e7a46fa82d45a889ba024f01541f16d3053847d3b",
+    "native_411_n411_coarse_diverse_best_delta0.002_chain57": "5447030c32bf2c5bd363e07737ea18442925aaadc88e2f6ebcee2382da954090"
+  },
+  "baseline_native_slots": [
+    {
+      "slot": 0,
+      "chain": 2,
+      "kind": "lowest_best_energy",
+      "delta": 0.0005,
+      "status": "certified",
+      "physical_energy": 0.0,
+      "native_seconds": 6.034497069000281,
+      "side": "20.79307923975066016158197427602516420830774637193452",
+      "geometry_sha256": "d221af3dea74ff21ae1abe9a74fcccdf84a566bbd118334a00595cae25170d39"
+    },
+    {
+      "slot": 1,
+      "chain": 22,
+      "kind": "coarse_diverse_best",
+      "delta": 0.0005,
+      "status": "certified",
+      "physical_energy": 0.0,
+      "native_seconds": 5.430565953000041,
+      "side": "20.794325158289380239183768915972573707494128177974192528742103",
+      "geometry_sha256": "6e83332bb3f4fbc722b12ada098708647df50bde479f36743628247fcfb7cc15"
+    },
+    {
+      "slot": 2,
+      "chain": 36,
+      "kind": "lowest_best_energy",
+      "delta": 0.002,
+      "status": "certified",
+      "physical_energy": 0.0,
+      "native_seconds": 3.2752776590000394,
+      "side": "20.792552554664028228986259682019282816292682566115213099499339",
+      "geometry_sha256": "36ce2d077d394f5d29321a6e7a46fa82d45a889ba024f01541f16d3053847d3b"
+    },
+    {
+      "slot": 3,
+      "chain": 57,
+      "kind": "coarse_diverse_best",
+      "delta": 0.002,
+      "status": "certified",
+      "physical_energy": 0.0,
+      "native_seconds": 7.030938921000143,
+      "side": "20.792034598864163591941082704090166873535348516185746942059414",
+      "geometry_sha256": "5447030c32bf2c5bd363e07737ea18442925aaadc88e2f6ebcee2382da954090"
+    }
+  ],
+  "removed_aggregate_members": [
+    "case-411/finish/summary.json",
+    "case-411/finish/results.json",
+    "case-411/finish/certified.npz",
+    "case-411/finish-summary.json"
+  ],
+  "recovered_individual_certificate_slots": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "one_event_lag": {
+    "committed_packets": 148,
+    "audited_events": 148,
+    "terminal_event_recovered_from_exact_packet": true,
+    "scope": "Recorded phase/timestamp/index bindings; only terminal raw packet body was downloaded and checked."
+  },
+  "no_optimizer": true,
+  "no_new_certificates": true
+}

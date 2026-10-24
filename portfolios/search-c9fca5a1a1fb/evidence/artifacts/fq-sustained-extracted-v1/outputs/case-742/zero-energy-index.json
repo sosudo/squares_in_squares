@@ -1,0 +1,13 @@
+[
+  {
+    "path": "zero-energy/1f977a2ed826bcabf650bc26c2818eeb34b14387bf2e92c269c377b9094b098e.npz",
+    "sha256": "eb632d1e5ea3e8e2f08995665b7c60950b5690e9e3903a8a26a381f70264d14d",
+    "geometry_sha256": "1f977a2ed826bcabf650bc26c2818eeb34b14387bf2e92c269c377b9094b098e",
+    "chain": 15,
+    "side": 27.7591265078656,
+    "origin": "proposal_quenched",
+    "physical_energy": 0.0,
+    "verified": false,
+    "full_gate_pending": true
+  }
+]

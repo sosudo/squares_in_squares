@@ -1,0 +1,43 @@
+{
+  "geometry_sha256": "8bd6c2b617599e5ccf7db21c6c74704365328a4d0c10ce862531121dc1cfa4ef",
+  "certificate": {
+    "valid": true,
+    "shared_official_gate": {
+      "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+      "raw_reason": "ok",
+      "roundtrip_reason": "ok",
+      "raw_side": "27.78597196248753104923132169163362625538121985845094",
+      "roundtrip_side": "27.78597196248753129923132169163283894755079694709257",
+      "valid": true
+    },
+    "ordinary_pandas_official_reason": "ok",
+    "ordinary_pandas_official_side": "27.78597196248753126923132169163307240911688152962521",
+    "independent_raw": {
+      "n": 744,
+      "valid": true,
+      "side_lower": "27.785971962487531049231321691633626255381219858450863593937507",
+      "side_upper": "27.785971962487531049231321691633626255381219858450991886643592",
+      "score_lower": "0.018683156590751636502961806814167868811586012142752487326927",
+      "score_upper": "0.018683156590751636502961806814167868811586012142760505621058",
+      "interval_pairs": 782,
+      "exact_pairs": 0
+    },
+    "independent_roundtrip": {
+      "n": 744,
+      "valid": true,
+      "side_lower": "27.785971962487531269231321691633072409116881529625126834346195",
+      "side_upper": "27.785971962487531269231321691633072409116881529625255127052281",
+      "score_lower": "0.018683156590751644568553132988578468141979072460397968320258",
+      "score_upper": "0.018683156590751644568553132988578468141979072460408659379099",
+      "interval_pairs": 782,
+      "exact_pairs": 0
+    },
+    "raw_csv_sha256": "57ba13cb3c0501b3d29d14d9af591bff08f7ce3b36e343ce334eb78c55f141e1",
+    "ordinary_pandas_csv_sha256": "7fa5bc2be2df55ad79e784ecd59d596968f11cd3688836be018d98b1d5089f3b"
+  },
+  "provenance": {
+    "control": "unchanged_full_seed",
+    "source_geometry_sha256": "8bd6c2b617599e5ccf7db21c6c74704365328a4d0c10ce862531121dc1cfa4ef"
+  },
+  "npz_sha256": "d3095b5a02bcc5bb389da2f2ee70b0920485d59876326fc886d0793118b02045"
+}

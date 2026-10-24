@@ -1,0 +1,10 @@
+{
+  "n": 742,
+  "reference_side": "27.75962650786559863630890896668905299034053015403942",
+  "source_key": "reference_742",
+  "source_geometry_sha256": "9e891c24f0d3d3b9c4d0cd60d6fd872ebb78eb542fef1e26ab7201c2ee04be44",
+  "binary_path": "/kaggle/working/bin/fq",
+  "device": 0,
+  "batch_size": 64,
+  "baseline_sha256": "77072a68f862fc166264825aa19a1eb867692bf280ca531965499fab2e6baea0"
+}

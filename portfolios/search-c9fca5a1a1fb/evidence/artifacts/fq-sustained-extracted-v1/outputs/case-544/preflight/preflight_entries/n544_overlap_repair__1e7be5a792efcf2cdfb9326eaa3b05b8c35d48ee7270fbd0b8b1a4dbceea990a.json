@@ -1,0 +1,48 @@
+{
+  "geometry_sha256": "1e7be5a792efcf2cdfb9326eaa3b05b8c35d48ee7270fbd0b8b1a4dbceea990a",
+  "certificate": {
+    "valid": true,
+    "shared_official_gate": {
+      "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+      "raw_reason": "ok",
+      "roundtrip_reason": "ok",
+      "raw_side": "23.89241693261571752176493209758971286948650005102007",
+      "roundtrip_side": "23.89241693261572152176493209758961286948650005111955",
+      "valid": true
+    },
+    "ordinary_pandas_official_reason": "ok",
+    "ordinary_pandas_official_side": "23.89241693261572054176493209758959286948650005113692",
+    "independent_raw": {
+      "n": 544,
+      "valid": true,
+      "side_lower": "23.892416932615717521764932097589712869486500051020019966033754",
+      "side_upper": "23.892416932615717521764932097589712869486500051020148258739839",
+      "score_lower": "0.024378924894629115743866664712662532099689060610472646880657",
+      "score_upper": "0.024378924894629115743866664712662532099689060610483337939499",
+      "interval_pairs": 153,
+      "exact_pairs": 0
+    },
+    "independent_roundtrip": {
+      "n": 544,
+      "valid": true,
+      "side_lower": "23.892416932615720541764932097589592869486500051136827964672344",
+      "side_upper": "23.892416932615720541764932097589592869486500051136956257378430",
+      "score_lower": "0.024378924894629245225298447306829608024058977906690405345946",
+      "score_upper": "0.024378924894629245225298447306829608024058977906701096404787",
+      "interval_pairs": 153,
+      "exact_pairs": 0
+    },
+    "raw_csv_sha256": "d2bbbc86adecbeeb5ab9f2e8817f8b7bb2981e9457106ee7bd57cdc0d1010ee6",
+    "ordinary_pandas_csv_sha256": "8bb61f2a02e779ebd1a8ea4f8f7ae8f6eac825c125195161594548b07f9d5d27"
+  },
+  "provenance": {
+    "control": "expanded_full_pair_overlap",
+    "source_geometry_sha256": "d6a1e96eb1c36206c0ccf296eb7c0db2d5506946f526f5206887212eecc810b6",
+    "input_geometry_sha256": "498ee5f625f61e636b61339e3279dc6e69c13e58a8367f90597d147ac96990b2",
+    "box": [
+      23.902416891409366,
+      23.902416891409366
+    ]
+  },
+  "npz_sha256": "4fa92710222695484849d3fdab295d0f4a30dca230e3a7bad930dd7aef79a9ba"
+}

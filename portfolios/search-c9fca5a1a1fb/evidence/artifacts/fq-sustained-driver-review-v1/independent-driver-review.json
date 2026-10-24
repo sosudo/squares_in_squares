@@ -1,0 +1,32 @@
+{
+  "status": "GREEN_source_protocol_review_actual_CUDA_gates_required",
+  "files": {
+    "experiments/fq_sustained_cold_pilot.py": "5b06d48ccac0c9fb1828d80793ddaedd3cb67e8bf4b66f3925b7633d46634c19",
+    "tests/test_fq_sustained_cold_policy.py": "b91191b63d70023dff605e48b1d627368bc6441f38d6cf2936dfdfac18759f78",
+    "experiments/fq_sustained_hop_finish.py": "e4dd34a61e8d03d512e4ecb29cfdc0bba5ed9dc2a71e898742384cbe4db0387e",
+    "artifacts/fq-sustained-inputs-v1/sustained-config.json": "c7429eb1b2ac4ee4f82972f09df77d497904218a1c622119ab521854b0088330",
+    "artifacts/fq-sustained-inputs-v1/sustained-inputs.npz": "6469ecb23f43a3fc6e59341501cf59b8ad857cda8d2ea8d51d2d7575bd6c3054"
+  },
+  "generated_search_sha256": "7a56ed2d0db19c65dc62b67351cef6010d67fce3b8e0512c802cbd28f9c79c2c",
+  "counted_adapters": {
+    "fused_quench": "d735698fcefad69b8514db0d9529e4666dcac4b77a4d67f92af31b3945371c0d",
+    "preflight": "fc556d44a9171760b7eb68c5c25aa4642af080c4b980e4efe3bf1ec7f36a36ad"
+  },
+  "reviewed": [
+    "Unchanged2000step symmetric-tie FP64 kernel and dense all-pair physical-energy Metropolis path; no mixedprecision",
+    "B64 full-shape assertions and independent energy checks includechain63; N\u22121/cellboundary/fullgeometry gates inheritedpercase",
+    "Independentcase/round/chain mutation and acceptance streams; no resets for coldpersistentchains",
+    "Initialized child360sepoch aftersetup with100scooling boundary,20s finalization,empiricaltailguard and actualpacket timestamps",
+    "Sixcase queues cover exact12 once;45+10+360+20+3+145=583percase,3498perqueue,3540queue deadline plus30summary+30outer",
+    "Preflightfailure skipssearch; searchtimeout recovers exactlastcommitted packet only; finishing onlywithcommittedstate; finalpartialstatushonest",
+    "Raw768MiB/case and protected128MiBsearch stop leavefullcase1GiB guard; global12GiB stop; input/completepacket publication precedescurrent/bestcommit",
+    "Native fourfixedslots with2workers60+8,145scasefinishphase; seed9710000 and independentfullgates preserveallvalidworse",
+    "No canonicalpointermutation orcompetition submission"
+  ],
+  "checks": {
+    "policy_tests_passed": 4,
+    "no_optimizer_or_gpu_executed_by_reviewer": true,
+    "live_per_case_CUDA_gates_still_mandatory": true
+  },
+  "scope": "Frozenv1 driver5b06 and uncompressedpacketserialization only; any laterlosslessZIP adapter requiresseparate narrowdelta review. Actualepochs/commits/status definecoverage,notplannedseconds alone."
+}

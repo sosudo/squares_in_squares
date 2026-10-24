@@ -1,0 +1,29 @@
+{
+  "observed_at": "2026-10-24T17:01:58.509362+00:00",
+  "submission": {
+    "ref": 57601047,
+    "date": "2026-10-24T16:55:13.167000+00:00",
+    "description": "[squares-sha256:f1b5c18e95fa637e93795102f892a160b972ad1fa13789b2e7d737b5b44a1494] validated score 22.29730853902985",
+    "status": "complete",
+    "public_score": "22.2973085390"
+  },
+  "validated_score": "22.29730853902985",
+  "score_difference": -2.985e-11,
+  "official_score_agrees_within_1e_10": true,
+  "csv_sha256": "f1b5c18e95fa637e93795102f892a160b972ad1fa13789b2e7d737b5b44a1494",
+  "notebook": "sos54352/squares-portfolio-f1b5c18e95fa-incremental/1",
+  "limits": {
+    "num_today": 6,
+    "num_total": 6,
+    "num_allowed_now": 4
+  },
+  "public_leaderboard_entry": {
+    "teamId": 17191978,
+    "teamName": "shiv",
+    "submissionDate": "2026-10-24T16:55:13.166Z",
+    "score": "22.2973085390"
+  },
+  "rank_from_public_top100": 20,
+  "leader_score": "22.2247581510",
+  "next_improved_submission_not_before": "2026-10-24T17:55:13.167000+00:00"
+}

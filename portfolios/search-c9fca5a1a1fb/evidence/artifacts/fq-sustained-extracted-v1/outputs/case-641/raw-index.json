@@ -1,0 +1,777 @@
+{
+  "packets": [
+    {
+      "index": 0,
+      "path": "raw-hop/packet-0000.npz",
+      "sha256": "e037ec4580fedc483f56de50b8961c6453f09a7050c1f6367d43d3f54cdaba92",
+      "bytes": 6956427,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 1,
+      "path": "raw-hop/packet-0001.npz",
+      "sha256": "f5a1dc3226c31b26f4c2b95989382be0b000c782c8932fe3a22d3ccfc482a9f8",
+      "bytes": 7022770,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 2,
+      "path": "raw-hop/packet-0002.npz",
+      "sha256": "b1ee8171dc9c34daae05462c2b5c03b6301352cfad0567345314bc697794be7f",
+      "bytes": 7021881,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 3,
+      "path": "raw-hop/packet-0003.npz",
+      "sha256": "3f84105e1b8b365d9d04fa957c6625982d222f77f978350e94330c5b2937b2ea",
+      "bytes": 7024315,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 4,
+      "path": "raw-hop/packet-0004.npz",
+      "sha256": "8d76f48c5abc979e6df535131cf371a961969ae8467b6e1db6f9f973561227b9",
+      "bytes": 7020632,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 5,
+      "path": "raw-hop/packet-0005.npz",
+      "sha256": "03f79ee217a446403bd379d99616db26aa78dd8317272fcc715e6429e36397e6",
+      "bytes": 7020781,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 6,
+      "path": "raw-hop/packet-0006.npz",
+      "sha256": "b272d0670e3a2b9f4f8302f575bc1f5864edf15b82d327bea639383913e8dc6e",
+      "bytes": 7021399,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 7,
+      "path": "raw-hop/packet-0007.npz",
+      "sha256": "f7da12f0239c7ef323cc35c058d3aeb9bdf56d295e65885386117dd78d663c76",
+      "bytes": 7023154,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 8,
+      "path": "raw-hop/packet-0008.npz",
+      "sha256": "d69de92cba241421ece0cc3bf55af630959b9dc53227e182553d173b1db4c28b",
+      "bytes": 7022014,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 9,
+      "path": "raw-hop/packet-0009.npz",
+      "sha256": "6ed7d72877b3e7fd7a3b06a8be0ecab8d51df4f7f9a58f422459eb5cf59ad9a4",
+      "bytes": 7022221,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 10,
+      "path": "raw-hop/packet-0010.npz",
+      "sha256": "6eac543eadfd22d3edc69694f06acbc5319a2fe4cc887f2099e7abff84239f0f",
+      "bytes": 7021683,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 11,
+      "path": "raw-hop/packet-0011.npz",
+      "sha256": "ee027fcebfad6e81cec0b3b105e2c1b37e7ec82e9e52ef5bd48061aa225367b8",
+      "bytes": 7021177,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 12,
+      "path": "raw-hop/packet-0012.npz",
+      "sha256": "afe4f0847593cf1e0717c0e012bfe8923fe6d52d44f3c3e2be49cdfe54834250",
+      "bytes": 7025659,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 13,
+      "path": "raw-hop/packet-0013.npz",
+      "sha256": "6c5c6c23a17158c32bd24718e73b06c80c54355f0e0adf8a9dd9c86b40b3084f",
+      "bytes": 7021405,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 14,
+      "path": "raw-hop/packet-0014.npz",
+      "sha256": "7cb214ae68c2466750503240d5e7d468a9d1e6dbe954c2cd14a183bd7a8a9c04",
+      "bytes": 7020107,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 15,
+      "path": "raw-hop/packet-0015.npz",
+      "sha256": "8063b4d4615d1b13334054a9fbfe26324b619fd58450fc99b360086721e13698",
+      "bytes": 7026195,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 16,
+      "path": "raw-hop/packet-0016.npz",
+      "sha256": "f69ca4d664579a44bd0e767d4dd48e7ce4fba2a0a1f0d5058c548ccf333838a9",
+      "bytes": 7025109,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 17,
+      "path": "raw-hop/packet-0017.npz",
+      "sha256": "589decc9edf750b5f0de605440941f7478825e2c38f079aa494e1e3e308f67f9",
+      "bytes": 7020116,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 18,
+      "path": "raw-hop/packet-0018.npz",
+      "sha256": "d19d06ab146d53586e2660ac61f95db8155fbe7cf30c1f6dbd518bffae8eecf6",
+      "bytes": 7026085,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 19,
+      "path": "raw-hop/packet-0019.npz",
+      "sha256": "3aa61c85a6182f597e27b82f92f7a75a174ac3efdf2ae1b691231580fbfcea1e",
+      "bytes": 7021069,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 20,
+      "path": "raw-hop/packet-0020.npz",
+      "sha256": "bcaaeeb5e23275e20ff0a3941130953fdf158e40b8339a4121db5a150ee5aad6",
+      "bytes": 7021079,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 21,
+      "path": "raw-hop/packet-0021.npz",
+      "sha256": "f33ab03a4998f36784df34abfba923a10a34925b12af2ab941482b750021c2ad",
+      "bytes": 7021085,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 22,
+      "path": "raw-hop/packet-0022.npz",
+      "sha256": "0a681f56b10f1085283604ca8a7f694b51c023645cc520392ddaeec3fb145db9",
+      "bytes": 7021935,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 23,
+      "path": "raw-hop/packet-0023.npz",
+      "sha256": "347ee2909df3fd6a3c5d4d55e3e5f6417357252c0564ceb144821b5886151320",
+      "bytes": 7023373,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 24,
+      "path": "raw-hop/packet-0024.npz",
+      "sha256": "8a8182f1a8757bcab18c44d211af865b31ed47104320e7b7b0d3f9801f025b1c",
+      "bytes": 7023339,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 25,
+      "path": "raw-hop/packet-0025.npz",
+      "sha256": "5e092d1ddc044d02f31f0ce40b6a8f6b935892bbe037ce035ab521f148290f5f",
+      "bytes": 7023277,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 26,
+      "path": "raw-hop/packet-0026.npz",
+      "sha256": "042cf8c98147572b4763eda818540fedb9c800303cbae05433c96b68bd0c1b73",
+      "bytes": 7022376,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 27,
+      "path": "raw-hop/packet-0027.npz",
+      "sha256": "e46ee1082c6f26ccb11314afbc190fa285dfe0c0671bc3df02650fd51a507314",
+      "bytes": 7020653,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 28,
+      "path": "raw-hop/packet-0028.npz",
+      "sha256": "b59cebaae35b202f45071fa6a46e1c8921862fa64c16fb4625b18783055039b3",
+      "bytes": 7024398,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 29,
+      "path": "raw-hop/packet-0029.npz",
+      "sha256": "541718419ce65b623b573800e9c7b921dcbb027a40d3f4d125b91e46fd813382",
+      "bytes": 7023689,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 30,
+      "path": "raw-hop/packet-0030.npz",
+      "sha256": "b208439a4848d43735aeff64e35c4b38012d8c323b45b38dad4e9968640567e7",
+      "bytes": 7022226,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 31,
+      "path": "raw-hop/packet-0031.npz",
+      "sha256": "0d291c96c1279edba065c03c8df5df95804e3d3ae8f5dbd01d6a2e2a6e3af6fb",
+      "bytes": 7022136,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 32,
+      "path": "raw-hop/packet-0032.npz",
+      "sha256": "6de3687fbff91ea9c2c7fa1567e1b67449c477e770bf3c1d640d1ee03ca44ad7",
+      "bytes": 7019228,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 33,
+      "path": "raw-hop/packet-0033.npz",
+      "sha256": "b084251a09408ae8feb2e066206098122c8a9e3b992cf524bf77a1b211cf4a21",
+      "bytes": 7024107,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 34,
+      "path": "raw-hop/packet-0034.npz",
+      "sha256": "12b2a3f74dc72d46d4ba22ad5d9989d4c9d2d1897a3a697072653a53693b8605",
+      "bytes": 7021281,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 35,
+      "path": "raw-hop/packet-0035.npz",
+      "sha256": "4ae02467f454328c75beebb5347821938f9b85bd5d027785adca74c923d1346c",
+      "bytes": 7021620,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 36,
+      "path": "raw-hop/packet-0036.npz",
+      "sha256": "34596f580913fc96e964a5ddb6220533463a4e89f1295f0f5230aed9c3282aee",
+      "bytes": 7021647,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 37,
+      "path": "raw-hop/packet-0037.npz",
+      "sha256": "e0c321f42c1ff55c9ff93b0a38f9d97a72f1d4a5618273b92906ac5647034745",
+      "bytes": 7022947,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 38,
+      "path": "raw-hop/packet-0038.npz",
+      "sha256": "02370016ad91888f2c9be1ad6d1dd7bb8431e282b247ecc610ba9e34b01b079b",
+      "bytes": 7023562,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 39,
+      "path": "raw-hop/packet-0039.npz",
+      "sha256": "b56ff8db89eeb910bcb63e65aa44797a9e07aae9595bd93e390d3574bdbb2654",
+      "bytes": 7022771,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 40,
+      "path": "raw-hop/packet-0040.npz",
+      "sha256": "03e5bb2cdacdb0cedff10c4d3167d793b74c620630fb0bdf019ec4616ed57836",
+      "bytes": 7024316,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 41,
+      "path": "raw-hop/packet-0041.npz",
+      "sha256": "a2014cdf9554ba3eb10f3ce54ccc573b10cff799425e2a1faf1dbf7777cd2d63",
+      "bytes": 7019202,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 42,
+      "path": "raw-hop/packet-0042.npz",
+      "sha256": "68c48511d5451f44c17e44097f841ff85f28be636e1a5efa3de6e41ed02b7117",
+      "bytes": 7020773,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 43,
+      "path": "raw-hop/packet-0043.npz",
+      "sha256": "f6246ae76566c6758d9e894c6d7005a0925028f655ff4950c076bfc3a3205ec5",
+      "bytes": 7024113,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 44,
+      "path": "raw-hop/packet-0044.npz",
+      "sha256": "0859e898f0a229ceb1b806042b55cbe49e52eb427bc264dc60fe3fdbeac12563",
+      "bytes": 7019684,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 45,
+      "path": "raw-hop/packet-0045.npz",
+      "sha256": "2c68f9091daff1bad8351702bf20501e36084f62978f545595b2e4ba79431d5b",
+      "bytes": 7024039,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 46,
+      "path": "raw-hop/packet-0046.npz",
+      "sha256": "cf65ae4b6d252106e48994e9265eb1dd85a6344c5dbd20dbd363c71f924f7286",
+      "bytes": 7023230,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 47,
+      "path": "raw-hop/packet-0047.npz",
+      "sha256": "f393ee7839d4fbb01b447842dee70c7487d603030c824b71378b849df1c39b59",
+      "bytes": 7023715,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 48,
+      "path": "raw-hop/packet-0048.npz",
+      "sha256": "72a44e9da0464b19f74c457f05b0082d8e7f0177c4ed92ca79a828176a1b5c59",
+      "bytes": 7022413,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 49,
+      "path": "raw-hop/packet-0049.npz",
+      "sha256": "3b7523fdd606a1f147c9d8407cf9a7acfb0bdbec7c557c693235db4eec0d790e",
+      "bytes": 7022772,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 50,
+      "path": "raw-hop/packet-0050.npz",
+      "sha256": "1a1856f45e8489475c1a3937aeb431f2bd97354dc234374a4f56b8fea83ef2fa",
+      "bytes": 7020455,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 51,
+      "path": "raw-hop/packet-0051.npz",
+      "sha256": "3784e1e6a0f6e23f7f5ad7a2dd2441fed57bace35f079f9260d63a0e56182837",
+      "bytes": 7020397,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 52,
+      "path": "raw-hop/packet-0052.npz",
+      "sha256": "3ba498a4c14d6fa372b206e24e916043318ca80732ca2c7156254704ac64c529",
+      "bytes": 7021518,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 53,
+      "path": "raw-hop/packet-0053.npz",
+      "sha256": "cface7c25ac686456f07c16e8d8660709b338e4cd9e743fbbd07544758ebda8e",
+      "bytes": 7024028,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 54,
+      "path": "raw-hop/packet-0054.npz",
+      "sha256": "d58f0cee2f9409453ae1021165e70f01cd3174f9d3c2e612ef59fccd7e8d5319",
+      "bytes": 7023423,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 55,
+      "path": "raw-hop/packet-0055.npz",
+      "sha256": "741b85106720e8c50f45cf6dd7a26a1907dfb60b4327bee7ba54d87d672fd5bc",
+      "bytes": 7024196,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 56,
+      "path": "raw-hop/packet-0056.npz",
+      "sha256": "a6800dbe0a94863806bae2b49c3a53d229ff64a653ee453a13960d300d026ce2",
+      "bytes": 7023991,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 57,
+      "path": "raw-hop/packet-0057.npz",
+      "sha256": "44851a2560194512d104ca37815eeed1ff61fa68539c317697e031eb87a8a3e7",
+      "bytes": 7023453,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 58,
+      "path": "raw-hop/packet-0058.npz",
+      "sha256": "6507468fd4870aeec09bcd690579ca144e62efcdb359941ab6401d3b5ac08caf",
+      "bytes": 7024470,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 59,
+      "path": "raw-hop/packet-0059.npz",
+      "sha256": "e99f235ebb3d379e9953513863fc19c10f1ed4081b920b874e42e0aa2aa933d9",
+      "bytes": 7024804,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 60,
+      "path": "raw-hop/packet-0060.npz",
+      "sha256": "bfbc075c86769545eb6db95cf9116b525e1810e268a271a84b01c8a48b106e14",
+      "bytes": 7022232,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 61,
+      "path": "raw-hop/packet-0061.npz",
+      "sha256": "020264e871e77bcfab14c2b4ab52570f6e92ed7cc786db0d588fa8f66572ef3a",
+      "bytes": 7022084,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 62,
+      "path": "raw-hop/packet-0062.npz",
+      "sha256": "f2f5e77343d241756a5eb0f7bfa50f1b1ff8d51d4d98d04603de985f0afd3ef7",
+      "bytes": 7025494,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 63,
+      "path": "raw-hop/packet-0063.npz",
+      "sha256": "0285e16165831240199f542c0f2c2f02c27fd48c687458b4b02df01bbb2dd433",
+      "bytes": 7020913,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 64,
+      "path": "raw-hop/packet-0064.npz",
+      "sha256": "bb037fbcb90ad04e458a3fb05b748e8e4d859624dcbd1d767dc2b1edcd313168",
+      "bytes": 7023672,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 65,
+      "path": "raw-hop/packet-0065.npz",
+      "sha256": "6c1a9c8313079b877aa8d8b616b82f628320b02432e0a866878312840ef86697",
+      "bytes": 7024227,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 66,
+      "path": "raw-hop/packet-0066.npz",
+      "sha256": "1de5e07446f62e7bdad9ea2d64b2663c6e0f1f4dbe15519d136ac14f13910e87",
+      "bytes": 7021891,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 67,
+      "path": "raw-hop/packet-0067.npz",
+      "sha256": "b004d38e53c4f2cb9d1a25537b7fc53d12615b0c3e505970a9295679a933e06e",
+      "bytes": 7023294,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 68,
+      "path": "raw-hop/packet-0068.npz",
+      "sha256": "629a84b26a60dfbbe7f5397965ea99eb1898c49b90c437159dc858cfe4f0ba84",
+      "bytes": 7025250,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 69,
+      "path": "raw-hop/packet-0069.npz",
+      "sha256": "676a9b139df07bc73090d85b89579e4d36917558fbadd55518a5bbee29da693f",
+      "bytes": 7021772,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 70,
+      "path": "raw-hop/packet-0070.npz",
+      "sha256": "84525dcd21663931b33d3813d6b1a4eecaebe32480ba6337d8553758fc576c51",
+      "bytes": 7020949,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 71,
+      "path": "raw-hop/packet-0071.npz",
+      "sha256": "5b39afa81ea3feaf0d68a4492e26605dc3fe8fbf0caef0a06772602067dfb575",
+      "bytes": 7021858,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 72,
+      "path": "raw-hop/packet-0072.npz",
+      "sha256": "dba863b9d1e417f0664aac5e6f5824e5657ea1e19832e32632ad524b8b88c00e",
+      "bytes": 7021018,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 73,
+      "path": "raw-hop/packet-0073.npz",
+      "sha256": "fcf46f2db28b77b82ac2c3922e2b6b29db2a40e38ddd4c1d2a5ad86931dda43b",
+      "bytes": 7024750,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 74,
+      "path": "raw-hop/packet-0074.npz",
+      "sha256": "0052201d8781024ff1c5efb15cd4a81dfc049c6cfdb3afe86e899c3ffc3e1b96",
+      "bytes": 7024215,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 75,
+      "path": "raw-hop/packet-0075.npz",
+      "sha256": "9886714da3d83c9b96f3877af61408db46ead3a16ff700d284d369e07d2bc45c",
+      "bytes": 7026024,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 76,
+      "path": "raw-hop/packet-0076.npz",
+      "sha256": "d40e273f0fb938aeb68095ef89d7744a51d9a0ba80db55d6efa1a2d241256152",
+      "bytes": 7026333,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 77,
+      "path": "raw-hop/packet-0077.npz",
+      "sha256": "d7097235a0b98a5accdc4587f79f07cff94799a98d91b3bc704b2da4badf5250",
+      "bytes": 7021951,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 78,
+      "path": "raw-hop/packet-0078.npz",
+      "sha256": "dcb5cf157f424d211a5ea9ad05121346edaa5b1600653462fc8fbab471a9ce33",
+      "bytes": 7023439,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 79,
+      "path": "raw-hop/packet-0079.npz",
+      "sha256": "17dc9fd25cfa482061fed175f74513d8b98982508c23f177284ad33291d18b10",
+      "bytes": 7020901,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 80,
+      "path": "raw-hop/packet-0080.npz",
+      "sha256": "8a46a7004919483aea87fde94f8af992ab2852f1e5fcaad004af611a119e9c2f",
+      "bytes": 7023507,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 81,
+      "path": "raw-hop/packet-0081.npz",
+      "sha256": "49223704192276c08f7e17402d497fe64b504251aa15d979c79ec2fde7c94da0",
+      "bytes": 7019770,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 82,
+      "path": "raw-hop/packet-0082.npz",
+      "sha256": "180863261b3298101dace3eba04a45bf50a0681beccbc0a1be3b9e2e3cb3c910",
+      "bytes": 7021668,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 83,
+      "path": "raw-hop/packet-0083.npz",
+      "sha256": "6ccbbd8b4dea52f7dc01318494e4c6b3baca15c7cdd0b09d3310d0c9aa1d907f",
+      "bytes": 7023823,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 84,
+      "path": "raw-hop/packet-0084.npz",
+      "sha256": "873f95a5e1a9e380182533eaf7a5faddde8ce3f5b6e6ecc3f8f43f286d73ac93",
+      "bytes": 7022413,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 85,
+      "path": "raw-hop/packet-0085.npz",
+      "sha256": "28495a5eefafbc7415d93dc6684eb295d1af7fb5d711b88e572fc4b16c798866",
+      "bytes": 7023385,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 86,
+      "path": "raw-hop/packet-0086.npz",
+      "sha256": "76f4b0e98e66f9e007d5e0bfe02a0ee2a12cb69bcc9c50ef06af66c7a00ef0d4",
+      "bytes": 7027098,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 87,
+      "path": "raw-hop/packet-0087.npz",
+      "sha256": "d2076f8dc910eee33c1891d320b91f7d916a66f727709d5fabdd2a3e98604f50",
+      "bytes": 7022479,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 88,
+      "path": "raw-hop/packet-0088.npz",
+      "sha256": "fb7a4519615da06248bdcd31215121bf11226bc3b899e586070c65614c171c01",
+      "bytes": 7024773,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 89,
+      "path": "raw-hop/packet-0089.npz",
+      "sha256": "ab389422ba0a56797dc02b494e6988736ba884d2563040affce4deae8108b303",
+      "bytes": 7023999,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 90,
+      "path": "raw-hop/packet-0090.npz",
+      "sha256": "c28d16493ab030fb673471405b9da7d11585ce06267c8fc7eb71354c7aa0b78e",
+      "bytes": 7023851,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 91,
+      "path": "raw-hop/packet-0091.npz",
+      "sha256": "75eeafa240b951c4907754c2f1b889a14dade42e53e536356828ee7b3c3601eb",
+      "bytes": 7019095,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 92,
+      "path": "raw-hop/packet-0092.npz",
+      "sha256": "7a747befc70bbf42e8dafa5a2a280e9ae9a249ea2a71a148e9301d9b83b553f5",
+      "bytes": 7023089,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 93,
+      "path": "raw-hop/packet-0093.npz",
+      "sha256": "e8bb770e2f7ccecc33af75ef712dfa954c6db8035b9f78ed899bdecaa0088244",
+      "bytes": 7027233,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 94,
+      "path": "raw-hop/packet-0094.npz",
+      "sha256": "16a9dcec4812e6d8a80b0f410e8cb1e348bd8d0c89dc8c585b914bd818f2368e",
+      "bytes": 7024537,
+      "status": "completed",
+      "verified": false
+    },
+    {
+      "index": 95,
+      "path": "raw-hop/packet-0095.npz",
+      "sha256": "75896846ae2184c0249feba39e42b9cd7ade9e6ea53870aacdb730228145fc21",
+      "bytes": 7023940,
+      "status": "completed",
+      "verified": false
+    }
+  ],
+  "total_bytes": 674122847,
+  "max_bytes": 805306368,
+  "max_packets": 2000,
+  "reserve_per_packet": 16012288,
+  "verified": false
+}

@@ -13,12 +13,28 @@ import os
 from pathlib import Path
 import tempfile
 
+if __package__:
+    from .submission_scheduler import load_authorization_policy
+else:
+    from submission_scheduler import load_authorization_policy
+
 METRIC_SHA = '312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733'
 
 
 def digest(path):
     with Path(path).open('rb') as stream:
         return hashlib.file_digest(stream, 'sha256').hexdigest()
+
+
+def refresh_authorization(record):
+    """Bind eligibility to the current policy without altering certificates."""
+    policy = load_authorization_policy()
+    ceiling = Decimal(policy['score_ceiling'])
+    record['authorization_policy'] = policy
+    record['user_submission_score_threshold'] = float(ceiling)
+    record['eligible_under_user_score_threshold'] = all(
+        Decimal(str(record[role]['score'])) < ceiling for role in ('raw', 'safe', 'roundtrip'))
+    return record
 
 
 def certified_record(proof_path):
@@ -61,9 +77,7 @@ def certified_record(proof_path):
             and len(merged.get('results', [])) == 1000):
         raise ValueError('Independent interval proof does not match the raw CSV')
     record['independent_report'] = interval
-    record['user_submission_score_threshold'] = 22.3
-    record['eligible_under_user_score_threshold'] = all(record[k]['score'] < 22.3 for k in ('raw', 'safe', 'roundtrip'))
-    return record
+    return refresh_authorization(record)
 
 
 def require_casewise_nonregression(previous, proposed):
@@ -97,8 +111,14 @@ def update(proof_path, destination):
             if any(record[k]['score'] > previous[k]['score'] for k in ('raw', 'safe', 'roundtrip')):
                 raise ValueError('Refuse to replace the current best with a score regression')
             if all(record[k]['sha256'] == previous[k]['sha256'] for k in ('raw', 'safe', 'roundtrip')):
-                return previous
-            require_casewise_nonregression(previous, record)
+                # Preserve the adopted proof and other portfolio metadata, but
+                # a changed authorization must still refresh this same CSV.
+                record = {**previous, 'updated_at': record['updated_at']}
+            else:
+                require_casewise_nonregression(previous, record)
+        # Certification can take time. Read and hash the live policy again
+        # while holding the pointer lock, immediately before publication.
+        refresh_authorization(record)
         with tempfile.NamedTemporaryFile('w', dir=destination.parent,
                                          prefix=destination.name + '.', suffix='.incoming', delete=False) as stream:
             temporary = Path(stream.name)

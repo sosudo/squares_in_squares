@@ -1,0 +1,13 @@
+{
+  "notebook": "sos54352/squares-sustained-output-extractor",
+  "version": 1,
+  "source_sha256": "75f5a14ff4f1d27e923241f47ff2e9e3369423fc36aab477d63a4b5b94a12e2b",
+  "source_bytes": 17252,
+  "private": true,
+  "gpu": false,
+  "internet": false,
+  "checked_at": "2026-10-24T17:04:39.016869+00:00",
+  "server_timeout_seconds": 300,
+  "status": "RUNNING",
+  "devices_allocated": 0
+}

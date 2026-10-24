@@ -63,5 +63,15 @@
     "source": "artifacts/birth-objective-review-v1/mixed-parallel-tie.json",
     "sha256": "293dbf80d2375592691dedb21d98672683972640580bbde82492c74a661b5bc3",
     "bytes": 2526
+  },
+  "terminal-analysis.json": {
+    "source": "artifacts/birth-independent-terminal-analysis-v1/analysis.json",
+    "sha256": "b183df10dee2ef3e4bfc3bec26b569813d1e8900f593974c53e4cfbaa53692fe",
+    "bytes": 145683
+  },
+  "completion-proof.json": {
+    "source": "artifacts/birth-results-v1/completion-proof.json",
+    "sha256": "2512b3f9ac9448b0e2c2b004271b663e2f71603e6c6fe2c9c4c25e413a208276",
+    "bytes": 7522
   }
 }

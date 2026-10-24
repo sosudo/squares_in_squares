@@ -1,0 +1,43 @@
+{
+  "geometry_sha256": "f6b00b4f1dad7a7d1fe800175f5c8ae2c69814041f0286120ffe747cdcdbb270",
+  "certificate": {
+    "valid": true,
+    "shared_official_gate": {
+      "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+      "raw_reason": "ok",
+      "roundtrip_reason": "ok",
+      "raw_side": "21.96535830109537055445659830186188438973625377596394",
+      "roundtrip_side": "21.96535830109537355445659830686188438921062568014621",
+      "valid": true
+    },
+    "ordinary_pandas_official_reason": "ok",
+    "ordinary_pandas_official_side": "21.96535830109537259445659830686188438921062568014621",
+    "independent_raw": {
+      "n": 462,
+      "valid": true,
+      "side_lower": "21.965358301095370554456598301861884389736253775963858216194757",
+      "side_upper": "21.965358301095370554456598301861884389736253775964029273136204",
+      "score_lower": "0.021920953745711169110045656171054142540261913335106491002128",
+      "score_upper": "0.021920953745711169110045656171054142540261913335119854825679",
+      "interval_pairs": 408,
+      "exact_pairs": 0
+    },
+    "independent_roundtrip": {
+      "n": 462,
+      "valid": true,
+      "side_lower": "21.965358301095372594456598306861884389210625680146138724384244",
+      "side_upper": "21.965358301095372594456598306861884389210625680146267017090329",
+      "score_lower": "0.021920953745711264019435117047703680088978388463764854905895",
+      "score_upper": "0.021920953745711264019435117047703680088978388463775545964737",
+      "interval_pairs": 408,
+      "exact_pairs": 0
+    },
+    "raw_csv_sha256": "2725321233685d029cd598072bbfc6042553a1ca7196d4d5c69b7e1c77a728d8",
+    "ordinary_pandas_csv_sha256": "63d3dbf3e4a050a6a583838c9b3e12c4b3cde4d6ba0697030d375f303422a68f"
+  },
+  "provenance": {
+    "control": "unchanged_full_seed",
+    "source_geometry_sha256": "996dfac0021487891ddda4c526d9bac287719ad09cfc4d905df3a5bd9a520101"
+  },
+  "npz_sha256": "a173200c4c9c9bb69c14a4eac4ff3adf5b040dc4d469ec1815ee15ac8b433efd"
+}

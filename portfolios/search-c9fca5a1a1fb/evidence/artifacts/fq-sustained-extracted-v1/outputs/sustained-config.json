@@ -1,0 +1,134 @@
+{
+  "cases": {
+    "412": {
+      "n": 412,
+      "reference_side": "20.82287565553740121670015669765751498873232609226702",
+      "source_key": "reference_412",
+      "source_geometry_sha256": "713f6bd5831603f25ff9782b0e5d2c1e80338f5c9b74fb88c76cbcbb8311754f"
+    },
+    "544": {
+      "n": 544,
+      "reference_side": "23.82394505624064652176493209758971286948650005102007",
+      "source_key": "reference_544",
+      "source_geometry_sha256": "d6a1e96eb1c36206c0ccf296eb7c0db2d5506946f526f5206887212eecc810b6"
+    },
+    "742": {
+      "n": 742,
+      "reference_side": "27.75962650786559863630890896668905299034053015403942",
+      "source_key": "reference_742",
+      "source_geometry_sha256": "9e891c24f0d3d3b9c4d0cd60d6fd872ebb78eb542fef1e26ab7201c2ee04be44"
+    },
+    "591": {
+      "n": 591,
+      "reference_side": "24.81959056029464833538351260316752531055598807132213",
+      "source_key": "reference_591",
+      "source_geometry_sha256": "89214e9de8da1a7bbb6ecba8cdd4f4f486115993841775aaeb6c27eb2e1898cc"
+    },
+    "744": {
+      "n": 744,
+      "reference_side": "27.78597196248753104923132169163362625538121985845094",
+      "source_key": "reference_744",
+      "source_geometry_sha256": "8bd6c2b617599e5ccf7db21c6c74704365328a4d0c10ce862531121dc1cfa4ef"
+    },
+    "641": {
+      "n": 641,
+      "reference_side": "25.81949661682527741097247740134376233225628104250934",
+      "source_key": "reference_641",
+      "source_geometry_sha256": "8c579c6df95ffabef95f9187717ede8512813074994e98828e885ff6d43206b0"
+    },
+    "411": {
+      "n": 411,
+      "reference_side": "20.79529516423792097178870530291102548221800674847121",
+      "source_key": "reference_411",
+      "source_geometry_sha256": "42fe422059a66a7329cdf3408fbf0d75871de6229f76378e923086ab5a349261"
+    },
+    "462": {
+      "n": 462,
+      "reference_side": "21.96535824812266217604860048847002223481577044163297",
+      "source_key": "reference_462",
+      "source_geometry_sha256": "996dfac0021487891ddda4c526d9bac287719ad09cfc4d905df3a5bd9a520101"
+    },
+    "978": {
+      "n": 978,
+      "reference_side": "31.77951694458250257695706655684211666303124616288009",
+      "source_key": "reference_978",
+      "source_geometry_sha256": "3a975aad5a708ce8c1890eb54daf5689235f0467c0154cd64a35f81270e09e95"
+    },
+    "541": {
+      "n": 541,
+      "reference_side": "23.77817459419936900000000000000000000000000000000000",
+      "source_key": "reference_541",
+      "source_geometry_sha256": "b11cdfa75712a7b70d6e00ff09e4fad121cbf1353e8efcfffa69d0e83f7a825a"
+    },
+    "629": {
+      "n": 629,
+      "reference_side": "25.58378219107542200000000000000000000000000000000000",
+      "source_key": "reference_629",
+      "source_geometry_sha256": "56d589cf79353d5cc07067fbce6f0b0a971ffbcfdbaeff82397f472f9043d076"
+    },
+    "341": {
+      "n": 341,
+      "reference_side": "18.95188240873789600000000000000000000000000000000000",
+      "source_key": "reference_341",
+      "source_geometry_sha256": "b756fcfa9e1e4e360ad3d000d2b72b315dff7172a47b3ad8fda7f79cb3023784"
+    }
+  },
+  "inputs_sha256": "6469ecb23f43a3fc6e59341501cf59b8ad857cda8d2ea8d51d2d7575bd6c3054",
+  "baseline": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-sustained-controls-v1.csv",
+    "sha256": "77072a68f862fc166264825aa19a1eb867692bf280ca531965499fab2e6baea0",
+    "score": 22.297959981773438,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-fq-sustained-controls-v1-official.json",
+    "official_report_sha256": "a379ea912b16480c352934f3c4a5205acd8d2e3040317e15c8cf58c271bb4483",
+    "reuse": {
+      "reused": 998,
+      "evaluated": 2
+    }
+  },
+  "batch_size": 64,
+  "batch_decision": {
+    "batch_size": 64,
+    "production_precision": "float64",
+    "row_equivalence_passed": true,
+    "row_equivalence_scope": "Initial FP64 energy/gradient and exact source-row duplication; endpoints are NOT bitwise equal.",
+    "independent_report_sha256": "81a09aef42e7ac1ea0c3887a6800f01d3151653680b4d6a2267b7ffb7b30706c",
+    "actual_fixture": "n803_early",
+    "measured_combined_rows_per_second": 17.79732452987183,
+    "combined_speedup_over_B32": 0.2853674293660984,
+    "endpoint_quality_scope": "No demonstrated systematic median loss on one actual fixture, compared with repeatedB32 variation. Not a search-benefit or twelve-case generalization proof.",
+    "choice": "B64:28.5percent more combinedthroughput than32;128 adds7.5percent at about2x dense memory. Every actualcase still requires controls."
+  },
+  "search_seconds": 360,
+  "cooling_seconds": 100,
+  "cuts": [
+    0.0005,
+    0.002
+  ],
+  "temperature": 0.3,
+  "amplitudes": [
+    1.0,
+    1.5
+  ],
+  "seed": 116240001,
+  "raw_bytes_per_case": 805306368,
+  "output_bytes_total": 12884901888,
+  "quench_steps": 2000,
+  "cuda_options": [
+    "--std=c++17",
+    "--fmad=false"
+  ],
+  "finish_workers_per_case": 2,
+  "finish_native_seconds": 60,
+  "finish_certificate_seconds": 8,
+  "finish_slots_per_case": 4,
+  "preflight_seconds": 45,
+  "search_initialization_seconds": 10,
+  "search_finalization_seconds": 20,
+  "recovery_seconds": 3,
+  "finish_phase_seconds": 145,
+  "parent_queue_seconds": 3540,
+  "parent_summary_seconds": 30,
+  "whole_seconds": 3600,
+  "server_seconds": 4200,
+  "matched_reference_controls_repeated_remotely": false
+}

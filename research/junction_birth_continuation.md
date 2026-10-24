@@ -98,9 +98,48 @@ before launch was15,950.50 of108,000 seconds used. Frontier owns monitoring
 and output collection; no duplicate launch or extension is authorized.
 Both actual CUDA preflights then passed:498 in2.964 seconds and587 in3.289
 seconds, including the nontrivial growth and full final control certificates.
-`live-startup-check.json` binds the observed live events. The job is RUNNING;
-initial production lambda=1 overlap energies remain positive and unverified.
-Terminal production/native results are not yet known at this checkpoint.
+`live-startup-check.json` binds the observed live events. The job completed
+normally in379.07 seconds, both arms exit0. There are19 complete498 batches
+and14 complete587 batches, or1,056 final common lambda=1 proposals. All eight
+selected native outputs pass every unchanged full gate; none improves the
+current case.
+
+| Target | Final size1 poses | Best proposal energy | Best certified native side | Excess over current side |
+| --- | ---: | ---: | ---: | ---: |
+| 498 | 608 | 0.0015151394 | 22.85340139544 | +0.02979336243 |
+| 587 | 448 | 0.0014425827 | 24.84923724278 | +0.09313968179 |
+
+The gradual insertion encounters positive overlap before full growth. For
+schedule1,498 median energy is about5.41e−5 at size0.5,0.001363 at0.82,
+and0.002068 at size1;587 is about1.83e−6,0.000517 and0.002993 at those
+sizes. These describe energies for different shapes, not comparable values
+of one fixed objective. The extra same-size1 quench in schedule0 reduces
+energy only modestly: median final/prior ratios0.994365 and0.995469. It does
+not restore a feasible full-count proposal in this finite protocol. The
+native finisher instead finds wider valid packings. Neither failure
+establishes geometric impossibility for the fixed candidate boxes.
+
+Measured cycle stage-loop wall sums are297.143 and298.223 seconds. They
+include evaluation, quench and stage persistence, but exclude initial cycle
+packet and final full-bank writes, so they are not GPU-only time. The
+300-second value is stage admission. There are no per-kernel absolute
+timestamps; the exact final-kernel overrun cannot be inferred. Both actual
+case elapsed times and platform log clocks remain in the independent
+analysis, without combining their different epochs.
+
+The last incomplete cycles retain three498 stages and ten587 stages.
+All409 completed stage-packet hashes(231/178) bind to the immutable remote
+inventory. The177.4MB complete raw archive stays remote, SHA
+`15e368b5ec9092a1ed9dfd30ba8e6358eb264027a2ecc59e2f7d9ad2e8cf1989`.
+Compact full-size banks and all selected exact raw/native/decoded/certified
+arrays are local. The independent completion audit binds all8 selected
+arrays through native input/output and both decimal-transport certificates:
+`artifacts/birth-results-v1/completion-proof.json`, SHA
+`2512b3f9ac9448b0e2c2b004271b663e2f71603e6c6fe2c9c4c25e413a208276`.
+Per-stage and clock aggregation is
+`artifacts/birth-independent-terminal-analysis-v1/analysis.json`, SHA
+`b183df10dee2ef3e4bfc3bec26b569813d1e8900f593974c53e4cfbaa53692fe`.
 Minimal unchanged proof copies and their hashes are tracked under
-`research/proofs/junction-birth-v4`.
+`research/proofs/junction-birth-v4`. This finite birth pilot is closed;
+no extension or additional GPU search was launched.
 No competition submission or canonical mutation was made by this lane.

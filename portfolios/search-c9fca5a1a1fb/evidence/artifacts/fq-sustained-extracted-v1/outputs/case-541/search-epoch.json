@@ -1,0 +1,9 @@
+{
+  "started_monotonic": 1512.90895507,
+  "deadline_monotonic": 1872.90895507,
+  "parent_phase_deadline_monotonic": 1899.987213466,
+  "search_seconds": 360.0,
+  "cooling_start_monotonic": 1772.90895507,
+  "finalization_reserve_seconds": 20.0,
+  "clock_scope": "Initialized child and controller use the same monotonic clock."
+}

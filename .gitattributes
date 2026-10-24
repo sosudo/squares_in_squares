@@ -26,3 +26,7 @@ portfolios/candidate-*/reference-control-ancestry/**/*.log -text whitespace=-bla
 portfolios/candidate-*/public-v35-proof/**/*.csv -text whitespace=cr-at-eol
 portfolios/candidate-*/public-v35-proof/*.csv -text whitespace=cr-at-eol
 portfolios/candidate-*/source-notices-kmmm35/** -text whitespace=cr-at-eol,-blank-at-eof
+
+# Local search checkpoints retain exact historical logs and upstream evidence.
+portfolios/search-*/evidence/**/*.log -text whitespace=-blank-at-eof
+portfolios/search-*/evidence/**/source-evidence/** -text whitespace=cr-at-eol,-blank-at-eof

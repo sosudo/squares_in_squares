@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "interpreter": "system python; standard-library restore only",
+  "manifest_sha256": "336d74302a52df481ad786773a2cc76e367a50a8080c368c003d576ce8b63b03",
+  "restore_source_sha256": "f91bf9b6023090e8d50c28ef95fbf69377b4d8ad221b44b53435d6be0be24681",
+  "builder_source_sha256": "b4f55785271340fb19d02e73ea81b9e00a8157dacc5051ee0fcbc9f955e9928b",
+  "restored": {
+    "raw": {
+      "path": "/tmp/local-search-checkpoint-replay/raw.csv",
+      "sha256": "9d18b33ca0efb4c55c0afac2c159f413676d76aae37fb3cbcc6ec93a43975396",
+      "bytes": 31123060
+    },
+    "safe": {
+      "path": "/tmp/local-search-checkpoint-replay/safe.csv",
+      "sha256": "c9fca5a1a1fbf55bba5e3ed093cc5412b92845fb01809c3fbc61362bb01d3097",
+      "bytes": 31987924
+    },
+    "roundtrip": {
+      "path": "/tmp/local-search-checkpoint-replay/roundtrip.csv",
+      "sha256": "fc5c2882e8443fb51d2c9f3f681494d7f5e418032cadbfa1669983fb8be2234e",
+      "bytes": 24652683
+    }
+  },
+  "wrong_parent_negative": "All3 complete targets rejected modified same-length parent during builder replay;3focused helper tests also passed",
+  "no_optimization": true,
+  "no_new_geometry_certification": true,
+  "no_network": true,
+  "no_remote_export_queue_or_submission": true
+}

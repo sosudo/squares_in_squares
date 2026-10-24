@@ -1,0 +1,23 @@
+{
+  "status": "GREEN_read_only_extractor_review",
+  "source_sha256": "75f5a14ff4f1d27e923241f47ff2e9e3369423fc36aab477d63a4b5b94a12e2b",
+  "source_bytes": 17252,
+  "worker_sha256": "9b0480aff147e7f2ca3f3d76698ca200f9950da20e2323b6d69c3d9bd21dfbe7",
+  "builder_sha256": "3ec2fe175a2f4e2695a5a19fca4f112295e64f9c8a8c12f3797ad690fde0a6e2",
+  "payload_files_verified": 2,
+  "parent_files_verified_by_worker": 164,
+  "review": [
+    "Exact manifest/config identify one attached parent; version suffix alone is not a pin.",
+    "All164 manifested source/native/license/input files are hashchecked while copying.",
+    "Strict relative regular-file and symlink guards; case terminal packet limited to its indexed raw-hop path and exact SHA/size.",
+    "All finish/preflight subtree files including partials are preserved; no whole raw-history read; zero-energy index retained while optional raw snapshots explicitly excluded.",
+    "Streaming compressedZIP and cumulative byte/file caps; incoming publication and finite process-group supervisor bounds.",
+    "180s worker,240s whole,300s server; no numerical/metric/native/GPU imports or execution.",
+    "PrivateCPU/offline matching metadata; no competition submission."
+  ],
+  "local_replay_sha256": "a72d024a042375fa700d2d8f41abb134545e347f11e0cd4c84cc440d742ef8ac",
+  "minor_nonblocking_note": "Raw pending_quench entries fall under explicit other count rather than pending; source status/index bytes are retained unchanged.",
+  "no_launch": true,
+  "no_optimizer": true,
+  "no_new_certificates": true
+}

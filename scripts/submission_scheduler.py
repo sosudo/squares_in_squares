@@ -28,7 +28,7 @@ HOUR = 3600
 DAILY_LIMIT = 10
 SCORE_TOLERANCE = Decimal('0.0000000001')
 AUTHORIZATION_POLICY = Path(__file__).resolve().parents[1] / 'artifacts/submissions/authorization-policy.json'
-MAX_AUTHORIZED_SCORE = Decimal('22.3')
+MAX_AUTHORIZED_SCORE = Decimal('22.24')
 
 
 def utc(value):
@@ -95,17 +95,18 @@ def safe_error_diagnostics(error):
 def load_authorization_policy(path=None):
     """Require the persisted authorization, failing closed if absent or invalid."""
     path = Path(path or AUTHORIZATION_POLICY)
-    data = json.loads(path.read_text())
+    policy_bytes = path.read_bytes()
+    data = json.loads(policy_bytes)
     ceiling = numeric_score(data['submission_score_must_be_strictly_below'])
     if ceiling <= 0 or ceiling > MAX_AUTHORIZED_SCORE:
-        raise ValueError('Authorization cannot permit submissions at or above22.3')
+        raise ValueError('Authorization cannot permit submissions at or above 22.24')
     if data.get('strict_improvement_required') is not True:
         raise ValueError('Strict improvement authorization must remain enabled')
     interval = data.get('minimum_interval_seconds')
     if type(interval) is not int or interval < HOUR:
         raise ValueError('Authorization must retain the minimum hourly interval')
     return {'score_ceiling': str(ceiling), 'minimum_interval_seconds': interval,
-            'sha256': digest(path), 'source': str(path.resolve())}
+            'sha256': hashlib.sha256(policy_bytes).hexdigest(), 'source': str(path.resolve())}
 
 
 def checked_policy(policy):

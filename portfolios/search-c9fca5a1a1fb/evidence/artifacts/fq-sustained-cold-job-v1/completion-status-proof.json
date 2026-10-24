@@ -1,0 +1,13 @@
+{
+  "notebook": "sos54352/squares-sustained-cold-12case",
+  "version": 1,
+  "source_sha256": "dc6950e858285433d1975f537431e375bae95584ab314807a3ae08b79baa0451",
+  "source_bytes": 976585,
+  "private": true,
+  "gpu": true,
+  "internet": false,
+  "checked_at": "2026-10-24T17:04:06.170888+00:00",
+  "server_timeout_seconds": 4200,
+  "status": "COMPLETE",
+  "devices_allocated": 2
+}
