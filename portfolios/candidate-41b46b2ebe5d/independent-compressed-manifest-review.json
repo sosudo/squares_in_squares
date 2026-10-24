@@ -1,0 +1,38 @@
+{
+  "source_sha256": "919f54fa5205062b1e8e12a81a4548ef6ce7e7883d1c2c8bb7af4fc94722b089",
+  "source_bytes": 880050,
+  "decoded_equals_plaintext": true,
+  "raw_size": 209063,
+  "raw_sha256": "7251185f4947d1a2bfd5199714804b3da14a677c9e303a25538f4fc2b85c4190",
+  "compressed_sha256": "8f82497e3e4394189761d9512bca08d4ae98590d114dc32189d1ca00e6b6e194",
+  "notices": {
+    "kmmm": {
+      "bytes": 123039,
+      "sha256": "751438e3ffb4fa569e7ad604705a8b231b10fd23577b9c938af817956832424b",
+      "exact_decoded_utf8_string_present": true,
+      "crlf_count": 895
+    },
+    "lightning_current": {
+      "bytes": 2490,
+      "sha256": "924ef719dc7ea4509df7ab9625d0ffb5145b6bbca536a38e3c7b9bd6afa0fe6a",
+      "exact_decoded_utf8_string_present": true,
+      "crlf_count": 9
+    },
+    "lightning_inherited": {
+      "bytes": 123039,
+      "sha256": "751438e3ffb4fa569e7ad604705a8b231b10fd23577b9c938af817956832424b",
+      "exact_decoded_utf8_string_present": true,
+      "crlf_count": 895
+    }
+  },
+  "runtime_equals_previous_diff_scope": true,
+  "private_cpu_offline": true,
+  "review": "green_no_blocker",
+  "scope": "Independent codec decode/manifest and exact notice byte inspection; owner full runtime replay inspected, not repeated.",
+  "independent_codec_tests_passed": 3,
+  "tests_sha256": "899e34b73d31379521e025af9e0afe954a72b61d832648dd4ca7a499d9a024f2",
+  "builder_sha256": "477ef6ddcce7675e7e603678e488b3235b4de5988180adffe1c38e2b13131f0b",
+  "kernel_metadata_sha256": "f89f588e68d6d280fc3e512671ae1c8f83a56ac7727f0c821c3c59439ff16e08",
+  "owner_runtime_proof_sha256": "f29191fd40a68a5e25e1287acb7ea759f047d53f5a63cd1cf31c607a7e651ffa",
+  "owner_default_regression_sha256": "fe67c83c0109870f74fe29e8385f680f27a050dd40ec310c5912611e3335bab6"
+}

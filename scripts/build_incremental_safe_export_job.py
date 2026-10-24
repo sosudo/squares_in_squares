@@ -17,6 +17,26 @@ METRIC_SHA = '312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733'
 PARENT_REF = 'sos54352/squares-portfolio-8cd7c023ab18/1'
 PARENT_SHA = '8cd7c023ab18b5875fcd5084e23415eda3181df1f4e70b5558bfe9eb039b0658'
 
+COMPRESSED_MANIFEST_RUNTIME = r'''
+import base64,hashlib,json,lzma
+
+def _decode_embedded_manifest(payload,raw_size,raw_sha,compressed_sha):
+    if type(raw_size)is not int or not 0<raw_size<4*1024*1024:
+        raise ValueError('Invalid embedded manifest size')
+    compressed=base64.b64decode(payload,validate=True)
+    if hashlib.sha256(compressed).hexdigest()!=compressed_sha:
+        raise ValueError('Compressed manifest SHA256 differs')
+    decoder=lzma.LZMADecompressor(memlimit=64*1024*1024)
+    raw=decoder.decompress(compressed,max_length=raw_size+1)
+    if not decoder.eof or decoder.unused_data or len(raw)!=raw_size:
+        raise ValueError('Embedded manifest stream or size differs')
+    if hashlib.sha256(raw).hexdigest()!=raw_sha:
+        raise ValueError('Exact manifest SHA256 differs')
+    result=json.loads(raw)
+    if not isinstance(result,dict):raise ValueError('Expected manifest object')
+    return result
+'''
+
 RUNTIME = r'''
 import base64,hashlib,json,lzma,re
 from pathlib import Path
@@ -222,7 +242,22 @@ def build(args):
         raise ValueError('Unchanged byte sequence differs')
     rebuilt=ns['apply_safe_row_patch'](parent,encoded,manifest)
     if rebuilt!=target:raise ValueError('Local exact-byte reconstruction failed')
-    loader='INCREMENTAL_MANIFEST = '+repr(manifest)+'\nINCREMENTAL_PATCH = '+repr(encoded)+'\n'+RUNTIME
+    manifest_encoding={'encoding':'literal_python_mapping'}
+    if getattr(args,'compress_manifest',False):
+        manifest_raw=json.dumps(manifest,separators=(',',':'),ensure_ascii=False).encode('utf8')
+        manifest_compressed=lzma.compress(manifest_raw,preset=6)
+        manifest_encoded=base64.b64encode(manifest_compressed).decode()
+        parameters=(manifest_encoded,len(manifest_raw),sha(manifest_raw),sha(manifest_compressed))
+        check={};exec(compile(COMPRESSED_MANIFEST_RUNTIME,'<manifest-codec>','exec'),check)
+        if check['_decode_embedded_manifest'](*parameters)!=manifest:
+            raise ValueError('Embedded manifest exact reconstruction failed')
+        loader=COMPRESSED_MANIFEST_RUNTIME+'\nINCREMENTAL_MANIFEST = _decode_embedded_manifest(*'+repr(parameters)+')\n'
+        manifest_encoding=dict(encoding='exact_json_lzma_base64',raw_bytes=len(manifest_raw),
+            raw_sha256=sha(manifest_raw),compressed_bytes=len(manifest_compressed),
+            compressed_sha256=sha(manifest_compressed),decoder_sha256=sha(COMPRESSED_MANIFEST_RUNTIME.encode()))
+    else:
+        loader='INCREMENTAL_MANIFEST = '+repr(manifest)+'\n'
+    loader+='INCREMENTAL_PATCH = '+repr(encoded)+'\n'+RUNTIME
     source=loader+ENTRYPOINT;compile(source,'export.py','exec')
     if len(source.encode())>=1_000_000:raise ValueError('Incremental source exceeds Kaggle1MB')
     args.out.mkdir(parents=True)
@@ -230,7 +265,8 @@ def build(args):
     report=dict(script_sha256=sha(source.encode()),script_bytes=len(source.encode()),
         parent_csv_sha256=sha(parent),target_csv_sha256=sha(target),changed_rows=len(changed),
         changed_puzzles=manifest['changed_puzzles'],patch_compressed_bytes=len(compressed),
-        local_exact_byte_reconstruction=True,transport_scaling_applied=False,launched=False)
+        local_exact_byte_reconstruction=True,transport_scaling_applied=False,launched=False,
+        manifest_encoding=manifest_encoding)
     for name,value in [('export_manifest.json',manifest),('kernel-metadata.json',metadata),('build_report.json',report)]:
         (args.out/name).write_text(json.dumps(value,indent=2)+'\n')
     (args.out/'incremental_loader.py').write_text(loader);(args.out/'export.py').write_text(source)
@@ -248,6 +284,8 @@ def main():
     parser.add_argument('--target-transport',type=Path,default=ROOT/'artifacts/submission-cpu-bottleneck-v2-safe.transport-validation.json')
     parser.add_argument('--additional-provenance',type=Path,
                         help='Public source notices and per-case bindings embedded in the export manifest')
+    parser.add_argument('--compress-manifest',action='store_true',
+                        help='Losslessly compress embedded provenance with exact raw/compressed hash guards')
     parser.add_argument('--out',type=Path,required=True)
     parser.add_argument('--slug',default='sos54352/squares-portfolio-5cba3bdac3cf-incremental')
     build(parser.parse_args())

@@ -10,7 +10,7 @@ import unittest
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
-from build_incremental_safe_export_job import runtime_namespace,notebook_metadata
+from build_incremental_safe_export_job import runtime_namespace,notebook_metadata,COMPRESSED_MANIFEST_RUNTIME
 
 
 def sha(data):return hashlib.sha256(data).hexdigest()
@@ -24,6 +24,38 @@ class MetadataTests(unittest.TestCase):
         self.assertEqual(metadata['title'].lower().replace(' ','-'),slug.split('/')[-1])
         alternate='sos54352/squares-next-safe-checkpoint'
         self.assertEqual(notebook_metadata(alternate)['title'].replace(' ','-'),alternate.split('/')[-1])
+
+
+class CompressedManifestTests(unittest.TestCase):
+    def setUp(self):
+        namespace={};exec(compile(COMPRESSED_MANIFEST_RUNTIME,'<manifest-test>','exec'),namespace)
+        self.decode=namespace['_decode_embedded_manifest']
+        self.manifest={'notice':'MIT — exact CRLF\r\n','nested':{'a':None,'b':True},
+                       'decimal_coordinate':'0.1234567890123456789012345','score':22.300613633186703}
+        self.raw=json.dumps(self.manifest,separators=(',',':'),ensure_ascii=False).encode()
+        self.compressed=lzma.compress(self.raw,preset=6)
+        self.payload=base64.b64encode(self.compressed).decode()
+
+    def test_exact_notice_text_and_coordinate_string_roundtrip(self):
+        actual=self.decode(self.payload,len(self.raw),sha(self.raw),sha(self.compressed))
+        self.assertEqual(actual,self.manifest)
+        self.assertEqual(actual['notice'].encode(),self.manifest['notice'].encode())
+
+    def test_compressed_and_raw_hash_tampering_rejected(self):
+        changed=bytearray(self.compressed);changed[len(changed)//2]^=1
+        with self.assertRaisesRegex(ValueError,'Compressed manifest SHA256'):
+            self.decode(base64.b64encode(changed).decode(),len(self.raw),sha(self.raw),sha(self.compressed))
+        with self.assertRaisesRegex(ValueError,'Exact manifest SHA256'):
+            self.decode(self.payload,len(self.raw),'0'*64,sha(self.compressed))
+
+    def test_bounded_decoding_rejects_trailing_stream_and_wrong_size(self):
+        joined=self.compressed+lzma.compress(b'extra')
+        with self.assertRaisesRegex(ValueError,'stream or size'):
+            self.decode(base64.b64encode(joined).decode(),len(self.raw),sha(self.raw),sha(joined))
+        with self.assertRaisesRegex(ValueError,'stream or size'):
+            self.decode(self.payload,len(self.raw)-1,sha(self.raw),sha(self.compressed))
+        with self.assertRaisesRegex(ValueError,'Invalid embedded manifest size'):
+            self.decode(self.payload,4*1024*1024,sha(self.raw),sha(self.compressed))
 
 
 class IncrementalSafeExportTests(unittest.TestCase):

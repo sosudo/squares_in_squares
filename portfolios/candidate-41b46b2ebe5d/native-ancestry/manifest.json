@@ -1,0 +1,58 @@
+{
+  "baseline": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-public-v29.csv",
+    "sha256": "a0dad731adc6cacc9c882082aaf9464c7c7fc755ce4eabba6f711b1c31b969bc",
+    "score": 22.300816161909534,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-public-v29-official.json",
+    "official_report_sha256": "2c804bffcc53051768bcc421f10a4e07850eede1061a03d8ffe03c247e29517c",
+    "reuse": {
+      "reused": 982,
+      "evaluated": 18
+    }
+  },
+  "audit_sha256": "bd4121e66f328fd09c78f3f32fcdf6103451d994368f4803e822e2fda1d0b57f",
+  "binary_sha256": "10ec7cf773ac0ebca3791d5cfb84e9ecbb10e3f0a9e43194330c80e1cfc9dc3d",
+  "source_commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+  "source_hashes": {
+    "/workspace/squares_in_squares/experiments/fq_unvisited_contact_diagnostic.py": "b4dae6a250643ca39b7af46cb796cbf06550f0281d9d9968e292c610b9a1646e",
+    "/workspace/squares_in_squares/experiments/fq_full_local_campaign.py": "078fbcfdac4caba0fc4203904d35ce2a70d0e0d979f3c1e1a7aa85b88361813c",
+    "/workspace/squares_in_squares/experiments/fq_dual_cage_soft.py": "e71df61594e8c36f959830baff4375d577be9e4e40f504a8a95e0a6902310c9d",
+    "/workspace/squares_in_squares/experiments/fq_joint_seed_check.py": "b73deacaa0a363430f261f59650a303e4f3086faad28d752f6a0d8673ee71990",
+    "/workspace/squares_in_squares/experiments/fq_active_pilot.py": "cc916fe5bc0e58a4cdfdeb6e4f498061522a2ae44cd6443fdffc1f485eb3db33",
+    "/workspace/squares_in_squares/experiments/fq_coherent_clusters.py": "43defd841872008a796edf33bd88edde554c008999940b337c28b0a0c4da485f",
+    "/workspace/squares_in_squares/experiments/fq_variant_campaign.py": "a6cc4f2b41f78350fd52fa5d8c29a44152791322000fbb007c7fea85ad8ed825",
+    "/workspace/squares_in_squares/experiments/fq_capacity_probe.py": "35a750d6c5aa90f661b8e0e3491e11284f04f592cb320ae0112654c7dddfedd5",
+    "/workspace/squares_in_squares/experiments/compose_gadgets.py": "a8b1df4f9474425d434a44914a73d56703dfc485a79acb57d7d0a3d6e4a24568",
+    "/workspace/squares_in_squares/scripts/validate_submission.py": "a9db77693e2fb093dcfdbbbfbd913f9420ed0a661ae0eeb8076362c0a8cbae4b",
+    "/workspace/squares_in_squares/scripts/score_official.py": "a6b0877295aa68940b4e32d9681a8f8d6a2e350de80c1b1f5aa54cd44e88d6ba",
+    "/workspace/squares_in_squares/research/official_metric_v17.py": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+    "/workspace/squares_in_squares/vendor/fq/src/fq.rs": "7045e9feff2d4b433053e4610258ca43d842e599fccf31d8b6b042276c2905c2"
+  },
+  "native_options": {
+    "contact20": [
+      "--no-alm",
+      "--loosen",
+      "1",
+      "--pit",
+      "20",
+      "--flip-top",
+      "0"
+    ],
+    "rigid_after_gain": [
+      "--loosen",
+      "1",
+      "--outer",
+      "45",
+      "--pit",
+      "20",
+      "--flip-top",
+      "0"
+    ]
+  },
+  "trial_inclusive_cap_seconds": 8.0,
+  "workers": 1,
+  "maximum_total_seconds": 180,
+  "rigid_policy": "Only after a fully certified material contact20 gain; contact pass finishes before optional rigid followups.",
+  "no_submission": true,
+  "no_canonical_mutation": true
+}

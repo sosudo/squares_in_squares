@@ -1,0 +1,222 @@
+{
+  "744": {
+    "input": {
+      "file": "selected-native-files/n744-contact20-9350002.in",
+      "sha256": "007a137cb57ef3a949d75c47fe05dfc33c95c5d5d08344b26cc21faee1d0c782",
+      "bytes": 34077,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n744-contact20-9350002.in"
+    },
+    "output": {
+      "file": "selected-native-files/n744-contact20-9350002.out",
+      "sha256": "f3f7fe8b0b39582658f8b562b5d4c287f073d2169e548d007b80c48dd2b1901d",
+      "bytes": 44718,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n744-contact20-9350002.out"
+    },
+    "log": {
+      "file": "selected-native-files/n744-contact20-9350002.log",
+      "sha256": "fd9f23fc4d91d3fcdb934f1054ad948b9a0f7e4a9dd75b34409d261a36157472",
+      "bytes": 1025,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n744-contact20-9350002.log"
+    }
+  },
+  "498": {
+    "input": {
+      "file": "selected-native-files/n498-rigid_after_gain-9350031.in",
+      "sha256": "200e8347a41042efe8ee56cf43a3fc6223265bae1b19ca0f74252727d924a21d",
+      "bytes": 28351,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n498-rigid_after_gain-9350031.in"
+    },
+    "output": {
+      "file": "selected-native-files/n498-rigid_after_gain-9350031.out",
+      "sha256": "d6e4ca79b8b9394306b20cbc01b4b0a3c7f4b91ad140272aeb912bb86e5f9783",
+      "bytes": 29691,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n498-rigid_after_gain-9350031.out"
+    },
+    "log": {
+      "file": "selected-native-files/n498-rigid_after_gain-9350031.log",
+      "sha256": "0d70c8bf10593c51c42c1cf43a22bca41c896153af420bad9b5624a8b3fe716f",
+      "bytes": 869,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n498-rigid_after_gain-9350031.log"
+    }
+  },
+  "917": {
+    "input": {
+      "file": "selected-native-files/n917-contact20-9350006.in",
+      "sha256": "50bf18dbeb02fe494f7d2d0e149bc397106b33203a68234147444cd99bb04f8b",
+      "bytes": 40852,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n917-contact20-9350006.in"
+    },
+    "output": {
+      "file": "selected-native-files/n917-contact20-9350006.out",
+      "sha256": "c781c39617b7269caa01c0fda016628ec6c461cf554eb9765ef9ca3ad59a8d71",
+      "bytes": 55121,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n917-contact20-9350006.out"
+    },
+    "log": {
+      "file": "selected-native-files/n917-contact20-9350006.log",
+      "sha256": "42d12d35bc85ab6c84b8bbfb414205d62a7ece6b90a2e9a9038d1be5de3f6d0a",
+      "bytes": 601,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n917-contact20-9350006.log"
+    }
+  },
+  "544": {
+    "input": {
+      "file": "selected-native-files/n544-rigid_after_gain-9350033.in",
+      "sha256": "2b226113e2f2425d9c9b7e35a77d84e9d4657019361078d4b9681546a4b00cb3",
+      "bytes": 30057,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n544-rigid_after_gain-9350033.in"
+    },
+    "output": {
+      "file": "selected-native-files/n544-rigid_after_gain-9350033.out",
+      "sha256": "ade4e2e567521cb9c82b9388ddd4199005770422bdfcef17fd703b5a2c1a85f3",
+      "bytes": 32419,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n544-rigid_after_gain-9350033.out"
+    },
+    "log": {
+      "file": "selected-native-files/n544-rigid_after_gain-9350033.log",
+      "sha256": "0d75fe6147bcc607200fe538b0a15c6a11c75095b7074df946dcbb2c08e0fd0e",
+      "bytes": 1185,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n544-rigid_after_gain-9350033.log"
+    }
+  },
+  "800": {
+    "input": {
+      "file": "selected-native-files/n800-contact20-9350010.in",
+      "sha256": "078343dad60d585b1b8b712551d2cfb0955e9906ef282da94f842a8c14620878",
+      "bytes": 45451,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n800-contact20-9350010.in"
+    },
+    "output": {
+      "file": "selected-native-files/n800-contact20-9350010.out",
+      "sha256": "d358efb53a18b04808da08ea5b3188a44f9683f0d177799c6e6fc824991878eb",
+      "bytes": 47974,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n800-contact20-9350010.out"
+    },
+    "log": {
+      "file": "selected-native-files/n800-contact20-9350010.log",
+      "sha256": "dbc4e198770f49de2fbfd35aca95afef9a4ae5307321448c913e17a48fe678b9",
+      "bytes": 1022,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n800-contact20-9350010.log"
+    }
+  },
+  "742": {
+    "input": {
+      "file": "selected-native-files/n742-contact20-9350017.in",
+      "sha256": "555b9a519b67d81605d9add01fd626ab8328e7308026aa9ccfe3921fcd7af651",
+      "bytes": 33615,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n742-contact20-9350017.in"
+    },
+    "output": {
+      "file": "selected-native-files/n742-contact20-9350017.out",
+      "sha256": "ed0247c237f9a448288e692f88fb8f4ee4b74d707d27caf6355cfee3c15682ed",
+      "bytes": 44538,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n742-contact20-9350017.out"
+    },
+    "log": {
+      "file": "selected-native-files/n742-contact20-9350017.log",
+      "sha256": "5f80bdf1cc61ae822be941111702b45300db1c7b00f274fbfe43ffef3c455996",
+      "bytes": 814,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n742-contact20-9350017.log"
+    }
+  },
+  "376": {
+    "input": {
+      "file": "selected-native-files/n376-rigid_after_gain-9350036.in",
+      "sha256": "61c265f1019066f2deb5175a132128baeb0140e4a4caacce21c8c9a87df286b9",
+      "bytes": 21590,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n376-rigid_after_gain-9350036.in"
+    },
+    "output": {
+      "file": "selected-native-files/n376-rigid_after_gain-9350036.out",
+      "sha256": "2531c7fe757d0c55603c790379f3cf7a8a3258583fc680fc5725a31c15faa974",
+      "bytes": 22474,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n376-rigid_after_gain-9350036.out"
+    },
+    "log": {
+      "file": "selected-native-files/n376-rigid_after_gain-9350036.log",
+      "sha256": "85fe97504eeb25cb6714ef4c97b91b670dda62c2944b8d360df5e42fb53ba7f8",
+      "bytes": 867,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n376-rigid_after_gain-9350036.log"
+    }
+  },
+  "411": {
+    "input": {
+      "file": "selected-native-files/n411-rigid_after_gain-9350037.in",
+      "sha256": "842def81cfac6a02ab6e0b2404bdcd8eee41a75eefec2477e69c04ecc868ae16",
+      "bytes": 23748,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n411-rigid_after_gain-9350037.in"
+    },
+    "output": {
+      "file": "selected-native-files/n411-rigid_after_gain-9350037.out",
+      "sha256": "bd16a0995832598f3256d85655a16e40ec31e2aac6ff0459cb09bd2486e0c70a",
+      "bytes": 24556,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n411-rigid_after_gain-9350037.out"
+    },
+    "log": {
+      "file": "selected-native-files/n411-rigid_after_gain-9350037.log",
+      "sha256": "eff377887b477c25bd83b6706a2528a7dd80e802cd1406a74c5109704056c280",
+      "bytes": 1082,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n411-rigid_after_gain-9350037.log"
+    }
+  },
+  "698": {
+    "input": {
+      "file": "selected-native-files/n698-contact20-9350025.in",
+      "sha256": "9aa3c4b985c2c7e0786a9fa3d6f94a75ce36888be46f7234619d7b02f3b4bf30",
+      "bytes": 32956,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n698-contact20-9350025.in"
+    },
+    "output": {
+      "file": "selected-native-files/n698-contact20-9350025.out",
+      "sha256": "b3e0c23e147f64ca00fae3107f11e614e53f34aae940f320a607ffbfafbf39e8",
+      "bytes": 41885,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n698-contact20-9350025.out"
+    },
+    "log": {
+      "file": "selected-native-files/n698-contact20-9350025.log",
+      "sha256": "5aaf02ff859c1d12496b80421ad7f1bd1248408628a70b2f144f1cba3facff09",
+      "bytes": 548,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n698-contact20-9350025.log"
+    }
+  },
+  "752": {
+    "input": {
+      "file": "selected-native-files/n752-contact20-9350026.in",
+      "sha256": "1b9708a854ffb51cc6d50b954651ef530ac90cab9e6119e78a5945c09d3c88d6",
+      "bytes": 35802,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n752-contact20-9350026.in"
+    },
+    "output": {
+      "file": "selected-native-files/n752-contact20-9350026.out",
+      "sha256": "53afb3741aaad667db12ec089ddbda079ba1ca855fd39e032d2ec5825ed6c16e",
+      "bytes": 45137,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n752-contact20-9350026.out"
+    },
+    "log": {
+      "file": "selected-native-files/n752-contact20-9350026.log",
+      "sha256": "de813e075c203ec3136ada2bb4c644021192385268bcb5f45e79ce58b4d0b71e",
+      "bytes": 652,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n752-contact20-9350026.log"
+    }
+  },
+  "338": {
+    "input": {
+      "file": "selected-native-files/n338-rigid_after_gain-9350040.in",
+      "sha256": "d2fb63529bfeba7721bd0c711b29b533b2b63da9ad9d596c7b5988a079170a7d",
+      "bytes": 18602,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n338-rigid_after_gain-9350040.in"
+    },
+    "output": {
+      "file": "selected-native-files/n338-rigid_after_gain-9350040.out",
+      "sha256": "1697dd8f06a2f0dfb115e72a0e996ddebdbf4850d59a67e67a4bca5eab4d5b0f",
+      "bytes": 20238,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n338-rigid_after_gain-9350040.out"
+    },
+    "log": {
+      "file": "selected-native-files/n338-rigid_after_gain-9350040.log",
+      "sha256": "31302f06752531c5d78acd8ffca35d7a0b504cfda57335e8746df91d794f5d43",
+      "bytes": 973,
+      "original_path": "/workspace/squares_in_squares/artifacts/fq-unvisited-contact-v1/trials/n338-rigid_after_gain-9350040.log"
+    }
+  }
+}

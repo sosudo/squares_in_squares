@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "source_sha256": "919f54fa5205062b1e8e12a81a4548ef6ce7e7883d1c2c8bb7af4fc94722b089",
+  "source_bytes": 880050,
+  "exact_target_sha256": "41b46b2ebe5dc5181f8b2e50493d80de24effdbff17cd769dd04220150fa24ec",
+  "exact_target_bytes": 34768637,
+  "byte_equal_to_certified_safe_csv": true,
+  "runtime_output_proof_sha256": "8ffb13e54a00e3ebdbd010793fe0a9120e60a819a081e9c42f2290026aa45b93",
+  "additional_provenance_sha256": "a3e0e73ccd75e3d3f76b589a107b8fe2c6546eb688e4b8bb50b0604a640816e7",
+  "source_notices_exact": true,
+  "decoded_manifest_equals_plaintext": true,
+  "manifest_encoding": {
+    "encoding": "exact_json_lzma_base64",
+    "raw_bytes": 209063,
+    "raw_sha256": "7251185f4947d1a2bfd5199714804b3da14a677c9e303a25538f4fc2b85c4190",
+    "compressed_bytes": 30928,
+    "compressed_sha256": "8f82497e3e4394189761d9512bca08d4ae98590d114dc32189d1ca00e6b6e194",
+    "decoder_sha256": "b84de8a5e20215f8be364f480609726a79ead18f0f3e275ee5a098b3b1ce7cf4"
+  },
+  "transport_scaling_applied": false,
+  "competition_submission_performed": false,
+  "focused_tests": {
+    "passed": 10,
+    "file": "tests/test_incremental_safe_export.py",
+    "sha256": "899e34b73d31379521e025af9e0afe954a72b61d832648dd4ca7a499d9a024f2"
+  }
+}

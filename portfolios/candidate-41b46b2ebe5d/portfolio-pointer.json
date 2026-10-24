@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-24T13:08:05.638485+00:00",
+  "canonical_proof": "/workspace/squares_in_squares/artifacts/submission-fq-broad-lightning19-v1-safe.transport-validation.json",
+  "canonical_proof_sha256": "8aff17c0e02904d9f132570cac581e5ab6e559b8cc732dd8705cd75c4186b368",
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "competition_submission_performed": false,
+  "raw": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-broad-lightning19-v1.csv",
+    "sha256": "c57e2d8cd0d1859accf7ba9efdaffa0b059d74083367e3b24d16b767f5015437",
+    "score": 22.30061363233568,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-fq-broad-lightning19-v1-official.json",
+    "official_report_sha256": "432f4a3528beda83465e6bcedefd2c312652bea2136c0a68a8eca2d61c16f396",
+    "reuse": {
+      "reused": 979,
+      "evaluated": 21
+    }
+  },
+  "safe": {
+    "path": "/workspace/squares_in_squares/artifacts/submission-fq-broad-lightning19-v1-safe.csv",
+    "sha256": "41b46b2ebe5dc5181f8b2e50493d80de24effdbff17cd769dd04220150fa24ec",
+    "score": 22.300613633186703,
+    "official_report": "/workspace/squares_in_squares/artifacts/submission-fq-broad-lightning19-v1-safe-official.json",
+    "official_report_sha256": "21b3e6d21a862d6849c4dfff2373b2b57ba504bd990e34b1d67bc78550b7aa62",
+    "reuse": {
+      "reused": 979,
+      "evaluated": 21
+    }
+  },
+  "roundtrip": {
+    "path": "/workspace/squares_in_squares/artifacts/submission-fq-broad-lightning19-v1-safe-roundtrip.csv",
+    "sha256": "dbe676f7703000cd379a4e78357df3ee9544b968327bfadcc3606a83bb74a5ae",
+    "score": 22.300613633186703,
+    "official_report": "/workspace/squares_in_squares/artifacts/submission-fq-broad-lightning19-v1-safe-roundtrip-official.json",
+    "official_report_sha256": "74008d2e1dbea654bf11a0bfc880eb629bbf745750a151e6cbdfe0f3208440f0",
+    "reuse": {
+      "reused": 979,
+      "evaluated": 21
+    }
+  },
+  "independent_report": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-broad-lightning19-v1.validation.json",
+    "sha256": "1073739c52d326444932f18d00c9cd602f248722f20dff22e2aa8ddaf7489b03"
+  },
+  "user_submission_score_threshold": 22.3,
+  "eligible_under_user_score_threshold": false
+}
