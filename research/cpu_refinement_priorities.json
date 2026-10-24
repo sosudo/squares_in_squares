@@ -1,0 +1,351 @@
+{
+  "baseline_sha256": "26b4b55c89b3606385a74645e327c4b9a6b40fda7f62f6bdd969dbff1cb39afb",
+  "official_report_sha256": "af4c1922a075abfa5a9bd7abcdc08bba8d47086e5ee0662d9a9608a9fc6ed967",
+  "baseline_score": 22.304803775499245,
+  "note": "Hypothetical gains are priorities, not achieved improvements. They assume all active separator constraints remain valid and partner bloat remains fixed.",
+  "top_active_chain_targets": [
+    {
+      "n": 646,
+      "current_side": "25.89112848555620900226567710506247329310981358346717",
+      "current_score_contribution": 0.018672825529882475,
+      "gadget": "7_16_10",
+      "partner_bloat": 0.876121939,
+      "hypothetical_0_01_bloat_reduction_gain": 0.00039344787667478214,
+      "stage": 0,
+      "incoming_degrees": 45,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 650,
+      "current_side": "25.94214547540357400000000000000000000000000000000000",
+      "current_score_contribution": 0.017534661565735465,
+      "gadget": "17_5_11",
+      "partner_bloat": 0.9259515180000001,
+      "hypothetical_0_01_bloat_reduction_gain": 0.000392235435312284,
+      "stage": 0,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 813,
+      "current_side": "28.93831936974733700000000000000000000000000000000000",
+      "current_score_contribution": 0.014911170408423269,
+      "gadget": "21_7_15",
+      "partner_bloat": 0.9259515180000001,
+      "hypothetical_0_01_bloat_reduction_gain": 0.00035071848182766514,
+      "stage": 0,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 925,
+      "current_side": "30.87562581428793300000000000000000000000000000000000",
+      "current_score_contribution": 0.01518432325761676,
+      "gadget": "20_8_12",
+      "partner_bloat": 0.8656868400000001,
+      "hypothetical_0_01_bloat_reduction_gain": 0.0003267914615580157,
+      "stage": 0,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 799,
+      "current_side": "28.77518098691908200000000000000000000000000000000000",
+      "current_score_contribution": 0.017992724690033768,
+      "gadget": "8_21_8",
+      "partner_bloat": 0.766875406,
+      "hypothetical_0_01_bloat_reduction_gain": 0.00029383033086025046,
+      "stage": 1,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 599,
+      "current_side": "24.93266729274455100000000000000000000000000000000000",
+      "current_score_contribution": 0.018721168221278672,
+      "gadget": "4_16_9",
+      "partner_bloat": 0.9259515180000001,
+      "hypothetical_0_01_bloat_reduction_gain": 0.00027439911714822774,
+      "stage": 1,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 866,
+      "current_side": "29.88353699233213200000000000000000000000000000000000",
+      "current_score_contribution": 0.015483924941866567,
+      "gadget": "8_21_13",
+      "partner_bloat": 0.8756257550000001,
+      "hypothetical_0_01_bloat_reduction_gain": 0.00026883478817255464,
+      "stage": 0,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 756,
+      "current_side": "27.92595157118658400000000000000000000000000000000000",
+      "current_score_contribution": 0.015657039116138805,
+      "gadget": "7_20_14",
+      "partner_bloat": 0.9191502420000001,
+      "hypothetical_0_01_bloat_reduction_gain": 0.00024736195098279607,
+      "stage": 0,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 746,
+      "current_side": "27.80243387610679300000000000000000000000000000000000",
+      "current_score_contribution": 0.017919426589619425,
+      "gadget": "5_17_7",
+      "partner_bloat": 0.7968120280000001,
+      "hypothetical_0_01_bloat_reduction_gain": 0.00020583048328580406,
+      "stage": 0,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 689,
+      "current_side": "26.76235782730633200000000000000000000000000000000000",
+      "current_score_contribution": 0.01956463322861568,
+      "gadget": "9_21_8",
+      "partner_bloat": 0.7575068570000001,
+      "hypothetical_0_01_bloat_reduction_gain": 0.0001848072502838819,
+      "stage": 0,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 798,
+      "current_side": "28.76235783130633900000000000000000000000000000000000",
+      "current_score_contribution": 0.018176430255560483,
+      "gadget": "9_21_8",
+      "partner_bloat": 0.7575068570000001,
+      "hypothetical_0_01_bloat_reduction_gain": 0.00017172262898119018,
+      "stage": 0,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 742,
+      "current_side": "27.76215672902276000000000000000000000000000000000000",
+      "current_score_contribution": 0.019180836334776075,
+      "gadget": "8_20_7",
+      "partner_bloat": 0.7575068570000001,
+      "hypothetical_0_01_bloat_reduction_gain": 0.00017070217214253442,
+      "stage": 0,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 856,
+      "current_side": "29.76687546283010400000000000000000000000000000000000",
+      "current_score_contribution": 0.01741085789432084,
+      "gadget": "19_7_7",
+      "partner_bloat": 0.7623577760000001,
+      "hypothetical_0_01_bloat_reduction_gain": 0.0001544113569881766,
+      "stage": 0,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 694,
+      "current_side": "26.83127749419815100000000000000000000000000000000000",
+      "current_score_contribution": 0.018501365565121608,
+      "gadget": "8_20_10",
+      "partner_bloat": 0.828062622,
+      "hypothetical_0_01_bloat_reduction_gain": 0.00012203487980182932,
+      "stage": 0,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 702,
+      "current_side": "26.94099736643664400000000000000000000000000000000000",
+      "current_score_contribution": 0.016822419832208224,
+      "gadget": "5_18_11",
+      "partner_bloat": 0.938319314,
+      "hypothetical_0_01_bloat_reduction_gain": 0.00010107657567489865,
+      "stage": 1,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 992,
+      "current_side": "31.92595157985201500000000000000000000000000000000000",
+      "current_score_contribution": 0.013649976310784684,
+      "gadget": "7_20_14",
+      "partner_bloat": 0.9235079500000001,
+      "hypothetical_0_01_bloat_reduction_gain": 7.758532538683215e-05,
+      "stage": 0,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 761,
+      "current_side": "27.99878419908136000000000000000000000000000000000000",
+      "current_score_contribution": 0.0149551342833103,
+      "gadget": "9_19_17",
+      "partner_bloat": 0.9968278780000001,
+      "hypothetical_0_01_bloat_reduction_gain": 7.0916583795737e-05,
+      "stage": 0,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 811,
+      "current_side": "28.91915029783839600000000000000000000000000000000000",
+      "current_score_contribution": 0.015488714442585483,
+      "gadget": "19_7_13",
+      "partner_bloat": 0.917192701,
+      "hypothetical_0_01_bloat_reduction_gain": 6.874052233021568e-05,
+      "stage": 1,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 986,
+      "current_side": "31.86390460472791400000000000000000000000000000000000",
+      "current_score_contribution": 0.014753448137176273,
+      "gadget": "20_9_12",
+      "partner_bloat": 0.8623697300000001,
+      "hypothetical_0_01_bloat_reduction_gain": 4.8880369243194634e-05,
+      "stage": 0,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    },
+    {
+      "n": 915,
+      "current_side": "30.76235783530634600000000000000000000000000000000000",
+      "current_score_contribution": 0.016972179978220536,
+      "gadget": "9_21_8",
+      "partner_bloat": 0.762156676,
+      "hypothetical_0_01_bloat_reduction_gain": 6.650121534678628e-06,
+      "stage": 0,
+      "incoming_degrees": 30,
+      "outgoing_degrees": 30
+    }
+  ],
+  "largest_score_contributions_n_ge_325": [
+    {
+      "n": 330,
+      "score": 0.028982102178975788,
+      "side": "18.69238815613294200000000000000000000000000000000000",
+      "reason": "ok"
+    },
+    {
+      "n": 333,
+      "score": 0.02884914757396384,
+      "side": "18.77473513257651469745423797451530610983441251041657",
+      "reason": "ok"
+    },
+    {
+      "n": 329,
+      "score": 0.028585670581116274,
+      "side": "18.65685424951003650000000000000000000000000000000000",
+      "reason": "ok"
+    },
+    {
+      "n": 332,
+      "score": 0.028514017733596297,
+      "side": "18.74041728756154020000000000000000000000000000000000",
+      "reason": "ok"
+    },
+    {
+      "n": 334,
+      "score": 0.028454605096975394,
+      "side": "18.79569376652239173999999981653999999995129833066668",
+      "reason": "ok"
+    },
+    {
+      "n": 335,
+      "score": 0.02840355622871571,
+      "side": "18.82287565557920350000000000000000000000000000000000",
+      "reason": "ok"
+    },
+    {
+      "n": 331,
+      "score": 0.028235581590559722,
+      "side": "18.70710678120425360000000000000000000000000000000000",
+      "reason": "ok"
+    },
+    {
+      "n": 325,
+      "score": 0.02816642947700032,
+      "side": "18.53553390595026980000000000000000000000000000000000",
+      "reason": "ok"
+    },
+    {
+      "n": 367,
+      "score": 0.027934294363065826,
+      "side": "19.69238815544381120000000000000000000000000000000000",
+      "reason": "ok"
+    },
+    {
+      "n": 328,
+      "score": 0.027806584401027346,
+      "side": "18.61436893852968621923132169163975125717671769602074",
+      "reason": "ok"
+    },
+    {
+      "n": 327,
+      "score": 0.027685503431167158,
+      "side": "18.58378219108696100000000000000000000000000000000000",
+      "reason": "ok"
+    },
+    {
+      "n": 370,
+      "score": 0.027490496385158547,
+      "side": "19.76417431768585782856964926336638332921297703529779",
+      "reason": "ok"
+    },
+    {
+      "n": 366,
+      "score": 0.02748023126784771,
+      "side": "19.65685424951103840000000000000000000000000000000000",
+      "reason": "ok"
+    },
+    {
+      "n": 338,
+      "score": 0.027289467577889193,
+      "side": "18.88648706791192764895520394329227805488564240640423",
+      "reason": "ok"
+    },
+    {
+      "n": 337,
+      "score": 0.02728205838739317,
+      "side": "18.85839176765408920000000000000000000000000000000000",
+      "reason": "ok"
+    },
+    {
+      "n": 336,
+      "score": 0.027019123797632494,
+      "side": "18.82557149987949280000000000000000000000000000000000",
+      "reason": "ok"
+    },
+    {
+      "n": 339,
+      "score": 0.02690637116941974,
+      "side": "18.90735147119472202706895336576146032325273992812733",
+      "reason": "ok"
+    },
+    {
+      "n": 372,
+      "score": 0.02689958810832671,
+      "side": "19.80612198864843684736557204191442540874765561494541",
+      "reason": "ok"
+    },
+    {
+      "n": 371,
+      "score": 0.02683166200932341,
+      "side": "19.77817459324524562598333442802144589612000192705759",
+      "reason": "ok"
+    },
+    {
+      "n": 362,
+      "score": 0.02676486652698462,
+      "side": "19.53553390595127480000000000000000000000000000000000",
+      "reason": "ok"
+    }
+  ],
+  "small_n_note": "Largest raw score terms n2,6,5,10,11,3,12,18,17,7 match published best-known packings to numerical clearance; high score alone does not imply room for local refinement."
+}

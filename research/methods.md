@@ -178,3 +178,42 @@ Local validation checks payload hashes, unchanged public source hashes, all
 resumed SAT gaps, preservation of strongest transpose-equivalent incumbents,
 zero false new wins from imported seeds, and rejection of an oversized source.
 See `artifacts/ftmc-campaign/local_validation.json`.
+
+## Active-frontier redesign after composition evidence
+
+The historical-fixture campaign above was **not launched**. Full-puzzle
+composition found no winning chain that used its new historical-fixture poses.
+Those 19 improved types still lagged relevant current single-gadget targets by
+roughly 0.11–0.35 bloat. A local gadget record is therefore insufficient evidence
+for spending a larger search budget.
+
+The replacement `artifacts/active-frontier-job/` is built by
+`scripts/build_frontier_ftmc_job.py`. It starts from independently certified crops
+of the actual current winning chains, selecting 17 supported core-size types
+whose hypothetical .01 bloat improvement has meaningful score impact while
+holding partner gadgets fixed. Examples are 7x16+10 in n=646, 17x5+11 in n=650,
+and 4x16+9 in n=599. Priorities are counterfactual estimates, not achieved gains.
+The builder recomputes target sizes against the current transport-safe baseline.
+
+The A/B design uses the same active-only starting bank on both T4s:
+
+- GPU 0 requires every recorded incoming/outgoing separator profile to remain
+  compatible before a new pose can replace the active incumbent. Officially
+  valid lower-bloat proposals rejected by this guard are saved separately.
+- GPU 1 uses the unchanged released acceptance policy, retaining new topologies
+  that may compose through different joins.
+
+Historical low-bloat poses are not resumed into either active bank. This avoids
+an incompatible family taking over solely because it has the same (w,h,surplus)
+and a smaller scalar bloat. The public source and official metric remain
+unchanged; the explicit adapter lives in `experiments/ftmc_guarded_worker.py`,
+with independently implemented clipped-corner support checks in
+`experiments/ftmc_profile_guard.py`.
+
+The job mounts our versioned portfolio source-export/2 and FTMC pilot/1 outputs
+with exact SHA256 checks, so it needs neither internet nor an embedded 35 MB CSV.
+Its code is 459,848 bytes. Each device receives a nominal 900-second search budget,
+with a 120-second worker grace period and a 1,500-second overall parent timeout.
+All 17 initial support profiles, payload/source hashes, an equal-bloat incompatible
+reflection, and adapter admission/separate-archive wiring passed local checks.
+Actual GPU execution and resulting full-puzzle gains are tracked separately.

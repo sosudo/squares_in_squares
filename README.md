@@ -4,6 +4,8 @@ Competition optimization workspace for [Kaggle Squares in Squares](https://www.k
 
 For each n=1..1000, place n non-overlapping unit squares inside the smallest square. Minimize `sum(L_n / sqrt(n) - 1)`. Angles are radians. Complete submissions contain 500,500 rows. Exact decimal coordinates matter: float round trips can invalidate touching packings.
 
+The submitted baseline, Kaggle submission **57583210**, scored **22.3048038109** and ranked **15 of 491 teams** when checked on 2026-10-24. Its exact reproducible recipe is in [portfolios/baseline-57583210](portfolios/baseline-57583210/). A slightly better fully certified candidate is queued. See [research/STATUS.md](research/STATUS.md) for current experiments and [research/submission_schedule.md](research/submission_schedule.md) for the hourly improvement-only controller.
+
 ## Environment
 
 Python 3.12 and Node.js 24 are available. The project uses a local virtual environment:
@@ -49,4 +51,4 @@ Experiments include rigid envelope optimization, sequential contact LP, neighbor
 
 The CLI wrapper uses a runtime `KAGGLE_API_TOKEN` or a private file named by `KAGGLE_TOKEN_FILE`. Do not commit credentials. It supports the session's protected temporary credential file outside the checkout. Kaggle's authenticated compatibility API is the default; set `KAGGLE_USE_WWW_API=0` for the standard API hostname.
 
-Only submit a file whose hash matches a successful official validation report. Check current submission history and stay within 10 submissions/day. Keep receipts and actual scores in artifacts/submissions/. No rank is established until Kaggle returns a scored result.
+Only submit a file whose hash matches successful raw and numeric-roundtrip official validation reports. Check current submission history, wait at least an hour between accepted submissions, require a strictly better score, and stay within 10 submissions/day. Keep receipts and actual scores in artifacts/submissions/. Report leaderboard gains only after Kaggle returns a scored result.

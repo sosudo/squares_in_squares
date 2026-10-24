@@ -122,7 +122,9 @@ timed_out=False;failures=[]
 try:
     for device in manifest['devices']:
         cfg=manifest['device_configs'][str(device)]
-        command=[sys.executable,'-u','gpu_ftmc_refill.py','--device',str(device),
+        guarded=cfg.get('profile_guard',manifest.get('profile_guard',False))
+        worker_file='ftmc_guarded_worker.py'if guarded else 'gpu_ftmc_refill.py'
+        command=[sys.executable,'-u',worker_file,'--device',str(device),
                  '--seconds',str(manifest['search_seconds']),'--replicas',str(cfg['replicas']),
                  '--seed',str(cfg['seed'])]
         logs[device]=open(f'ftmc_worker{device}.log','w')
@@ -152,30 +154,43 @@ unique={};statuses={}
 for device in manifest['devices']:
     status_path=Path(f'research/worker{device}_status.json')
     statuses[str(device)]=json.loads(status_path.read_text()) if status_path.exists() else {}
-    checkpoint=Path(f'artifacts/worker{device}_gadgets.npz')
-    if not checkpoint.exists():continue
-    with np.load(checkpoint) as z:
-        for name in z.files:
-            key=name.split('__')[0];p=z[name];digest=hashlib.sha256(np.asarray(p,dtype='<f8').tobytes()).hexdigest()
-            identity=f'{key}__{digest[:16]}'
-            if identity not in unique:unique[identity]={'root':key,'squares':p,'worker_variants':[]}
-            unique[identity]['worker_variants'].append({'device':device,'name':name})
-candidates={};all_npz={};strict_npz={};best={};per_device={str(d):{'unique_strict_variants':0,'best_keys':set()}for d in manifest['devices']}
+    for suffix,archive_kind in [('_gadgets.npz','incumbent'),('_incompatible_gadgets.npz','profile_rejected')]:
+        checkpoint=Path(f'artifacts/worker{device}'+suffix)
+        if not checkpoint.exists():continue
+        with np.load(checkpoint) as z:
+            for name in z.files:
+                key=name.split('__')[0];p=z[name];digest=hashlib.sha256(np.asarray(p,dtype='<f8').tobytes()).hexdigest()
+                identity=f'{key}__{digest[:16]}'
+                if identity not in unique:unique[identity]={'root':key,'squares':p,'worker_variants':[]}
+                unique[identity]['worker_variants'].append({'device':device,'name':name,'archive':archive_kind})
+candidates={};all_npz={};strict_npz={};compatible_npz={};incompatible_npz={};best={};per_device={str(d):{'unique_strict_variants':0,'compatible_strict_variants':0,'best_keys':set()}for d in manifest['devices']}
 for name,rec in unique.items():
     key=rec['root'];w,h,d=map(int,key.split('_'));p=rec['squares'];old=baseline[key]
     assert p.shape==(w*h+d,3) and np.isfinite(p).all()
     f=excess(p,w,h);gap=gaps(p);official=certify(p)
     assert gap>0 and official,(name,gap,official)
+    compatible=[]
+    preserves_all=True
+    if manifest.get('profile_guard'):
+        from ftmc_profile_guard import compatible_uses
+        compatible=compatible_uses(p,w,h,targeting['targets'])
+        preserves_all=len(compatible)==len(targeting['targets'][key]['uses'])
+        guarded_admission=any(v['archive']=='incumbent'and manifest['device_configs'][str(v['device'])].get('profile_guard',True)for v in rec['worker_variants'])
+        if guarded_admission:assert preserves_all,('Guarded incumbent lost active-chain compatibility',name)
     improved=f<old-2e-7
     all_npz[name]=p
     if improved:
         strict_npz[name]=p
+        (compatible_npz if preserves_all else incompatible_npz)[name]=p
         if key not in best or f<best[key]['bloat']:best[key]={'bloat':f,'seed_bloat':old,'gain':old-f,'variant':name}
         for device in {v['device']for v in rec['worker_variants']}:
             per_device[str(device)]['unique_strict_variants']+=1;per_device[str(device)]['best_keys'].add(key)
+            per_device[str(device)]['compatible_strict_variants']+=int(preserves_all)
     candidates[name]={'w':w,'h':h,'surplus':d,'bloat':f,'seed_bloat':old,
         'strict_improvement':improved,'minimum_gap':gap,'official_raw_and_roundtrip':official,
         'squares':p.tolist(),'worker_variants':rec['worker_variants'],'seed_provenance':provenance[key],
+        'compatible_active_uses':compatible,
+        'preserves_all_active_uses':preserves_all,
         'source':'lightningv08 public v21 FTMC; private resumed dual-T4 campaign'}
 for device,info in per_device.items():
     info['distinct_improved_keys']=len(info.pop('best_keys'))
@@ -185,10 +200,13 @@ for device,info in per_device.items():
                 cuda_seconds=s.get('cuda_seconds',0),worker_seconds=elapsed)
 atom_npz('artifacts/campaign_gadgets.npz',all_npz)
 atom_npz('artifacts/campaign_strict_gadgets.npz',strict_npz)
+atom_npz('artifacts/campaign_compatible_gadgets.npz',compatible_npz)
+atom_npz('artifacts/campaign_incompatible_gadgets.npz',incompatible_npz)
 atomic_json('ftmc_candidates.json',candidates)
 summary={'stage':'failed' if failures else 'complete','wall_seconds':time.monotonic()-started,
          'parallel_search_wall_seconds':search_elapsed,'bounded_worker_timeout':timed_out,'failures':failures,
          'candidate_variants':len(candidates),'strict_improved_variants':len(strict_npz),
+         'compatible_strict_variants':len(compatible_npz),'incompatible_strict_variants':len(incompatible_npz),
          'distinct_improved_keys':len(best),'best_by_key':best,'per_device':per_device,
          'status':statuses,'preflight':preflight,'expected_device_hours':manifest['quota_expectation']['nominal_device_hours'],
          'note':'Strict gains are measured against the published+pilot+transposed incumbent at campaign start; full-puzzle composition remains required.'}

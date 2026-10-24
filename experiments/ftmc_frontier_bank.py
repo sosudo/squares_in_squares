@@ -1,7 +1,7 @@
 """Target FTMC at crops actually used by current full-puzzle chains.
 
-Historical fixtures are not an active search arm here. Matching prior candidates
-are retained only when competitive with a current active incumbent.
+Historical fixtures are not an active search arm here. A lower scalar bloat from
+another family does not establish compatibility with the recorded separator.
 """
 from pathlib import Path
 import hashlib
@@ -11,8 +11,8 @@ from ftmc_seed_bank import geometry
 
 
 def build_frontier_bank(active_path,prior_paths,priorities_path,targets_path,baseline_sha256,min_priority=1e-6):
-    priorities=json.loads(Path(priorities_path).read_text())
-    targets=json.loads(Path(targets_path).read_text())
+    priorities=priorities_path if isinstance(priorities_path,dict)else json.loads(Path(priorities_path).read_text())
+    targets=targets_path if isinstance(targets_path,dict)else json.loads(Path(targets_path).read_text())
     bank={};variants={};provenance={};resume={};rejected={};source_count=0
     active_hash=hashlib.sha256(Path(active_path).read_bytes()).hexdigest()
 
@@ -43,17 +43,8 @@ def build_frontier_bank(active_path,prior_paths,priorities_path,targets_path,bas
             add(z[name],key,'active_'+hashlib.sha256(name.encode()).hexdigest()[:12],
                 {'source':'current-frontier active chain crop','active_archive_sha256':active_hash,'source_variant':name},True)
             source_count+=1
-    for index,path in enumerate(prior_paths):
-        digest=hashlib.sha256(Path(path).read_bytes()).hexdigest()
-        with np.load(path)as z:
-            for name in z.files:
-                key=name.split('__')[0];w,h,d=map(int,key.split('_'))
-                for transposed in (False,True):
-                    p=z[name].copy();root=key
-                    if transposed:p[:,:2]=p[:,[1,0]];p[:,2]=np.pi/2-p[:,2];root=f'{h}_{w}_{d}'
-                    if root not in bank:continue
-                    add(p,root,f'prior{index}_{hashlib.sha256(name.encode()).hexdigest()[:12]}_t{int(transposed)}',
-                        {'source':'competitive previous FTMC variant','resume_sha256':digest,'original_variant':name,'transpose':transposed},False)
+    if prior_paths:
+        raise ValueError('Historical archives cannot resume active-chain search without family/profile certification.')
     # Normalize only the relative sampling weights, preserving the full original
     # score-impact priorities in the targeting report.
     actual_priorities={key:float(priorities[key])for key in bank}
@@ -64,5 +55,6 @@ def build_frontier_bank(active_path,prior_paths,priorities_path,targets_path,bas
             'competitive_resume_variants':len(resume),'rejected':rejected,'original_priorities':actual_priorities,
             'worker_sampling_priorities':scaled,'baseline_sha256':baseline_sha256,'targets':targets,
             'minimum_hypothetical_score_gain':min_priority,
+            'historical_resume_disabled':True,
             'incumbents':{key:rec['initial_bloat']for key,rec in provenance.items()}}
     return bank,variants,provenance,resume,scaled,report
