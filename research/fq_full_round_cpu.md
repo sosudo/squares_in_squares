@@ -47,3 +47,37 @@ The independent pure scheduler tests cover 128 weighted starts, exact role
 fractions, every source/settings combination, immutable arrays, and the actual
 adapted loader retaining all seven inputs. The frozen notebook is under 1 MB;
 the final source/config review is saved beside its build report before launch.
+
+The remote campaign reached its normal terminal log with 323 trials: 319 fully
+certified outputs and four timeouts at the shared search deadline. No material
+side gain was observed. The original output ZIP transfer was interrupted after
+75 MiB; complete CRC-checked members include all 319 immutable certificate/pose
+pairs and the aggregate archives. A bounded private CPU copying job retrieves
+the remaining native traces without rerunning search or certificates. The final
+native/physical-side/exposure audit is pending that exact-file recovery.
+
+Two distinct local pilots are complete and frozen:
+
+- `fq_full_round_aggressive_control.py` ran four terminal trials on one CPU in
+  47.405 seconds. Requested radii 0.49/0.4 with 12 quadratic steps first actually
+  relax at 0.4117/0.3361, respectively; the initial nominal radius is set but not
+  optimized before the loop. All four reached exact zero radius and passed full
+  raw/default-pandas/interval gates. The 0.49/jitter0.30 settings widened n335 to
+  19.05589 and 19.09196, and n299 to 18.00000. The moderate n299 setting,
+  radius0.4/jitter0.15, produced side17.823755583067829, still 0.00087993 worse
+  than the incumbent. It is a useful changed starting shape: D4/unlabeled RMS
+  0.08180, 31 angle changes above one degree and 894 changed contacts at 1e-5.
+  Its exact archive and certificate were handed to the separate ALM work.
+- `fq_full_round_linear_control.py` then ran one test on that new n299 shape in
+  3.400 seconds. Radius0.49 with 24 linear steps first relaxes at 0.4696 and ends
+  at zero, with jitter0.04 and the selected parent's own side17.82375558 held.
+  This is not the tighter incumbent box. The fully certified result has side
+  17.823755761433566, 1.78e-7 worse than its source, with D4 identity matching,
+  RMS0.00818, 23 angle changes above one degree and 22 changed contacts at1e-5.
+  It preserves the altered basin but supplies no side reduction.
+
+These pilots do not justify an unchanged extension. All raw native traces and
+certified outputs remain in `artifacts/fq-full-round-aggressive-control-v1` and
+`artifacts/fq-full-round-linear-control-v1`; the executed source copies and whole
+process receipts are adjacent. No competition submission or incumbent update was
+made from either pilot.

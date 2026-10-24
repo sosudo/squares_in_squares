@@ -14,9 +14,10 @@ from kagglesdk.kernels.types.kernels_api_service import ApiGetKernelRequest,ApiD
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--notebook',default='sos54352/squares-full-packing-structural-repair-v2')
-    parser.add_argument('--version',type=int,default=1)
-    parser.add_argument('--source-sha256',default='7779faa0301a20fbd0164a45d8fd4d1bac7d3fc6fa6fec0cfee626c59225b7e9')
+    parser.add_argument('--version',type=int,default=2)
+    parser.add_argument('--source-sha256',default='e9ccd10c0238ec6666e67ecfe463e9d06230d45ee4ca075a6b48ac046a8737e3')
     parser.add_argument('--file',action='append',dest='files')
+    parser.add_argument('--cpu',action='store_true',help='Require a CPU-only analysis notebook instead of the GPU search')
     parser.add_argument('--out',type=Path,required=True);args=parser.parse_args()
     names=args.files or ['full_structural_v2_summary.json','full_structural_v2_records.json',
         'full_structural_v2_candidates.json','full_structural_v2_raw_index.json','full_structural_v2_pairing.json',
@@ -32,9 +33,10 @@ def main():
             owner,slug=args.notebook.split('/');api=gateway.client.kernels.kernels_api_client
             query=ApiGetKernelRequest();query.user_name=owner;query.kernel_slug=slug;query.version_label='v'+str(args.version)
             kernel=api.get_kernel(query)
-            assert kernel.metadata.is_private and kernel.metadata.enable_gpu
+            assert kernel.metadata.is_private and bool(kernel.metadata.enable_gpu)==(not args.cpu)
             assert hashlib.sha256(kernel.blob.source.encode()).hexdigest()==args.source_sha256
             receipt['private_source_verified']=True
+            receipt['enable_gpu']=bool(kernel.metadata.enable_gpu)
             for name in names:
                 relative=PurePosixPath(name)
                 assert not relative.is_absolute()and'..'not in relative.parts and'\\'not in name

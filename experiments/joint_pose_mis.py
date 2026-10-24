@@ -25,6 +25,7 @@ from compose_gadgets import read_baseline,normalize,side
 from extract_broad_active_frontier import certify_array
 from fq_variant_campaign import atomic_json,atomic_npz,geometry_sha
 from fq_active_pilot import digest
+from fq_active_pilot import OFFICIAL_SHA256
 from period5_branch_lp import data
 from validate_submission import Square,check_pair,_geometry
 
@@ -51,7 +52,7 @@ def inside(row,L):
     return False
 
 
-def pool(sources,nominal):
+def pool(sources,nominal,source_phases=None,primary_label='current299'):
     """Preserve exact posed units, with explicit source-wide translations."""
     box=nominal+4*EPS;rows=[];provenance=[];lookup={};current_ids=[];counts={}
     def add(row,origin):
@@ -62,7 +63,9 @@ def pool(sources,nominal):
         index=len(rows);lookup[identity]=index;rows.append(np.asarray(row,dtype='<f8'));provenance.append([origin]);return index
     for label,p in sources.items():
         q=normalize(p);source_side=side(q);delta=source_side-nominal
-        phases=(0.,.5,1.)if label in('current299','alternative41','alternative42')else(0.,1.)
+        phases=(source_phases[label] if source_phases is not None else
+                ((0.,.5,1.)if label in('current299','alternative41','alternative42')else(0.,1.)))
+        if not phases or any(not 0<=float(phase)<=1 for phase in phases):raise ValueError('Invalid source wall phase')
         count=0
         for phase in phases:
             shifted=q.copy();translation=np.array([EPS-phase*delta,EPS-phase*delta]);shifted[:,:2]+=translation
@@ -70,7 +73,7 @@ def pool(sources,nominal):
                 index=add(row,{'source':label,'square_id':sid,'phase':phase,'translation':translation.tolist()})
                 if index is not None:
                     count+=1
-                    if label=='current299'and phase==0.:current_ids.append(index)
+                    if label==primary_label and phase==0.:current_ids.append(index)
         counts[label]=count
     # A plain unit grid, anchored to each wall. It contributes new selectable
     # uprights without treating any of the tilted alternatives as mandatory.
@@ -148,9 +151,40 @@ def load_sources(pointer_path,alternatives):
         'alternatives_sha256':digest(alternatives/'alternatives.npz'),'alternative_proof_sha256':digest(alternatives/'source-proof.json')}
 
 
+def load_source_spec(path):
+    """Load a frozen, explicitly phased source bank with exact pose certificates."""
+    proof=json.loads(path.read_text());archive_path=Path(proof['archive_path'])
+    if digest(archive_path)!=proof['archive_sha256']:raise ValueError('Source-spec archive changed')
+    for source,identity in proof['parent_hashes'].items():
+        if digest(source)!=identity:raise ValueError('Source-spec parent changed')
+    sources={}
+    with np.load(archive_path,allow_pickle=False)as archive:
+        if set(archive.files)!=set(proof['sources']):raise ValueError('Source-spec labels differ from archive')
+        for label,row in proof['sources'].items():
+            q=archive[label].copy();certificate=row['certificate']
+            if(q.shape!=(row['n'],3)or not np.isfinite(q).all()
+                    or geometry_sha(q)!=row['geometry_sha256']
+                    or not certificate['valid']or certificate['geometry_sha256']!=geometry_sha(q)
+                    or certificate['official_metric_sha256']!=OFFICIAL_SHA256):
+                raise ValueError('Source-spec exact geometry/certificate mismatch')
+            sources[label]=q
+    n=int(proof['target_n']);primary=proof['primary_label'];phases=proof['source_phases']
+    if not 2<=n<=1000:raise ValueError('Invalid requested competition count')
+    if primary not in sources or len(sources[primary])!=n or 0. not in phases[primary]:
+        raise ValueError('Original-box source witness unavailable')
+    if set(phases)!=set(sources):raise ValueError('Missing explicit source phases')
+    return sources,{'source_spec_path':str(path),'source_spec_sha256':digest(path),**proof},n,primary,phases
+
+
 def screen(args):
     started=time.monotonic();args.out.mkdir(parents=True,exist_ok=False)
-    sources,source_proof=load_sources(args.portfolio,args.alternatives);L0=side(sources['current299'])
+    if args.source_spec is None:
+        sources,source_proof=load_sources(args.portfolio,args.alternatives)
+        n=299;primary='current299';phases=None
+    else:sources,source_proof,n,primary,phases=load_source_spec(args.source_spec)
+    L0=side(sources[primary]);depths=tuple(args.depths)if args.depths is not None else(0.,.002,.010,.020)
+    if not depths or depths[0]!=0. or any(depth<0 for depth in depths)or len(set(depths))!=len(depths):
+        raise ValueError('Unique nonnegative depths must start with the original-box control')
     atomic_npz(args.out/'sources.npz',sources)
     paths=[Path(__file__),ROOT/'scripts/validate_submission.py',ROOT/'experiments/period5_branch_lp.py',
         ROOT/'experiments/compose_gadgets.py',ROOT/'experiments/extract_broad_active_frontier.py']
@@ -159,11 +193,12 @@ def screen(args):
     manifest={'source_proof':source_proof,'sources_sha256':digest(args.out/'sources.npz'),
         'source_geometry_sha256':{k:geometry_sha(v)for k,v in sources.items()},'initial_side':L0,
         'source_hashes':{str(p):digest(p)for p in paths},'node_cap':5000,'edge_cap':1000000,
-        'broad_radius':math.sqrt(2)+1e-8,'tilted_count_restriction':None,'required_selected_count':299,
+        'broad_radius':math.sqrt(2)+1e-8,'tilted_count_restriction':None,'required_selected_count':n,
+        'primary_source_label':primary,'source_phases':phases,'depths':depths,
         'rigorous_tight_pairs':'Independent interval/exact check_pair, including exact rational zero-angle contacts.'}
     atomic_json(args.out/'manifest.json',manifest);reports=[]
-    for depth in(0.,.002,.010,.020):
-        poses,origin,current,info=pool(sources,L0-depth)
+    for depth in depths:
+        poses,origin,current,info=pool(sources,L0-depth,phases,primary)
         case=args.out/f'box-{depth:.3f}';case.mkdir()
         atomic_npz(case/'candidates.npz',{'unit_poses':poses});atomic_json(case/'provenance.json',origin)
         report={'depth':depth,**info,'candidate_geometry_sha256':geometry_sha(poses),
@@ -178,12 +213,12 @@ def screen(args):
             area_upper_bound=math.floor(info['working_box']**2),estimated_graph_and_milp_bytes=len(poses)*320+stats['edges']*160,
             edges_sha256=digest(case/'edges.npy'),cliques_sha256=digest(case/'cliques.json'))
         if depth==0.:
-            if len(current)!=299 or any(graph[i]&set(current)for i in current):raise ValueError('Original299 witness lost to graph/filter')
-            witness=poses[current];_,certificate=certify_array(('299-original-box-control',witness))
+            if len(current)!=n or any(graph[i]&set(current)for i in current):raise ValueError('Original source witness lost to graph/filter')
+            witness=poses[current];_,certificate=certify_array((str(n)+'-original-box-control',witness))
             if not certificate['valid']:raise ValueError('Original-box full certificate failed')
-            if upper<299:raise ValueError('Clique upper bound contradicts actual independent witness')
-            atomic_npz(case/'control.npz',{'299':witness});atomic_json(case/'control.json',{'selected':current,'certificate':certificate})
-            report['original_299_control_passed']=True
+            if upper<n:raise ValueError('Clique upper bound contradicts actual independent witness')
+            atomic_npz(case/'control.npz',{str(n):witness});atomic_json(case/'control.json',{'selected':current,'certificate':certificate})
+            report['original_'+str(n)+'_control_passed']=True
         reports.append(report);atomic_json(args.out/'screen-results.json',reports)
         print(json.dumps({'stage':'joint_screen','depth':depth,'nodes':len(poses),'edges':stats['edges'],
             'clique_upper':upper,'unresolved_edges':stats['unresolved_conservative_edges'],'seconds':time.monotonic()-started}),flush=True)
@@ -196,6 +231,8 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--portfolio',type=Path,default=ROOT/'artifacts/current-best-portfolio.json')
     parser.add_argument('--alternatives',type=Path,default=ROOT/'artifacts/joint-mis-inputs-v1')
+    parser.add_argument('--source-spec',type=Path,help='Explicit frozen source poses, phases and exact certificates; overrides legacy299 loader.')
+    parser.add_argument('--depths',type=float,nargs='+',help='Start with0, followed by strictly positive side reductions.')
     parser.add_argument('--out',type=Path,required=True);args=parser.parse_args();screen(args)
 
 

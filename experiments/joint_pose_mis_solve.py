@@ -114,10 +114,13 @@ def run(args):
     summary=json.loads((args.screen/'summary.json').read_text());screen_manifest=json.loads((args.screen/'manifest.json').read_text())
     if summary['status']!='screen_complete'or digest(args.screen/'screen-results.json')!=summary['results_sha256']:
         raise ValueError('Screen output identity mismatch')
+    if digest(args.screen/'manifest.json')!=summary['manifest_sha256']:
+        raise ValueError('Frozen screen target/source manifest changed')
+    target_n=int(screen_manifest.get('required_selected_count',299))
     control=json.loads((args.screen/'box-0.000/control.json').read_text())
     p0=np.load(args.screen/'box-0.000/candidates.npz')['unit_poses'][control['selected']]
-    if len(p0)!=299 or not control['certificate']['valid']or geometry_sha(p0)!=control['certificate']['geometry_sha256']:
-        raise ValueError('Actual original-box299 control missing')
+    if len(p0)!=target_n or not control['certificate']['valid']or geometry_sha(p0)!=control['certificate']['geometry_sha256']:
+        raise ValueError('Actual original-box target control missing')
     paths=[Path(__file__),Path(joint.__file__),joint.ROOT/'experiments/compose_gadgets.py',
         joint.ROOT/'experiments/extract_broad_active_frontier.py',joint.ROOT/'scripts/validate_submission.py',
         joint.ROOT/'scripts/score_official.py',joint.ROOT/'research/official_metric_v17.py']
@@ -126,9 +129,9 @@ def run(args):
     manifest={'screen_path':str(args.screen),'screen_summary_sha256':digest(args.screen/'summary.json'),
         'screen_manifest_sha256':digest(args.screen/'manifest.json'),'original_control_sha256':digest(args.screen/'box-0.000/control.json'),
         'source_hashes':{str(p):digest(p)for p in paths},'seconds':args.seconds,'workers':1,
-        'maximum_nodes':5000,'maximum_edges':1000000,'initial_side':screen_manifest['initial_side'],
+        'maximum_nodes':5000,'maximum_edges':1000000,'initial_side':screen_manifest['initial_side'],'target_n':target_n,
         'model':'Maximize joint independent count; no fixed tilted count or source-identity exclusivity. Valid overlapping graph cliques strengthen pair inequalities.',
-        'acceptance':'Only fresh full-gated actual count>=299 can be a win; smaller incumbents retain explicit actual-n diagnostic labels.'}
+        'acceptance':f'Only fresh full-gated actual count{target_n} can be a win; larger independent sets yield exact target subsets; smaller incumbents retain explicit actual-n diagnostic labels.'}
     atomic_json(out/'manifest.json',manifest)
     records=[];donors={};certificates={};wins=[];status='running'
     def preserve(poses,chosen,record,origin):
@@ -141,16 +144,16 @@ def run(args):
             donors[identity]=fixed;certificates[identity]=certificate
             result.update(archive_key=identity,actual_n=n,actual_certified_side=side(fixed),
                 tilted_count=int(np.sum(abs((fixed[:,2]+np.pi/4)%(np.pi/2)-np.pi/4)>.018)),
-                is_299_candidate=n==299,nominal_target_side=record['nominal_target_side'])
+                **{'is_'+str(target_n)+'_candidate':n==target_n},nominal_target_side=record['nominal_target_side'])
             snapshots=out/'retained';snapshots.mkdir(exist_ok=True);path=snapshots/(geometry_sha(fixed)+'.npz')
             if not path.exists():
                 atomic_npz(path,{identity:fixed});path.chmod(0o444)
                 atomic_json(path.with_suffix('.json'),{'archive_key':identity,'certificate':certificate,'selection':result,
                     'archive_sha256':digest(path),'graph_case':record['case']})
-            if n==299 and side(fixed)<manifest['initial_side']-1e-8:
+            if n==target_n and side(fixed)<manifest['initial_side']-1e-8:
                 wins.append(result)
                 atomic_json(out/'wins.json',wins)
-                print(json.dumps({'stage':'new_certified_299','side':side(fixed),'archive_key':identity,
+                print(json.dumps({'stage':'new_certified_'+str(target_n),'side':side(fixed),'archive_key':identity,
                                   'nominal_target_side':record['nominal_target_side']}),flush=True)
             atomic_npz(out/'donors.npz',donors);atomic_json(out/'certificates.json',certificates)
         record.setdefault('geometry_results',[]).append(result)
@@ -181,7 +184,15 @@ def run(args):
                 selected=greedy(graph,seed,initial)
                 if len(selected)>len(best):best=selected
             record['best_greedy_count']=len(best);preserve(poses,best,record,'source-seeded_greedy')
-            if len(best)>299:preserve(poses,best[:299],record,'299_subset_of_greedy')
+            if len(best)>target_n:preserve(poses,best[:target_n],record,str(target_n)+'_subset_of_greedy')
+            if min(len(cover),report['area_upper_bound'])<target_n:
+                record['milp']={'status':'skipped_finite_upper_below_target',
+                    'reported_cardinality_upper':min(len(cover),report['area_upper_bound']),
+                    'scope':'Verified clique-cover or area upper bound for this frozen finite pool.'}
+                records.append(record);atomic_json(out/'results.json',records)
+                print(json.dumps({'stage':'joint_mis_case_skipped_bound','depth':depth,'target_n':target_n,
+                    'finite_upper':record['milp']['reported_cardinality_upper']}),flush=True)
+                continue
             cliques=strengthening_cliques(graph,cover);record['strengthening_cliques']=len(cliques)
             cap=15. if depth==0 else 70.
             remaining=max(.01,min(cap,deadline-time.monotonic()-2))
@@ -190,10 +201,10 @@ def run(args):
             if selected is not None:
                 if not independent(graph,selected):raise ValueError('MILP incumbent violates graph')
                 preserve(poses,selected,record,'milp_incumbent')
-                if len(selected)>299:preserve(poses,selected[:299],record,'299_subset_of_milp')
+                if len(selected)>target_n:preserve(poses,selected[:target_n],record,str(target_n)+'_subset_of_milp')
             records.append(record);atomic_json(out/'results.json',records)
             print(json.dumps({'stage':'joint_mis_case','depth':depth,'greedy_count':len(best),'milp':mip,
-                'certified_299_wins':len(wins),'seconds':time.monotonic()-started}),flush=True)
+                'certified_'+str(target_n)+'_wins':len(wins),'seconds':time.monotonic()-started}),flush=True)
         if status=='running':status='complete'
     except Exception:status='failed';raise
     finally:
@@ -201,7 +212,7 @@ def run(args):
         unchanged=all(digest(p)==v for p,v in manifest['source_hashes'].items())
         result={'status':status if unchanged else'source_changed_quarantine','seconds':time.monotonic()-started,
             'limit_seconds':args.seconds,'cases_completed':len(records),'certified_actual_count_poses':len(donors),
-            'certified_299_wins':len(wins),'source_hashes_unchanged':unchanged,'manifest_sha256':digest(out/'manifest.json'),
+            'certified_'+str(target_n)+'_wins':len(wins),'target_n':target_n,'source_hashes_unchanged':unchanged,'manifest_sha256':digest(out/'manifest.json'),
             'donors_sha256':digest(out/'donors.npz'),'certificates_sha256':digest(out/'certificates.json'),
             'results_sha256':digest(out/'results.json'),'wins_sha256':digest(out/'wins.json'),
             'scope':'Finite source-pose graph only. Timeouts are not infeasibility. Partial counts are explicitly numbered diagnostics.',
