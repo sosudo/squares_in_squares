@@ -22,7 +22,7 @@ from decimal import Decimal
 from pathlib import Path
 import numpy as np
 import cupy as cp
-from compose_gadgets import legalize,gpu_compose
+from compose_gadgets import legalize,gpu_compose,gpu_identifier_preflight
 from validate_submission import Square,validate_puzzle
 import compose_gadgets
 
@@ -82,7 +82,15 @@ with tempfile.TemporaryDirectory(prefix='preflight-',dir=root)as directory:
             {'gpu':name,'cupy_version':cp.__version__,'checks':checks,'passed':False,
              'completed_methods':list(checks),'note':'Full preflight not complete until every selected method passes'},indent=2))
         print(json.dumps({'stage':'GPU composition preflight','method':method,'puzzles':[5,10,27],'passed':True}),flush=True)
+identifier_boundary=None
+if config['method'] in ('adaptive','all'):
+    identifier_boundary=gpu_identifier_preflight(root/'sources',five,config.get('preflight_bins',4),
+                                                config.get('degrees',[30,45,60]))
+    assert identifier_boundary['passed'] is True
+    print(json.dumps({'stage':'GPU donor identifier boundary preflight','passed':True,
+                      'donor_indices':[35471,60000],'bins':config.get('preflight_bins',4)}),flush=True)
 preflight={'gpu':name,'cupy_version':cp.__version__,'seconds':time.monotonic()-started,'checks':checks,'passed':True,
+           'identifier_boundary':identifier_boundary,
            'bins':config.get('preflight_bins',4),'degrees':config.get('degrees',[30,45,60]),
            'profile_table_bytes':32*32*64*len(config.get('degrees',[30,45,60]))**2*(config.get('preflight_bins',4)+1)**2*8}
 (root/'composition_preflight.json').write_text(json.dumps(preflight,indent=2))
@@ -204,7 +212,7 @@ def main():
         parser.error('Invalid wall/extraction budget')
     if args.attached_inputs and (args.source_backed or args.gadgets or args.runtime_gadgets):
         parser.error('--attached-inputs supplies every donor and cannot combine with embedded/source-backed inputs')
-    if not 2<=args.bins<=32 or not args.degrees or len(set(args.degrees))!=len(args.degrees) or any(not 0<d<90 for d in args.degrees):
+    if not 2<=args.bins<=64 or not args.degrees or len(set(args.degrees))!=len(args.degrees) or any(not 0<d<90 for d in args.degrees):
         parser.error('Invalid profile resolution or separator normals')
     payload = {}
     for path in sorted(args.source_dir.rglob('*')):

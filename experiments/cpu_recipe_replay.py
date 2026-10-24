@@ -207,7 +207,7 @@ def campaign(args):
         recipe=record['chain'];options=[];originals=[]
         for stage,g in enumerate(recipe):
             raw=original_crop(g,report);lo,_=extents(raw);phase=lo.min(0)
-            cache_key=(geometry_sha(raw),g['f'],g['incoming_degrees'],g['outgoing_degrees'],
+            cache_key=(g['w'],g['h'],g['dm'],geometry_sha(raw),g['f'],g['incoming_degrees'],g['outgoing_degrees'],
                        report['bins'],max(v['f']for v in recipe))
             if cache_key in option_cache:
                 choices=option_cache[cache_key];originals.append(choices[0]);options.append(choices)

@@ -60,13 +60,20 @@ def compatible_gpu_sources(source_dir):
     old = 'best!=np.iinfo(np.uint64).max'
     new = 'best!=np.uint64(0xffffffffffffffff)'
     patches = []
-    for name in ['gpu_seam_profiles.py', 'gpu_adaptive_seams.py']:
+    job_expression='donor*(31*31*63)+z'
+    widened_job_expression='(unsigned long long)donor*(31*31*63)+z'
+    expected_job_sites={'gpu_fault_composition.py':2,'gpu_seam_profiles.py':1,'gpu_adaptive_seams.py':1}
+    for name,job_sites in expected_job_sites.items():
         path = destination/name
         original = path.read_bytes()
         text = original.decode()
-        if text.count(old) != 1:
+        expected_sentinel_sites=0 if name=='gpu_fault_composition.py' else 1
+        if text.count(old) != expected_sentinel_sites:
             raise ValueError(f'Unexpected public comparison source in {name}')
         changed_text = text.replace(old, new)
+        if changed_text.count(job_expression)!=job_sites:
+            raise ValueError(f'Unexpected public donor identifier arithmetic in {name}')
+        changed_text=changed_text.replace(job_expression,widened_job_expression)
         bounded = name == 'gpu_adaptive_seams.py'
         if bounded:
             expression = 'cp.flatnonzero(best!=np.uint64(0xffffffffffffffff))'
@@ -81,10 +88,14 @@ def compatible_gpu_sources(source_dir):
                 'donors=[(p,label) for p,label in fresh+donors+legacy if np.any(p[:,2]!=0.)]')
         changed = changed_text.encode()
         path.write_bytes(changed)
-        patches.append({'file': name, 'reason': 'CuPy uint64 sentinel type compatibility',
+        patches.append({'file': name, 'reason': 'Explicit unsigned scalar and donor identifier arithmetic',
                         'original_sha256': hashlib.sha256(original).hexdigest(),
                         'runtime_sha256': hashlib.sha256(changed).hexdigest(),
-                        'old_expression': old, 'new_expression': new,
+                        'old_expression': old if expected_sentinel_sites else None,
+                        'new_expression': new if expected_sentinel_sites else None,
+                        'donor_identifier_old_expression':job_expression,
+                        'donor_identifier_new_expression':widened_job_expression,
+                        'donor_identifier_widened_sites':job_sites,
                         'bounded_index_compaction': bounded,
                         'skip_exact_zero_angle_donors':bounded,
                         'index_chunk_size':8388608 if bounded else None})
@@ -460,6 +471,61 @@ def gpu_compose(base, baseline, donors, source_dir, output_dir, method, seconds,
     return all_candidates, reports
 
 
+def gpu_identifier_preflight(source_dir,pose,bins,degrees):
+    """Exercise the real extractor across the signed-int32 multiplication limit.
+
+    Only the donor argument changes. Finite state positions and high32 bloat
+    keys must remain identical, while the low32 job identifies the new donor.
+    The full selected profile table is used, so the check also tests its actual
+    allocation on this CUDA device before searching the real donor library.
+    """
+    import cupy as cp
+    runtime_sources,patches=compatible_gpu_sources(Path(source_dir))
+    sys.path.insert(0,str(runtime_sources))
+    import gpu_fault_composition as fault
+    import gpu_adaptive_seams as adaptive
+    assert Path(adaptive.__file__).resolve().parent==runtime_sources
+    na,nb=len(degrees),bins+1
+    source=f'#define NA {na}\n#define NB {nb}\n'+adaptive.HELPERS+adaptive.CUDA
+    module=cp.RawModule(code=source,name_expressions=['extract'])
+    extract=module.get_function('extract')
+    cp.get_default_memory_pool().free_all_blocks()
+    p=np.ascontiguousarray(pose,dtype=np.float64)
+    r,sorted_r=fault.crop_data(p);gpu_pose=cp.asarray(p)
+    normals=cp.asarray([[math.cos(math.radians(d)),math.sin(math.radians(d))]for d in degrees])
+    sentinel=np.uint64(0xffffffffffffffff)
+    best=cp.full((32,32,64,na,na,nb,nb),sentinel,cp.uint64)
+    def run(donor):
+        best.fill(sentinel)
+        extract(((31*31*63+127)//128,),(128,),
+                (gpu_pose,np.int32(len(p)),r,sorted_r,np.int32(donor),normals,best))
+        cp.cuda.runtime.deviceSynchronize()
+        active=adaptive._bounded_active_indices(best)
+        return cp.asnumpy(active),cp.asnumpy(best.ravel()[active])
+    try:
+        indices,reference=run(0)
+        assert len(indices)>0,'Known valid pose produced no identifier test states'
+        low=reference&np.uint64(0xffffffff)
+        assert np.all(low<31*31*63)
+        checks=[]
+        for donor in [35471,60000]:
+            expected=low+np.uint64(donor)*np.uint64(31*31*63)
+            assert np.all(expected<np.uint64(2**32))
+            actual_indices,actual=run(donor)
+            assert np.array_equal(actual_indices,indices),(donor,'finite-state positions changed')
+            assert np.array_equal(actual>>np.uint64(32),reference>>np.uint64(32)),(donor,'bloat high bits changed')
+            assert np.array_equal(actual&np.uint64(0xffffffff),expected),(donor,'encoded low bits incorrect')
+            assert np.all((actual&np.uint64(0xffffffff))//np.uint64(31*31*63)==donor)
+            checks.append({'donor':donor,'finite_states':len(indices),
+                           'maximum_encoded_job':int(expected.max()),
+                           'same_bloat_high_bits':True,'exact_donor_decoding':True})
+        return {'passed':True,'reference_donor':0,'checks':checks,'bins':bins,'degrees':list(degrees),
+                'table_bytes':int(best.nbytes),'source_compatibility':patches}
+    finally:
+        del best,gpu_pose,r,sorted_r,normals
+        cp.get_default_memory_pool().free_all_blocks()
+
+
 def certify_candidates(base, candidates):
     project_scripts = Path(__file__).resolve().parents[1] / 'scripts'
     sys.path.insert(0, str(project_scripts))
@@ -501,8 +567,8 @@ def main():
     args = parser.parse_args()
     if args.seconds <= 0 or args.closure_seconds < 0 or args.rounds < 1 or args.baseline_donors < 0:
         parser.error('Budgets/donor counts must be nonnegative; seconds and rounds must be positive')
-    if not 2 <= args.bins <= 32:
-        parser.error('Separator bins must be between 2 and 32')
+    if not 2 <= args.bins <= 64:
+        parser.error('Separator bins must be between 2 and 64')
     if not args.degrees or len(set(args.degrees))!=len(args.degrees) or any(not 0<d<90 for d in args.degrees):
         parser.error('Adaptive separator normals must be distinct and strictly between0 and90 degrees')
     args.baseline = args.baseline.resolve()

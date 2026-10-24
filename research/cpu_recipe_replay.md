@@ -62,3 +62,26 @@ certificates decide acceptance. These modes do not change the completed v1
 snapshot. Six regressions cover greedy/minimax differences, buffered joins,
 public count preservation, continuous quantization gaps, and separated,
 touching and overlapping SAT pairs.
+
+The frozen SAT pass completed all 35 chains in 25.78 seconds using final focus
+snapshot 00083, final multiscale snapshot 00099, soft-method snapshot 00023 and
+their full donor archives. It found **11 additional certified improvements**
+against the subsequent GPU-composition portfolio, for a gain of
+0.00009830109279019987. The raw merge scores 22.302227280115410; its safe version
+scores **22.302227280985999**. The winning selected joins also satisfy the older
+bin rule, so this experiment attributes its gains to the fresh/diverse donor
+geometries. It does not demonstrate an additional gain from nonseparable SAT
+joins.
+
+SAT experiment evidence lives in `artifacts/cpu-recipe-replay-sat-v1/`.
+Its frozen candidates have SHA256
+`809b67f80aa630639f231156b512568feb0ba1b883347454d59fa903b004c3d6`.
+The compact `whole_puzzle_donors.npz` contains all 11 exact successful layouts,
+SHA256 `596c40dc888748867dd42b82ece8a1ab512087903bae4ea760aa2c080348ba63`.
+`winning_rectangles.npz` contains 17 actual winning replacement blocks,
+SHA256 `eef5cf78cc5203ac49c139bd4312bbdbc6eb1e0c438a53918f7dd736622e894e`.
+These blocks are unchanged row subsets of the successful certified complete
+layouts; removing other squares preserves their geometric validity. Original
+global coordinates and exact full-puzzle row IDs are retained in
+`donor_export_manifest.json`. No new standalone official score is claimed for
+the subsets, and all future compositions still require full certification.

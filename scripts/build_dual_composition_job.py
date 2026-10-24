@@ -13,6 +13,7 @@ PROFILES = [
     {'name': 'bins32_angles3', 'device': 0, 'bins': 32, 'degrees': [30,45,60]},
     {'name': 'bins16_angles7', 'device': 1, 'bins': 16, 'degrees': [15,22.5,30,45,60,67.5,75]},
     {'name': 'bins32_shifted3', 'device': 1, 'bins': 32, 'degrees': [22.5,45,67.5]},
+    {'name': 'bins64_angles2', 'device': 1, 'bins': 64, 'degrees': [30,45]},
 ]
 DEFAULT_PROFILES = ['bins32_angles3','bins16_angles7']
 

@@ -62,3 +62,31 @@ consistent aggregate, covering interruption immediately after record publication
 These are preparation results; execution and resulting full-puzzle gains must
 be recorded after the reviewed job runs. No competition submission is part of
 this builder or campaign.
+
+## Completed version1
+
+The run finished in 1,840.25 seconds and retained 4,596 certified variants, with
+archive SHA `204eaa312767cdaf957e708bc8476f4fa5c7eba869e5994cdafd781b4a67d45f`.
+Both actual initial banks matched the prepared exact arrays, and all 69 recorded
+strict-event minima survived in the immutable archive. FP64 passed 3,310/4,088
+and 3,431/3,832 candidates. All 4,598 per-device official calls passed, including
+initial incumbents; two exact poses were shared across workers. General refill
+used 6.27% and 5.71% of wall time, with no overrun or timeout. Official geometry
+evaluation consumed about 1,057 and 1,083 worker seconds, the largest measured
+cost, while CUDA accounted for roughly 14% of worker wall time.
+
+Against the minimum of multiscale snapshot99, focus snapshot83 and soft snapshot45,
+393 variants across three rectangle types remain strictly better: `4_16_9`
+improves by 0.005127837609, `21_7_15` by 0.001671133457 and `5_18_11` by
+0.000387742845. These are rectangle improvements, pending full-puzzle composition.
+All other certified poses remain available for different separator geometry and
+FQ polishing. The 497 captured near-feasible full poses and 251 near-capacity
+cores remain explicitly unvalidated. Four cores report extra row capacity, all
+with residual around .009–.010; those counts are not feasible packing claims.
+
+Evidence is in `artifacts/combined-ftmc-results/analysis.json`. Per-file CLI
+pagination hit a rate limit and the whole-output ZIP stream failed. Direct
+named-file SDK downloads obtained the exact aggregate, certificate indices,
+initial banks, logs and exploratory archives successfully; remote immutable
+snapshots remain untouched. `analyze_combined_ftmc.py` checks their byte bindings
+and retention without repeating official evaluations.

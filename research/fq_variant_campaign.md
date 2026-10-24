@@ -257,3 +257,77 @@ use 12–16 continuation steps with a smoother final schedule, and allow slight
 hold-box slack. It must preserve the same explicit zero-return and ordinary
 unit-square certification requirements. The current frozen 600-second run is
 not modified to test that proposal.
+
+Soft v1 completed normally in 588.13 seconds, with 198 trials and 90 certified
+exact-SHA donors. The final immutable bundle is
+`artifacts/fq-soft-v1/snapshot-00045`; best-bank SHA-256
+`fe5a4f383a374115dd1e2d73f00b57ee5f1135cb92f1832ac5ef947133a7be0a`,
+donor SHA-256
+`2b52aa18d4ea67a53f4e3deb7e9068f900baa8dc1b509967bb0dfcf3aa786342`.
+All archive, exact geometry, and continuation-log hashes were checked after
+completion, as were every eight-step zero-return trace and rigid official
+certificate. Six canonical families improved: `6x22+16` by .000592397053,
+`7x20+14` by .000288419752, `8x20+12` by .000239805269, `8x22+14` by
+.000182206892, `10x23+14` by .000147873003, and `9x20+12` by .000094319672.
+No opposite-orientation improvements are double-counted in this list.
+
+The final soft bundle was handed to composition, CPU replay, and the combined
+GPU-output analyst for future frozen passes. The two workers were released
+without automatic reuse. `experiments/fq_soft_aggressive_campaign.py` is a
+prepared, unlaunched configuration for the stronger `.3`/`.6` proposal; it uses
+the existing traced rigid-return gate and records all altered options.
+
+## Strong-deformation controls and local junction method
+
+Global `.3`/`.6` continuation passed both loose-grid controls but failed all
+three real-packing controls: their excess rose toward one as the useful tilted
+bands disappeared. The records are retained in
+`artifacts/fq-soft-aggressive-preflight`; the corresponding long global run was
+not launched.
+
+`experiments/fq_local_soft_campaign.py` makes the strong deformation local. It
+selects 24 or 40 nearby squares at an opposite-tilt-band junction, or around a
+seeded tilted square when that junction definition is unavailable. FQ freezes
+the surrounding already-feasible poses, including their aspect variables,
+while the selected neighborhood receives the strong aspect continuation.
+After exact zero-aspect return and ordinary rigid certification, every square
+is released for a second rigid optimization and certification. Complete freeze
+indices, center selection, source SHA, options, intermediate geometry, and both
+certificates are recorded.
+
+Each composite attempt shares a twenty-second native-stage scheduling budget;
+the local stage is limited to twelve seconds and the rigid release receives the
+remaining allowance. Decoding and final official checks can finish slightly
+after that per-attempt scheduling deadline. The external 600-second supervisor
+still covers all work, certification, collection, and shutdown. Independent
+review found no validity or retention blocker. Here, “strict intermediate”
+means geometrically certified, including poses whose scalar excess is unchanged
+or slightly worse; it does not assert a strict objective improvement.
+
+Real-target controls returned certified `5_17_7` and improved inserted
+`5_17_8` by 7.18e-7. The complete four-trial smoke finished in 5.88 seconds:
+all four primary results certified, and eight unique certified poses were
+retained when local intermediates were included. The final collector runs
+inside the supervised process and exports `all-strict/donors.npz` plus full
+per-geometry provenance, using full SHA identities and retaining all lineages.
+
+Prepared inputs in `artifacts/fq-local-soft-inputs-v1` contain 1,462 exact donor
+poses and 32 orientation-fair references across sixteen families. This includes
+the six certified neighboring-count families from
+`artifacts/fq-insert-delete-v1/donors.npz`, SHA-256
+`48ec40dc1056ada58e9af62ae91912272e187f3dc899385acaa72df4c0c10315`.
+All 32 reference poses were recertified. The reference SHA-256 is
+`9434e265962a93a1eb3b3e848038a81087d79ef36a6846276be0d4f9b4ef3a86`.
+The later 29-pose insertion expansion was kept separate from this frozen run.
+
+The authorized local production run is `artifacts/fq-local-soft-v1`, with two
+CPU workers and a 600-second outer ceiling. Its snapshot `00036` provided an
+early meaningful handoff: inserted `20_9_13` reached excess .902369770853,
+improving its frozen family reference by .007882171020. The compact best-bank
+SHA-256 is
+`725f20c04864e033ac1de76720af6fa2c1d91f5f4c9c4f351b35900e53916115`;
+the 133-pose primary donor archive SHA-256 is
+`b413ed611cf314714a9e485d285876c7f3f19f70a984194cf714d240c8203955`.
+The winning pose, archive hashes, local zero-return trace, and both rigid
+certificates were independently checked before the downstream handoff. Full
+portfolio impact remains for composition to determine.

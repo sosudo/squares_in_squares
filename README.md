@@ -4,7 +4,7 @@ Competition optimization workspace for [Kaggle Squares in Squares](https://www.k
 
 For each n=1..1000, place n non-overlapping unit squares inside the smallest square. Minimize `sum(L_n / sqrt(n) - 1)`. Angles are radians. Complete submissions contain 500,500 rows. Exact decimal coordinates matter: float round trips can invalidate touching packings.
 
-The latest accepted submission, **57584666**, scored **22.3047579593**; its observed rank was20/505 on2026-10-24. Continued search has certified a stronger unsubmitted portfolio at **22.3023255821**. The user now requires **both validated transport scores strictly below22.3** before another submission. The hourly runner is stopped. Read [research/STATUS.md](research/STATUS.md) for current experiments and [research/submission_schedule.md](research/submission_schedule.md) for the enforced authorization policy.
+The latest accepted submission, **57584666**, scored **22.3047579593**; its observed rank was20/505 on2026-10-24. Continued search has certified a stronger unsubmitted portfolio at **22.3018329173**. The user now requires **both validated transport scores strictly below22.3** before another submission. The hourly runner is stopped. Read [research/STATUS.md](research/STATUS.md) for current experiments and [research/submission_schedule.md](research/submission_schedule.md) for the enforced authorization policy.
 
 ## Environment
 

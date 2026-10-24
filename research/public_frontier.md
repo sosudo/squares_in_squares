@@ -70,6 +70,32 @@ Pinned KMMM 26 CSV: `artifacts/public-v26/kmmmvs__squares-in-squares-best-packin
 
 The new Couzo catalogue is pinned to full commit `1c1715399709bc955e9b402947ab8b52bbacdfc3`. Metadata and per-file download hashes are retained under `artifacts/public-freshness/couzo-1c1715399709/`. Seventeen improved exact certificates were SHA-verified and rendered independently with 100-digit arithmetic, 75-digit coordinates and 1e-40 centre dilation into `artifacts/candidates/records-fresh-1c1715.json`, SHA256 `c361a5d7e9116cae884cc492ecc82f65411f066f4217d738400fa8fee444215a`. The estimated aggregate gain is 0.0003597892 before final transport safety and certification. Original pins, archives and source notices remain preserved.
 
+The later **07:00 UTC all-unchanged conclusion was incorrect for KMMM**.
+Its saved public metadata had a stale `currentVersionNumber=26`, while the
+explicit `versions` list already contained Ready versions 27 and 28, published
+at 06:20 and 06:33 UTC. The original evidence is preserved and explicitly
+superseded by
+`artifacts/public-freshness/check-20261024-second/version-check-correction.json`.
+Cdeotte 2, Dariush 11, atlas 18 and the Couzo commit check were unaffected.
+Future dataset checks use `scripts/check_dataset_ready_versions.py`, selecting
+the maximum version whose explicit status is Ready, retaining the convenience
+field separately, and refusing an unchanged claim when version metadata is
+missing or inconsistent. Four regressions cover the stale-current failure and
+missing/pending-version cases. A current field alone is not a publication pin.
+
+Explicit KMMM version 28 was subsequently downloaded into
+`artifacts/public-v28/`. Its CSV SHA256 is
+`3d93fe9b1bbfa60a9a7941b33e835d1d0bb49662b0de0ab2704756c703ef1d48`,
+matching the separately published `portfolio_manifest.json`. Full inherited
+notices and per-puzzle contributor metadata remain in its `notices/` directory.
+Against the then-current SAT-replay portfolio, only n=338,376,928 strictly
+improved; all three passed independent interval admission. The resulting
+`submission-public-v28-v1-safe.csv` scores 22.302218769660772 with the identical
+ordinary-pandas roundtrip score and zero invalid cases. Three official cases
+were freshly evaluated and 997 exact matches reused; all 89 long-precision
+safety cases were unchanged. Its complete source/report/hash bindings are in
+`submission-public-v28-v1-safe.transport-validation.json`.
+
 Neither refresh alone is expected to meet the user's new strict score<22.3 submission threshold; no new submission or runner restart was performed by this research task.
 
 The combined refresh was subsequently certified at **22.304375968681107** on both safe decimal and ordinary pandas numeric-roundtrip CSVs, with zero invalid cases,21 fresh evaluations and979 exact unchanged-certificate reuses. All21 source changes improve after the once-only transport transform. Exact safe CSV SHA256: `82ad3a551afb934d4b263a9fd1a7dc121f19bd9052c13218c5a39017ed7d0f29`. This is a search baseline only: it remains above the user's strict submission ceiling. Full report bindings are in `artifacts/submission-public-refresh-v1-safe.transport-validation.json`.
