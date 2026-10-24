@@ -124,3 +124,53 @@ correction passes live CUDA tests. The recommended additions are the tied-pair
 coherent-rotation control, accepted-coordinate stop telemetry, and separate
 wall/pair/physical-side metrics. No optimization campaign or remote launch was
 performed during this review.
+
+## Live CUDA corner check and contraction-order diagnosis
+
+The first v2 launch stopped during preflight on both devices, before search.
+The unequal-projection controls passed, but the four-axis corner rigid-rotation
+assertion failed. The frozen adapter and failed output are preserved; the
+control tolerance has not been relaxed.
+
+A separate CPU arithmetic control identifies a concrete possible cause. For
+the exact rotated corner constructed by `_pair(0.31, 0.9)`, evaluating a
+projection as `fma(dx,u,dy*v)` versus `fma(dy,v,dx*u)` changes the maximum by
+one binary64 ULP. If the first loop selects the larger value and a subsequent
+exact-tie recount recomputes the smaller values, it finds zero active axes.
+The adapter then falls back to the original angular branch. That mixed-order
+control gives rigid-rotation derivative 0.09000000018; reusing the original
+stored projections gives 6.94e-18. The support sine residual is only −1.21e-17,
+inside the native sign function's 1e-12 deadband, so it does not explain a
+large support-radius jump at tau=0.
+
+This is a CPU mechanism demonstration, not an observed CUDA arithmetic trace.
+Compiling the complete source-faithful C++ objective with `-mfma` and
+`-ffp-contract=fast` still passes these corner controls. Actual CUDA diagnostics
+must establish the selected projection, recomputed values, and active-axis
+counts before attributing the live failure. If confirmed, computing the
+projection array once and reusing those exact values for selection and weights
+addresses the mismatch without widening a tie tolerance. Evidence is in
+`artifacts/full-gpu-objective-review-v1/fma-corner`, including the full compiled
+objective, results under both contraction settings, and
+`projection-order-control.json`.
+
+The subsequent live diagnostic established a related, more specific mechanism:
+the duplicate axes 1 and 3 themselves evaluate one ULP apart under default
+CUDA contraction. Each directed loop therefore sees one active axis and
+attributes the full angle term to its own square. The actual count is 1,
+not the hypothetical zero-count recount case above. At common angle 0.31,
+the rigid derivative is +0.09000000018 for tau=0 and +0.09886560762 for
+tau=0.02. Compiling the same adapted source with `--fmad=false` restores
+duplicate equality, count 2, and rigid derivatives 6.94e-18 and zero.
+Support-radius derivatives are negligible in the failed cases. Saving an
+already inconsistent projection array alone would not fix this observed
+duplicate-axis split.
+
+The 24-case actual diagnostic is
+`artifacts/full-gpu-tie-diagnostic-results-v2/outputs/diagnostic.json`, SHA256
+`704d57abe9e8797a46cc99d068b366afc14188e824dc2379ee18a9b6f12faa4f`.
+Across the tested compiler settings, energy/residual arrays differ by at most
+1.11e-16. Disabling contraction preserves the mathematical objective but
+should not be described as universally bitwise identical. The complete,
+unchanged live directional/hull/permutation controls remain the production
+gate for the corrected compilation.
