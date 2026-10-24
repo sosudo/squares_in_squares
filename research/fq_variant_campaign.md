@@ -134,3 +134,47 @@ The authorized bound is fifteen minutes with two CPU workers and twenty
 seconds per FQ binary call. The earlier v1 reviewer correctly identified that
 its subprocess timeout alone did not enforce a hard whole-campaign deadline;
 the separate supervisor addresses that limitation in the new round.
+
+The ten-trial multiscale smoke completed in 8.77 seconds and exercised all four
+kick sizes plus rounded radius `.15`; seven results were officially certified.
+Archive hashes, exact geometry hashes, option lists, and reference-gain
+accounting were independently checked. A deliberately blocked campaign and
+its descendant were both stopped at 14.02 seconds under a sixteen-second
+supervisor ceiling, verifying the hard process-group deadline path.
+
+The production multiscale run is `artifacts/fq-multiscale-v1`. Its initial
+meaningful checkpoints have been handed to composition while the run remains
+bounded and unchanged. A compact 21-type best bank from snapshot `00037`
+was frozen for immediate composition with SHA-256
+`2aa7de3cfa9b3eb0a4e7beac80ec27ef7d4058c5cd0b28d7aa565b2c71099c26`.
+By snapshot `00056`, material gains over its frozen reference included
+`22_8_14`: .0052588151, `10_23_17`: .0026546681, `8_21_8`: .0021399355,
+`19_7_13`: .0007559748, `20_9_12`: .0005287529, and `10_23_14`: .0002612747.
+These are component improvements; composition determines their full-score
+effect.
+
+## Focused structural follow-up
+
+The full-packing analysis in `research/active_broad_frontier.md` identified
+canonical families `5x17+7`, `7x19+13`, and `7x20+14` as high-impact remaining
+targets. `experiments/fq_focus_inputs.py` freezes those families in both
+orientations, retaining exact broad-frontier reflected/oriented variants and
+the available FQ/gentle donor archive. Prepared inputs are in
+`artifacts/fq-focus-inputs-v1`: 337 exact donor poses across six orientations.
+All eight exact broad-frontier donor variants for those families are retained.
+
+Each orientation's frozen reference is derived from its canonical family's
+best known pose. If transposition is needed, the coordinate exchange and angle
+reflection are recorded explicitly and the resulting pose is recertified.
+All six references pass official raw and pandas checks, and opposite
+orientations have equal excess within `1e-12`. This avoids counting an already
+known transposed family result as a new gain. The reference archive SHA-256 is
+`163bb361caab1e4875038986a53d393206410fb9e4fca5b31a8ed47ac2f204a7`.
+
+`experiments/fq_focus_campaign.py` is a separate configuration of the supervised
+multiscale runtime. It gives each `5x17+7` orientation weight three and the
+other four orientations weight two. Two of eight mode slots use rounded
+continuation; the other slots span the four kick sizes. No plain polishing is
+repeated. Its one-worker four-trial smoke completed in 6.44 seconds, exercised
+`.01`, `.03`, `.08`, and rounded `.15`, and retained two certified donors.
+Production launch is coordinated against the root's total CPU worker cap.

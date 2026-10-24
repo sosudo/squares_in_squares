@@ -46,16 +46,16 @@ def digest(path):
         return hashlib.file_digest(f, 'sha256').hexdigest()
 
 
-def split_core(p):
+def split_core(p, upright_threshold=1e-6):
     # Nearly upright source squares are candidate centres, not asserted upright
     # geometry: strict SAT filtering checks the zero-angle replacement anew.
     angle = np.abs((p[:,2] + math.pi/4) % (math.pi/2) - math.pi/4)
-    tilted = angle > 1e-6
+    tilted = angle > upright_threshold
     return p[tilted], p[~tilted], len(np.unique(np.round(p[tilted,2], 3)))
 
 
-def capacity(p, W, H, depth=3, max_candidates=6000):
-    core, upright, diversity = split_core(p)
+def capacity(p, W, H, depth=3, max_candidates=6000, upright_threshold=1e-6):
+    core, upright, diversity = split_core(p, upright_threshold)
     generated = generate_candidates(W,H,core,incumbents=None,depth=depth,margin=1e-11,soft=0.)
     # Preserve original upright centre values before coalescing any generated
     # near-copies. All are screened against the actual tilted core.
@@ -76,7 +76,8 @@ def capacity(p, W, H, depth=3, max_candidates=6000):
     q=np.vstack((core,np.column_stack((xy[selected],np.zeros(len(selected))))))
     info.update(core=len(core),original_upright=len(upright),angle_classes=diversity,
                 candidates=len(xy),unpruned_candidates=unpruned_count,
-                source_count=len(p),capacity=len(q),depth=depth,soft=0.)
+                source_count=len(p),capacity=len(q),depth=depth,soft=0.,
+                upright_threshold=upright_threshold)
     return q,info
 
 

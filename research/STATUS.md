@@ -2,7 +2,20 @@
 
 This competition task is ongoing. The user wants the highest possible rank, ideally first place. Continue optimization after compaction; this checkpoint is not a declaration of completion.
 
-## Latest checkpoint — 2026-10-24 06:55 UTC
+## Latest checkpoint — 2026-10-24 07:10 UTC
+
+- User threshold is unchanged: no submission until BOTH exact and ordinary numeric-roundtrip official scores are strictly below22.3. The hourly runner is stopped; there is no pending submission. Latest accepted score22.3047579593 remains submission57584666.
+- **Best certified score:22.303038673749423**, identical numeric-roundtrip score, zero invalid cases. Safe file `artifacts/submission-fq-broad-polish-v1-safe.csv`, SHA2b4583e00ba6266a2eea0217025e0d88778d98686399772c8d6b4e5efea9fc30. Raw ancestor `artifacts/merged-fq-broad-polish-v1.csv`, SHA f7cf02f429263d106bd43353bb84acef88c16ce738b4d0c828154eee7d70b8cf. Provenance/certificates are bound by the corresponding `.transport-validation.json` report.21 new full-puzzle wins; n870 supplied99.7% of the0.0000169071593 gain.42 exact certified pose variants retained.
+- Next composition source is frozen and fully attachment-verified: `artifacts/composition-f64-iteration-job-v1`, source SHA62847c3e9b5125f655b7fbd31b08ca9008c2bc5f7310c0a741f6d4f4cf0df4f5,969158bytes,1303 donor poses plus baseline,15312 orientations. Private full-pose donor exporter `sos54352/squares-fq-full-donors-01344eb87862/1` is COMPLETE and remote SHA-verified. Merge future outputs into the newer raw incumbent above to preserve21 CPU gains.
+- **This composition job has NOT launched.** Root's push returned `Maximum batch GPU session count of2 reached`. The stale `squares-composition-4636cfc39542/1` now blocks new work alongside the healthy combined campaign. Notebook_frontier owns supported cancellation diagnosis; never guess execution-session IDs. Retry the exact frozen bundle after a slot becomes available. A future shifted separator profile (bins32,22.5/45/67.5degrees) can use the secondT4; it is not in this frozen source.
+- Combined two-T4 campaign is running normally,1800seconds per arm. Both FQ and original starts have produced strictly better certified component events, but these are not yet established full-portfolio improvements. Full_puzzle_pilot owns monitoring and aggregate output recovery; preserve remote per-pose snapshots.
+- Anchor completed the900second multiscale run in888.30seconds:695 trials,529 certified variants,10 improved types; final snapshot00099 best-bank SHA5d8de5063a8c1c1559dc5a73b0f24c7bd6166609a1cabde99fd7d5ee7f38e0f7. Anchor owns the focused three-family run (1CPUworker). Validation is preparing a distinct coherent cluster/band perturbation pilot (1CPUworker,300second total cap). Competition_research owns direct CPU replay of the54 active recipe stages using improved donors, to progress while the GPU slot is blocked. Keep total local search workers<=5.
+- Completed exact capacity probe covered22 canonical types x3 box slacks x2 upright-angle thresholds (132 trials) in19.49seconds. 128 searches completed;4 settings correctly rejected bloat>=1. None found an extra square; there are no capacity candidates to compose. Inputs, source, commands, coverage and diagnostics are frozen under `artifacts/fq-capacity-probe-v1`. Default behavior of the shared refill helper is preserved.
+- Public-source freshness check at07:00UTC found no updated versions among the five targeted leading sources. Do not repeat that unchanged sweep immediately.
+- Last confirmed Git push:cd8dbce. Onboarding install/start draft is saved and tested, still requires environment-settings publication for future reuse. Current optimization continues; no competition submission.
+
+### Previous checkpoint details — 06:55 UTC
+
 
 - **User steering: no further submission until BOTH validated transport scores are strictly below22.3 (22.2x or better).** Hourly strict improvement and daily cap still apply. PID15213 stopped06:15:23 with no pending intent. The controller and persisted authorization policy enforce the ceiling. Do not restart it for an ineligible candidate.
 - Latest accepted submission57584666: actual public22.3047579593, accepted06:07:08.397 UTC, rank20/505 observed06:14:40. Only2 submissions today. Later timing eligibility does not waive the score threshold.

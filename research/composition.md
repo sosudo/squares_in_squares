@@ -122,3 +122,21 @@ Merging the 39 proposals against the newer full-puzzle FQ raw baseline accepted 
 The follow-up checks passed: official raw score `22.303055580038144`, transport-safe score `22.303055580908733`, and ordinary numeric-roundtrip score `22.303055580908730`, with zero invalid cases and 35 fresh evaluations plus 965 exact unchanged certificate reuses. The 3.55e-15 transport score difference is within tolerance; it is not binary64 equality. All eight earlier full-puzzle FQ improvements were preserved or improved. The safe SHA is `f64b8e59f3a4f19c8839b772115b3bcf63fd212c9986cb9b6161822561fb1abc`.
 
 The existing source-backed exporter still fits at 774,043 bytes and reproduced the exact raw and safe CSVs locally. Unique private CPU notebook `sos54352/squares-portfolio-f64b8e59f3a4/1` then completed, and both the downloaded output and independent immutable-version API stream matched the expected SHA. `portfolios/candidate-f64b8e59f3a4` retains the reproducible source, manifests, certificates and completion proof. This portfolio is a search incumbent only: its score remains above22.3, so it was neither queued nor submitted to the competition. The 41 older82ad geometries that it replaces were separately interval-certified and retained in `artifacts/replaced-packings-f64b8e59f3a4`, alongside the earlier32-pose archive, for future composition diversity.
+
+## Immediate FQ composition iteration
+
+The next frozen bundle is `artifacts/composition-f64-iteration-job-v1`, source SHA `62847c3e9b5125f655b7fbd31b08ca9008c2bc5f7310c0a741f6d4f4cf0df4f5`, 969,158 bytes. It selects only `--profiles bins32_angles3`, since the first two profiles found the same substantive winners. The existing supervisor now permits selecting a subset of its fixed profiles and checks the required allocated device count accordingly. Its known-layout preflight remains at the actual32-bin resolution. A450-second extraction budget and900-second overall deadline bound this iteration; completed/planned coverage is still reported.
+
+The immutable f64 safe incumbent is combined with all1,178 prior donors and125 new poses:41 replaced82ad layouts,13 earlier full-puzzle FQ variants,42 newly certified full-puzzle polish variants, the21-type multiscale FQ snapshot00037, four final additional-type improvements, and four newly active-family improvements. Local source/hash/attachment replay passed;15,312 non-upright orientations are planned and the encoded donor/job maximum remains below2^32. The eight focused tests passed after adding profile selection. The bundle is frozen before later campaign snapshots; later geometry belongs in a subsequent iteration.
+
+To keep all42 new full-puzzle variants without exceeding the notebook source limit, `scripts/build_frozen_npz_export_job.py` prepared a619,189-byte private CPU exporter. Unique source `sos54352/squares-fq-full-donors-01344eb87862/1` completed and reproduced the exact archive SHA `01344eb87862a347096dc0fac5b5fc6013b72ef7f6ad0882e1f70f12d20fc57c` both remotely and after download. The exporter verifies exact NPZ bytes and every canonical array hash, preserves MIT FQ notices, and binds the existing geometry-certification provenance by hash. It does not falsely claim new geometry checks merely from an exact export. The remaining prior embedded banks are read from the unchanged completed broad notebook, so their geometry is retained without embedding duplicate blobs in the new source.
+
+```bash
+python3 scripts/build_dual_composition_job.py \
+  --baseline artifacts/submission-broad-composition-v1-safe.csv \
+  --attached-inputs artifacts/composition-f64-iteration-inputs.json \
+  --out artifacts/composition-f64-iteration-job-v1 \
+  --seconds 450 --wall-seconds 900 \
+  --slug sos54352/squares-composition-f64b8e59f3a4 \
+  --profiles bins32_angles3
+```

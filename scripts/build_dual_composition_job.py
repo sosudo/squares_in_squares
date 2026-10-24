@@ -12,7 +12,9 @@ ROOT = Path(__file__).resolve().parents[1]
 PROFILES = [
     {'name': 'bins32_angles3', 'device': 0, 'bins': 32, 'degrees': [30,45,60]},
     {'name': 'bins16_angles7', 'device': 1, 'bins': 16, 'degrees': [15,22.5,30,45,60,67.5,75]},
+    {'name': 'bins32_shifted3', 'device': 1, 'bins': 32, 'degrees': [22.5,45,67.5]},
 ]
+DEFAULT_PROFILES = ['bins32_angles3','bins16_angles7']
 
 RUNTIME = r'''
 import base64,copy,hashlib,io,json,os,shutil,subprocess,sys,tempfile,threading,time,zipfile
@@ -25,7 +27,8 @@ started=time.monotonic();deadline=started+CONFIG['wall_seconds']
 print(json.dumps({'stage':'dual_composition_worker_started','utc':datetime.now(timezone.utc).isoformat(),
                   'wall_limit_seconds':CONFIG['wall_seconds'],'profiles':CONFIG['profiles']}),flush=True)
 import cupy as cp
-assert cp.cuda.runtime.getDeviceCount()>=2,'This job requires two allocated CUDA devices'
+required_devices=1+max(profile['device']for profile in CONFIG['profiles'])
+assert cp.cuda.runtime.getDeviceCount()>=required_devices,'Insufficient allocated CUDA devices'
 payload=base64.b64decode(PAYLOAD);jobs=[]
 def pump(process,log_path,label):
     with log_path.open('w') as log:
@@ -117,9 +120,16 @@ def main():
     parser.add_argument('--seconds',type=float,default=1200.)
     parser.add_argument('--wall-seconds',type=float,default=1800.)
     parser.add_argument('--slug',default='sos54352/squares-broad-composition')
+    parser.add_argument('--profiles',nargs='+',choices=[p['name']for p in PROFILES],
+                        default=DEFAULT_PROFILES)
     args=parser.parse_args()
     if args.seconds<=0 or args.wall_seconds<=0 or args.wall_seconds>1800:
         parser.error('Positive search budgets and a maximum1800-second overall cap are required')
+    if len(set(args.profiles))!=len(args.profiles):
+        parser.error('A profile can only be selected once')
+    selected=[p for p in PROFILES if p['name']in args.profiles]
+    if len({p['device']for p in selected})!=len(selected):
+        parser.error('Select at most one profile for each CUDA device')
     args.out.mkdir(parents=True,exist_ok=True)
     attached=json.loads(args.attached_inputs.read_text())
     attached['groups']={'all_certified_donors':list(attached.get('gadgets',{}))}
@@ -132,7 +142,8 @@ def main():
     subprocess.run(command,check=True)
     tree=ast.parse((common/'search.py').read_text())
     config=ast.literal_eval(tree.body[0].value);payload=ast.literal_eval(tree.body[1].value)
-    config['profiles']=[{**p,'table_bytes':32*32*64*len(p['degrees'])**2*(p['bins']+1)**2*8}for p in PROFILES]
+    config['profiles']=[{**p,'table_bytes':32*32*64*len(p['degrees'])**2*(p['bins']+1)**2*8}
+                        for p in selected]
     source='CONFIG = '+repr(config)+'\nPAYLOAD = '+repr(payload)+'\n'+RUNTIME
     compile(source,'search.py','exec')
     if len(source.encode())>=1000000:raise ValueError('Dual source exceeds Kaggle1MB limit')
