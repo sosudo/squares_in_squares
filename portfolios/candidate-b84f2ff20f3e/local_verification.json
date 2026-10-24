@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "source_sha256": "d56a0ab145562eaf23e08dc18b735f3265150436507cf7d37b03e957080b7145",
+  "source_bytes": 823519,
+  "csv_sha256": "b84f2ff20f3eec7dfadc6a9645dbb01a628629fb18ba7395421243a2d7770fe8",
+  "csv_bytes": 33178931,
+  "full_executable_reconstruction_exact": true,
+  "manifest_exact": true,
+  "parent_additional_provenance_exact": true,
+  "runtime_scaling": false,
+  "actual_generated_source_tamper_rejections": [
+    "parent",
+    "patch"
+  ],
+  "wrapper_sha256": "76d221667d79c0fcc4df323d0f68003b659eded9d6fcea140e0202892dd8a298",
+  "base_builder_sha256": "477ef6ddcce7675e7e603678e488b3235b4de5988180adffe1c38e2b13131f0b",
+  "local_runtime_proof_sha256": "4b14d74ee7c46ab6287f38db43d256f0cd3e499430275455510ea08fe9b00b07",
+  "competition_sources": [
+    "squares-in-squares"
+  ],
+  "parent_notebook": "sos54352/squares-portfolio-ffa6cf616d4a-incremental/2",
+  "export_manifest_sha256": "a3c84b89aa7274b3b66fe25cc3abf26c3f77fb2738477cbf20a157cca4c54dd1",
+  "additional_source_provenance_sha256": "b0a178821627060eb59a06b232450a8e62a783d0b04a06aed6b58c568ae1d7ca"
+}

@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "checked_at": "2026-10-24T14:01:07.590117+00:00",
+  "source_csv_sha256": "0dca84e8b18a0de1ec2f3f1bb8c1bd00a529c893a2591138f13231ec9109e799",
+  "baseline_raw_sha256": "3855c47798708e4bfb9f053024e6542b0a2a5021824bfd310290e4e7ab1ff9ea",
+  "candidate_json": "artifacts/public-kmmm31/certified-screen-v1/winning-candidates.json",
+  "candidate_json_sha256": "1e5f35045b931568ffd9f7810d279c2fd2af150aee0c7fdf94e94f5ba6c2600a",
+  "cases": [
+    802,
+    928
+  ],
+  "raw_score_gain": 9.668911049587336e-08,
+  "fresh_raw_official": 2,
+  "fresh_roundtrip_official": 2,
+  "fresh_raw_interval": 2,
+  "fresh_roundtrip_interval": 2,
+  "certification_summary_sha256": "fe34f4506a79e5aaaae10f0ccc203ecdcd8659efd781c1729680d36a5fc5f486",
+  "source_lineage_sha256": "1841e5a8c6f2e712c771d17e341f65648885aa22563ac1c5c09104b17fbfad36",
+  "notice_files": {
+    "packing-source.json": "4382063698273fb64207528f31ad721711717a95797b1484aab00371f29de207",
+    "public_local_1318_provenance.json": "87a2c3c868ec2b36ec4d7b788aa6fbb5d7606c3a40f50a1d77026901e76e655d",
+    "SOURCE.md": "45db4353fd1c450bb4eac63f8382dbce22674ad53f4335a8ba71703587a7d58b",
+    "SOURCE_NOTICES.md": "ff1f69736ab286ef101d1a8675ed53a69400788169810b7a053a08671a091375",
+    "per_puzzle_contributors.csv": "3f80ca06a3acdb8bb8e74efad05ce2e156e1930833f709542fe1c333593c3966",
+    "source-manifest.json": "da7d7b58907c9fc8c6da9d1146c616d6b5596b4e679a30b5740b8c1dddd52904",
+    "portfolio_manifest.json": "2a573352b2c7112f458c86d393364042aca5ad067dd41f9ab14bc0900920d544",
+    "public_local_1318_provenance.source.json": "a688d0a617443d73dfe985fa245a53b5e4b43e69136243146b828e007ac5d250",
+    "per_puzzle.csv": "8006aa10b590fbc8f446276d5749a575a833265e75cb55ac6062792266bb4e07",
+    "winning-case-lineage.json": "1841e5a8c6f2e712c771d17e341f65648885aa22563ac1c5c09104b17fbfad36",
+    "dataset-metadata.json": "4f066f7f9470aba75c42c61284941932216b3d91004b5747cf1dceeb6b2ac5ff",
+    "external_contributors.csv": "1695410280e584b5b53116660d1366e80851aac1ddca31784c6500c555282e25"
+  },
+  "canonical_mutation": false,
+  "competition_submission": false,
+  "new_remote_compute": false
+}

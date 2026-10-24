@@ -1,0 +1,292 @@
+{
+  "record": {
+    "n": 418,
+    "job": 61,
+    "mode": "rigid_current",
+    "category": "changed_winner_rigid_followup",
+    "legacy_history": "uncertain_outside_recent_pinned_archives",
+    "parent_geometry_sha256": "e56282593da3c1b22224b8058f533e877ae0ddc1e2dd5a21415ebd532a53b51a",
+    "canonical_raw_side": "20.92527020916587713434609527920612014749286090255258",
+    "native_seconds_cap": 10.0,
+    "certificate_seconds_cap": 6.0,
+    "parent_archive_sha256": "753dd38fa8691a4c2a843cab497450f386ff5be43f9ce18668f41b5a4717517b",
+    "input_sha256": "8449df5babf66c0c337588c67d68a2329cf7dba02b6f5eea37c39156067f9590",
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-current-rigid-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-current-rigid-v1/trials/n418-rigid-0061.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-current-rigid-v1/trials/n418-rigid-0061.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9610061",
+      "--loosen",
+      "1",
+      "--outer",
+      "45",
+      "--pit",
+      "20",
+      "--flip-top",
+      "0"
+    ],
+    "command_sha256": "f9c78f8dff3f3cdea99606dcbe402e7f947f83d96f4cd7c818d1df30ad1ce3a7",
+    "returncode": 0,
+    "native_status": "returned",
+    "native_seconds": 3.759292586997617,
+    "stdout_sha256": "8ff6743c31f198a089daede8d2e25c625071ce43aa58fd1ebc937f9527ddbda1",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "log_sha256": "22452ba3adcabb2a324c4dad87605cf2b40e8500e072a209b03df1612a47626c",
+    "fq": {
+      "s": 20.92524837346174,
+      "s_alm": 20.925248115762844,
+      "viol": 4.92e-05,
+      "evals": 4052,
+      "outer": 45,
+      "slp_it": 20,
+      "slp_r": 0.004,
+      "flips": 0,
+      "min_gap": 6.16e-09,
+      "min_wall": 6.16e-09,
+      "sec": 3.754,
+      "s_coarse": 20.928579090220833,
+      "t_alm": 0.716,
+      "s_alm0": 20.925411431694023,
+      "trace": [
+        [
+          1,
+          0.1071,
+          20.92586753351558,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          2,
+          0.3324,
+          20.92567177878746,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          3,
+          0.5291,
+          20.92557781560045,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          4,
+          0.7117,
+          20.925480302332613,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          5,
+          0.911,
+          20.925385720356015,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          6,
+          1.1058,
+          20.925294392245892,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          7,
+          1.3018,
+          20.92528602418387,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          9,
+          1.6416,
+          20.92526734829034,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          10,
+          1.8648,
+          20.925263221922545,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          12,
+          2.2352,
+          20.925262550049784,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          13,
+          2.3438,
+          20.925261724244773,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          15,
+          2.5313,
+          20.92526070004206,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          16,
+          2.6097,
+          20.92525977292646,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          17,
+          2.6985,
+          20.925259406530305,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          18,
+          2.7768,
+          20.925254828871097,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          19,
+          2.8713,
+          20.925253088729097,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          20,
+          2.9806,
+          20.925248867611316,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "6d1a267c13410e53",
+      "ncontacts": 1162,
+      "fin": []
+    },
+    "native_output_path": "/workspace/squares_in_squares/artifacts/fq-current-rigid-v1/trials/n418-rigid-0061.out",
+    "native_output_sha256": "3e19301a7b7ec71837eace2e6d398457af517dbefb1a72534663f636baf816cd",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-current-rigid-v1/raw-returned/0061-n418.npz",
+      "sha256": "d51dccf7e09439e3fb42e67904c04e8714fc5b6822e550d8cb3666c693c49ef6",
+      "geometry_sha256": "aa3d4d152086097a35bdaf27ba9bb32d8ccfe4433524d0b53a2a42c44d2f7ae2",
+      "verified": false
+    },
+    "status": "certified",
+    "decoded_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-current-rigid-v1/decoded/0061-n418.npz",
+      "sha256": "5edcbc593752f45f3d98f81f8f4b8a9c31b48734f6e0245fdeed7255f5f5eb9c",
+      "geometry_sha256": "f5f3ea782afe06c1cc26ae1fb59b4d2e732941b78e2fc7d6ef1cff49543810c4"
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "20.92524836114654119097247740139367772018643112464682",
+        "roundtrip_side": "20.92524836114654119097247740139367772018643112464682",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "20.92524836114654122097247740139367772018643112464682",
+      "independent_raw": {
+        "n": 418,
+        "valid": true,
+        "side_lower": "20.925248361146541190972477401393677720186431124646736038646811",
+        "side_upper": "20.925248361146541190972477401393677720186431124646864331352896",
+        "score_lower": "0.023487352723913167739148424956316334897095407935272037707400",
+        "score_upper": "0.023487352723913167739148424956316334897095407935282728766241",
+        "interval_pairs": 385,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 418,
+        "valid": true,
+        "side_lower": "20.925248361146541220972477401393677720186431124646742477450424",
+        "side_upper": "20.925248361146541220972477401393677720186431124646870770156510",
+        "score_lower": "0.023487352723913169206496389089871792004497980282360935412459",
+        "score_upper": "0.023487352723913169206496389089871792004497980282371626471300",
+        "interval_pairs": 385,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "9284acd7d36d92c05f2842411f03b044a1a293e0bbb88ff346ae34fef7b0bcf0",
+      "ordinary_pandas_csv_sha256": "7c7c4fdcae321ca47e967d7405f00751f19366094dd5d3a3317c35f545ff4207"
+    },
+    "geometry_sha256": "f5f3ea782afe06c1cc26ae1fb59b4d2e732941b78e2fc7d6ef1cff49543810c4",
+    "archive_key": "418__current_rigid_f5f3ea782afe06c1cc26ae1fb59b4d2e732941b78e2fc7d6ef1cff49543810c4",
+    "side": "20.925248361146541190972477401393677720186431124646864331352896",
+    "side_gain": "0.00002184801933594337361787781244",
+    "score_gain": 1.0686215564315689e-06,
+    "retained_archive": "/workspace/squares_in_squares/artifacts/fq-current-rigid-v1/retained/0061-f5f3ea782afe06c1cc26ae1fb59b4d2e732941b78e2fc7d6ef1cff49543810c4.npz",
+    "retained_archive_sha256": "334f3cefe799cf9e0ba9a8cb21e8b1ade6d0e54a1bfb3cd5b00a111146ca2165"
+  },
+  "archive_sha256": "334f3cefe799cf9e0ba9a8cb21e8b1ade6d0e54a1bfb3cd5b00a111146ca2165"
+}

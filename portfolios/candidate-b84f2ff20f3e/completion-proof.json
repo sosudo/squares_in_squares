@@ -1,0 +1,42 @@
+{
+  "ref": "sos54352/squares-portfolio-b84f2ff20f3e-incremental",
+  "version": 1,
+  "output_file": "submission.csv",
+  "output_sha256": "b84f2ff20f3eec7dfadc6a9645dbb01a628629fb18ba7395421243a2d7770fe8",
+  "output_bytes": 33178931,
+  "status": "complete",
+  "is_private": true,
+  "verified_at": "2026-10-24T14:13:45.163621+00:00",
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "competition_sources": [
+    "squares-in-squares"
+  ],
+  "kernel_sources_actual": [
+    "sos54352/squares-portfolio-ffa6cf616d4a-incremental"
+  ],
+  "source_sha256": "d56a0ab145562eaf23e08dc18b735f3265150436507cf7d37b03e957080b7145",
+  "source_bytes": 823519,
+  "server_timeout_seconds": 180,
+  "worker_timeout_seconds": 120,
+  "remote_runtime_seconds": 3.8265664869999796,
+  "competition_submission_performed": false,
+  "transport_scaling_applied": false,
+  "remote_export_manifest_sha256": "a3c84b89aa7274b3b66fe25cc3abf26c3f77fb2738477cbf20a157cca4c54dd1",
+  "remote_runtime_proof_sha256": "d0fd084c9f3747cef399fa027cc5de63367e349434a6ef3cfd2ae94a7e31c121",
+  "download_receipt_sha256": "a86095e5e34993b0c2cdaaa7cfd1899fe2ec8388901131d94bb59f1da5c7e005",
+  "remote_source_verification_sha256": "b647e3f49b50137dc6685c70dd10acf98b292aa233006b62262009a3878c0adf",
+  "local_runtime_proof_sha256": "4b14d74ee7c46ab6287f38db43d256f0cd3e499430275455510ea08fe9b00b07",
+  "canonical_transport_proof_sha256": "2fe9b7e29bb8a0468d0b7153997bcdeb1f11b85bbb7878b5fbe4ad00b8d9c370",
+  "additional_source_provenance_sha256": "b0a178821627060eb59a06b232450a8e62a783d0b04a06aed6b58c568ae1d7ca",
+  "independent_source_review_sha256": "3a539926786bd498c31cb6c6fd66236b35c4c5b7ff61610d8913b4df7546a9a7",
+  "exact_source_notices_preserved": true,
+  "fresh_geometry_evaluations_by_exporter": 0,
+  "parent_notebook": "sos54352/squares-portfolio-ffa6cf616d4a-incremental/2",
+  "parent_csv_sha256": "ffa6cf616d4ae0fbe0f27dd655e0b31e624b7c014e82537700c71fca78eb563c",
+  "parent_remote_completion_sha256": "e0abff8b8461174f37347950bf3ca258acc9433e374f56fa8b0c797aae4b6ee2",
+  "official_score": 22.298804980280106,
+  "roundtrip_score": 22.298804980280106,
+  "threshold_eligible": true
+}

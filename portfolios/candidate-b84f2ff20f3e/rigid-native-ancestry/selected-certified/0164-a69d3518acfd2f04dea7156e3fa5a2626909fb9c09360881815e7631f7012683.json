@@ -1,0 +1,222 @@
+{
+  "record": {
+    "n": 703,
+    "job": 164,
+    "mode": "rigid_current",
+    "category": "current_source_rigid_untried",
+    "legacy_history": "uncertain_outside_recent_pinned_archives",
+    "parent_geometry_sha256": "e9c20f84a6a4733edfa86cb5e4da929e6e289a71e82714ac3eba75a94df79bf0",
+    "canonical_raw_side": "26.95887468691914934781635543965094753975276289192743",
+    "native_seconds_cap": 10.0,
+    "certificate_seconds_cap": 6.0,
+    "parent_archive_sha256": "931523439caf518c1b9b540dbadd77fa3f92e7ee984854439487b964a87a60d9",
+    "input_sha256": "cbaf72a6a977573795f5652d61d2e0bcfad09ab5bcffb3a724b40b95a7f71c0a",
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-current-rigid-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-current-rigid-v1/trials/n703-rigid-0164.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-current-rigid-v1/trials/n703-rigid-0164.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9610164",
+      "--loosen",
+      "1",
+      "--outer",
+      "45",
+      "--pit",
+      "20",
+      "--flip-top",
+      "0"
+    ],
+    "command_sha256": "20316036defc93108c320c6fceb0b0ad0bffa859a7d41b66fc8dba07d9f20c72",
+    "returncode": 0,
+    "native_status": "returned",
+    "native_seconds": 8.538599855004577,
+    "stdout_sha256": "e21b893a8866bb134eabc46e6426531fe5de46f6e567246addc126426cda271a",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "log_sha256": "55a42ef0ea47f9c8bdf3aead6d5edebef200e7d57cf44798c6add3f8f7a7eb9b",
+    "fq": {
+      "s": 26.958479970156528,
+      "s_alm": 26.958479970086923,
+      "viol": 2.23e-05,
+      "evals": 3328,
+      "outer": 45,
+      "slp_it": 16,
+      "slp_r": 0.00013,
+      "flips": 0,
+      "min_gap": 1.39e-12,
+      "min_wall": 1.29e-12,
+      "sec": 8.53,
+      "s_coarse": 26.96055002025989,
+      "t_alm": 1.771,
+      "s_alm0": 26.95835696412781,
+      "trace": [
+        [
+          1,
+          0.3939,
+          26.958572758218985,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          2,
+          1.1542,
+          26.95849246724203,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          4,
+          2.3708,
+          26.958482592601783,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          5,
+          2.9102,
+          26.95848043342149,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          6,
+          3.4931,
+          26.95848031617678,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          7,
+          3.7908,
+          26.958480183974483,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          8,
+          4.094,
+          26.958480050268925,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          10,
+          5.2257,
+          26.95848000119933,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          12,
+          5.9026,
+          26.958479978671324,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          14,
+          6.3705,
+          26.958479970135127,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "0aef32d68e0e3f43",
+      "ncontacts": 461,
+      "fin": []
+    },
+    "native_output_path": "/workspace/squares_in_squares/artifacts/fq-current-rigid-v1/trials/n703-rigid-0164.out",
+    "native_output_sha256": "e6ac22ad5e7a0fabaafa8a1570bcd6f3a73386cef8de3597b69666ed7ffbcafb",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-current-rigid-v1/raw-returned/0164-n703.npz",
+      "sha256": "bb12c12ceed5865c4926e6a81d2371084d7a533af6eaca27e48d821a4b2b1e22",
+      "geometry_sha256": "558d146dd7d9f875c708a78dabe6c1d1034c160dc17de5d36d5ae6a931a61fab",
+      "verified": false
+    },
+    "status": "certified",
+    "decoded_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-current-rigid-v1/decoded/0164-n703.npz",
+      "sha256": "60498d2af2c7ee72c3eee758c02b76b817a6f8d55c71b8e8527ea2e59d7e281f",
+      "geometry_sha256": "a69d3518acfd2f04dea7156e3fa5a2626909fb9c09360881815e7631f7012683"
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "26.95848002203479361995486498471141402769977832567200",
+        "roundtrip_side": "26.95848002203479363923132169163703125609941899569423",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "26.95848002203479164995486498471141902769977832566860",
+      "independent_raw": {
+        "n": 703,
+        "valid": true,
+        "side_lower": "26.958480022034793619954864984711414027699778325671924691311664",
+        "side_upper": "26.958480022034793619954864984711414027699778325672052984017750",
+        "score_lower": "0.016758331018845963516223382712765071120780896159722114890431",
+        "score_upper": "0.016758331018845963516223382712765071120780896159730133184562",
+        "interval_pairs": 1020,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 703,
+        "valid": true,
+        "side_lower": "26.958480022034791649954864984711419027699778325668517376458327",
+        "side_upper": "26.958480022034791649954864984711419027699778325668645669164413",
+        "score_lower": "0.016758331018845889216266171848416638631441770626627654419442",
+        "score_upper": "0.016758331018845889216266171848416638631441770626635672713574",
+        "interval_pairs": 1020,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "879fe8d5a9d4906a7c2187ef74be1a7a64982be15d12fd5407251ce8f04cfaa3",
+      "ordinary_pandas_csv_sha256": "406756243025d68f319c09484ef4acc43ac2846ffca3cadbd58a75c90289403f"
+    },
+    "geometry_sha256": "a69d3518acfd2f04dea7156e3fa5a2626909fb9c09360881815e7631f7012683",
+    "archive_key": "703__current_rigid_a69d3518acfd2f04dea7156e3fa5a2626909fb9c09360881815e7631f7012683",
+    "side": "26.958480022034793619954864984711414027699778325672052984017750",
+    "side_gain": "0.0003946648843557278614904549395",
+    "score_gain": 1.4885068030589495e-05,
+    "retained_archive": "/workspace/squares_in_squares/artifacts/fq-current-rigid-v1/retained/0164-a69d3518acfd2f04dea7156e3fa5a2626909fb9c09360881815e7631f7012683.npz",
+    "retained_archive_sha256": "3873d0de5b7c7eeaed7a7c9a7adc0264b63fabbee3ebdef369a295f6d890a49a"
+  },
+  "archive_sha256": "3873d0de5b7c7eeaed7a7c9a7adc0264b63fabbee3ebdef369a295f6d890a49a"
+}

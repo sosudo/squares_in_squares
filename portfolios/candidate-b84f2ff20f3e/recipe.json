@@ -1,0 +1,23 @@
+{
+  "status": "Private CPU version1 complete and remotely verified; competition attached; no submission by exporter",
+  "source_notebook": {
+    "ref": "sos54352/squares-portfolio-b84f2ff20f3e-incremental",
+    "version": 1,
+    "output_file": "submission.csv"
+  },
+  "csv_sha256": "b84f2ff20f3eec7dfadc6a9645dbb01a628629fb18ba7395421243a2d7770fe8",
+  "source_sha256": "d56a0ab145562eaf23e08dc18b735f3265150436507cf7d37b03e957080b7145",
+  "official_score": 22.298804980280106,
+  "roundtrip_score": 22.298804980280106,
+  "numeric_parent_recipe": "../candidate-ffa6cf616d4a/",
+  "parent_private_export": "sos54352/squares-portfolio-ffa6cf616d4a-incremental/2",
+  "completion_proof_sha256": "cc1e80b1bd273c57acfa2e11062f622a977ca68c61931420597af00ddda9a60b",
+  "old_recipes_preserved": true,
+  "competition_submission_performed": false,
+  "case_updates": {
+    "rigid_current": 31,
+    "KMMM31": 2
+  },
+  "exact_changed_rows": 23294,
+  "source_notices_preserved": true
+}

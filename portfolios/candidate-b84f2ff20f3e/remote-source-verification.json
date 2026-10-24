@@ -1,0 +1,17 @@
+{
+  "ref": "sos54352/squares-portfolio-b84f2ff20f3e-incremental",
+  "version": 1,
+  "status": "COMPLETE",
+  "source_sha256": "d56a0ab145562eaf23e08dc18b735f3265150436507cf7d37b03e957080b7145",
+  "private": true,
+  "cpu_only": true,
+  "offline": true,
+  "competition_sources": [
+    "squares-in-squares"
+  ],
+  "kernel_sources_actual": [
+    "sos54352/squares-portfolio-ffa6cf616d4a-incremental"
+  ],
+  "parent_csv_runtime_hash_required": true,
+  "server_timeout_seconds": 180
+}

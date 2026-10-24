@@ -1,0 +1,569 @@
+{
+  "status": "Kaggle COMPLETE",
+  "baseline_sha256": "d62a32592633d8093299516433202e879fe5429ac8bc56b28c309e6368a28c5f",
+  "local_parent_sha256": "0d3c37a142a7d9aeac7590f7d5ff2028dcceedc98ea81e0bbf9e889a0fab654c",
+  "sha256": "0dca84e8b18a0de1ec2f3f1bb8c1bd00a529c893a2591138f13231ec9109e799",
+  "total_score": 22.307815883682974,
+  "selected_local_puzzles": [
+    338,
+    376,
+    417,
+    691,
+    802,
+    917,
+    928
+  ],
+  "selected_public": {
+    "lightningv08/squares-in-squares-cuda-packing-search": [
+      459,
+      503,
+      546,
+      547,
+      550,
+      588,
+      594,
+      595,
+      599,
+      637,
+      642,
+      645,
+      694,
+      697,
+      742,
+      743,
+      745,
+      751,
+      756,
+      761,
+      797,
+      805,
+      806,
+      807,
+      810,
+      812,
+      813,
+      815,
+      856,
+      865,
+      866,
+      869,
+      870,
+      871,
+      921,
+      923,
+      924,
+      925,
+      926,
+      927,
+      930,
+      931,
+      979,
+      982,
+      984,
+      986,
+      987,
+      988,
+      989,
+      990,
+      991,
+      992,
+      996
+    ]
+  },
+  "changes": [
+    {
+      "n": 338,
+      "before_score": "0.027259465221371126",
+      "after_score": "0.02725716749139684",
+      "source": "local-candidate-bank",
+      "gain": 2.2977299742876767e-06
+    },
+    {
+      "n": 376,
+      "before_score": "0.025686517770489026",
+      "after_score": "0.02568647852659156",
+      "source": "local-candidate-bank",
+      "gain": 3.924389746501333e-08
+    },
+    {
+      "n": 417,
+      "before_score": "0.023915207126774085",
+      "after_score": "0.02391515605109573",
+      "source": "local-candidate-bank",
+      "gain": 5.1075678353385e-08
+    },
+    {
+      "n": 459,
+      "before_score": "0.022477263254363722",
+      "after_score": 0.022477250153912554,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.3100451168313043e-08
+    },
+    {
+      "n": 503,
+      "before_score": "0.021137702827028537",
+      "after_score": 0.02111006178345809,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 2.764104357044772e-05
+    },
+    {
+      "n": 546,
+      "before_score": "0.021202500027382998",
+      "after_score": 0.02120249572684041,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 4.300542588708822e-09
+    },
+    {
+      "n": 547,
+      "before_score": "0.020869259971509013",
+      "after_score": 0.02086924963653547,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.0334973543635328e-08
+    },
+    {
+      "n": 550,
+      "before_score": "0.019887138361225354",
+      "after_score": 0.01988678658490084,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 3.5177632451421914e-07
+    },
+    {
+      "n": 588,
+      "before_score": "0.021368749791750297",
+      "after_score": 0.021368743188224792,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 6.6035255041896335e-09
+    },
+    {
+      "n": 594,
+      "before_score": "0.020129698634558935",
+      "after_score": 0.02012969359989447,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 5.034664463110516e-09
+    },
+    {
+      "n": 595,
+      "before_score": "0.019821576246656925",
+      "after_score": 0.019821565533799435,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.0712857489991734e-08
+    },
+    {
+      "n": 599,
+      "before_score": "0.018721171577511297",
+      "after_score": 0.01872116666163759,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 4.915873708100094e-09
+    },
+    {
+      "n": 637,
+      "before_score": "0.020549605453631825",
+      "after_score": 0.0205495912128848,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.4240747026050826e-08
+    },
+    {
+      "n": 642,
+      "before_score": "0.019586634902082123",
+      "after_score": 0.019586626794914075,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 8.10716804799938e-09
+    },
+    {
+      "n": 645,
+      "before_score": "0.018871311470538554",
+      "after_score": 0.018871300409533998,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.1061004556722764e-08
+    },
+    {
+      "n": 691,
+      "before_score": "0.01902974001608393",
+      "after_score": "0.019029482388098318",
+      "source": "local-candidate-bank",
+      "gain": 2.5762798561146383e-07
+    },
+    {
+      "n": 694,
+      "before_score": "0.01850136607203212",
+      "after_score": 0.018501358206086005,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 7.865946116680789e-09
+    },
+    {
+      "n": 697,
+      "before_score": "0.018005715283309742",
+      "after_score": 0.018005703900504377,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.1382805364945625e-08
+    },
+    {
+      "n": 742,
+      "before_score": "0.019180838408061618",
+      "after_score": 0.019180834781240552,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 3.62682106569423e-09
+    },
+    {
+      "n": 743,
+      "before_score": "0.018667886052802674",
+      "after_score": 0.018667875819964097,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.0232838576484937e-08
+    },
+    {
+      "n": 745,
+      "before_score": "0.018374699560076646",
+      "after_score": 0.01837469372999867,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 5.830077975943482e-09
+    },
+    {
+      "n": 751,
+      "before_score": "0.01721414278808653",
+      "after_score": 0.01721413110693626,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.1681150269282625e-08
+    },
+    {
+      "n": 756,
+      "before_score": "0.015657060743971662",
+      "after_score": 0.015657052048599907,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 8.695371755962356e-09
+    },
+    {
+      "n": 761,
+      "before_score": "0.014955137038396904",
+      "after_score": 0.014955132750598121,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 4.28779878269836e-09
+    },
+    {
+      "n": 797,
+      "before_score": "0.018435955475858856",
+      "after_score": 0.018435924136195325,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 3.1339663530971507e-08
+    },
+    {
+      "n": 802,
+      "before_score": "0.01722255941772244",
+      "after_score": "0.017222553628165604",
+      "source": "local-candidate-bank",
+      "gain": 5.789556833946108e-09
+    },
+    {
+      "n": 805,
+      "before_score": "0.016887675003131042",
+      "after_score": 0.01688766942535458,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 5.577776462928341e-09
+    },
+    {
+      "n": 806,
+      "before_score": "0.016687698992622124",
+      "after_score": 0.016687689192603328,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 9.800018796468635e-09
+    },
+    {
+      "n": 807,
+      "before_score": "0.016470172303097774",
+      "after_score": 0.01647015958165987,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.2721437903095989e-08
+    },
+    {
+      "n": 810,
+      "before_score": "0.015833186248401576",
+      "after_score": 0.015833182073691887,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 4.174709689053202e-09
+    },
+    {
+      "n": 812,
+      "before_score": "0.015101921049015976",
+      "after_score": 0.015101911269153057,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 9.77986291950117e-09
+    },
+    {
+      "n": 813,
+      "before_score": "0.014911172306611542",
+      "after_score": 0.014911168775075145,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 3.531536396650381e-09
+    },
+    {
+      "n": 815,
+      "before_score": "0.015112485567133627",
+      "after_score": 0.01511247860452647,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 6.962607157490197e-09
+    },
+    {
+      "n": 856,
+      "before_score": "0.01741088140296787",
+      "after_score": 0.017410869162440168,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.2240527702545023e-08
+    },
+    {
+      "n": 865,
+      "before_score": "0.01580175526406502",
+      "after_score": 0.015801742310105782,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.2953959238615198e-08
+    },
+    {
+      "n": 866,
+      "before_score": "0.01548394702649536",
+      "after_score": 0.0154839091820278,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 3.784446755972226e-08
+    },
+    {
+      "n": 869,
+      "before_score": "0.014871256488332651",
+      "after_score": 0.014871253177729304,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 3.3106033470176044e-09
+    },
+    {
+      "n": 870,
+      "before_score": "0.014584801450630014",
+      "after_score": 0.014584790659819324,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.0790810689442765e-08
+    },
+    {
+      "n": 871,
+      "before_score": "0.014421255442711223",
+      "after_score": 0.014421251366662613,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 4.076048609746863e-09
+    },
+    {
+      "n": 917,
+      "before_score": "0.016586368111145777",
+      "after_score": "0.01658635875810499",
+      "source": "local-candidate-bank",
+      "gain": 9.353040786308497e-09
+    },
+    {
+      "n": 921,
+      "before_score": "0.015925141103268592",
+      "after_score": 0.015925137228420594,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 3.874847998019959e-09
+    },
+    {
+      "n": 923,
+      "before_score": "0.015635203643292073",
+      "after_score": 0.01563519713108108,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 6.512210992681844e-09
+    },
+    {
+      "n": 924,
+      "before_score": "0.015347940568875895",
+      "after_score": 0.015347928810492961,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.1758382933990674e-08
+    },
+    {
+      "n": 925,
+      "before_score": "0.01518432688260729",
+      "after_score": 0.015184313711375852,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.3171231438846576e-08
+    },
+    {
+      "n": 926,
+      "before_score": "0.014896019618384493",
+      "after_score": 0.014895981719174056,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 3.789921043662048e-08
+    },
+    {
+      "n": 927,
+      "before_score": "0.014745405086550534",
+      "after_score": 0.014745401235930267,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 3.850620267087379e-09
+    },
+    {
+      "n": 928,
+      "before_score": "0.014634449339578248",
+      "after_score": "0.014634358440024808",
+      "source": "local-candidate-bank",
+      "gain": 9.089955343988265e-08
+    },
+    {
+      "n": 930,
+      "before_score": "0.01402177593780185",
+      "after_score": 0.01402176413520051,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.1802601340704655e-08
+    },
+    {
+      "n": 931,
+      "before_score": "0.013962466360825099",
+      "after_score": 0.013962462496964756,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 3.863860342789849e-09
+    },
+    {
+      "n": 979,
+      "before_score": "0.01583007356459798",
+      "after_score": 0.01582988017340692,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.933911910612096e-07
+    },
+    {
+      "n": 982,
+      "before_score": "0.015372257732841454",
+      "after_score": 0.015372254645289463,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 3.087551991853843e-09
+    },
+    {
+      "n": 984,
+      "before_score": "0.01501744468503885",
+      "after_score": 0.015017441879433102,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 2.8056057477243712e-09
+    },
+    {
+      "n": 986,
+      "before_score": "0.014753471851397526",
+      "after_score": 0.014753459207580866,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.2643816660329321e-08
+    },
+    {
+      "n": 987,
+      "before_score": "0.014630336676608291",
+      "after_score": 0.01463033294998839,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 3.726619901556205e-09
+    },
+    {
+      "n": 988,
+      "before_score": "0.014360278961960793",
+      "after_score": 0.014360274590325295,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 4.371635498046089e-09
+    },
+    {
+      "n": 989,
+      "before_score": "0.014221814188139614",
+      "after_score": 0.01422180983692578,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 4.351213833686529e-09
+    },
+    {
+      "n": 990,
+      "before_score": "0.014237213803017346",
+      "after_score": 0.014237208812073243,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 4.990944102445383e-09
+    },
+    {
+      "n": 991,
+      "before_score": "0.013883045613551914",
+      "after_score": 0.013883041268190732,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 4.345361181989915e-09
+    },
+    {
+      "n": 992,
+      "before_score": "0.013649999996360851",
+      "after_score": 0.013649987376257222,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 1.2620103628790957e-08
+    },
+    {
+      "n": 996,
+      "before_score": "0.01332511585419538",
+      "after_score": 0.013325109618098185,
+      "source": "lightningv08/squares-in-squares-cuda-packing-search",
+      "gain": 6.236097194189938e-09
+    }
+  ],
+  "not_submitted": false,
+  "changed_puzzles": [
+    338,
+    376,
+    417,
+    459,
+    503,
+    546,
+    547,
+    550,
+    588,
+    594,
+    595,
+    599,
+    637,
+    642,
+    645,
+    691,
+    694,
+    697,
+    742,
+    743,
+    745,
+    751,
+    756,
+    761,
+    797,
+    802,
+    805,
+    806,
+    807,
+    810,
+    812,
+    813,
+    815,
+    856,
+    865,
+    866,
+    869,
+    870,
+    871,
+    917,
+    921,
+    923,
+    924,
+    925,
+    926,
+    927,
+    928,
+    930,
+    931,
+    979,
+    982,
+    984,
+    986,
+    987,
+    988,
+    989,
+    990,
+    991,
+    992,
+    996
+  ],
+  "baseline_actual_score": "22.3078472906",
+  "metric_lf_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "kaggle_receipt": {
+    "submission_id": "57595954",
+    "status": "SubmissionStatus.COMPLETE",
+    "public_score": "22.3078158836",
+    "submitted_utc": "2026-10-24 13:34:18.010000",
+    "submission_sha256": "0dca84e8b18a0de1ec2f3f1bb8c1bd00a529c893a2591138f13231ec9109e799",
+    "improvement_vs_previous_displayed_score": "0.0000314070",
+    "method": "certified public/local whole-puzzle batch; 53 public and 7 local changes"
+  }
+}

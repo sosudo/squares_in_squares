@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "source_path": "/workspace/squares_in_squares/artifacts/public-kmmm31/kmmmvs__squares-in-squares-best-packings.csv",
+  "source_sha256": "0dca84e8b18a0de1ec2f3f1bb8c1bd00a529c893a2591138f13231ec9109e799",
+  "baseline_path": "/workspace/squares_in_squares/artifacts/merged-fq-broad-final-v2.csv",
+  "baseline_sha256": "3855c47798708e4bfb9f053024e6542b0a2a5021824bfd310290e4e7ab1ff9ea",
+  "baseline_official_score": 22.299034777429622,
+  "compared_supplied_cases": 1000,
+  "baseline_cases": 1000,
+  "source_missing_cases": [],
+  "promising_cases": [
+    802,
+    928
+  ],
+  "fully_certified_cases": [
+    802,
+    928
+  ],
+  "fresh_raw_official_evaluations": 2,
+  "fresh_roundtrip_official_evaluations": 2,
+  "fresh_raw_interval_evaluations": 2,
+  "fresh_roundtrip_interval_evaluations": 2,
+  "raw_score_gain": 9.668911049587336e-08,
+  "predicted_raw_merged_score": 22.29903468074051,
+  "rejections": {},
+  "candidate_json_sha256": "1e5f35045b931568ffd9f7810d279c2fd2af150aee0c7fdf94e94f5ba6c2600a",
+  "raw_interval_report_sha256": "4718440bc64f5e452e0e34f06122d4096f09ddd6bca51b9b8cee75b3cf1b6eca",
+  "raw_csv_sha256": "a6109ed24e81b89ab4312323b263d182a46682389b437524f245b714cbe55522",
+  "roundtrip_csv_sha256": "7174262aa076ae7cf9387ddd3e0264924a3085527f2e8dc48e442577f61c52f9",
+  "official_case_report_sha256": "60643c3e04e2b5d1adc5d5f11b776fe9dd138dda90778dd03f47b0fe5a81272c",
+  "official_metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "source_code_sha256": "a2145c46fa67158fd66275d8b9173dc6b20de3b3ddf4d3b795fad69b9ed883bd",
+  "seconds": 20.119297296005243,
+  "scope": "Changed source cases only; root owns full merged portfolio, transport-safe proof and canonical pointer. No submission or canonical mutation."
+}

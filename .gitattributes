@@ -9,3 +9,8 @@ portfolios/candidate-*/native-ancestry/**/*.log -text whitespace=-blank-at-eof
 
 # Preserve newly released public notice bytes exactly.
 vendor/notices/kmmm-v31/* -text whitespace=cr-at-eol,-blank-at-eof
+
+# Preserve selected rigid logs and newly inherited notice terminators.
+portfolios/candidate-*/rigid-native-ancestry/**/*.log -text whitespace=-blank-at-eof
+portfolios/candidate-*/source-notices-kmmm31/* -text whitespace=cr-at-eol,-blank-at-eof
+portfolios/candidate-*/kmmm31-proof/*.csv -text whitespace=cr-at-eol

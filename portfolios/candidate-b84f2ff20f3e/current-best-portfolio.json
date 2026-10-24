@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-24T14:06:39.447041+00:00",
+  "canonical_proof": "/workspace/squares_in_squares/artifacts/submission-fq-rigid180-kmmm31-v1-safe.transport-validation.json",
+  "canonical_proof_sha256": "2fe9b7e29bb8a0468d0b7153997bcdeb1f11b85bbb7878b5fbe4ad00b8d9c370",
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "competition_submission_performed": false,
+  "raw": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-rigid180-kmmm31-v1.csv",
+    "sha256": "fc931068f0f4accb37c8ed8b33ea59607e4690440d7c3f98b4b79fbb8c34cffc",
+    "score": 22.298804979575742,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-fq-rigid180-kmmm31-v1-official.json",
+    "official_report_sha256": "3cecac90d925617ea3de0c6dad13945b89e5408f58b56565b9cc2ecebe40972f",
+    "reuse": {
+      "reused": 967,
+      "evaluated": 33
+    }
+  },
+  "safe": {
+    "path": "/workspace/squares_in_squares/artifacts/submission-fq-rigid180-kmmm31-v1-safe.csv",
+    "sha256": "b84f2ff20f3eec7dfadc6a9645dbb01a628629fb18ba7395421243a2d7770fe8",
+    "score": 22.298804980280106,
+    "official_report": "/workspace/squares_in_squares/artifacts/submission-fq-rigid180-kmmm31-v1-safe-official.json",
+    "official_report_sha256": "483345592211e27c35d59f59d5dd22599fb8037be2525b951a7d63a3e583039c",
+    "reuse": {
+      "reused": 967,
+      "evaluated": 33
+    }
+  },
+  "roundtrip": {
+    "path": "/workspace/squares_in_squares/artifacts/submission-fq-rigid180-kmmm31-v1-safe-roundtrip.csv",
+    "sha256": "876fc4862f702f39baefb0ac9c6fb0a86544e564ac5fe9b58855de413cbae74a",
+    "score": 22.298804980280106,
+    "official_report": "/workspace/squares_in_squares/artifacts/submission-fq-rigid180-kmmm31-v1-safe-roundtrip-official.json",
+    "official_report_sha256": "cf78adaccf3321a9d4b82707df9dd36c2ddccbb0190c428227a03b5fcf7a1a03",
+    "reuse": {
+      "reused": 967,
+      "evaluated": 33
+    }
+  },
+  "independent_report": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-rigid180-kmmm31-v1.validation.json",
+    "sha256": "78f78828e3471c317f1a6e52f0ee39f895864e4cdc14ea99284432f6bdda28a0"
+  },
+  "user_submission_score_threshold": 22.3,
+  "eligible_under_user_score_threshold": true
+}

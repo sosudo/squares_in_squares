@@ -1,0 +1,12 @@
+{
+  "dataset": "kmmmvs/squares-in-squares-best-packings",
+  "url": "https://www.kaggle.com/api/v1/datasets/download/kmmmvs/squares-in-squares-best-packings/submission.csv?datasetVersionNumber=31",
+  "filename": "submission.csv",
+  "version": 31,
+  "retrieved_utc": "2026-10-24T13:57:53Z",
+  "sha256": "0dca84e8b18a0de1ec2f3f1bb8c1bd00a529c893a2591138f13231ec9109e799",
+  "bytes": 24627203,
+  "redirect_hosts": [
+    "storage.googleapis.com"
+  ]
+}

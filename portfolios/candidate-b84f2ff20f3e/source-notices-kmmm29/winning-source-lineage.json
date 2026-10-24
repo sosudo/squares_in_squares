@@ -1,0 +1,146 @@
+{
+  "338": {
+    "n": "338",
+    "L": "18.88593548129854250035971095419035299498103037621143",
+    "score": "0.027259465221371126",
+    "source": "local-candidate-bank",
+    "source_sha256": "a883aeaf433bd17a84c513863221963d3e3b6ad8c57ef5c3179bc474041719f1",
+    "validation": "official raw and pandas certified; public source and inherited attribution retained"
+  },
+  "376": {
+    "n": "376",
+    "L": "19.88879948887798128295310223612012005513684213902489",
+    "score": "0.025686517770489026",
+    "source": "local-candidate-bank",
+    "source_sha256": "ea3899133b9768e0b473dd9f6424fb2151fbe24641b578df1034eb2960c3a681",
+    "validation": "official raw and pandas certified; public source and inherited attribution retained"
+  },
+  "415": {
+    "n": "415",
+    "L": "20.86714644891148698464016440281369457355792423701687",
+    "score": "0.024327932383477746",
+    "source": "alexchilton/fault-line-dp-basin-hopping-lb-22-3747",
+    "source_sha256": "417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982",
+    "validation": "official raw and pandas certified; public source and inherited attribution retained"
+  },
+  "497": {
+    "n": "497",
+    "L": "22.80242872095830550000000000000000000000000000000000",
+    "score": "0.022828716181080067",
+    "source": "alexchilton/fault-line-dp-basin-hopping-lb-22-3747",
+    "source_sha256": "417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982",
+    "validation": "official raw and pandas certified; public source and inherited attribution retained"
+  },
+  "501": {
+    "n": "501",
+    "L": "22.86693229617174688139127225713610365932565752489736",
+    "score": "0.0216191921298019",
+    "source": "alexchilton/fault-line-dp-basin-hopping-lb-22-3747",
+    "source_sha256": "417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982",
+    "validation": "official raw and pandas certified; public source and inherited attribution retained"
+  },
+  "543": {
+    "n": "543",
+    "L": "23.80242872095930250000000000000000000000000000000000",
+    "score": "0.021459985898879097",
+    "source": "alexchilton/fault-line-dp-basin-hopping-lb-22-3747",
+    "source_sha256": "417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982",
+    "validation": "official raw and pandas certified; public source and inherited attribution retained"
+  },
+  "590": {
+    "n": "590",
+    "L": "24.80242872096030160000000000000000000000000000000000",
+    "score": "0.021099831154421045",
+    "source": "alexchilton/fault-line-dp-basin-hopping-lb-22-3747",
+    "source_sha256": "417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982",
+    "validation": "official raw and pandas certified; public source and inherited attribution retained"
+  },
+  "597": {
+    "n": "597",
+    "L": "24.90111077436773140000000000000000000000000000000000",
+    "score": "0.01913461976073716",
+    "source": "alexchilton/fault-line-dp-basin-hopping-lb-22-3747",
+    "source_sha256": "417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982",
+    "validation": "official raw and pandas certified; public source and inherited attribution retained"
+  },
+  "640": {
+    "n": "640",
+    "L": "25.80242872096130550000000000000000000000000000000000",
+    "score": "0.019930549029786304",
+    "source": "alexchilton/fault-line-dp-basin-hopping-lb-22-3747",
+    "source_sha256": "417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982",
+    "validation": "official raw and pandas certified; public source and inherited attribution retained"
+  },
+  "698": {
+    "n": "698",
+    "L": "26.88829294080073110000000000000000000000000000000000",
+    "score": "0.01773689699487102",
+    "source": "alexchilton/fault-line-dp-basin-hopping-lb-22-3747",
+    "source_sha256": "417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982",
+    "validation": "official raw and pandas certified; public source and inherited attribution retained"
+  },
+  "744": {
+    "n": "744",
+    "L": "27.78597326429703380000000000000000000000000000000000",
+    "score": "0.018683204317403668",
+    "source": "alexchilton/fault-line-dp-basin-hopping-lb-22-3747",
+    "source_sha256": "417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982",
+    "validation": "official raw and pandas certified; public source and inherited attribution retained"
+  },
+  "746": {
+    "n": "746",
+    "L": "27.80242872096330760000000000000000000000000000000000",
+    "score": "0.017919237846406366",
+    "source": "alexchilton/fault-line-dp-basin-hopping-lb-22-3747",
+    "source_sha256": "417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982",
+    "validation": "official raw and pandas certified; public source and inherited attribution retained"
+  },
+  "752": {
+    "n": "752",
+    "L": "27.88841246022467330000000000000000000000000000000000",
+    "score": "0.016985761600112337",
+    "source": "alexchilton/fault-line-dp-basin-hopping-lb-22-3747",
+    "source_sha256": "417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982",
+    "validation": "official raw and pandas certified; public source and inherited attribution retained"
+  },
+  "800": {
+    "n": "800",
+    "L": "28.78672865434700576923132169163752510236375732436281",
+    "score": "0.017764551983293186",
+    "source": "alexchilton/fault-line-dp-basin-hopping-lb-22-3747",
+    "source_sha256": "417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982",
+    "validation": "official raw and pandas certified; public source and inherited attribution retained"
+  },
+  "802": {
+    "n": "802",
+    "L": "28.80734058849324431961566084581987562858835884801037",
+    "score": "0.01722255941772244",
+    "source": "local-candidate-bank",
+    "source_sha256": "a883aeaf433bd17a84c513863221963d3e3b6ad8c57ef5c3179bc474041719f1",
+    "validation": "official raw and pandas certified; own controlled experiment on inherited witness"
+  },
+  "861": {
+    "n": "861",
+    "L": "29.82804674048006520000000000000000000000000000000000",
+    "score": "0.01653711347911213",
+    "source": "alexchilton/fault-line-dp-basin-hopping-lb-22-3747",
+    "source_sha256": "417bb0b665107d5d33b320ea5637ac46933fb2ab4ff17bf4f49ef39a68274982",
+    "validation": "official raw and pandas certified; public source and inherited attribution retained"
+  },
+  "917": {
+    "n": "917",
+    "L": "30.78427638895494535000000000000000000000000000000000",
+    "score": "0.016586368111145777",
+    "source": "local-candidate-bank",
+    "source_sha256": "a883aeaf433bd17a84c513863221963d3e3b6ad8c57ef5c3179bc474041719f1",
+    "validation": "official raw and pandas certified; public source and inherited attribution retained"
+  },
+  "928": {
+    "n": "928",
+    "L": "30.90890300625358381080011034304878140636829262104626",
+    "score": "0.014634449339578248",
+    "source": "local-candidate-bank",
+    "source_sha256": "c9aed72bc08e285c717ab358458ae8e85d7d5560fdeff268a24e6b36ea00df5c",
+    "validation": "official raw and pandas certified; public source and inherited attribution retained"
+  }
+}
