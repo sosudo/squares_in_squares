@@ -70,5 +70,40 @@ Independent receipt SHA256:
 Remote source, privacy and GPU flags were verified at 15:16:20 UTC.
 
 Before launch, actual service quota was 13,467.363 seconds used out of 108,000,
-zero reserved, with paid scaling disabled. No result is yet claimed, and
-previous executed experiments remain unchanged.
+zero reserved, with paid scaling disabled.
+
+The notebook completed with supervisor exit zero in 675.03 seconds. Both actual
+GPU controls passed, in 13.38 and 15.04 seconds. All eight selected native
+finishes completed, took 10.15–19.27 seconds each, and passed the full gates.
+There was **no certified side or score improvement**. Best returned sides were
+28.827586335055624409… for n803, worse by 1.113e-6, and
+29.828046794101576400… for n861, worse by 5.362e-8. Every valid geometry is
+retained; no extra search or finishing extension was launched.
+
+| Case | Completed proposals | Quench seconds | Median best / initial quench at cut .002 | At cut .008 |
+|---|---:|---:|---:|---:|
+| 803 | 7,936 | 465.74 | 0.8812 | 0.8662 |
+| 861 | 7,616 | 455.59 | 0.9333 | 0.7525 |
+
+Every recorded quench row reached native iteration index 1,999. There were no
+observed zero-energy states. The all-event audit verified independent uniform
+draws, zero reset masks, exact accepted-state continuity and the decision-time
+temperature change. No storage pause or cap occurred.
+
+The requested 600 seconds was the **parent allocation**, including subprocess
+startup. Both search children were killed at that hard deadline with one pending
+uncommitted proposal each. Their last reported search durations were 595.208
+seconds and 596.033 seconds. In the parent epoch, first cooled decisions occurred
+at 451.449/451.873 seconds and last completed decisions at 598.335/599.127 seconds.
+The spans between observed cooled decisions were 146.887/147.254 seconds;
+148.335/149.127 seconds elapsed between the scheduled cooling boundary and last
+completed decision. These observations do not establish 600 completed seconds
+of child search or a complete 150-second cooling phase. Exact terminal recovery
+preserves the last committed state and distinguishes pending work.
+
+Outputs and decision analysis are in `artifacts/fq-cold-transfer-results-v1`.
+The predetermined first noninitial and last completed proposal packets are
+preserved in `artifacts/fq-cold-transfer-packet-fixtures-v1`: n803 packets 1/248,
+n861 packets 1/238. These four exact batches are inputs to a separately
+authorized finite performance diagnostic, not an extension of this negative
+search result. Previous executed sources remain unchanged.

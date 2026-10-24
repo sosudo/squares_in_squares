@@ -74,11 +74,38 @@ policy tests and full 328-test repository suite passed. These local controls do
 not replace the mandatory actual GPU preflight.
 
 The remote source/private/offline identity was verified after the launch ACK at
-15:20 UTC. Completion and physical results are pending. No canonical portfolio
-or competition submission has been changed by this pilot. If all finishes return
-to the Göbel construction, this finite pilot closes; no unchanged extension is
-authorized by this note. A genuine gain would first go to the root agent for
-exact seventeen-case L-frame propagation and full gates.
+15:20 UTC. The job ran from about 15:25:52 and completed in 323.23 seconds overall.
+Actual N=65/tied-axis/last-unit controls passed. It committed 747 mutation rounds
+and 23,936 full-pose quenches, including initialization. The search child was
+hard-killed at its declared parent deadline; the case-local end summary therefore
+does not exist. Exact terminal packet 747 was recovered and checked against the
+final state archive. No raw state or accepted best state was substituted during
+recovery.
+
+The planned search allocation was 300 seconds, while the last committed status
+reports 297.133 seconds since child search initialization. Against the parent
+epoch, decisions span 4.195–299.887 seconds. There are 490 hot mutation rounds
+and 257 cooled rounds; cooled decisions span 200.028–299.887 seconds. These are
+measured committed exposures, not a claim of 300 committed seconds or 100 full
+cooled seconds. Future adapters should align startup/finalization accounting
+within the existing whole-job bound; this run's frozen production source remains
+unchanged and does not need an unchanged rerun.
+
+All eight fixed native finishes passed full gates. Their sides range from
+8.5355339210038166 to 8.5355339210114835, all slightly worse than canonical
+8.5355339059402728 and consistent with the Göbel construction plus the decoder's
+rounding clearance. There is no candidate improvement or propagation. The
+read-only completion audit verifies all downloaded bytes, exact committed
+terminal arrays, independent dense physical energies, selected source groups,
+native input/output-to-decoded-array identities and both raw/ordinary-pandas
+certificate text hashes. No new certificates or optimizers were run during
+analysis. Evidence is `artifacts/fq-n65-cold-analysis-v1/completion-proof.json`,
+with three hash-bound download receipts in `fq-n65-cold-results-v1`,
+`fq-n65-cold-results-v1-terminal` and `fq-n65-cold-results-v1-native`.
+
+This finite pilot is closed with a negative result. No canonical portfolio or
+competition submission was changed, and no unchanged extension is authorized.
+Its result does not prove n65 optimality or exclude other constructions.
 
 The original public solver, corrected GPU source, portable FQ source commit and
 all dependency licenses remain inside the frozen package. FQ is Evan Daniel's
