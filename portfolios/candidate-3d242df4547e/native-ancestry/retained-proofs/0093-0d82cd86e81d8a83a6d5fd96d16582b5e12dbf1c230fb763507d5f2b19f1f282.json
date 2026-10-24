@@ -1,0 +1,238 @@
+{
+  "record": {
+    "n": 692,
+    "mode": "contact20",
+    "seed": 9470093,
+    "parent_geometry_sha256": "53c27056be46119128dafa8fefb37fe768f0f5c2b7cd66987fa66908b3e325b1",
+    "reference_side": 26.80251266501029,
+    "status": "certified",
+    "whole_stage_cap": 8.0,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n692-contact20-9470093.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n692-contact20-9470093.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9470093",
+      "--no-alm",
+      "--loosen",
+      "1",
+      "--pit",
+      "20",
+      "--flip-top",
+      "0"
+    ],
+    "input_sha256": "9d6f9842faeb7f064fa5d28cb5fd27484bee9f096db0aabd1da0661254a1b5eb",
+    "returncode": 0,
+    "log_sha256": "3d8db7595c2df9e3bae86fd71903119b5e5c0951d0e41d7b7244d11e4d685435",
+    "fq": {
+      "s": 26.802428716940035,
+      "s_alm": 26.802428716933,
+      "viol": 0.0,
+      "evals": 0,
+      "outer": 0,
+      "slp_it": 20,
+      "slp_r": 0.00025,
+      "flips": 0,
+      "min_gap": 2.32e-13,
+      "min_wall": 1.3e-13,
+      "sec": 7.045,
+      "s_coarse": 26.802512665015684,
+      "t_alm": 0.0,
+      "s_alm0": 26.80251266501029,
+      "trace": [
+        [
+          1,
+          0.6755,
+          26.802437213782373,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          3,
+          1.7247,
+          26.802431176705152,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          6,
+          2.5321,
+          26.8024308919486,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          7,
+          2.7238,
+          26.802430599349414,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          8,
+          2.9577,
+          26.802429911099107,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          11,
+          4.427,
+          26.8024299003551,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          12,
+          4.5651,
+          26.80242975915524,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          13,
+          4.8588,
+          26.802429607892357,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          14,
+          5.187,
+          26.802429313236704,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          16,
+          5.958,
+          26.80242920240292,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          17,
+          6.3167,
+          26.8024289210553,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          19,
+          6.9176,
+          26.80242876083426,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          20,
+          7.0217,
+          26.802428716934667,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "71bd5c95846a6f5d",
+      "ncontacts": 535,
+      "fin": []
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "26.80242876853861938396175612502412246128979693776822",
+        "roundtrip_side": "26.80242876853861638396175612502412246128979693776822",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "26.80242876853861635396175612502425092285588151993638",
+      "independent_raw": {
+        "n": 692,
+        "valid": true,
+        "side_lower": "26.802428768538619383961756125024122461289796937768189579270092",
+        "side_upper": "26.802428768538619383961756125024122461289796937768317871976178",
+        "score_lower": "0.018875462427702148193402988866738846596823422924121495427941",
+        "score_upper": "0.018875462427702148193402988866738846596823422924129513722072",
+        "interval_pairs": 735,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 692,
+        "valid": true,
+        "side_lower": "26.802428768538616353961756125024250922855881519936291970337596",
+        "side_upper": "26.802428768538616353961756125024250922855881519936463027279043",
+        "score_lower": "0.018875462427702033010085916506357940705961725079154978945512",
+        "score_upper": "0.018875462427702033010085916506357940705961725079165670004354",
+        "interval_pairs": 735,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "8dba11e8320790574cfded02c7f8a45b18d1f6c5cafc2b66e35f24839b9d9581",
+      "ordinary_pandas_csv_sha256": "2030d37bd8cb6e08dd410218a53d9fd508e21323f8a4ada6c856b66cfba721b5"
+    },
+    "geometry_sha256": "0d82cd86e81d8a83a6d5fd96d16582b5e12dbf1c230fb763507d5f2b19f1f282",
+    "side": 26.80242876853862,
+    "side_gain": 8.389647167206249e-05,
+    "score_gain": 3.1892653128235893e-06,
+    "elapsed_seconds": 7.847961654995743,
+    "job": 93,
+    "canonical_raw_side": "26.80251266501028897435465272561482226630516145625441",
+    "native_output_sha256": "b7b857ba9325961d85bfb4cda06921cfd7f99fd9f84198d73d5d316266dc5c88",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/raw-returned/n692-contact20-0093.npz",
+      "sha256": "d4f7f2e7bfcd7c802a096825f1c1cb2c478890d4e682a282779e6aabdb95b9ac",
+      "geometry_sha256": "f02447bcb83f266f3801c8208d8ca78857bccf782f2be2e7157ed44a30e45f09",
+      "original_decimal_path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n692-contact20-9470093.out",
+      "verified": false
+    },
+    "archive_key": "692__broad_contact20_0d82cd86e81d8a83a6d5fd96d16582b5e12dbf1c230fb763507d5f2b19f1f282"
+  },
+  "archive_sha256": "17f93e8dbc8ff4bd537d99dd3f1d39a46b6e442feda832c8ecdfce6f4575cfb6"
+}

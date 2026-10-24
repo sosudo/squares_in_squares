@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-24T13:25:44.504443+00:00",
+  "canonical_proof": "/workspace/squares_in_squares/artifacts/submission-fq-broad-gain28-safe.transport-validation.json",
+  "canonical_proof_sha256": "a5adccc130dbc5596e7103391b9432a0658453df72e6990ca2d004ac01ab2cdd",
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "competition_submission_performed": false,
+  "raw": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-broad-gain28.csv",
+    "sha256": "2eafe2700ed9a9d07ddb0fabae516ea8652838b9d13affb2afe03ef5508f9990",
+    "score": 22.299925016393914,
+    "official_report": "/workspace/squares_in_squares/artifacts/merged-fq-broad-gain28-official.json",
+    "official_report_sha256": "334c9c2c491bc5c530aa34abe191da7be75cab078969687d98502955e262d06c",
+    "reuse": {
+      "reused": 972,
+      "evaluated": 28
+    }
+  },
+  "safe": {
+    "path": "/workspace/squares_in_squares/artifacts/submission-fq-broad-gain28-safe.csv",
+    "sha256": "3d242df4547e32775bdaca393927a43ff2b2c46650e35fafafe13be5d75a3c32",
+    "score": 22.299925017215607,
+    "official_report": "/workspace/squares_in_squares/artifacts/submission-fq-broad-gain28-safe-official.json",
+    "official_report_sha256": "902a1b56d152c943eafa1d9743b05de631ae4004367a62fc9f7d03dbe759f6f3",
+    "reuse": {
+      "reused": 972,
+      "evaluated": 28
+    }
+  },
+  "roundtrip": {
+    "path": "/workspace/squares_in_squares/artifacts/submission-fq-broad-gain28-safe-roundtrip.csv",
+    "sha256": "14d5150fb98120025bc4e2f4ba8d0af3ffa27b33a4b7ffa938ec1abea0461435",
+    "score": 22.299925017215607,
+    "official_report": "/workspace/squares_in_squares/artifacts/submission-fq-broad-gain28-safe-roundtrip-official.json",
+    "official_report_sha256": "ceb1e49226589d700d2a85d830f644c912f88547c35d70ae41b50c268a26d78c",
+    "reuse": {
+      "reused": 972,
+      "evaluated": 28
+    }
+  },
+  "independent_report": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-broad-gain28.validation.json",
+    "sha256": "7dd11a3900def1805a2c4ae6d0a0d3a90c2b2135b819ad08ff21a99c13b84330"
+  },
+  "user_submission_score_threshold": 22.3,
+  "eligible_under_user_score_threshold": true
+}

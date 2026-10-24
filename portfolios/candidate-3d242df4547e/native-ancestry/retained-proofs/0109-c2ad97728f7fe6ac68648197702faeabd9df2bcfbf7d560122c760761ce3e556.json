@@ -1,0 +1,258 @@
+{
+  "record": {
+    "n": 457,
+    "mode": "contact20",
+    "seed": 9470109,
+    "parent_geometry_sha256": "19a55c7a411755d314ca388368b721e706e3af4a96584d0ac4706efbe4057b1c",
+    "reference_side": 21.868117455112575,
+    "status": "certified",
+    "whole_stage_cap": 8.0,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n457-contact20-9470109.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n457-contact20-9470109.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9470109",
+      "--no-alm",
+      "--loosen",
+      "1",
+      "--pit",
+      "20",
+      "--flip-top",
+      "0"
+    ],
+    "input_sha256": "283f4079bb7f6ae5e149e4527a80c72691f5b12733e085988cc5645921a473ac",
+    "returncode": 0,
+    "log_sha256": "80fc4b360f1a1affd267c16fc4ab318fabdd588831f2810f56977b9f31687d9a",
+    "fq": {
+      "s": 21.86745098392561,
+      "s_alm": 21.867450400017134,
+      "viol": 0.0,
+      "evals": 0,
+      "outer": 0,
+      "slp_it": 20,
+      "slp_r": 0.004,
+      "flips": 0,
+      "min_gap": 1.34e-08,
+      "min_wall": 1.34e-08,
+      "sec": 4.423,
+      "s_coarse": 21.86811745511704,
+      "t_alm": 0.0,
+      "s_alm0": 21.868117455112575,
+      "trace": [
+        [
+          1,
+          0.3213,
+          21.867945438872404,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          2,
+          0.5812,
+          21.867826924603634,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          3,
+          0.8285,
+          21.86771941241697,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          5,
+          1.2927,
+          21.867543048547113,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          7,
+          1.7338,
+          21.867534624974002,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          9,
+          2.1285,
+          21.86753046851332,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          10,
+          2.238,
+          21.867523607168245,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          11,
+          2.4522,
+          21.86751443827496,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          12,
+          2.6516,
+          21.867496991301227,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          14,
+          3.0715,
+          21.86748440306993,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          15,
+          3.2717,
+          21.867481241490616,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          16,
+          3.4768,
+          21.867467386399102,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          17,
+          3.69,
+          21.867462502691502,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          19,
+          4.1,
+          21.86745458718704,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          20,
+          4.3134,
+          21.867451173410423,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "2d84f7d6af8c5560",
+      "ncontacts": 1137,
+      "fin": []
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "21.86745095722339074923132163506005304096933239586176",
+        "roundtrip_side": "21.86745095722339086923132163506005304096933239586176",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "21.86745095722339081923132163506005304096933239586176",
+      "independent_raw": {
+        "n": 457,
+        "valid": true,
+        "side_lower": "21.867450957223390749231321635060053040969332395861714363418844",
+        "side_upper": "21.867450957223390749231321635060053040969332395861842656124929",
+        "score_lower": "0.022916210696790404366347459362037530917843749759569699860477",
+        "score_upper": "0.022916210696790404366347459362037530917843749759580390919319",
+        "interval_pairs": 513,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 457,
+        "valid": true,
+        "side_lower": "21.867450957223390819231321635060053040969332395861715132548822",
+        "side_upper": "21.867450957223390819231321635060053040969332395861843425254907",
+        "score_lower": "0.022916210696790407640809347436953304062104455773267082788364",
+        "score_upper": "0.022916210696790407640809347436953304062104455773277773847205",
+        "interval_pairs": 513,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "619b52fd46e95f24f39772b96e56200ab98887208c54c993a9eda94d8f5bd542",
+      "ordinary_pandas_csv_sha256": "53d3cae952096dcff949c648a159af8561d09fc839db2abdbda03c8ab2fd3ad0"
+    },
+    "geometry_sha256": "c2ad97728f7fe6ac68648197702faeabd9df2bcfbf7d560122c760761ce3e556",
+    "side": 21.86745095722339,
+    "side_gain": 0.000666497889184825,
+    "score_gain": 3.117745623740126e-05,
+    "elapsed_seconds": 4.8747818609990645,
+    "job": 109,
+    "canonical_raw_side": "21.86811745511257376471538166121258269610997922278760",
+    "native_output_sha256": "d2bcd855a2cefa686f8070e774a7881f4004b9d621ed158f2af362b186a1259f",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/raw-returned/n457-contact20-0109.npz",
+      "sha256": "94d43558be230bc1962df81073102c91c50b31a431ba1bc838c63287aaaac13c",
+      "geometry_sha256": "113e03ef5ae1521347fe83e8445c7bcf7eb9a16cfbdc23c4785baf18e5892145",
+      "original_decimal_path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n457-contact20-9470109.out",
+      "verified": false
+    },
+    "archive_key": "457__broad_contact20_c2ad97728f7fe6ac68648197702faeabd9df2bcfbf7d560122c760761ce3e556"
+  },
+  "archive_sha256": "78304ac53ac1184dd2f07e57dbe9abcbb69d99b754652fa10e0be5e5146fca57"
+}

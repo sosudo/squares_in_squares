@@ -1,0 +1,5 @@
+Exact gain-0028 SAFE portfolio: **22.299925017215607**, ordinary pandas roundtrip gives the same score. All 1,000 cases pass; 28 freshly checked and 972 reused by exact hash. No competition submission is performed by this recipe.
+
+The immutable 41b46 parent provides unchanged rows. The exporter applies exact decimal-string row patches, with no coordinate parsing or additional transport scaling. `recipe.json` gives build and reproduction commands; `export.py` is standalone and needs only the exact parent CSV. The local executable reproduced all 34,586,564 bytes, and modified parent/patch inputs fail closed.
+
+All inherited KMMM29/Alex19/Lightning19 notices and the previous 11 native-case ancestry remain linked and embedded. `native-ancestry/` freezes the 28 selected gain-0028 trial records, certificates, and exact native inputs, outputs and logs; later campaign snapshots are excluded. Private CPU export version1 is complete and remotely SHA-verified. `completion-proof.json` binds exact output, source, metadata, notices and all verification receipts.

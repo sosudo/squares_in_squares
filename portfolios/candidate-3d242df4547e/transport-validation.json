@@ -1,0 +1,252 @@
+{
+  "schema_version": 2,
+  "purpose": "Certified current search baseline; submission requires SAFE and ordinary roundtrip scores below22.3 plus strict improvement and hourly policy.",
+  "user_submission_score_threshold": 22.3,
+  "eligible_under_user_score_threshold": true,
+  "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "competition_submission_performed": false,
+  "baseline_role": "Immediately preceding certified portfolio",
+  "baseline_sha256": "41b46b2ebe5dc5181f8b2e50493d80de24effdbff17cd769dd04220150fa24ec",
+  "baseline_score": 22.300613633186703,
+  "gain_over_previous_baseline": 0.0006886159710965956,
+  "roundtrip_gain_over_previous_baseline": 0.0006886159710965956,
+  "strictly_better_raw_and_roundtrip": true,
+  "factor": "1.00000000001",
+  "safety_scaled_cases": 84,
+  "transform_report": "/workspace/squares_in_squares/artifacts/submission-fq-broad-gain28-safe.transport-transform.json",
+  "transform_report_sha256": "bbc6584da73c21cb5040fb7a16710f8b655d3aa6e0364e6b447fca0baef00e05",
+  "composition_merge_provenance": {
+    "path": "/workspace/squares_in_squares/artifacts/merged-fq-broad-gain28.validation.json",
+    "sha256": "7dd11a3900def1805a2c4ae6d0a0d3a90c2b2135b819ad08ff21a99c13b84330"
+  },
+  "case_score_changes": [
+    {
+      "n": 334,
+      "gain": 2.0890503323878207e-05,
+      "old_side": "18.79569376652239173999999981653999999995129833066668",
+      "new_side": "18.79531197864263729537290623158121887183215910063792"
+    },
+    {
+      "n": 416,
+      "gain": 2.115055429485757e-05,
+      "old_side": "20.88881235230348063814683379343408045996214025008895",
+      "new_side": "20.88838096394719026923132169162558779273783656146050"
+    },
+    {
+      "n": 418,
+      "gain": 0.00010277753290122149,
+      "old_side": "20.92943149156120514619290002471196339970728526277864",
+      "new_side": "20.92733019993685248252532241279809501786888985968180"
+    },
+    {
+      "n": 419,
+      "gain": 9.467199737489551e-07,
+      "old_side": "20.94998499802119130000000000000000000000000000000000",
+      "new_side": "20.94996561914663830236907609550601719625637611838709"
+    },
+    {
+      "n": 457,
+      "gain": 3.117745623737456e-05,
+      "old_side": "21.86811745511257376471538166121258269610997922278760",
+      "new_side": "21.86745095722339074923132163506005304096933239586176"
+    },
+    {
+      "n": 495,
+      "gain": 6.28818068970638e-06,
+      "old_side": "22.76937071596350186970649684769920691956030997850263",
+      "new_side": "22.76923081277514870923132169057968353951105502865303"
+    },
+    {
+      "n": 500,
+      "gain": 1.0017417411800622e-05,
+      "old_side": "22.85459098198551838561591480319105547206452188419840",
+      "new_side": "22.85436698572259995624199008818442343767266021724607"
+    },
+    {
+      "n": 502,
+      "gain": 2.3415065977250293e-06,
+      "old_side": "22.89203064645509975814321846966350654139433516113231",
+      "new_side": "22.89197818416502778494491284014479291523837720754483"
+    },
+    {
+      "n": 542,
+      "gain": 7.792293326147615e-06,
+      "old_side": "23.79155762505818443601061965437701104467467468688013",
+      "new_side": "23.79137621350749861923132169163032202441862777459087"
+    },
+    {
+      "n": 545,
+      "gain": 2.6005135319806527e-05,
+      "old_side": "23.83943574995590962910528344058299298326296696698006",
+      "new_side": "23.83882865395910640360708760347970852612439841703853"
+    },
+    {
+      "n": 546,
+      "gain": 0.00010124437322023283,
+      "old_side": "23.86207403714491101928791443161106134513010809397245",
+      "new_side": "23.85970829603114077511464211682298429187817308564557"
+    },
+    {
+      "n": 547,
+      "gain": 1.346864307594231e-05,
+      "old_side": "23.87612178715053100000000000000000000000000000000000",
+      "new_side": "23.87580678210703522771290594199091233077120190993309"
+    },
+    {
+      "n": 549,
+      "gain": 9.71394040116813e-06,
+      "old_side": "23.90861348098187878989808792490480614966012347616577",
+      "new_side": "23.90838587608226739923132169162839702441862776762385"
+    },
+    {
+      "n": 588,
+      "gain": 8.920936407363911e-07,
+      "old_side": "24.76687547529631000000000000000000000000000000000000",
+      "new_side": "24.76685384317516006923132168486294236207446984491469"
+    },
+    {
+      "n": 594,
+      "gain": 1.5169581878193839e-05,
+      "old_side": "24.86271842554517500000000000000000000000000000000000",
+      "new_side": "24.86234871074789028663170855917865649330243605702633"
+    },
+    {
+      "n": 595,
+      "gain": 1.2904855372752877e-05,
+      "old_side": "24.87612178755053800000000000000000000000000000000000",
+      "new_side": "24.87580700429359380148928648510392890834091689805650"
+    },
+    {
+      "n": 637,
+      "gain": 9.170684271975205e-07,
+      "old_side": "25.75750661151509700000000000000000000000000000000000",
+      "new_side": "25.75748346575443719923132169163833933332634939931749"
+    },
+    {
+      "n": 639,
+      "gain": 2.228094250877888e-06,
+      "old_side": "25.78119289369330866427942057085373306980090012781802",
+      "new_side": "25.78113657092570943940354731988474842827308951795891"
+    },
+    {
+      "n": 641,
+      "gain": 4.709042477735181e-06,
+      "old_side": "25.81961584027128300000000000000000000000000000000000",
+      "new_side": "25.81949661683836481923112673043749208527344595559996"
+    },
+    {
+      "n": 644,
+      "gain": 1.3048843153340428e-05,
+      "old_side": "25.86152836202598046784915799120025970107346508017957",
+      "new_side": "25.86119721950964902923132169149450124999472522379438"
+    },
+    {
+      "n": 645,
+      "gain": 1.2403514615400013e-05,
+      "old_side": "25.87612178795053800000000000000000000000000000000000",
+      "new_side": "25.87580677774791693396175612502232438406286653293803"
+    },
+    {
+      "n": 653,
+      "gain": 7.861591425073478e-05,
+      "old_side": "25.98922053040165932878336998757639838350016425342785",
+      "new_side": "25.98721158996733514299347887963945173706082635950932"
+    },
+    {
+      "n": 692,
+      "gain": 3.1892653127307824e-06,
+      "old_side": "26.80251266501028897435465272561482226630516145625441",
+      "new_side": "26.80242876853861938396175612502412246128979693776822"
+    },
+    {
+      "n": 750,
+      "gain": 0.00017956509980310287,
+      "old_side": "27.86568692913166600000000000000000000000000000000000",
+      "new_side": "27.86076933634652305409035395585958492174744427153042"
+    },
+    {
+      "n": 797,
+      "gain": 3.315948244875244e-07,
+      "old_side": "28.75165647510076300000000000000000000000000000000000",
+      "new_side": "28.75164711378479315961566084581853101256841346125665"
+    },
+    {
+      "n": 806,
+      "gain": 2.4844828416803466e-09,
+      "old_side": "28.86238636872487405370998923165038112580680932961418",
+      "new_side": "28.86238629819005838923132169163724740983508066852580"
+    },
+    {
+      "n": 872,
+      "gain": 1.0821986141884565e-05,
+      "old_side": "29.95831888519152966389301757402185073755319707953200",
+      "new_side": "29.95799931577043567987522138827746061568720846585080"
+    },
+    {
+      "n": 986,
+      "gain": 2.246359542823484e-09,
+      "old_side": "31.86238637472488103961566084519938676867822671410524",
+      "new_side": "31.86238630418776350923132169163724933296724983230613"
+    }
+  ],
+  "candidate_inputs": [
+    {
+      "path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/snapshots/gain-0028/candidates.json",
+      "sha256": "02503251e29b7ca6a752bd1657fead3a9836abf28b0ed10ad270866fe52e12bb"
+    }
+  ],
+  "raw_source": "/workspace/squares_in_squares/artifacts/merged-fq-broad-gain28.csv",
+  "raw_sha256": "2eafe2700ed9a9d07ddb0fabae516ea8652838b9d13affb2afe03ef5508f9990",
+  "raw_score": 22.299925016393914,
+  "raw_official_report_sha256": "334c9c2c491bc5c530aa34abe191da7be75cab078969687d98502955e262d06c",
+  "raw_invalid_count": 0,
+  "raw_case_coverage": 1000,
+  "raw_reuse": {
+    "reused": 972,
+    "evaluated": 28
+  },
+  "raw_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/merged-fq-broad-lightning19-v1-official.json",
+    "report_sha256": "432f4a3528beda83465e6bcedefd2c312652bea2136c0a68a8eca2d61c16f396",
+    "submission": "/workspace/squares_in_squares/artifacts/merged-fq-broad-lightning19-v1.csv",
+    "sha256": "c57e2d8cd0d1859accf7ba9efdaffa0b059d74083367e3b24d16b767f5015437"
+  },
+  "safe_submission": "/workspace/squares_in_squares/artifacts/submission-fq-broad-gain28-safe.csv",
+  "safe_sha256": "3d242df4547e32775bdaca393927a43ff2b2c46650e35fafafe13be5d75a3c32",
+  "safe_score": 22.299925017215607,
+  "safe_official_report_sha256": "902a1b56d152c943eafa1d9743b05de631ae4004367a62fc9f7d03dbe759f6f3",
+  "safe_invalid_count": 0,
+  "safe_case_coverage": 1000,
+  "safe_reuse": {
+    "reused": 972,
+    "evaluated": 28
+  },
+  "safe_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-fq-broad-lightning19-v1-safe-official.json",
+    "report_sha256": "21b3e6d21a862d6849c4dfff2373b2b57ba504bd990e34b1d67bc78550b7aa62",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-fq-broad-lightning19-v1-safe.csv",
+    "sha256": "41b46b2ebe5dc5181f8b2e50493d80de24effdbff17cd769dd04220150fa24ec"
+  },
+  "roundtrip_submission": "/workspace/squares_in_squares/artifacts/submission-fq-broad-gain28-safe-roundtrip.csv",
+  "roundtrip_sha256": "14d5150fb98120025bc4e2f4ba8d0af3ffa27b33a4b7ffa938ec1abea0461435",
+  "roundtrip_score": 22.299925017215607,
+  "roundtrip_official_report_sha256": "ceb1e49226589d700d2a85d830f644c912f88547c35d70ae41b50c268a26d78c",
+  "roundtrip_invalid_count": 0,
+  "roundtrip_case_coverage": 1000,
+  "roundtrip_reuse": {
+    "reused": 972,
+    "evaluated": 28
+  },
+  "roundtrip_official_baseline_provenance": {
+    "report": "/workspace/squares_in_squares/artifacts/submission-fq-broad-lightning19-v1-safe-roundtrip-official.json",
+    "report_sha256": "74008d2e1dbea654bf11a0bfc880eb629bbf745750a151e6cbdfe0f3208440f0",
+    "submission": "/workspace/squares_in_squares/artifacts/submission-fq-broad-lightning19-v1-safe-roundtrip.csv",
+    "sha256": "dbe676f7703000cd379a4e78357df3ee9544b968327bfadcc3606a83bb74a5ae"
+  },
+  "roundtrip_evaluated": 28,
+  "roundtrip_reused": 972,
+  "same_binary64_score": true,
+  "absolute_score_difference": 0.0,
+  "score_tolerance": 1e-10,
+  "scores_agree_within_1e_10": true
+}

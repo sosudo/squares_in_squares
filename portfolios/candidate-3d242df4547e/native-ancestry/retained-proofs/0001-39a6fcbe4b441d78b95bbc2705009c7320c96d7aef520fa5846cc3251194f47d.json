@@ -1,0 +1,218 @@
+{
+  "record": {
+    "n": 641,
+    "mode": "contact20",
+    "seed": 9470001,
+    "parent_geometry_sha256": "9ec15a0b98936724b3d7213a3fc629aa37f0ffc92eb742d4c585deae9b58d662",
+    "reference_side": 25.819615840271283,
+    "status": "certified",
+    "whole_stage_cap": 8.0,
+    "command": [
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/inputs/fq",
+      "quench",
+      "--in",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n641-contact20-9470001.in",
+      "--out",
+      "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n641-contact20-9470001.out",
+      "--rect-dx",
+      "0",
+      "--rect-dy",
+      "0",
+      "--seed",
+      "9470001",
+      "--no-alm",
+      "--loosen",
+      "1",
+      "--pit",
+      "20",
+      "--flip-top",
+      "0"
+    ],
+    "input_sha256": "0228dae91ff2d28b16f7546ae4961c9289872206a2aa7bd94b854a1a06865062",
+    "returncode": 0,
+    "log_sha256": "629108138468ed8546264ed6c43af137b5751413f34c1f9f0a0b3b54c666c1a9",
+    "fq": {
+      "s": 25.819496567205913,
+      "s_alm": 25.819496567202656,
+      "viol": 0.0,
+      "evals": 0,
+      "outer": 0,
+      "slp_it": 12,
+      "slp_r": 0.004,
+      "flips": 0,
+      "min_gap": 2.36e-13,
+      "min_wall": 1.13e-13,
+      "sec": 2.548,
+      "s_coarse": 25.81961584027983,
+      "t_alm": 0.0,
+      "s_alm0": 25.819615840271283,
+      "trace": [
+        [
+          1,
+          0.4209,
+          25.819568914775438,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          2,
+          0.7334,
+          25.819528821832805,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          3,
+          1.0936,
+          25.819504150640956,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          4,
+          1.2274,
+          25.819498783106763,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          5,
+          1.37,
+          25.819498494260056,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          6,
+          1.5025,
+          25.81949803615544,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          7,
+          1.6137,
+          25.819497596397387,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          8,
+          1.7411,
+          25.81949711112583,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          9,
+          2.0069,
+          25.819496580986847,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          10,
+          2.1292,
+          25.819496567614962,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ],
+        [
+          11,
+          2.3551,
+          25.819496567202656,
+          0,
+          0.0,
+          0.0,
+          0,
+          0
+        ]
+      ],
+      "fp": "7e3c10c71bb3da59",
+      "ncontacts": 670,
+      "fin": []
+    },
+    "certificate": {
+      "valid": true,
+      "shared_official_gate": {
+        "metric_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+        "raw_reason": "ok",
+        "roundtrip_reason": "ok",
+        "raw_side": "25.81949661683836481923112673043749208527344595559996",
+        "roundtrip_side": "25.81949661683836191923112673042739016214127628138039",
+        "valid": true
+      },
+      "ordinary_pandas_official_reason": "ok",
+      "ordinary_pandas_official_side": "25.81949661683836291923112673042739016214127628138039",
+      "independent_raw": {
+        "n": 641,
+        "valid": true,
+        "side_lower": "25.819496616838364819231126730437492085273445955599852669341351",
+        "side_upper": "25.819496616838364819231126730437492085273445955599980962047437",
+        "score_lower": "0.019808802204084446194573083135579004952110067530258969097492",
+        "score_upper": "0.019808802204084446194573083135579004952110067530266987391623",
+        "interval_pairs": 765,
+        "exact_pairs": 0
+      },
+      "independent_roundtrip": {
+        "n": 641,
+        "valid": true,
+        "side_lower": "25.819496616838362919231126730427390162141276281380316779533432",
+        "side_upper": "25.819496616838362919231126730427390162141276281380445072239517",
+        "score_lower": "0.019808802204084371149085057465572549971666731946019278458079",
+        "score_upper": "0.019808802204084371149085057465572549971666731946027296752210",
+        "interval_pairs": 765,
+        "exact_pairs": 0
+      },
+      "raw_csv_sha256": "63ff609f56516e922997e5a8189e0246153948b6f922a534891e806a051a29df",
+      "ordinary_pandas_csv_sha256": "8e6f64bd45d0d3b6a32a596a101fba5dc8e90698a5fe8b1b187f62768b13b738"
+    },
+    "geometry_sha256": "39a6fcbe4b441d78b95bbc2705009c7320c96d7aef520fa5846cc3251194f47d",
+    "side": 25.819496616838364,
+    "side_gain": 0.00011922343291814741,
+    "score_gain": 4.709042477598976e-06,
+    "elapsed_seconds": 4.797067657000298,
+    "job": 1,
+    "canonical_raw_side": "25.81961584027128300000000000000000000000000000000000",
+    "native_output_sha256": "4814f179c27fdc4ef888ee0ea4af33f5542b04a2a847417c740f287d35009fe3",
+    "raw_returned": {
+      "path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/raw-returned/n641-contact20-0001.npz",
+      "sha256": "1df70cb63f9b5c66e6b20ccff4a2147b55f734da384d69bb0b1b5f6c27ead3bc",
+      "geometry_sha256": "fda5b0d6ba20eb0854f56b7290a10f74fa2317e68ce3e8480674ca9de275d442",
+      "original_decimal_path": "/workspace/squares_in_squares/artifacts/fq-broad-contact-v1/trials/n641-contact20-9470001.out",
+      "verified": false
+    },
+    "archive_key": "641__broad_contact20_39a6fcbe4b441d78b95bbc2705009c7320c96d7aef520fa5846cc3251194f47d"
+  },
+  "archive_sha256": "228f68a6b5ab3870f1d830839c3fcbd9b6c890931a908f872437c6e18aac12de"
+}

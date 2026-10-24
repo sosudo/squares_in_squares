@@ -1,0 +1,568 @@
+{
+  "score": 22.307818650783023,
+  "sha256": "51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9",
+  "rows": 290670,
+  "puzzles": 547,
+  "stages": [
+    {
+      "stage": "Previous scored V17",
+      "score": 22.360587196217377,
+      "gain": 0
+    },
+    {
+      "stage": "Chris Deotte + retained portfolio",
+      "score": 22.310404924068372,
+      "gain": 0.05018227214900506
+    },
+    {
+      "stage": "Fresh certified public witnesses",
+      "score": 22.307847306269753,
+      "gain": 0.0025576177986172954
+    },
+    {
+      "stage": "CUDA recomposition, 24 bins",
+      "score": 22.307818745144605,
+      "gain": 2.856112514759701e-05
+    },
+    {
+      "stage": "Re-crop compositions, 32 bins",
+      "score": 22.307818650783023,
+      "gain": 9.436158365794256e-08
+    }
+  ],
+  "public_gain": 0.052739889947622354,
+  "cuda_gain": 2.8655486731254953e-05,
+  "gpu_seconds": 261.0184156000614,
+  "night_core_trials": 6315123,
+  "night_gadget_acceptances": 59,
+  "night_final_score": 22.310404924068372,
+  "night_starting_score": 22.310404924068372,
+  "first": {
+    "baseline": "artifacts/refresh_public_submission.csv",
+    "sha256": "a3442f8f6420901932c633affa4681ea1251d94092e74bbcc153f086551cb213",
+    "gain": 2.856112514759701e-05,
+    "stages": [
+      {
+        "stage": "refresh_gpu_packings",
+        "accepted": 52,
+        "gain": 2.856112514759701e-05,
+        "sha256": "2069eafbbfd7324059bf330753a5f75ab2f95a469fc7c3b1f13cc36cfd7723f8"
+      }
+    ],
+    "records": [
+      {
+        "n": 459,
+        "before": 21.905844586030213,
+        "after": 21.90584430536241,
+        "gain": 1.3100451168313043e-08,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 503,
+        "before": 22.901730735729014,
+        "after": 22.901110811760528,
+        "gain": 2.764104357044772e-05,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 546,
+        "before": 23.862074137634153,
+        "after": 23.86207403714491,
+        "gain": 4.300542588708822e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 550,
+        "before": 23.91847353505355,
+        "after": 23.91846528516747,
+        "gain": 3.5177632451421914e-07,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 588,
+        "before": 24.766875950633818,
+        "after": 24.766875790506838,
+        "gain": 6.6035255041896335e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 594,
+        "before": 24.862718548250594,
+        "after": 24.862718425545175,
+        "gain": 5.034664463110516e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 595,
+        "before": 24.87612204886522,
+        "after": 24.876121948550534,
+        "gain": 4.1125012284481954e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 599,
+        "before": 24.932667374886588,
+        "after": 24.93266725457315,
+        "gain": 4.915873708100094e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 637,
+        "before": 25.75750752132329,
+        "after": 25.75750716190309,
+        "gain": 1.4240747026050826e-08,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 642,
+        "before": 25.833999568350833,
+        "after": 25.833999362933685,
+        "gain": 8.10716804799938e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 645,
+        "before": 25.876122068865218,
+        "after": 25.87612194895054,
+        "gain": 4.721635749049824e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 694,
+        "before": 26.83127750755214,
+        "after": 26.8312773003326,
+        "gain": 7.865946116680789e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 697,
+        "before": 26.876122088865234,
+        "after": 26.87612194935054,
+        "gain": 5.284495729895866e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 742,
+        "before": 27.76215678549839,
+        "after": 27.762156686704955,
+        "gain": 3.62682106569423e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 743,
+        "before": 27.766876070633824,
+        "after": 27.766875791706845,
+        "gain": 1.0232838576484937e-08,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 745,
+        "before": 27.796219821848744,
+        "after": 27.796219662718585,
+        "gain": 5.830077975943482e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 751,
+        "before": 27.87612210886522,
+        "after": 27.876121949750548,
+        "gain": 5.8061768726247465e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 756,
+        "before": 27.925952165853673,
+        "after": 27.925951926770477,
+        "gain": 8.695371755962356e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 761,
+        "before": 27.99878427508381,
+        "after": 27.99878415679961,
+        "gain": 4.28779878269836e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 797,
+        "before": 28.751657359856708,
+        "after": 28.75165720110076,
+        "gain": 5.623424170764224e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 805,
+        "before": 28.851667847396364,
+        "after": 28.85166768914078,
+        "gain": 5.577776462928341e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 806,
+        "before": 28.863905229369564,
+        "after": 28.863904951145663,
+        "gain": 9.800018796468635e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 807,
+        "before": 28.87562588453772,
+        "after": 28.87562576615035,
+        "gain": 4.167432843260599e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 810,
+        "before": 28.911119321978866,
+        "after": 28.911119203164546,
+        "gain": 4.174709689053202e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 812,
+        "before": 28.92595220585367,
+        "after": 28.925951927170477,
+        "gain": 9.77986291950117e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 813,
+        "before": 28.93831942387067,
+        "after": 28.938319323175428,
+        "gain": 3.531536396650381e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 815,
+        "before": 28.979639180961893,
+        "after": 28.979638982191958,
+        "gain": 6.962607157490197e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 856,
+        "before": 29.76687615063382,
+        "after": 29.766875792506852,
+        "gain": 1.2240527702545023e-08,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 865,
+        "before": 29.875625904537724,
+        "after": 29.875625766550357,
+        "gain": 4.691711241733287e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 866,
+        "before": 29.88353764944813,
+        "after": 29.88353652855352,
+        "gain": 3.8089549292408265e-08,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 869,
+        "before": 29.917192830159618,
+        "after": 29.91719273256698,
+        "gain": 3.3106033470176044e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 870,
+        "before": 29.925952245853672,
+        "after": 29.925951927570484,
+        "gain": 1.0790810689442765e-08,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 871,
+        "before": 29.93831944387067,
+        "after": 29.938319323575435,
+        "gain": 4.076048609746863e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 921,
+        "before": 30.831277703526435,
+        "after": 30.831277585932618,
+        "gain": 3.874847998019959e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 923,
+        "before": 30.85592685578941,
+        "after": 30.85592665794248,
+        "gain": 6.512210992681844e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 924,
+        "before": 30.863905309369564,
+        "after": 30.86390495194567,
+        "gain": 1.1758382933990674e-08,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 925,
+        "before": 30.875625924537715,
+        "after": 30.875625766950357,
+        "gain": 5.181440387858061e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 926,
+        "before": 30.883537682235897,
+        "after": 30.88353652895352,
+        "gain": 3.789921043662048e-08,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 927,
+        "before": 30.89562324719694,
+        "after": 30.89562312995836,
+        "gain": 3.850620267087379e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 930,
+        "before": 30.92350805990048,
+        "after": 30.923507961969513,
+        "gain": 3.211282795234638e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 931,
+        "before": 30.938319463870673,
+        "after": 30.938319345975437,
+        "gain": 3.863860342789849e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 979,
+        "before": 31.7842824813261,
+        "after": 31.784276430313824,
+        "gain": 1.933911910612096e-07,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 982,
+        "before": 31.818597816081795,
+        "after": 31.81859771932755,
+        "gain": 3.087551991853843e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 984,
+        "before": 31.839853115344404,
+        "after": 31.839853027335995,
+        "gain": 2.8056057477243712e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 986,
+        "before": 31.863905349369567,
+        "after": 31.86390495234567,
+        "gain": 1.2643816660329321e-08,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 987,
+        "before": 31.876190938428152,
+        "after": 31.87619082135059,
+        "gain": 3.726619901556205e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 988,
+        "before": 31.88384628976494,
+        "after": 31.88384615235365,
+        "gain": 4.371635498046089e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 989,
+        "before": 31.895623267196946,
+        "after": 31.89562313035836,
+        "gain": 4.351213833686529e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 990,
+        "before": 31.91222891940139,
+        "after": 31.912228762365,
+        "gain": 4.990944102445383e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 991,
+        "before": 31.91719287015962,
+        "after": 31.91719273336699,
+        "gain": 4.345361181989915e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 992,
+        "before": 31.92595232585367,
+        "after": 31.92595192837049,
+        "gain": 1.2620103628790957e-08,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      },
+      {
+        "n": 996,
+        "before": 31.980001239200018,
+        "after": 31.98000104239211,
+        "gain": 6.236097194189938e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_packings"
+      }
+    ],
+    "rejected": []
+  },
+  "second": {
+    "baseline": "artifacts/refresh_pass1_submission.csv",
+    "sha256": "51c384deb6230641b521c87b362ec2ea83de2d7f7065f6f880a460d355ce44a9",
+    "gain": 9.436158365794256e-08,
+    "stages": [
+      {
+        "stage": "refresh_gpu_second_packings",
+        "accepted": 10,
+        "gain": 9.436158365794256e-08,
+        "sha256": "6d759ae99f4a5daacc713ef20562e158a89fb868103e8b857be4564e36a73a32"
+      }
+    ],
+    "records": [
+      {
+        "n": 547,
+        "before": 23.876122028865215,
+        "after": 23.87612178715053,
+        "gain": 1.0334973543635328e-08,
+        "status": "ok",
+        "stage": "refresh_gpu_second_packings"
+      },
+      {
+        "n": 595,
+        "before": 24.876121948550534,
+        "after": 24.876121787550538,
+        "gain": 6.6003562615435385e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_second_packings"
+      },
+      {
+        "n": 645,
+        "before": 25.87612194895054,
+        "after": 25.876121787950538,
+        "gain": 6.3393688076729404e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_second_packings"
+      },
+      {
+        "n": 697,
+        "before": 26.87612194935054,
+        "after": 26.876121788350545,
+        "gain": 6.098309635049759e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_second_packings"
+      },
+      {
+        "n": 751,
+        "before": 27.876121949750548,
+        "after": 27.876121788750545,
+        "gain": 5.874973396657879e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_second_packings"
+      },
+      {
+        "n": 797,
+        "before": 28.75165720110076,
+        "after": 28.751656475100763,
+        "gain": 2.5716239360207283e-08,
+        "status": "ok",
+        "stage": "refresh_gpu_second_packings"
+      },
+      {
+        "n": 807,
+        "before": 28.87562576615035,
+        "after": 28.875625523150347,
+        "gain": 8.55400505983539e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_second_packings"
+      },
+      {
+        "n": 865,
+        "before": 29.875625766550357,
+        "after": 29.875625523550355,
+        "gain": 8.26224799688191e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_second_packings"
+      },
+      {
+        "n": 925,
+        "before": 30.875625766950357,
+        "after": 30.875625523950355,
+        "gain": 7.989791050988515e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_second_packings"
+      },
+      {
+        "n": 930,
+        "before": 30.923507961969513,
+        "after": 30.923507699969512,
+        "gain": 8.591318545470017e-09,
+        "status": "ok",
+        "stage": "refresh_gpu_second_packings"
+      }
+    ],
+    "rejected": []
+  }
+}
