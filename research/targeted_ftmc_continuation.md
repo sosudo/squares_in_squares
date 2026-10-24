@@ -140,3 +140,12 @@ counts are selection-biased and cannot recover missing core/full effort or
 wall shares. The exact final audit is reproducible with
 `scripts/analyze_targeted_ftmc.py`; three tamper/admission regressions pass.
 No further FTMC extension or GPU notebook was launched.
+
+The later separate composition partition retained all7,033 poses with502
+provenance-bound partners, covering65,168 orientations. Its finite32-bin
+30°/45°/60° search completed in169.43seconds with all real CUDA controls
+passing and zero proposals. Thus this archive has now been tested for
+interface/crop propagation as well as scalar minima. This remains a finite
+profile search, not an exhaustive impossibility claim; every variant is
+preserved. Completion proof is under
+`artifacts/composition-targeted-results-v1/completion-proof.json`.
